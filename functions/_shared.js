@@ -218,7 +218,8 @@ export function page(title, body, active = '') {
 <header><div class="hbar">
   <a href="/">${logo}</a>
   <nav class="nav">${[['search', '/', 'Search'], ['ask', '/ask', 'Ask'],
-      ['topic', '/topic', 'Topics'], ['browse', '/browse', 'Browse']]
+      ['topic', '/topic', 'Topics'], ['browse', '/browse', 'Browse'],
+    ['insights', '/insights', 'Insights']]
     .map(([k, u, l]) => `<a class="${active === k ? 'on' : ''}" href="${u}">${l}</a>`)
     .join('')}</nav>
 </div></header>

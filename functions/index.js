@@ -1,4 +1,5 @@
 /** Search page. Cloudflare Pages Function bound to D1 as `DB`. */
+import { logSearch, sessionFrom } from './_usage.js';
 import {
   page, html, esc, mark, hhmm, num, pct, ftsQuery, perfBadge,
   EXAMPLES, SORT_LABELS, ORDERS, EP_ORDERS, GREY,
@@ -6,7 +7,18 @@ import {
 
 const PER = 25;
 
-export async function onRequestGet({ request, env }) {
+/** Attach the session cookie to a Response without rebuilding it. */
+function withCookie(res, ses) {
+  if (!ses.setCookie) return res;
+  const r = new Response(res.body, res);
+  r.headers.append('Set-Cookie', ses.setCookie);
+  return r;
+}
+
+export async function onRequestGet(context) {
+  const { request, env } = context;
+  const started = Date.now();
+  const ses = sessionFrom(request);
   const url = new URL(request.url);
   const g = (k, d = '') => url.searchParams.get(k) ?? d;
   const q = g('q');
@@ -199,9 +211,12 @@ export async function onRequestGet({ request, env }) {
   }
 
   if (!cards.length) {
-    return html(page(`${q} - EM Archive`, bar
+    await logSearch(env, context, { view: 'search', query: q, mode,
+      filters: { show, sort, from: frm, to }, results: 0,
+      ms: Date.now() - started, session: ses.id });
+    return withCookie(html(page(`${q} - EM Archive`, bar
       + `<div class="empty">Nothing found for <b>${esc(q)}</b>.<br>
-         Try fewer words, or check the show and date filters.</div>`));
+         Try fewer words, or check the show and date filters.</div>`)), ses);
   }
 
   const base = `/?q=${eq}&mode=${mode}&sort=${sort}${keep}`;
@@ -210,5 +225,10 @@ export async function onRequestGet({ request, env }) {
   if ((pg + 1) * PER < cnt) pager += `<a href="${base}&p=${pg + 1}">Next &rarr;</a>`;
   pager += `<span>page ${pg + 1} of ${num(Math.max(1, Math.ceil(cnt / PER)))}</span></div>`;
 
-  return html(page(`${q} - EM Archive`, bar + head + perfNote + cards.join('') + pager));
+  await logSearch(env, context, { view: 'search', query: q, mode,
+    filters: { show, sort, from: frm, to }, results: cnt,
+    ms: Date.now() - started, session: ses.id });
+  return withCookie(
+    html(page(`${q} - EM Archive`, bar + head + perfNote + cards.join('') + pager)),
+    ses);
 }

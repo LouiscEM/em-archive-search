@@ -1,12 +1,20 @@
 /** Single episode: metadata, tags and the full speaker-attributed transcript. */
+import { logClick, sessionFrom } from '../_usage.js';
 import { page, html, esc, hhmm, num, pct, perfBadge } from '../_shared.js';
 
-export async function onRequestGet({ params, request, env }) {
+export async function onRequestGet(context) {
+  const { params, request, env } = context;
+  const ses = sessionFrom(request);
   const id = parseInt(params.id, 10);
   const url = new URL(request.url);
   const q = url.searchParams.get('q') || '';
   if (!Number.isFinite(id)) {
     return html(page('Not found', '<div class="empty">No such episode.</div>'), 404);
+  }
+  // Opening an episode from a search is the strongest signal we get that the result
+  // was actually useful for that query. Fire-and-forget so it never delays the page.
+  if (q.trim()) {
+    await logClick(env, context, { session: ses.id, query: q, post_id: id });
   }
   const DB = env.DB;
 
