@@ -97,6 +97,16 @@ header{background:${NAVY}}
 .hbar img{height:28px;display:block}
 .hbar .divider{width:1px;height:22px;background:rgba(255,255,255,.22)}
 .hbar .name{color:#fff;font-size:15px;letter-spacing:.3px;opacity:.92}
+.nav{display:flex;gap:20px;margin-left:auto}
+.nav a{color:rgba(255,255,255,.72);font-size:14px;padding:4px 0;
+ border-bottom:2px solid transparent}
+.nav a:hover{color:#fff;text-decoration:none}
+.nav a.on{color:#fff;font-weight:bold;border-bottom-color:${CORAL}}
+.verdict{background:#fff;border:1px solid ${RULE};border-left:3px solid ${CORAL};
+ padding:20px 22px;margin-bottom:26px;font-size:16px;line-height:1.65}
+.count .right{margin-left:auto}
+.lede{margin:0 0 26px;color:${GREY};font-size:15.5px;max-width:640px}
+h1{color:${NAVY};font-size:30px;line-height:1.2;margin:0 0 10px;font-weight:bold}
 .wrap{max-width:940px;margin:0 auto;padding:32px 24px 72px}
 .hero{margin-bottom:26px}
 .hero h1{color:${NAVY};font-size:30px;line-height:1.2;margin:0 0 8px;font-weight:bold}
@@ -174,7 +184,7 @@ footer{color:${GREY};font-size:12.5px;margin-top:44px;border-top:1px solid ${RUL
   button{width:100%} .hero h1{font-size:24px}
 }`;
 
-export function page(title, body) {
+export function page(title, body, active = '') {
   const logo = LOGO_B64
     ? `<img src="data:image/png;base64,${LOGO_B64}" width="${Math.round(LOGO_W / 2)}"
          height="${Math.round(LOGO_H / 2)}" alt="Equity Mates">`
@@ -184,8 +194,11 @@ export function page(title, body) {
 <meta name="robots" content="noindex,nofollow">
 <title>${esc(title)}</title><style>${CSS}</style></head><body>
 <header><div class="hbar">
-  <a href="/">${logo}</a><div class="divider"></div>
-  <div class="name">Archive Search</div>
+  <a href="/">${logo}</a>
+  <nav class="nav">${[['search', '/', 'Search'], ['ask', '/ask', 'Ask'],
+      ['topic', '/topic', 'Topics'], ['browse', '/browse', 'Browse']]
+    .map(([k, u, l]) => `<a class="${active === k ? 'on' : ''}" href="${u}">${l}</a>`)
+    .join('')}</nav>
 </div></header>
 <div class="wrap">${body}
 <footer>Every episode Equity Mates has published, searchable by what was actually

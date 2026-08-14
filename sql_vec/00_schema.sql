@@ -1,0 +1,2 @@
+DROP TABLE IF EXISTS vec;
+CREATE TABLE vec (post_id INTEGER, seq INTEGER, v TEXT, PRIMARY KEY (post_id, seq));

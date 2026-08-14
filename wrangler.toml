@@ -8,3 +8,9 @@ compatibility_date = "2026-08-01"
 binding = "DB"
 database_name = "em-search-engine"
 database_id = "c419d4fe-6d99-46bf-ae20-ddb4274e752d"
+
+# Workers AI powers the Ask tab: one call to turn the question into a vector, one to
+# judge the shortlist. Vectorize is deliberately not used, since it needs a paid plan;
+# the embeddings live in D1 instead and are ranked inside the Worker.
+[ai]
+binding = "AI"
