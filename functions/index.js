@@ -63,6 +63,7 @@ export async function onRequestGet({ request, env }) {
     const s = await DB.prepare(
       `SELECT COUNT(*) eps, SUM(n_utterances) u, SUM(transcript_words) w
        FROM episodes`).first();
+    const u = await DB.prepare(`SELECT COUNT(*) c FROM utterances`).first();
     const co = await DB.prepare(
       `SELECT COUNT(DISTINCT name) c FROM taxonomy WHERE domain='company'`).first();
     const hero = `<div class="hero">
@@ -73,7 +74,8 @@ export async function onRequestGet({ request, env }) {
       <div class="stat"><b>${num(s.eps)}</b><span>EPISODES</span></div>
       <div class="stat"><b>${(Number(s.w || 0) / 1e6).toFixed(1)}M</b>
         <span>WORDS SPOKEN</span></div>
-      <div class="stat"><b>${num(s.u)}</b><span>SEARCHABLE MOMENTS</span></div>
+      <div class="stat"><b>${num(u.c)}</b><span>SPOKEN LINES
+        <small>one per turn of speech</small></span></div>
       <div class="stat"><b>${num(co.c)}</b><span>COMPANIES</span></div>
       <div class="stat"><b>${shows.length}</b><span>SHOWS</span></div>
     </div>`;

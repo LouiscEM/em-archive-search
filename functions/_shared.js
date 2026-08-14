@@ -158,6 +158,8 @@ mark{background:#FFE9A8;color:${NAVY};padding:1px 2px;font-weight:bold}
 .stat{background:${NAVY};color:#fff;padding:16px 18px}
 .stat b{display:block;font-size:26px;line-height:1.2;font-weight:bold}
 .stat span{font-size:10.5px;color:${GREY};letter-spacing:.9px}
+.stat small{display:block;font-size:11px;color:${GREY};margin-top:3px;
+ letter-spacing:0;text-transform:none}
 .ep h1{color:${NAVY};font-size:25px;margin:0 0 8px;line-height:1.25}
 .ep p{font-size:14.5px}
 .tags{margin-top:12px;font-size:12px;color:${GREY};line-height:2}
