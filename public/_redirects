@@ -1,0 +1,2 @@
+# All routes are served by Functions; this file just keeps the public dir non-empty
+# so Pages has a build output directory to publish.

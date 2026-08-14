@@ -1,0 +1,10 @@
+name = "em-archive-search"
+pages_build_output_dir = "public"
+compatibility_date = "2026-08-01"
+
+# The binding name must stay DB: the Functions read env.DB.
+# database_id is filled in by step 3 of DEPLOY.md.
+[[d1_databases]]
+binding = "DB"
+database_name = "em-search-engine"
+database_id = "c419d4fe-6d99-46bf-ae20-ddb4274e752d"
