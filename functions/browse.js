@@ -27,7 +27,7 @@ export async function onRequestGet({ request, env }) {
 
   const rows = (await DB.prepare(
     `SELECT e.post_id, e.title, e.post_date, e.show, e.duration_secs, e.n_utterances,
-            p.vs_slot, p.band, p.views
+            e.youtube_id, e.url, p.vs_slot, p.band, p.views
      FROM episodes e LEFT JOIN episode_perf p ON p.post_id=e.post_id
      WHERE ${w} ORDER BY ${SORTS[sort][1]} LIMIT ? OFFSET ?`)
     .bind(...binds, PER, pg * PER).all()).results;
@@ -66,13 +66,21 @@ export async function onRequestGet({ request, env }) {
     const perf = (r.vs_slot !== null && b)
       ? `<span style="color:${b[1]};font-weight:bold">${pct(r.vs_slot)}</span>` : '-';
     const tr = r.n_utterances > 0 ? 'yes' : `<span style="color:${RED}">no</span>`;
+    const watch = r.youtube_id
+      ? `<a href="https://youtu.be/${esc(r.youtube_id)}" target="_blank"
+           rel="noopener" title="Watch on YouTube">YouTube</a>`
+      : '<span style="color:#C9CFD8">-</span>';
+    const site = r.url
+      ? `<a href="${esc(r.url)}" target="_blank" rel="noopener"
+           title="Open on equitymates.com">Site</a>` : '';
     return `<tr><td class="num">${r.post_date.slice(0, 10)}</td>
       <td><a href="/ep/${r.post_id}">${esc((r.title || '').slice(0, 78))}</a></td>
       <td>${esc((r.show || '').slice(0, 24))}</td>
       <td class="num">${hhmm(r.duration_secs)}</td>
       <td class="num">${tr}</td>
       <td class="num">${r.views !== null ? num(r.views) : '-'}</td>
-      <td class="num">${perf}</td></tr>`;
+      <td class="num">${perf}</td>
+      <td class="num" style="font-size:12.5px">${watch} ${site}</td></tr>`;
   }).join('');
 
   const base = `/browse?show=${encodeURIComponent(show)}&year=${year}&band=${band}&sort=${sort}`;
@@ -87,6 +95,6 @@ export async function onRequestGet({ request, env }) {
        transcript.</p>
     ${ctrl}
     <table><tr><th>Date</th><th>Episode</th><th>Show</th><th>Length</th>
-      <th>Transcript</th><th>Views</th><th>vs slot</th></tr>${body}</table>
+      <th>Transcript</th><th>Views</th><th>vs slot</th><th>Links</th></tr>${body}</table>
     ${pager}`, 'browse'));
 }
