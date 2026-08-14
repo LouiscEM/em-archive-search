@@ -57,19 +57,21 @@ export async function onRequestGet({ request, env }) {
   </form>`;
 
   if (!q.trim()) {
+    // transcript_words is a stored count, not an estimate: deriving it from character
+    // length under-reported the archive by about a million words and disagreed with
+    // every other place the figure is quoted.
     const s = await DB.prepare(
-      `SELECT COUNT(*) eps, SUM(n_utterances) u FROM episodes`).first();
+      `SELECT COUNT(*) eps, SUM(n_utterances) u, SUM(transcript_words) w
+       FROM episodes`).first();
     const co = await DB.prepare(
       `SELECT COUNT(DISTINCT name) c FROM taxonomy WHERE domain='company'`).first();
-    const w = await DB.prepare(
-      `SELECT SUM(LENGTH(text)) t FROM utterances`).first();
     const hero = `<div class="hero">
       <h1>Ten years of Equity Mates, searchable.</h1>
       <p>Find the exact moment something was said, who said it, and jump straight
          to it on YouTube.</p></div>`;
     const stats = `<div class="stats">
       <div class="stat"><b>${num(s.eps)}</b><span>EPISODES</span></div>
-      <div class="stat"><b>${(Number(w.t || 0) / 6 / 1e6).toFixed(1)}M</b>
+      <div class="stat"><b>${(Number(s.w || 0) / 1e6).toFixed(1)}M</b>
         <span>WORDS SPOKEN</span></div>
       <div class="stat"><b>${num(s.u)}</b><span>SEARCHABLE MOMENTS</span></div>
       <div class="stat"><b>${num(co.c)}</b><span>COMPANIES</span></div>
