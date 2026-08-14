@@ -170,6 +170,28 @@ mark{background:#FFE9A8;color:${NAVY};padding:1px 2px;font-weight:bold}
 .stat span{font-size:10.5px;color:${GREY};letter-spacing:.9px}
 .stat small{display:block;font-size:11px;color:${GREY};margin-top:3px;
  letter-spacing:0;text-transform:none}
+.stat.lite{background:#fff;color:${NAVY}}
+.stat.lite span{color:${GREY}}
+h2{color:${NAVY};font-size:16px;margin:34px 0 12px;letter-spacing:.2px}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:22px}
+@media(max-width:760px){.grid2{grid-template-columns:1fr}}
+table{width:100%;border-collapse:collapse;background:#fff;border:1px solid ${RULE};
+ font-size:14px}
+th{background:${NAVY};color:#fff;text-align:left;padding:11px 12px;font-size:11.5px;
+ letter-spacing:.6px;text-transform:uppercase;font-weight:bold;white-space:nowrap}
+td{padding:10px 12px;border-top:1px solid ${OFFWHITE};vertical-align:top}
+tr:hover td{background:#FCFCFD}
+td.num{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
+.bar{height:7px;background:${OFFWHITE};position:relative;min-width:70px}
+.bar i{position:absolute;top:0;bottom:0;left:0;background:${CORAL};display:block}
+.rowlist{background:#fff;border:1px solid ${RULE}}
+.rowlist .r{display:flex;gap:12px;align-items:center;padding:10px 16px;
+ border-top:1px solid ${OFFWHITE};font-size:14px}
+.rowlist .r:first-child{border-top:0}
+.rowlist .r .g{margin-left:auto;color:${GREY};font-size:12.5px;white-space:nowrap}
+.tags{margin-top:14px;font-size:12px;line-height:2.1}
+.tags i{background:${OFFWHITE};border:1px solid ${RULE};padding:3px 9px;
+ margin-right:5px;font-style:normal;color:${BODY}}
 .ep h1{color:${NAVY};font-size:25px;margin:0 0 8px;line-height:1.25}
 .ep p{font-size:14.5px}
 .tags{margin-top:12px;font-size:12px;color:${GREY};line-height:2}

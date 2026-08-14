@@ -8,3 +8,5 @@ sql/
 node_modules/
 .wrangler/
 .DS_Store
+
+sql_vec/
