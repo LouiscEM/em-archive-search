@@ -64,6 +64,8 @@ export async function onRequestGet({ request, env }) {
       `SELECT COUNT(*) eps, SUM(n_utterances) u, SUM(transcript_words) w
        FROM episodes`).first();
     const u = await DB.prepare(`SELECT COUNT(*) c FROM utterances`).first();
+    const mins = await DB.prepare(
+      `SELECT SUM(seconds)/60 m FROM episode_minutes`).first();
     const co = await DB.prepare(
       `SELECT COUNT(DISTINCT name) c FROM taxonomy WHERE domain='company'`).first();
     const hero = `<div class="hero">
@@ -72,6 +74,8 @@ export async function onRequestGet({ request, env }) {
          to it on YouTube.</p></div>`;
     const stats = `<div class="stats">
       <div class="stat"><b>${num(s.eps)}</b><span>EPISODES</span></div>
+      <div class="stat"><b>${num(mins.m)}</b><span>MINUTES
+        <small>${num(Math.round(Number(mins.m || 0) / 60))} hours of audio</small></span></div>
       <div class="stat"><b>${(Number(s.w || 0) / 1e6).toFixed(1)}M</b>
         <span>WORDS SPOKEN</span></div>
       <div class="stat"><b>${num(u.c)}</b><span>SPOKEN LINES
