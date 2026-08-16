@@ -26,6 +26,7 @@ export async function onRequestGet(context) {
   const show = g('show');
   const frm = g('from');
   const to = g('to');
+  const speaker = g('speaker');
   let sort = g('sort', 'new');
   if (!(sort in ORDERS)) sort = 'new';
   const pg = Math.max(0, parseInt(g('p', '0'), 10) || 0);
@@ -34,13 +35,21 @@ export async function onRequestGet(context) {
   const shows = (await DB.prepare(
     `SELECT show FROM episodes WHERE show IS NOT NULL
      GROUP BY show ORDER BY COUNT(*) DESC`).all()).results.map(r => r.show);
+  const speakers = (await DB.prepare(
+    `SELECT speaker FROM utterances WHERE speaker IS NOT NULL
+     GROUP BY speaker HAVING COUNT(DISTINCT post_id) >= 8
+     ORDER BY COUNT(*) DESC LIMIT 40`).all()).results.map(r => r.speaker);
 
   const eq = encodeURIComponent(q);
-  const keep = `&show=${encodeURIComponent(show)}&from=${frm}&to=${to}`;
+  const keep = `&show=${encodeURIComponent(show)}&from=${frm}&to=${to}`
+    + `&speaker=${encodeURIComponent(speaker)}`;
   const opts = ['<option value="">All shows</option>',
     ...shows.map(s => `<option${s === show ? ' selected' : ''}>${esc(s)}</option>`)].join('');
   const sortOpts = SORT_LABELS.map(([v, l]) =>
     `<option value="${v}"${v === sort ? ' selected' : ''}>${l}</option>`).join('');
+  const spkOpts = ['<option value="">Anyone</option>',
+    ...speakers.map(sp => `<option${sp === speaker ? ' selected' : ''}>`
+      + `${esc(sp)}</option>`)].join('');
 
   const bar = `
   <form class="search" method="get" action="/">
@@ -57,6 +66,8 @@ export async function onRequestGet(context) {
            href="/?q=${eq}&mode=episodes&sort=${sort}${keep}">Episodes</a>
       </span>
       <select name="sort" onchange="this.form.submit()">${sortOpts}</select>
+      <select name="speaker" onchange="this.form.submit()"
+              title="Only lines spoken by">${spkOpts}</select>
       <select name="show" onchange="this.form.submit()">${opts}</select>
       <input type="date" name="from" value="${esc(frm)}" title="From date">
       <input type="date" name="to" value="${esc(to)}" title="To date">
@@ -112,6 +123,12 @@ export async function onRequestGet(context) {
   if (frm) { filters.push('e.post_date >= ?'); params.push(frm); }
   if (to) { filters.push('e.post_date <= ?'); params.push(to + '~'); }
   const extra = filters.length ? ' AND ' + filters.join(' AND ') : '';
+
+  // The speaker lives on the utterance, not the episode, so it can only narrow
+  // Moments. Applying it to Episodes would silently return whole episodes that
+  // merely contain that person somewhere, which is not what was asked.
+  const spkSql = speaker ? ' AND u.speaker = ?' : '';
+  const spkParams = speaker ? [speaker] : [];
 
   const orderTxt = SORT_LABELS.find(([v]) => v === sort)[1].toLowerCase();
   const perfNote = sort === 'perf' ? `<div class="perfnote">Performance compares an
@@ -185,14 +202,15 @@ export async function onRequestGet(context) {
        JOIN utterances u ON u.post_id = utt_fts.post_id AND u.seq = utt_fts.seq
        JOIN episodes e ON e.post_id = u.post_id
        LEFT JOIN episode_perf p ON p.post_id = e.post_id
-       WHERE utt_fts MATCH ?${extra}
+       WHERE utt_fts MATCH ?${extra}${spkSql}
        ORDER BY ${ORDERS[sort]} LIMIT ? OFFSET ?`)
-      .bind(m, ...params, PER, pg * PER).all()).results;
+      .bind(m, ...params, ...spkParams, PER, pg * PER).all()).results;
     cnt = (await DB.prepare(
       `SELECT COUNT(*) c FROM utt_fts
        JOIN utterances u ON u.post_id = utt_fts.post_id AND u.seq = utt_fts.seq
        JOIN episodes e ON e.post_id = u.post_id
-       WHERE utt_fts MATCH ?${extra}`).bind(m, ...params).first()).c;
+       WHERE utt_fts MATCH ?${extra}${spkSql}`)
+      .bind(m, ...params, ...spkParams).first()).c;
     cards = rows.map(r => {
       const badge = perfBadge(r.band, r.vs_slot, r.views, r.benchmark, r.n_neighbours);
       const yt = (r.youtube_id && r.t_start !== null)
@@ -207,7 +225,8 @@ export async function onRequestGet(context) {
           <a href="/ep/${r.post_id}?q=${eq}">${esc((r.title || '').slice(0, 78))}</a>${yt}
         </div></div>`;
     });
-    head = `<div class="count"><b>${num(cnt)}</b> moments where that was said &middot; ${orderTxt}</div>`;
+    head = `<div class="count"><b>${num(cnt)}</b> moments where that was said`
+      + `${speaker ? ` by ${esc(speaker)}` : ''} &middot; ${orderTxt}</div>`;
   }
 
   if (!cards.length) {
