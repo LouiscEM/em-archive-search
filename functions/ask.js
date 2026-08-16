@@ -49,6 +49,45 @@ Return STRICT JSON only, no prose outside it:
 {"summary":"<two sentences on what you found and how confident you are>",
  "picks":[{"n":<number>,"reason":"<why this qualifies>","confidence":"high|medium|low"}]}`;
 
+/** Enforced shape for the judgement. Without this the models answer with Python
+ *  dict literals and nothing parses. */
+const JUDGE_SCHEMA = {
+  type: 'object',
+  properties: {
+    summary: { type: 'string' },
+    picks: {
+      type: 'array',
+      items: {
+        type: 'object',
+        properties: {
+          n: { type: 'integer' },
+          reason: { type: 'string' },
+          confidence: { type: 'string' },
+        },
+        required: ['n', 'reason', 'confidence'],
+      },
+    },
+  },
+  required: ['summary', 'picks'],
+};
+
+/** Turn a parsed judgement into cards, dropping anything that does not point at a
+ *  real candidate. The quote shown always comes from the transcript, never the model. */
+function normaliseJudgement(d, cands) {
+  const picks = [];
+  for (const p of (d && d.picks) || []) {
+    const n = parseInt(p && p.n, 10);
+    if (!Number.isFinite(n) || n < 1 || n > cands.length) continue;
+    // models sometimes answer confidence in prose ("Very confident")
+    const raw = String((p && p.confidence) || '').toLowerCase();
+    const confidence = raw.includes('high') || raw.includes('very') ? 'high'
+      : raw.includes('low') || raw.includes('not') ? 'low' : 'medium';
+    picks.push({ ...cands[n - 1], reason: String((p && p.reason) || '').slice(0, 400),
+      confidence });
+  }
+  return { summary: String((d && d.summary) || '').slice(0, 600), picks };
+}
+
 /** Structured filters from plain English. Rules, not a model call: deterministic. */
 function readFilters(q, speakers) {
   const low = q.toLowerCase(), named = [];
@@ -191,12 +230,22 @@ export async function onRequestGet({ request, env }) {
     let out = null, usedModel = null, lastErr = null;
     for (const model of JUDGE_MODELS) {
       try {
+        // response_format forces valid JSON. Asking for JSON in the prompt is not
+        // enough: these models reliably answer with PYTHON dict literals
+        // ({'picks': [...]}), which JSON.parse rejects, so every answer came back
+        // as "the model did not return usable JSON".
         const r = await env.AI.run(model, {
           messages: [{ role: 'system', content: SYSTEM },
             { role: 'user', content: `QUESTION: ${q}\n\nCANDIDATES:\n${listing}` }],
           max_tokens: 1600, temperature: 0.2,
+          response_format: { type: 'json_schema', json_schema: JUDGE_SCHEMA },
         });
-        out = parseJudgement(String(r.response || ''), ranked);
+        // With a schema the response arrives already parsed; keep the string path
+        // for older models and as a fallback if the schema is ever ignored.
+        out = (r.response && typeof r.response === 'object')
+          ? normaliseJudgement(r.response, ranked)
+          : parseJudgement(String(r.response || ''), ranked);
+        if (out && out.picks.length === 0 && !out.summary) throw new Error('empty');
         usedModel = model;
         break;
       } catch (e) { lastErr = e; }
