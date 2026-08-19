@@ -242,7 +242,8 @@ export function page(title, body, active = '') {
 <div class="wrap">${body}
 <footer>Every episode Equity Mates has published, searchable by what was actually
 said. Timecodes link straight to that moment on YouTube where a video exists.<br>
-798 episodes have no transcript yet and will not appear in Moments results.</footer>
+Episodes without a transcript will appear in Browse and Episodes search, but not in
+Moments results.</footer>
 </div></body></html>`;
 }
 
