@@ -18,7 +18,7 @@ export async function onRequestGet({ request, env }) {
   const pg = Math.max(0, parseInt(g('p') || '0', 10) || 0);
   const DB = env.DB;
 
-  const where = [], binds = [];
+  const where = ["e.status='publish'"], binds = [];
   if (show) { where.push('e.show = ?'); binds.push(show); }
   if (year) { where.push("substr(e.post_date,1,4) = ?"); binds.push(year); }
   if (band === 'none') where.push('p.band IS NULL');
@@ -36,10 +36,10 @@ export async function onRequestGet({ request, env }) {
      WHERE ${w}`).bind(...binds).first()).c;
 
   const shows = (await DB.prepare(
-    `SELECT show FROM episodes WHERE show IS NOT NULL GROUP BY show
+    `SELECT show FROM episodes WHERE status='publish' AND show IS NOT NULL GROUP BY show
      ORDER BY COUNT(*) DESC`).all()).results.map(r => r.show);
   const years = (await DB.prepare(
-    `SELECT DISTINCT substr(post_date,1,4) y FROM episodes ORDER BY y DESC`)
+    `SELECT DISTINCT substr(post_date,1,4) y FROM episodes WHERE status='publish' ORDER BY y DESC`)
     .all()).results.map(r => r.y);
 
   const sel = (v, cur) => v === cur ? ' selected' : '';

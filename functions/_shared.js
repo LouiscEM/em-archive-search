@@ -122,8 +122,23 @@ button{padding:15px 26px;background:${CORAL};color:#fff;border:0;font-size:15px;
  font-weight:bold;cursor:pointer;font-family:inherit;white-space:nowrap}
 button:hover{background:#dc4b4b}
 .controls{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin-top:12px}
-select,input[type=date]{padding:8px 10px;border:1px solid ${RULE};background:#fff;
+select,input[type=month]{padding:8px 10px;border:1px solid ${RULE};background:#fff;
  color:${BODY};font-family:inherit;font-size:13px;border-radius:0}
+.filter-label{display:inline-flex;align-items:center;gap:6px;color:${GREY};font-size:12px}
+.filter-label span{white-space:nowrap}
+.clear-filter{font-size:12px;color:${GREY};padding:7px 2px}
+.session-guide{display:flex;align-items:center;justify-content:space-between;gap:18px;
+ margin:0 0 28px}
+.session-guide p{margin:0;color:${BODY}}
+.session-guide a{white-space:nowrap;font-weight:bold;color:${CORAL}}
+.guide-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;margin:20px 0 30px}
+.guide-card{background:#fff;border:1px solid ${RULE};padding:20px}
+.guide-card h2{margin:0 0 8px;font-size:17px}
+.guide-card p{margin:0 0 10px;color:${GREY}}
+.guide-card ul,.guide-card ol{margin:8px 0 0;padding-left:20px}
+.guide-card li{margin:7px 0}
+.prompt-list a{display:block;background:${OFFWHITE};border:1px solid ${RULE};padding:8px 10px;
+ margin:7px 0;font-size:13px}
 .seg{display:inline-flex;border:1px solid ${RULE};background:#fff;overflow:hidden}
 .seg a{padding:8px 15px;font-size:13px;color:${BODY};border-right:1px solid ${RULE}}
 .seg a:last-child{border-right:0}
@@ -204,6 +219,7 @@ footer{color:${GREY};font-size:12.5px;margin-top:44px;border-top:1px solid ${RUL
 @media(max-width:620px){
   .qrow{flex-wrap:wrap} input[type=text]{border-right:1px solid ${RULE}}
   button{width:100%} .hero h1{font-size:24px}
+  .guide-grid{grid-template-columns:1fr}.session-guide{align-items:flex-start;flex-direction:column}
 }`;
 
 export function page(title, body, active = '') {
@@ -219,7 +235,7 @@ export function page(title, body, active = '') {
   <a href="/">${logo}</a>
   <nav class="nav">${[['search', '/', 'Search'], ['ask', '/ask', 'Ask'],
       ['topic', '/topic', 'Topics'], ['browse', '/browse', 'Browse'],
-    ['insights', '/insights', 'Insights']]
+    ['guide', '/guide', 'Guide'], ['insights', '/insights', 'Insights']]
     .map(([k, u, l]) => `<a class="${active === k ? 'on' : ''}" href="${u}">${l}</a>`)
     .join('')}</nav>
 </div></header>

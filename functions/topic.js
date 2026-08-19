@@ -67,7 +67,7 @@ export async function onRequestGet({ request, env }) {
      JOIN utterances u ON u.post_id=utt_fts.post_id AND u.seq=utt_fts.seq
      JOIN episodes e ON e.post_id=u.post_id
      LEFT JOIN episode_perf p ON p.post_id=e.post_id
-     WHERE utt_fts MATCH ? GROUP BY e.post_id`).bind(m).all()).results;
+     WHERE utt_fts MATCH ? AND e.status='publish' GROUP BY e.post_id`).bind(m).all()).results;
 
   if (!eps.length) {
     return html(page(q, form
@@ -84,12 +84,14 @@ export async function onRequestGet({ request, env }) {
   const speakers = (await DB.prepare(
     `SELECT u.speaker, COUNT(*) n, COUNT(DISTINCT u.post_id) eps
      FROM utt_fts JOIN utterances u ON u.post_id=utt_fts.post_id AND u.seq=utt_fts.seq
-     WHERE utt_fts MATCH ? AND u.speaker IS NOT NULL
+     JOIN episodes e ON e.post_id=u.post_id
+     WHERE utt_fts MATCH ? AND e.status='publish' AND u.speaker IS NOT NULL
      GROUP BY u.speaker ORDER BY n DESC LIMIT 8`).bind(m).all()).results;
   const companies = (await DB.prepare(
     `SELECT t.name, COUNT(DISTINCT t.post_id) n FROM taxonomy t
      WHERE t.domain='company' AND t.post_id IN
-       (SELECT DISTINCT post_id FROM utt_fts WHERE utt_fts MATCH ?)
+        (SELECT DISTINCT utt_fts.post_id FROM utt_fts JOIN episodes e ON e.post_id=utt_fts.post_id
+         WHERE utt_fts MATCH ? AND e.status='publish')
      GROUP BY t.name ORDER BY n DESC LIMIT 10`).bind(m).all()).results;
 
   const byYear = {}, byShow = {};

@@ -24,8 +24,7 @@ export async function onRequestGet(context) {
   const q = g('q');
   const mode = g('mode') === 'episodes' ? 'episodes' : 'moments';
   const show = g('show');
-  const frm = g('from');
-  const to = g('to');
+  const month = /^20\d{2}-(0[1-9]|1[0-2])$/.test(g('month')) ? g('month') : '';
   const speaker = g('speaker');
   let sort = g('sort', 'new');
   if (!(sort in ORDERS)) sort = 'new';
@@ -33,15 +32,16 @@ export async function onRequestGet(context) {
   const DB = env.DB;
 
   const shows = (await DB.prepare(
-    `SELECT show FROM episodes WHERE show IS NOT NULL
+    `SELECT show FROM episodes WHERE status='publish' AND show IS NOT NULL
      GROUP BY show ORDER BY COUNT(*) DESC`).all()).results.map(r => r.show);
   const speakers = (await DB.prepare(
-    `SELECT speaker FROM utterances WHERE speaker IS NOT NULL
-     GROUP BY speaker HAVING COUNT(DISTINCT post_id) >= 8
+    `SELECT u.speaker FROM utterances u JOIN episodes e ON e.post_id=u.post_id
+     WHERE e.status='publish' AND u.speaker IS NOT NULL
+     GROUP BY u.speaker HAVING COUNT(DISTINCT u.post_id) >= 8
      ORDER BY COUNT(*) DESC LIMIT 40`).all()).results.map(r => r.speaker);
 
   const eq = encodeURIComponent(q);
-  const keep = `&show=${encodeURIComponent(show)}&from=${frm}&to=${to}`
+  const keep = `&show=${encodeURIComponent(show)}&month=${month}`
     + `&speaker=${encodeURIComponent(speaker)}`;
   const opts = ['<option value="">All shows</option>',
     ...shows.map(s => `<option${s === show ? ' selected' : ''}>${esc(s)}</option>`)].join('');
@@ -65,12 +65,15 @@ export async function onRequestGet(context) {
         <a class="${mode === 'episodes' ? 'on' : ''}"
            href="/?q=${eq}&mode=episodes&sort=${sort}${keep}">Episodes</a>
       </span>
-      <select name="sort" onchange="this.form.submit()">${sortOpts}</select>
-      <select name="speaker" onchange="this.form.submit()"
-              title="Only lines spoken by">${spkOpts}</select>
-      <select name="show" onchange="this.form.submit()">${opts}</select>
-      <input type="date" name="from" value="${esc(frm)}" title="From date">
-      <input type="date" name="to" value="${esc(to)}" title="To date">
+      <select name="sort" aria-label="Sort results" onchange="this.form.submit()">${sortOpts}</select>
+      ${mode === 'moments' ? `<select name="speaker" aria-label="Speaker"
+              onchange="this.form.submit()" title="Only lines spoken by">${spkOpts}</select>` : ''}
+      <select name="show" aria-label="Show" onchange="this.form.submit()">${opts}</select>
+      <label class="filter-label"><span>Month</span>
+        <input type="month" name="month" value="${esc(month)}"
+               aria-label="Episode month" onchange="this.form.submit()"></label>
+      ${(show || speaker || month) ? `<a class="clear-filter"
+        href="/?q=${eq}&mode=${mode}&sort=${sort}">Clear filters</a>` : ''}
       <input type="hidden" name="mode" value="${esc(mode)}">
     </div>
     <div class="examples">Try
@@ -85,12 +88,15 @@ export async function onRequestGet(context) {
     // every other place the figure is quoted.
     const s = await DB.prepare(
       `SELECT COUNT(*) eps, SUM(n_utterances) u, SUM(transcript_words) w
-       FROM episodes`).first();
-    const u = await DB.prepare(`SELECT COUNT(*) c FROM utterances`).first();
+       FROM episodes WHERE status='publish'`).first();
+    const u = await DB.prepare(`SELECT COUNT(*) c FROM utterances u JOIN episodes e
+       ON e.post_id=u.post_id WHERE e.status='publish'`).first();
     const mins = await DB.prepare(
-      `SELECT SUM(seconds)/60 m FROM episode_minutes`).first();
+      `SELECT SUM(m.seconds)/60 m FROM episode_minutes m JOIN episodes e
+       ON e.post_id=m.post_id WHERE e.status='publish'`).first();
     const co = await DB.prepare(
-      `SELECT COUNT(DISTINCT name) c FROM taxonomy WHERE domain='company'`).first();
+      `SELECT COUNT(DISTINCT t.name) c FROM taxonomy t JOIN episodes e
+       ON e.post_id=t.post_id WHERE t.domain='company' AND e.status='publish'`).first();
     const hero = `<div class="hero">
       <h1>Ten years of Equity Mates, searchable.</h1>
       <p>Find the exact moment something was said, who said it, and jump straight
@@ -106,22 +112,31 @@ export async function onRequestGet(context) {
       <div class="stat"><b>${num(co.c)}</b><span>COMPANIES</span></div>
       <div class="stat"><b>${shows.length}</b><span>SHOWS</span></div>
     </div>`;
-    return html(page('Equity Mates Archive Search', hero + bar + stats + `
+    const guide = `<div class="verdict session-guide"><p><b>Using this in the room?</b>
+      Start with a broad search, narrow to a show, speaker or month, then open the
+      transcript and use the timestamped YouTube link to shortlist the clip.</p>
+      <a href="/guide">Open the 3-minute guide &rarr;</a></div>`;
+    return html(page('Equity Mates Archive Search', hero + bar + guide + stats + `
       <div class="empty">
       <b>Moments</b> finds the exact thing someone said, with the speaker and
       timecode.<br>
       <b>Episodes</b> finds whole episodes about a topic.<br>
-      Put "quotes around a phrase" to match it exactly.</div>`));
+      Put "quotes around a phrase" to match it exactly.</div>`, 'search'));
   }
 
   const m = ftsQuery(q);
-  if (!m) return html(page('Search', bar + '<div class="empty">Try a longer word.</div>'));
+  if (!m) return html(page('Search', bar + '<div class="empty">Try a longer word.</div>', 'search'));
 
   const filters = [];
   const params = [];
   if (show) { filters.push('e.show = ?'); params.push(show); }
-  if (frm) { filters.push('e.post_date >= ?'); params.push(frm); }
-  if (to) { filters.push('e.post_date <= ?'); params.push(to + '~'); }
+  if (month) {
+    const [y, mth] = month.split('-').map(Number);
+    const next = mth === 12 ? `${y + 1}-01` : `${y}-${String(mth + 1).padStart(2, '0')}`;
+    filters.push('e.post_date >= ?', 'e.post_date < ?');
+    params.push(month + '-01', next + '-01');
+  }
+  filters.unshift("e.status='publish'");
   const extra = filters.length ? ' AND ' + filters.join(' AND ') : '';
 
   // The speaker lives on the utterance, not the episode, so it can only narrow
@@ -231,11 +246,11 @@ export async function onRequestGet(context) {
 
   if (!cards.length) {
     await logSearch(env, context, { view: 'search', query: q, mode,
-      filters: { show, sort, from: frm, to }, results: 0,
+      filters: { show, sort, month }, results: 0,
       ms: Date.now() - started, session: ses.id });
     return withCookie(html(page(`${q} - EM Archive`, bar
       + `<div class="empty">Nothing found for <b>${esc(q)}</b>.<br>
-         Try fewer words, or check the show and date filters.</div>`)), ses);
+         Try fewer words, or clear the show, speaker or month filters.</div>`, 'search')), ses);
   }
 
   const base = `/?q=${eq}&mode=${mode}&sort=${sort}${keep}`;
@@ -245,9 +260,9 @@ export async function onRequestGet(context) {
   pager += `<span>page ${pg + 1} of ${num(Math.max(1, Math.ceil(cnt / PER)))}</span></div>`;
 
   await logSearch(env, context, { view: 'search', query: q, mode,
-    filters: { show, sort, from: frm, to }, results: cnt,
+    filters: { show, sort, month }, results: cnt,
     ms: Date.now() - started, session: ses.id });
   return withCookie(
-    html(page(`${q} - EM Archive`, bar + head + perfNote + cards.join('') + pager)),
+    html(page(`${q} - EM Archive`, bar + head + perfNote + cards.join('') + pager, 'search')),
     ses);
 }

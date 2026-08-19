@@ -15,8 +15,11 @@ import { page, html, esc, hhmm, num, ftsQuery, GREY, NAVY, CORAL, OFFWHITE }
   from './_shared.js';
 
 const EMBED_MODEL = '@cf/baai/bge-base-en-v1.5';
-const JUDGE_MODELS = ['@cf/meta/llama-3.3-70b-instruct-fp8-fast',
-  '@cf/meta/llama-3.1-8b-instruct'];
+// Judging a shortlist is a classification task, not a 70B reasoning task. The fast
+// 8B model is materially cheaper on the daily free allowance; the 70B model remains
+// a fallback if structured output is unavailable on the fast endpoint.
+const JUDGE_MODELS = ['@cf/meta/llama-3.1-8b-instruct-fp8-fast',
+  '@cf/meta/llama-3.3-70b-instruct-fp8-fast'];
 const SCALE = 127.0 / 0.36;     // must match export_vectors_d1.py
 const CANDIDATES = 400;         // keyword shortlist before semantic ranking
 const SHOWN = 24;               // candidates handed to the model
@@ -175,8 +178,9 @@ export async function onRequestGet({ request, env }) {
 
   try {
     const speakers = (await DB.prepare(
-      `SELECT speaker FROM utterances WHERE speaker IS NOT NULL GROUP BY speaker
-       HAVING COUNT(DISTINCT post_id) >= 8`).all()).results.map(r => r.speaker);
+      `SELECT u.speaker FROM utterances u JOIN episodes e ON e.post_id=u.post_id
+       WHERE e.status='publish' AND u.speaker IS NOT NULL GROUP BY u.speaker
+       HAVING COUNT(DISTINCT u.post_id) >= 8`).all()).results.map(r => r.speaker);
     const f = readFilters(q, speakers);
 
     // ---- stage 1: keyword shortlist, filtered ----
@@ -196,14 +200,14 @@ export async function onRequestGet({ request, env }) {
          FROM utt_fts
          JOIN utterances u ON u.post_id=utt_fts.post_id AND u.seq=utt_fts.seq
          JOIN episodes e ON e.post_id=u.post_id
-         WHERE utt_fts MATCH ?${extra}
+         WHERE utt_fts MATCH ? AND e.status='publish'${extra}
          ORDER BY bm25(utt_fts) LIMIT ?`).bind(m, ...binds, CANDIDATES).all()).results;
     } else {
       cands = (await DB.prepare(
         `SELECT u.post_id, u.seq, u.speaker, u.t_start, u.text, e.title, e.post_date,
                 e.show, e.youtube_id
          FROM utterances u JOIN episodes e ON e.post_id=u.post_id
-         WHERE LENGTH(u.text) > 200${extra} LIMIT ?`)
+         WHERE e.status='publish' AND LENGTH(u.text) > 200${extra} LIMIT ?`)
         .bind(...binds, CANDIDATES).all()).results;
     }
     if (!cands.length) return fail('No lines matched that, even loosely.');
