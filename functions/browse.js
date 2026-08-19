@@ -69,10 +69,11 @@ export async function onRequestGet({ request, env }) {
     const watch = r.youtube_id
       ? `<a href="https://youtu.be/${esc(r.youtube_id)}" target="_blank"
            rel="noopener" title="Watch on YouTube">YouTube</a>`
-      : '<span style="color:#C9CFD8">-</span>';
+      : '';
     const site = r.url
       ? `<a href="${esc(r.url)}" target="_blank" rel="noopener"
            title="Open on equitymates.com">Site</a>` : '';
+    const links = [watch, site].filter(Boolean).join(' ') || '-';
     return `<tr><td class="num">${r.post_date.slice(0, 10)}</td>
       <td><a href="/ep/${r.post_id}">${esc((r.title || '').slice(0, 78))}</a></td>
       <td>${esc((r.show || '').slice(0, 24))}</td>
@@ -80,7 +81,7 @@ export async function onRequestGet({ request, env }) {
       <td class="num">${tr}</td>
       <td class="num">${r.views !== null ? num(r.views) : '-'}</td>
       <td class="num">${perf}</td>
-      <td class="num" style="font-size:12.5px">${watch} ${site}</td></tr>`;
+      <td class="num" style="font-size:12.5px">${links}</td></tr>`;
   }).join('');
 
   const base = `/browse?show=${encodeURIComponent(show)}&year=${year}&band=${band}&sort=${sort}`;
