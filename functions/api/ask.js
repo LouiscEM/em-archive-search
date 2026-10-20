@@ -152,6 +152,31 @@ export async function onRequestOptions({ request }) {
   return new Response(null, { headers: cors(request.headers.get('Origin')) });
 }
 
+/**
+ * Configuration check. Reports WHETHER the two required bindings are visible to this
+ * Function and surfaces any near-miss names, because the usual causes of a 503 here
+ * are a variable saved to Preview instead of Production, or a typo in the name.
+ *
+ * Deliberately reports names and booleans only, never values, and only lists keys
+ * matching the two prefixes we care about rather than dumping the whole environment.
+ */
+export async function onRequestGet({ request, env }) {
+  const origin = request.headers.get('Origin') || '';
+  const related = Object.keys(env || {})
+    .filter((k) => /^(OPENAI|ASK|VECTOR)/i.test(k)).sort();
+  return new Response(JSON.stringify({
+    ok: Boolean(env.OPENAI_API_KEY && env.ASK_VECTOR_STORE_ID),
+    OPENAI_API_KEY: Boolean(env.OPENAI_API_KEY),
+    ASK_VECTOR_STORE_ID: Boolean(env.ASK_VECTOR_STORE_ID),
+    relatedKeysFound: related,
+    totalBindings: Object.keys(env || {}).length,
+    hasDB: Boolean(env.DB),
+  }, null, 1), {
+    headers: { ...cors(origin), 'Content-Type': 'application/json',
+      'Cache-Control': 'no-store' },
+  });
+}
+
 export async function onRequestPost(context) {
   const { request, env } = context;
   const origin = request.headers.get('Origin') || '';
