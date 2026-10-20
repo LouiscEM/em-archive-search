@@ -41,6 +41,18 @@ function equal(a, b) {
 
 export async function onRequest(context) {
   const { request, env, next } = context;
+  // The only public routes in this project: the Ask endpoint behind the search box on
+  // equitymates.com, and the episode lookup it reads links from. Neither can sit
+  // behind Basic auth, because a browser on another origin has no password to send.
+  //
+  // Exempting them is safe because /api/ask defends itself: it allows only the
+  // equitymates.com origin, rate limits per IP, caps question length, and never reads
+  // the archive tables. The lookup is public episode titles and links already on the
+  // website. Keep this an EXACT match list. A prefix match would let a crafted path
+  // walk back into the protected site.
+  const PUBLIC_PATHS = ['/api/ask', '/ask-episodes.json'];
+  if (PUBLIC_PATHS.includes(new URL(request.url).pathname)) return next();
+
   const expected = env.ARCHIVE_PASSWORD;
 
   if (!expected) {
