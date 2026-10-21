@@ -160,6 +160,20 @@ export async function onRequestOptions({ request }) {
  * Deliberately reports names and booleans only, never values, and only lists keys
  * matching the two prefixes we care about rather than dumping the whole environment.
  */
+async function listStores(env) {
+  if (!env.OPENAI_API_KEY) return 'no key';
+  try {
+    const r = await fetch('https://api.openai.com/v1/vector_stores?limit=20', {
+      headers: { Authorization: `Bearer ${env.OPENAI_API_KEY}` } });
+    const body = await r.json();
+    if (!r.ok) return `${r.status}: ${JSON.stringify(body).slice(0, 200)}`;
+    return (body.data || []).map((v) => `${v.id} (${v.name}, ${v.file_counts
+      ? v.file_counts.completed : '?'} files)`);
+  } catch (e) {
+    return 'fetch failed: ' + String(e).slice(0, 120);
+  }
+}
+
 async function sha12(value) {
   const buf = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(value));
   return [...new Uint8Array(buf)].slice(0, 6)
@@ -184,6 +198,10 @@ export async function onRequestGet({ request, env }) {
     keyDigest: await sha12(env.OPENAI_API_KEY || ''),
     keyLen: String(env.OPENAI_API_KEY || '').length,
     storeId: String(env.ASK_VECTOR_STORE_ID || ''),
+    // Same key and same id work from a local client but not from here, so ask OpenAI
+    // directly what this key can see FROM THIS EDGE. If the list is empty or holds
+    // different ids, the request is being resolved somewhere other than we assume.
+    visibleStores: await listStores(env),
   }, null, 1), {
     headers: { ...cors(origin), 'Content-Type': 'application/json',
       'Cache-Control': 'no-store' },
