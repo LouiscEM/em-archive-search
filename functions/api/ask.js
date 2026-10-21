@@ -23,6 +23,7 @@ const MODEL = 'gpt-5';
 const MAX_RESULTS = 10;
 const MAX_QUESTION = 300;      // characters; longer is abuse, not curiosity
 const RATE_LIMIT = 12;         // questions per IP per hour
+const STORE_NAME = 'equity-mates-episodes';
 const ALLOWED = ['https://equitymates.com', 'https://www.equitymates.com'];
 
 /** Mirrors ask_guard.PERSONAL in the Python pipeline. Keep the two in step. */
@@ -160,6 +161,37 @@ export async function onRequestOptions({ request }) {
  * Deliberately reports names and booleans only, never values, and only lists keys
  * matching the two prefixes we care about rather than dumping the whole environment.
  */
+
+let STORE_ID = null;
+
+/**
+ * Work out which vector store to search.
+ *
+ * An id pasted by hand into a dashboard is a single point of failure: the one
+ * configured here was a throwaway store created during a billing test and deleted
+ * minutes later, and it matched the real one for its first eight characters, so it
+ * survived every check short of asking OpenAI. Resolving by NAME removes the class
+ * of error. The env var is still honoured when it points at a store that exists.
+ */
+async function resolveStore(env) {
+  if (STORE_ID) return STORE_ID;
+  const auth = { Authorization: `Bearer ${env.OPENAI_API_KEY}` };
+  const configured = String(env.ASK_VECTOR_STORE_ID || '').trim();
+  if (configured) {
+    const r = await fetch(`https://api.openai.com/v1/vector_stores/${configured}`,
+      { headers: auth });
+    if (r.ok) { STORE_ID = configured; return STORE_ID; }
+  }
+  const r = await fetch('https://api.openai.com/v1/vector_stores?limit=50',
+    { headers: auth });
+  if (!r.ok) return null;
+  const body = await r.json();
+  const match = (body.data || []).filter((v) => v.name === STORE_NAME)
+    .sort((a, b) => (b.created_at || 0) - (a.created_at || 0))[0];
+  STORE_ID = match ? match.id : null;
+  return STORE_ID;
+}
+
 async function listStores(env) {
   if (!env.OPENAI_API_KEY) return 'no key';
   try {
@@ -185,9 +217,10 @@ export async function onRequestGet({ request, env }) {
   const related = Object.keys(env || {})
     .filter((k) => /^(OPENAI|ASK|VECTOR)/i.test(k)).sort();
   return new Response(JSON.stringify({
-    ok: Boolean(env.OPENAI_API_KEY && env.ASK_VECTOR_STORE_ID),
+    ok: Boolean(env.OPENAI_API_KEY && (await resolveStore(env))),
+    resolvedStore: await resolveStore(env),
     OPENAI_API_KEY: Boolean(env.OPENAI_API_KEY),
-    ASK_VECTOR_STORE_ID: Boolean(env.ASK_VECTOR_STORE_ID),
+    ASK_VECTOR_STORE_ID_configured: String(env.ASK_VECTOR_STORE_ID || '(unset)'),
     relatedKeysFound: related,
     totalBindings: Object.keys(env || {}).length,
     hasDB: Boolean(env.DB),
@@ -214,7 +247,6 @@ export async function onRequestPost(context) {
 
   if (!ALLOWED.includes(origin)) return fail(403, 'Not allowed from this origin', origin);
   if (!env.OPENAI_API_KEY) return fail(503, 'Not configured yet', origin);
-  if (!env.ASK_VECTOR_STORE_ID) return fail(503, 'No index configured', origin);
 
   let question = '';
   try {
@@ -231,6 +263,9 @@ export async function onRequestPost(context) {
       origin);
   }
 
+  const storeId = await resolveStore(env);
+  if (!storeId) return fail(503, 'The index is unavailable right now', origin);
+
   const personal = PERSONAL.some((re) => re.test(question.toLowerCase()));
 
   const upstream = await fetch('https://api.openai.com/v1/responses', {
@@ -246,7 +281,7 @@ export async function onRequestPost(context) {
       stream: true,
       tools: [{
         type: 'file_search',
-        vector_store_ids: [env.ASK_VECTOR_STORE_ID],
+        vector_store_ids: [storeId],
         max_num_results: MAX_RESULTS,
       }],
     }),
