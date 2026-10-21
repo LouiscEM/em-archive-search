@@ -240,15 +240,20 @@ function renderAudit(){if(!LAST){A.querySelector('.body').innerHTML='<section cl
   '<b>Complete</b><span>'+(x.total?(x.total/1000).toFixed(1)+'s':'streaming')+'</span>'+
   '<b>Episodes cited</b><span>'+(x.eps?x.eps.length:'-')+'</span></div>'+
   '<p class="muted" style="margin:10px 0 0">Live answers are not pre-reviewed. That is what this view is for.</p></section>';}
+ // Currency notes are internal (Louis, 21 Oct 2026): shown here to the auditor, never
+ // in the reader view. A live answer near a held topic shows that topic's note too.
+ var cn=x.r.t&&x.r.t.note;if(cn)h+='<section><h4>Currency note (internal only)</h4>'+
+  (cn.hold_publish?chip('fail','HOLD: out of date, do not publish'):'')+noteBox(cn)+
+  (cn.episode_idea?'<p><b>Episode worth making:</b> '+esc(cn.episode_idea)+'</p>':'')+'</section>';
  h+='<section><h4>Routing self-check</h4>'+D.parityHtml+'</section>';
  A.querySelector('.body').innerHTML=h;}
 function show(q){q=(q||'').trim();if(!q)return;var r=route(q);
  LAST={q:q,r:r,personal:null,flagged:null,first:null,total:null,eps:null};
  var head='<span class="route '+r.a+'">'+(r.a==='page'?'Pre-written page':'Live answer')+'</span><h2 class="rq">'+esc(q)+'</h2>';
- if(r.a==='page'){var t=r.t;R.innerHTML='<div class="wrap">'+head+noteBox(t.note)+'<div class="ans">'+paras(t.prose)+'</div>'+epCards(t.episodes)+'</div>';renderAudit();return;}
+ if(r.a==='page'){var t=r.t;R.innerHTML='<div class="wrap">'+head+'<div class="ans">'+paras(t.prose)+'</div>'+epCards(t.episodes)+'</div>';renderAudit();return;}
  // A live answer near a topic with a current-status note shows that note first: the
  // archive can be older than the law, and the reader should meet today's position.
- R.innerHTML='<div class="wrap">'+head+(r.t&&r.t.note?noteBox(r.t.note,'Where things stand on '+r.t.question.replace(/^What is |\?$/g,'')):'')+'<div class="ans cursor" id="emq-live"></div>'+
+ R.innerHTML='<div class="wrap">'+head+'<div class="ans cursor" id="emq-live"></div>'+
   (r.t?'<div class="related">Related guide: <a href="#" data-q="'+esc(r.t.question)+'">'+esc(r.t.question)+'</a></div>':'')+'<div id="emq-eps"></div></div>';
  renderAudit();live(q);}
 async function live(q){var S=LAST,box=document.getElementById('emq-live'),t0=performance.now(),text='';
