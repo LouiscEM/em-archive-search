@@ -199,7 +199,11 @@ function route(q){var key=topicKey(q);if(!key)return{a:'live',t:null,key:key,why
   if(s>ov&&s>=Math.max(1,tw.length-1)){best=t;ov=s;}});
  return{a:'live',t:best,key:key,why:best?'a different question about a written topic':'no written page covers this'};}
 function esc(s){return(s||'').replace(/[&<>"]/g,function(c){return{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]});}
-function paras(t){return t.split('\n').filter(function(x){return x.trim()}).map(function(x){return'<p>'+esc(x)+'</p>'}).join('');}
+// Citation markers are stripped from the stream but the space before them is not,
+// leaving "the budget changes .". Cleaned on the whole text rather than per chunk,
+// because a chunk boundary can fall between the space and the full stop.
+function tidy(t){return t.replace(/[ \t]+([.,;:!?)])/g,'$1').replace(/[ \t]{2,}/g,' ');}
+function paras(t){return tidy(t).split('\n').filter(function(x){return x.trim()}).map(function(x){return'<p>'+esc(x)+'</p>'}).join('');}
 function epCards(eps){return'<div class="eps2">'+(eps||[]).map(function(e){
  var m=e.moment,link=(m&&m.url)||e.url,meta=[e.show,e.year||(e.date||'').slice(0,4),e.mins?e.mins+' min':''].filter(Boolean).join(' · ');
  return'<a href="'+esc(link)+'" target="_blank">'+(e.thumb?'<img src="'+esc(e.thumb)+'" alt="">':'<span class="nt">'+esc(e.show)+'</span>')+
