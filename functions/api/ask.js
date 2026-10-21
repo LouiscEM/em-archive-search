@@ -5,26 +5,38 @@
  * This is the only public route in this project. Everything else stays behind the
  * Basic auth gate in _middleware.js; the exemption there is for this path alone.
  *
- * Three things matter more than the answer itself:
+ * TWO STEPS, NOT ONE. The first version handed the question to the model with the
+ * file_search tool: 25 to 45 seconds an answer, and minimal reasoning effort is not
+ * allowed with that tool. Now we search the vector store ourselves (about 2 seconds)
+ * and the model writes from those excerpts with no tools at minimal effort (about 6),
+ * measured at 7.5 to 9.5 seconds in total against the same questions.
  *
- *   1. LICENSING. Equity Mates holds AFSL 540697 and gives general advice only. The
- *      model is told the rule, and the output is audited afterwards, because a prompt
- *      instruction is a request, not a control. A failed audit never reaches a reader.
- *   2. LINKS. Episode URLs are resolved from our own data, never written by the model.
- *      A hallucinated link on equitymates.com is worse than no link.
- *   3. COST. The key is ours and the endpoint is public, so it is rate limited per IP
- *      and the question length is capped before a single token is spent.
+ * EVERY ANSWER IS CHECKED BEFORE IT IS SEEN. Streaming raw text meant the advice audit
+ * ran after the reader had read it, and the audit only caught phrases like "you
+ * should", so "keep your global core... set a target mix and stick to it" reached a
+ * reader who had said they had 100k invested. Now: personal questions are answered as
+ * their general version, every answer is audited for advice phrases AND commands, a
+ * failure is rewritten once under a stricter brief, and if that also fails the reader
+ * gets a safe fallback instead. At 8 seconds the safety is affordable.
  *
- * Answers stream. A complete answer takes 25 to 45 seconds, which is unusable as a
- * blocking wait, but the first words land in about three seconds.
+ * REPEATS ARE CACHED. Thousands of questions a day are mostly the same few hundred, so
+ * a normalised question is answered from D1 for a week. Personal questions are never
+ * cached, so nothing a reader says about themselves is stored.
+ *
+ * LINKS come from our own data, never the model. COST is capped by question length and
+ * a per-IP hourly limit.
  */
 
 // Stamped at commit time so the config check says WHICH revision is live.
 // Without it, 'is the fix deployed yet' is unanswerable and every timing
 // measurement is ambiguous.
-const BUILD = 'b07e529';
+const BUILD = 'two-step-1';
 const MODEL = 'gpt-5';
-const MAX_RESULTS = 10;
+const EFFORT = 'minimal';
+const SEARCH_RESULTS = 8;
+// Bump when the prompt or index changes, so stale cached answers are never served.
+const CACHE_VERSION = 'v1';
+const CACHE_DAYS = 7;
 const MAX_QUESTION = 300;      // characters; longer is abuse, not curiosity
 const RATE_LIMIT = 12;         // questions per IP per hour
 const STORE_NAME = 'equity-mates-episodes';
@@ -59,6 +71,23 @@ const BANNED = [
   /\bguaranteed (return|profit|outcome)\b/, /\bcan'?t lose\b/,
 ];
 
+/** Mirrors ask_guard.IMPERATIVE: advice phrased as a command, sentence by sentence. */
+const IMPERATIVE = new RegExp(
+  '(?:^|[.!?]\\s+|\\n\\s*)' +
+  '(build|add|keep|set|buy|sell|put|invest|allocate|rebalance|start|move|switch|hold|' +
+  'diversify|consider|choose|pick|use|aim|target|stick|avoid|salary sacrifice|' +
+  'top up|pay down|redraw|borrow|split|tilt|increase|reduce|cut|trim|dca|automate)\\b' +
+  '(?! in mind)(?![- ]and[- ]forget)(?! to that)(?! on\\b)(?! up to\\b)' +
+  '(?! simply)(?! another way)(?! differently)(?! it )(?! track)(?! records)', 'gi');
+
+function audit(text) {
+  const lower = (text || '').toLowerCase().replace(/[\u2018\u2019]/g, "'");
+  const out = BANNED.filter((re) => re.test(lower)).map((re) => re.source.slice(0, 30));
+  const verbs = [...(text || '').matchAll(IMPERATIVE)].map((m) => m[1].toLowerCase());
+  if (verbs.length) out.push('instructs the reader (' + [...new Set(verbs)].join(', ') + ')');
+  return out;
+}
+
 const GUARDRAIL = `
 HARD RULE, NON NEGOTIABLE. Equity Mates operates under Australian Financial Services
 Licence 540697 and gives GENERAL information only. You must never give personal
@@ -83,12 +112,15 @@ Equity Mates or to "an adviser on Equity Mates", never to a named person, and ar
 described, not adopted as instructions to the reader. Everything is general in nature:
 Equity Mates holds a general licence only.`;
 
-const INSTRUCTIONS = `You answer questions using ONLY the Equity Mates podcast
-transcripts in the attached file search index. Equity Mates is an Australian investing
+const INSTRUCTIONS = `You answer questions using ONLY the numbered Equity Mates podcast
+transcript excerpts provided with the question. Equity Mates is an Australian investing
 podcast network.
 
-Write the way you would explain it to a mate over lunch: warm, direct, a bit
-opinionated, never stiff. Lead with what this actually means for a person before you
+Write the way you would explain it to a mate over lunch: warm and clear, never
+stiff. Explain and describe; never instruct. Do not write sentences that tell the reader to do
+something with their money ("set a target mix", "keep your core", "pick a cadence",
+"automate the transfer"). Describe what investors commonly do instead ("many investors
+set a target mix"). This matters more than sounding conversational. Lead with what this actually means for a person before you
 touch the mechanics. If a 22-year-old with no finance background would not understand a
 word, use a different word. Short sentences beat long ones.
 
@@ -105,6 +137,25 @@ Rules:
 - Australian English and Australian context.
 - NEVER use em dashes or en dashes. Use a comma, a full stop or brackets.
 ${GUARDRAIL}`;
+
+const PERSONAL_BRIEF = `
+THIS QUESTION DESCRIBES THE READER'S OWN SITUATION. Ignore every personal detail in it:
+amounts, age, income, what they hold. Answer only the GENERAL version of the question,
+how investors generally think about it, in the third person ("many investors", "some
+people", "Equity Mates has discussed"). Give no plan, no steps, no allocation and no
+"strategy" for the reader. Say once that whether any approach suits them depends on
+their circumstances and is a question for a licensed adviser.`;
+
+const STRICT = `
+YOUR PREVIOUS ATTEMPT BROKE THE LICENSING RULE. Rewrite it with no sentence that tells
+the reader to do anything with their money. No commands ("keep", "set", "add", "build",
+"pick"), no "you should", no "you must", no "in your situation". Describe how the thing
+works and what investors commonly do, in the third person.`;
+
+const FALLBACK = `This one is better answered by a person. Equity Mates gives general
+information only, and we could not answer this question without it reading like
+personal advice. The episodes below cover the topic, and the Equity Mates Advice Network
+can connect you with a licensed adviser who can look at your situation.`.replace(/\n/g, ' ');
 
 const cors = (origin) => ({
   'Access-Control-Allow-Origin': ALLOWED.includes(origin) ? origin : ALLOWED[0],
@@ -145,14 +196,92 @@ async function overLimit(env, ip, limit = RATE_LIMIT) {
   return false;
 }
 
-/** The citation filename carries the episode id: ep29107_2026-03-03_slug.md */
-function episodeIdsFrom(annotations) {
-  const seen = [];
-  for (const a of annotations || []) {
-    const m = /^ep(\d+)_/.exec(a.filename || '');
-    if (m && !seen.includes(m[1])) seen.push(m[1]);
+/** Port of ask_guard.topic_key, so phrasings of one question share a cache entry. */
+const LEAD = [/^(can you |could you |please )?(tell me|teach me|explain|describe|define)( me)?( all)?( about| what| how| the)?\b/,
+  /^what (is|are|does|do)( a| an| the)?\b/, /^how (does|do)( a| an| the)?\b/, /^whats\b/, /^what's\b/,
+  /^(i want to know|i'd like to know|help me understand)\b/, /^(a |an |the )/];
+function topicKey(t) {
+  let q = (t || '').normalize('NFKD').toLowerCase().replace(/[\u2019\u2018]/g, "'")
+    .replace(/[^\w\s'$]/g, ' ').replace(/\s+/g, ' ').trim();
+  for (let ch = true; ch;) {
+    ch = false;
+    for (const re of LEAD) { const n = q.replace(re, ' ').trim(); if (n !== q) { q = n; ch = true; } }
   }
-  return seen;
+  q = q.replace(/\b(mean|means|work|works|about|exactly|explained|in australia|for beginners)\b/g, ' ')
+    .replace(/\b(a|an|the|of|to|for|is|are|do|does|my|your)\b/g, ' ');
+  return [...new Set(q.replace(/\s+/g, ' ').trim().split(' ').filter(Boolean))].sort().join(' ');
+}
+
+async function cacheGet(env, key) {
+  if (!env.DB) return null;
+  try {
+    await env.DB.prepare('CREATE TABLE IF NOT EXISTS ask_cache (k TEXT PRIMARY KEY, ' +
+      'payload TEXT, created INTEGER, hits INTEGER DEFAULT 0)').run();
+    const row = await env.DB.prepare('SELECT payload, created FROM ask_cache WHERE k = ?')
+      .bind(key).first();
+    if (!row || Date.now() - row.created > CACHE_DAYS * 864e5) return null;
+    // Hit counts are the demand signal: the most asked live questions are the next
+    // pages worth writing, and nothing personal is ever cached, so this stays clean.
+    await env.DB.prepare('UPDATE ask_cache SET hits = hits + 1 WHERE k = ?').bind(key).run();
+    return JSON.parse(row.payload);
+  } catch (e) { return null; }
+}
+
+async function cachePut(env, key, payload) {
+  if (!env.DB) return;
+  try {
+    await env.DB.prepare('INSERT INTO ask_cache (k, payload, created, hits) VALUES (?, ?, ?, 0) ' +
+      'ON CONFLICT(k) DO UPDATE SET payload = excluded.payload, created = excluded.created')
+      .bind(key, JSON.stringify(payload), Date.now()).run();
+  } catch (e) { /* a cache write failing must never fail the answer */ }
+}
+
+async function openai(env, path, body) {
+  const r = await fetch('https://api.openai.com/v1' + path, {
+    method: 'POST',
+    headers: { Authorization: `Bearer ${env.OPENAI_API_KEY}`, 'Content-Type': 'application/json' },
+    body: JSON.stringify(body),
+  });
+  if (!r.ok) throw new Error(`${path} ${r.status}: ${(await r.text()).slice(0, 160)}`);
+  return r.json();
+}
+
+async function search(env, storeId, question) {
+  const d = await openai(env, `/vector_stores/${storeId}/search`,
+    { query: question, max_num_results: SEARCH_RESULTS });
+  return (d.data || []).map((x) => ({
+    file: x.filename || '', score: x.score || 0,
+    text: (x.content || []).map((c) => c.text || '').join(' '),
+  }));
+}
+
+async function write(env, question, chunks, extra) {
+  const excerpts = chunks.map((c, i) => `[${i + 1}] ${c.text.slice(0, 1800)}`).join('\n\n');
+  const d = await openai(env, '/responses', {
+    model: MODEL, reasoning: { effort: EFFORT }, instructions: INSTRUCTIONS + (extra || ''),
+    input: `Question: ${question}\n\nExcerpts:\n${excerpts}`,
+  });
+  const text = (d.output || []).flatMap((o) => o.content || []).map((c) => c.text || '').join('');
+  // House style bans dashes; strip the space citation markers leave before punctuation.
+  return text.replace(/\u2014|\u2013/g, ', ').replace(/[ \t]+([.,;:!?)])/g, '$1').trim();
+}
+
+/** Episodes behind the excerpts, best first, each with the moment the excerpt starts. */
+function episodesFrom(chunks, lookup) {
+  const out = [];
+  for (const c of chunks) {
+    const m = /^ep(\d+)_/.exec(c.file);
+    const e = m && lookup[m[1]];
+    if (!e || out.some((x) => x.id === m[1])) continue;
+    // Transcript excerpts carry speaker stamps: [12:34](https://youtube...&t=754s)
+    const ts = /\[(\d{1,2}:\d{2}(?::\d{2})?)\]\((https:\/\/www\.youtube\.com\/watch\?v=[\w-]+&t=\d+s)\)/.exec(c.text);
+    out.push({ id: m[1], title: e.t, show: e.s, date: e.d, url: e.u, mins: e.m,
+      youtube: e.y ? `https://www.youtube.com/watch?v=${e.y}` : null,
+      thumb: e.y ? `https://i.ytimg.com/vi/${e.y}/mqdefault.jpg` : null,
+      moment: ts ? { label: ts[1], url: ts[2] } : null });
+    if (out.length === 5) break;
+  }
+  return out;
 }
 
 let EPISODE_CACHE = null;
@@ -280,137 +409,68 @@ export async function onRequestPost(context) {
       origin);
   }
 
-  const storeId = await resolveStore(env);
-  if (!storeId) return fail(503, 'The index is unavailable right now', origin);
-
-  const personal = PERSONAL.some((re) => re.test(question.toLowerCase()));
-
-  const upstream = await fetch('https://api.openai.com/v1/responses', {
-    method: 'POST',
-    headers: {
-      'Authorization': `Bearer ${env.OPENAI_API_KEY}`,
-      'Content-Type': 'application/json',
-    },
-    body: JSON.stringify({
-      model: MODEL,
-      instructions: INSTRUCTIONS,
-      input: question,
-      stream: true,
-      tools: [{
-        type: 'file_search',
-        vector_store_ids: [storeId],
-        max_num_results: MAX_RESULTS,
-      }],
-    }),
-  });
-
-  if (!upstream.ok || !upstream.body) {
-    return fail(502, 'The answer service is unavailable right now', origin);
-  }
-
-  const lookup = await episodes(request);
+  const personal = PERSONAL.some((re) => re.test(question.toLowerCase().replace(/\u2019/g, "'")));
+  const key = `${CACHE_VERSION}|${topicKey(question)}`;
   const encoder = new TextEncoder();
-  const decoder = new TextDecoder();
-
-  // A ReadableStream whose start() runs the whole read loop does not stream: Cloudflare
-  // waits for start() to resolve before emitting the response, so the client gets the
-  // entire answer in one burst after 35 seconds. Measured, not assumed. A
-  // TransformStream lets the Response return immediately while the pump writes into it.
   const { readable, writable } = new TransformStream();
   const writer = writable.getWriter();
+  const send = (obj) => writer.write(encoder.encode(`data: ${JSON.stringify(obj)}\n\n`));
 
   const pump = (async () => {
-    {
-      const send = (obj) => writer.write(
-        encoder.encode(`data: ${JSON.stringify(obj)}\n\n`));
-      const reader = upstream.body.getReader();
-      let buffer = '';
-      let full = '';
-      let annotations = [];
-      // Counted so a silent empty stream can be diagnosed from the client without
-      // another deploy. The local Python client sees the right event names, so an
-      // empty answer here means something between the Worker and OpenAI, not parsing.
-      const seen = {};
-      let rawBytes = 0;
-      let upstreamError = null;
+    const t0 = Date.now();
+    const timing = {};
+    try {
+      await send({ type: 'start', personal });
 
-      send({ type: 'start', personal });
-
-      try {
-        for (;;) {
-          const { done, value } = await reader.read();
-          if (done) break;
-          rawBytes += value ? value.length : 0;
-          buffer += decoder.decode(value, { stream: true });
-          const lines = buffer.split('\n');
-          buffer = lines.pop() || '';
-
-          for (const line of lines) {
-            if (!line.startsWith('data:')) continue;
-            const payload = line.slice(5).trim();
-            if (!payload || payload === '[DONE]') continue;
-            let ev;
-            try { ev = JSON.parse(payload); } catch (e) { continue; }
-            seen[ev.type] = (seen[ev.type] || 0) + 1;
-            if (ev.type === 'error' || ev.type === 'response.failed') {
-              const e = ev.error || (ev.response && ev.response.error) || ev;
-              upstreamError = `${e.code || e.type || '?'}: ${(e.message || '').slice(0, 220)}`;
-            }
-
-            if (ev.type === 'response.output_text.delta' && ev.delta) {
-              // Strip dashes in flight: house style bans them and a later fix would
-              // mean rewriting text the reader has already seen.
-              const delta = ev.delta.replace(/—/g, ', ').replace(/–/g, ', ');
-              full += delta;
-              send({ type: 'delta', text: delta });
-            } else if (ev.type === 'response.output_text.annotation.added'
-                       && ev.annotation) {
-              annotations.push(ev.annotation);
-            } else if (ev.type === 'response.completed' && ev.response) {
-              for (const item of ev.response.output || []) {
-                for (const part of item.content || []) {
-                  annotations = annotations.concat(part.annotations || []);
-                }
-              }
-            }
-          }
+      if (!personal) {
+        const hit = await cacheGet(env, key);
+        if (hit) {
+          await send({ type: 'delta', text: hit.text });
+          await send({ type: 'done', ...hit.meta, cached: true, ms: Date.now() - t0 });
+          return;
         }
-
-        // The audit runs on the finished text. The reader has already seen it stream,
-        // so a failure cannot unsay it; what it can do is withhold the episode links
-        // and flag the answer, which is the honest response to an answer we are not
-        // confident is compliant.
-        const lower = full.toLowerCase();
-        const flags = BANNED.filter((re) => re.test(lower)).length;
-
-        const eps = episodeIdsFrom(annotations).map((id) => lookup[id]).filter(Boolean)
-          .map((e) => ({
-            title: e.t, show: e.s, date: e.d, url: e.u, mins: e.m,
-            youtube: e.y ? `https://www.youtube.com/watch?v=${e.y}` : null,
-            thumb: e.y ? `https://i.ytimg.com/vi/${e.y}/mqdefault.jpg` : null,
-          }));
-
-        send({ type: 'done', episodes: eps, flagged: flags > 0,
-          diag: { upstream: upstream.status, rawBytes, chars: full.length, seen,
-            upstreamError,
-            // Not secret: confirms the ID pasted into Cloudflare is the right
-            // one. A typo here authenticates fine but fails during file_search.
-            storeId: String(env.ASK_VECTOR_STORE_ID || '').slice(0, 9) + '...'
-              + String(env.ASK_VECTOR_STORE_ID || '').slice(-6),
-            storeIdLen: String(env.ASK_VECTOR_STORE_ID || '').length,
-            keyLen: String(env.OPENAI_API_KEY || '').length,
-            keyPrefixOk: String(env.OPENAI_API_KEY || '').startsWith('sk-') } });
-      } catch (e) {
-        await send({ type: 'error',
-          message: 'The answer was cut short. Please try again.',
-          diag: { upstream: upstream.status, rawBytes, seen, detail: String(e).slice(0, 180) } });
-      } finally {
-        await writer.close();
       }
+
+      const storeId = await resolveStore(env);
+      if (!storeId) throw new Error('index unavailable');
+
+      await send({ type: 'stage', stage: 'searching' });
+      const chunks = await search(env, storeId, question);
+      timing.search = Date.now() - t0;
+
+      await send({ type: 'stage', stage: 'writing' });
+      const brief = personal ? PERSONAL_BRIEF : '';
+      let text = await write(env, question, chunks, brief);
+      let flags = audit(text);
+      let retried = false;
+      if (flags.length) {
+        await send({ type: 'stage', stage: 'checking' });
+        const again = await write(env, question, chunks, brief + STRICT);
+        const againFlags = audit(again);
+        retried = true;
+        if (againFlags.length < flags.length) { text = again; flags = againFlags; }
+      }
+      const fallback = flags.length > 0;
+      if (fallback) text = FALLBACK;
+      timing.total = Date.now() - t0;
+
+      const lookup = await episodes(request);
+      const meta = { episodes: episodesFrom(chunks, lookup), flagged: false, fallback,
+        retried, personal, auditOnFirstDraft: retried ? 'failed' : 'passed' };
+      // Only clean, general answers are cached: never a personal question, never a
+      // fallback, so a bad answer cannot be served a thousand times.
+      if (!personal && !fallback) await cachePut(env, key, { text, meta });
+
+      await send({ type: 'delta', text });
+      await send({ type: 'done', ...meta, cached: false, ms: timing.total, timing });
+    } catch (e) {
+      await send({ type: 'error', message: 'Something went wrong answering that. Please try again.',
+        detail: String(e).slice(0, 180) });
+    } finally {
+      await writer.close();
     }
   })();
 
-  // Keeps the pump alive after the Response is returned.
   if (context.waitUntil) context.waitUntil(pump);
 
   return new Response(readable, {
