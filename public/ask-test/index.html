@@ -83,6 +83,17 @@
 .emq a.card:hover .jump{background:#F15959}
 .emq a.card:hover .jump b{color:#fff}
 
+/* where things stand -------------------------------------------------- */
+.emq .note2{background:#F5F6F8;border:1px solid #D0D5DD;border-left:5px solid #18263B;
+ border-radius:10px;padding:20px 24px;margin:0 0 34px;max-width:760px}
+.emq .note2 .nh{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;
+ align-items:baseline;margin-bottom:8px}
+.emq .note2 .nt{font-family:'Franklin Gothic Demi','Franklin Gothic Medium',Arial,sans-serif;color:#18263B;font-size:17px}
+.emq .note2 .nd{color:#8A97A8;font-size:12.5px}
+.emq .note2 p{margin:0;font-size:16px;line-height:1.65;color:#3A4A5C}
+.emq .note2 .ns{margin:12px 0 0;font-size:12.5px;color:#8A97A8}
+.emq .note2 .ns a{color:#18263B}
+
 /* close ----------------------------------------------------------------- */
 .emq .close{background:#18263B;padding:56px 0}
 .emq .close h2{color:#fff;font-size:34px}
@@ -209,6 +220,9 @@ function epCards(eps){return'<div class="eps2">'+(eps||[]).map(function(e){
  return'<a href="'+esc(link)+'" target="_blank">'+(e.thumb?'<img src="'+esc(e.thumb)+'" alt="">':'<span class="nt">'+esc(e.show)+'</span>')+
  '<span><span class="t">'+esc(e.title)+'</span><span class="m">'+esc(meta)+'</span>'+
  '<span class="j">▶ '+(m?'Jump to <b>'+esc(m.label)+'</b>':'Listen')+'</span></span></a>';}).join('')+'</div>';}
+function noteBox(n,lead){if(!n)return'';var src=(n.sources||[]).map(function(x){return'<a target="_blank" href="'+esc(x.url)+'">'+esc(x.label)+'</a>'}).join(' \u00b7 ');
+ return'<div class="note2"><div class="nh"><span class="nt">'+esc(lead||n.title)+'</span><span class="nd">Checked '+esc(n.checked)+'</span></div>'+
+ '<p>'+esc(n.text)+'</p><p class="ns">Equity Mates editorial note, not from an episode. Sources: '+src+'</p></div>';}
 var R=document.getElementById('emq-result'),A=document.getElementById('emq-audit');
 function chip(s,l){return'<span class="f '+s+'">'+esc(l)+'</span>';}
 function renderAudit(){if(!LAST){A.querySelector('.body').innerHTML='<section class="muted">Search for something to see how it was handled.</section>';return;}
@@ -231,8 +245,10 @@ function renderAudit(){if(!LAST){A.querySelector('.body').innerHTML='<section cl
 function show(q){q=(q||'').trim();if(!q)return;var r=route(q);
  LAST={q:q,r:r,personal:null,flagged:null,first:null,total:null,eps:null};
  var head='<span class="route '+r.a+'">'+(r.a==='page'?'Pre-written page':'Live answer')+'</span><h2 class="rq">'+esc(q)+'</h2>';
- if(r.a==='page'){var t=r.t;R.innerHTML='<div class="wrap">'+head+'<div class="ans">'+paras(t.prose)+'</div>'+epCards(t.episodes)+'</div>';renderAudit();return;}
- R.innerHTML='<div class="wrap">'+head+'<div class="ans cursor" id="emq-live"></div>'+
+ if(r.a==='page'){var t=r.t;R.innerHTML='<div class="wrap">'+head+noteBox(t.note)+'<div class="ans">'+paras(t.prose)+'</div>'+epCards(t.episodes)+'</div>';renderAudit();return;}
+ // A live answer near a topic with a current-status note shows that note first: the
+ // archive can be older than the law, and the reader should meet today's position.
+ R.innerHTML='<div class="wrap">'+head+(r.t&&r.t.note?noteBox(r.t.note,'Where things stand on '+r.t.question.replace(/^What is |\?$/g,'')):'')+'<div class="ans cursor" id="emq-live"></div>'+
   (r.t?'<div class="related">Related guide: <a href="#" data-q="'+esc(r.t.question)+'">'+esc(r.t.question)+'</a></div>':'')+'<div id="emq-eps"></div></div>';
  renderAudit();live(q);}
 async function live(q){var S=LAST,box=document.getElementById('emq-live'),t0=performance.now(),text='';
