@@ -19,6 +19,10 @@
  * blocking wait, but the first words land in about three seconds.
  */
 
+// Stamped at commit time so the config check says WHICH revision is live.
+// Without it, 'is the fix deployed yet' is unanswerable and every timing
+// measurement is ambiguous.
+const BUILD = 'b07e529';
 const MODEL = 'gpt-5';
 const MAX_RESULTS = 10;
 const MAX_QUESTION = 300;      // characters; longer is abuse, not curiosity
@@ -217,6 +221,7 @@ export async function onRequestGet({ request, env }) {
   const related = Object.keys(env || {})
     .filter((k) => /^(OPENAI|ASK|VECTOR)/i.test(k)).sort();
   return new Response(JSON.stringify({
+    build: BUILD,
     ok: Boolean(env.OPENAI_API_KEY && (await resolveStore(env))),
     resolvedStore: await resolveStore(env),
     OPENAI_API_KEY: Boolean(env.OPENAI_API_KEY),
