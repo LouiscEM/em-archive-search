@@ -242,6 +242,7 @@ export async function onRequestPost(context) {
       // empty answer here means something between the Worker and OpenAI, not parsing.
       const seen = {};
       let rawBytes = 0;
+      let upstreamError = null;
 
       send({ type: 'start', personal });
 
@@ -261,6 +262,10 @@ export async function onRequestPost(context) {
             let ev;
             try { ev = JSON.parse(payload); } catch (e) { continue; }
             seen[ev.type] = (seen[ev.type] || 0) + 1;
+            if (ev.type === 'error' || ev.type === 'response.failed') {
+              const e = ev.error || (ev.response && ev.response.error) || ev;
+              upstreamError = `${e.code || e.type || '?'}: ${(e.message || '').slice(0, 220)}`;
+            }
 
             if (ev.type === 'response.output_text.delta' && ev.delta) {
               // Strip dashes in flight: house style bans them and a later fix would
@@ -296,7 +301,15 @@ export async function onRequestPost(context) {
           }));
 
         send({ type: 'done', episodes: eps, flagged: flags > 0,
-          diag: { upstream: upstream.status, rawBytes, chars: full.length, seen } });
+          diag: { upstream: upstream.status, rawBytes, chars: full.length, seen,
+            upstreamError,
+            // Not secret: confirms the ID pasted into Cloudflare is the right
+            // one. A typo here authenticates fine but fails during file_search.
+            storeId: String(env.ASK_VECTOR_STORE_ID || '').slice(0, 9) + '...'
+              + String(env.ASK_VECTOR_STORE_ID || '').slice(-6),
+            storeIdLen: String(env.ASK_VECTOR_STORE_ID || '').length,
+            keyLen: String(env.OPENAI_API_KEY || '').length,
+            keyPrefixOk: String(env.OPENAI_API_KEY || '').startsWith('sk-') } });
       } catch (e) {
         send({ type: 'error', message: 'The answer was cut short. Please try again.',
           diag: { upstream: upstream.status, rawBytes, seen, detail: String(e).slice(0, 180) } });
