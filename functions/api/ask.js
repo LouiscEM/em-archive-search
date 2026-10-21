@@ -295,9 +295,16 @@ export async function onRequestPost(context) {
   const encoder = new TextEncoder();
   const decoder = new TextDecoder();
 
-  const stream = new ReadableStream({
-    async start(controller) {
-      const send = (obj) => controller.enqueue(
+  // A ReadableStream whose start() runs the whole read loop does not stream: Cloudflare
+  // waits for start() to resolve before emitting the response, so the client gets the
+  // entire answer in one burst after 35 seconds. Measured, not assumed. A
+  // TransformStream lets the Response return immediately while the pump writes into it.
+  const { readable, writable } = new TransformStream();
+  const writer = writable.getWriter();
+
+  const pump = (async () => {
+    {
+      const send = (obj) => writer.write(
         encoder.encode(`data: ${JSON.stringify(obj)}\n\n`));
       const reader = upstream.body.getReader();
       let buffer = '';
@@ -377,15 +384,19 @@ export async function onRequestPost(context) {
             keyLen: String(env.OPENAI_API_KEY || '').length,
             keyPrefixOk: String(env.OPENAI_API_KEY || '').startsWith('sk-') } });
       } catch (e) {
-        send({ type: 'error', message: 'The answer was cut short. Please try again.',
+        await send({ type: 'error',
+          message: 'The answer was cut short. Please try again.',
           diag: { upstream: upstream.status, rawBytes, seen, detail: String(e).slice(0, 180) } });
       } finally {
-        controller.close();
+        await writer.close();
       }
-    },
-  });
+    }
+  })();
 
-  return new Response(stream, {
+  // Keeps the pump alive after the Response is returned.
+  if (context.waitUntil) context.waitUntil(pump);
+
+  return new Response(readable, {
     headers: {
       ...cors(origin),
       'Content-Type': 'text/event-stream; charset=utf-8',
