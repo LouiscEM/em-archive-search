@@ -160,6 +160,12 @@ export async function onRequestOptions({ request }) {
  * Deliberately reports names and booleans only, never values, and only lists keys
  * matching the two prefixes we care about rather than dumping the whole environment.
  */
+async function sha12(value) {
+  const buf = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(value));
+  return [...new Uint8Array(buf)].slice(0, 6)
+    .map((b) => b.toString(16).padStart(2, '0')).join('');
+}
+
 export async function onRequestGet({ request, env }) {
   const origin = request.headers.get('Origin') || '';
   const related = Object.keys(env || {})
@@ -171,6 +177,13 @@ export async function onRequestGet({ request, env }) {
     relatedKeysFound: related,
     totalBindings: Object.keys(env || {}).length,
     hasDB: Boolean(env.DB),
+    // A truncated one-way hash, so the key here can be compared with the one that
+    // works locally without either value being exposed. Different digests mean
+    // different keys, and a key from another OpenAI project cannot see our vector
+    // store even though it authenticates perfectly well.
+    keyDigest: await sha12(env.OPENAI_API_KEY || ''),
+    keyLen: String(env.OPENAI_API_KEY || '').length,
+    storeId: String(env.ASK_VECTOR_STORE_ID || ''),
   }, null, 1), {
     headers: { ...cors(origin), 'Content-Type': 'application/json',
       'Cache-Control': 'no-store' },
