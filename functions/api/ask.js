@@ -237,6 +237,11 @@ export async function onRequestPost(context) {
       let buffer = '';
       let full = '';
       let annotations = [];
+      // Counted so a silent empty stream can be diagnosed from the client without
+      // another deploy. The local Python client sees the right event names, so an
+      // empty answer here means something between the Worker and OpenAI, not parsing.
+      const seen = {};
+      let rawBytes = 0;
 
       send({ type: 'start', personal });
 
@@ -244,6 +249,7 @@ export async function onRequestPost(context) {
         for (;;) {
           const { done, value } = await reader.read();
           if (done) break;
+          rawBytes += value ? value.length : 0;
           buffer += decoder.decode(value, { stream: true });
           const lines = buffer.split('\n');
           buffer = lines.pop() || '';
@@ -254,6 +260,7 @@ export async function onRequestPost(context) {
             if (!payload || payload === '[DONE]') continue;
             let ev;
             try { ev = JSON.parse(payload); } catch (e) { continue; }
+            seen[ev.type] = (seen[ev.type] || 0) + 1;
 
             if (ev.type === 'response.output_text.delta' && ev.delta) {
               // Strip dashes in flight: house style bans them and a later fix would
@@ -288,9 +295,11 @@ export async function onRequestPost(context) {
             thumb: e.y ? `https://i.ytimg.com/vi/${e.y}/mqdefault.jpg` : null,
           }));
 
-        send({ type: 'done', episodes: eps, flagged: flags > 0 });
+        send({ type: 'done', episodes: eps, flagged: flags > 0,
+          diag: { upstream: upstream.status, rawBytes, chars: full.length, seen } });
       } catch (e) {
-        send({ type: 'error', message: 'The answer was cut short. Please try again.' });
+        send({ type: 'error', message: 'The answer was cut short. Please try again.',
+          diag: { upstream: upstream.status, rawBytes, seen, detail: String(e).slice(0, 180) } });
       } finally {
         controller.close();
       }
