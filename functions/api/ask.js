@@ -28,7 +28,15 @@ const MAX_RESULTS = 10;
 const MAX_QUESTION = 300;      // characters; longer is abuse, not curiosity
 const RATE_LIMIT = 12;         // questions per IP per hour
 const STORE_NAME = 'equity-mates-episodes';
-const ALLOWED = ['https://equitymates.com', 'https://www.equitymates.com'];
+const ALLOWED = ['https://equitymates.com', 'https://www.equitymates.com',
+  // The internal test bed at /ask-test/, which sits behind this project's Basic auth
+  // gate. Same origin, so the browser sends this as Origin on every POST.
+  'https://em-archive-search.pages.dev'];
+const TEST_ORIGIN = 'https://em-archive-search.pages.dev';
+// Auditing means asking dozens of questions in a sitting, which the public cap would
+// block within minutes. Origin can be spoofed by a non-browser client, so this only
+// raises a cost ceiling (a few cents a question); it grants no other access.
+const TEST_RATE_LIMIT = 80;
 
 /** Mirrors ask_guard.PERSONAL in the Python pipeline. Keep the two in step. */
 const PERSONAL = [
@@ -113,7 +121,7 @@ const fail = (status, message, origin) => new Response(
  * Per-IP hourly cap, kept in D1 so it survives across the many isolates a Pages
  * project runs in. An in-memory counter would reset constantly and protect nothing.
  */
-async function overLimit(env, ip) {
+async function overLimit(env, ip, limit = RATE_LIMIT) {
   if (!env.DB) return false;                       // never fail closed on a public page
   const hour = Math.floor(Date.now() / 3600000);
   try {
@@ -123,7 +131,7 @@ async function overLimit(env, ip) {
     const row = await env.DB.prepare(
       'SELECT n FROM ask_rate WHERE ip = ? AND hour = ?').bind(ip, hour).first();
     const n = (row && row.n) || 0;
-    if (n >= RATE_LIMIT) return true;
+    if (n >= limit) return true;
     await env.DB.prepare(
       'INSERT INTO ask_rate (ip, hour, n) VALUES (?, ?, 1) ' +
       'ON CONFLICT(ip, hour) DO UPDATE SET n = n + 1').bind(ip, hour).run();
@@ -267,7 +275,7 @@ export async function onRequestPost(context) {
   if (question.length > MAX_QUESTION) return fail(400, 'That question is too long', origin);
 
   const ip = request.headers.get('CF-Connecting-IP') || 'unknown';
-  if (await overLimit(env, ip)) {
+  if (await overLimit(env, ip, origin === TEST_ORIGIN ? TEST_RATE_LIMIT : RATE_LIMIT)) {
     return fail(429, 'You have asked a lot of questions this hour. Try again shortly.',
       origin);
   }
