@@ -112,46 +112,131 @@
  .emq .panel .note{left:12px;bottom:-12px}
 }
 
-.emq .search{margin-top:30px;max-width:680px;position:relative}
-.emq .search input{width:100%;font:18px 'Open Sans',Arial,sans-serif;padding:18px 130px 18px 22px;
- border-radius:8px;border:2px solid transparent;background:#fff;color:#18263B;outline:0}
-.emq .search input:focus{border-color:#F15959}
-.emq .search button{position:absolute;right:8px;top:8px;bottom:8px;border:0;border-radius:6px;
- background:#F15959;color:#fff;font:15px 'Franklin Gothic Demi',Arial,sans-serif;padding:0 20px;
- cursor:pointer}
-.emq .chips{display:flex;gap:8px;flex-wrap:wrap;margin-top:16px}
-.emq .chips button{background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.25);
- color:#fff;border-radius:999px;padding:6px 13px;font:13px 'Open Sans',Arial,sans-serif;cursor:pointer}
-.emq .chips button:hover{background:rgba(255,255,255,.2)}
-.emq .result{padding:44px 0 70px}
-.emq .route{display:inline-block;font:12px 'Franklin Gothic Demi',Arial,sans-serif;
- letter-spacing:1.4px;text-transform:uppercase;padding:5px 11px;border-radius:999px;margin-bottom:16px}
-.emq .route.page{background:#E6F4EC;color:#1B7F4B}
-.emq .route.live{background:#FDE8E8;color:#F15959}
-.emq .rq{font:30px/1.15 'Franklin Gothic Heavy','Franklin Gothic Demi',Arial,sans-serif;
- color:#18263B;margin:0 0 22px}
-.emq .ans p{font-size:18.5px;line-height:1.75;margin:0 0 20px;max-width:64ch}
-.emq .ans p:first-child{font:22px/1.5 'Franklin Gothic Demi',Arial,sans-serif;color:#18263B}
-.emq .cursor:after{content:"\258B";color:#F15959;animation:b 1s steps(1) infinite}
-@keyframes b{50%{opacity:0}}
-.emq .related{margin:26px 0 0;padding:16px 20px;background:#F5F6F8;border-radius:10px;
- border-left:4px solid #F15959;max-width:64ch}
-.emq .related a{color:#18263B;font-family:'Franklin Gothic Demi',Arial,sans-serif}
-.emq .eps2{display:grid;gap:12px;margin-top:30px;max-width:860px}
-.emq .eps2 a{display:flex;gap:18px;align-items:center;text-decoration:none;background:#fff;
- border:1px solid #D0D5DD;border-radius:10px;padding:12px}
-.emq .eps2 a:hover{border-color:#18263B}
-.emq .eps2 img,.emq .eps2 .nt{width:170px;aspect-ratio:16/9;object-fit:cover;border-radius:6px;
- flex:0 0 170px;background:#18263B;color:#fff;display:flex;align-items:center;justify-content:center;
- font:11px 'Franklin Gothic Demi',Arial,sans-serif;text-align:center;padding:8px;text-transform:uppercase}
-.emq .eps2 .t{color:#18263B;font:16px/1.3 'Franklin Gothic Demi',Arial,sans-serif;display:block}
-.emq .eps2 .m{color:#8A97A8;font-size:13px;display:block;margin-top:5px}
-.emq .eps2 .j{display:inline-block;margin-top:8px;background:#18263B;color:#fff;border-radius:5px;
- padding:5px 10px;font:12.5px 'Franklin Gothic Demi',Arial,sans-serif}
-.emq .eps2 .j b{color:#F15959;font-weight:400}
+.i{flex:0 0 auto;display:inline-block;vertical-align:middle}
+.emq .wrap{max-width:1180px}
+/* hero */
+.emq .hero2{background:#18263B;padding:46px 0 0;overflow:hidden;position:relative}
+.emq .hero2:after{content:"";position:absolute;right:-180px;top:-160px;width:520px;height:520px;
+ border-radius:50%;background:radial-gradient(circle,rgba(241,89,89,.22),rgba(241,89,89,0) 70%)}
+.emq .hgrid2{display:grid;grid-template-columns:1.1fr .9fr;gap:52px;align-items:end;position:relative;z-index:1}
+.emq .hero2 .kicker{color:rgba(255,255,255,.86);display:flex;align-items:center;gap:8px}
+.emq .hero2 .kicker .i{color:#F15959}
+.emq .hero2 h1{font-size:58px;margin:0}
+.emq .hero2 .lede{margin:18px 0 0}
+.emq .search2{margin-top:28px;position:relative;max-width:600px;display:flex;align-items:center;
+ background:#fff;border-radius:12px;padding:8px 8px 8px 18px;box-shadow:0 18px 40px rgba(0,0,0,.28);
+ border:2px solid transparent;transition:.15s}
+.emq .search2:focus-within{border-color:#F15959}
+.emq .search2 .i{color:#8A97A8}
+.emq .search2 input{flex:1;border:0;outline:0;font:18px 'Open Sans',Arial,sans-serif;color:#18263B;
+ padding:12px 12px;background:transparent;min-width:0}
+.emq .search2 button{border:0;border-radius:8px;background:#F15959;color:#fff;cursor:pointer;
+ font:16px 'Franklin Gothic Demi',Arial,sans-serif;padding:13px 20px;display:flex;gap:8px;align-items:center}
+.emq .search2 button:hover{background:#d94a4a}
+.emq .trust{list-style:none;padding:0;margin:22px 0 46px;display:flex;flex-wrap:wrap;gap:10px 22px}
+.emq .trust li{display:flex;gap:8px;align-items:center;color:rgba(255,255,255,.82);font-size:14px}
+.emq .trust .i{color:#F15959}
+.emq .photo{position:relative;align-self:stretch;display:flex;align-items:flex-end}
+.emq .photo img{width:100%;display:block;border-radius:14px 14px 0 0;object-fit:cover;aspect-ratio:4/3}
+.emq .photo .badge{position:absolute;left:-22px;bottom:34px;background:#fff;border-radius:12px;
+ padding:13px 16px;display:flex;gap:12px;align-items:center;box-shadow:0 14px 34px rgba(0,0,0,.28)}
+.emq .photo .badge .ic{width:40px;height:40px;border-radius:10px;background:#F15959;color:#fff;
+ display:flex;align-items:center;justify-content:center}
+.emq .photo .badge b{display:block;font:16px 'Franklin Gothic Demi',Arial,sans-serif;color:#18263B}
+.emq .photo .badge span{font-size:12.5px;color:#8A97A8}
+/* topic browser */
+.emq .browse{padding:58px 0 26px}
+.emq .cats{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.emq .cat{background:#fff;border:1px solid #D0D5DD;border-radius:14px;padding:22px;transition:.18s}
+.emq .cat:hover{border-color:#18263B;box-shadow:0 12px 30px rgba(24,38,59,.09)}
+.emq .cat .ch{display:flex;align-items:center;gap:12px;margin-bottom:14px}
+.emq .cat .ci{width:44px;height:44px;border-radius:12px;background:#FDE8E8;color:#F15959;
+ display:flex;align-items:center;justify-content:center}
+.emq .cat .cn{font:19px 'Franklin Gothic Demi',Arial,sans-serif;color:#18263B}
+.emq .cat .cc{color:#8A97A8;font-size:13px}
+.emq .cat button{display:flex;width:100%;justify-content:space-between;align-items:center;gap:10px;
+ text-align:left;background:none;border:0;border-top:1px solid #EEF1F4;padding:10px 0;cursor:pointer;
+ font:15px/1.35 'Open Sans',Arial,sans-serif;color:#3A4A5C}
+.emq .cat button .i{color:#D0D5DD;transition:.15s}
+.emq .cat button:hover{color:#18263B}
+.emq .cat button:hover .i{color:#F15959;transform:translateX(3px)}
+/* result */
+.emq .result{padding:40px 0 30px}
+.emq .rhead{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-bottom:14px}
+.emq .pill{display:inline-flex;gap:6px;align-items:center;font:12px 'Franklin Gothic Demi',Arial,sans-serif;
+ letter-spacing:1.2px;text-transform:uppercase;padding:6px 11px;border-radius:999px}
+.emq .pill.page{background:#E6F4EC;color:#1B7F4B}
+.emq .pill.live{background:#FDE8E8;color:#F15959}
+.emq .pill.gen{background:#EEF1F4;color:#18263B}
+.emq .rq{font:36px/1.12 'Franklin Gothic Heavy','Franklin Gothic Demi',Arial,sans-serif;
+ color:#18263B;margin:0 0 24px;max-width:24ch}
+.emq .rgrid{display:grid;grid-template-columns:minmax(0,1fr) 340px;gap:44px;align-items:start}
+.emq .ans p{font-size:18px;line-height:1.75;margin:0 0 20px}
+.emq .ans p:first-child{font:23px/1.5 'Franklin Gothic Demi',Arial,sans-serif;color:#18263B;
+ padding-left:18px;border-left:4px solid #F15959}
+.emq .side{position:sticky;top:20px;display:grid;gap:14px}
+.emq .box{background:#F5F6F8;border-radius:14px;padding:20px}
+.emq .box h4{margin:0 0 10px;font:13px 'Franklin Gothic Demi',Arial,sans-serif;letter-spacing:1.3px;
+ text-transform:uppercase;color:#18263B;display:flex;gap:8px;align-items:center}
+.emq .box h4 .i{color:#F15959}
+.emq .box p{margin:0;font-size:14px;line-height:1.6}
+.emq .box a.go{display:flex;gap:8px;align-items:center;margin-top:12px;color:#18263B;
+ font:15px 'Franklin Gothic Demi',Arial,sans-serif;text-decoration:none}
+.emq .box a.go .i{color:#F15959}
+.emq .box.navy{background:#18263B;color:rgba(255,255,255,.8)}
+.emq .box.navy h4{color:#fff}
+.emq .box.navy a.go{color:#fff}
+/* episodes */
+.emq .eph{display:flex;gap:10px;align-items:center;margin:42px 0 16px;font:22px 'Franklin Gothic Demi',Arial,sans-serif;color:#18263B}
+.emq .eph .i{color:#F15959}
+.emq .epg{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}
+.emq a.epc{display:block;text-decoration:none;background:#fff;border:1px solid #D0D5DD;border-radius:14px;
+ overflow:hidden;transition:.18s}
+.emq a.epc:hover{border-color:#18263B;transform:translateY(-3px);box-shadow:0 14px 30px rgba(24,38,59,.12)}
+.emq .thumb{position:relative;aspect-ratio:16/9;background:#18263B;display:block}
+.emq .thumb img{width:100%;height:100%;object-fit:cover;display:block}
+.emq .thumb .play{position:absolute;inset:0;display:flex;align-items:center;justify-content:center}
+.emq .thumb .play span{width:54px;height:54px;border-radius:50%;background:rgba(241,89,89,.95);color:#fff;
+ display:flex;align-items:center;justify-content:center;box-shadow:0 6px 18px rgba(0,0,0,.35);transition:.15s}
+.emq a.epc:hover .thumb .play span{transform:scale(1.08)}
+.emq .thumb .dur{position:absolute;right:10px;bottom:10px;background:rgba(24,38,59,.85);color:#fff;
+ font-size:12px;padding:3px 8px;border-radius:6px;display:flex;gap:5px;align-items:center}
+.emq .thumb .tile{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;
+ justify-content:center;gap:10px;color:#fff;font:13px 'Franklin Gothic Demi',Arial,sans-serif;
+ letter-spacing:1.4px;text-transform:uppercase;text-align:center;padding:16px;
+ background:linear-gradient(135deg,#18263B 0%,#24375A 100%)}
+.emq .thumb .tile .i{color:#F15959}
+.emq .epb{display:block;padding:16px 18px 18px}
+.emq .epb .sh{display:block;color:#F15959;font:11.5px 'Franklin Gothic Demi',Arial,sans-serif;
+ letter-spacing:1.3px;text-transform:uppercase}
+.emq .epb .t{display:block;color:#18263B;font:17px/1.32 'Franklin Gothic Demi',Arial,sans-serif;margin-top:6px}
+.emq .epb .j{display:inline-flex;gap:6px;align-items:center;margin-top:12px;background:#18263B;color:#fff;
+ border-radius:7px;padding:7px 12px;font:13px 'Franklin Gothic Demi',Arial,sans-serif}
+.emq .epb .j b{color:#F15959;font-weight:400}
+.emq a.epc:hover .epb .j{background:#F15959}
+.emq a.epc:hover .epb .j b{color:#fff}
+/* loading */
+.emq .steps{display:grid;gap:10px;max-width:520px;margin:6px 0 26px}
+.emq .step{display:flex;gap:12px;align-items:center;color:#8A97A8;font-size:15.5px;transition:.2s}
+.emq .step .dot{width:30px;height:30px;border-radius:50%;border:2px solid #D0D5DD;display:flex;
+ align-items:center;justify-content:center;color:#D0D5DD}
+.emq .step.on{color:#18263B}
+.emq .step.on .dot{border-color:#F15959;color:#F15959;animation:pulse 1.2s ease-in-out infinite}
+.emq .step.done{color:#3A4A5C}
+.emq .step.done .dot{border-color:#1B7F4B;background:#1B7F4B;color:#fff}
+@keyframes pulse{50%{box-shadow:0 0 0 6px rgba(241,89,89,.15)}}
+.emq .sk{height:16px;border-radius:8px;margin:12px 0;max-width:640px;
+ background:linear-gradient(90deg,#EEF1F4 25%,#F7F8FA 50%,#EEF1F4 75%);background-size:400% 100%;
+ animation:sh 1.4s ease infinite}
+.emq .sk.l{height:24px;max-width:560px}
+@keyframes sh{0%{background-position:100% 0}100%{background-position:0 0}}
+.emq .disc2{display:flex;gap:12px;align-items:flex-start;margin:40px 0 0;padding:18px 20px;background:#F5F6F8;
+ border-radius:12px;color:#8A97A8;font-size:13px;line-height:1.6;max-width:860px}
+.emq .disc2 .i{color:#18263B;margin-top:2px}
+/* audit panel */
 .audit-toggle{position:fixed;right:20px;bottom:20px;z-index:20;background:#18263B;color:#fff;
  border:0;border-radius:999px;padding:12px 20px;font:14px 'Franklin Gothic Demi',Arial,sans-serif;
- cursor:pointer;box-shadow:0 8px 24px rgba(0,0,0,.25)}
+ cursor:pointer;box-shadow:0 8px 24px rgba(0,0,0,.25);display:flex;gap:8px;align-items:center}
 .audit{position:fixed;top:0;right:0;bottom:0;width:min(520px,92vw);background:#fff;z-index:19;
  box-shadow:-10px 0 30px rgba(0,0,0,.15);transform:translateX(105%);transition:.25s;
  overflow:auto;font:14px/1.55 'Segoe UI',system-ui,sans-serif;color:#3A4A5C}
@@ -159,7 +244,7 @@
 .audit h3{margin:0;padding:18px 22px;background:#18263B;color:#fff;font-size:16px;position:sticky;top:0}
 .audit section{padding:16px 22px;border-bottom:1px solid #EEF1F4}
 .audit h4{margin:0 0 8px;font-size:11px;letter-spacing:1.3px;text-transform:uppercase;color:#18263B}
-.audit .kv{display:grid;grid-template-columns:130px 1fr;gap:4px 10px;font-size:13px}
+.audit .kv{display:grid;grid-template-columns:140px 1fr;gap:4px 10px;font-size:13px}
 .audit .kv b{color:#8A97A8;font-weight:600}
 .audit .f{display:inline-block;font-size:12px;padding:3px 9px;border-radius:999px;margin:0 6px 6px 0;font-weight:600}
 .audit .f.ok{background:#E6F4EC;color:#1B7F4B}.audit .f.warn{background:#FDF3E2;color:#B7791F}
@@ -169,23 +254,43 @@
 .audit pre{margin:0;padding:11px;white-space:pre-wrap;font:12px/1.55 ui-monospace,monospace;
  border-top:1px solid #E4E8EC;max-height:260px;overflow:auto}
 .audit .muted{color:#8A97A8}
+.audit .note2{background:#FDF3E2;border:1px solid #F0D9A8;border-radius:8px;padding:12px 14px;font-size:13px}
+.audit .note2 p{margin:6px 0 0}
+@media(max-width:1000px){.emq .hgrid2,.emq .rgrid{grid-template-columns:1fr}.emq .photo{display:none}
+ .emq .cats{grid-template-columns:1fr}.emq .epg{grid-template-columns:1fr}.emq .side{position:static}
+ .emq .hero2 h1{font-size:40px}.emq .rq{font-size:28px}}
 
 .tag{background:#F15959;color:#fff;font:600 12px Arial;letter-spacing:1.5px;text-transform:uppercase;
 text-align:center;padding:8px}</style></head><body>
-<div class="tag">Internal test bed. Not on equitymates.com. Answers here are not reviewed.</div>
-<div class="emq"><div class="hero" style="padding-bottom:48px"><div class="wrap">
-<p class="kicker">Ask Equity Mates</p>
-<h1 style="max-width:18ch">Ten years of answers, in <span class="hl">one search</span>.</h1>
-<form id="emq-form" class="search"><input id="emq-q" type="search" autocomplete="off"
- placeholder="Ask anything, the way a reader would"><button type="submit">Ask</button></form>
-<div class="chips"><button type="button" data-q="What is debt recycling?">What is debt recycling?</button><button type="button" data-q="tell me about franking credits">tell me about franking credits</button><button type="button" data-q="is negative gearing still allowed in 2027">is negative gearing still allowed in 2027</button><button type="button" data-q="give me an example of debt recycling with numbers">give me an example of debt recycling with numbers</button><button type="button" data-q="should I salary sacrifice into super?">should I salary sacrifice into super?</button><button type="button" data-q="what is a stock split">what is a stock split</button></div></div></div>
-<div id="emq-result" class="result"><div class="wrap"><p style="color:#8A97A8">Search above. Open
-the audit view (bottom right) to see how each search is handled.</p></div></div></div>
-<button id="emq-toggle" class="audit-toggle">Audit view</button>
+<div class="tag">Internal test bed. Not on equitymates.com.</div>
+<div class="emq">
+<header class="hero2"><div class="wrap hgrid2"><div>
+<p class="kicker"><svg class="i " viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5 11a7 7 0 0 0 14 0M12 18v3"/></svg>Ask Equity Mates</p>
+<h1>Ten years of answers, in <span class="hl">one search</span>.</h1>
+<p class="lede">Plain-English answers drawn from 1,815 episodes, each linked to the
+moment it was said.</p>
+<form id="emq-form" class="search2"><svg class="i " viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg><input id="emq-q" type="search" autocomplete="off"
+ placeholder="Try &quot;What is debt recycling?&quot;" aria-label="Ask a question">
+<button type="submit">Ask<svg class="i " viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button></form>
+<ul class="trust"><li><svg class="i " viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 15v-3a8 8 0 0 1 16 0v3"/><rect x="3" y="14" width="4" height="6" rx="1.5"/><rect x="17" y="14" width="4" height="6" rx="1.5"/></svg>1,815 episodes searched</li>
+<li><svg class="i " viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>Jump to the exact moment</li><li><svg class="i " viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l7 3v6c0 4.5-3 7.5-7 9-4-1.5-7-4.5-7-9V6z"/><path d="m9 12 2 2 4-4"/></svg>General information only</li></ul>
+</div>
+<div class="photo"><img src="https://equitymates.com/wp-content/uploads/2025/06/PXL_20230622_233527246.PORTRAIT2-1024x768.jpg" alt="Bryce and Ren from Equity Mates">
+<div class="badge"><span class="ic"><svg class="i " viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5 11a7 7 0 0 0 14 0M12 18v3"/></svg></span><span><b>10 years of the show</b>
+<span>1,815 episodes, one search</span></span></div></div>
+</div></header>
+<div id="emq-result" class="result" style="display:none"></div>
+<section class="browse"><div class="wrap"><div class="sec-head"><div>
+<p class="kicker">Start with a topic</p><h2>The questions we get asked most.</h2></div>
+<p>Written guides drawn from the episodes that cover each topic in the most depth.</p></div>
+<div class="cats"><div class="cat"><div class="ch"><span class="ci"><svg class="i " viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21v-8"/><path d="M12 13c0-4 3-7 8-7 0 4-3 7-8 7z"/><path d="M12 13c0-3-2-5-6-5 0 3 2 5 6 5z"/></svg></span><span><span class="cn">Getting started</span><br><span class="cc">5 guides</span></span></div><button type="button" data-q="What is an ETF?">What is an ETF?<svg class="i " viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button><button type="button" data-q="What is an index fund?">What is an index fund?<svg class="i " viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button><button type="button" data-q="What is compound interest?">What is compound interest?<svg class="i " viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button><button type="button" data-q="What is diversification?">What is diversification?<svg class="i " viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button><button type="button" data-q="What is dollar cost averaging?">What is dollar cost averaging?<svg class="i " viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button></div><div class="cat"><div class="ch"><span class="ci"><svg class="i " viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 12a9 9 0 0 1 18 0z"/><path d="M12 12v7a2 2 0 0 1-4 0"/></svg></span><span><span class="cn">Super</span><br><span class="cc">3 guides</span></span></div><button type="button" data-q="How does superannuation work?">How does superannuation work?<svg class="i " viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button><button type="button" data-q="What is salary sacrificing into super?">What is salary sacrificing into super?<svg class="i " viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button><button type="button" data-q="What is the First Home Super Saver scheme?">What is the First Home Super Saver scheme?<svg class="i " viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button></div><div class="cat"><div class="ch"><span class="ci"><svg class="i " viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 11 12 4l9 7"/><path d="M5 10v10h14V10"/><path d="M10 20v-5h4v5"/></svg></span><span><span class="cn">Property</span><br><span class="cc">2 guides</span></span></div><button type="button" data-q="What is debt recycling?">What is debt recycling?<svg class="i " viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button><button type="button" data-q="What is an offset account?">What is an offset account?<svg class="i " viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button></div><div class="cat"><div class="ch"><span class="ci"><svg class="i " viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="7" cy="7" r="2.5"/><circle cx="17" cy="17" r="2.5"/><path d="M19 5 5 19"/></svg></span><span><span class="cn">Tax</span><br><span class="cc">1 guide</span></span></div><button type="button" data-q="What are franking credits?">What are franking credits?<svg class="i " viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button></div><div class="cat"><div class="ch"><span class="ci"><svg class="i " viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3a9 9 0 1 0 9 9h-9z"/><path d="M15 3.5A9 9 0 0 1 20.5 9H15z"/></svg></span><span><span class="cn">Building a portfolio</span><br><span class="cc">4 guides</span></span></div><button type="button" data-q="What is asset allocation?">What is asset allocation?<svg class="i " viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button><button type="button" data-q="What is core and satellite investing?">What is core and satellite investing?<svg class="i " viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button><button type="button" data-q="What is a listed investment company?">What is a listed investment company?<svg class="i " viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button><button type="button" data-q="What is a price to earnings ratio?">What is a price to earnings ratio?<svg class="i " viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button></div><div class="cat"><div class="ch"><span class="ci"><svg class="i " viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 7h16a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><path d="M3 7V6a2 2 0 0 1 2-2h11"/><circle cx="16.5" cy="13.5" r="1.2"/></svg></span><span><span class="cn">Money basics</span><br><span class="cc">3 guides</span></span></div><button type="button" data-q="What is an emergency fund?">What is an emergency fund?<svg class="i " viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button><button type="button" data-q="What is financial independence and FIRE?">What is financial independence and FIRE?<svg class="i " viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button><button type="button" data-q="What is a bear market?">What is a bear market?<svg class="i " viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button></div></div></div></section>
+</div>
+<button id="emq-toggle" class="audit-toggle"><svg class="i " viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l7 3v6c0 4.5-3 7.5-7 9-4-1.5-7-4.5-7-9V6z"/><path d="m9 12 2 2 4-4"/></svg>Audit view</button>
 <aside id="emq-audit" class="audit"><h3>Audit view</h3><div class="body"></div></aside>
-<script>
+<script>window.EMQ_N="1,815";
 (function(){
-var D=null, LAST=null;
+var D=null, LAST=null, IC={"search": "<circle cx=\"11\" cy=\"11\" r=\"7\"/><path d=\"m20 20-3.5-3.5\"/>", "arrow": "<path d=\"M5 12h14M13 6l6 6-6 6\"/>", "shield": "<path d=\"M12 3l7 3v6c0 4.5-3 7.5-7 9-4-1.5-7-4.5-7-9V6z\"/><path d=\"m9 12 2 2 4-4\"/>", "headphones": "<path d=\"M4 15v-3a8 8 0 0 1 16 0v3\"/><rect x=\"3\" y=\"14\" width=\"4\" height=\"6\" rx=\"1.5\"/><rect x=\"17\" y=\"14\" width=\"4\" height=\"6\" rx=\"1.5\"/>", "book": "<path d=\"M2 5h7a3 3 0 0 1 3 3v12a2 2 0 0 0-2-2H2z\"/><path d=\"M22 5h-7a3 3 0 0 0-3 3v12a2 2 0 0 1 2-2h8z\"/>", "mic": "<rect x=\"9\" y=\"3\" width=\"6\" height=\"11\" rx=\"3\"/><path d=\"M5 11a7 7 0 0 0 14 0M12 18v3\"/>", "home": "<path d=\"M3 11 12 4l9 7\"/><path d=\"M5 10v10h14V10\"/><path d=\"M10 20v-5h4v5\"/>", "umbrella": "<path d=\"M3 12a9 9 0 0 1 18 0z\"/><path d=\"M12 12v7a2 2 0 0 1-4 0\"/>", "sprout": "<path d=\"M12 21v-8\"/><path d=\"M12 13c0-4 3-7 8-7 0 4-3 7-8 7z\"/><path d=\"M12 13c0-3-2-5-6-5 0 3 2 5 6 5z\"/>", "percent": "<circle cx=\"7\" cy=\"7\" r=\"2.5\"/><circle cx=\"17\" cy=\"17\" r=\"2.5\"/><path d=\"M19 5 5 19\"/>", "pie": "<path d=\"M12 3a9 9 0 1 0 9 9h-9z\"/><path d=\"M15 3.5A9 9 0 0 1 20.5 9H15z\"/>", "wallet": "<path d=\"M3 7h16a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z\"/><path d=\"M3 7V6a2 2 0 0 1 2-2h11\"/><circle cx=\"16.5\" cy=\"13.5\" r=\"1.2\"/>", "check": "<path d=\"m5 12 5 5 9-10\"/>", "clock": "<circle cx=\"12\" cy=\"12\" r=\"9\"/><path d=\"M12 7v5l3 2\"/>", "play": "<path d=\"M8 5.5v13l10.5-6.5z\" fill=\"currentColor\" stroke=\"none\"/>", "spark": "<path d=\"M12 3v4M12 17v4M3 12h4M17 12h4M6 6l2.5 2.5M15.5 15.5 18 18M6 18l2.5-2.5M15.5 8.5 18 6\"/>"};
+function ic(n,s){return'<svg class="i" viewBox="0 0 24 24" width="'+(s||20)+'" height="'+(s||20)+'" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">'+IC[n]+'</svg>';}
 // Port of ask_guard._norm / topic_key / route. Kept honest by the parity check below.
 var LEAD=[/^(can you |could you |please )?(tell me|teach me|explain|describe|define)( me)?( all)?( about| what| how| the)?\b/,
  /^what (is|are|does|do)( a| an| the)?\b/,/^how (does|do)( a| an| the)?\b/,/^whats\b/,/^what's\b/,
@@ -209,24 +314,34 @@ function route(q){var key=topicKey(q);if(!key)return{a:'live',t:null,key:key,why
  D.topics.forEach(function(t){var tw=words(t.key),s=kw.filter(function(w){return tw.indexOf(w)>=0}).length;
   if(s>ov&&s>=Math.max(1,tw.length-1)){best=t;ov=s;}});
  return{a:'live',t:best,key:key,why:best?'a different question about a written topic':'no written page covers this'};}
+// A held page is not published, so on the live site its question gets a live answer.
+function served(r){if(r.a==='page'&&r.t.note&&r.t.note.hold_publish)
+ return{a:'live',t:r.t,key:r.key,held:true,why:'a written page exists but is HELD (out of date), so this gets a live answer, as it would on the live site'};
+ return r;}
 function esc(s){return(s||'').replace(/[&<>"]/g,function(c){return{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]});}
-// Citation markers are stripped from the stream but the space before them is not,
-// leaving "the budget changes .". Cleaned on the whole text rather than per chunk,
-// because a chunk boundary can fall between the space and the full stop.
 function tidy(t){return t.replace(/[ \t]+([.,;:!?)])/g,'$1').replace(/[ \t]{2,}/g,' ');}
 function paras(t){return tidy(t).split('\n').filter(function(x){return x.trim()}).map(function(x){return'<p>'+esc(x)+'</p>'}).join('');}
-function epCards(eps){return'<div class="eps2">'+(eps||[]).map(function(e){
- var m=e.moment,link=(m&&m.url)||e.url,meta=[e.show,e.year||(e.date||'').slice(0,4),e.mins?e.mins+' min':''].filter(Boolean).join(' · ');
- return'<a href="'+esc(link)+'" target="_blank">'+(e.thumb?'<img src="'+esc(e.thumb)+'" alt="">':'<span class="nt">'+esc(e.show)+'</span>')+
- '<span><span class="t">'+esc(e.title)+'</span><span class="m">'+esc(meta)+'</span>'+
- '<span class="j">▶ '+(m?'Jump to <b>'+esc(m.label)+'</b>':'Listen')+'</span></span></a>';}).join('')+'</div>';}
-function noteBox(n,lead){if(!n)return'';var src=(n.sources||[]).map(function(x){return'<a target="_blank" href="'+esc(x.url)+'">'+esc(x.label)+'</a>'}).join(' \u00b7 ');
- return'<div class="note2"><div class="nh"><span class="nt">'+esc(lead||n.title)+'</span><span class="nd">Checked '+esc(n.checked)+'</span></div>'+
- '<p>'+esc(n.text)+'</p><p class="ns">Equity Mates editorial note, not from an episode. Sources: '+src+'</p></div>';}
+function epCards(eps){if(!eps||!eps.length)return'';
+ return'<div class="eph">'+ic('headphones',24)+'Hear it on Equity Mates</div><div class="epg">'+eps.map(function(e){
+ var m=e.moment,link=(m&&m.url)||e.url,yr=e.year||(e.date||'').slice(0,4);
+ var art=e.thumb?'<img src="'+esc(e.thumb.replace('mqdefault','hqdefault'))+'" alt="" loading="lazy"><span class="play"><span>'+ic('play',24)+'</span></span>'
+  :'<span class="tile">'+ic('mic',30)+esc(e.show)+'</span>';
+ return'<a class="epc" href="'+esc(link)+'" target="_blank"><span class="thumb">'+art+
+  (e.mins?'<span class="dur">'+ic('clock',13)+e.mins+' min</span>':'')+'</span>'+
+  '<span class="epb"><span class="sh">'+esc(e.show)+(yr?' · '+esc(yr):'')+'</span><span class="t">'+esc(e.title)+'</span>'+
+  '<span class="j">'+ic('arrow',14)+(m?'Jump to <b>'+esc(m.label)+'</b>':'Listen now')+'</span></span></a>';}).join('')+'</div>';}
+function side(r){var h='<div class="side">';
+ if(r.t&&!r.held&&r.a==='live')h+='<div class="box"><h4>'+ic('book',18)+'Read the full guide</h4><p>We have written a guide on this topic.</p><a class="go" href="#" data-q="'+esc(r.t.question)+'">'+esc(r.t.question)+ic('arrow',16)+'</a></div>';
+ h+='<div class="box"><h4>'+ic('shield',18)+'General information</h4><p>Drawn only from what has been said on Equity Mates. It does not take your circumstances into account.</p></div>';
+ h+='<div class="box navy"><h4>'+ic('spark',18)+'Want advice for you?</h4><p>The Equity Mates Advice Network connects you with a licensed adviser.</p><a class="go" href="https://equitymates.com/advice/" target="_blank">Find an adviser'+ic('arrow',16)+'</a></div>';
+ return h+'</div>';}
+function disc(){return'<div class="disc2">'+ic('shield',18)+'<div>General information only. It does not take your personal circumstances into account and is not a recommendation to buy or sell anything. Equity Mates Media operates under Australian Financial Services Licence 540697.</div></div>';}
 var R=document.getElementById('emq-result'),A=document.getElementById('emq-audit');
 function chip(s,l){return'<span class="f '+s+'">'+esc(l)+'</span>';}
-function renderAudit(){if(!LAST){A.querySelector('.body').innerHTML='<section class="muted">Search for something to see how it was handled.</section>';return;}
- var x=LAST,h='<section><h4>Routing</h4><div class="kv"><b>Decision</b><span>'+(x.r.a==='page'?'Pre-written page':'Live answer')+'</span>'+
+function noteBox(n){if(!n)return'';var src=(n.sources||[]).map(function(x){return'<a target="_blank" href="'+esc(x.url)+'">'+esc(x.label)+'</a>'}).join(' · ');
+ return'<div class="note2"><b>'+esc(n.title)+'</b> (checked '+esc(n.checked)+')<p>'+esc(n.text)+'</p><p>Sources: '+src+'</p></div>';}
+function renderAudit(){if(!LAST||!D){A.querySelector('.body').innerHTML='<section class="muted">Search for something to see how it was handled.</section>'+(D?'<section><h4>Routing self-check</h4>'+D.parityHtml+'</section>':'');return;}
+ var x=LAST,h='<section><h4>Routing</h4><div class="kv"><b>Decision</b><span>'+(x.r.a==='page'?'Written page':'Live answer')+'</span>'+
  '<b>Why</b><span>'+esc(x.r.why)+'</span><b>Your words reduce to</b><span><code>'+esc(x.r.key)+'</code></span>'+
  '<b>Matched topic</b><span>'+esc(x.r.t?x.r.t.question:'none')+'</span></div></section>';
  if(x.r.a==='page'){var t=x.r.t;
@@ -234,43 +349,53 @@ function renderAudit(){if(!LAST){A.querySelector('.body').innerHTML='<section cl
   '<p class="muted" style="margin:8px 0 0">WordPress draft: <a target="_blank" href="https://equitymates.com/?page_id='+t.page_id+'&preview=true">page '+t.page_id+'</a> (log in to preview)</p></section>'+
   '<section><h4>What the model read ('+t.sources.length+' passages)</h4><p class="muted" style="margin:0 0 8px">Check any claim in the answer against these.</p>'+
   t.sources.map(function(s){return'<details><summary>'+esc(s.filename)+' · '+s.score+'</summary><pre>'+esc(s.text)+'</pre></details>'}).join('')+'</section>';}
- else{h+='<section><h4>Live answer</h4><div class="kv"><b>Personal question</b><span>'+(x.personal?'yes, answered generally':'no')+'</span>'+
-  '<b>Advice audit</b><span>'+(x.flagged===null?'running':(x.flagged?'FLAGGED':'passed'))+'</span>'+
-  '<b>First words</b><span>'+(x.first?(x.first/1000).toFixed(1)+'s':'waiting')+'</span>'+
-  '<b>Complete</b><span>'+(x.total?(x.total/1000).toFixed(1)+'s':'streaming')+'</span>'+
-  '<b>Episodes cited</b><span>'+(x.eps?x.eps.length:'-')+'</span></div>'+
-  '<p class="muted" style="margin:10px 0 0">Live answers are not pre-reviewed. That is what this view is for.</p></section>';}
- // Currency notes are internal (Louis, 21 Oct 2026): shown here to the auditor, never
- // in the reader view. A live answer near a held topic shows that topic's note too.
+ else{var d=x.done||{};
+  h+='<section><h4>Live answer</h4><div class="kv"><b>Personal question</b><span>'+(x.personal===null?'checking':(x.personal?'yes, answered as the general version':'no'))+'</span>'+
+  '<b>Advice check</b><span>'+(!x.done?'running':(d.fallback?'FAILED twice, safe fallback shown':(d.retried?'failed first draft, rewritten, passed':'passed first time')))+'</span>'+
+  '<b>Served from cache</b><span>'+(!x.done?'-':(d.cached?'yes':'no'))+'</span>'+
+  '<b>Total time</b><span>'+(x.total?(x.total/1000).toFixed(1)+'s':'working')+'</span>'+
+  '<b>Episodes</b><span>'+(d.episodes?d.episodes.length:'-')+'</span></div>'+
+  '<p class="muted" style="margin:10px 0 0">Every live answer is checked before it is shown. Network proxies can hold the response until it is complete, so stage-by-stage progress may not show on the Betashares network.</p></section>';}
  var cn=x.r.t&&x.r.t.note;if(cn)h+='<section><h4>Currency note (internal only)</h4>'+
   (cn.hold_publish?chip('fail','HOLD: out of date, do not publish'):'')+noteBox(cn)+
   (cn.episode_idea?'<p><b>Episode worth making:</b> '+esc(cn.episode_idea)+'</p>':'')+'</section>';
  h+='<section><h4>Routing self-check</h4>'+D.parityHtml+'</section>';
  A.querySelector('.body').innerHTML=h;}
-function show(q){q=(q||'').trim();if(!q)return;var r=route(q);
- LAST={q:q,r:r,personal:null,flagged:null,first:null,total:null,eps:null};
- var head='<span class="route '+r.a+'">'+(r.a==='page'?'Pre-written page':'Live answer')+'</span><h2 class="rq">'+esc(q)+'</h2>';
- if(r.a==='page'){var t=r.t;R.innerHTML='<div class="wrap">'+head+'<div class="ans">'+paras(t.prose)+'</div>'+epCards(t.episodes)+'</div>';renderAudit();return;}
- // A live answer near a topic with a current-status note shows that note first: the
- // archive can be older than the law, and the reader should meet today's position.
- R.innerHTML='<div class="wrap">'+head+'<div class="ans cursor" id="emq-live"></div>'+
-  (r.t?'<div class="related">Related guide: <a href="#" data-q="'+esc(r.t.question)+'">'+esc(r.t.question)+'</a></div>':'')+'<div id="emq-eps"></div></div>';
- renderAudit();live(q);}
+var STEPS=[['search','Searching '+(window.EMQ_N||'1,815')+' episodes'],['book','Reading what was said'],['shield','Checking it is general information']];
+function stepsHtml(){return'<div class="steps">'+STEPS.map(function(s,i){return'<div class="step" data-s="'+i+'"><span class="dot">'+ic(s[0],15)+'</span>'+s[1]+'</div>'}).join('')+'</div>'+
+ '<div class="sk l"></div><div class="sk"></div><div class="sk" style="max-width:600px"></div><div class="sk" style="max-width:520px"></div>';}
+function setStep(n){[].forEach.call(document.querySelectorAll('.step'),function(el){var i=+el.getAttribute('data-s');
+ el.className='step'+(i<n?' done':(i===n?' on':''));if(i<n)el.querySelector('.dot').innerHTML=ic('check',15);});}
+function show(q){q=(q||'').trim();if(!q||!D)return;var r=served(route(q));
+ LAST={q:q,r:r,personal:null,done:null,total:null};
+ var head='<div class="rhead">'+(r.a==='page'?'<span class="pill page">'+ic('book',14)+'Written guide</span>':'<span class="pill live">'+ic('spark',14)+'Fresh answer</span>')+
+  '<span class="pill gen">'+ic('shield',14)+'General information</span></div><h2 class="rq">'+
+  esc(r.a==='page'?r.t.question:q.charAt(0).toUpperCase()+q.slice(1))+'</h2>';
+ R.style.display='block';
+ if(r.a==='page'){var t=r.t;R.innerHTML='<div class="wrap">'+head+'<div class="rgrid"><div><div class="ans">'+paras(t.prose)+'</div>'+epCards(t.episodes)+disc()+'</div>'+side(r)+'</div></div>';
+  renderAudit();R.scrollIntoView({behavior:'smooth'});return;}
+ R.innerHTML='<div class="wrap">'+head+'<div class="rgrid"><div><div id="emq-live">'+stepsHtml()+'</div><div id="emq-eps"></div><div id="emq-disc"></div></div>'+side(r)+'</div></div>';
+ setStep(0);renderAudit();R.scrollIntoView({behavior:'smooth'});live(q);}
 async function live(q){var S=LAST,box=document.getElementById('emq-live'),t0=performance.now(),text='';
+ // Timed fallback so the steps still move when a proxy holds back the server's stage events.
+ var tm=[setTimeout(function(){if(S===LAST&&!S.done)setStep(1)},1800),setTimeout(function(){if(S===LAST&&!S.done)setStep(2)},5200)];
  try{var res=await fetch('/api/ask',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({q:q})});
-  if(!res.ok){var b=await res.json().catch(function(){return{}});box.classList.remove('cursor');
-   box.innerHTML='<p>'+esc(b.error||('Error '+res.status))+'</p>';return;}
+  if(!res.ok){var b=await res.json().catch(function(){return{}});box.innerHTML='<div class="ans"><p>'+esc(b.error||('Error '+res.status))+'</p></div>';return;}
   var rd=res.body.getReader(),dec=new TextDecoder(),buf='';
   for(;;){var g=await rd.read();if(g.done)break;buf+=dec.decode(g.value,{stream:true});
    var ls=buf.split('\n');buf=ls.pop()||'';
    for(var i=0;i<ls.length;i++){var l=ls[i];if(l.indexOf('data:')!==0)continue;var e;try{e=JSON.parse(l.slice(5).trim())}catch(_){continue}
     if(S!==LAST)return;
     if(e.type==='start'){S.personal=e.personal;renderAudit();}
-    else if(e.type==='delta'){if(S.first===null){S.first=performance.now()-t0;renderAudit();}text+=e.text;box.innerHTML=paras(text);}
-    else if(e.type==='done'){S.flagged=e.flagged;S.eps=e.episodes;S.total=performance.now()-t0;box.classList.remove('cursor');
-     document.getElementById('emq-eps').innerHTML=epCards(e.episodes);renderAudit();}
-    else if(e.type==='error'){box.classList.remove('cursor');box.innerHTML+='<p><b>'+esc(e.message)+'</b></p>';}}}
- }catch(err){box.classList.remove('cursor');box.innerHTML='<p>Could not reach the answer service.</p>';}}
+    else if(e.type==='stage'){setStep({searching:0,writing:1,checking:2}[e.stage]||0);}
+    else if(e.type==='delta'){text+=e.text;}
+    else if(e.type==='done'){S.done=e;S.total=performance.now()-t0;setStep(3);
+     box.innerHTML='<div class="ans">'+paras(text)+'</div>';
+     document.getElementById('emq-eps').innerHTML=epCards(e.episodes);
+     document.getElementById('emq-disc').innerHTML=disc();renderAudit();}
+    else if(e.type==='error'){box.innerHTML='<div class="ans"><p><b>'+esc(e.message)+'</b></p></div>';}}}
+ }catch(err){box.innerHTML='<div class="ans"><p>Could not reach the answer service.</p></div>';}
+ finally{tm.forEach(clearTimeout);}}
 fetch('data.json').then(function(r){return r.json()}).then(function(d){D=d;
  var bad=d.parity.filter(function(p){var r=route(p.q);return r.a!==p.action||((r.t?r.t.question:null)!==p.topic)||r.key!==p.key;});
  d.parityHtml=bad.length?chip('fail','Browser routing differs from the Python rules on '+bad.length+' of '+d.parity.length)+
@@ -281,7 +406,10 @@ fetch('data.json').then(function(r){return r.json()}).then(function(d){D=d;
  var u=new URLSearchParams(location.search).get('q');if(u){document.getElementById('emq-q').value=u;show(u);}});
 document.getElementById('emq-form').addEventListener('submit',function(ev){ev.preventDefault();show(document.getElementById('emq-q').value);});
 document.addEventListener('click',function(ev){var b=ev.target.closest('[data-q]');if(b){ev.preventDefault();
- document.getElementById('emq-q').value=b.getAttribute('data-q');show(b.getAttribute('data-q'));window.scrollTo({top:0,behavior:'smooth'});}});
+ document.getElementById('emq-q').value=b.getAttribute('data-q');show(b.getAttribute('data-q'));}});
 document.getElementById('emq-toggle').addEventListener('click',function(){A.classList.toggle('on');});
+// Rotating examples in the empty search box, so a first-time reader sees what to ask.
+var EX=['What is debt recycling?','How do franking credits work?','Is an ETF better than a managed fund?','What happens to my super if I change jobs?','How does compound interest work?'],ei=0,inp=document.getElementById('emq-q');
+setInterval(function(){if(document.activeElement!==inp&&!inp.value){ei=(ei+1)%EX.length;inp.placeholder='Try "'+EX[ei]+'"';}},3200);
 })();
 </script></body></html>
