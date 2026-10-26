@@ -159,15 +159,30 @@
 .emq .trust li{display:flex;gap:8px;align-items:center;color:rgba(255,255,255,.7);font-size:13.5px;white-space:nowrap}
 .emq .trust .i{color:var(--coral)}
 .emq .photo{position:relative}
-.emq .photo img{width:100%;display:block;border-radius:22px;object-fit:cover;aspect-ratio:4/4.4;
- box-shadow:0 30px 70px rgba(0,0,0,.45)}
-.emq .photo .badge{position:absolute;left:-34px;bottom:30px;background:#fff;border-radius:16px;
- padding:16px 18px;box-shadow:0 18px 40px rgba(0,0,0,.3);display:grid;grid-template-columns:repeat(3,auto);gap:4px 20px}
-.emq .photo .badge b{font:900 22px/1 var(--disp);color:var(--navy);display:block}
-.emq .photo .badge span{font-size:11.5px;color:var(--mute);text-transform:uppercase;letter-spacing:1px}
+.emq .side-hero{position:relative}
+.emq .photo img{width:100%;display:block;border-radius:22px;object-fit:cover;aspect-ratio:5/4;
+ object-position:50% 28%;box-shadow:0 30px 70px rgba(0,0,0,.45)}
+/* A short note from the team, overlapping the bottom of the photo and inset on both sides, so
+   it sits inside the column instead of hanging off it the way the stats badge did. Signed by
+   the team, not by Bryce and Ren, so it does not put words in their mouths. */
+.emq .msg{position:relative;margin:-92px 22px 0;background:#fff;border-radius:18px;padding:20px 22px 18px;
+ box-shadow:0 20px 44px rgba(0,0,0,.32)}
+.emq .msg:before{content:"";position:absolute;left:0;top:18px;bottom:18px;width:4px;border-radius:0 4px 4px 0;
+ background:var(--coral)}
+.emq .msg p{margin:0;font-size:15px;line-height:1.6;color:var(--ink)}
+.emq .msg .sig{display:flex;gap:8px;align-items:center;margin-top:12px;font:800 13px var(--disp);
+ color:var(--navy)}
+.emq .msg .sig .i{color:var(--coral)}
 .emq .photo .tagline{position:absolute;right:18px;top:18px;background:rgba(24,38,59,.82);color:#fff;
  border-radius:999px;padding:8px 14px;font:600 13px var(--disp);display:flex;gap:8px;align-items:center;backdrop-filter:blur(6px)}
 .emq .photo .tagline .i{color:var(--coral)}
+/* After a search the hero shrinks to the search bar, so the answer is on screen rather
+   pushed below a full hero (Google and Perplexity behave the same way). */
+.emq.searched .hero2{padding:26px 0 30px}
+.emq.searched .hero2 .kicker,.emq.searched .hero2 h1,.emq.searched .hero2 .lede,
+.emq.searched .hero2 .popular,.emq.searched .hero2 .trust,.emq.searched .hero2 .side-hero{display:none}
+.emq.searched .hgrid2{grid-template-columns:1fr}
+.emq.searched .search2{margin-top:0;max-width:820px}
 /* topic browser (Robinhood Learn: hook + question + one-line answer) */
 .emq .browse{padding:84px 0 60px;background:#fff}
 .emq .bhead{display:flex;justify-content:space-between;align-items:flex-end;gap:30px;margin-bottom:34px}
@@ -329,6 +344,8 @@
    ran off a phone screen. min-width:0 lets every column shrink to the viewport. */
 .emq .hgrid2>*,.emq .rgrid>*,.emq .cats>*{min-width:0}
 @media(max-width:1020px){.emq .hgrid2,.emq .rgrid{grid-template-columns:1fr}.emq .trust li{white-space:normal}.emq .hero2{padding:40px 0 48px}.emq .search2{padding:6px 6px 6px 14px}.emq .search2 input{font-size:16px;padding:12px 8px}.emq .search2 button{padding:13px 16px}.emq .browse{padding:56px 0 40px}.emq .bhead h2{font-size:32px}.emq .cat{padding:22px 20px 14px}.emq .photo{display:none}
+ /* The photo is hidden on phones, so the note must not pull itself up over it. */
+ .emq .msg{margin:28px 0 0}
  .emq .cats,.emq .how .steps3{grid-template-columns:1fr}.emq .epg{grid-template-columns:1fr}
  .emq .epc.lead{grid-template-columns:1fr}.emq .epc.lead .thumb{aspect-ratio:16/9}
  .emq .side{position:static}.emq .bar2 nav{display:none}
@@ -343,8 +360,8 @@ text-align:center;padding:8px}</style></head><body>
 <header class="hero2"><div class="wrap hgrid2"><div>
 <p class="kicker"><svg class="i " viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5 11a7 7 0 0 0 14 0M12 18v3"/></svg>Ask Equity Mates</p>
 <h1>Ten years of answers, in <span class="hl">one search</span>.</h1>
-<p class="lede">Plain-English answers drawn from 1,815 episodes, each linked to the
-moment it was said.</p>
+<p class="lede">Plain-English answers from the Equity Mates archive, each linked to the moment
+it was said.</p>
 <form id="emq-form" class="search2"><svg class="i " viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg><input id="emq-q" type="search" autocomplete="off"
  placeholder="Try &quot;What is debt recycling?&quot;" aria-label="Ask a question">
 <button type="submit">Ask<svg class="i " viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button></form>
@@ -352,10 +369,14 @@ moment it was said.</p>
 <ul class="trust"><li><svg class="i " viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 15v-3a8 8 0 0 1 16 0v3"/><rect x="3" y="14" width="4" height="6" rx="1.5"/><rect x="17" y="14" width="4" height="6" rx="1.5"/></svg>1,815 episodes searched</li>
 <li><svg class="i " viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>Jump to the exact moment</li><li><svg class="i " viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l7 3v6c0 4.5-3 7.5-7 9-4-1.5-7-4.5-7-9V6z"/><path d="m9 12 2 2 4-4"/></svg>General information only</li></ul>
 </div>
-<div class="photo"><img src="https://equitymates.com/wp-content/uploads/2025/06/PXL_20230622_233527246.PORTRAIT2-1024x768.jpg" alt="Bryce and Ren from Equity Mates">
+<div class="side-hero"><div class="photo"><img src="https://equitymates.com/wp-content/uploads/2025/06/PXL_20230622_233527246.PORTRAIT2-1024x768.jpg" alt="Bryce and Ren from Equity Mates">
 <span class="tagline"><svg class="i " viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5 11a7 7 0 0 0 14 0M12 18v3"/></svg>Bryce &amp; Ren</span>
-<div class="badge"><div><b>1,815</b><span>Episodes</span></div><div><b>2017</b><span>Since</span></div>
-<div><b>10.1M</b><span>Words</span></div></div></div>
+</div>
+<div class="msg"><p>Hey Equity Mates community, we've covered a lot of ground over the years, so we
+built a search engine for you to dig through more than 1,800
+episodes of our content. Whether you're after a guide to ETFs or debt recycling, or just want to
+revisit some of our conversations, the choice is yours.</p>
+<span class="sig"><svg class="i " viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5 11a7 7 0 0 0 14 0M12 18v3"/></svg>The Equity Mates team</span></div></div>
 </div></header>
 <div id="emq-result" class="result" style="display:none"></div>
 <section class="browse"><div class="wrap"><div class="bhead"><div>
@@ -471,16 +492,16 @@ function stepsHtml(){return'<div class="steps">'+STEPS.map(function(s,i){return'
  '<div class="sk l"></div><div class="sk"></div><div class="sk" style="max-width:600px"></div><div class="sk" style="max-width:520px"></div>';}
 function setStep(n){[].forEach.call(document.querySelectorAll('.step'),function(el){var i=+el.getAttribute('data-s');
  el.className='step'+(i<n?' done':(i===n?' on':''));if(i<n)el.querySelector('.dot').innerHTML=ic('check',15);});}
-function home(){R.style.display='none';R.innerHTML='';LAST=null;renderAudit();window.scrollTo({top:0,behavior:'smooth'});}
-function show(q){q=(q||'').trim();if(!q||!D)return;var r=served(route(q));
+function home(){document.querySelector('.emq').classList.remove('searched');R.style.display='none';R.innerHTML='';LAST=null;renderAudit();window.scrollTo({top:0,behavior:'smooth'});}
+function show(q){q=(q||'').trim();if(!q||!D)return;var r=served(route(q));document.querySelector('.emq').classList.add('searched');
  LAST={q:q,r:r,personal:null,done:null,total:null};
  var title=r.a==='page'?r.t.question:q.charAt(0).toUpperCase()+q.slice(1);
  var head=crumbs(r)+'<h2 class="rq">'+esc(title)+'</h2>';
  R.style.display='block';
  if(r.a==='page'){var t=r.t;R.innerHTML='<div class="wrap">'+head+trust(t.episodes,'page',D.updated)+'<div class="rgrid"><div><div class="ans">'+paras(t.prose,subject(t.question))+'</div>'+epCards(t.episodes)+follow()+'</div>'+side(r)+'</div></div>';
-  renderAudit();R.scrollIntoView({behavior:'smooth'});return;}
+  renderAudit();window.scrollTo({top:0,behavior:'smooth'});return;}
  R.innerHTML='<div class="wrap">'+head+'<div id="emq-trow"></div><div class="rgrid"><div><div id="emq-live">'+stepsHtml()+'</div><div id="emq-eps"></div><div id="emq-follow"></div></div>'+side(r)+'</div></div>';
- setStep(0);renderAudit();R.scrollIntoView({behavior:'smooth'});live(q);}
+ setStep(0);renderAudit();window.scrollTo({top:0,behavior:'smooth'});live(q);}
 async function live(q){var S=LAST,box=document.getElementById('emq-live'),t0=performance.now(),text='';
  // Timed fallback so the steps still move when a proxy holds back the server's stage events.
  var tm=[setTimeout(function(){if(S===LAST&&!S.done)setStep(1)},1800),setTimeout(function(){if(S===LAST&&!S.done)setStep(2)},5200)];
