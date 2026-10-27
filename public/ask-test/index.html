@@ -167,6 +167,11 @@
    then matching episodes, then "ask this" for anything else. On an empty box it shows the
    most popular guides, the way Google shows trending searches on focus. */
 .emq .search2{position:relative}
+/* Inline completion (Google's grey text): a second input behind the real one, with the same
+   font and padding so the letters line up, showing what Tab or the right arrow will fill. */
+.emq .qwrap{flex:1;min-width:0;position:relative;display:flex}
+.emq .qwrap #emq-q{position:relative;z-index:1;width:100%}
+.emq .qwrap .ghost{position:absolute;inset:0;width:100%;color:#B5BFCB;pointer-events:none;-webkit-text-fill-color:#B5BFCB}
 .emq .sugg{position:absolute;left:0;right:0;top:calc(100% + 10px);background:#fff;border-radius:16px;
  box-shadow:0 24px 60px rgba(0,0,0,.30);padding:8px;z-index:30;text-align:left;max-height:70vh;overflow:auto}
 .emq .sugg[hidden]{display:none}
@@ -410,8 +415,9 @@ text-align:center;padding:8px}</style></head><body>
 <h1>Ten years of answers, in <span class="hl">one search</span>.</h1>
 <p class="lede">Plain-English answers from the Equity Mates archive, each linked to the moment
 it was said.</p>
-<form id="emq-form" class="search2"><svg class="i " viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg><input id="emq-q" type="search" autocomplete="off"
- placeholder="Try &quot;What is debt recycling?&quot;" aria-label="Ask a question">
+<form id="emq-form" class="search2"><svg class="i " viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg><span class="qwrap"><input id="emq-ghost" class="ghost"
+ type="text" tabindex="-1" readonly aria-hidden="true"><input id="emq-q" type="search" autocomplete="off"
+ placeholder="Try &quot;What is debt recycling?&quot;" aria-label="Ask a question"></span>
 <button type="submit">Ask<svg class="i " viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>
 <div id="emq-sugg" class="sugg" role="listbox" hidden></div></form>
 <div class="popular"><span><svg class="i " viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 17l6-6 4 4 8-8"/><path d="M15 7h6v6"/></svg>Popular</span><button type="button" data-q="What is an ETF?">ETFs</button><button type="button" data-q="How does superannuation work?">How super works</button><button type="button" data-q="What is diversification?">Diversification</button><button type="button" data-q="What is dollar cost averaging?">Dollar cost averaging</button><button type="button" data-q="What is an index fund?">Index funds</button><button type="button" data-q="What is a bear market?">Bear markets</button></div>
@@ -545,7 +551,7 @@ function stepsHtml(){return'<div class="steps">'+STEPS.map(function(s,i){return'
 function setStep(n){[].forEach.call(document.querySelectorAll('.step'),function(el){var i=+el.getAttribute('data-s');
  el.className='step'+(i<n?' done':(i===n?' on':''));if(i<n)el.querySelector('.dot').innerHTML=ic('check',15);});}
 function home(){document.querySelector('.emq').classList.remove('searched');R.style.display='none';R.innerHTML='';LAST=null;renderAudit();window.scrollTo({top:0,behavior:'smooth'});}
-function show(q){q=(q||'').trim();if(!q||!D)return;if(SG)SG.hidden=true;var r=served(route(q));document.querySelector('.emq').classList.add('searched');
+function show(q){q=(q||'').trim();if(!q||!D)return;if(SG){SG.hidden=true;GH.value='';}var r=served(route(q));document.querySelector('.emq').classList.add('searched');
  LAST={q:q,r:r,personal:null,done:null,total:null};
  var title=r.a==='page'?r.t.question:q.charAt(0).toUpperCase()+q.slice(1);
  var head=crumbs(r)+'<h2 class="rq">'+esc(title)+'</h2>';
@@ -593,23 +599,40 @@ function suggest(){var v=QI.value.trim(),qt=toks(v),h='';SI=[];SEL=-1;
   gs.forEach(function(t){h+=row('g','book',mk(t.question,qt),esc(t.category||''),'Guide');SI.push({k:'g',q:t.question});});}
  if(qt.length&&EPS&&EPS.length){var es=[];for(var i=0;i<EPS.length&&es.length<4;i++)if(hits(qt,EPS[i].t))es.push(EPS[i]);
   if(es.length){h+='<div class="gh">Episodes</div>';
-   es.forEach(function(e){h+=row('e','headphones',mk(e.t,qt),esc(e.s)+' \u00b7 '+esc(fmtDate(e.d)),'Listen');SI.push({k:'e',u:e.u});});}}
+   es.forEach(function(e){h+=row('e','headphones',mk(e.t,qt),esc(e.s)+' \u00b7 '+esc(fmtDate(e.d)),'Listen');SI.push({k:'e',u:e.u,t:e.t});});}}
  if(v.length>1){h+=row('a','search','Ask \u201c'+esc(v)+'\u201d','A fresh answer from the archive','');SI.push({k:'a',q:v});}
  SG.innerHTML=h;SG.hidden=!SI.length;}
+// Inline completion: the most popular guide whose question or label starts with what has
+// been typed, shown in grey after the caret. Only a true prefix, so the grey text always
+// continues the reader's own words rather than replacing them.
+var GH=document.getElementById('emq-ghost');
+function ghostFor(v){if(v.trim().length<2)return'';var lv=v.toLowerCase(),gs=guides();
+ for(var i=0;i<gs.length;i++){var c=[gs[i].label,gs[i].question];
+  for(var j=0;j<c.length;j++)if(c[j].length>v.length&&c[j].toLowerCase().indexOf(lv)===0)return v+c[j].slice(v.length);}
+ return'';}
+function ghost(){var v=QI.value,atEnd=QI.selectionStart===v.length;GH.value=(SEL<0&&atEnd&&document.activeElement===QI)?ghostFor(v):'';}
+// Tab fills the box without searching, like Google: the highlighted suggestion if there is
+// one, otherwise the grey completion. With nothing to fill, Tab moves focus as normal, so
+// keyboard users can still leave the box.
+function complete(){var s=SI[SEL],text=s&&(s.k==='g'?s.q:s.k==='e'?s.t:'')||GH.value;
+ if(!text||text===QI.value)return false;QI.value=text;suggest();ghost();return true;}
 function pick(i){var s=SI[i];if(!s)return;SG.hidden=true;
  if(s.k==='e'){window.open(s.u,'_blank');return;}QI.value=s.q;show(s.q);}
 function mark(n){var it=SG.querySelectorAll('.it');if(!it.length)return;SEL=(n+it.length)%it.length;
- [].forEach.call(it,function(el,i){el.classList.toggle('on',i===SEL)});it[SEL].scrollIntoView({block:'nearest'});}
-QI.addEventListener('focus',function(){loadEps();suggest();});
+ [].forEach.call(it,function(el,i){el.classList.toggle('on',i===SEL)});it[SEL].scrollIntoView({block:'nearest'});ghost();}
+QI.addEventListener('focus',function(){loadEps();suggest();ghost();});
 // Load on typing too: focus does not fire for every route into the box (autofill, a
 // window that was not focused), and without the episodes only guides would match.
-QI.addEventListener('input',function(){loadEps();suggest();});
-QI.addEventListener('keydown',function(e){if(SG.hidden)return;
+QI.addEventListener('input',function(){loadEps();suggest();ghost();});
+QI.addEventListener('keydown',function(e){
+ if(e.key==='Tab'&&!e.shiftKey){if(complete())e.preventDefault();return;}
+ if(e.key==='ArrowRight'&&GH.value&&QI.selectionStart===QI.value.length){e.preventDefault();complete();return;}
+ if(SG.hidden)return;
  if(e.key==='ArrowDown'){e.preventDefault();mark(SEL+1);}
  else if(e.key==='ArrowUp'){e.preventDefault();mark(SEL-1);}
  else if(e.key==='Escape'){SG.hidden=true;}
  else if(e.key==='Enter'&&SEL>=0){e.preventDefault();pick(SEL);}});
-QI.addEventListener('blur',function(){setTimeout(function(){SG.hidden=true},150);});
+QI.addEventListener('blur',function(){GH.value='';setTimeout(function(){SG.hidden=true},150);});
 // mousedown, not click: a click lands after the input's blur has already hidden the list.
 SG.addEventListener('mousedown',function(e){var it=e.target.closest('.it');if(it){e.preventDefault();pick(+it.getAttribute('data-i'));}});
 fetch('data.json').then(function(r){return r.json()}).then(function(d){D=d;
