@@ -30,12 +30,12 @@
 // Stamped at commit time so the config check says WHICH revision is live.
 // Without it, 'is the fix deployed yet' is unanswerable and every timing
 // measurement is ambiguous.
-const BUILD = 'two-step-2';
+const BUILD = 'two-step-3';
 const MODEL = 'gpt-5';
 const EFFORT = 'minimal';
 const SEARCH_RESULTS = 8;
 // Bump when the prompt or index changes, so stale cached answers are never served.
-const CACHE_VERSION = 'v2';
+const CACHE_VERSION = 'v3';
 const CACHE_DAYS = 7;
 const MAX_QUESTION = 300;      // characters; longer is abuse, not curiosity
 const RATE_LIMIT = 12;         // questions per IP per hour
@@ -129,6 +129,16 @@ Shape:
 - Then 3 to 4 paragraphs: how it works, the part people get wrong, and the main catch.
 - Between 220 and 300 words. No bullet lists, no headings.
 
+Scope, checked first:
+- This tool exists to lift financial literacy. It answers questions about money:
+  investing, shares, ETFs, super, property, tax, debt, budgeting, the economy, markets,
+  companies and what Equity Mates has said about any of these.
+- If the question is about anything else (jokes, funny or memorable moments, trivia,
+  sport, food, entertainment, celebrities, the hosts' personal lives, or general
+  knowledge unrelated to money), reply with exactly OUT_OF_SCOPE and nothing else.
+- A money question asked casually is still in scope ("what's the deal with Nvidia",
+  "favourite stocks Equity Mates has talked about").
+
 Rules:
 - Use ONLY what the transcripts say. If they do not cover it, say so plainly.
 - Do not invent statistics, dates or quotes, and do not repeat figures from a worked
@@ -156,6 +166,16 @@ const FALLBACK = `This one is better answered by a person. Equity Mates gives ge
 information only, and we could not answer this question without it reading like
 personal advice. The episodes below cover the topic, and the Equity Mates Advice Network
 can connect you with a licensed adviser who can look at your situation.`.replace(/\n/g, ' ');
+
+// Shown instead of an answer when a question is not about money. A fixed message, not a
+// model-written one: a 27 Oct sweep asked for the best pizza in Sydney and got "not
+// covered" followed by 273 words anyway, and "funniest thing said on Equity Mates" got a
+// confident answer with five episodes. The page renders this as its own card.
+const SCOPE_TITLE = "That one's a bit outside our lane";
+const SCOPE = `Ask Equity Mates is here to help lift Australia's financial literacy, so
+we've kept it focused on money: investing, super, property, tax and the markets, all
+answered from what's been said on the show. Ask us anything along those lines and we'll
+dig through the archive for you.`.replace(/\n/g, ' ');
 
 const cors = (origin) => ({
   'Access-Control-Allow-Origin': ALLOWED.includes(origin) ? origin : ALLOWED[0],
@@ -441,6 +461,14 @@ export async function onRequestPost(context) {
       await send({ type: 'stage', stage: 'writing' });
       const brief = personal ? PERSONAL_BRIEF : '';
       let text = await write(env, question, chunks, brief);
+      if (/^\W*OUT_OF_SCOPE\b/.test(text)) {
+        const meta = { episodes: [], offTopic: true, title: SCOPE_TITLE, fallback: false,
+          retried: false, personal };
+        if (!personal) await cachePut(env, key, { text: SCOPE, meta });
+        await send({ type: 'delta', text: SCOPE });
+        await send({ type: 'done', ...meta, cached: false, ms: Date.now() - t0 });
+        return;
+      }
       let flags = audit(text);
       let retried = false;
       if (flags.length) {

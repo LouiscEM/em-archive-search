@@ -340,6 +340,20 @@
 .emq .pills a.j:hover{background:var(--coral)}.emq .pills a.j:hover b{color:#fff}
 .emq .pills a.o{background:var(--soft);color:var(--navy)}.emq .pills a.o:hover{background:#E8ECF1}
 .emq .pills a.o .i{color:var(--coral)}
+/* scope message for off-topic questions */
+.emq .scope{display:flex;gap:20px;align-items:flex-start;background:var(--soft);border-radius:20px;
+ padding:30px 30px 26px;max-width:760px;margin:6px 0 8px}
+.emq .scope .si{flex:0 0 52px;height:52px;border-radius:16px;background:var(--navy);color:#fff;
+ display:flex;align-items:center;justify-content:center}
+.emq .scope h3{margin:2px 0 10px;font:800 24px/1.2 var(--disp);color:var(--navy);letter-spacing:-.3px}
+.emq .scope p{margin:0;font-size:17px;line-height:1.7;color:var(--ink)}
+.emq .scope .st{margin:20px 0 10px;font:800 12px var(--disp);letter-spacing:1.3px;text-transform:uppercase;color:var(--mute)}
+.emq .scope .chips{display:flex;flex-wrap:wrap;gap:8px}
+.emq .scope .chips button{display:inline-flex;gap:6px;align-items:center;background:#fff;border:1px solid var(--line);
+ border-radius:999px;padding:9px 15px;font:700 14px var(--disp);color:var(--navy);cursor:pointer;transition:.15s}
+.emq .scope .chips button .i{color:var(--coral)}
+.emq .scope .chips button:hover{border-color:var(--navy)}
+@media(max-width:600px){.emq .scope{flex-direction:column;padding:24px 22px}}
 /* follow-up */
 .emq .follow{margin:44px 0 0;background:var(--soft);border-radius:20px;padding:24px}
 .emq .follow b{display:block;font:800 18px var(--disp);color:var(--navy);margin-bottom:12px}
@@ -518,6 +532,12 @@ function side(r){var h='<div class="side">';
  h+='<div class="box"><h4>'+ic('shield',18)+'General information</h4><p>Drawn only from what has been said on Equity Mates. It does not take your circumstances into account.</p></div>';
  h+='<div class="box navy"><h4>'+ic('spark',18)+'Want advice for you?</h4><p>The Equity Mates Advice Network connects you with a licensed adviser.</p><a class="go" href="https://equitymates.com/advice/" target="_blank">Find an adviser'+ic('arrow',16)+'</a></div>';
  return h+'</div>';}
+// Off-topic questions get the scope message as its own card, with no "Fresh answer" or
+// "Checked" badges and no episodes: there is no answer to vouch for.
+function scopeCard(title,text){var gs=guides().slice(0,4);
+ return'<div class="scope"><span class="si">'+ic('book',24)+'</span><div><h3>'+esc(title)+'</h3><p>'+esc(text)+'</p>'+
+  (gs.length?'<p class="st">Popular places to start</p><div class="chips">'+gs.map(function(t){return'<button type="button" data-q="'+esc(t.question)+'">'+esc(t.label)+ic('arrow',14)+'</button>'}).join('')+'</div>':'')+
+  '</div></div>';}
 function follow(){return'<div class="follow"><b>Ask a follow-up</b><form class="fu"><input type="search" placeholder="e.g. How is that different from an offset account?" aria-label="Ask a follow-up"><button type="submit">Ask'+ic('arrow',16)+'</button></form></div>'+
  '<div class="disc2">'+ic('shield',18)+'<div>General information only. It does not take your personal circumstances into account and is not a recommendation to buy or sell anything. Equity Mates Media operates under Australian Financial Services Licence 540697.</div></div>';}
 var R=document.getElementById('emq-result'),A=document.getElementById('emq-audit');
@@ -535,7 +555,8 @@ function renderAudit(){if(!LAST||!D){A.querySelector('.body').innerHTML='<sectio
   t.sources.map(function(s){return'<details><summary>'+esc(s.filename)+' \u00b7 '+s.score+'</summary><pre>'+esc(s.text)+'</pre></details>'}).join('')+'</section>';}
  else{var d=x.done||{};
   h+='<section><h4>Live answer</h4><div class="kv"><b>Personal question</b><span>'+(x.personal===null?'checking':(x.personal?'yes, answered as the general version':'no'))+'</span>'+
-  '<b>Advice check</b><span>'+(!x.done?'running':(d.fallback?'FAILED twice, safe fallback shown':(d.retried?'failed first draft, rewritten, passed':'passed first time')))+'</span>'+
+  '<b>About money</b><span>'+(!x.done?'checking':(d.offTopic?'no, scope message shown, nothing written':'yes'))+'</span>'+
+  '<b>Advice check</b><span>'+(!x.done?'running':d.offTopic?'not needed':(d.fallback?'FAILED twice, safe fallback shown':(d.retried?'failed first draft, rewritten, passed':'passed first time')))+'</span>'+
   '<b>Served from cache</b><span>'+(!x.done?'-':(d.cached?'yes':'no'))+'</span>'+
   '<b>Total time</b><span>'+(x.total?(x.total/1000).toFixed(1)+'s':'working')+'</span>'+
   '<b>Episodes</b><span>'+(d.episodes?d.episodes.length:'-')+'</span></div>'+
@@ -573,6 +594,8 @@ async function live(q){var S=LAST,box=document.getElementById('emq-live'),t0=per
     if(e.type==='start'){S.personal=e.personal;renderAudit();}
     else if(e.type==='stage'){setStep({searching:0,writing:1,checking:2}[e.stage]||0);}
     else if(e.type==='delta'){text+=e.text;}
+    else if(e.type==='done'&&e.offTopic){S.done=e;S.total=performance.now()-t0;
+     box.innerHTML=scopeCard(e.title,text);document.getElementById('emq-follow').innerHTML=follow();renderAudit();}
     else if(e.type==='done'){S.done=e;S.total=performance.now()-t0;setStep(3);
      document.getElementById('emq-trow').innerHTML=trust(e.episodes,'live',new Date().toISOString());
      box.innerHTML='<div class="ans">'+paras(text,subject(q))+'</div>';
