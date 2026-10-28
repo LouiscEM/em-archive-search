@@ -9,8 +9,5 @@ binding = "DB"
 database_name = "em-search-engine"
 database_id = "c419d4fe-6d99-46bf-ae20-ddb4274e752d"
 
-# Workers AI powers the Ask tab: one call to turn the question into a vector, one to
-# judge the shortlist. Vectorize is deliberately not used, since it needs a paid plan;
-# the embeddings live in D1 instead and are ranked inside the Worker.
-[ai]
-binding = "AI"
+# The Workers AI binding was removed on 28 Oct 2026 with the old archive search, which
+# was its only user. Ask runs on OpenAI and keeps only ask_cache and ask_rate in D1.

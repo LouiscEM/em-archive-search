@@ -1,2 +1,3 @@
-# All routes are served by Functions; this file just keeps the public dir non-empty
-# so Pages has a build output directory to publish.
+# The old archive search that lived at / was retired on 28 Oct 2026. Send anyone with
+# the old link to the Ask test bed instead of a blank page. Still behind the password.
+/  /ask-test/  302
