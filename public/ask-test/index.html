@@ -154,30 +154,6 @@
  mask-image:radial-gradient(ellipse 75% 85% at 50% 40%,#000 25%,transparent 80%)}
 .emq .hero2>.wrap{position:relative;z-index:1}
 .emq .hero2 h1{max-width:none}
-/* Two example cards either side of the headline, showing the product before anyone types:
-   a real question, and the real episode moment it leads to. A matched pair (28 Oct 2026,
-   Louis: "could be done a bit neater"): same size and shape, no tilt, level with each
-   other, each a small visual on the left and three lines of text on the right. Desktop only;
-   on narrower screens they would crowd the search box. */
-.emq .fcard{position:absolute;top:64px;width:238px;display:grid;grid-template-columns:52px 1fr;gap:0 12px;
- align-items:center;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.13);
- -webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);border-radius:16px;padding:12px 14px 12px 12px;
- color:#fff;text-align:left;box-shadow:0 18px 44px rgba(0,0,0,.3);cursor:pointer;text-decoration:none;
- font-family:inherit;transition:background .2s,border-color .2s;animation:bob 8s ease-in-out infinite}
-.emq .fcard:hover{background:rgba(255,255,255,.1);border-color:rgba(255,255,255,.24)}
-@keyframes bob{50%{translate:0 -6px}}
-.emq .fq{left:0}
-.emq .fm{right:0;animation-delay:-4s}
-.emq .fcard .fv{width:52px;height:52px;border-radius:12px;overflow:hidden;display:flex;align-items:center;
- justify-content:center;background:rgba(241,89,89,.16);color:var(--coral)}
-.emq .fcard .fv img{width:100%;height:100%;object-fit:cover;display:block}
-.emq .fcard .fk{font:800 10px var(--disp);letter-spacing:1.4px;text-transform:uppercase;color:rgba(255,255,255,.55)}
-.emq .fcard b{margin:3px 0 4px;font:800 15px/1.25 var(--disp);letter-spacing:-.2px;
- display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
-.emq .fcard .fa{display:flex;gap:5px;align-items:center;font:700 12px var(--disp);color:var(--coral)}
-.emq.searched .fcard{display:none}
-@media(max-width:1279px){.emq .fcard{display:none}}
-@media(prefers-reduced-motion:reduce){.emq .fcard{animation:none}}
 .emq .search2{margin-top:38px;text-align:left;display:flex;align-items:center;background:#fff;border-radius:16px;
  padding:10px 10px 10px 22px;box-shadow:0 24px 60px rgba(0,0,0,.35);border:2px solid transparent;transition:.15s}
 .emq .search2:focus-within{border-color:var(--coral);box-shadow:0 24px 60px rgba(0,0,0,.35),0 0 0 6px rgba(241,89,89,.18)}
@@ -409,6 +385,41 @@
 .emq .pills a.j:hover{background:var(--coral)}.emq .pills a.j:hover b{color:#fff}
 .emq .pills a.o{background:var(--soft);color:var(--navy)}.emq .pills a.o:hover{background:#E8ECF1}
 .emq .pills a.o .i{color:var(--coral)}
+/* Answer page, pared back (28 Oct 2026, Louis): only the question, the answer and the
+   episodes. The hero, search box and landing sections are hidden; the follow-up box floats
+   at the bottom; the episodes sit on the right and stay in view while reading. */
+.emq.searched>header.hero2,.emq.searched>section{display:none}
+.emq.searched .result{padding:48px 0 150px}
+.emq.searched .rgrid{grid-template-columns:minmax(0,1fr) 380px;gap:56px;margin-top:30px}
+.emq .rside{position:sticky;top:20px}
+.emq .rside .eph{margin:0 0 14px;font-size:18px}
+.emq .epl{display:grid;gap:12px}
+.emq .epr{display:grid;grid-template-columns:128px 1fr;gap:14px;align-items:start;background:#fff;
+ border:1px solid var(--line);border-radius:14px;padding:10px;transition:.2s}
+.emq .epr:hover{border-color:#C9D1DB;box-shadow:0 12px 28px rgba(24,38,59,.08)}
+.emq .epr>*{min-width:0}
+.emq .epr .thumb{border-radius:10px;aspect-ratio:16/9}
+.emq .epr .thumb .play span{width:32px;height:32px}
+.emq .epr .sh{display:block;color:var(--coral);font:800 10.5px var(--disp);letter-spacing:1.1px;text-transform:uppercase;
+ white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.emq .epr .t{margin-top:3px;color:var(--navy);font:800 14px/1.3 var(--disp);text-decoration:none;
+ display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.emq .epr .t:hover{text-decoration:underline;text-decoration-color:var(--coral)}
+.emq .epr .pills{margin-top:8px;gap:6px}
+.emq .epr .pills a{padding:5px 9px;font-size:12px;border-radius:8px}
+.emq .disc2 a{color:var(--navy);font-weight:600}
+.emq .fbar{position:fixed;left:50%;bottom:22px;transform:translateX(-50%);width:min(720px,calc(100% - 32px));z-index:25;
+ display:flex;gap:10px;align-items:center;background:#fff;border-radius:16px;padding:8px 8px 8px 18px;
+ border:2px solid var(--line);box-shadow:0 18px 50px rgba(24,38,59,.22);margin:0}
+.emq .fbar:focus-within{border-color:var(--coral)}
+.emq .fbar>.i{color:var(--mute)}
+.emq .fbar input{flex:1;border:0;outline:0;font:16px 'Open Sans',Arial,sans-serif;padding:12px 0;min-width:0;background:transparent;color:var(--navy)}
+.emq .fbar button{border:0;background:var(--navy);color:#fff;border-radius:11px;padding:12px 18px;font:700 15px var(--disp);
+ display:flex;gap:6px;align-items:center;cursor:pointer;transition:.15s}
+.emq .fbar button:hover{background:var(--coral)}
+.emq.searched~.audit-toggle{bottom:96px}
+@media(max-width:1020px){.emq.searched .rgrid{grid-template-columns:1fr;gap:34px}.emq .rside{position:static}
+ .emq.searched .result{padding:28px 0 130px}.emq .fbar{bottom:12px}}
 /* scope message for off-topic questions */
 .emq .scope{display:flex;gap:20px;align-items:flex-start;background:var(--soft);border-radius:20px;
  padding:30px 30px 26px;max-width:760px;margin:6px 0 8px}
@@ -521,7 +532,7 @@ it was said.</p>
 <div class="popular"><span><svg class="i " viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 17l6-6 4 4 8-8"/><path d="M15 7h6v6"/></svg>Popular</span><button type="button" data-q="What is an ETF?">ETFs</button><button type="button" data-q="How does superannuation work?">How super works</button><button type="button" data-q="What is diversification?">Diversification</button><button type="button" data-q="What is dollar cost averaging?">Dollar cost averaging</button><button type="button" data-q="What is an index fund?">Index funds</button><button type="button" data-q="What is a bear market?">Bear markets</button></div>
 <ul class="trust"><li><svg class="i " viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 15v-3a8 8 0 0 1 16 0v3"/><rect x="3" y="14" width="4" height="6" rx="1.5"/><rect x="17" y="14" width="4" height="6" rx="1.5"/></svg>1,848 episodes searched</li>
 <li><svg class="i " viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>Jump to the exact moment</li><li><svg class="i " viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l7 3v6c0 4.5-3 7.5-7 9-4-1.5-7-4.5-7-9V6z"/><path d="m9 12 2 2 4-4"/></svg>General information only</li></ul>
-</div><button type="button" class="fcard fq" data-q="What is debt recycling?"><span class="fv"><svg class="i " viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg></span><span><span class="fk">You ask</span><b>What is debt recycling?</b><span class="fa"><svg class="i " viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 5 5 9-10"/></svg>From 3 episodes</span></span></button><a class="fcard fm" href="https://www.youtube.com/watch?v=wLEcAmJtS0w&amp;t=103s" target="_blank"><span class="fv"><img src="https://i.ytimg.com/vi/wLEcAmJtS0w/hqdefault.jpg" alt="" loading="lazy"></span><span><span class="fk">Hear the moment</span><b>Ask an Adviser: Debt Recycling</b><span class="fa"><svg class="i " viewBox="0 0 24 24" width="12" height="12" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5z" fill="currentColor" stroke="none"/></svg>Jump to 1:43</span></span></a></div></header>
+</div></div></header>
 <div id="emq-result" class="result" style="display:none"></div>
 <section class="shelf"><div class="wrap"><div class="bhead"><div><p class="kicker" style="color:#F15959">Fresh off the mic</p><h2>New on Equity Mates.</h2></div><div class="nav"><button type="button" class="back" data-shelf="-1" aria-label="Scroll back"><svg class="i " viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 6 6 6-6 6"/></svg></button><button type="button" data-shelf="1" aria-label="Scroll forward"><svg class="i " viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 6 6 6-6 6"/></svg></button></div></div><div class="row" id="emq-row"><a class="ne" href="https://equitymates.com/episode/regulators-circle-managed-accounts-but-are-fears-overblown/" target="_blank"><span class="thumb"><img src="https://i.ytimg.com/vi/cqMtA74gQk0/hqdefault.jpg" alt="" loading="lazy"><span class="play"><span><svg class="i " viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5z" fill="currentColor" stroke="none"/></svg></span></span><span class="dur"><svg class="i " viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>34 min</span></span><span class="sh">Basis Points</span><span class="t">Regulators circle managed accounts, but are fears overblown?</span><span class="when">28 Oct 2026</span></a><a class="ne" href="https://equitymates.com/episode/can-i-replace-my-salary-with-dividends-i-ask-someone-who-did/" target="_blank"><span class="thumb"><img src="https://i.ytimg.com/vi/W2jzvNEVv9c/hqdefault.jpg" alt="" loading="lazy"><span class="play"><span><svg class="i " viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5z" fill="currentColor" stroke="none"/></svg></span></span><span class="dur"><svg class="i " viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>34 min</span></span><span class="sh">Get Started Investing</span><span class="t">Can I replace my salary with dividends? I ask someone who did</span><span class="when">27 Oct 2026</span></a><a class="ne" href="https://equitymates.com/episode/searching-for-predictability-in-an-unpredictable-market-with-warryn-robertson/" target="_blank"><span class="thumb"><img src="https://i.ytimg.com/vi/Ha0_OjMbYsU/hqdefault.jpg" alt="" loading="lazy"><span class="play"><span><svg class="i " viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5z" fill="currentColor" stroke="none"/></svg></span></span><span class="dur"><svg class="i " viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>43 min</span></span><span class="sh">Equity Mates Investing Podcast</span><span class="t">Searching for predictability in an unpredictable market with Warryn Robertson</span><span class="when">27 Oct 2026</span></a><a class="ne" href="https://equitymates.com/episode/data-centre-backlash-grows-the-latest-on-our-community-portfolio-pimp-my-portfolio-with-henry-jennings/" target="_blank"><span class="thumb"><img src="https://i.ytimg.com/vi/giRilawtx7A/hqdefault.jpg" alt="" loading="lazy"><span class="play"><span><svg class="i " viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5z" fill="currentColor" stroke="none"/></svg></span></span><span class="dur"><svg class="i " viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>33 min</span></span><span class="sh">Equity Mates Investing Podcast</span><span class="t">Data centre backlash grows, the latest on our Community Portfolio &amp; Pimp my Portfolio with Henry Jennings</span><span class="when">26 Oct 2026</span></a><a class="ne" href="https://equitymates.com/episode/we-asked-ai-to-pick-asx-growth-stocks/" target="_blank"><span class="thumb"><img src="https://i.ytimg.com/vi/GnNmAnpfmzs/hqdefault.jpg" alt="" loading="lazy"><span class="play"><span><svg class="i " viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5z" fill="currentColor" stroke="none"/></svg></span></span><span class="dur"><svg class="i " viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>19 min</span></span><span class="sh">Buy or Sell</span><span class="t">We asked ChatGPT, Claude and Gemini to pick ASX growth stocks</span><span class="when">23 Oct 2026</span></a><a class="ne" href="https://equitymates.com/episode/momentum-market-concentration-two-out-of-favour-stocks-with-matt-jones/" target="_blank"><span class="thumb"><img src="https://i.ytimg.com/vi/LXi5qmvgACs/hqdefault.jpg" alt="" loading="lazy"><span class="play"><span><svg class="i " viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5z" fill="currentColor" stroke="none"/></svg></span></span><span class="dur"><svg class="i " viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>43 min</span></span><span class="sh">Equity Mates Investing Podcast</span><span class="t">Momentum, market concentration &amp; two out-of-favour stocks with Matt Jones</span><span class="when">23 Oct 2026</span></a><a class="ne" href="https://equitymates.com/episode/from-maxing-out-credit-cards-in-his-20s-to-building-a-100k-portfolio-by-32/" target="_blank"><span class="thumb"><img src="https://i.ytimg.com/vi/nV2kLej0qWk/hqdefault.jpg" alt="" loading="lazy"><span class="play"><span><svg class="i " viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5z" fill="currentColor" stroke="none"/></svg></span></span><span class="dur"><svg class="i " viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>28 min</span></span><span class="sh">Get Started Investing</span><span class="t">From maxing out credit cards in his 20’s to building a $100K portfolio by 32</span><span class="when">22 Oct 2026</span></a><a class="ne" href="https://equitymates.com/episode/teslas-flying-car-the-ai-booms-biggest-question-how-to-survive-a-market-crash/" target="_blank"><span class="thumb"><img src="https://i.ytimg.com/vi/BYOi9edWe-A/hqdefault.jpg" alt="" loading="lazy"><span class="play"><span><svg class="i " viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5z" fill="currentColor" stroke="none"/></svg></span></span><span class="dur"><svg class="i " viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>30 min</span></span><span class="sh">Equity Mates Investing Podcast</span><span class="t">Tesla’s flying car, the AI boom’s biggest question &amp; how to survive a market crash</span><span class="when">22 Oct 2026</span></a></div></div></section>
 <section class="guides"><div class="wrap"><div class="bhead"><div>
@@ -613,9 +624,17 @@ function epCard(e,lead){var m=e.moment,yr=e.year||(e.date||'').slice(0,4);
   (lead?'<span class="start">Start here</span>':'')+(e.mins?'<span class="dur">'+ic('clock',13)+e.mins+' min</span>':'')+'</a>'+
   '<div class="epb"><span class="sh">'+esc(e.show)+(yr?' \u00b7 '+esc(yr):'')+'</span><a class="t" href="'+esc(e.url)+'" target="_blank">'+esc(e.title)+'</a>'+
   '<div class="pills">'+pills+'</div></div></div>';}
+// Episodes sit in the right-hand column as compact rows: art, show, title, jump and listen.
+function epRow(e){var m=e.moment,yr=e.year||(e.date||'').slice(0,4),watch=(m&&m.url)||e.youtube||e.url;
+ var art=e.thumb?'<img src="'+esc(e.thumb.replace('mqdefault','hqdefault'))+'" alt="" loading="lazy"><span class="play"><span>'+ic('play',16)+'</span></span>'
+  :'<span class="tile">'+ic('mic',22)+'</span>';
+ return'<div class="epr"><a class="thumb" href="'+esc(watch)+'" target="_blank">'+art+'</a><div>'+
+  '<span class="sh">'+esc(e.show)+(yr?' \u00b7 '+esc(yr):'')+'</span><a class="t" href="'+esc(e.url)+'" target="_blank">'+esc(e.title)+'</a>'+
+  '<div class="pills">'+(m?'<a class="j" href="'+esc(m.url)+'" target="_blank">'+ic('play',12)+'Jump to <b>'+esc(m.label)+'</b></a>':'')+
+  '<a class="o" href="'+esc(e.url)+'" target="_blank">'+ic('headphones',13)+'Listen</a></div></div></div>';}
 function epCards(eps){if(!eps||!eps.length)return'';
- return'<div class="eph">'+ic('headphones',26)+'Hear it on Equity Mates</div><div class="epg">'+
-  eps.slice(0,5).map(function(e,i){return epCard(e,i===0)}).join('')+'</div>';}
+ return'<div class="eph">'+ic('headphones',20)+'Hear it on Equity Mates</div><div class="epl">'+
+  eps.slice(0,5).map(epRow).join('')+'</div>';}
 function trust(eps,kind,date){var thumbs=(eps||[]).slice(0,4).map(function(e){return e.thumb?'<img src="'+esc(e.thumb)+'" alt="">':'<i></i>'}).join('');
  return'<div class="trow">'+(kind==='page'?'<span class="kind page">'+ic('book',14)+'Written guide</span>':'<span class="kind live">'+ic('spark',14)+'Fresh answer</span>')+
   '<span class="stack"><span class="av">'+thumbs+'</span>Drawn from '+((eps||[]).length||'Equity Mates')+' episode'+((eps||[]).length===1?'':'s')+'</span>'+
@@ -635,8 +654,12 @@ function scopeCard(title,text){var gs=guides().slice(0,4);
  return'<div class="scope"><span class="si">'+ic('book',24)+'</span><div><h3>'+esc(title)+'</h3><p>'+esc(text)+'</p>'+
   (gs.length?'<p class="st">Popular places to start</p><div class="chips">'+gs.map(function(t){return'<button type="button" data-q="'+esc(t.question)+'">'+esc(t.label)+ic('arrow',14)+'</button>'}).join('')+'</div>':'')+
   '</div></div>';}
-function follow(){return'<div class="follow"><b>Ask a follow-up</b><form class="fu"><input type="search" placeholder="e.g. How is that different from an offset account?" aria-label="Ask a follow-up"><button type="submit">Ask'+ic('arrow',16)+'</button></form></div>'+
- '<div class="disc2">'+ic('shield',18)+'<div>General information only. It does not take your personal circumstances into account and is not a recommendation to buy or sell anything. Equity Mates Media operates under Australian Financial Services Licence 540697.</div></div>';}
+// The follow-up box floats at the bottom of the screen, so the next question is always one
+// tap away and the page itself can be just the question, the answer and the episodes.
+function follow(){return'<form class="fu fbar">'+ic('search',20)+'<input type="search" placeholder="Ask a follow-up question" aria-label="Ask a follow-up question"><button type="submit">Ask'+ic('arrow',16)+'</button></form>';}
+// The general advice warning stays on every answer: Equity Mates holds a general licence
+// only (AFSL 540697), so this line is not optional even on the pared-back page.
+function disc(){return'<div class="disc2">'+ic('shield',16)+'<div>General information only. It does not take your personal circumstances into account and is not a recommendation to buy or sell anything. Equity Mates Media operates under AFSL 540697. <a href="https://equitymates.com/advice/" target="_blank">Find a licensed adviser</a></div></div>';}
 var R=document.getElementById('emq-result'),A=document.getElementById('emq-audit');
 function chip(s,l){return'<span class="f '+s+'">'+esc(l)+'</span>';}
 function noteBox(n){if(!n)return'';var src=(n.sources||[]).map(function(x){return'<a target="_blank" href="'+esc(x.url)+'">'+esc(x.label)+'</a>'}).join(' \u00b7 ');
@@ -672,11 +695,11 @@ function home(){document.querySelector('.emq').classList.remove('searched');R.st
 function show(q){q=(q||'').trim();if(!q||!D)return;if(SG){SG.hidden=true;GH.value='';}var r=served(route(q));document.querySelector('.emq').classList.add('searched');
  LAST={q:q,r:r,personal:null,done:null,total:null};
  var title=r.a==='page'?r.t.question:q.charAt(0).toUpperCase()+q.slice(1);
- var head=crumbs(r)+'<h2 class="rq">'+esc(title)+'</h2>';
+ var head='<h2 class="rq">'+esc(title)+'</h2>';
  R.style.display='block';
- if(r.a==='page'){var t=r.t;R.innerHTML='<div class="wrap">'+head+trust(t.episodes,'page',D.updated)+'<div class="rgrid"><div><div class="ans">'+paras(t.prose,subject(t.question))+'</div>'+epCards(t.episodes)+follow()+'</div>'+side(r)+'</div></div>';
+ if(r.a==='page'){var t=r.t;R.innerHTML='<div class="wrap">'+head+'<div class="rgrid"><div><div class="ans">'+paras(t.prose,subject(t.question))+'</div>'+disc()+'</div><aside class="rside">'+epCards(t.episodes)+'</aside></div></div>'+follow();
   renderAudit();window.scrollTo({top:0,behavior:'smooth'});return;}
- R.innerHTML='<div class="wrap">'+head+'<div id="emq-trow"></div><div class="rgrid"><div><div id="emq-live">'+stepsHtml()+'</div><div id="emq-eps"></div><div id="emq-follow"></div></div>'+side(r)+'</div></div>';
+ R.innerHTML='<div class="wrap">'+head+'<div class="rgrid"><div><div id="emq-live">'+stepsHtml()+'</div></div><aside class="rside" id="emq-eps"></aside></div></div>'+follow();
  setStep(0);renderAudit();window.scrollTo({top:0,behavior:'smooth'});live(q);}
 async function live(q){var S=LAST,box=document.getElementById('emq-live'),t0=performance.now(),text='';
  // Timed fallback so the steps still move when a proxy holds back the server's stage events.
@@ -692,12 +715,10 @@ async function live(q){var S=LAST,box=document.getElementById('emq-live'),t0=per
     else if(e.type==='stage'){setStep({searching:0,writing:1,checking:2}[e.stage]||0);}
     else if(e.type==='delta'){text+=e.text;}
     else if(e.type==='done'&&e.offTopic){S.done=e;S.total=performance.now()-t0;
-     box.innerHTML=scopeCard(e.title,text);document.getElementById('emq-follow').innerHTML=follow();renderAudit();}
+     box.innerHTML=scopeCard(e.title,text);renderAudit();}
     else if(e.type==='done'){S.done=e;S.total=performance.now()-t0;setStep(3);
-     document.getElementById('emq-trow').innerHTML=trust(e.episodes,'live',new Date().toISOString());
-     box.innerHTML='<div class="ans">'+paras(text,subject(q))+'</div>';
-     document.getElementById('emq-eps').innerHTML=epCards(e.episodes);
-     document.getElementById('emq-follow').innerHTML=follow();renderAudit();}
+     box.innerHTML='<div class="ans">'+paras(text,subject(q))+'</div>'+disc();
+     document.getElementById('emq-eps').innerHTML=epCards(e.episodes);renderAudit();}
     else if(e.type==='error'){box.innerHTML='<div class="ans"><p><b>'+esc(e.message)+'</b></p></div>';}}}
  }catch(err){box.innerHTML='<div class="ans"><p>Could not reach the answer service.</p></div>';}
  finally{tm.forEach(clearTimeout);}}
