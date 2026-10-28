@@ -674,7 +674,7 @@ function side(r){var h='<div class="side">';
  return h+'</div>';}
 // Off-topic questions get the scope message as its own card, with no "Fresh answer" or
 // "Checked" badges and no episodes: there is no answer to vouch for.
-function scopeCard(title,text){var gs=guides().slice(0,4);
+function scopeCard(title,text,kind){var gs=kind==='CRISIS'?[]:guides().slice(0,4);
  return'<div class="scope"><span class="si">'+ic('book',24)+'</span><div><h3>'+esc(title)+'</h3><p>'+esc(text)+'</p>'+
   (gs.length?'<p class="st">Popular places to start</p><div class="chips">'+gs.map(function(t){return'<button type="button" data-q="'+esc(t.question)+'">'+esc(t.label)+ic('arrow',14)+'</button>'}).join('')+'</div>':'')+
   '</div></div>';}
@@ -699,7 +699,7 @@ function renderAudit(){if(!LAST||!D){A.querySelector('.body').innerHTML='<sectio
   t.sources.map(function(s){return'<details><summary>'+esc(s.filename)+' \u00b7 '+s.score+'</summary><pre>'+esc(s.text)+'</pre></details>'}).join('')+'</section>';}
  else{var d=x.done||{};
   h+='<section><h4>Live answer</h4><div class="kv">'+(x.asked?'<b>Read as</b><span>'+esc(x.asked)+'</span>':'')+'<b>Personal question</b><span>'+(x.personal===null?'checking':(x.personal?'yes, answered as the general version':'no'))+'</span>'+
-  '<b>About money</b><span>'+(!x.done?'checking':(d.offTopic?'no, scope message shown, nothing written':'yes'))+'</span>'+
+  '<b>Gate</b><span>'+(!x.done?'checking':(d.offTopic?'blocked as '+esc(d.kind||'OFF_TOPIC')+', fixed message shown, nothing written':'IN, answered'))+'</span>'+
   '<b>Advice check</b><span>'+(!x.done?'running':d.offTopic?'not needed':(d.fallback?'FAILED twice, safe fallback shown':(d.retried?'failed first draft, rewritten, passed':'passed first time')))+'</span>'+
   '<b>Served from cache</b><span>'+(!x.done?'-':(d.reused?'yes, reused':(d.cached?'yes':'no')))+'</span>'+
   (d.reused?'<b>Reused from</b><span>&ldquo;'+esc(d.reusedFrom)+'&rdquo; (similarity '+d.similarity+', confirmed by a second check)</span>':'')+
@@ -768,7 +768,7 @@ async function live(q,idx,prev){var S=TURNS[idx],box=document.getElementById('em
     else if(e.type==='stage'){setStep({searching:0,writing:1,checking:2}[e.stage]||0,box);}
     else if(e.type==='delta'){text+=e.text;}
     else if(e.type==='done'&&e.offTopic){S.done=e;S.total=performance.now()-t0;
-     box.innerHTML=scopeCard(e.title,text);renderAudit();}
+     box.innerHTML=scopeCard(e.title,text,e.kind);renderAudit();}
     else if(e.type==='done'){S.done=e;S.total=performance.now()-t0;setStep(3,box);
      box.innerHTML='<div class="ans">'+paras(text,subject(S.asked||q))+'</div>'+fb(idx)+disc();
      document.getElementById('emq-eps-'+idx).innerHTML=epCards(e.episodes);renderAudit();}
