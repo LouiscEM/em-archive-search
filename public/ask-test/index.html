@@ -420,6 +420,30 @@
 .emq.searched~.audit-toggle{bottom:96px}
 @media(max-width:1020px){.emq.searched .rgrid{grid-template-columns:1fr;gap:34px}.emq .rside{position:static}
  .emq.searched .result{padding:28px 0 130px}.emq .fbar{bottom:12px}}
+/* conversation thread */
+.emq .back{display:inline-flex;gap:6px;align-items:center;color:var(--mute);text-decoration:none;font:600 14px var(--disp);margin:0 0 18px}
+.emq .back .i{transform:rotate(180deg)}
+.emq .back:hover{color:var(--navy)}
+.emq .turn{scroll-margin-top:24px}
+.emq .tsep{height:1px;background:var(--line);margin:54px 0 40px}
+.emq .rq.fu2{font-size:32px;letter-spacing:-.8px}
+.emq .asread{margin:10px 0 0;color:var(--mute);font-size:14px;font-style:italic}
+.emq .asread[hidden]{display:none}
+/* was this helpful */
+.emq .fb{display:flex;flex-wrap:wrap;gap:8px 10px;align-items:center;margin:26px 0 0;padding:14px 16px;background:var(--soft);border-radius:14px}
+.emq .fb .fq2{font:700 14px var(--disp);color:var(--navy);margin-right:4px}
+.emq .fb>button{display:inline-flex;gap:6px;align-items:center;border:1px solid var(--line);background:#fff;border-radius:999px;
+ padding:7px 14px;font:700 13.5px var(--disp);color:var(--navy);cursor:pointer;transition:.15s}
+.emq .fb>button:hover:not(:disabled){border-color:var(--navy)}
+.emq .fb>button .i{color:var(--coral)}
+.emq .fb>button.on{background:var(--navy);border-color:var(--navy);color:#fff}
+.emq .fb>button:disabled:not(.on){opacity:.45;cursor:default}
+.emq .fb .fbc{flex-basis:100%;display:flex;gap:8px;align-items:flex-end}
+.emq .fb .fbc[hidden],.emq .fb .fbt[hidden]{display:none}
+.emq .fb textarea{flex:1;border:1px solid var(--line);border-radius:10px;padding:10px 12px;font:14px 'Open Sans',Arial,sans-serif;resize:vertical;min-height:44px}
+.emq .fb textarea:focus{outline:0;border-color:var(--coral)}
+.emq .fb .fbc button{border:0;background:var(--navy);color:#fff;border-radius:10px;padding:11px 16px;font:700 14px var(--disp);cursor:pointer}
+.emq .fb .fbt{font-size:14px;color:var(--ink)}
 /* scope message for off-topic questions */
 .emq .scope{display:flex;gap:20px;align-items:flex-start;background:var(--soft);border-radius:20px;
  padding:30px 30px 26px;max-width:760px;margin:6px 0 8px}
@@ -674,7 +698,7 @@ function renderAudit(){if(!LAST||!D){A.querySelector('.body').innerHTML='<sectio
   '<section><h4>What the model read ('+t.sources.length+' passages)</h4><p class="muted" style="margin:0 0 8px">Check any claim in the answer against these.</p>'+
   t.sources.map(function(s){return'<details><summary>'+esc(s.filename)+' \u00b7 '+s.score+'</summary><pre>'+esc(s.text)+'</pre></details>'}).join('')+'</section>';}
  else{var d=x.done||{};
-  h+='<section><h4>Live answer</h4><div class="kv"><b>Personal question</b><span>'+(x.personal===null?'checking':(x.personal?'yes, answered as the general version':'no'))+'</span>'+
+  h+='<section><h4>Live answer</h4><div class="kv">'+(x.asked?'<b>Read as</b><span>'+esc(x.asked)+'</span>':'')+'<b>Personal question</b><span>'+(x.personal===null?'checking':(x.personal?'yes, answered as the general version':'no'))+'</span>'+
   '<b>About money</b><span>'+(!x.done?'checking':(d.offTopic?'no, scope message shown, nothing written':'yes'))+'</span>'+
   '<b>Advice check</b><span>'+(!x.done?'running':d.offTopic?'not needed':(d.fallback?'FAILED twice, safe fallback shown':(d.retried?'failed first draft, rewritten, passed':'passed first time')))+'</span>'+
   '<b>Served from cache</b><span>'+(!x.done?'-':(d.reused?'yes, reused':(d.cached?'yes':'no')))+'</span>'+
@@ -690,36 +714,64 @@ function renderAudit(){if(!LAST||!D){A.querySelector('.body').innerHTML='<sectio
 var STEPS=[['search','Searching '+(window.EMQ_N||'1,815')+' episodes'],['book','Reading what was said'],['shield','Checking it is general information']];
 function stepsHtml(){return'<div class="steps">'+STEPS.map(function(s,i){return'<div class="step" data-s="'+i+'"><span class="dot">'+ic(s[0],15)+'</span>'+s[1]+'</div>'}).join('')+'</div>'+
  '<div class="sk l"></div><div class="sk"></div><div class="sk" style="max-width:600px"></div><div class="sk" style="max-width:520px"></div>';}
-function setStep(n){[].forEach.call(document.querySelectorAll('.step'),function(el){var i=+el.getAttribute('data-s');
+function setStep(n,box){[].forEach.call((box||document).querySelectorAll('.step'),function(el){var i=+el.getAttribute('data-s');
  el.className='step'+(i<n?' done':(i===n?' on':''));if(i<n)el.querySelector('.dot').innerHTML=ic('check',15);});}
-function home(){document.querySelector('.emq').classList.remove('searched');R.style.display='none';R.innerHTML='';LAST=null;renderAudit();window.scrollTo({top:0,behavior:'smooth'});}
-function show(q){q=(q||'').trim();if(!q||!D)return;if(SG){SG.hidden=true;GH.value='';}var r=served(route(q));document.querySelector('.emq').classList.add('searched');
- LAST={q:q,r:r,personal:null,done:null,total:null};
+// ---- the answer page is a conversation (28 Oct 2026, Louis: "a sort of chat where you can
+// scroll through it"). The first question starts a thread; each follow-up is added below
+// it. Follow-ups send the earlier questions so the service can turn "how is that different
+// from an offset account?" into a question that stands on its own.
+var TURNS=[];
+function home(){document.querySelector('.emq').classList.remove('searched');R.style.display='none';R.innerHTML='';TURNS=[];LAST=null;renderAudit();window.scrollTo({top:0,behavior:'smooth'});}
+// Was this helpful? Under every answer. "No" opens an optional comment; both go to
+// /api/feedback with the question, so weak answers can be found and fixed.
+var THUMB='<path d="M7 10v11H4a1 1 0 0 1-1-1v-9a1 1 0 0 1 1-1z"/><path d="M7 10l4-7a2 2 0 0 1 3 2l-1 4h6a2 2 0 0 1 2 2.3l-1.4 7A2 2 0 0 1 17.6 20H7"/>';
+function thumb(down){return'<svg class="i" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"'+(down?' style="transform:rotate(180deg)"':'')+'>'+THUMB+'</svg>';}
+function fb(idx){return'<div class="fb" data-turn="'+idx+'"><span class="fq2">Was this helpful?</span>'+
+ '<button type="button" data-fb="1">'+thumb(false)+'Yes</button><button type="button" data-fb="0">'+thumb(true)+'No</button>'+
+ '<form class="fbc" hidden><textarea maxlength="500" rows="2" placeholder="What would have made it better? (optional)"></textarea><button type="submit">Send</button></form>'+
+ '<span class="fbt" hidden>Thanks, that helps us improve.</span></div>';}
+function sendFb(idx,helpful,comment){var tn=TURNS[idx]||{},d=tn.done||{};
+ // One record per answer: a comment sent after "No" updates the vote rather than adding one.
+ tn.fbid=tn.fbid||(Date.now().toString(36)+Math.random().toString(36).slice(2,10));
+ fetch('/api/feedback',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({id:tn.fbid,q:tn.asked||tn.q,
+  helpful:helpful,comment:comment||'',kind:tn.r&&tn.r.a==='page'?'guide':'live',cached:!!d.cached,reused:!!d.reused,offTopic:!!d.offTopic})}).catch(function(){});}
+function turnHead(idx,title,asked){return(idx?'<div class="tsep"></div>':'')+'<h2 class="rq'+(idx?' fu2':'')+'">'+esc(title)+'</h2>'+
+ '<p class="asread" id="emq-read-'+idx+'"'+(asked?'':' hidden')+'>'+(asked?'Read as: '+esc(asked):'')+'</p>';}
+function show(q,isFollow){q=(q||'').trim();if(!q||!D)return;if(SG){SG.hidden=true;GH.value='';}
+ var emq=document.querySelector('.emq');
+ if(!isFollow||!TURNS.length||!document.getElementById('emq-thread')){TURNS=[];
+  R.innerHTML='<div class="wrap"><a class="back" href="#" data-home="1">'+ic('chev',15)+'Back to Ask Equity Mates</a><div id="emq-thread"></div></div>'+follow();}
+ emq.classList.add('searched');R.style.display='block';
+ var r=served(route(q)),idx=TURNS.length,prev=TURNS.slice(-2).map(function(x){return x.asked||x.q});
+ var tn={q:q,r:r,personal:null,done:null,total:null,asked:null};TURNS.push(tn);LAST=tn;
  var title=r.a==='page'?r.t.question:q.charAt(0).toUpperCase()+q.slice(1);
- var head='<h2 class="rq">'+esc(title)+'</h2>';
- R.style.display='block';
- if(r.a==='page'){var t=r.t;R.innerHTML='<div class="wrap">'+head+'<div class="rgrid"><div><div class="ans">'+paras(t.prose,subject(t.question))+'</div>'+disc()+'</div><aside class="rside">'+epCards(t.episodes)+'</aside></div></div>'+follow();
-  renderAudit();window.scrollTo({top:0,behavior:'smooth'});return;}
- R.innerHTML='<div class="wrap">'+head+'<div class="rgrid"><div><div id="emq-live">'+stepsHtml()+'</div></div><aside class="rside" id="emq-eps"></aside></div></div>'+follow();
- setStep(0);renderAudit();window.scrollTo({top:0,behavior:'smooth'});live(q);}
-async function live(q){var S=LAST,box=document.getElementById('emq-live'),t0=performance.now(),text='';
+ var art='<article class="turn" id="emq-turn-'+idx+'">'+turnHead(idx,title,null)+'<div class="rgrid"><div><div id="emq-live-'+idx+'"></div></div><aside class="rside" id="emq-eps-'+idx+'"></aside></div></article>';
+ document.getElementById('emq-thread').insertAdjacentHTML('beforeend',art);
+ var box=document.getElementById('emq-live-'+idx),turn=document.getElementById('emq-turn-'+idx);
+ if(idx===0)window.scrollTo({top:0,behavior:'smooth'});else turn.scrollIntoView({behavior:'smooth',block:'start'});
+ if(r.a==='page'){var t=r.t;tn.done={};box.innerHTML='<div class="ans">'+paras(t.prose,subject(t.question))+'</div>'+fb(idx)+disc();
+  document.getElementById('emq-eps-'+idx).innerHTML=epCards(t.episodes);renderAudit();return;}
+ box.innerHTML=stepsHtml();setStep(0,box);renderAudit();live(q,idx,isFollow?prev:[]);}
+async function live(q,idx,prev){var S=TURNS[idx],box=document.getElementById('emq-live-'+idx),t0=performance.now(),text='';
  // Timed fallback so the steps still move when a proxy holds back the server's stage events.
- var tm=[setTimeout(function(){if(S===LAST&&!S.done)setStep(1)},1800),setTimeout(function(){if(S===LAST&&!S.done)setStep(2)},5200)];
- try{var res=await fetch('/api/ask',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({q:q})});
+ var tm=[setTimeout(function(){if(box.isConnected&&!S.done)setStep(1,box)},1800),setTimeout(function(){if(box.isConnected&&!S.done)setStep(2,box)},5200)];
+ try{var res=await fetch('/api/ask',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({q:q,prev:prev||[]})});
   if(!res.ok){var b=await res.json().catch(function(){return{}});box.innerHTML='<div class="ans"><p>'+esc(b.error||('Error '+res.status))+'</p></div>';return;}
   var rd=res.body.getReader(),dec=new TextDecoder(),buf='';
   for(;;){var g=await rd.read();if(g.done)break;buf+=dec.decode(g.value,{stream:true});
    var ls=buf.split('\n');buf=ls.pop()||'';
    for(var i=0;i<ls.length;i++){var l=ls[i];if(l.indexOf('data:')!==0)continue;var e;try{e=JSON.parse(l.slice(5).trim())}catch(_){continue}
-    if(S!==LAST)return;
-    if(e.type==='start'){S.personal=e.personal;renderAudit();}
-    else if(e.type==='stage'){setStep({searching:0,writing:1,checking:2}[e.stage]||0);}
+    if(!box.isConnected)return;
+    if(e.type==='start'){S.personal=e.personal;
+     if(e.asked&&e.asked.toLowerCase()!==q.toLowerCase()){S.asked=e.asked;var rd2=document.getElementById('emq-read-'+idx);rd2.textContent='Read as: '+e.asked;rd2.hidden=false;}
+     renderAudit();}
+    else if(e.type==='stage'){setStep({searching:0,writing:1,checking:2}[e.stage]||0,box);}
     else if(e.type==='delta'){text+=e.text;}
     else if(e.type==='done'&&e.offTopic){S.done=e;S.total=performance.now()-t0;
      box.innerHTML=scopeCard(e.title,text);renderAudit();}
-    else if(e.type==='done'){S.done=e;S.total=performance.now()-t0;setStep(3);
-     box.innerHTML='<div class="ans">'+paras(text,subject(q))+'</div>'+disc();
-     document.getElementById('emq-eps').innerHTML=epCards(e.episodes);renderAudit();}
+    else if(e.type==='done'){S.done=e;S.total=performance.now()-t0;setStep(3,box);
+     box.innerHTML='<div class="ans">'+paras(text,subject(S.asked||q))+'</div>'+fb(idx)+disc();
+     document.getElementById('emq-eps-'+idx).innerHTML=epCards(e.episodes);renderAudit();}
     else if(e.type==='error'){box.innerHTML='<div class="ans"><p><b>'+esc(e.message)+'</b></p></div>';}}}
  }catch(err){box.innerHTML='<div class="ans"><p>Could not reach the answer service.</p></div>';}
  finally{tm.forEach(clearTimeout);}}
@@ -794,8 +846,10 @@ fetch('data.json').then(function(r){return r.json()}).then(function(d){D=d;
  renderAudit();
  var u=new URLSearchParams(location.search).get('q');if(u){document.getElementById('emq-q').value=u;show(u);}});
 document.getElementById('emq-form').addEventListener('submit',function(ev){ev.preventDefault();show(document.getElementById('emq-q').value);});
-document.addEventListener('submit',function(ev){if(ev.target.classList.contains('fu')){ev.preventDefault();
- var v=ev.target.querySelector('input').value;document.getElementById('emq-q').value=v;show(v);}});
+document.addEventListener('submit',function(ev){
+ if(ev.target.classList.contains('fu')){ev.preventDefault();var inp=ev.target.querySelector('input'),v=inp.value;inp.value='';show(v,true);return;}
+ if(ev.target.classList.contains('fbc')){ev.preventDefault();var w=ev.target.closest('.fb'),c=ev.target.querySelector('textarea').value.trim();
+  sendFb(+w.getAttribute('data-turn'),false,c);ev.target.hidden=true;w.querySelector('.fbt').hidden=false;}});
 document.addEventListener('click',function(ev){
  var h=ev.target.closest('[data-home]');if(h){ev.preventDefault();home();return;}
  var gf=ev.target.closest('[data-gf]');if(gf){gfilter(gf.getAttribute('data-gf'),false);return;}
@@ -804,8 +858,13 @@ document.addEventListener('click',function(ev){
   row.scrollBy({left:+sb.getAttribute('data-shelf')*row.clientWidth,behavior:'smooth'});return;}
  var m=ev.target.closest('[data-more]');if(m){ev.preventDefault();var c=m.closest('.cat');c.classList.toggle('open');
   m.innerHTML=c.classList.contains('open')?'Show fewer'+ic('chev',14):m.getAttribute('data-more')+ic('chev',14);return;}
- var b=ev.target.closest('[data-q]');if(b){ev.preventDefault();
- document.getElementById('emq-q').value=b.getAttribute('data-q');show(b.getAttribute('data-q'));}});
+ var fbb=ev.target.closest('[data-fb]');if(fbb){var w=fbb.closest('.fb');if(w.classList.contains('done'))return;
+  var yes=fbb.getAttribute('data-fb')==='1';w.classList.add('done');fbb.classList.add('on');
+  [].forEach.call(w.querySelectorAll('[data-fb]'),function(x){x.disabled=true});
+  if(yes){sendFb(+w.getAttribute('data-turn'),true,'');w.querySelector('.fbt').hidden=false;}
+  else{sendFb(+w.getAttribute('data-turn'),false,'');var f=w.querySelector('.fbc');f.hidden=false;f.querySelector('textarea').focus();}return;}
+ var b=ev.target.closest('[data-q]');if(b){ev.preventDefault();var inThread=!!b.closest('#emq-thread');
+ if(!inThread)document.getElementById('emq-q').value=b.getAttribute('data-q');show(b.getAttribute('data-q'),inThread);}});
 document.getElementById('emq-toggle').addEventListener('click',function(){A.classList.toggle('on');});
 // Rotating examples in the empty search box, so a first-time reader sees what to ask.
 var EX=['What is debt recycling?','How do franking credits work?','Is an ETF better than a managed fund?','What happens to my super if I change jobs?','How does compound interest work?'],ei=0,inp=document.getElementById('emq-q');

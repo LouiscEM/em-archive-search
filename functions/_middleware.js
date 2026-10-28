@@ -50,7 +50,8 @@ export async function onRequest(context) {
   // the archive tables. The lookup is public episode titles and links already on the
   // website. Keep this an EXACT match list. A prefix match would let a crafted path
   // walk back into the protected site.
-  const PUBLIC_PATHS = ['/api/ask', '/ask-episodes.json'];
+  // /api/feedback (28 Oct 2026) takes the "Was this helpful?" votes under each answer.
+  const PUBLIC_PATHS = ['/api/ask', '/api/feedback', '/ask-episodes.json'];
   if (PUBLIC_PATHS.includes(new URL(request.url).pathname)) return next();
 
   const expected = env.ARCHIVE_PASSWORD;

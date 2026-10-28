@@ -30,7 +30,7 @@
 // Stamped at commit time so the config check says WHICH revision is live.
 // Without it, 'is the fix deployed yet' is unanswerable and every timing
 // measurement is ambiguous.
-const BUILD = 'two-step-5';
+const BUILD = 'two-step-6';
 const MODEL = 'gpt-5';
 const EFFORT = 'minimal';
 const SEARCH_RESULTS = 8;
@@ -47,6 +47,14 @@ const EMBED_MODEL = 'text-embedding-3-small';
 const EMBED_DIMS = 512;
 const REUSE_SHORTLIST = 0.55;
 const JUDGE_MODEL = 'gpt-5-mini';
+// Follow-ups in the answer thread arrive with the earlier questions. They are rewritten into
+// one standalone question first, so "how is that different from an offset account?" can be
+// searched, checked and saved like any other question.
+const REWRITE = `Rewrite the FOLLOW-UP as one standalone question, using the EARLIER questions only
+to resolve words like "that", "it" or "them", or a missing subject. Keep the reader's own
+wording and intent. Do not add detail, advice or a new topic. Never carry over personal
+details from the earlier questions (amounts, ages, income, what someone owns). If the
+follow-up already stands on its own, return it unchanged. Output only the question.`;
 const JUDGE = `Two questions were asked on an Australian investing education site. Decide whether
 one written answer would correctly answer BOTH, with nothing important missing or wrong.
 Answer NO if they differ in any way that changes the answer: a different product, company,
@@ -473,8 +481,12 @@ export async function onRequestPost(context) {
   if (!env.OPENAI_API_KEY) return fail(503, 'Not configured yet', origin);
 
   let question = '';
+  let prev = [];
   try {
-    question = String(((await request.json()) || {}).q || '').trim();
+    const body = (await request.json()) || {};
+    question = String(body.q || '').trim();
+    prev = (Array.isArray(body.prev) ? body.prev : []).filter((x) => typeof x === 'string' && x.trim())
+      .slice(-2).map((x) => x.trim().slice(0, MAX_QUESTION));
   } catch (e) {
     return fail(400, 'Bad request', origin);
   }
@@ -487,7 +499,19 @@ export async function onRequestPost(context) {
       origin);
   }
 
-  const personal = PERSONAL.some((re) => re.test(question.toLowerCase().replace(/\u2019/g, "'")));
+  const isPersonal = (s) => PERSONAL.some((re) => re.test(s.toLowerCase().replace(/\u2019/g, "'")));
+  const askedRaw = question;
+  if (prev.length) {
+    try {
+      const d = await openai(env, '/responses', { model: JUDGE_MODEL, reasoning: { effort: 'minimal' },
+        instructions: REWRITE,
+        input: `EARLIER:\n${prev.map((x) => '- ' + x).join('\n')}\nFOLLOW-UP: ${question}` });
+      const s = (d.output || []).flatMap((o) => o.content || []).map((c) => c.text || '').join('').trim()
+        .replace(/^["']|["']$/g, '');
+      if (s && s.length <= MAX_QUESTION) question = s;
+    } catch (e) { /* answer the follow-up as written */ }
+  }
+  const personal = isPersonal(askedRaw) || isPersonal(question);
   // The episode count USED to be part of this key (27 Oct). With a new episode most nights
   // that wiped every saved answer nightly, so pre-answering would have had to be redone
   // every night. Answers now last CACHE_DAYS and are refreshed by ask_prewarm.py.
@@ -505,7 +529,7 @@ export async function onRequestPost(context) {
     const t0 = Date.now();
     const timing = {};
     try {
-      await send({ type: 'start', personal });
+      await send({ type: 'start', personal, asked: question !== askedRaw ? question : null });
 
       let vec = null;
       let searching = null;
