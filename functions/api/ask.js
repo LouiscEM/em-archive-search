@@ -30,11 +30,11 @@
 // Stamped at commit time so the config check says WHICH revision is live.
 // Without it, 'is the fix deployed yet' is unanswerable and every timing
 // measurement is ambiguous.
-const BUILD = 'two-step-3';
+const BUILD = 'two-step-4';
 const MODEL = 'gpt-5';
 const EFFORT = 'minimal';
 const SEARCH_RESULTS = 8;
-// Bump when the prompt or index changes, so stale cached answers are never served.
+// Bump when the prompt changes. Index growth is handled by the episode count in the key.
 const CACHE_VERSION = 'v3';
 const CACHE_DAYS = 7;
 const MAX_QUESTION = 300;      // characters; longer is abuse, not curiosity
@@ -430,7 +430,11 @@ export async function onRequestPost(context) {
   }
 
   const personal = PERSONAL.some((re) => re.test(question.toLowerCase().replace(/\u2019/g, "'")));
-  const key = `${CACHE_VERSION}|${topicKey(question)}`;
+  // The episode count is part of the key, so when the nightly job adds episodes and
+  // redeploys the lookup, every saved answer from the smaller index is ignored. Without
+  // this a week-old answer could keep missing the newest episode on its topic.
+  const lookup = await episodes(request);
+  const key = `${CACHE_VERSION}|n${Object.keys(lookup).length}|${topicKey(question)}`;
   const encoder = new TextEncoder();
   const { readable, writable } = new TransformStream();
   const writer = writable.getWriter();
@@ -482,7 +486,6 @@ export async function onRequestPost(context) {
       if (fallback) text = FALLBACK;
       timing.total = Date.now() - t0;
 
-      const lookup = await episodes(request);
       const meta = { episodes: episodesFrom(chunks, lookup), flagged: false, fallback,
         retried, personal, auditOnFirstDraft: retried ? 'failed' : 'passed' };
       // Only clean, general answers are cached: never a personal question, never a
