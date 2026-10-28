@@ -677,7 +677,8 @@ function renderAudit(){if(!LAST||!D){A.querySelector('.body').innerHTML='<sectio
   h+='<section><h4>Live answer</h4><div class="kv"><b>Personal question</b><span>'+(x.personal===null?'checking':(x.personal?'yes, answered as the general version':'no'))+'</span>'+
   '<b>About money</b><span>'+(!x.done?'checking':(d.offTopic?'no, scope message shown, nothing written':'yes'))+'</span>'+
   '<b>Advice check</b><span>'+(!x.done?'running':d.offTopic?'not needed':(d.fallback?'FAILED twice, safe fallback shown':(d.retried?'failed first draft, rewritten, passed':'passed first time')))+'</span>'+
-  '<b>Served from cache</b><span>'+(!x.done?'-':(d.cached?'yes':'no'))+'</span>'+
+  '<b>Served from cache</b><span>'+(!x.done?'-':(d.reused?'yes, reused':(d.cached?'yes':'no')))+'</span>'+
+  (d.reused?'<b>Reused from</b><span>&ldquo;'+esc(d.reusedFrom)+'&rdquo; (similarity '+d.similarity+', confirmed by a second check)</span>':'')+
   '<b>Total time</b><span>'+(x.total?(x.total/1000).toFixed(1)+'s':'working')+'</span>'+
   '<b>Episodes</b><span>'+(d.episodes?d.episodes.length:'-')+'</span></div>'+
   '<p class="muted" style="margin:10px 0 0">Every live answer is checked before it is shown. Network proxies can hold the response until it is complete, so stage-by-stage progress may not show on the Betashares network.</p></section>';}
