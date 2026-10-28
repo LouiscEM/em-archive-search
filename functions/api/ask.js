@@ -30,13 +30,30 @@
 // Stamped at commit time so the config check says WHICH revision is live.
 // Without it, 'is the fix deployed yet' is unanswerable and every timing
 // measurement is ambiguous.
-const BUILD = 'two-step-4';
+const BUILD = 'two-step-5';
 const MODEL = 'gpt-5';
 const EFFORT = 'minimal';
 const SEARCH_RESULTS = 8;
-// Bump when the prompt changes. Index growth is handled by the episode count in the key.
-const CACHE_VERSION = 'v3';
+// Bump when the prompt changes. Answers last CACHE_DAYS; ask_prewarm.py refreshes the
+// popular ones as they expire, so new episodes reach saved answers within a week.
+const CACHE_VERSION = 'v4';
 const CACHE_DAYS = 7;
+// Reuse a saved answer when a new question means the same thing (28 Oct 2026). Similarity
+// alone is NOT safe: "best ASX dividend stocks" vs "growth stocks" scored 0.853 and
+// negative vs positive gearing 0.848, above most genuine rephrasings. So similarity only
+// shortlists the closest saved question, and a small model makes the call. Measured in
+// ask_similar_test.py: 14/15 right, every different-answer pair rejected, ~1.5s.
+const EMBED_MODEL = 'text-embedding-3-small';
+const EMBED_DIMS = 512;
+const REUSE_SHORTLIST = 0.55;
+const JUDGE_MODEL = 'gpt-5-mini';
+const JUDGE = `Two questions were asked on an Australian investing education site. Decide whether
+one written answer would correctly answer BOTH, with nothing important missing or wrong.
+Answer NO if they differ in any way that changes the answer: a different product, company,
+asset, tax rule or strategy (negative vs positive gearing, dividend vs growth stocks, ETF vs
+LIC), a narrower or added condition (franking credits vs franking credits with ETFs), or a
+comparison versus a definition. Answer YES only for the same question in different words.
+Reply with exactly YES or NO.`;
 const MAX_QUESTION = 300;      // characters; longer is abuse, not curiosity
 const RATE_LIMIT = 12;         // questions per IP per hour
 const STORE_NAME = 'equity-mates-episodes';
@@ -232,7 +249,7 @@ function topicKey(t) {
   return [...new Set(q.replace(/\s+/g, ' ').trim().split(' ').filter(Boolean))].sort().join(' ');
 }
 
-async function cacheGet(env, key) {
+async function cacheGet(env, key, countHit = true) {
   if (!env.DB) return null;
   try {
     await env.DB.prepare('CREATE TABLE IF NOT EXISTS ask_cache (k TEXT PRIMARY KEY, ' +
@@ -242,7 +259,7 @@ async function cacheGet(env, key) {
     if (!row || Date.now() - row.created > CACHE_DAYS * 864e5) return null;
     // Hit counts are the demand signal: the most asked live questions are the next
     // pages worth writing, and nothing personal is ever cached, so this stays clean.
-    await env.DB.prepare('UPDATE ask_cache SET hits = hits + 1 WHERE k = ?').bind(key).run();
+    if (countHit) await env.DB.prepare('UPDATE ask_cache SET hits = hits + 1 WHERE k = ?').bind(key).run();
     return JSON.parse(row.payload);
   } catch (e) { return null; }
 }
@@ -254,6 +271,47 @@ async function cachePut(env, key, payload) {
       'ON CONFLICT(k) DO UPDATE SET payload = excluded.payload, created = excluded.created')
       .bind(key, JSON.stringify(payload), Date.now()).run();
   } catch (e) { /* a cache write failing must never fail the answer */ }
+}
+
+/** Question embeddings, stored beside the saved answers so similar questions can reuse them. */
+const toB64 = (vec) => { const b = new Uint8Array(new Float32Array(vec).buffer); let s = '';
+  for (let i = 0; i < b.length; i++) s += String.fromCharCode(b[i]); return btoa(s); };
+const fromB64 = (s) => { const raw = atob(s); const b = new Uint8Array(raw.length);
+  for (let i = 0; i < raw.length; i++) b[i] = raw.charCodeAt(i); return new Float32Array(b.buffer); };
+
+async function embedQ(env, question) {
+  const d = await openai(env, '/embeddings', { model: EMBED_MODEL, input: question, dimensions: EMBED_DIMS });
+  return d.data[0].embedding;
+}
+
+/** The closest saved question, if a small model agrees it asks for the same answer. */
+async function findReuse(env, question, vec) {
+  if (!env.DB || !vec) return null;
+  await env.DB.prepare('CREATE TABLE IF NOT EXISTS ask_vec (k TEXT PRIMARY KEY, q TEXT, ' +
+    'v TEXT, created INTEGER)').run();
+  const { results } = await env.DB.prepare('SELECT k, q, v FROM ask_vec WHERE created > ? AND k LIKE ? ' +
+    'ORDER BY created DESC LIMIT 3000').bind(Date.now() - CACHE_DAYS * 864e5, `${CACHE_VERSION}|%`).all();
+  let best = null, score = 0;
+  for (const r of results || []) {
+    const v = fromB64(r.v); let dot = 0;
+    for (let i = 0; i < v.length; i++) dot += v[i] * vec[i];   // embeddings are unit length
+    if (dot > score) { score = dot; best = r; }
+  }
+  if (!best || score < REUSE_SHORTLIST) return null;
+  const d = await openai(env, '/responses', { model: JUDGE_MODEL, reasoning: { effort: 'minimal' },
+    instructions: JUDGE, input: `Question A: ${question}\nQuestion B: ${best.q}` });
+  const verdict = (d.output || []).flatMap((o) => o.content || []).map((c) => c.text || '').join('').trim();
+  if (!/^YES/i.test(verdict)) return null;
+  return { key: best.k, question: best.q, score };
+}
+
+async function vecPut(env, key, question, vec) {
+  if (!env.DB || !vec) return;
+  try {
+    await env.DB.prepare('INSERT INTO ask_vec (k, q, v, created) VALUES (?, ?, ?, ?) ' +
+      'ON CONFLICT(k) DO UPDATE SET q = excluded.q, v = excluded.v, created = excluded.created')
+      .bind(key, question, toB64(vec), Date.now()).run();
+  } catch (e) { /* reuse is an optimisation; failing to store must never fail the answer */ }
 }
 
 async function openai(env, path, body) {
@@ -430,11 +488,14 @@ export async function onRequestPost(context) {
   }
 
   const personal = PERSONAL.some((re) => re.test(question.toLowerCase().replace(/\u2019/g, "'")));
-  // The episode count is part of the key, so when the nightly job adds episodes and
-  // redeploys the lookup, every saved answer from the smaller index is ignored. Without
-  // this a week-old answer could keep missing the newest episode on its topic.
+  // The episode count USED to be part of this key (27 Oct). With a new episode most nights
+  // that wiped every saved answer nightly, so pre-answering would have had to be redone
+  // every night. Answers now last CACHE_DAYS and are refreshed by ask_prewarm.py.
   const lookup = await episodes(request);
-  const key = `${CACHE_VERSION}|n${Object.keys(lookup).length}|${topicKey(question)}`;
+  const key = `${CACHE_VERSION}|${topicKey(question)}`;
+  // ask_prewarm.py refreshes popular answers before they expire: it always writes a fresh
+  // answer (no cache read, no reuse) and saves it. Test origin only, and still rate limited.
+  const prewarm = origin === TEST_ORIGIN && request.headers.get('X-Ask-Prewarm') === '1';
   const encoder = new TextEncoder();
   const { readable, writable } = new TransformStream();
   const writer = writable.getWriter();
@@ -446,20 +507,42 @@ export async function onRequestPost(context) {
     try {
       await send({ type: 'start', personal });
 
+      let vec = null;
+      let searching = null;
       if (!personal) {
-        const hit = await cacheGet(env, key);
+        const hit = prewarm ? null : await cacheGet(env, key);
         if (hit) {
           await send({ type: 'delta', text: hit.text });
           await send({ type: 'done', ...hit.meta, cached: true, ms: Date.now() - t0 });
           return;
         }
+        // Start the archive search straight away, and check for a saved answer to a
+        // question that means the same thing while it runs. A reuse throws the search away;
+        // a miss has lost almost nothing.
+        const storeP = resolveStore(env);
+        searching = storeP.then((id) => { if (!id) throw new Error('index unavailable'); return search(env, id, question); });
+        searching.catch(() => {});
+        try {
+          vec = await embedQ(env, question);
+          const reuse = prewarm ? null : await findReuse(env, question, vec);
+          const saved = reuse && await cacheGet(env, reuse.key);
+          if (saved) {
+            await send({ type: 'delta', text: saved.text });
+            await send({ type: 'done', ...saved.meta, cached: true, reused: true,
+              reusedFrom: reuse.question, similarity: Math.round(reuse.score * 1000) / 1000,
+              ms: Date.now() - t0 });
+            return;
+          }
+        } catch (e) { /* reuse is an optimisation; on any failure, answer fresh */ }
       }
 
-      const storeId = await resolveStore(env);
-      if (!storeId) throw new Error('index unavailable');
-
       await send({ type: 'stage', stage: 'searching' });
-      const chunks = await search(env, storeId, question);
+      if (!searching) {
+        const storeId = await resolveStore(env);
+        if (!storeId) throw new Error('index unavailable');
+        searching = search(env, storeId, question);
+      }
+      const chunks = await searching;
       timing.search = Date.now() - t0;
 
       await send({ type: 'stage', stage: 'writing' });
@@ -468,7 +551,7 @@ export async function onRequestPost(context) {
       if (/^\W*OUT_OF_SCOPE\b/.test(text)) {
         const meta = { episodes: [], offTopic: true, title: SCOPE_TITLE, fallback: false,
           retried: false, personal };
-        if (!personal) await cachePut(env, key, { text: SCOPE, meta });
+        if (!personal) { await cachePut(env, key, { text: SCOPE, meta }); await vecPut(env, key, question, vec); }
         await send({ type: 'delta', text: SCOPE });
         await send({ type: 'done', ...meta, cached: false, ms: Date.now() - t0 });
         return;
@@ -490,7 +573,7 @@ export async function onRequestPost(context) {
         retried, personal, auditOnFirstDraft: retried ? 'failed' : 'passed' };
       // Only clean, general answers are cached: never a personal question, never a
       // fallback, so a bad answer cannot be served a thousand times.
-      if (!personal && !fallback) await cachePut(env, key, { text, meta });
+      if (!personal && !fallback) { await cachePut(env, key, { text, meta }); await vecPut(env, key, question, vec); }
 
       await send({ type: 'delta', text });
       await send({ type: 'done', ...meta, cached: false, ms: timing.total, timing });
