@@ -49,6 +49,27 @@ export async function onRequestPost({ request, env }) {
 
   let b;
   try { b = (await request.json()) || {}; } catch (e) { return reply(400, { error: 'Bad request' }, origin); }
+
+  // "Send it to the show" (29 Oct 2026): a question for the team, with an optional first
+  // name to read out. Nothing else is kept. Listed daily by ask_health.py for the inbox.
+  if (b.type === 'show') {
+    const sid = String(b.id || '').slice(0, 40);
+    const sq = String(b.q || '').trim().slice(0, MAX_Q);
+    const name = String(b.name || '').trim().replace(/[^\p{L} '\-]/gu, '').slice(0, 40);
+    if (!/^[a-z0-9]{6,40}$/.test(sid) || sq.length < 5) return reply(400, { error: 'Bad request' }, origin);
+    try {
+      if (await overLimit(env, request.headers.get('CF-Connecting-IP') || 'unknown')) {
+        return reply(429, { error: 'Too many' }, origin);
+      }
+      await env.DB.prepare('CREATE TABLE IF NOT EXISTS ask_show (id TEXT PRIMARY KEY, ts INTEGER, q TEXT, ' +
+        'name TEXT, sent INTEGER DEFAULT 0)').run();
+      await env.DB.prepare('INSERT OR IGNORE INTO ask_show (id, ts, q, name) VALUES (?, ?, ?, ?)')
+        .bind(sid, Date.now(), sq, name).run();
+    } catch (e) {
+      return reply(500, { error: 'Could not save' }, origin);
+    }
+    return reply(200, { ok: true }, origin);
+  }
   const id = String(b.id || '').slice(0, 40);
   const q = String(b.q || '').trim().slice(0, MAX_Q);
   if (!/^[a-z0-9]{6,40}$/.test(id) || !q || typeof b.helpful !== 'boolean') {
