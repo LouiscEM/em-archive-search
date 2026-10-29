@@ -12,7 +12,7 @@
  */
 const ALLOWED = ['https://equitymates.com', 'https://www.equitymates.com',
   'https://em-archive-search.pages.dev'];
-const LIMIT = 40;            // votes per IP per hour
+const LIMIT = 200;           // per IP per hour; the Betashares office shares one IP
 const MAX_Q = 300;
 const MAX_COMMENT = 500;
 
@@ -50,6 +50,40 @@ export async function onRequestPost({ request, env }) {
   let b;
   try { b = (await request.json()) || {}; } catch (e) { return reply(400, { error: 'Bad request' }, origin); }
 
+  // EM Daily sign-ups (29 Oct 2026). Stored with the exact consent wording the person saw,
+  // so the list can go into Beehiiv later with proof of consent. Nothing is emailed yet.
+  const EMAIL_RE = /^[^\s@]{1,64}@[^\s@]{1,190}\.[a-z]{2,}$/i;
+  const saveLead = async (email, source, question, consent) => {
+    await env.DB.prepare('CREATE TABLE IF NOT EXISTS ask_leads (email TEXT, ts INTEGER, source TEXT, ' +
+      'question TEXT, consent TEXT, PRIMARY KEY (email, source))').run();
+    await env.DB.prepare('INSERT OR IGNORE INTO ask_leads (email, ts, source, question, consent) VALUES (?, ?, ?, ?, ?)')
+      .bind(email.toLowerCase(), Date.now(), source, String(question || '').slice(0, MAX_Q),
+        String(consent || '').slice(0, 400)).run();
+  };
+  if (b.type === 'lead') {
+    const email = String(b.email || '').trim();
+    const source = ['landing', 'answer', 'show'].includes(b.source) ? b.source : 'landing';
+    if (!EMAIL_RE.test(email) || !b.consent) return reply(400, { error: 'Bad request' }, origin);
+    try {
+      if (await overLimit(env, request.headers.get('CF-Connecting-IP') || 'unknown')) return reply(429, { error: 'Too many' }, origin);
+      await saveLead(email, source, b.q, b.consent);
+    } catch (e) { return reply(500, { error: 'Could not save' }, origin); }
+    return reply(200, { ok: true }, origin);
+  }
+  // Tester feedback on the tool as a whole (internal test bed only).
+  if (b.type === 'tester') {
+    const msg = String(b.text || '').trim().slice(0, 1500);
+    const who = String(b.name || '').trim().replace(/[^\p{L} '\-]/gu, '').slice(0, 40);
+    if (msg.length < 3) return reply(400, { error: 'Bad request' }, origin);
+    try {
+      if (await overLimit(env, request.headers.get('CF-Connecting-IP') || 'unknown')) return reply(429, { error: 'Too many' }, origin);
+      await env.DB.prepare('CREATE TABLE IF NOT EXISTS ask_tester (ts INTEGER, name TEXT, text TEXT, page TEXT)').run();
+      await env.DB.prepare('INSERT INTO ask_tester (ts, name, text, page) VALUES (?, ?, ?, ?)')
+        .bind(Date.now(), who, msg, String(b.page || '').slice(0, 300)).run();
+    } catch (e) { return reply(500, { error: 'Could not save' }, origin); }
+    return reply(200, { ok: true }, origin);
+  }
+
   // "Send it to the show" (29 Oct 2026): a question for the team, with an optional first
   // name to read out. Nothing else is kept. Listed daily by ask_health.py for the inbox.
   if (b.type === 'show') {
@@ -65,6 +99,9 @@ export async function onRequestPost({ request, env }) {
         'name TEXT, sent INTEGER DEFAULT 0)').run();
       await env.DB.prepare('INSERT OR IGNORE INTO ask_show (id, ts, q, name) VALUES (?, ?, ?, ?)')
         .bind(sid, Date.now(), sq, name).run();
+      // An optional email on the show form joins EM Daily, under the same consent line.
+      const em = String(b.email || '').trim();
+      if (em && EMAIL_RE.test(em) && b.consent) await saveLead(em, 'show', sq, b.consent);
     } catch (e) {
       return reply(500, { error: 'Could not save' }, origin);
     }

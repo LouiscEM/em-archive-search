@@ -30,7 +30,7 @@
 // Stamped at commit time so the config check says WHICH revision is live.
 // Without it, 'is the fix deployed yet' is unanswerable and every timing
 // measurement is ambiguous.
-const BUILD = 'two-step-7';
+const BUILD = 'two-step-8';
 const MODEL = 'gpt-5';
 const EFFORT = 'minimal';
 const SEARCH_RESULTS = 8;
@@ -152,7 +152,7 @@ const TEST_ORIGIN = 'https://em-archive-search.pages.dev';
 // Auditing means asking dozens of questions in a sitting, which the public cap would
 // block within minutes. Origin can be spoofed by a non-browser client, so this only
 // raises a cost ceiling (a few cents a question); it grants no other access.
-const TEST_RATE_LIMIT = 80;
+const TEST_RATE_LIMIT = 400;   // 29 Oct: the whole Betashares office shares one IP; internal testers would hit 80 together
 
 /** Mirrors ask_guard.PERSONAL in the Python pipeline. Keep the two in step. */
 const PERSONAL = [
