@@ -574,6 +574,21 @@ background:#FDECEC;border-left:4px solid var(--coral);color:var(--navy);font-siz
 .emq .pchip{display:inline-flex;flex-wrap:wrap;gap:6px;align-items:baseline;margin:0 0 18px;padding:8px 14px;
 border-radius:999px;background:#EEF1F5;color:var(--navy);font-size:13.5px}
 .emq .pchip b{font-size:15px}.emq .pchip small{color:var(--mute);font-size:12px}
+.emq .cob{margin:0 0 22px;border:1px solid var(--line);border-top:4px solid var(--coral);border-radius:12px;
+background:#fff;padding:18px 20px}
+.emq .cob .coh{display:flex;flex-wrap:wrap;justify-content:space-between;gap:6px 16px;align-items:baseline}
+.emq .cob h3{margin:0;font:800 20px 'Libre Franklin',Arial;color:var(--navy)}
+.emq .cob h3 small{font:600 13px 'Open Sans',Arial;color:var(--mute);margin-left:6px}
+.emq .cob .cop{color:var(--navy);font-size:13.5px}.emq .cob .cop b{font-size:16px}
+.emq .cob .cop small{display:block;color:var(--mute);font-size:11.5px;text-align:right}
+.emq .cob .com{color:var(--mute);font-size:13px;margin:4px 0 12px}
+.emq .cob dl{margin:0;display:grid;grid-template-columns:110px 1fr;gap:10px 14px;font-size:14px;line-height:1.55}
+.emq .cob dt{font:700 11px 'Libre Franklin',Arial;letter-spacing:1px;text-transform:uppercase;color:var(--coral);padding-top:3px}
+.emq .cob dd{margin:0;color:var(--ink)}
+.emq .cob dd a.w{display:inline-flex;align-items:center;gap:4px;margin-left:6px;font-weight:600;color:var(--navy);white-space:nowrap}
+.emq .cob .col{display:inline-flex;align-items:center;gap:6px;margin-top:14px;padding:8px 14px;border-radius:999px;
+background:var(--navy);color:#fff;font:700 13px 'Libre Franklin',Arial;text-decoration:none}
+@media(max-width:600px){.emq .cob dl{grid-template-columns:1fr;gap:2px}.emq .cob dd{margin-bottom:8px}.emq .cob .cop small{text-align:left}}
 /* loading */
 .emq .steps{display:grid;gap:12px;max-width:520px;margin:6px 0 28px}
 .emq .step{display:flex;gap:12px;align-items:center;color:var(--mute);font-size:15.5px;transition:.2s}
@@ -798,6 +813,31 @@ function follow(){return'<form class="fu fbar">'+ic('search',20)+'<input type="s
 function lead(e){return e&&e.specific?'<div class="lead2">'+ic('shield',16)+'<div><b>No personal advice.</b> This is general information about what Equity Mates has said, not a recommendation to buy, sell or hold, and it does not take your situation into account.</div></div>':'';}
 // Today's price for a named company, sent fresh with every answer (never saved in it).
 function pchip(p){return p?'<div class="pchip">'+esc(p.label)+' <b>'+esc(p.price)+'</b><small>on '+esc(p.asAt)+', '+esc(p.source)+', may be delayed</small></div>':'';}
+// Company banner (Louis, 30 Oct 2026): when an answer names a company, a short card above it
+// built from that company's four-step checklist file (our own archive, written ahead): how
+// Equity Mates described the business, the latest take and where it was said, mention
+// count, today's price, and a link to the full checklist. No P/E or profit until a licensed
+// data feed is agreed. Companies without a checklist keep the plain price chip.
+var COLIST=null;
+function colist(){if(!COLIST)COLIST=fetch('/checklist-test/companies.json').then(function(r){return r.ok?r.json():[]}).catch(function(){return[]});return COLIST;}
+function coslug(list,label){var m=/\(([^)]+)\)\s*$/.exec(label||'');if(!m)return null;var lst=m[1].trim();
+ for(var i=0;i<list.length;i++){if((list[i].l||[]).indexOf(lst)>=0)return list[i].s;}return null;}
+function cobanner(idx,p){if(!p)return;var el=document.getElementById('emq-co-'+idx);if(!el)return;
+ colist().then(function(list){var slug=coslug(list,p.label);if(!slug)return null;
+  return fetch('/checklist-test/co/'+slug+'.json').then(function(r){return r.ok?r.json():null});})
+ .then(function(c){if(!c||!el.isConnected)return;
+  var all=[];(c.steps||[]).forEach(function(st){(st.views||[]).forEach(function(v){all.push(v)})});
+  all.sort(function(a,b){return a.date<b.date?1:-1});
+  var what=((c.steps||[])[0]||{}).views,latest=all[0];
+  var row=function(k,v){if(!v)return'';var ep=v.episode||{};
+   var w=ep.jump?'<a class="w" href="'+esc(ep.jump)+'" target="_blank" rel="noopener">'+ic('clock',13)+'Watch from '+esc(ep.at)+'</a>':'';
+   var src=ep.title?' <small style="color:var(--mute)">('+esc(ep.title)+')</small>':'';
+   return'<dt>'+k+'</dt><dd>'+esc(v.text)+src+w+'</dd>';};
+  el.innerHTML='<div class="cob"><div class="coh"><h3>'+esc(c.name)+'<small>'+esc((c.listings||[]).join(', '))+'</small></h3>'+
+   '<div class="cop">Today <b>'+esc(p.price)+'</b><small>'+esc(p.asAt)+', '+esc(p.source)+', may be delayed</small></div></div>'+
+   '<p class="com">Mentioned in '+(c.mentioned_in||c.episodes)+' episodes, most recently '+esc((latest&&latest.when)||'')+'</p>'+
+   '<dl>'+row('What they do',what&&what[0])+(latest&&(!what||latest!==what[0])?row('Latest take',latest):'')+'</dl>'+
+   '<a class="col" href="/checklist-test/?co='+encodeURIComponent(c.slug)+'" target="_blank">See the 4-step checklist'+ic('arrow',14)+'</a></div>';});}
 function disc(){return'<div class="disc2">'+ic('shield',16)+'<div>General information only. It does not take your personal circumstances into account and is not a recommendation to buy or sell anything. Equity Mates Media operates under AFSL 540697. <a href="https://equitymates.com/advice/" target="_blank">Find a licensed adviser</a></div></div>';}
 var R=document.getElementById('emq-result'),A=document.getElementById('emq-audit');
 function chip(s,l){return'<span class="f '+s+'">'+esc(l)+'</span>';}
@@ -907,8 +947,8 @@ async function live(q,idx,prev){var S=TURNS[idx],box=document.getElementById('em
     else if(e.type==='done'&&e.offTopic){S.done=e;S.total=performance.now()-t0;
      box.innerHTML=scopeCard(e.title,text,e.kind);renderAudit();}
     else if(e.type==='done'){S.done=e;S.total=performance.now()-t0;setStep(3,box);
-     box.innerHTML=lead(e)+pchip(e.price)+'<div class="ans">'+paras(text,subject(S.asked||q))+'</div>'+fb(idx)+showAsk(idx)+disc();
-     document.getElementById('emq-eps-'+idx).innerHTML=epCards(e.episodes)+signup('answer',S.asked||q);renderAudit();}
+     box.innerHTML=lead(e)+'<div id="emq-co-'+idx+'">'+pchip(e.price)+'</div><div class="ans">'+paras(text,subject(S.asked||q))+'</div>'+fb(idx)+showAsk(idx)+disc();
+     document.getElementById('emq-eps-'+idx).innerHTML=epCards(e.episodes)+signup('answer',S.asked||q);renderAudit();cobanner(idx,e.price);}
     else if(e.type==='error'){box.innerHTML='<div class="ans"><p><b>'+esc(e.message)+'</b></p></div>';}}}
  }catch(err){box.innerHTML='<div class="ans"><p>Could not reach the answer service.</p></div>';}
  finally{tm.forEach(clearTimeout);}}
