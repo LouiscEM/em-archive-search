@@ -30,13 +30,16 @@
 // Stamped at commit time so the config check says WHICH revision is live.
 // Without it, 'is the fix deployed yet' is unanswerable and every timing
 // measurement is ambiguous.
-const BUILD = 'two-step-8';
+const BUILD = 'two-step-9';
 const MODEL = 'gpt-5';
 const EFFORT = 'minimal';
 const SEARCH_RESULTS = 8;
+const RECENT_MONTHS = 18;       // what counts as "recent" for the second search
+const RECENT_RESULTS = 3;       // up to this many recent excerpts are mixed in
+const RECENT_MIN_RATIO = 0.75;  // ...if they score at least this share of the best match
 // Bump when the prompt changes. Answers last CACHE_DAYS; ask_prewarm.py refreshes the
 // popular ones as they expire, so new episodes reach saved answers within a week.
-const CACHE_VERSION = 'v5';   // v5 28 Oct: gate added; earlier answers were never gated
+const CACHE_VERSION = 'v6';   // v6 30 Oct: dated excerpts, recent search, prices (v5 28 Oct: gate)
 const CACHE_DAYS = 7;
 // Reuse a saved answer when a new question means the same thing (28 Oct 2026). Similarity
 // alone is NOT safe: "best ASX dividend stocks" vs "growth stocks" scored 0.853 and
@@ -253,6 +256,19 @@ Rules:
 - Use ONLY what the transcripts say. If they do not cover it, say so plainly.
 - Do not invent statistics, dates or quotes, and do not repeat figures from a worked
   example as if they were general.
+- Each excerpt says when it was recorded. Views go stale: a price, rate, valuation or
+  opinion from years ago is history, not today's position.
+  - Lead with the MOST RECENT view and say when it was given ("In March 2025, the team
+    said...").
+  - Give older views as history with their year ("Back in 2021, the team liked it
+    because..."), and point out where things have clearly changed since.
+  - Never state an old price, rate, holding or opinion as if it is current. If the most
+    recent view is more than a year old, say that it is.
+- If share price data is given, use it to show then and now in one or two sentences:
+  roughly what the shares traded at when an older view was given, and today's price with
+  its date ("around $7 in March 2021; $6.86 on 30 October 2026"). Quote no other price as
+  current. A price move is context, never a reason to buy or sell, so draw no conclusion
+  from it about whether the shares are good value.
 - Do not write URLs and do not name episodes. Links are added from our own database.
 - Never mention excerpts, passages, transcripts you were given, or anything the reader
   "shared" or "provided". The reader only typed a question. Speak as Equity Mates.
@@ -369,6 +385,26 @@ async function cachePut(env, key, payload) {
   } catch (e) { /* a cache write failing must never fail the answer */ }
 }
 
+/**
+ * One row per question asked, so the team can see what readers search for (30 Oct 2026):
+ * top topics, companies, gaps. Read with ask_questions.py. The text is NOT kept when the
+ * question describes the reader's own situation or is a crisis or harmful message: those
+ * rows keep only their category. Pre-answering runs are not readers, so are never logged.
+ */
+async function logQ(env, row) {
+  if (!env.DB) return;
+  try {
+    await env.DB.prepare('CREATE TABLE IF NOT EXISTS ask_log (id INTEGER PRIMARY KEY AUTOINCREMENT, ' +
+      'ts INTEGER, q TEXT, asked TEXT, personal INTEGER, kind TEXT, served TEXT, company TEXT, ' +
+      'follow INTEGER, ms INTEGER, site TEXT, topic TEXT)').run();
+    const hide = row.personal || ['CRISIS', 'HARMFUL'].includes(row.kind);
+    await env.DB.prepare('INSERT INTO ask_log (ts, q, asked, personal, kind, served, company, follow, ms, site) ' +
+      'VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)').bind(Date.now(), hide ? null : row.q.slice(0, 300),
+      hide || !row.asked ? null : row.asked.slice(0, 300), row.personal ? 1 : 0, row.kind, row.served,
+      row.company || null, row.follow ? 1 : 0, row.ms || 0, row.site || '').run();
+  } catch (e) { /* logging must never fail an answer */ }
+}
+
 /** Question embeddings, stored beside the saved answers so similar questions can reuse them. */
 const toB64 = (vec) => { const b = new Uint8Array(new Float32Array(vec).buffer); let s = '';
   for (let i = 0; i < b.length; i++) s += String.fromCharCode(b[i]); return btoa(s); };
@@ -420,20 +456,58 @@ async function openai(env, path, body) {
   return r.json();
 }
 
-async function search(env, storeId, question) {
+async function searchOnce(env, storeId, question, filters) {
   const d = await openai(env, `/vector_stores/${storeId}/search`,
-    { query: question, max_num_results: SEARCH_RESULTS });
+    { query: question, max_num_results: SEARCH_RESULTS, ...(filters ? { filters } : {}) });
   return (d.data || []).map((x) => ({
     file: x.filename || '', score: x.score || 0,
     text: (x.content || []).map((c) => c.text || '').join(' '),
   }));
 }
 
-async function write(env, question, chunks, extra) {
-  const excerpts = chunks.map((c, i) => `[${i + 1}] ${c.text.slice(0, 1800)}`).join('\n\n');
+/**
+ * The best matches across the archive, plus the best from the last RECENT_MONTHS.
+ * Ranking alone favours whichever chat matches the words best, often years old: a
+ * question on A2 Milk could be answered from 2021 and miss what the team said this year.
+ * Every indexed file has a `date` attribute (YYYYMMDD, ask_pipeline.py tag-dates), so a
+ * second, date-filtered search runs alongside and its relevant hits are mixed in.
+ */
+async function search(env, storeId, question) {
+  const since = new Date(Date.now() - RECENT_MONTHS * 30.44 * 864e5);
+  const cutoff = +since.toISOString().slice(0, 10).replace(/-/g, '');
+  const [all, recent] = await Promise.all([
+    searchOnce(env, storeId, question),
+    searchOnce(env, storeId, question, { type: 'gte', key: 'date', value: cutoff }).catch(() => []),
+  ]);
+  const best = all.length ? all[0].score : 0;
+  const seen = new Set();
+  const take = (c) => { const k = c.file + c.text.slice(0, 80); if (seen.has(k)) return false; seen.add(k); return true; };
+  // Recent hits must be nearly as relevant as the best overall match, or a passing
+  // mention from last month would crowd out the episode that really covers the topic.
+  const fresh = recent.filter((c) => c.score >= best * RECENT_MIN_RATIO).slice(0, RECENT_RESULTS);
+  const out = [...all.slice(0, SEARCH_RESULTS - RECENT_RESULTS).filter(take), ...fresh.filter(take)];
+  for (const c of all) { if (out.length >= SEARCH_RESULTS) break; if (take(c)) out.push(c); }
+  return out;
+}
+
+const MONTHS = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August',
+  'September', 'October', 'November', 'December'];
+const monthYear = (iso) => { const [y, m] = iso.split('-'); return `${MONTHS[+m - 1]} ${y}`; };
+
+/** When an excerpt was said, from its file name: ep{id}_{YYYY-MM-DD}_{slug}.md */
+const chunkDate = (c) => (/^ep\d+_(\d{4}-\d{2}-\d{2})_/.exec(c.file) || [])[1] || null;
+
+async function write(env, question, chunks, extra, price) {
+  // Every excerpt carries the month it was recorded, so a 2021 view of a stock is never
+  // read as today's (the A2 Milk case Louis raised on 30 Oct).
+  const excerpts = chunks.map((c, i) => {
+    const d = chunkDate(c);
+    return `[${i + 1}] (recorded ${d ? monthYear(d) : 'date unknown'}) ${c.text.slice(0, 1800)}`;
+  }).join('\n\n');
+  const today = monthYear(new Date().toISOString().slice(0, 10));
   const d = await openai(env, '/responses', {
     model: MODEL, reasoning: { effort: EFFORT }, instructions: INSTRUCTIONS + (extra || ''),
-    input: `Question: ${question}\n\nExcerpts:\n${excerpts}`,
+    input: `Today is ${today}.\n\nQuestion: ${question}${priceBrief(price, chunks)}\n\nExcerpts:\n${excerpts}`,
   });
   const text = (d.output || []).flatMap((o) => o.content || []).map((c) => c.text || '').join('');
   // House style bans dashes; strip the space citation markers leave before punctuation.
@@ -457,6 +531,85 @@ function episodesFrom(chunks, lookup) {
   }
   return out;
 }
+
+/* ---------------------------------------------------------------- today's price
+ * A view from 2021 means little without the price then and now (Louis, 30 Oct 2026, on
+ * A2 Milk). When a question names a listed company, the Worker looks up its Yahoo price
+ * history and gives the writer today's price plus the month-end close for each month an
+ * excerpt was recorded, so "then and now" comes from data, never from memory.
+ * Yahoo's chart endpoint is unofficial and unlicensed for commercial use: fine for an
+ * internal test bed, needs a licensed feed before anything public.
+ */
+// Asking for a call on a particular investment, with or without a company we recognise.
+const SPECIFIC_RE = /\b(buy|sell|hold|selling|buying|invest in|should i|worth (buying|it|investing)|good (buy|investment|stock|share|company)|undervalued|overvalued|cheap|expensive|price target|top pick)\b/i;
+
+let COMPANY_CACHE = null;
+async function companies(request) {
+  if (COMPANY_CACHE) return COMPANY_CACHE;
+  const r = await fetch(new URL('/ask-companies.json', request.url).toString(), { cf: { cacheTtl: 3600 } });
+  COMPANY_CACHE = r.ok ? await r.json() : { names: {}, tickers: {} };
+  return COMPANY_CACHE;
+}
+
+/** The listed company a question names, if any: [label, yahoo symbol]. Longest name wins. */
+async function findCompany(request, question) {
+  const list = await companies(request);
+  for (const t of question.match(/\b[A-Z0-9]{3,5}\b/g) || []) if (list.tickers[t]) return list.tickers[t];
+  const q = ` ${question.toLowerCase().replace(/[’']s\b/g, '').replace(/[^a-z0-9.&\- ]+/g, ' ')} `;
+  let best = null;
+  for (const [alias, entry] of Object.entries(list.names)) {
+    if (q.includes(` ${alias} `) && (!best || alias.length > best[0].length)) best = [alias, entry];
+  }
+  return best ? best[1] : null;
+}
+
+const PRICE_CACHE = new Map();   // per isolate, 15 minutes: prices are delayed anyway
+async function priceFor(entry) {
+  const [label, symbol] = entry;
+  const hit = PRICE_CACHE.get(symbol);
+  if (hit && Date.now() - hit.at < 15 * 6e4) return hit.value;
+  const ctl = new AbortController();
+  const timer = setTimeout(() => ctl.abort(), 2500);   // never hold up an answer for a price
+  try {
+    const r = await fetch(`https://query1.finance.yahoo.com/v8/finance/chart/${encodeURIComponent(symbol)}` +
+      '?range=10y&interval=1mo', { signal: ctl.signal, headers: { 'User-Agent': 'Mozilla/5.0' } });
+    if (!r.ok) return null;
+    const res = ((await r.json()).chart || {}).result;
+    const d = res && res[0];
+    if (!d || !d.meta || !d.meta.regularMarketPrice) return null;
+    const closes = {};
+    const q = ((d.indicators || {}).quote || [])[0] || {};
+    (d.timestamp || []).forEach((t, i) => {
+      if (q.close && q.close[i] != null) closes[new Date(t * 1000).toISOString().slice(0, 7)] = q.close[i];
+    });
+    const value = { label, symbol, currency: d.meta.currency || '', price: d.meta.regularMarketPrice,
+      asAt: new Date((d.meta.regularMarketTime || Date.now() / 1000) * 1000).toISOString().slice(0, 10),
+      closes, source: 'Yahoo Finance' };
+    PRICE_CACHE.set(symbol, { at: Date.now(), value });
+    return value;
+  } catch (e) { return null; } finally { clearTimeout(timer); }
+}
+
+const money = (n, cur) => {
+  const sym = { AUD: 'A$', USD: 'US$', NZD: 'NZ$', GBP: '£', EUR: '€' }[cur];
+  const v = n < 1 ? n.toFixed(3) : n.toFixed(2);
+  return sym ? `${sym}${v}` : `${v} ${cur}`.trim();
+};
+const fullDate = (iso) => { const [y, m, d] = iso.split('-'); return `${+d} ${MONTHS[+m - 1]} ${y}`; };
+
+/** The price block the writer sees: today, then the close in each month an excerpt is from. */
+function priceBrief(p, chunks) {
+  if (!p) return '';
+  const months = [...new Set(chunks.map(chunkDate).filter(Boolean).map((d) => d.slice(0, 7)))].sort();
+  const then = months.filter((m) => p.closes[m] != null)
+    .map((m) => `${monthYear(m + '-01')}: ${money(p.closes[m], p.currency)}`);
+  return `\n\nShare price data from ${p.source}. These are the ONLY share prices you may quote.\n` +
+    `${p.label}: ${money(p.price, p.currency)} on ${fullDate(p.asAt)}.\n` +
+    (then.length ? `Month-end price in the months the excerpts were recorded: ${then.join('; ')}.` : '');
+}
+
+/** What the page shows beside the answer: today's price only, no history. */
+const priceChip = (p) => p && { label: p.label, price: money(p.price, p.currency), asAt: fullDate(p.asAt), source: p.source };
 
 let EPISODE_CACHE = null;
 
@@ -604,6 +757,12 @@ export async function onRequestPost(context) {
   // that wiped every saved answer nightly, so pre-answering would have had to be redone
   // every night. Answers now last CACHE_DAYS and are refreshed by ask_prewarm.py.
   const lookup = await episodes(request);
+  // Look up the price while everything else runs; a failure just means no price line.
+  const companyP = findCompany(request, question).catch(() => null);
+  const priceP = companyP.then((c) => (c ? priceFor(c) : null)).catch(() => null);
+  // A question about one company, a buy/sell/hold call or the reader's own situation gets a
+  // fixed "no personal advice" line ABOVE the answer, not only the footer (Ren, 30 Oct).
+  const specificP = companyP.then((c) => personal || !!c || SPECIFIC_RE.test(question));
   const key = `${CACHE_VERSION}|${topicKey(question)}`;
   // ask_prewarm.py refreshes popular answers before they expire: it always writes a fresh
   // answer (no cache read, no reuse) and saves it. Test origin only, and still rate limited.
@@ -616,6 +775,8 @@ export async function onRequestPost(context) {
   const pump = (async () => {
     const t0 = Date.now();
     const timing = {};
+    const L = { q: askedRaw, asked: question !== askedRaw ? question : null, personal, kind: 'IN',
+      served: 'error', follow: prev.length > 0, site: origin.replace(/^https?:[/][/]/, '') };
     try {
       await send({ type: 'start', personal, asked: question !== askedRaw ? question : null });
 
@@ -626,6 +787,7 @@ export async function onRequestPost(context) {
       // Only off-topic messages are saved (they are the same for everyone); the others are
       // cheap to repeat and a crisis message must never come from a stale saved copy.
       const block = async (kind) => {
+        L.kind = kind; L.served = 'blocked';
         const [title, msg] = kind === 'OFF_TOPIC' ? [SCOPE_TITLE, SCOPE] : BLOCKS[kind];
         const meta = { episodes: [], offTopic: true, kind, title, fallback: false, retried: false, personal };
         if (kind === 'OFF_TOPIC' && !personal) { await cachePut(env, key, { text: msg, meta }); await vecPut(env, key, question, vec); }
@@ -638,8 +800,10 @@ export async function onRequestPost(context) {
       if (!personal) {
         const hit = prewarm ? null : await cacheGet(env, key);
         if (hit) {
+          L.served = 'cached'; if (hit.meta && hit.meta.offTopic) L.kind = hit.meta.kind || 'OFF_TOPIC';
           await send({ type: 'delta', text: hit.text });
-          await send({ type: 'done', ...hit.meta, cached: true, ms: Date.now() - t0 });
+          await send({ type: 'done', ...hit.meta, price: priceChip(await priceP), specific: await specificP,
+            cached: true, ms: Date.now() - t0 });
           return;
         }
         // Start the archive search straight away, and check for a saved answer to a
@@ -656,8 +820,10 @@ export async function onRequestPost(context) {
           const reuse = prewarm ? null : await findReuse(env, question, vec);
           const saved = reuse && await cacheGet(env, reuse.key);
           if (saved && (await gateP) === 'IN') {
+            L.served = 'reused'; if (saved.meta && saved.meta.offTopic) L.kind = saved.meta.kind || 'OFF_TOPIC';
             await send({ type: 'delta', text: saved.text });
-            await send({ type: 'done', ...saved.meta, cached: true, reused: true,
+            await send({ type: 'done', ...saved.meta, price: priceChip(await priceP), specific: await specificP,
+              cached: true, reused: true,
               reusedFrom: reuse.question, similarity: Math.round(reuse.score * 1000) / 1000,
               ms: Date.now() - t0 });
             return;
@@ -676,11 +842,13 @@ export async function onRequestPost(context) {
       }
       const chunks = await searching;
       timing.search = Date.now() - t0;
+      const price = await priceP;
 
       await send({ type: 'stage', stage: 'writing' });
       const brief = personal ? PERSONAL_BRIEF : '';
-      let text = await write(env, question, chunks, brief);
+      let text = await write(env, question, chunks, brief, price);
       if (/^\W*OUT_OF_SCOPE\b/.test(text)) {
+        L.kind = 'OFF_TOPIC'; L.served = 'blocked';
         const meta = { episodes: [], offTopic: true, title: SCOPE_TITLE, fallback: false,
           retried: false, personal };
         if (!personal) { await cachePut(env, key, { text: SCOPE, meta }); await vecPut(env, key, question, vec); }
@@ -692,12 +860,13 @@ export async function onRequestPost(context) {
       let retried = false;
       if (flags.length) {
         await send({ type: 'stage', stage: 'checking' });
-        const again = await write(env, question, chunks, brief + STRICT);
+        const again = await write(env, question, chunks, brief + STRICT, price);
         const againFlags = audit(again);
         retried = true;
         if (againFlags.length < flags.length) { text = again; flags = againFlags; }
       }
       const fallback = flags.length > 0;
+      L.served = fallback ? 'fallback' : 'fresh';
       if (fallback) text = FALLBACK;
       timing.total = Date.now() - t0;
 
@@ -708,12 +877,20 @@ export async function onRequestPost(context) {
       if (!personal && !fallback) { await cachePut(env, key, { text, meta }); await vecPut(env, key, question, vec); }
 
       await send({ type: 'delta', text });
-      await send({ type: 'done', ...meta, cached: false, ms: timing.total, timing });
+      // The price is sent with each answer, never saved in it, so a saved answer still
+      // shows today's price.
+      await send({ type: 'done', ...meta, price: priceChip(price), specific: await specificP,
+        cached: false, ms: timing.total, timing });
     } catch (e) {
       await send({ type: 'error', message: 'Something went wrong answering that. Please try again.',
         detail: String(e).slice(0, 180) });
     } finally {
       await writer.close();
+      if (!prewarm) {
+        L.company = await companyP.then((c) => (c ? c[0] : null)).catch(() => null);
+        L.ms = Date.now() - t0;
+        await logQ(env, L);
+      }
     }
   })();
 

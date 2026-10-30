@@ -51,7 +51,8 @@ export async function onRequest(context) {
   // website. Keep this an EXACT match list. A prefix match would let a crafted path
   // walk back into the protected site.
   // /api/feedback (28 Oct 2026) takes the "Was this helpful?" votes under each answer.
-  const PUBLIC_PATHS = ['/api/ask', '/api/feedback', '/ask-episodes.json'];
+  // /ask-companies.json (30 Oct 2026): company names and public tickers, for the price line.
+  const PUBLIC_PATHS = ['/api/ask', '/api/feedback', '/ask-episodes.json', '/ask-companies.json'];
   if (PUBLIC_PATHS.includes(new URL(request.url).pathname)) return next();
 
   const expected = env.ARCHIVE_PASSWORD;
