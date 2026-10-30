@@ -1,0 +1,34 @@
+{
+ "slug": "orora-ora",
+ "name": "Orora",
+ "full": "Orora",
+ "listings": [
+  "ASX: ORA"
+ ],
+ "built": "2026-10-30",
+ "episodes": 0,
+ "mentioned_in": 1,
+ "latest": null,
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": []
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": []
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

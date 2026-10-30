@@ -1,0 +1,268 @@
+<!doctype html><html lang="en-AU"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>The four-step stock checklist: test bed</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@500;600;700;800;900&family=Open+Sans:wght@400;600&display=swap">
+<!--
+  Prototype, 30 Oct 2026. Behind the test bed's password gate; nothing here is public.
+  Every checklist is written ahead by C:\B8S-APPS\em-corpus\checklist_build.py, audited
+  there, and served as a static file from co/<slug>.json. Nothing a reader types is sent
+  anywhere: the box only looks a company up in companies.json.
+-->
+<style>
+body{margin:0;background:#fff}
+.emq *{box-sizing:border-box}
+.emq{--disp:'Libre Franklin','Franklin Gothic Demi','Franklin Gothic Medium',Arial,sans-serif;
+ --navy:#18263B;--coral:#F15959;--ink:#3A4A5C;--mute:#8A97A8;--line:#E3E7EC;--soft:#F5F6F8;
+ font-family:'Open Sans',Arial,sans-serif;color:var(--ink);font-size:16px;line-height:1.6}
+.emq h1,.emq h2,.emq h3,.emq .kicker{font-family:var(--disp)}
+.emq .wrap{max-width:960px;margin:0 auto;padding:0 24px}
+.i{flex:0 0 auto;display:inline-block;vertical-align:middle}
+.emq .bar2{background:var(--navy);border-bottom:1px solid rgba(255,255,255,.08)}
+.emq .bar2 .wrap{display:flex;justify-content:space-between;align-items:center;height:64px}
+.emq .logo{font:900 22px/1 var(--disp);color:#fff;letter-spacing:-.5px;text-decoration:none}
+.emq .logo span{color:var(--coral)}
+.emq .bar2 nav{display:flex;gap:26px}
+.emq .bar2 nav a{color:rgba(255,255,255,.72);text-decoration:none;font:600 14px var(--disp)}
+.emq .bar2 nav a.on{color:#fff}
+.emq .hero2{background:var(--navy);padding:72px 0 80px;position:relative}
+.emq .hero2:before{content:"";position:absolute;inset:0;
+ background:radial-gradient(700px 420px at 50% -10%,rgba(241,89,89,.22),transparent 70%),
+ radial-gradient(500px 300px at 10% 100%,rgba(255,255,255,.05),transparent 70%)}
+.emq .hero2:after{content:"";position:absolute;inset:0;pointer-events:none;
+ background-image:radial-gradient(rgba(255,255,255,.08) 1px,transparent 1.5px);background-size:22px 22px;
+ -webkit-mask-image:radial-gradient(ellipse 75% 85% at 50% 40%,#000 25%,transparent 80%);
+ mask-image:radial-gradient(ellipse 75% 85% at 50% 40%,#000 25%,transparent 80%)}
+.emq .hero2>.wrap{position:relative;z-index:3;text-align:center;max-width:820px}
+.emq .kicker{color:var(--coral);font-weight:700;letter-spacing:1.6px;font-size:13px;text-transform:uppercase;margin-bottom:18px}
+.emq .hero2 h1{font-size:54px;line-height:1.04;margin:0;color:#fff;font-weight:900;letter-spacing:-1.5px}
+.emq .hero2 .lede{margin:20px auto 0;font-size:18px;line-height:1.6;color:rgba(255,255,255,.78);max-width:52ch}
+.emq .steps4{display:flex;flex-wrap:wrap;justify-content:center;gap:8px;margin-top:26px}
+.emq .steps4 span{border:1px solid rgba(255,255,255,.18);color:rgba(255,255,255,.85);border-radius:999px;
+ padding:6px 13px;font:600 13.5px var(--disp)}
+.emq .steps4 b{color:var(--coral);margin-right:6px}
+.emq .boxwrap{position:relative;margin-top:34px;text-align:left}
+.emq .search2{display:flex;align-items:center;background:#fff;border-radius:16px;padding:8px 8px 8px 20px;
+ box-shadow:0 18px 50px rgba(0,0,0,.25)}
+.emq .search2 input{flex:1;border:0;outline:0;font:19px 'Open Sans',Arial,sans-serif;color:var(--navy);padding:12px 0;min-width:0}
+.emq .search2 button{border:0;background:var(--coral);color:#fff;border-radius:11px;padding:14px 22px;
+ font:800 16px var(--disp);cursor:pointer}
+.emq .sugg{position:absolute;left:0;right:0;top:calc(100% + 8px);background:#fff;border-radius:14px;
+ box-shadow:0 18px 50px rgba(0,0,0,.25);padding:6px;display:none;z-index:5}
+.emq .sugg.on{display:block}
+.emq .sugg .it{display:flex;justify-content:space-between;gap:12px;align-items:center;padding:10px 14px;border-radius:10px;cursor:pointer;color:var(--navy)}
+.emq .sugg .it:hover,.emq .sugg .it.sel{background:var(--soft)}
+.emq .sugg .it b{font:700 15.5px var(--disp)}
+.emq .sugg .it small{color:var(--mute);font-size:13px}
+.emq .hint{margin-top:16px;color:rgba(255,255,255,.6);font-size:14px}
+.emq .hint a{color:#fff;cursor:pointer;text-decoration:underline;text-decoration-color:var(--coral);text-underline-offset:3px}
+.emq main{padding:44px 0 72px}
+.emq .disc2{display:flex;gap:10px;align-items:flex-start;background:var(--soft);border-radius:12px;padding:14px 16px;
+ font-size:14px;line-height:1.55;color:var(--ink)}
+.emq .disc2 a{color:var(--navy);font-weight:600}
+.emq .disc2 .i{color:var(--navy);margin-top:2px}
+.emq .co h2{font:900 44px/1.05 var(--disp);letter-spacing:-1.2px;color:var(--navy);margin:26px 0 6px}
+.emq .co .meta{color:var(--mute);font-size:14.5px}
+.emq .co .meta b{color:var(--navy);font-weight:600}
+.emq .step{border:1px solid var(--line);border-radius:18px;padding:24px 26px;margin-top:18px}
+.emq .step .hd{display:flex;gap:14px;align-items:center}
+.emq .step .n{width:40px;height:40px;border-radius:12px;background:var(--navy);color:#fff;display:flex;
+ align-items:center;justify-content:center;font:900 18px var(--disp);flex:0 0 auto}
+.emq .step h3{margin:0;font:800 21px/1.25 var(--disp);color:var(--navy);letter-spacing:-.3px}
+.emq .view{border-top:1px solid var(--line);margin-top:16px;padding-top:16px}
+.emq .view:first-of-type{border-top:0;padding-top:0}
+.emq .view p{margin:0;color:var(--ink)}
+.emq .view p .when{color:var(--navy);font-weight:700}
+.emq .ep{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-top:10px}
+.emq .ep a{text-decoration:none;font:700 13.5px var(--disp);border-radius:999px;padding:6px 13px;display:inline-flex;gap:6px;align-items:center}
+.emq .ep a.j{background:var(--navy);color:#fff}.emq .ep a.j b{color:var(--coral)}
+.emq .ep a.o{background:var(--soft);color:var(--navy);max-width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.emq .views{margin-top:16px}
+.emq .empty{margin-top:14px;color:var(--mute);font-style:italic}
+.emq .card{border:1px solid var(--line);border-radius:18px;padding:26px;margin-top:26px}
+.emq .card h3{margin:0 0 8px;font:800 22px/1.25 var(--disp);color:var(--navy)}
+.emq .card p{margin:0}
+.emq .card .btn{display:inline-block;margin-top:16px;border:0;background:var(--navy);color:#fff;border-radius:11px;
+ padding:12px 18px;font:700 15px var(--disp);cursor:pointer;text-decoration:none}
+.emq .card.coral{border-color:var(--coral)}
+.emq .foot{margin-top:30px;color:var(--mute);font-size:14px}
+.emq .foot a{color:var(--navy);font-weight:600}
+.emq .src{margin-top:34px;border-top:1px solid var(--line);padding-top:20px;font-size:14px;color:var(--mute)}
+.emq .src a{color:var(--navy);font-weight:600}
+@media (max-width:640px){.emq .hero2 h1{font-size:38px}.emq .co h2{font-size:34px}.emq .bar2 nav{display:none}
+ .emq .step{padding:20px}.emq .search2 button{padding:12px 14px}}
+</style></head>
+<body><div class="emq">
+<div class="bar2"><div class="wrap"><a class="logo" href="./">EQUITY <span>MATES</span></a>
+<nav><a href="/ask-test/">Ask Equity Mates</a><a class="on" href="./">Stock checklist</a></nav></div></div>
+
+<section class="hero2"><div class="wrap">
+ <div class="kicker">The four-step stock checklist</div>
+ <h1>What has Equity Mates said about a company?</h1>
+ <p class="lede">Type a company or ticker. See what's been said on the show about each step of the checklist Equity Mates uses on air, with the date and the moment in the episode.</p>
+ <div class="steps4"><span><b>1</b>Great product or service</span><span><b>2</b>Above market profits</span><span><b>3</b>Reinvests profits well</span><span><b>4</b>Reasonable price</span></div>
+ <form class="boxwrap" id="f" autocomplete="off">
+  <div class="search2"><input id="q" maxlength="80" placeholder="e.g. Xero, Pro Medicus or NVDA" aria-label="Company name or ticker">
+  <button type="submit">Look it up</button></div>
+  <div class="sugg" id="sugg" role="listbox"></div>
+ </form>
+ <div class="hint" id="hint"></div>
+</div></section>
+
+<main><div class="wrap" id="out"></div></main>
+</div>
+<script>
+(function(){
+var DISC='General information only. It does not take your personal circumstances into account and is not a recommendation to buy, sell or hold anything. Equity Mates Media operates under AFSL 540697. <a href="https://equitymates.com/advice/" target="_blank" rel="noopener">Find a licensed adviser</a>';
+var SHIELD='<svg class="i" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l8 3v6c0 4.5-3.4 8.3-8 9-4.6-.7-8-4.5-8-9V6z"/></svg>';
+var PLAY='<svg class="i" viewBox="0 0 24 24" width="13" height="13" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5z" fill="currentColor"/></svg>';
+var SOURCE='<div class="src">Where the checklist comes from: Equity Mates set out the four steps in <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=Hhucmdp1lj0&t=352s">4 simple steps for anyone to pick great stocks</a> (April 2025) and regularly works through them on the show.</div>';
+
+// Mirrors precheck() and PERSONAL in functions/api/ask.js, so this page turns away the same
+// things Ask does. Keep the two in step. Nothing typed here leaves the browser.
+var CRISIS_RE=/\b(kill(ing)? my ?self|suicid\w*|end(ing)? (it all|my life)|thinking of ending it|(don'?t|do not) want to (live|be here)|self[- ]?harm|hurt(ing)? myself|no reason to live)\b/;
+var INJECT_RE=/\b((ignore|disregard|forget) (all |any |your |the )?(previous |prior |above |earlier )?(instructions|rules|prompt)|system prompt|developer (mode|message)|jailbreak|you are now|pretend (you are|to be)|act as (a|an|my)|(repeat|show|print|reveal) (me )?(the|your) (excerpts|prompt|instructions|passages|sources))\b/;
+var PROFANE=('fuck fucking fucked fucken fuckin fck fk shit shite shitty crap damn bloody bullshit wtf cunt bitch bastard arse ass asshole dick piss pissed prick wanker bugger bollocks twat').split(' ');
+var FILLER=('lol lmao rofl haha hahaha hah ha ok okay hi hello hey hiya yo sup test testing thanks thank cheers ta what why how who when where which huh um umm uh er hmm mate bro dude this that it its is so bad good great useless stupid dumb boring rubbish trash yes no nah yep yeah nope please pls plz again try tried work working broken off up you your me my i am are was were be the a an and or of to for in on at with about just really very').split(' ');
+var PERSONAL=[/\bshould (i|we)\b/,/\b(can|could) i afford\b/,/\bis it worth (me|us|it for me)\b/,
+ /\b(worth it|right|suitable|good|better|ok|okay|sensible) for (me|us)\b/,/\bwhat (should|would) i (do|buy|sell|invest)/,
+ /\bwhat would you do\b/,/\b(my|our) (situation|circumstances|portfolio|super|mortgage|salary|income|savings)\b/,
+ /\bi('m| am) \d{1,2}( years old)?\b/,/\bi (have|earn|own|owe|make)\b.{0,30}\$?\d/,/\bhow much (should|do) i\b/,
+ /\bam i (better off|able to)\b/,/\b(do|would|should) you (buy|sell|hold|recommend)\b/,
+ // Stock-specific asks for a verdict, which this page never gives (30 Oct 2026).
+ /\ba (buy|sell|hold)\b/,/\b(good|bad|safe|great) (buy|investment|stock to (buy|own|hold))\b/,
+ /\bworth (buying|owning|holding|investing)\b/,/\b(buy|sell|hold) or (buy|sell|hold)\b/,/^(buy|sell|dump)\b/,
+ /\b(time|when) to (buy|sell|get in|get out)\b/,/\bwill (it|the (stock|share price|shares)) (go up|rise|fall|recover|bounce)\b/];
+function precheck(q){
+ var s=(q||'').toLowerCase().replace(/[\u2018\u2019]/g,"'");
+ if(CRISIS_RE.test(s))return'CRISIS';
+ if(INJECT_RE.test(s))return'INJECTION';
+ var w=(s.match(/[a-z0-9$%]+/g)||[]).filter(function(x){return x.length>1||/\d/.test(x);});
+ return w.some(function(x){return PROFANE.indexOf(x)<0&&FILLER.indexOf(x)<0;})?null:'UNCLEAR';
+}
+var BLOCKS={
+ UNCLEAR:['Type a company to look up','We couldn\'t find a company in that one. Type a company name or its ticker, like Xero, Pro Medicus or NVDA, and we\'ll show what Equity Mates has said about it.'],
+ INJECTION:['We can only look up companies','This page shows what Equity Mates has said about a company on its four-step checklist. Type a company name or ticker to start.'],
+ CRISIS:['If you\'re doing it tough, you\'re not alone','If you\'re in distress or thinking about harming yourself, please call Lifeline on 13 11 14, any time of day or night, or Beyond Blue on 1300 22 4636. If money worries are part of it, the National Debt Helpline on 1800 007 007 offers free, confidential help. If you\'re in immediate danger, call 000.']
+};
+
+var CO=[],BY={};
+var $=function(id){return document.getElementById(id);};
+function esc(s){return String(s==null?'':s).replace(/[&<>"']/g,function(c){return{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c];});}
+function norm(s){return(s||'').toLowerCase().replace(/[\u2018\u2019]/g,"'").replace(/[^a-z0-9&' ]+/g,' ').replace(/\s+/g,' ').trim();}
+function disc(){return'<div class="disc2">'+SHIELD+'<div>'+DISC+'</div></div>';}
+function card(title,body,cls,extra){return'<div class="card '+(cls||'')+'"><h3>'+esc(title)+'</h3><p>'+body+'</p>'+(extra||'')+'</div>';}
+
+// Find the company in what was typed: an exact ticker ("xro", "ASX: XRO"), else the longest
+// company name or alias that appears as whole words ("should I buy pro medicus").
+function find(raw){
+ var t=norm(raw).replace(/^(asx|nasdaq|nyse|lse|tsx|ftse)\s*/,'');
+ for(var i=0;i<CO.length;i++){if(CO[i].t.some(function(x){return x.toLowerCase()===t;}))return CO[i];}
+ var best=null,len=0,pad=' '+t+' ';
+ CO.forEach(function(c){c.a.concat([c.n,c.f]).forEach(function(a){var n=norm(a);
+  if(n.length>=3&&n.length>len&&pad.indexOf(' '+n+' ')>=0){best=c;len=n.length;}});});
+ if(best)return best;
+ var up=(raw||'').match(/\b[A-Z0-9]{3,5}\b/g)||[];
+ for(var j=0;j<up.length;j++)for(var k=0;k<CO.length;k++)if(CO[k].t.indexOf(up[j])>=0)return CO[k];
+ return null;
+}
+function suggest(raw){
+ var t=norm(raw);if(t.length<2)return[];
+ var out=[];
+ CO.forEach(function(c){
+  var names=[c.n,c.f].concat(c.a).map(norm),tk=c.t.map(function(x){return x.toLowerCase();});
+  var s=0;
+  if(tk.indexOf(t)>=0)s=4;else if(names.some(function(n){return n.indexOf(t)===0;}))s=3;
+  else if(names.some(function(n){return n.indexOf(' '+t)>=0;}))s=2;
+  if(s)out.push({c:c,s:s+(c.b?.5:0)+Math.min(c.e,200)/1000});
+ });
+ return out.sort(function(a,b){return b.s-a.s;}).slice(0,6).map(function(x){return x.c;});
+}
+
+var sel=-1,items=[];
+function drawSugg(){
+ var box=$('sugg');items=suggest($('q').value);sel=-1;
+ if(!items.length){box.className='sugg';box.innerHTML='';return;}
+ box.innerHTML=items.map(function(c,i){return'<div class="it" role="option" data-i="'+i+'"><b>'+esc(c.n)+'</b><small>'+esc(c.l.join(', '))+'</small></div>';}).join('');
+ box.className='sugg on';
+}
+function hideSugg(){$('sugg').className='sugg';}
+
+function render(c,personalNote){
+ var out=$('out');
+ if(!c.b){
+  out.innerHTML=disc()+card(c.n,c.e?('Equity Mates has mentioned '+esc(c.n)+' in '+c.e+' episode'+(c.e>1?'s':'')+'. Its checklist hasn\'t been prepared for this prototype yet.'):('There\'s no transcript where Equity Mates discusses '+esc(c.n)+', so there\'s nothing on the show to draw on.'));
+  return;
+ }
+ out.innerHTML=disc()+'<p class="empty">Loading what Equity Mates has said about '+esc(c.n)+'...</p>';
+ fetch('co/'+encodeURIComponent(c.s)+'.json',{cache:'no-cache'}).then(function(r){if(!r.ok)throw new Error(r.status);return r.json();}).then(function(d){
+  var total=d.steps.reduce(function(n,s){return n+s.views.length;},0);
+  var h=disc()+(personalNote||'')+'<div class="co"><h2>'+esc(d.name)+'</h2><div class="meta">'+esc(d.listings.join(', '))+
+   (total?' &middot; Drawn from <b>'+d.episodes+' episode'+(d.episodes>1?'s':'')+'</b>, most recent view <b>'+esc(new Date(d.latest+'T00:00:00').toLocaleDateString('en-AU',{month:'long',year:'numeric'}))+'</b>':'')+'</div></div>';
+  if(!total){
+   h+=card('Nothing on the checklist yet','Equity Mates has mentioned '+esc(d.name)+(d.mentioned_in?' in '+d.mentioned_in+' episode'+(d.mentioned_in>1?'s':''):'')+', but only in passing. It hasn\'t been discussed on any of the four steps, so there\'s nothing to show here.');
+  }else d.steps.forEach(function(s){
+   h+='<div class="step"><div class="hd"><div class="n">'+s.step+'</div><h3>'+esc(s.q)+'</h3></div>';
+   if(!s.views.length)h+='<p class="empty">Equity Mates hasn\'t covered this step for '+esc(d.name)+' on the show.</p>';
+   else{h+='<div class="views">';s.views.forEach(function(v){
+    var m=/^In ([A-Z][a-z]+ \d{4}),\s*/.exec(v.text),body=m?v.text.slice(m[0].length):v.text;
+    var e=v.episode;
+    h+='<div class="view"><p>'+(m?'<span class="when">In '+esc(m[1])+',</span> ':'')+esc(body)+'</p><div class="ep">'+
+     (e.jump?'<a class="j" target="_blank" rel="noopener" href="'+esc(e.jump)+'">'+PLAY+' Watch from <b>'+esc(e.at)+'</b></a>':'')+
+     '<a class="o" target="_blank" rel="noopener" href="'+esc(e.url)+'" title="'+esc(e.title)+'">'+esc(e.title)+'</a></div></div>';});
+    h+='</div>';}
+   h+='</div>';
+  });
+  h+='<div class="foot">Each view is what was said on the date shown. Businesses, prices and opinions change, so a view from years ago may no longer hold. This page reports what Equity Mates has discussed; it does not score or rate the company. <a href="https://equitymates.com/advice/" target="_blank" rel="noopener">Talk to a licensed adviser</a> about your own situation.</div>'+SOURCE;
+  out.innerHTML=h;
+ }).catch(function(){out.innerHTML=disc()+card('Something went wrong','We couldn\'t load that checklist. Please try again.');});
+}
+
+function lookup(raw,push){
+ hideSugg();
+ var q=(raw||'').trim(),out=$('out');
+ if(!q)return;
+ var pre=precheck(q);
+ if(pre){out.innerHTML=card(BLOCKS[pre][0],esc(BLOCKS[pre][1]),pre==='CRISIS'?'coral':'');return;}
+ var c=find(q);
+ var personal=PERSONAL.some(function(re){return re.test(q.toLowerCase().replace(/\u2019/g,"'"));});
+ if(personal){
+  // Never answer the personal part. Offer the general record instead, one click away.
+  out.innerHTML=card('We can\'t tell you what to do with your money','Equity Mates gives general information only, so we can\'t say whether any stock suits you. That depends on your goals and circumstances, and is a question for a <a href="https://equitymates.com/advice/" target="_blank" rel="noopener">licensed adviser</a>.'+(c?' What we can show you is what Equity Mates has said about '+esc(c.n)+' in general, step by step.':''),'',c?'<button class="btn" id="gen">See what Equity Mates has said about '+esc(c.n)+'</button>':'');
+  if(c)$('gen').onclick=function(){go(c,true);};
+  return;
+ }
+ if(!c){out.innerHTML=card('We couldn\'t find "'+q.slice(0,60)+'"','It may not have come up on Equity Mates yet, or it may be listed under another name. Try the company\'s full name or its ticker, like Xero or XRO.');return;}
+ go(c,push);
+}
+function go(c,push){
+ $('q').value=c.n;
+ if(push!==false)history.pushState({s:c.s},'','?co='+encodeURIComponent(c.s));
+ render(c);
+ $('out').scrollIntoView({behavior:'smooth',block:'start'});
+}
+
+$('f').onsubmit=function(e){e.preventDefault();if(sel>=0&&items[sel])go(items[sel]);else lookup($('q').value);};
+$('q').oninput=drawSugg;
+$('q').onkeydown=function(e){
+ if(!items.length||$('sugg').className!=='sugg on')return;
+ if(e.key==='ArrowDown'||e.key==='ArrowUp'){e.preventDefault();sel=(sel+(e.key==='ArrowDown'?1:items.length-1))%items.length;
+  [].forEach.call($('sugg').children,function(el,i){el.className='it'+(i===sel?' sel':'');});}
+ else if(e.key==='Escape')hideSugg();
+};
+$('sugg').onmousedown=function(e){var it=e.target.closest('.it');if(it){e.preventDefault();go(items[+it.getAttribute('data-i')]);}};
+$('q').onblur=function(){setTimeout(hideSugg,120);};
+window.onpopstate=function(){var s=new URLSearchParams(location.search).get('co');if(s&&BY[s])render(BY[s]);else $('out').innerHTML='';};
+
+fetch('companies.json').then(function(r){return r.json();}).then(function(d){
+ CO=d;d.forEach(function(c){BY[c.s]=c;});
+ var built=d.filter(function(c){return c.b;});
+ $('hint').innerHTML='Prototype: checklists prepared for '+built.length+' compan'+(built.length===1?'y':'ies')+' so far. Try '+
+  built.slice(0,4).map(function(c){return'<a data-s="'+esc(c.s)+'">'+esc(c.n)+'</a>';}).join(', ')+'.';
+ [].forEach.call($('hint').querySelectorAll('a'),function(a){a.onclick=function(){go(BY[a.getAttribute('data-s')]);};});
+ var s=new URLSearchParams(location.search).get('co');if(s&&BY[s]){$('q').value=BY[s].n;render(BY[s]);}
+});
+})();
+</script>
+</body></html>

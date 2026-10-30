@@ -1,0 +1,159 @@
+{
+ "slug": "technologyone-tne",
+ "name": "TechnologyOne",
+ "full": "Technology One",
+ "listings": [
+  "ASX: TNE"
+ ],
+ "built": "2026-10-30",
+ "episodes": 7,
+ "mentioned_in": 7,
+ "latest": "2026-10-23",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2026-10-23",
+     "when": "October 2026",
+     "text": "In October 2026, a guest on Equity Mates called it one of the highest quality software businesses on the ASX and said AI would accelerate the business, citing 100% renewal of contracts over the past 12 months with 30 to 40% price increases.",
+     "episode": {
+      "title": "We asked ChatGPT, Claude and Gemini to pick ASX growth stocks",
+      "url": "https://equitymates.com/episode/we-asked-ai-to-pick-asx-growth-stocks/",
+      "jump": "https://www.youtube.com/watch?v=GnNmAnpfmzs&t=664s",
+      "at": "11:04"
+     }
+    },
+    {
+     "date": "2026-09-17",
+     "when": "September 2026",
+     "text": "In September 2026, Equity Mates described Technology One as a boring growth stock serving large corporates and governments, noting average customer annual recurring revenue rose from about 100,000 in FY12 to 491,000, highlighting strong product uptake.",
+     "episode": {
+      "title": "AI panic, finding growth in Australia & who gets your Super when you die?",
+      "url": "https://equitymates.com/episode/ai-panic-finding-growth-in-australia-who-gets-your-super-when-you-die/",
+      "jump": "https://www.youtube.com/watch?v=65hIQo2D1U0&t=1221s",
+      "at": "20:21"
+     }
+    },
+    {
+     "date": "2026-08-14",
+     "when": "August 2026",
+     "text": "In August 2026, a guest on Equity Mates said Technology One’s Plus AI product had been adopted by all recent renewing government customers, which signalled product differentiation and supported both revenue acceleration and potential margin expansion.",
+     "episode": {
+      "title": "5 Aussie companies with exceptional revenue growth: TNE, SXE, 360, & More!",
+      "url": "https://equitymates.com/episode/5-aussie-companies-with-exceptional-revenue-growth-tne-sxe-360-more/",
+      "jump": "https://www.youtube.com/watch?v=BCLfvQweL6E&t=68s",
+      "at": "1:08"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2026-10-23",
+     "when": "October 2026",
+     "text": "In October 2026, a guest on Equity Mates pointed to 100% contract renewals and 30 to 40% price increases over 12 months as evidence of pricing power and limited disruption risk.",
+     "episode": {
+      "title": "We asked ChatGPT, Claude and Gemini to pick ASX growth stocks",
+      "url": "https://equitymates.com/episode/we-asked-ai-to-pick-asx-growth-stocks/",
+      "jump": "https://www.youtube.com/watch?v=GnNmAnpfmzs&t=664s",
+      "at": "11:04"
+     }
+    },
+    {
+     "date": "2026-04-29",
+     "when": "April 2026",
+     "text": "In April 2026, An adviser on Equity Mates argued the market underestimated moats in SaaS names like Technology One, including proprietary data sets, and said AI could be a significant benefit, supporting resilient business models.",
+     "episode": {
+      "title": "War, rebounds & rate hikes: Why you shouldn’t go all-in on Equities",
+      "url": "https://equitymates.com/episode/war-rebounds-rate-hikes-why-you-shouldnt-go-all-in-on-equities/",
+      "jump": "https://www.youtube.com/watch?v=-o9NRxBL3ew&t=1132s",
+      "at": "18:52"
+     }
+    },
+    {
+     "date": "2021-05-02",
+     "when": "May 2021",
+     "text": "In May 2021, Equity Mates outlined switching costs, long-term contracts and network effects from blue chip, government and public institution clients, plus improved security certifications, as key reasons for Technology One’s competitive positioning in Australia and New Zealand.",
+     "episode": {
+      "title": "Watchlist: Technology One (ASX: TNE)",
+      "url": "https://equitymates.com/episode/watchlist-technology-one-asx-tne/",
+      "jump": null,
+      "at": "14:54"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2026-08-21",
+     "when": "August 2026",
+     "text": "In August 2026, Equity Mates noted Technology One was trying to harness AI with its SaaS Plus offering, indicating continued investment in product development.",
+     "episode": {
+      "title": "Your top ASX stocks, analysed by the experts",
+      "url": "https://equitymates.com/episode/your-top-asx-stocks-analysed-by-the-experts/",
+      "jump": "https://www.youtube.com/watch?v=Ycow8xvP3iM&t=613s",
+      "at": "10:13"
+     }
+    },
+    {
+     "date": "2026-08-14",
+     "when": "August 2026",
+     "text": "In August 2026, a guest on Equity Mates said management signalled multiple catalysts and had built established customer and product infrastructure, framing over 20% earnings growth as largely de-risked and implying ongoing reinvestment in the platform.",
+     "episode": {
+      "title": "5 Aussie companies with exceptional revenue growth: TNE, SXE, 360, & More!",
+      "url": "https://equitymates.com/episode/5-aussie-companies-with-exceptional-revenue-growth-tne-sxe-360-more/",
+      "jump": "https://www.youtube.com/watch?v=BCLfvQweL6E&t=68s",
+      "at": "1:08"
+     }
+    },
+    {
+     "date": "2022-03-11",
+     "when": "March 2022",
+     "text": "In March 2022, Equity Mates discussed software’s capital-light economics and margins, and noted Technology One paid a small dividend, framing how cash flows can be split between reinvestment and shareholder returns.",
+     "episode": {
+      "title": "Talking Money To Us | Jules Cooper - Senior Analyst at Shaw & Partners",
+      "url": "https://equitymates.com/episode/talking-money-to-us/",
+      "jump": null,
+      "at": "39:14"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2026-10-23",
+     "when": "October 2026",
+     "text": "In October 2026, a guest on Equity Mates said the stock was expensive at about 90 times profit, though earnings growth looked good given renewals and upselling.",
+     "episode": {
+      "title": "We asked ChatGPT, Claude and Gemini to pick ASX growth stocks",
+      "url": "https://equitymates.com/episode/we-asked-ai-to-pick-asx-growth-stocks/",
+      "jump": "https://www.youtube.com/watch?v=GnNmAnpfmzs&t=664s",
+      "at": "11:04"
+     }
+    },
+    {
+     "date": "2026-08-14",
+     "when": "August 2026",
+     "text": "In August 2026, a guest on Equity Mates called the valuation eye-watering, citing a forward P/E of 56 times and a current P/E around 72 times, but framed it against expected growth and quality.",
+     "episode": {
+      "title": "5 Aussie companies with exceptional revenue growth: TNE, SXE, 360, & More!",
+      "url": "https://equitymates.com/episode/5-aussie-companies-with-exceptional-revenue-growth-tne-sxe-360-more/",
+      "jump": "https://www.youtube.com/watch?v=BCLfvQweL6E&t=68s",
+      "at": "1:08"
+     }
+    }
+   ]
+  }
+ ]
+}

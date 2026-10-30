@@ -1,0 +1,159 @@
+{
+ "slug": "xero-xro",
+ "name": "Xero",
+ "full": "Xero",
+ "listings": [
+  "ASX: XRO"
+ ],
+ "built": "2026-10-30",
+ "episodes": 7,
+ "mentioned_in": 57,
+ "latest": "2026-10-23",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2025-05-19",
+     "when": "May 2025",
+     "text": "In May 2025, Equity Mates described Xero’s cloud accounting as a very sticky tool used by many small and medium businesses, noting once financials are in the platform it became hard to switch.",
+     "episode": {
+      "title": "Investing on easy mode, what's driving markets right now & Pimp my Portfolio with Adam Dawes",
+      "url": "https://equitymates.com/episode/investing-on-easy-mode-whats-driving-markets-right-now-pimp-my-portfolio-with-adam-dawes/",
+      "jump": "https://www.youtube.com/watch?v=e91alUqoq_k&t=525s",
+      "at": "8:45"
+     }
+    },
+    {
+     "date": "2024-07-29",
+     "when": "July 2024",
+     "text": "In July 2024, Equity Mates said Xero entrenched businesses because switching accounting systems was annoying and time consuming, which gave it pricing power if it raised subscription fees.",
+     "episode": {
+      "title": "We're searching for the world's best moat, 1 million people working for you & Pimp my Portfolio",
+      "url": "https://equitymates.com/episode/were-searching-for-the-worlds-best-moat-1-million-people-working-for-you-pimp-my-portfolio/",
+      "jump": "https://www.youtube.com/watch?v=G8ubhCeZVSk&t=1644s",
+      "at": "27:24"
+     }
+    },
+    {
+     "date": "2023-02-23",
+     "when": "February 2023",
+     "text": "In February 2023, Equity Mates outlined Xero’s product as browser-based accounting that connected to bank feeds to automate invoices and bookkeeping, replacing older desktop software and reducing the need for an accountant for most tasks.",
+     "episode": {
+      "title": "How to value a company: XERO (ASX: XRO) Pt. 2",
+      "url": "https://equitymates.com/episode/how-to-value-a-company-xero-asx-xro-pt-2/",
+      "jump": null,
+      "at": "2:12"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2026-10-23",
+     "when": "October 2026",
+     "text": "In October 2026, Equity Mates discussed stickiness from accounting complexity and trust structures, citing an average Xero price near $36 a month and about $1.5 billion spent on marketing that built a base that would be hard for AI upstarts to dislodge.",
+     "episode": {
+      "title": "We asked ChatGPT, Claude and Gemini to pick ASX growth stocks",
+      "url": "https://equitymates.com/episode/we-asked-ai-to-pick-asx-growth-stocks/",
+      "jump": "https://www.youtube.com/watch?v=GnNmAnpfmzs&t=86s",
+      "at": "1:26"
+     }
+    },
+    {
+     "date": "2026-04-24",
+     "when": "April 2026",
+     "text": "In April 2026, Equity Mates argued switching costs were real because general ledgers and local tax links were hard to replicate, adding Xero’s data scale and existing AI tools could speed product development.",
+     "episode": {
+      "title": "Which Aussie software stocks are ready to rebound with Jared Pohl",
+      "url": "https://equitymates.com/episode/which-aussie-software-stocks-are-ready-to-rebound-with-jared-pohl/",
+      "jump": "https://www.youtube.com/watch?v=ONniPFWrVUI&t=655s",
+      "at": "10:55"
+     }
+    },
+    {
+     "date": "2026-02-12",
+     "when": "February 2026",
+     "text": "In February 2026, Equity Mates noted ecosystem and workflow lock-in with accountants, apps and bank feeds, and cited churn of about 1% of customers a month, while flagging US competition and AI agents as threats to moats.",
+     "episode": {
+      "title": "Bryce and Mr. Beat-Up can't agree, AI spending reaches new heights & Reddit is punished",
+      "url": "https://equitymates.com/episode/bryce-and-mr-beat-up-cant-agree-ai-spending-reaches-new-heights-reddit-is-punished/",
+      "jump": "https://www.youtube.com/watch?v=daJEvzjJxXs&t=1013s",
+      "at": "16:53"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2026-02-12",
+     "when": "February 2026",
+     "text": "In February 2026, Equity Mates said Xero generated strong cash and reinvested in growth and AI features, but the Melio integration had pulled reported return on equity into single digits, making deal execution the key swing factor.",
+     "episode": {
+      "title": "Bryce and Mr. Beat-Up can't agree, AI spending reaches new heights & Reddit is punished",
+      "url": "https://equitymates.com/episode/bryce-and-mr-beat-up-cant-agree-ai-spending-reaches-new-heights-reddit-is-punished/",
+      "jump": "https://www.youtube.com/watch?v=daJEvzjJxXs&t=1272s",
+      "at": "21:12"
+     }
+    },
+    {
+     "date": "2026-01-19",
+     "when": "January 2026",
+     "text": "In January 2026, Equity Mates said acquiring Melio aimed to match QuickBooks by enabling invoice payments inside Xero, a capability needed for its US push where Intuit was entrenched.",
+     "episode": {
+      "title": "We're back: 4 big investing themes & our Stocks of the Year",
+      "url": "https://equitymates.com/episode/were-back-big-themes-big-opportunities-the-stock-of-the-year/",
+      "jump": "https://www.youtube.com/watch?v=4nVjeTwKtMc&t=1910s",
+      "at": "31:50"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2026-10-23",
+     "when": "October 2026",
+     "text": "In October 2026, Equity Mates cited Xero trading at about 30 times FY28 earnings and compared it to Intuit at roughly 11 times, framing the relative valuation and market expectations.",
+     "episode": {
+      "title": "We asked ChatGPT, Claude and Gemini to pick ASX growth stocks",
+      "url": "https://equitymates.com/episode/we-asked-ai-to-pick-asx-growth-stocks/",
+      "jump": "https://www.youtube.com/watch?v=GnNmAnpfmzs&t=86s",
+      "at": "1:26"
+     }
+    },
+    {
+     "date": "2026-02-12",
+     "when": "February 2026",
+     "text": "In February 2026, Equity Mates said Xero’s share price had fallen around 58% from its all-time high, with investors pricing in AI disruption fears, US execution doubts and Melio deal risk.",
+     "episode": {
+      "title": "Bryce and Mr. Beat-Up can't agree, AI spending reaches new heights & Reddit is punished",
+      "url": "https://equitymates.com/episode/bryce-and-mr-beat-up-cant-agree-ai-spending-reaches-new-heights-reddit-is-punished/",
+      "jump": "https://www.youtube.com/watch?v=daJEvzjJxXs&t=733s",
+      "at": "12:13"
+     }
+    },
+    {
+     "date": "2025-05-19",
+     "when": "May 2025",
+     "text": "In May 2025, Equity Mates highlighted valuation risk by noting Xero traded at about 131 times price to earnings at the time, compared with Google at 17.",
+     "episode": {
+      "title": "Investing on easy mode, what's driving markets right now & Pimp my Portfolio with Adam Dawes",
+      "url": "https://equitymates.com/episode/investing-on-easy-mode-whats-driving-markets-right-now-pimp-my-portfolio-with-adam-dawes/",
+      "jump": "https://www.youtube.com/watch?v=e91alUqoq_k&t=734s",
+      "at": "12:14"
+     }
+    }
+   ]
+  }
+ ]
+}
