@@ -1,0 +1,160 @@
+{
+ "slug": "flutter-entertainment-flut",
+ "name": "Flutter Entertainment",
+ "full": "Flutter Entertainment",
+ "listings": [
+  "LSE: FLTR",
+  "NYSE: FLUT"
+ ],
+ "built": "2026-10-30",
+ "episodes": 6,
+ "mentioned_in": 10,
+ "latest": "2026-06-22",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2026-04-30",
+     "when": "April 2026",
+     "text": "In April 2026, Equity Mates described Flutter as the world's largest online sports betting and iGaming operator, active in over 100 countries with market leading brands like FanDuel and Sportsbet, showing a product used at global scale.",
+     "episode": {
+      "title": "Big Tech’s tiny tax bill, Elon v Altman goes to court & Mr Beat-Up’s “big catalyst” stock",
+      "url": "https://equitymates.com/episode/big-techs-tiny-tax-bill-elon-v-altman-goes-to-court-mr-beat-ups-big-catalyst-stock/",
+      "jump": "https://www.youtube.com/watch?v=5dSsMqESpgU&t=731s",
+      "at": "12:11"
+     }
+    },
+    {
+     "date": "2024-04-25",
+     "when": "April 2024",
+     "text": "In April 2024, Equity Mates noted FanDuel held 43% US market share and was owned by Flutter, indicating its betting apps were widely used in the key US market.",
+     "episode": {
+      "title": "Industry Deep Dive: Sports Betting - 5 years after legalisation in the US, who is winning?",
+      "url": "https://equitymates.com/episode/industry-deep-dive-sports-betting-5-years-after-legalisation-in-the-us-who-is-winning/",
+      "jump": "https://www.youtube.com/watch?v=bNNS3IW8kYQ&t=925s",
+      "at": "15:25"
+     }
+    },
+    {
+     "date": "2022-07-18",
+     "when": "July 2022",
+     "text": "In July 2022, Equity Mates outlined Flutter’s suite of consumer brands across regions, including Sportsbet in Australia, FanDuel in the US and Paddy Power in Ireland, highlighting a broad, recognisable gambling offering.",
+     "episode": {
+      "title": "Great time to travel to Europe… or look at their stocks",
+      "url": "https://equitymates.com/episode/great-time-to-travel-to-europe-or-look-at-their-stocks/",
+      "jump": "https://www.youtube.com/watch?v=jVRWIC5f1Jo&t=2027s",
+      "at": "33:47"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2026-02-19",
+     "when": "February 2026",
+     "text": "In February 2026, Equity Mates reported prediction markets spooked investors, with Flutter down 43% year to date, and said Flutter planned to pursue prediction markets via FanDuel, underscoring both competitive threats and strategic responses.",
+     "episode": {
+      "title": "Prediction markets are coming for Sportsbet & Pimp My Portfolio with Owen Rask",
+      "url": "https://equitymates.com/episode/prediction-markets-are-coming-for-sportsbet-pimp-my-portfolio-with-owen-rask/",
+      "jump": "https://www.youtube.com/watch?v=pN-dwMqrRXM&t=320s",
+      "at": "5:20"
+     }
+    },
+    {
+     "date": "2024-04-25",
+     "when": "April 2024",
+     "text": "In April 2024, Equity Mates highlighted Sportsbet’s dominant 48% online share in Australia and said Flutter made $2.5 billion AUD revenue and $750 million operating profit from Sportsbet in 2022, pointing to scale and attractive margins.",
+     "episode": {
+      "title": "Industry Deep Dive: Sports Betting - 5 years after legalisation in the US, who is winning?",
+      "url": "https://equitymates.com/episode/industry-deep-dive-sports-betting-5-years-after-legalisation-in-the-us-who-is-winning/",
+      "jump": "https://www.youtube.com/watch?v=bNNS3IW8kYQ&t=1136s",
+      "at": "18:56"
+     }
+    },
+    {
+     "date": "2022-08-29",
+     "when": "August 2022",
+     "text": "In August 2022, Equity Mates cited a poll showing strong brand recall for FanDuel and Fox Bet, both owned by Flutter, but cautioned the young US market was crowded and unsettled, so early leaders could face shifting dynamics.",
+     "episode": {
+      "title": "Disney is getting into sports betting + Earnings wrap",
+      "url": "https://equitymates.com/episode/disney-is-getting-into-sports-betting-earnings-wrap/",
+      "jump": "https://www.youtube.com/watch?v=z1dcF7VKMsM&t=2108s",
+      "at": "35:08"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2026-04-30",
+     "when": "April 2026",
+     "text": "In April 2026, Equity Mates described Flutter’s aggressive M&A over 15 years to build a portfolio of market leading brands, showing a history of reinvesting for growth.",
+     "episode": {
+      "title": "Big Tech’s tiny tax bill, Elon v Altman goes to court & Mr Beat-Up’s “big catalyst” stock",
+      "url": "https://equitymates.com/episode/big-techs-tiny-tax-bill-elon-v-altman-goes-to-court-mr-beat-ups-big-catalyst-stock/",
+      "jump": "https://www.youtube.com/watch?v=5dSsMqESpgU&t=731s",
+      "at": "12:11"
+     }
+    },
+    {
+     "date": "2026-02-19",
+     "when": "February 2026",
+     "text": "In February 2026, Equity Mates said Flutter aimed to expand into prediction markets through FanDuel, signalling ongoing investment to open new betting categories.",
+     "episode": {
+      "title": "Prediction markets are coming for Sportsbet & Pimp My Portfolio with Owen Rask",
+      "url": "https://equitymates.com/episode/prediction-markets-are-coming-for-sportsbet-pimp-my-portfolio-with-owen-rask/",
+      "jump": "https://www.youtube.com/watch?v=pN-dwMqrRXM&t=320s",
+      "at": "5:20"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2026-06-22",
+     "when": "June 2026",
+     "text": "In June 2026, Equity Mates revisited Flutter at about $110 and said it was flat since April, adding the World Cup was a near term catalyst that could affect results.",
+     "episode": {
+      "title": "What’s a Hydration Break Worth & Mr Beat Up Divides Bryce and Ren",
+      "url": "https://equitymates.com/episode/whats-a-hydration-break-worth-mr-beat-up-divides-bryce-and-ren/",
+      "jump": "https://www.youtube.com/watch?v=l_gHR_T2syU&t=614s",
+      "at": "10:14"
+     }
+    },
+    {
+     "date": "2026-04-30",
+     "when": "April 2026",
+     "text": "In April 2026, Equity Mates said Flutter fell from an all time high of $313 to $110 in about eight months, framing a sharp share price reset for a business with major brands.",
+     "episode": {
+      "title": "Big Tech’s tiny tax bill, Elon v Altman goes to court & Mr Beat-Up’s “big catalyst” stock",
+      "url": "https://equitymates.com/episode/big-techs-tiny-tax-bill-elon-v-altman-goes-to-court-mr-beat-ups-big-catalyst-stock/",
+      "jump": "https://www.youtube.com/watch?v=5dSsMqESpgU&t=731s",
+      "at": "12:11"
+     }
+    },
+    {
+     "date": "2026-02-19",
+     "when": "February 2026",
+     "text": "In February 2026, Equity Mates noted Flutter was down 43% year to date in mid February amid prediction market concerns, setting context for how much negativity was priced in.",
+     "episode": {
+      "title": "Prediction markets are coming for Sportsbet & Pimp My Portfolio with Owen Rask",
+      "url": "https://equitymates.com/episode/prediction-markets-are-coming-for-sportsbet-pimp-my-portfolio-with-owen-rask/",
+      "jump": "https://www.youtube.com/watch?v=pN-dwMqrRXM&t=320s",
+      "at": "5:20"
+     }
+    }
+   ]
+  }
+ ]
+}

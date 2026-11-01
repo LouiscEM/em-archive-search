@@ -1,0 +1,81 @@
+{
+ "slug": "nkt-nkt",
+ "name": "NKT",
+ "full": "NKT",
+ "listings": [
+  "CPH: NKT"
+ ],
+ "built": "2026-11-01",
+ "episodes": 2,
+ "mentioned_in": 2,
+ "latest": "2026-04-07",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2026-04-07",
+     "when": "April 2026",
+     "text": "In April 2026, Equity Mates explained NKT made high voltage transmission cables for overhead lines, underground and undersea, using 100-metre extrusion towers to produce kilometre-long, very thick copper cables. Equity Mates said the specialised on-the-fly process and scale requirements made it unique, with only three Western players.",
+     "episode": {
+      "title": "“There’s always a bull market somewhere in small caps” - Tobias Bucks",
+      "url": "https://equitymates.com/episode/29312/",
+      "jump": "https://www.youtube.com/watch?v=b1i9yH8-Mc0&t=2156s",
+      "at": "35:56"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2026-04-07",
+     "when": "April 2026",
+     "text": "In April 2026, Equity Mates said NKT operated in a very tight-capacity market for transmission cables, with decades of grid underinvestment and demand now expected to peak after 2030. Equity Mates noted unique capabilities and long-term projects with transmission operators in Europe and America supported industry discipline.",
+     "episode": {
+      "title": "“There’s always a bull market somewhere in small caps” - Tobias Bucks",
+      "url": "https://equitymates.com/episode/29312/",
+      "jump": "https://www.youtube.com/watch?v=b1i9yH8-Mc0&t=2222s",
+      "at": "37:02"
+     }
+    },
+    {
+     "date": "2025-11-11",
+     "when": "November 2025",
+     "text": "In November 2025, a guest on Equity Mates described the high voltage direct current market as oligopolistic, with NKT and Nexans competing on technological execution and reputation rather than price. Equity Mates heard all three main players had proven capability to deliver complex projects for utility operators.",
+     "episode": {
+      "title": "Buy or Sell: Ally Selby with Arms Rosenberg",
+      "url": "https://equitymates.com/episode/buy-or-sell-ally-selby-with-arms-rosenberg/",
+      "jump": "https://www.youtube.com/watch?v=y3VxCgeyEg4&t=1014s",
+      "at": "16:54"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2026-04-07",
+     "when": "April 2026",
+     "text": "In April 2026, a guest on Equity Mates said niche copper suppliers like NKT traded on low price-to-book despite high replacement costs for assets built in the 1990s and 2000s. Equity Mates heard the market underappreciated them amid energy-cost headwinds and downgraded cyclical growth expectations.",
+     "episode": {
+      "title": "“There’s always a bull market somewhere in small caps” - Tobias Bucks",
+      "url": "https://equitymates.com/episode/29312/",
+      "jump": "https://www.youtube.com/watch?v=b1i9yH8-Mc0&t=1825s",
+      "at": "30:25"
+     }
+    }
+   ]
+  }
+ ]
+}

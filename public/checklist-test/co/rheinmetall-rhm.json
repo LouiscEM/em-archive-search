@@ -1,0 +1,46 @@
+{
+ "slug": "rheinmetall-rhm",
+ "name": "Rheinmetall",
+ "full": "Rheinmetall AG",
+ "listings": [
+  "ETR: RHM"
+ ],
+ "built": "2026-11-01",
+ "episodes": 1,
+ "mentioned_in": 1,
+ "latest": "2025-03-06",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": []
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": []
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2025-03-06",
+     "when": "March 2025",
+     "text": "In March 2025, Equity Mates noted Rheinmetall, a German defence vehicle manufacturer, was up almost 90% year to date, saying it was riding the tailwind of military upheaval in Europe.",
+     "episode": {
+      "title": "European stocks are ripping, the portfolio of England's Warren Buffett & Australian house price update",
+      "url": "https://equitymates.com/episode/european-stocks-are-ripping-the-portfolio-of-englands-warren-buffett-australian-house-price-update/",
+      "jump": "https://www.youtube.com/watch?v=uxA9D--kTrg&t=205s",
+      "at": "3:25"
+     }
+    }
+   ]
+  }
+ ]
+}

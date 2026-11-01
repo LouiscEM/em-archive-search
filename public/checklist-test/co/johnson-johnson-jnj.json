@@ -1,0 +1,103 @@
+{
+ "slug": "johnson-johnson-jnj",
+ "name": "Johnson & Johnson",
+ "full": "Johnson & Johnson",
+ "listings": [
+  "NYSE: JNJ"
+ ],
+ "built": "2026-11-01",
+ "episodes": 3,
+ "mentioned_in": 4,
+ "latest": "2026-07-09",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2026-07-09",
+     "when": "July 2026",
+     "text": "In July 2026, Equity Mates grouped Johnson & Johnson among global pharmaceutical giants with huge, constantly evolving drug pipelines, describing a model with multiple bets rather than reliance on a single product.",
+     "episode": {
+      "title": "Longevity: Can We Add Another 30 Years? | The Decade Ahead",
+      "url": "https://equitymates.com/episode/longevity-can-we-add-another-30-years-the-decade-ahead/",
+      "jump": "https://www.youtube.com/watch?v=P8y_M1gda_E&t=1315s",
+      "at": "21:55"
+     }
+    },
+    {
+     "date": "2026-06-11",
+     "when": "June 2026",
+     "text": "In June 2026, Equity Mates said Johnson & Johnson’s Ottava robotic surgery platform was a key competitor in surgical robotics, though less prolific than the leader, showing its push into advanced medical devices.",
+     "episode": {
+      "title": "The stock market’s $400 billion test, Bryce’s thesis card reveal & a 3-in-1 pitch for the Community Portfolio",
+      "url": "https://equitymates.com/episode/the-stock-markets-400-billion-test-bryces-thesis-card-reveal-a-3-in-1-pitch-for-the-community-portfolio/",
+      "jump": "https://www.youtube.com/watch?v=t9LCbSBdrec&t=1081s",
+      "at": "18:01"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2026-06-11",
+     "when": "June 2026",
+     "text": "In June 2026, Equity Mates flagged competitive pressure in surgical robotics, with Johnson & Johnson present but trailing more prolific rivals, which could affect its positioning in that segment.",
+     "episode": {
+      "title": "The stock market’s $400 billion test, Bryce’s thesis card reveal & a 3-in-1 pitch for the Community Portfolio",
+      "url": "https://equitymates.com/episode/the-stock-markets-400-billion-test-bryces-thesis-card-reveal-a-3-in-1-pitch-for-the-community-portfolio/",
+      "jump": "https://www.youtube.com/watch?v=t9LCbSBdrec&t=1081s",
+      "at": "18:01"
+     }
+    },
+    {
+     "date": "2026-03-10",
+     "when": "March 2026",
+     "text": "In March 2026, an adviser on Equity Mates cited Johnson & Johnson’s roughly 60-year record of stable or rising dividends as evidence of a resilient business able to endure wars and financial crises.",
+     "episode": {
+      "title": "War in Iran, AI Disruption & the Software Selloff: Where Todd Hoare sees Opportunity",
+      "url": "https://equitymates.com/episode/war-in-iran-ai-disruption-the-software-selloff-where-todd-hoare-sees-opportunity/",
+      "jump": "https://www.youtube.com/watch?v=NLcxpQw1TGg&t=2603s",
+      "at": "43:23"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2026-07-09",
+     "when": "July 2026",
+     "text": "In July 2026, Equity Mates noted Johnson & Johnson’s capacity to acquire smaller companies to refresh its pipeline, reflecting a reinvestment approach beyond internal R&D.",
+     "episode": {
+      "title": "Longevity: Can We Add Another 30 Years? | The Decade Ahead",
+      "url": "https://equitymates.com/episode/longevity-can-we-add-another-30-years-the-decade-ahead/",
+      "jump": "https://www.youtube.com/watch?v=P8y_M1gda_E&t=1315s",
+      "at": "21:55"
+     }
+    },
+    {
+     "date": "2026-03-10",
+     "when": "March 2026",
+     "text": "In March 2026, an adviser on Equity Mates highlighted Johnson & Johnson’s 60-year history of maintaining or increasing dividends as a sign of disciplined capital allocation over many cycles.",
+     "episode": {
+      "title": "War in Iran, AI Disruption & the Software Selloff: Where Todd Hoare sees Opportunity",
+      "url": "https://equitymates.com/episode/war-in-iran-ai-disruption-the-software-selloff-where-todd-hoare-sees-opportunity/",
+      "jump": "https://www.youtube.com/watch?v=NLcxpQw1TGg&t=2603s",
+      "at": "43:23"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

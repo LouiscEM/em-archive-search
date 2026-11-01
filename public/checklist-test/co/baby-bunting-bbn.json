@@ -1,0 +1,58 @@
+{
+ "slug": "baby-bunting-bbn",
+ "name": "Baby Bunting",
+ "full": "Baby Bunting",
+ "listings": [
+  "ASX: BBN"
+ ],
+ "built": "2026-11-01",
+ "episodes": 2,
+ "mentioned_in": 6,
+ "latest": "2023-11-20",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": []
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2023-11-20",
+     "when": "November 2023",
+     "text": "In November 2023, Equity Mates noted most Australian baby retailers went broke and Baby Bunting was left standing, indicating a resilient position in its niche after a sector shake-out.",
+     "episode": {
+      "title": "We review the 16 stocks pitched at the Sohn Hearts & Minds conference",
+      "url": "https://equitymates.com/episode/we-review-the-16-stocks-pitched-at-the-sohn-hearts-minds-conference/",
+      "jump": null,
+      "at": "31:39"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2020-06-01",
+     "when": "June 2020",
+     "text": "In June 2020, a guest on Equity Mates used Baby Bunting as a case study of exiting after a decade because the company chose not to expand internationally, suggesting fewer high-return reinvestment opportunities as it matured and growth slowed below a 20 percent target.",
+     "episode": {
+      "title": "Expert Investor: Ed Cowan Talks Unconstrained Investing | TDM Growth Partners",
+      "url": "https://equitymates.com/episode/expert-investor-ed-cowan-talks-unconstrained-investing-tdm-growth-partners/",
+      "jump": null,
+      "at": "36:09"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

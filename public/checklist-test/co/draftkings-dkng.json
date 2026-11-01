@@ -1,0 +1,126 @@
+{
+ "slug": "draftkings-dkng",
+ "name": "DraftKings",
+ "full": "DraftKings",
+ "listings": [
+  "NASDAQ: DKNG"
+ ],
+ "built": "2026-11-01",
+ "episodes": 4,
+ "mentioned_in": 5,
+ "latest": "2026-02-19",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2024-04-25",
+     "when": "April 2024",
+     "text": "In April 2024, Equity Mates explained DraftKings began as a daily fantasy site and used that legal footing to build its US sportsbook, giving it a head start in product and brand with US sports fans.",
+     "episode": {
+      "title": "Industry Deep Dive: Sports Betting - 5 years after legalisation in the US, who is winning?",
+      "url": "https://equitymates.com/episode/industry-deep-dive-sports-betting-5-years-after-legalisation-in-the-us-who-is-winning/",
+      "jump": "https://www.youtube.com/watch?v=bNNS3IW8kYQ&t=954s",
+      "at": "15:54"
+     }
+    },
+    {
+     "date": "2023-08-21",
+     "when": "August 2023",
+     "text": "In August 2023, Equity Mates featured DraftKings’ chief executive saying recent quarters reflected years of work and that the product had dramatically improved, highlighting ongoing focus on the quality of its betting offering.",
+     "episode": {
+      "title": "How Dave Portnoy bought back his $840M company for just $1",
+      "url": "https://equitymates.com/episode/how-dave-portnoy-bought-back-his-840m-company-for-just-1/",
+      "jump": null,
+      "at": "2:55"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2026-02-19",
+     "when": "February 2026",
+     "text": "In February 2026, Equity Mates reported investors sold off listed sportsbooks as prediction markets gained traction, with DraftKings down 39 percent year to date by mid February 2026, raising questions about competitive threats to future profits.",
+     "episode": {
+      "title": "Prediction markets are coming for Sportsbet & Pimp My Portfolio with Owen Rask",
+      "url": "https://equitymates.com/episode/prediction-markets-are-coming-for-sportsbet-pimp-my-portfolio-with-owen-rask/",
+      "jump": "https://www.youtube.com/watch?v=pN-dwMqrRXM&t=320s",
+      "at": "5:20"
+     }
+    },
+    {
+     "date": "2024-04-25",
+     "when": "April 2024",
+     "text": "In April 2024, Equity Mates said FanDuel and DraftKings were the biggest US winners because prior brand recognition and adjacency gave them a head start, while state by state regulation made it hard for newer entrants to build share.",
+     "episode": {
+      "title": "Industry Deep Dive: Sports Betting - 5 years after legalisation in the US, who is winning?",
+      "url": "https://equitymates.com/episode/industry-deep-dive-sports-betting-5-years-after-legalisation-in-the-us-who-is-winning/",
+      "jump": "https://www.youtube.com/watch?v=bNNS3IW8kYQ&t=1057s",
+      "at": "17:37"
+     }
+    },
+    {
+     "date": "2022-08-29",
+     "when": "August 2022",
+     "text": "In August 2022, Equity Mates cited market share data showing only two players above 10 percent, with DraftKings at 32 percent and FanDuel at 30 percent, indicating industry concentration early in the US rollout.",
+     "episode": {
+      "title": "Disney is getting into sports betting + Earnings wrap",
+      "url": "https://equitymates.com/episode/disney-is-getting-into-sports-betting-earnings-wrap/",
+      "jump": "https://www.youtube.com/watch?v=z1dcF7VKMsM&t=2021s",
+      "at": "33:41"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2023-08-21",
+     "when": "August 2023",
+     "text": "In August 2023, Equity Mates relayed that DraftKings’ chief executive credited results to years of product improvement, suggesting continued reinvestment into its platform.",
+     "episode": {
+      "title": "How Dave Portnoy bought back his $840M company for just $1",
+      "url": "https://equitymates.com/episode/how-dave-portnoy-bought-back-his-840m-company-for-just-1/",
+      "jump": null,
+      "at": "2:55"
+     }
+    },
+    {
+     "date": "2022-08-29",
+     "when": "August 2022",
+     "text": "In August 2022, Equity Mates highlighted league and team partnerships as a growth lever, noting Major League Baseball and NBA deals and reporting the Chicago Cubs’ contract with DraftKings was worth 100 million dollars.",
+     "episode": {
+      "title": "Disney is getting into sports betting + Earnings wrap",
+      "url": "https://equitymates.com/episode/disney-is-getting-into-sports-betting-earnings-wrap/",
+      "jump": "https://www.youtube.com/watch?v=z1dcF7VKMsM&t=2284s",
+      "at": "38:04"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2026-02-19",
+     "when": "February 2026",
+     "text": "In February 2026, Equity Mates noted DraftKings was down 39 percent year to date by mid February 2026 as investors reacted to prediction markets, affecting how the business was being priced.",
+     "episode": {
+      "title": "Prediction markets are coming for Sportsbet & Pimp My Portfolio with Owen Rask",
+      "url": "https://equitymates.com/episode/prediction-markets-are-coming-for-sportsbet-pimp-my-portfolio-with-owen-rask/",
+      "jump": "https://www.youtube.com/watch?v=pN-dwMqrRXM&t=320s",
+      "at": "5:20"
+     }
+    }
+   ]
+  }
+ ]
+}

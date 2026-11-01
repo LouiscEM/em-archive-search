@@ -1,0 +1,126 @@
+{
+ "slug": "wilson-asset-management-wam",
+ "name": "Wilson Asset Management",
+ "full": "Wilson Asset Management",
+ "listings": [
+  "ASX: WAM"
+ ],
+ "built": "2026-10-30",
+ "episodes": 3,
+ "mentioned_in": 26,
+ "latest": "2024-12-23",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2024-12-23",
+     "when": "December 2024",
+     "text": "In December 2024, Equity Mates said Wilson Asset Management invested $5 billion on behalf of 130,000 retail investors, outlining its role running listed investment companies for everyday investors.",
+     "episode": {
+      "title": "Geoff Wilson - What is Equity Mates Media actually worth? | Summer Series",
+      "url": "https://equitymates.com/episode/geoff-wilson-what-is-equity-mates-media-actually-worth-summer-series/",
+      "jump": "https://www.youtube.com/watch?v=G686URJv1Ek&t=143s",
+      "at": "2:23"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2024-12-23",
+     "when": "December 2024",
+     "text": "In December 2024, Equity Mates recounted that Wilson Asset Management was started to pool capital and secure access to company leaders, aiming to leverage that access into strong returns for the investors it managed money for.",
+     "episode": {
+      "title": "Geoff Wilson - What is Equity Mates Media actually worth? | Summer Series",
+      "url": "https://equitymates.com/episode/geoff-wilson-what-is-equity-mates-media-actually-worth-summer-series/",
+      "jump": "https://www.youtube.com/watch?v=G686URJv1Ek&t=1052s",
+      "at": "17:32"
+     }
+    },
+    {
+     "date": "2024-05-17",
+     "when": "May 2024",
+     "text": "In May 2024, Equity Mates described WAM Global’s focus on advantaged businesses in good industry structures and avoiding ridiculous prices as the philosophy intended to support long run share price and earnings outcomes.",
+     "episode": {
+      "title": "Expert: Catriona Burns - Investing in AI outside the Big 7 | Wilson Asset Management",
+      "url": "https://equitymates.com/episode/expert-catriona-burns-investing-in-ai-outside-the-big-7-wilson-asset-management/",
+      "jump": "https://www.youtube.com/watch?v=rgBYcJyowm4&t=122s",
+      "at": "2:02"
+     }
+    },
+    {
+     "date": "2021-05-24",
+     "when": "May 2021",
+     "text": "In May 2021, Equity Mates noted the firm emphasised frequent, transparent shareholder communication, including weekly emails to around 60,000 subscribers, positioning communication quality as part of how it builds and maintains investor support.",
+     "episode": {
+      "title": "Expert Investor: Geoff Wilson Declares WAR",
+      "url": "https://equitymates.com/episode/expert-investor-geoff-wilson-declares-war/",
+      "jump": null,
+      "at": "47:13"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2024-12-23",
+     "when": "December 2024",
+     "text": "In December 2024, Equity Mates discussed how newer WAM-listed funds often traded at discounts until share registers tightened and expectations aligned, showing a focus on managing registers to influence market pricing over time.",
+     "episode": {
+      "title": "Geoff Wilson - What is Equity Mates Media actually worth? | Summer Series",
+      "url": "https://equitymates.com/episode/geoff-wilson-what-is-equity-mates-media-actually-worth-summer-series/",
+      "jump": "https://www.youtube.com/watch?v=G686URJv1Ek&t=2136s",
+      "at": "35:36"
+     }
+    },
+    {
+     "date": "2021-05-24",
+     "when": "May 2021",
+     "text": "In May 2021, Equity Mates explained the plan to simplify by transferring existing discount-focused positions into the new WAM Strategic Value vehicle, concentrating efforts on situations with catalysts to unlock value.",
+     "episode": {
+      "title": "Expert Investor: Geoff Wilson Declares WAR",
+      "url": "https://equitymates.com/episode/expert-investor-geoff-wilson-declares-war/",
+      "jump": null,
+      "at": "29:11"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2024-12-23",
+     "when": "December 2024",
+     "text": "In December 2024, Equity Mates highlighted valuation dynamics across the suite, noting four WAM vehicles traded at premiums, one had reached a 58 percent premium, others were around NTA or at discounts, especially newer LICs.",
+     "episode": {
+      "title": "Geoff Wilson - What is Equity Mates Media actually worth? | Summer Series",
+      "url": "https://equitymates.com/episode/geoff-wilson-what-is-equity-mates-media-actually-worth-summer-series/",
+      "jump": "https://www.youtube.com/watch?v=G686URJv1Ek&t=2136s",
+      "at": "35:36"
+     }
+    },
+    {
+     "date": "2021-05-24",
+     "when": "May 2021",
+     "text": "In May 2021, Equity Mates explained why LICs trading at a discount to net tangible assets mattered, using the example of a dollar of assets trading at 90 cents and how that felt for investors.",
+     "episode": {
+      "title": "Expert Investor: Geoff Wilson Declares WAR",
+      "url": "https://equitymates.com/episode/expert-investor-geoff-wilson-declares-war/",
+      "jump": null,
+      "at": "19:48"
+     }
+    }
+   ]
+  }
+ ]
+}

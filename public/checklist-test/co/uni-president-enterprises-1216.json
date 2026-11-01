@@ -1,0 +1,46 @@
+{
+ "slug": "uni-president-enterprises-1216",
+ "name": "Uni-President Enterprises",
+ "full": "Uni-President Enterprises",
+ "listings": [
+  "TPE: 1216"
+ ],
+ "built": "2026-11-01",
+ "episodes": 1,
+ "mentioned_in": 1,
+ "latest": "2024-02-01",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2024-02-01",
+     "when": "February 2024",
+     "text": "In February 2024, a guest on Equity Mates described Uni-President Enterprises as a small format retailer from Taiwan expanding across Asia, and praised its small-format retail execution, comparing it to Lawson, 7-Eleven and Alimentation Couche-Tard.",
+     "episode": {
+      "title": "From oil refining to servos - Viva Energy | Summer Series",
+      "url": "https://equitymates.com/episode/from-oil-refining-to-servos-viva-energy-summer-series/",
+      "jump": "https://www.youtube.com/watch?v=jZZcDyUnQM8&t=364s",
+      "at": "6:04"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": []
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

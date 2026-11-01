@@ -1,0 +1,58 @@
+{
+ "slug": "veda-ved",
+ "name": "Veda",
+ "full": "Veda Group Limited",
+ "listings": [
+  "ASX: VED"
+ ],
+ "built": "2026-11-01",
+ "episodes": 1,
+ "mentioned_in": 4,
+ "latest": "2024-10-11",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2024-10-11",
+     "when": "October 2024",
+     "text": "In October 2024, Equity Mates introduced Veda as Australia’s largest credit bureau, created when the big four banks pooled their data to let lenders view full credit histories, outlining the core service that underpinned the business.",
+     "episode": {
+      "title": "Expert: Cameron Blanks - 3 key lessons from 20 years of private equity deals | Pacific Equity Partners",
+      "url": "https://equitymates.com/episode/expert-cameron-blanks-3-key-lessons-from-20-years-of-private-equity-deals-pacific-equity-partners/",
+      "jump": "https://www.youtube.com/watch?v=lmkJyEUBIy0&t=1849s",
+      "at": "30:49"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": []
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2024-10-11",
+     "when": "October 2024",
+     "text": "In October 2024, Equity Mates said the once billion dollar public company had moved into and then out of debt collection, with board and management confusion, highlighting past strategic missteps in how the business was managed.",
+     "episode": {
+      "title": "Expert: Cameron Blanks - 3 key lessons from 20 years of private equity deals | Pacific Equity Partners",
+      "url": "https://equitymates.com/episode/expert-cameron-blanks-3-key-lessons-from-20-years-of-private-equity-deals-pacific-equity-partners/",
+      "jump": "https://www.youtube.com/watch?v=lmkJyEUBIy0&t=1849s",
+      "at": "30:49"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

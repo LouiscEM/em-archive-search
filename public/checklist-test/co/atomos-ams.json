@@ -1,0 +1,57 @@
+{
+ "slug": "atomos-ams",
+ "name": "Atomos",
+ "full": "Atomos",
+ "listings": [
+  "ASX: AMS"
+ ],
+ "built": "2026-11-01",
+ "episodes": 2,
+ "mentioned_in": 3,
+ "latest": "2023-02-20",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": []
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": []
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2023-02-20",
+     "when": "February 2023",
+     "text": "In February 2023, Equity Mates said Atomos was trading at about $0.06 in early 2023, noting it after discussing other picks, which showed how far the share price had fallen.",
+     "episode": {
+      "title": "Stock of the Year 2023 | Axon Enterprise vs Infosys",
+      "url": "https://equitymates.com/episode/stock-of-the-year-2023-axon-enterprise-vs-infosys/",
+      "jump": null,
+      "at": "7:05"
+     }
+    },
+    {
+     "date": "2022-12-19",
+     "when": "December 2022",
+     "text": "In December 2022, Equity Mates said Atomos was among the bottom ten performers on the ASX that year and may have been the second worst, highlighting severe market underperformance.",
+     "episode": {
+      "title": "Bold predictions wrapped for 2023",
+      "url": "https://equitymates.com/episode/bold-predictions-wrapped-for-2023/",
+      "jump": "https://www.youtube.com/watch?v=X83UnQZxVkE&t=1361s",
+      "at": "22:41"
+     }
+    }
+   ]
+  }
+ ]
+}

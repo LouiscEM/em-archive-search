@@ -1,0 +1,58 @@
+{
+ "slug": "jiumaojiu-9922",
+ "name": "Jiumaojiu",
+ "full": "Jiumaojiu",
+ "listings": [
+  "HKG: 9922"
+ ],
+ "built": "2026-11-01",
+ "episodes": 1,
+ "mentioned_in": 1,
+ "latest": "2023-07-20",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": []
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2023-07-20",
+     "when": "July 2023",
+     "text": "In July 2023, a guest on Equity Mates said Jiumaojiu’s unit economics were particularly attractive for a restaurant box expansion model, implying strong per‑store profitability that enabled rapid growth compared to peers considered in China.",
+     "episode": {
+      "title": "Expert: James Reynolds - Searching for non-technology businesses in overlooked markets",
+      "url": "https://equitymates.com/episode/expert-james-reynolds-searching-for-non-technology-businesses-in-overlooked-markets/",
+      "jump": null,
+      "at": "19:25"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2023-07-20",
+     "when": "July 2023",
+     "text": "In July 2023, a guest on Equity Mates explained that in box expansion the test was how many profitable stores it took to fund a new one, and said Jiumaojiu’s economics supported reinvesting profits to open more locations quickly.",
+     "episode": {
+      "title": "Expert: James Reynolds - Searching for non-technology businesses in overlooked markets",
+      "url": "https://equitymates.com/episode/expert-james-reynolds-searching-for-non-technology-businesses-in-overlooked-markets/",
+      "jump": null,
+      "at": "19:25"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

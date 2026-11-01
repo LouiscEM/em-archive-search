@@ -1,0 +1,82 @@
+{
+ "slug": "hybe-352820",
+ "name": "Hybe",
+ "full": "Hybe",
+ "listings": [
+  "KRX: 352820"
+ ],
+ "built": "2026-11-01",
+ "episodes": 1,
+ "mentioned_in": 1,
+ "latest": "2022-06-24",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2022-06-24",
+     "when": "June 2022",
+     "text": "In June 2022, Equity Mates explained that Hybe discovered, trained and managed BTS and also managed several other high‑profile K‑Pop groups, making the company’s core product the creation and management of idol groups.",
+     "episode": {
+      "title": "Dynamite: Will the BTS hiatus blow the Kpop industry up?",
+      "url": "https://equitymates.com/episode/dynamite-will-the-bts-hiatus-blow-the-kpop-industry-up/",
+      "jump": null,
+      "at": "2:47"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2022-06-24",
+     "when": "June 2022",
+     "text": "In June 2022, Equity Mates highlighted that profitability was volatile because these companies’ fortunes depended on current talent, likening it to sports teams whose value shifted when star players moved.",
+     "episode": {
+      "title": "Dynamite: Will the BTS hiatus blow the Kpop industry up?",
+      "url": "https://equitymates.com/episode/dynamite-will-the-bts-hiatus-blow-the-kpop-industry-up/",
+      "jump": null,
+      "at": "13:50"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2022-06-24",
+     "when": "June 2022",
+     "text": "In June 2022, Equity Mates said Hybe invested in a subsidiary of YJ Entertainment that released a fan interaction app, and noted it promoted BTS members’ personalities and granted them IPO shares to better align incentives.",
+     "episode": {
+      "title": "Dynamite: Will the BTS hiatus blow the Kpop industry up?",
+      "url": "https://equitymates.com/episode/dynamite-will-the-bts-hiatus-blow-the-kpop-industry-up/",
+      "jump": null,
+      "at": "11:40"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2022-06-24",
+     "when": "June 2022",
+     "text": "In June 2022, Equity Mates noted Hybe’s share price had risen over 100 percent from its IPO to November 2021, then fell about 35 percent after the BTS hiatus news, showing how expectations about one act moved the valuation.",
+     "episode": {
+      "title": "Dynamite: Will the BTS hiatus blow the Kpop industry up?",
+      "url": "https://equitymates.com/episode/dynamite-will-the-bts-hiatus-blow-the-kpop-industry-up/",
+      "jump": null,
+      "at": "2:47"
+     }
+    }
+   ]
+  }
+ ]
+}

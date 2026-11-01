@@ -1,0 +1,46 @@
+{
+ "slug": "charter-hall-retail-reit-cqr",
+ "name": "Charter Hall Retail REIT",
+ "full": "Charter Hall Retail REIT",
+ "listings": [
+  "ASX: CQR"
+ ],
+ "built": "2026-11-01",
+ "episodes": 1,
+ "mentioned_in": 2,
+ "latest": "2025-11-04",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": []
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2025-11-04",
+     "when": "November 2025",
+     "text": "In November 2025, a guest on Equity Mates said Charter Hall Retail REIT’s shopping centres were effectively monopoly assets because once built they are hard to replicate, and argued Australia’s strong population growth drives more visits over time, allowing rents to rise faster than other property sectors.",
+     "episode": {
+      "title": "Private markets are an illusion - Tim Carleton | Auscap Asset Management",
+      "url": "https://equitymates.com/episode/private-markets-are-an-illusion-tim-carleton-auscap-asset-management/",
+      "jump": null,
+      "at": "30:54"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

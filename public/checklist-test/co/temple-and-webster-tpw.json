@@ -1,0 +1,58 @@
+{
+ "slug": "temple-and-webster-tpw",
+ "name": "Temple and WebSter",
+ "full": "Temple and WebSter",
+ "listings": [
+  "ASX: TPW"
+ ],
+ "built": "2026-11-01",
+ "episodes": 1,
+ "mentioned_in": 2,
+ "latest": "2024-08-19",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2024-08-19",
+     "when": "August 2024",
+     "text": "In August 2024, Equity Mates described Temple & Webster as an online furniture retailer and noted it leaned into AI hype by using ChatGPT to rewrite product descriptions, suggesting the sharper marketing copy may have helped performance.",
+     "episode": {
+      "title": "Comparing One-ETF portfolios, the golden rules of Reporting Season & the slow death of TV speeds up",
+      "url": "https://equitymates.com/episode/comparing-one-etf-portfolios-the-golden-rules-of-reporting-season-the-slow-death-of-tv-speeds-up/",
+      "jump": "https://www.youtube.com/watch?v=XeOfVCTuk5w&t=1432s",
+      "at": "23:52"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": []
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2024-08-19",
+     "when": "August 2024",
+     "text": "In August 2024, Equity Mates highlighted that expectations drive prices in reporting season, citing Temple & Webster’s profit coming in more than 20% above analysts’ forecasts and the share price jumping 23%, showing how surprises can be quickly priced in.",
+     "episode": {
+      "title": "Comparing One-ETF portfolios, the golden rules of Reporting Season & the slow death of TV speeds up",
+      "url": "https://equitymates.com/episode/comparing-one-etf-portfolios-the-golden-rules-of-reporting-season-the-slow-death-of-tv-speeds-up/",
+      "jump": "https://www.youtube.com/watch?v=XeOfVCTuk5w&t=1432s",
+      "at": "23:52"
+     }
+    }
+   ]
+  }
+ ]
+}

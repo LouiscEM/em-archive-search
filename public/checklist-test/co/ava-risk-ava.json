@@ -1,0 +1,70 @@
+{
+ "slug": "ava-risk-ava",
+ "name": "AVA Risk",
+ "full": "AVA Risk Group",
+ "listings": [
+  "ASX: AVA"
+ ],
+ "built": "2026-11-01",
+ "episodes": 1,
+ "mentioned_in": 1,
+ "latest": "2023-11-07",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2023-11-07",
+     "when": "November 2023",
+     "text": "In November 2023, a guest on Equity Mates described AVA Risk Group's perimeter detection technology, using buried fibre optic cable with software and an embedded deep learning engine to identify footsteps and trigger alerts, as the core product.",
+     "episode": {
+      "title": "Buy or Sell: 10 stocks with Adam Keily & Andrew Page",
+      "url": "https://equitymates.com/episode/buy-or-sell-10-stocks-with-adam-keily-andrew-page/",
+      "jump": "https://www.youtube.com/watch?v=LqDONP_2IdE&t=1870s",
+      "at": "31:10"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": []
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2023-11-07",
+     "when": "November 2023",
+     "text": "In November 2023, a guest on Equity Mates said AVA Risk Group had divested a business unit, paid a big special dividend, installed a new CEO, and made recent partnerships and acquisitions, highlighting active capital allocation decisions.",
+     "episode": {
+      "title": "Buy or Sell: 10 stocks with Adam Keily & Andrew Page",
+      "url": "https://equitymates.com/episode/buy-or-sell-10-stocks-with-adam-keily-andrew-page/",
+      "jump": "https://www.youtube.com/watch?v=LqDONP_2IdE&t=1870s",
+      "at": "31:10"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2023-11-07",
+     "when": "November 2023",
+     "text": "In November 2023, a guest on Equity Mates noted the financials looked messy because of the divestment and special dividend, and the share price around 19 cents had done little over 18 months, which complicated judging the business at a glance.",
+     "episode": {
+      "title": "Buy or Sell: 10 stocks with Adam Keily & Andrew Page",
+      "url": "https://equitymates.com/episode/buy-or-sell-10-stocks-with-adam-keily-andrew-page/",
+      "jump": "https://www.youtube.com/watch?v=LqDONP_2IdE&t=1870s",
+      "at": "31:10"
+     }
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,58 @@
+{
+ "slug": "viking-therapeutics-vktx",
+ "name": "Viking Therapeutics",
+ "full": "Viking Therapeutics",
+ "listings": [
+  "NASDAQ: VKTX"
+ ],
+ "built": "2026-11-01",
+ "episodes": 1,
+ "mentioned_in": 1,
+ "latest": "2024-04-01",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2024-04-01",
+     "when": "April 2024",
+     "text": "In April 2024, Equity Mates said Viking Therapeutics had a weight loss drug that delivered about 14 percent weight loss in trials, similar to other contenders in the obesity treatment space.",
+     "episode": {
+      "title": "Lump sum or DCA, the latest on Ozempic & a baby Berkshire?",
+      "url": "https://equitymates.com/episode/lump-sum-or-dca-the-latest-on-ozempic-a-baby-berkshire/",
+      "jump": "https://www.youtube.com/watch?v=4v1jWA4_EPk&t=523s",
+      "at": "8:43"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2024-04-01",
+     "when": "April 2024",
+     "text": "In April 2024, Equity Mates described obesity drugs as a race for market share, noting Amgen (15 percent after 85 days), Viking Therapeutics (14 percent) and Zealand Pharma (15 percent in 46 weeks) showed similar results, so capturing the market could matter more than clear performance gaps.",
+     "episode": {
+      "title": "Lump sum or DCA, the latest on Ozempic & a baby Berkshire?",
+      "url": "https://equitymates.com/episode/lump-sum-or-dca-the-latest-on-ozempic-a-baby-berkshire/",
+      "jump": "https://www.youtube.com/watch?v=4v1jWA4_EPk&t=523s",
+      "at": "8:43"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

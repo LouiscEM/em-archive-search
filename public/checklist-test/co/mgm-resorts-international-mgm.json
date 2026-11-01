@@ -1,0 +1,46 @@
+{
+ "slug": "mgm-resorts-international-mgm",
+ "name": "MGM Resorts International",
+ "full": "MGM Resorts International",
+ "listings": [
+  "NYSE: MGM"
+ ],
+ "built": "2026-11-01",
+ "episodes": 1,
+ "mentioned_in": 2,
+ "latest": "2022-08-29",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2022-08-29",
+     "when": "August 2022",
+     "text": "In August 2022, Equity Mates said MGM Resorts International had a BetMGM subsidiary and, while traditionally in hospitality and entertainment, was moving further into sports betting as US operators competed for gamblers’ dollars and mobile market share.",
+     "episode": {
+      "title": "Disney is getting into sports betting + Earnings wrap",
+      "url": "https://equitymates.com/episode/disney-is-getting-into-sports-betting-earnings-wrap/",
+      "jump": "https://www.youtube.com/watch?v=z1dcF7VKMsM&t=1918s",
+      "at": "31:58"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": []
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

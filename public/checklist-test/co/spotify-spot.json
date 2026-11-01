@@ -1,0 +1,170 @@
+{
+ "slug": "spotify-spot",
+ "name": "Spotify",
+ "full": "Spotify Technology",
+ "listings": [
+  "NYSE: SPOT"
+ ],
+ "built": "2026-10-30",
+ "episodes": 6,
+ "mentioned_in": 216,
+ "latest": "2026-05-04",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2026-03-30",
+     "when": "March 2026",
+     "text": "In March 2026, Equity Mates pitched Spotify as a daily essential, saying it was the most used app on a phone with 15 pickups a day and estimating that 50% of listeners would be using it, highlighting strong regular engagement.",
+     "episode": {
+      "title": "A billion dollar backflip, Big Tech in the Community Portfolio & Ren’s two things",
+      "url": "https://equitymates.com/episode/a-billion-dollar-backflip-big-tech-in-the-community-portfolio-rens-two-things/",
+      "jump": "https://www.youtube.com/watch?v=Hus4doFbzzA&t=759s",
+      "at": "12:39"
+     }
+    },
+    {
+     "date": "2023-10-06",
+     "when": "October 2023",
+     "text": "In October 2023, Equity Mates explained Spotify added 15 hours of audiobooks listening for Premium members in the UK and Australia, broadening the product from music into a wider audio offering.",
+     "episode": {
+      "title": "Fast 3: Elon's one step closer to putting a chip in your brain",
+      "url": "https://equitymates.com/episode/fast-3-elons-one-step-closer-to-putting-a-chip-in-your-brain/",
+      "jump": null,
+      "at": "12:02"
+     }
+    },
+    {
+     "date": "2022-04-29",
+     "when": "April 2022",
+     "text": "In April 2022, Equity Mates said Spotify was the dominant audio streamer with about 30% market share, ahead of Apple Music at 15% and Amazon Music at 13%, showing wide adoption of its service.",
+     "episode": {
+      "title": "Who’s winning the war for our attention?",
+      "url": "https://equitymates.com/episode/whos-winning-the-war-for-our-attention/",
+      "jump": null,
+      "at": "9:59"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2026-05-04",
+     "when": "May 2026",
+     "text": "In May 2026, Equity Mates said shares fell after Spotify guided that next quarter profit would go backwards and user growth would stay where it is, raising doubts about sustaining recent profit expansion.",
+     "episode": {
+      "title": "Our Monthly Portfolio Update - April 2026",
+      "url": "https://equitymates.com/episode/our-monthly-portfolio-update-april-2026/",
+      "jump": "https://www.youtube.com/watch?v=Luk3B3045sc&t=1457s",
+      "at": "24:17"
+     }
+    },
+    {
+     "date": "2026-03-30",
+     "when": "March 2026",
+     "text": "In March 2026, Equity Mates argued Spotify’s defensibility came from its relationships with record labels rather than software, suggesting this was the key moat competitors could not easily copy.",
+     "episode": {
+      "title": "A billion dollar backflip, Big Tech in the Community Portfolio & Ren’s two things",
+      "url": "https://equitymates.com/episode/a-billion-dollar-backflip-big-tech-in-the-community-portfolio-rens-two-things/",
+      "jump": "https://www.youtube.com/watch?v=Hus4doFbzzA&t=1130s",
+      "at": "18:50"
+     }
+    },
+    {
+     "date": "2023-10-06",
+     "when": "October 2023",
+     "text": "In October 2023, Equity Mates outlined Apple’s rule that all digital purchases must use its payment system with a 30% cut and described Apple blocking Spotify’s workaround, highlighting platform power that can pressure Spotify’s margins.",
+     "episode": {
+      "title": "Fast 3: Elon's one step closer to putting a chip in your brain",
+      "url": "https://equitymates.com/episode/fast-3-elons-one-step-closer-to-putting-a-chip-in-your-brain/",
+      "jump": null,
+      "at": "15:41"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2026-03-30",
+     "when": "March 2026",
+     "text": "In March 2026, Equity Mates noted Spotify was raising prices while experimenting with podcasts, audiobooks and video, but questioned what initiative would drive the next phase of growth.",
+     "episode": {
+      "title": "A billion dollar backflip, Big Tech in the Community Portfolio & Ren’s two things",
+      "url": "https://equitymates.com/episode/a-billion-dollar-backflip-big-tech-in-the-community-portfolio-rens-two-things/",
+      "jump": "https://www.youtube.com/watch?v=Hus4doFbzzA&t=1130s",
+      "at": "18:50"
+     }
+    },
+    {
+     "date": "2023-07-07",
+     "when": "July 2023",
+     "text": "In July 2023, Equity Mates reported Spotify unwound parts of its celebrity podcast push, laid off 200 podcast roles and merged studios, indicating a strategic pivot in how it allocates capital to podcasts.",
+     "episode": {
+      "title": "Spotify is pivoting from podcasts, but have they learnt from their mistakes?",
+      "url": "https://equitymates.com/episode/spotify-is-pivoting-from-podcasts-but-have-they-learnt-from-their-mistakes/",
+      "jump": null,
+      "at": "0:02"
+     }
+    },
+    {
+     "date": "2022-02-28",
+     "when": "February 2022",
+     "text": "In February 2022, Equity Mates highlighted management’s shift from a pure subscription app towards a larger advertising business, discussing the path to 20% of revenue from ads and possibly 30 to 40% longer term.",
+     "episode": {
+      "title": "Can you hear their fear? CEOs of growth stocks down more than 40% | Quartr Reporting Season",
+      "url": "https://equitymates.com/episode/can-you-hear-their-fear-ceos-of-growth-stocks-down-more-than-40-quartr-reporting-season/",
+      "jump": null,
+      "at": "7:26"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2026-05-04",
+     "when": "May 2026",
+     "text": "In May 2026, Equity Mates said Spotify delivered a pretty strong set of numbers that the market hated, showing valuation reacted to expectations more than reported results.",
+     "episode": {
+      "title": "Our Monthly Portfolio Update - April 2026",
+      "url": "https://equitymates.com/episode/our-monthly-portfolio-update-april-2026/",
+      "jump": "https://www.youtube.com/watch?v=Luk3B3045sc&t=1376s",
+      "at": "22:56"
+     }
+    },
+    {
+     "date": "2026-03-30",
+     "when": "March 2026",
+     "text": "In March 2026, Equity Mates said Spotify had been swept up in a broader software selloff and discussed whether market pricing had become disconnected from its unique industry position.",
+     "episode": {
+      "title": "A billion dollar backflip, Big Tech in the Community Portfolio & Ren’s two things",
+      "url": "https://equitymates.com/episode/a-billion-dollar-backflip-big-tech-in-the-community-portfolio-rens-two-things/",
+      "jump": "https://www.youtube.com/watch?v=Hus4doFbzzA&t=1130s",
+      "at": "18:50"
+     }
+    },
+    {
+     "date": "2022-04-29",
+     "when": "April 2022",
+     "text": "In April 2022, Equity Mates observed in early 2022 that Spotify’s share price was down 70% amid broader tech weakness, framing valuation in the context of macro-driven multiple compression.",
+     "episode": {
+      "title": "Who’s winning the war for our attention?",
+      "url": "https://equitymates.com/episode/whos-winning-the-war-for-our-attention/",
+      "jump": null,
+      "at": "4:20"
+     }
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,46 @@
+{
+ "slug": "vontier-vnt",
+ "name": "Vontier",
+ "full": "Vontier",
+ "listings": [
+  "NYSE: VNT"
+ ],
+ "built": "2026-11-01",
+ "episodes": 1,
+ "mentioned_in": 1,
+ "latest": "2023-04-07",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2023-04-07",
+     "when": "April 2023",
+     "text": "In April 2023, Equity Mates characterised Vontier as a hardware-focused business doing R&D, manufacturing and sales of technical equipment, placing it in the hardware sub-industry when discussing a global tech ETF.",
+     "episode": {
+      "title": "Under the Hood |  What's in a name of an ETF?",
+      "url": "https://equitymates.com/episode/under-the-hood-whats-in-a-name-of-an-etf/",
+      "jump": null,
+      "at": "21:19"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": []
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

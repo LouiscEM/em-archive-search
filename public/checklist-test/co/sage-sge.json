@@ -1,0 +1,92 @@
+{
+ "slug": "sage-sge",
+ "name": "Sage",
+ "full": "Sage Group",
+ "listings": [
+  "LON: SGE",
+  "LSE: SGE"
+ ],
+ "built": "2026-11-01",
+ "episodes": 3,
+ "mentioned_in": 8,
+ "latest": "2026-06-05",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2026-06-05",
+     "when": "June 2026",
+     "text": "In June 2026, a guest on Equity Mates explained Sage’s accounting and resource planning software for small and mid-sized businesses was embedded in workflows, low cost and handled important daily functions, making it unlikely users would try to replace it.",
+     "episode": {
+      "title": "4 anti-hype anti-AI compounders, with Chloe Stokes and James Rodda",
+      "url": "https://equitymates.com/episode/4-anti-hype-anti-ai-compounders-with-chloe-stokes-and-james-rodda/",
+      "jump": "https://www.youtube.com/watch?v=75IdXtaF2YY&t=281s",
+      "at": "4:41"
+     }
+    },
+    {
+     "date": "2024-05-21",
+     "when": "May 2024",
+     "text": "In May 2024, Equity Mates said Sage was an accounting, HR management and payroll software business, highlighting the core operational functions it delivered for customers.",
+     "episode": {
+      "title": "Buy or Sell: Roger Montgomery  - Nick Scali, Megaport, NovoNordisk & more",
+      "url": "https://equitymates.com/episode/buy-or-sell-roger-montgomery-nick-scali-megaport-novonordisk-more/",
+      "jump": "https://www.youtube.com/watch?v=LnccOVbozX8&t=1279s",
+      "at": "21:19"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2026-06-05",
+     "when": "June 2026",
+     "text": "In June 2026, a guest on Equity Mates noted market fears that AI could erode demand for Sage’s products, while arguing AI might instead support the business.",
+     "episode": {
+      "title": "4 anti-hype anti-AI compounders, with Chloe Stokes and James Rodda",
+      "url": "https://equitymates.com/episode/4-anti-hype-anti-ai-compounders-with-chloe-stokes-and-james-rodda/",
+      "jump": "https://www.youtube.com/watch?v=75IdXtaF2YY&t=281s",
+      "at": "4:41"
+     }
+    },
+    {
+     "date": "2024-05-21",
+     "when": "May 2024",
+     "text": "In May 2024, Equity Mates said Sage grew revenue 10 to 12 percent and EBIT 15 to 20 percent per year while holding significant market share, indicating strong profitability momentum.",
+     "episode": {
+      "title": "Buy or Sell: Roger Montgomery  - Nick Scali, Megaport, NovoNordisk & more",
+      "url": "https://equitymates.com/episode/buy-or-sell-roger-montgomery-nick-scali-megaport-novonordisk-more/",
+      "jump": "https://www.youtube.com/watch?v=LnccOVbozX8&t=1279s",
+      "at": "21:19"
+     }
+    },
+    {
+     "date": "2021-07-18",
+     "when": "July 2021",
+     "text": "In July 2021, Equity Mates said Xero had been taking share in the UK from Sage, the incumbent, flagging competitive pressure in one of Sage’s key markets.",
+     "episode": {
+      "title": "6 high-conviction stocks from the experts for your watchlist",
+      "url": "https://equitymates.com/episode/6-high-conviction-stocks-from-the-experts-for-your-watchlist/",
+      "jump": null,
+      "at": "9:40"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

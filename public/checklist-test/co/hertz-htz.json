@@ -1,0 +1,137 @@
+{
+ "slug": "hertz-htz",
+ "name": "Hertz",
+ "full": "Hertz",
+ "listings": [
+  "NASDAQ: HTZ"
+ ],
+ "built": "2026-11-01",
+ "episodes": 4,
+ "mentioned_in": 5,
+ "latest": "2021-08-10",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2020-07-09",
+     "when": "July 2020",
+     "text": "In July 2020, a guest on Equity Mates observed Hertz had a long-standing brand and clear use cases for car rentals, including premium short-term hires. The guest pointed to trends like higher-end rentals as signs there could be ongoing demand for the service.",
+     "episode": {
+      "title": "Expert Investor: Matt Leibowitz - What's Hot, What's Not In The US Markets",
+      "url": "https://equitymates.com/episode/expert-investor-matt-leibowitz-whats-hot-whats-not-in-the-us-markets/",
+      "jump": null,
+      "at": "21:00"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2021-08-10",
+     "when": "August 2021",
+     "text": "In August 2021, Equity Mates grouped Hertz with meme stocks of companies on their last legs that were bid up by retail traders. The framing suggested distress rather than strong, sustainable profitability.",
+     "episode": {
+      "title": "Robinhood - the best and worst IPO in history",
+      "url": "https://equitymates.com/episode/robinhood-the-best-and-worst-ipo-in-history/",
+      "jump": null,
+      "at": "23:07"
+     }
+    },
+    {
+     "date": "2021-06-09",
+     "when": "June 2021",
+     "text": "In June 2021, Equity Mates said Hertz asked a bankruptcy judge to allow a new share issuance as its stock surged, and its prospectus warned it was pretty much bankrupt. This raised questions about the company’s financial resilience at the time.",
+     "episode": {
+      "title": "Why did Markets Reject the Reject Shop?",
+      "url": "https://equitymates.com/episode/why-did-markets-reject-the-reject-shop/",
+      "jump": null,
+      "at": "16:05"
+     }
+    },
+    {
+     "date": "2020-07-09",
+     "when": "July 2020",
+     "text": "In July 2020, Equity Mates recapped that Hertz filed for bankruptcy, its shares traded well below a dollar, and it sought to raise about a billion dollars of equity, with SEC involvement noted. The discussion highlighted severe financial distress around the business.",
+     "episode": {
+      "title": "Expert Investor: Matt Leibowitz - What's Hot, What's Not In The US Markets",
+      "url": "https://equitymates.com/episode/expert-investor-matt-leibowitz-whats-hot-whats-not-in-the-us-markets/",
+      "jump": null,
+      "at": "19:09"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2021-06-09",
+     "when": "June 2021",
+     "text": "In June 2021, Equity Mates explained Hertz sought court approval during bankruptcy to issue new shares because the stock was running, while disclosing severe financial trouble in the prospectus. The focus was on raising equity as a capital decision amid restructuring.",
+     "episode": {
+      "title": "Why did Markets Reject the Reject Shop?",
+      "url": "https://equitymates.com/episode/why-did-markets-reject-the-reject-shop/",
+      "jump": null,
+      "at": "16:05"
+     }
+    },
+    {
+     "date": "2020-07-09",
+     "when": "July 2020",
+     "text": "In July 2020, Equity Mates discussed Hertz moving through US Chapter 11 and attempting to raise roughly a billion dollars of equity, with the SEC blocking plans. The segment centred on capital-raising actions rather than deploying profits into growth.",
+     "episode": {
+      "title": "Expert Investor: Matt Leibowitz - What's Hot, What's Not In The US Markets",
+      "url": "https://equitymates.com/episode/expert-investor-matt-leibowitz-whats-hot-whats-not-in-the-us-markets/",
+      "jump": null,
+      "at": "19:09"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2021-08-10",
+     "when": "August 2021",
+     "text": "In August 2021, Equity Mates noted Hertz featured in the wave of meme stocks being bid up into the stratosphere by retail traders. The segment pointed to price moves that looked detached from underlying business conditions.",
+     "episode": {
+      "title": "Robinhood - the best and worst IPO in history",
+      "url": "https://equitymates.com/episode/robinhood-the-best-and-worst-ipo-in-history/",
+      "jump": null,
+      "at": "23:07"
+     }
+    },
+    {
+     "date": "2021-06-09",
+     "when": "June 2021",
+     "text": "In June 2021, Equity Mates remarked that even a bankrupt company like Hertz could still attract share investors. The point was that speculative demand was overwhelming traditional views of valuation.",
+     "episode": {
+      "title": "Why did Markets Reject the Reject Shop?",
+      "url": "https://equitymates.com/episode/why-did-markets-reject-the-reject-shop/",
+      "jump": null,
+      "at": "11:32"
+     }
+    },
+    {
+     "date": "2021-02-03",
+     "when": "February 2021",
+     "text": "In February 2021, Equity Mates cautioned that WallStreetBets had picked Hertz among other stocks that later went nowhere, describing the community as prone to speculative wild pitches. The discussion questioned how much lasting value was implied by such spikes.",
+     "episode": {
+      "title": "Gamestop… madness or method?",
+      "url": "https://equitymates.com/episode/gamestop-madness-or-method/",
+      "jump": null,
+      "at": "20:25"
+     }
+    }
+   ]
+  }
+ ]
+}

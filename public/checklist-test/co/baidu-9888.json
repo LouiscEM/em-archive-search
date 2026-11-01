@@ -1,0 +1,149 @@
+{
+ "slug": "baidu-9888",
+ "name": "Baidu",
+ "full": "Baidu",
+ "listings": [
+  "HKG: 9888",
+  "NASDAQ: BIDU"
+ ],
+ "built": "2026-10-30",
+ "episodes": 6,
+ "mentioned_in": 28,
+ "latest": "2026-09-10",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2026-09-10",
+     "when": "September 2026",
+     "text": "In September 2026, Equity Mates said Baidu’s Apollo Go looked like the global leader in robotaxis, operating in 28 cities with 23 million ride orders, 350 million kilometres autonomously driven and 240 million kilometres with no safety driver.",
+     "episode": {
+      "title": "Tesla’s robotaxi reality check, One Nation’s Super proposal & what would you do for $750k?",
+      "url": "https://equitymates.com/episode/teslas-robotaxi-reality-check-one-nations-super-proposal-what-would-you-do-for-750k/",
+      "jump": "https://www.youtube.com/watch?v=Bh4nlJVhEdw&t=388s",
+      "at": "6:28"
+     }
+    },
+    {
+     "date": "2023-11-06",
+     "when": "November 2023",
+     "text": "In November 2023, Equity Mates described Baidu as a leading player in China’s driverless car race alongside Pony.ai, highlighting its progress in developing and commercialising self-driving services.",
+     "episode": {
+      "title": "Driveless cars are driving headlines. Here's what you've missed",
+      "url": "https://equitymates.com/episode/driveless-cars-are-driving-headlines-heres-what-youve-missed/",
+      "jump": null,
+      "at": "1:11"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2026-09-10",
+     "when": "September 2026",
+     "text": "In September 2026, Equity Mates highlighted Baidu’s ability to deploy in multiple overseas cities, implying regulatory access and scale that could support a durable competitive position.",
+     "episode": {
+      "title": "Tesla’s robotaxi reality check, One Nation’s Super proposal & what would you do for $750k?",
+      "url": "https://equitymates.com/episode/teslas-robotaxi-reality-check-one-nations-super-proposal-what-would-you-do-for-750k/",
+      "jump": "https://www.youtube.com/watch?v=Bh4nlJVhEdw&t=478s",
+      "at": "7:58"
+     }
+    },
+    {
+     "date": "2026-07-06",
+     "when": "July 2026",
+     "text": "In July 2026, Equity Mates cited estimates that a Baidu robotaxi cost about US$34,000 versus around US$100,000 for a Waymo, suggesting a structural cost advantage among Chinese operators.",
+     "episode": {
+      "title": "Self-Driving Cars: From 7,000 to 6 million Robotaxis | The Decade Ahead",
+      "url": "https://equitymates.com/episode/self-driving-cars-from-7000-to-6-million-robotaxis-the-decade-ahead/",
+      "jump": "https://www.youtube.com/watch?v=P8y_M1gda_E&t=991s",
+      "at": "16:31"
+     }
+    },
+    {
+     "date": "2025-02-20",
+     "when": "February 2025",
+     "text": "In February 2025, Equity Mates warned that sovereign risk in China affected Baidu, noting business fortunes could be tied to political patronage and that missing a leadership event weighed on sentiment.",
+     "episode": {
+      "title": "Our latest AI research tool, hedged or unhedged ETFs & the China risk",
+      "url": "https://equitymates.com/episode/our-latest-ai-research-tool-hedged-or-unhedged-etfs-the-china-risk/",
+      "jump": "https://www.youtube.com/watch?v=Zc5R1qJ1m_k&t=367s",
+      "at": "6:07"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2026-09-10",
+     "when": "September 2026",
+     "text": "In September 2026, Equity Mates described Baidu rolling out robotaxis across several overseas cities, indicating continued investment to grow its service footprint.",
+     "episode": {
+      "title": "Tesla’s robotaxi reality check, One Nation’s Super proposal & what would you do for $750k?",
+      "url": "https://equitymates.com/episode/teslas-robotaxi-reality-check-one-nations-super-proposal-what-would-you-do-for-750k/",
+      "jump": "https://www.youtube.com/watch?v=Bh4nlJVhEdw&t=478s",
+      "at": "7:58"
+     }
+    },
+    {
+     "date": "2026-07-06",
+     "when": "July 2026",
+     "text": "In July 2026, Equity Mates said Baidu’s Apollo Go partnered with Swiss Post in Switzerland and was set to launch in London in 2026, showing an expansion strategy via partnerships and new markets.",
+     "episode": {
+      "title": "Self-Driving Cars: From 7,000 to 6 million Robotaxis | The Decade Ahead",
+      "url": "https://equitymates.com/episode/self-driving-cars-from-7000-to-6-million-robotaxis-the-decade-ahead/",
+      "jump": "https://www.youtube.com/watch?v=P8y_M1gda_E&t=1178s",
+      "at": "19:38"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2025-03-25",
+     "when": "March 2025",
+     "text": "In March 2025, an adviser on Equity Mates said expectations for Chinese tech such as Baidu were very low and that recent gains were more linked to AI excitement than a broad consumer rebound.",
+     "episode": {
+      "title": "Basis Points: Understanding Market Expectations with Matt Wacher of Morningstar",
+      "url": "https://equitymates.com/episode/basis-points-understanding-market-expectations-with-matt-wacher-of-morningstar/",
+      "jump": "https://www.youtube.com/watch?v=pLJ4nEa0NTI&t=1065s",
+      "at": "17:45"
+     }
+    },
+    {
+     "date": "2025-02-20",
+     "when": "February 2025",
+     "text": "In February 2025, Equity Mates said almost US$4 billion was wiped off Baidu’s market value after news its founder was not invited to a business symposium, underscoring political risk in the price.",
+     "episode": {
+      "title": "Our latest AI research tool, hedged or unhedged ETFs & the China risk",
+      "url": "https://equitymates.com/episode/our-latest-ai-research-tool-hedged-or-unhedged-etfs-the-china-risk/",
+      "jump": "https://www.youtube.com/watch?v=Zc5R1qJ1m_k&t=213s",
+      "at": "3:33"
+     }
+    },
+    {
+     "date": "2025-02-10",
+     "when": "February 2025",
+     "text": "In February 2025, Equity Mates reported Baidu’s share price had fallen 61% over recent years alongside broader Chinese tech declines, shaping how investors viewed its valuation backdrop.",
+     "episode": {
+      "title": "Albo's 1.7% yield, Michael Burry's big China bets & the best entrepreneur you've never heard of",
+      "url": "https://equitymates.com/episode/albos-1-7-yield-michael-burrys-big-china-bets-the-best-entrepreneur-youve-never-heard-of/",
+      "jump": "https://www.youtube.com/watch?v=6YBfVb0SGoA&t=1494s",
+      "at": "24:54"
+     }
+    }
+   ]
+  }
+ ]
+}

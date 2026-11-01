@@ -1,0 +1,82 @@
+{
+ "slug": "birkenstock-birk",
+ "name": "Birkenstock",
+ "full": "Birkenstock",
+ "listings": [
+  "NYSE: BIRK"
+ ],
+ "built": "2026-11-01",
+ "episodes": 1,
+ "mentioned_in": 2,
+ "latest": "2023-10-18",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2023-10-18",
+     "when": "October 2023",
+     "text": "In October 2023, Equity Mates highlighted the Birkenstock Boston as the hottest shoe on the internet and noted 72% of customers were female, pointing to strong product appeal and fashion relevance.",
+     "episode": {
+      "title": "Why did Birkenstocks IPO get off on the wrong foot?",
+      "url": "https://equitymates.com/episode/why-did-birkenstocks-ipo-get-off-on-the-wrong-foot/",
+      "jump": null,
+      "at": "3:25"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2023-10-18",
+     "when": "October 2023",
+     "text": "In October 2023, Equity Mates described Birkenstock as a legacy company that was profitable, positioning it as a brand making money today rather than a speculative fashion play.",
+     "episode": {
+      "title": "Why did Birkenstocks IPO get off on the wrong foot?",
+      "url": "https://equitymates.com/episode/why-did-birkenstocks-ipo-get-off-on-the-wrong-foot/",
+      "jump": null,
+      "at": "0:02"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2023-10-18",
+     "when": "October 2023",
+     "text": "In October 2023, Equity Mates explained Birkenstock listed in the US while L Catterton kept 83% control and 17% floated, raising US$1.4 billion and providing liquidity for investors and employees, reflecting a capital allocation focused on ownership and control.",
+     "episode": {
+      "title": "Why did Birkenstocks IPO get off on the wrong foot?",
+      "url": "https://equitymates.com/episode/why-did-birkenstocks-ipo-get-off-on-the-wrong-foot/",
+      "jump": null,
+      "at": "6:31"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2023-10-18",
+     "when": "October 2023",
+     "text": "In October 2023, Equity Mates reported Birkenstock shares fell 13% on day one to more than 12% below the US$46 offer price, marking the worst first day for a US listing of US$1 billion or more in over two years.",
+     "episode": {
+      "title": "Why did Birkenstocks IPO get off on the wrong foot?",
+      "url": "https://equitymates.com/episode/why-did-birkenstocks-ipo-get-off-on-the-wrong-foot/",
+      "jump": null,
+      "at": "8:46"
+     }
+    }
+   ]
+  }
+ ]
+}

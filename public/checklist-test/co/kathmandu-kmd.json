@@ -1,0 +1,104 @@
+{
+ "slug": "kathmandu-kmd",
+ "name": "Kathmandu",
+ "full": "Kathmandu",
+ "listings": [
+  "NZE: KMD"
+ ],
+ "built": "2026-11-01",
+ "episodes": 4,
+ "mentioned_in": 6,
+ "latest": "2025-04-18",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2021-07-04",
+     "when": "July 2021",
+     "text": "In July 2021, Equity Mates noted Kathmandu’s online sales were about 13% of total, with Kathmandu-specific at roughly 14.5%, and highlighted B Corp certification and carbon neutrality, describing sustainability credentials alongside a growing digital channel.",
+     "episode": {
+      "title": "Watchlist: Mastermind episode with Julia Lee",
+      "url": "https://equitymates.com/episode/watchlist-mastermind-episode-with-julia-lee/",
+      "jump": null,
+      "at": "9:14"
+     }
+    },
+    {
+     "date": "2020-10-19",
+     "when": "October 2020",
+     "text": "In October 2020, Equity Mates included Kathmandu in a discussion of niche, thematic retailers, contrasting it with general retail and framing it as a specialist outdoor brand rather than a broad department store offering.",
+     "episode": {
+      "title": "Build An ETF' Shortlist & Winner Announced",
+      "url": "https://equitymates.com/episode/build-an-etf-shortlist-winner-announced/",
+      "jump": null,
+      "at": "7:53"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2025-04-18",
+     "when": "April 2025",
+     "text": "In April 2025, a guest on Equity Mates compared Kathmandu with global rivals such as The North Face and Canada Goose, describing a crowded outdoor apparel landscape with different value propositions across the market.",
+     "episode": {
+      "title": "Hunting for 10-baggers - James Abela | Fidelity",
+      "url": "https://equitymates.com/episode/hunting-for-10-baggers-james-abela-fidelity/",
+      "jump": "https://www.youtube.com/watch?v=WnFpl-biDwA&t=1336s",
+      "at": "22:16"
+     }
+    },
+    {
+     "date": "2024-08-26",
+     "when": "August 2024",
+     "text": "In August 2024, Equity Mates reported KMD Brands’ overall sales fell 11%, with Kathmandu down 15%, pointing to recent trading pressure on the brand’s performance.",
+     "episode": {
+      "title": "Community confessions, Bryce's latest investment & Aussie companies taking on the world",
+      "url": "https://equitymates.com/episode/community-confessions-bryces-latest-investment-aussie-companies-taking-on-the-world/",
+      "jump": "https://www.youtube.com/watch?v=Zk2jKXcewPA&t=642s",
+      "at": "10:42"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2021-07-04",
+     "when": "July 2021",
+     "text": "In July 2021, Equity Mates said Kathmandu bought Oboz in 2017, 18 for about $75 million to enter footwear and international markets, with Oboz contributing around 8% of sales.",
+     "episode": {
+      "title": "Watchlist: Mastermind episode with Julia Lee",
+      "url": "https://equitymates.com/episode/watchlist-mastermind-episode-with-julia-lee/",
+      "jump": null,
+      "at": "4:57"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2021-07-04",
+     "when": "July 2021",
+     "text": "In July 2021, Equity Mates recapped volatility, recalling shares in the mid threes before falling to about 70 cents during COVID and later around $1.50, alongside profit dropping from roughly $57 million pre‑COVID to $8.5 million.",
+     "episode": {
+      "title": "Watchlist: Mastermind episode with Julia Lee",
+      "url": "https://equitymates.com/episode/watchlist-mastermind-episode-with-julia-lee/",
+      "jump": null,
+      "at": "4:57"
+     }
+    }
+   ]
+  }
+ ]
+}

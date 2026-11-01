@@ -1,0 +1,126 @@
+{
+ "slug": "jb-hi-fi-jbh",
+ "name": "JB Hi-Fi",
+ "full": "JB Hi-Fi Ltd",
+ "listings": [
+  "ASX: JBH"
+ ],
+ "built": "2026-10-30",
+ "episodes": 7,
+ "mentioned_in": 44,
+ "latest": "2026-10-16",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2026-08-25",
+     "when": "August 2026",
+     "text": "In August 2026, a guest on Equity Mates said they had made great money from JB Hi-Fi and argued many of its products felt like staples, citing phone plans paid monthly, which blurred the line with consumer discretionary.",
+     "episode": {
+      "title": "Replace your salary with dividend income with Dr. Don Hamson",
+      "url": "https://equitymates.com/episode/replace-your-salary-with-dividend-income/",
+      "jump": "https://www.youtube.com/watch?v=VInWjyqw0kg&t=1680s",
+      "at": "28:00"
+     }
+    },
+    {
+     "date": "2021-05-31",
+     "when": "May 2021",
+     "text": "In May 2021, Equity Mates described JB Hi-Fi stores as adaptable, regularly reworking floor space from CDs to gaming to vinyl and new devices, which kept the shopping experience relevant.",
+     "episode": {
+      "title": "ASX Week: Buy, hold or sell with Adam Dawes",
+      "url": "https://equitymates.com/episode/buy-hold-or-sell-with-adam-dawes-asx-week/",
+      "jump": null,
+      "at": "23:54"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2026-10-16",
+     "when": "October 2026",
+     "text": "In October 2026, a guest on Equity Mates highlighted a 25-year record of market share gains and double-digit returns on invested capital, usually around 30 to 35 percent, framing JB Hi-Fi as a strong operator positioned for a growing tech market despite recent sales pressure.",
+     "episode": {
+      "title": "Start positioning for rate cuts (and here’s 3 stocks to do that)",
+      "url": "https://equitymates.com/episode/start-positioning-for-rate-cuts-and-heres-3-stocks-to-do-that/",
+      "jump": "https://www.youtube.com/watch?v=Yw5a5fONKYE&t=286s",
+      "at": "4:46"
+     }
+    },
+    {
+     "date": "2026-08-20",
+     "when": "August 2026",
+     "text": "In August 2026, Equity Mates noted full year net profit rose 6 percent to $489 million despite a challenging year, while analysts worried about near-term sales recovery tied to housing and consumer confidence.",
+     "episode": {
+      "title": "Data centre resistance grows, CSL is (sort of) back & a stock picker joins Pimp my Portfolio",
+      "url": "https://equitymates.com/episode/data-centre-resistance-grows-csl-is-sort-of-back-a-stock-picker-joins-pimp-my-portfolio/",
+      "jump": null,
+      "at": "15:44"
+     }
+    },
+    {
+     "date": "2022-07-25",
+     "when": "July 2022",
+     "text": "In July 2022, Equity Mates reported record sales and record profits for JB Hi-Fi and said it kept delivering while warning about cost of living pressures ahead.",
+     "episode": {
+      "title": "What we have learnt from earnings season so far",
+      "url": "https://equitymates.com/episode/what-we-have-learnt-from-earnings-season-so-far/",
+      "jump": "https://www.youtube.com/watch?v=5bg38YvHmrg&t=82s",
+      "at": "1:22"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2022-08-22",
+     "when": "August 2022",
+     "text": "In August 2022, Equity Mates reported JB Hi-Fi lifted its dividend 43 percent alongside revenue of $9.3 billion and profit of roughly half a billion dollars, indicating a willingness to return cash to shareholders.",
+     "episode": {
+      "title": "Hands down, the most unethical industry deep dive we’ve done",
+      "url": "https://equitymates.com/episode/hands-down-the-most-unethical-industry-deep-dive-weve-done/",
+      "jump": "https://www.youtube.com/watch?v=wAXnKtjXqLs&t=636s",
+      "at": "10:36"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2026-10-16",
+     "when": "October 2026",
+     "text": "In October 2026, a guest on Equity Mates said the share price had been under pressure with negative like-for-like sales and described the stock as cyclical that could be well placed when rates are cut, implying sentiment had weighed on valuation.",
+     "episode": {
+      "title": "Start positioning for rate cuts (and here’s 3 stocks to do that)",
+      "url": "https://equitymates.com/episode/start-positioning-for-rate-cuts-and-heres-3-stocks-to-do-that/",
+      "jump": "https://www.youtube.com/watch?v=Yw5a5fONKYE&t=286s",
+      "at": "4:46"
+     }
+    },
+    {
+     "date": "2026-09-18",
+     "when": "September 2026",
+     "text": "In September 2026, a guest on Equity Mates said weaker outlook statements, including from JB Hi-Fi, led to cuts in EPS expectations and suggested the multiple investors pay could also come down.",
+     "episode": {
+      "title": "The Small Cap index is lying to you with Andrew Mitchell",
+      "url": "https://equitymates.com/episode/the-small-cap-index-is-lying-to-you-with-andrew-mitchell/",
+      "jump": "https://www.youtube.com/watch?v=aYboApIohyE&t=364s",
+      "at": "6:04"
+     }
+    }
+   ]
+  }
+ ]
+}

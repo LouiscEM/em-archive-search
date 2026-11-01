@@ -1,0 +1,58 @@
+{
+ "slug": "antipa-minerals-azy",
+ "name": "Antipa Minerals",
+ "full": "Antipa Minerals",
+ "listings": [
+  "ASX: AZY"
+ ],
+ "built": "2026-11-01",
+ "episodes": 2,
+ "mentioned_in": 4,
+ "latest": "2025-03-13",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": []
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": []
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2025-03-13",
+     "when": "March 2025",
+     "text": "In March 2025, Equity Mates described the thesis for Antipa Minerals as a potential buyout, noting very low liquidity in the stock and that the position had been entered after a market drop and was holding steady.",
+     "episode": {
+      "title": "What we’re buying as US stocks fall, Bryce delivered 21% in a month & is VDAL a better version of DHHF?",
+      "url": "https://equitymates.com/episode/what-were-buying-as-us-stocks-fall-bryce-delivered-21-in-a-month-is-vdal-a-better-version-of-dhhf/",
+      "jump": "https://www.youtube.com/watch?v=6WO_zfowrI0&t=760s",
+      "at": "12:40"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2025-03-04",
+     "when": "March 2025",
+     "text": "In March 2025, a guest on Equity Mates noted Antipa Minerals traded at 4 cents and contrasted gold producers, developers and explorers to frame how markets may view different stages of mining businesses.",
+     "episode": {
+      "title": "Buy or Sell: Ben Richards - WiseTech, Guzman y Gomez, Catapult, Antipa Minerals and more",
+      "url": "https://equitymates.com/episode/buy-or-sell-ben-richards-wisetech-guzman-y-gomez-catapult-antipa-minerals-and-more/",
+      "jump": "https://www.youtube.com/watch?v=SQ-HbCPpNto&t=1387s",
+      "at": "23:07"
+     }
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,69 @@
+{
+ "slug": "evolution-mining-evn",
+ "name": "Evolution Mining",
+ "full": "Evolution Mining",
+ "listings": [
+  "ASX: EVN"
+ ],
+ "built": "2026-11-01",
+ "episodes": 3,
+ "mentioned_in": 4,
+ "latest": "2025-03-04",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2023-04-25",
+     "when": "April 2023",
+     "text": "In April 2023, Equity Mates named Evolution Mining as one of the biggest Australian gold producers, alongside Newcrest Mining and Northern Star Resources, when outlining ways to get exposure to gold.",
+     "episode": {
+      "title": "Should I invest in gold?",
+      "url": "https://equitymates.com/episode/should-i-invest-in-gold/",
+      "jump": null,
+      "at": "13:14"
+     }
+    },
+    {
+     "date": "2022-03-15",
+     "when": "March 2022",
+     "text": "In March 2022, Equity Mates noted Evolution Mining appeared among the top holdings of an equal‑weighted Australian equity ETF after a quarterly rebalance, reflecting its inclusion with major ASX miners and energy names.",
+     "episode": {
+      "title": "The Best and Worst ETFs of 2021",
+      "url": "https://equitymates.com/episode/the-9-loved-and-not-so-loved-etfs-of-2021/",
+      "jump": null,
+      "at": "25:21"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": []
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2025-03-04",
+     "when": "March 2025",
+     "text": "In March 2025, a guest on Equity Mates said management had previously grown Evolution Mining from $50 million to $380 million through acquisitions and organic growth, using that history to illustrate a disciplined expansion playbook.",
+     "episode": {
+      "title": "Buy or Sell: Ben Richards - WiseTech, Guzman y Gomez, Catapult, Antipa Minerals and more",
+      "url": "https://equitymates.com/episode/buy-or-sell-ben-richards-wisetech-guzman-y-gomez-catapult-antipa-minerals-and-more/",
+      "jump": "https://www.youtube.com/watch?v=SQ-HbCPpNto&t=1133s",
+      "at": "18:53"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

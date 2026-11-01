@@ -1,0 +1,81 @@
+{
+ "slug": "charter-hall-chc",
+ "name": "Charter Hall",
+ "full": "Charter Hall",
+ "listings": [
+  "ASX: CHC"
+ ],
+ "built": "2026-10-30",
+ "episodes": 3,
+ "mentioned_in": 9,
+ "latest": "2025-11-07",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2025-11-07",
+     "when": "November 2025",
+     "text": "In November 2025, a guest on Equity Mates pointed to Chifley, owned by Charter Hall and GIC, as a fantastic building and a trophy-grade asset, underscoring Charter Hall’s presence in high-quality office properties.",
+     "episode": {
+      "title": "The $20 billion commercial property investor - Jason Huljich | Centuria Capital",
+      "url": "https://equitymates.com/episode/the-20-billion-commercial-property-investor-jason-huljich-centuria-capital/",
+      "jump": "https://www.youtube.com/watch?v=Vr9G7X4-JxI&t=1649s",
+      "at": "27:29"
+     }
+    },
+    {
+     "date": "2025-04-11",
+     "when": "April 2025",
+     "text": "In April 2025, a guest on Equity Mates described Chifley Tower, co-owned by Charter Hall and Singapore’s government, as a prime CBD asset with extensive amenity, record rents and very high occupancy, and noted Charter Hall was adding a second tower, highlighting the quality of its assets.",
+     "episode": {
+      "title": "Office Pain, Industrial Gain: Opportunities in Commercial Property - Jason Huljich | Centuria",
+      "url": "https://equitymates.com/episode/office-pain-industrial-gain-opportunities-in-commercial-property-jason-huljich-centuria/",
+      "jump": "https://www.youtube.com/watch?v=yw91ZusVxZQ&t=1713s",
+      "at": "28:33"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2025-04-22",
+     "when": "April 2025",
+     "text": "In April 2025, Equity Mates said Charter Hall returned 13% a year on average over the past 10 years, using it to illustrate that listed property groups can deliver strong long-term outcomes.",
+     "episode": {
+      "title": "How to buy property without a mortgage",
+      "url": "https://equitymates.com/episode/how-to-buy-property-without-a-mortgage/",
+      "jump": "https://www.youtube.com/watch?v=E95a0fjuy7g&t=723s",
+      "at": "12:03"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2025-04-11",
+     "when": "April 2025",
+     "text": "In April 2025, a guest on Equity Mates said Charter Hall had removed amenity at Chifley and was building a second tower, indicating active reinvestment and development to enhance asset value and rental outcomes.",
+     "episode": {
+      "title": "Office Pain, Industrial Gain: Opportunities in Commercial Property - Jason Huljich | Centuria",
+      "url": "https://equitymates.com/episode/office-pain-industrial-gain-opportunities-in-commercial-property-jason-huljich-centuria/",
+      "jump": "https://www.youtube.com/watch?v=yw91ZusVxZQ&t=1713s",
+      "at": "28:33"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

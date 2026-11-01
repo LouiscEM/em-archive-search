@@ -1,0 +1,81 @@
+{
+ "slug": "generation-development-gdg",
+ "name": "Generation Development",
+ "full": "Generation Development Group",
+ "listings": [
+  "ASX: GDG"
+ ],
+ "built": "2026-11-01",
+ "episodes": 2,
+ "mentioned_in": 2,
+ "latest": "2026-08-12",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2026-08-12",
+     "when": "August 2026",
+     "text": "In August 2026, Equity Mates outlined GDG’s three businesses: Generation Life sells investment bonds and lifetime annuities; Lonsec rates almost 2,000 financial products; and a managed accounts offering improves adviser operational and tax efficiency for clients.",
+     "episode": {
+      "title": "Grant Hackett on resilience, tax changes and his push to quadruple adviser numbers",
+      "url": "https://equitymates.com/episode/grant-hackett-on-resilience-tax-changes-and-his-push-to-quadruple-adviser-numbers/",
+      "jump": "https://www.youtube.com/watch?v=iT1_2qmw8AA&t=653s",
+      "at": "10:53"
+     }
+    },
+    {
+     "date": "2022-02-18",
+     "when": "February 2022",
+     "text": "In February 2022, a guest on Equity Mates described setting up investment bonds for children and noted many in financial services had adopted GDG’s offerings for family goals, showing real world use within the industry.",
+     "episode": {
+      "title": "Talking Money To Us | Grant Hackett - CEO of Generation Life",
+      "url": "https://equitymates.com/episode/talking-money-to-us-grant-hackett-ceo-of-generation-life/",
+      "jump": null,
+      "at": "18:51"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2026-08-12",
+     "when": "August 2026",
+     "text": "In August 2026, Equity Mates said Lonsec was likely GDG’s biggest brand and rates almost 2,000 products, and noted its managed accounts platform had taken off by boosting adviser efficiency and tax outcomes, highlighting advantages advisers and clients valued.",
+     "episode": {
+      "title": "Grant Hackett on resilience, tax changes and his push to quadruple adviser numbers",
+      "url": "https://equitymates.com/episode/grant-hackett-on-resilience-tax-changes-and-his-push-to-quadruple-adviser-numbers/",
+      "jump": "https://www.youtube.com/watch?v=iT1_2qmw8AA&t=653s",
+      "at": "10:53"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2026-08-12",
+     "when": "August 2026",
+     "text": "In August 2026, Equity Mates covered GDG’s plan to grow distribution by pushing to quadruple adviser numbers, indicating a focus on scaling its businesses in response to advice industry changes.",
+     "episode": {
+      "title": "Grant Hackett on resilience, tax changes and his push to quadruple adviser numbers",
+      "url": "https://equitymates.com/episode/grant-hackett-on-resilience-tax-changes-and-his-push-to-quadruple-adviser-numbers/",
+      "jump": "https://www.youtube.com/watch?v=iT1_2qmw8AA&t=0s",
+      "at": "0:00"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

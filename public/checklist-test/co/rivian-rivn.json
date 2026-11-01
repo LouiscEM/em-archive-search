@@ -1,0 +1,126 @@
+{
+ "slug": "rivian-rivn",
+ "name": "Rivian",
+ "full": "Rivian",
+ "listings": [
+  "NASDAQ: RIVN"
+ ],
+ "built": "2026-11-01",
+ "episodes": 5,
+ "mentioned_in": 8,
+ "latest": "2022-02-14",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2021-12-01",
+     "when": "December 2021",
+     "text": "In December 2021, Equity Mates highlighted Rivian vehicles offering a built-in camp stove and wireless radio, presenting features aimed at off-grid or camping use.",
+     "episode": {
+      "title": "NZ hikes rates. Is Australia next?",
+      "url": "https://equitymates.com/episode/nz-hikes-rates-is-australia-next/",
+      "jump": null,
+      "at": "1:26"
+     }
+    },
+    {
+     "date": "2021-11-15",
+     "when": "November 2021",
+     "text": "In November 2021, Equity Mates described Rivian as an electric truck and van maker that listed on the Nasdaq while having never made a dollar, outlining its product focus.",
+     "episode": {
+      "title": "Boomtown - Airbnb, Rivian, Roblox and Crypto",
+      "url": "https://equitymates.com/episode/em-chat-bamboo-tracey/",
+      "jump": "https://www.youtube.com/watch?v=Bj5hHO5bWfc&t=1034s",
+      "at": "17:14"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2021-12-01",
+     "when": "December 2021",
+     "text": "In December 2021, Equity Mates framed companies like Rivian as punts on what the market may look like in five to 10 years, highlighting uncertainty around future profitability amid cheap money.",
+     "episode": {
+      "title": "NZ hikes rates. Is Australia next?",
+      "url": "https://equitymates.com/episode/nz-hikes-rates-is-australia-next/",
+      "jump": null,
+      "at": "24:54"
+     }
+    },
+    {
+     "date": "2021-11-17",
+     "when": "November 2021",
+     "text": "In November 2021, Equity Mates noted Amazon owned 20 percent of Rivian and contracted it to build 100,000 electric delivery vans, portraying a powerful backer and a substantial committed customer base.",
+     "episode": {
+      "title": "The Coffee Crisis of 2022?",
+      "url": "https://equitymates.com/episode/the-coffee-crisis-of-2022/",
+      "jump": null,
+      "at": "8:18"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2021-11-17",
+     "when": "November 2021",
+     "text": "In November 2021, Equity Mates explained Rivian planned to source production inputs offshore rather than build the machines that make the machines, indicating a different approach to investing in manufacturing capability.",
+     "episode": {
+      "title": "The Coffee Crisis of 2022?",
+      "url": "https://equitymates.com/episode/the-coffee-crisis-of-2022/",
+      "jump": null,
+      "at": "9:39"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2022-02-14",
+     "when": "February 2022",
+     "text": "In February 2022, Equity Mates reported Rivian’s share price was down 41 percent and 64 percent since its November high, illustrating sharp valuation swings among hyped stocks.",
+     "episode": {
+      "title": "What to expect when you're expecting (a crash)",
+      "url": "https://equitymates.com/episode/what-to-expect-when-youre-expecting-a-crash/",
+      "jump": "https://www.youtube.com/watch?v=0vddliZ1jE4&t=288s",
+      "at": "4:48"
+     }
+    },
+    {
+     "date": "2021-11-17",
+     "when": "November 2021",
+     "text": "In November 2021, Equity Mates observed Rivian reached a US$113 billion market cap, exceeding General Motors and Ford, despite delivering 153 pickup trucks and losing US$1 billion, underscoring lofty expectations.",
+     "episode": {
+      "title": "The Coffee Crisis of 2022?",
+      "url": "https://equitymates.com/episode/the-coffee-crisis-of-2022/",
+      "jump": null,
+      "at": "3:42"
+     }
+    },
+    {
+     "date": "2021-10-28",
+     "when": "October 2021",
+     "text": "In October 2021, a guest on Equity Mates described Rivian’s pursuit of an $80 billion valuation with zero revenue as pie in the sky and outside a discipline that focuses on earnings leadership and reasonable valuation.",
+     "episode": {
+      "title": "Expert: Mary Manning - 3 stocks to watch as the world embraces renewables",
+      "url": "https://equitymates.com/episode/expert-mary-manning-3-stocks-to-watch-as-the-world-embraces-renewables/",
+      "jump": "https://www.youtube.com/watch?v=a_OkhUs9SE8&t=2158s",
+      "at": "35:58"
+     }
+    }
+   ]
+  }
+ ]
+}

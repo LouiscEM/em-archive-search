@@ -1,0 +1,82 @@
+{
+ "slug": "national-storage-nsr",
+ "name": "National Storage",
+ "full": "National Storage REIT",
+ "listings": [
+  "ASX: NSR"
+ ],
+ "built": "2026-11-01",
+ "episodes": 2,
+ "mentioned_in": 3,
+ "latest": "2025-04-22",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2025-04-22",
+     "when": "April 2025",
+     "text": "In April 2025, Equity Mates said National Storage REIT focused on self storage facilities across Australia and New Zealand, situating it among listed property trusts investors can access on the ASX.",
+     "episode": {
+      "title": "How to buy property without a mortgage",
+      "url": "https://equitymates.com/episode/how-to-buy-property-without-a-mortgage/",
+      "jump": "https://www.youtube.com/watch?v=E95a0fjuy7g&t=815s",
+      "at": "13:35"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2023-01-16",
+     "when": "January 2023",
+     "text": "In January 2023, Equity Mates explained National Storage REIT earned money from rising property values and storage fees, noting high occupancy increased income and supported higher valuations for its income producing facilities.",
+     "episode": {
+      "title": "Nothing boring about these returns - National Storage REIT | Summer Series",
+      "url": "https://equitymates.com/episode/nothing-boring-about-these-returns-national-storage-reit-summer-series/",
+      "jump": null,
+      "at": "7:14"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2023-01-16",
+     "when": "January 2023",
+     "text": "In January 2023, Equity Mates reported the company aimed to double in size over five years via acquisitions and developments, highlighting premiums for modern facilities and framing growth as adding more space in a relatively less mature Australian storage market.",
+     "episode": {
+      "title": "Nothing boring about these returns - National Storage REIT | Summer Series",
+      "url": "https://equitymates.com/episode/nothing-boring-about-these-returns-national-storage-reit-summer-series/",
+      "jump": null,
+      "at": "27:55"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2023-01-16",
+     "when": "January 2023",
+     "text": "In January 2023, Equity Mates noted National Storage REIT had a 4% dividend yield and used it to discuss how investors think about returns while questioning the total addressable market for self storage.",
+     "episode": {
+      "title": "Nothing boring about these returns - National Storage REIT | Summer Series",
+      "url": "https://equitymates.com/episode/nothing-boring-about-these-returns-national-storage-reit-summer-series/",
+      "jump": null,
+      "at": "14:07"
+     }
+    }
+   ]
+  }
+ ]
+}

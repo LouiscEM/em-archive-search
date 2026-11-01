@@ -1,0 +1,46 @@
+{
+ "slug": "keisei-electric-railway-9009",
+ "name": "Keisei Electric Railway",
+ "full": "Keisei Electric Railway",
+ "listings": [
+  "TYO: 9009"
+ ],
+ "built": "2026-11-01",
+ "episodes": 1,
+ "mentioned_in": 1,
+ "latest": "2023-09-08",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2023-09-08",
+     "when": "September 2023",
+     "text": "In September 2023, Equity Mates said Keisei Electric Railway primarily operated the rail link between Narita Airport and Tokyo, with smaller department store, real estate, hotel and travel businesses. It noted other ways to travel existed, but the big portion of revenue came from the railway.",
+     "episode": {
+      "title": "Expert: Maroun Younes - The investing story for Keisei Electric Railway + Quanta | Fidelity",
+      "url": "https://equitymates.com/episode/expert-maroun-younes-the-investing-story-for-keisei-electric-railway-quanta-fidelity/",
+      "jump": null,
+      "at": "8:09"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": []
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

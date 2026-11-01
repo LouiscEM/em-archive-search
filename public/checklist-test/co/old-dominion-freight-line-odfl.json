@@ -1,0 +1,70 @@
+{
+ "slug": "old-dominion-freight-line-odfl",
+ "name": "Old Dominion Freight Line",
+ "full": "Old Dominion Freight Line",
+ "listings": [
+  "NASDAQ: ODFL"
+ ],
+ "built": "2026-11-01",
+ "episodes": 1,
+ "mentioned_in": 1,
+ "latest": "2022-11-10",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2022-11-10",
+     "when": "November 2022",
+     "text": "In November 2022, a guest on Equity Mates explained Old Dominion provided less than truckload shipping in the US, moving pallets for businesses that could not fill a whole truck or use a parcel service, highlighting a practical, widely needed logistics service.",
+     "episode": {
+      "title": "Expert Panel: Finding Generational Businesses | FinFest",
+      "url": "https://equitymates.com/episode/expert-panel-finding-generational-businesses-finfest/",
+      "jump": null,
+      "at": "26:46"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2022-11-10",
+     "when": "November 2022",
+     "text": "In November 2022, a guest on Equity Mates said Old Dominion’s decades-long buildout of distribution centres on land near major US population centres made entry difficult, since rivals would struggle to secure similar sites, and noted 100 years of history with 15% family ownership and 97% employee shareholders.",
+     "episode": {
+      "title": "Expert Panel: Finding Generational Businesses | FinFest",
+      "url": "https://equitymates.com/episode/expert-panel-finding-generational-businesses-finfest/",
+      "jump": null,
+      "at": "26:46"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2022-11-10",
+     "when": "November 2022",
+     "text": "In November 2022, a guest on Equity Mates said Old Dominion had always been too expensive for them to own, indicating a premium valuation.",
+     "episode": {
+      "title": "Expert Panel: Finding Generational Businesses | FinFest",
+      "url": "https://equitymates.com/episode/expert-panel-finding-generational-businesses-finfest/",
+      "jump": null,
+      "at": "26:46"
+     }
+    }
+   ]
+  }
+ ]
+}

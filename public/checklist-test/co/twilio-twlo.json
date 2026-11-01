@@ -1,0 +1,125 @@
+{
+ "slug": "twilio-twlo",
+ "name": "Twilio",
+ "full": "Twilio",
+ "listings": [
+  "NYSE: TWLO"
+ ],
+ "built": "2026-11-01",
+ "episodes": 5,
+ "mentioned_in": 8,
+ "latest": "2026-05-19",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2026-05-19",
+     "when": "May 2026",
+     "text": "In May 2026, a guest on Equity Mates said communications infrastructure tools like Twilio were ones agents wanted to use in AI-enabled workflows, pointing to practical utility for users.",
+     "episode": {
+      "title": "How AI improves the investing process with Arms Rosenberg",
+      "url": "https://equitymates.com/episode/how-ai-improves-the-investing-process-with-arms-rosenberg/",
+      "jump": "https://www.youtube.com/watch?v=bQnZb__UAGw&t=1422s",
+      "at": "23:42"
+     }
+    },
+    {
+     "date": "2025-07-31",
+     "when": "July 2025",
+     "text": "In July 2025, Equity Mates noted Twilio took about five years to reach US$100 million in annual recurring revenue, using it as evidence of meaningful customer uptake of its communications APIs.",
+     "episode": {
+      "title": "Australia threatened with higher tariffs, Pimp my Portfolio & your portfolio construction questions, answered",
+      "url": "https://equitymates.com/episode/australia-threatened-with-higher-tariffs-pimp-my-portfolio-your-portfolio-construction-questions-answered/",
+      "jump": null,
+      "at": "5:12"
+     }
+    },
+    {
+     "date": "2024-05-20",
+     "when": "May 2024",
+     "text": "In May 2024, Equity Mates described Twilio as powering many companies’ text notifications and push notifications, explaining it sat behind a core part of modern tech stacks.",
+     "episode": {
+      "title": "COVID stocks that haven't recovered (yet?), Pimp my portfolio & should I invest in gold?",
+      "url": "https://equitymates.com/episode/covid-stocks-that-havent-recovered-yet-pimp-my-portfolio-should-i-invest-in-gold/",
+      "jump": "https://www.youtube.com/watch?v=mvYu1ThJsJQ&t=597s",
+      "at": "9:57"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2026-05-19",
+     "when": "May 2026",
+     "text": "In May 2026, a guest on Equity Mates argued that in the AI shift, tools with workflow lock in would endure and cited communications infrastructure players like Twilio as recent outperformers, implying defensibility.",
+     "episode": {
+      "title": "How AI improves the investing process with Arms Rosenberg",
+      "url": "https://equitymates.com/episode/how-ai-improves-the-investing-process-with-arms-rosenberg/",
+      "jump": "https://www.youtube.com/watch?v=bQnZb__UAGw&t=1422s",
+      "at": "23:42"
+     }
+    },
+    {
+     "date": "2023-06-26",
+     "when": "June 2023",
+     "text": "In June 2023, a guest on Equity Mates highlighted proprietary data as a key competitive advantage in AI and included Twilio among names held at least in part for that data edge.",
+     "episode": {
+      "title": "A simpler way to value a stock w/ Andrew Page",
+      "url": "https://equitymates.com/episode/ren-does-his-dcf-homework-cathie-wood-joins-equity-mates-kind-of/",
+      "jump": null,
+      "at": "30:41"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2024-05-20",
+     "when": "May 2024",
+     "text": "In May 2024, Equity Mates said Twilio’s share price rose 253% during Covid and then fell 83% afterwards, while noting its service was not specifically Covid related.",
+     "episode": {
+      "title": "COVID stocks that haven't recovered (yet?), Pimp my portfolio & should I invest in gold?",
+      "url": "https://equitymates.com/episode/covid-stocks-that-havent-recovered-yet-pimp-my-portfolio-should-i-invest-in-gold/",
+      "jump": "https://www.youtube.com/watch?v=mvYu1ThJsJQ&t=597s",
+      "at": "9:57"
+     }
+    },
+    {
+     "date": "2023-06-26",
+     "when": "June 2023",
+     "text": "In June 2023, a guest on Equity Mates compared valuations, saying Twilio traded around two times sales, while Nvidia was at 25 times sales and Tesla at six, framing relative expectations in prices.",
+     "episode": {
+      "title": "A simpler way to value a stock w/ Andrew Page",
+      "url": "https://equitymates.com/episode/ren-does-his-dcf-homework-cathie-wood-joins-equity-mates-kind-of/",
+      "jump": null,
+      "at": "30:41"
+     }
+    },
+    {
+     "date": "2021-11-29",
+     "when": "November 2021",
+     "text": "In November 2021, Equity Mates reported Twilio was down over 40% from its all-time high in late 2021, showing how pricing for many growth names had already turned.",
+     "episode": {
+      "title": "Square, PayPal, Spotify, Peloton: Has a bubble burst without us realising?",
+      "url": "https://equitymates.com/episode/em-chat/",
+      "jump": "https://www.youtube.com/watch?v=goHDc6Cjor4&t=209s",
+      "at": "3:29"
+     }
+    }
+   ]
+  }
+ ]
+}

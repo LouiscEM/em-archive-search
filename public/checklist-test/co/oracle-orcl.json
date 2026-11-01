@@ -1,0 +1,159 @@
+{
+ "slug": "oracle-orcl",
+ "name": "Oracle",
+ "full": "Oracle",
+ "listings": [
+  "NYSE: ORCL"
+ ],
+ "built": "2026-10-30",
+ "episodes": 7,
+ "mentioned_in": 56,
+ "latest": "2026-09-23",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2026-07-23",
+     "when": "July 2026",
+     "text": "In July 2026, Equity Mates noted Oracle was among the hyperscalers building data centres to power AI, alongside Microsoft, Alphabet and Amazon.",
+     "episode": {
+      "title": "AI & Robotics: From $300bn to $5.2 trillion in three years | The Decade Ahead",
+      "url": "https://equitymates.com/episode/ai-robotics-from-300bn-to-5-2-trillion-in-three-years-the-decade-ahead/",
+      "jump": "https://www.youtube.com/watch?v=7IRkRrOw1ho&t=1934s",
+      "at": "32:14"
+     }
+    },
+    {
+     "date": "2025-09-22",
+     "when": "September 2025",
+     "text": "In September 2025, Equity Mates explained Oracle’s multi-cloud proposition that let customers use AWS, Azure and Google Cloud through Oracle, saying it had gone gangbusters while Oracle built data centres and provided compute for AI applications.",
+     "episode": {
+      "title": "Larry Ellison's historic week, Pimp my Portfolio & the power of voluntary super contributions",
+      "url": "https://equitymates.com/episode/larry-ellisons-historic-week-pimp-my-portfolio-the-power-of-voluntary-super-contributions/",
+      "jump": "https://www.youtube.com/watch?v=8ACUdFfx9kk&t=181s",
+      "at": "3:01"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2026-08-07",
+     "when": "August 2026",
+     "text": "In August 2026, Equity Mates discussed how hyperscalers aimed to make capital a barrier to entry and said Oracle had joined the AI data centre race, implying competitive advantages could come from scale and sustained spending.",
+     "episode": {
+      "title": "The economics of the AI companies is being tested with Alex Pollak | Loftus Peak",
+      "url": "https://equitymates.com/episode/the-economics-of-the-ai-companies-is-being-tested-with-alex-pollak-loftus-peak/",
+      "jump": "https://www.youtube.com/watch?v=wImM23W54do&t=1483s",
+      "at": "24:43"
+     }
+    },
+    {
+     "date": "2026-03-06",
+     "when": "March 2026",
+     "text": "In March 2026, a guest on Equity Mates said the bond market questioned whether Oracle could catch up in data centres, with debt costs spiking and the share price later selling off, reflecting doubts about sustaining future revenue leadership.",
+     "episode": {
+      "title": "4 steps to find winning software stocks with Ben Arnold",
+      "url": "https://equitymates.com/episode/4-steps-to-find-winning-software-stocks-with-ben-arnold/",
+      "jump": "https://www.youtube.com/watch?v=4o_MexmZVEw&t=315s",
+      "at": "5:15"
+     }
+    },
+    {
+     "date": "2025-09-22",
+     "when": "September 2025",
+     "text": "In September 2025, Equity Mates said Oracle’s multi-cloud offering had surged in adoption and that it was supplying compute to many AI applications, suggesting a stronger competitive position in cloud.",
+     "episode": {
+      "title": "Larry Ellison's historic week, Pimp my Portfolio & the power of voluntary super contributions",
+      "url": "https://equitymates.com/episode/larry-ellisons-historic-week-pimp-my-portfolio-the-power-of-voluntary-super-contributions/",
+      "jump": "https://www.youtube.com/watch?v=8ACUdFfx9kk&t=181s",
+      "at": "3:01"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2026-09-23",
+     "when": "September 2026",
+     "text": "In September 2026, a guest on Equity Mates compared hyperscaler credit ratings and said Oracle was BBB minus investment grade, with leverage, cash flow and CapEx choices influencing where it sat on the spectrum.",
+     "episode": {
+      "title": "Bond markets are now funding the AI boom. History tells us that’s a warning sign",
+      "url": "https://equitymates.com/episode/bond-markets-are-now-funding-the-ai-boom-history-tells-us-thats-a-warning-sign/",
+      "jump": "https://www.youtube.com/watch?v=PDBmMG6BzEk&t=826s",
+      "at": "13:46"
+     }
+    },
+    {
+     "date": "2026-08-10",
+     "when": "August 2026",
+     "text": "In August 2026, Equity Mates said Oracle had been tapping debt markets to fund more data centres and that its credit default swap costs were the highest since 2007, signalling market concern about its financing.",
+     "episode": {
+      "title": "We're back: AI selloff reverses, US earnings, Aussie property & more",
+      "url": "https://equitymates.com/episode/were-back-ai-selloff-reverses-us-earnings-aussie-property-more/",
+      "jump": "https://www.youtube.com/watch?v=PPVVlE3Yppk&t=449s",
+      "at": "7:29"
+     }
+    },
+    {
+     "date": "2025-10-17",
+     "when": "October 2025",
+     "text": "In October 2025, Equity Mates recapped Oracle announcing a US$15 billion debt offering after touting huge growth plans, adding it was already heavily geared and would likely need significant debt, vendor finance and possibly equity to fund expansion.",
+     "episode": {
+      "title": "How Loftus Peak Keeps beating the Market - And What They’re Buying Now | Alex Pollak",
+      "url": "https://equitymates.com/episode/how-loftus-peak-keeps-beating-the-market-and-what-theyre-buying-now-alex-pollak/",
+      "jump": "https://www.youtube.com/watch?v=u_i9UTHlTkg&t=1239s",
+      "at": "20:39"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2026-08-10",
+     "when": "August 2026",
+     "text": "In August 2026, Equity Mates later described Oracle as the AI canary, with the share price down more than 50% from late 2025 and CDS prices surging, indicating rising perceived risk was being priced in.",
+     "episode": {
+      "title": "We're back: AI selloff reverses, US earnings, Aussie property & more",
+      "url": "https://equitymates.com/episode/were-back-ai-selloff-reverses-us-earnings-aussie-property-more/",
+      "jump": "https://www.youtube.com/watch?v=PPVVlE3Yppk&t=449s",
+      "at": "7:29"
+     }
+    },
+    {
+     "date": "2026-03-06",
+     "when": "March 2026",
+     "text": "In March 2026, a guest on Equity Mates said Oracle’s shares first rallied on the AI data centre theme then sold off as the market reassessed whether its debt-fuelled push would justify future revenue.",
+     "episode": {
+      "title": "4 steps to find winning software stocks with Ben Arnold",
+      "url": "https://equitymates.com/episode/4-steps-to-find-winning-software-stocks-with-ben-arnold/",
+      "jump": "https://www.youtube.com/watch?v=4o_MexmZVEw&t=315s",
+      "at": "5:15"
+     }
+    },
+    {
+     "date": "2025-09-22",
+     "when": "September 2025",
+     "text": "In September 2025, Equity Mates reported Oracle’s shares jumped 35% in a day after an earnings report with forecasts that blew expectations, showing how new guidance quickly reset the market’s pricing.",
+     "episode": {
+      "title": "Larry Ellison's historic week, Pimp my Portfolio & the power of voluntary super contributions",
+      "url": "https://equitymates.com/episode/larry-ellisons-historic-week-pimp-my-portfolio-the-power-of-voluntary-super-contributions/",
+      "jump": "https://www.youtube.com/watch?v=8ACUdFfx9kk&t=265s",
+      "at": "4:25"
+     }
+    }
+   ]
+  }
+ ]
+}

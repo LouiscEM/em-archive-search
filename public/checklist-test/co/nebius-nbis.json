@@ -1,0 +1,70 @@
+{
+ "slug": "nebius-nbis",
+ "name": "Nebius",
+ "full": "Nebius",
+ "listings": [
+  "NASDAQ: NBIS"
+ ],
+ "built": "2026-11-01",
+ "episodes": 1,
+ "mentioned_in": 3,
+ "latest": "2026-04-09",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2026-04-09",
+     "when": "April 2026",
+     "text": "In April 2026, Equity Mates described Nebius as an AI cloud infrastructure company providing the compute backbone for training and deploying AI models, framing it as a picks and shovels play amid the AI boom.",
+     "episode": {
+      "title": "Property prices under pressure, 3 stocks buzzing on X & a “no-brainer” Community Portfolio pitch",
+      "url": "https://equitymates.com/episode/property-prices-under-pressure-3-stocks-buzzing-on-x-a-no-brainer-community-portfolio-pitch/",
+      "jump": "https://www.youtube.com/watch?v=z2NVa2iVr7M&t=1149s",
+      "at": "19:09"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2026-04-09",
+     "when": "April 2026",
+     "text": "In April 2026, Equity Mates highlighted eye‑catching growth to $530 million revenue, up 479% year on year, and said relationships with Nvidia and Meta validated Nebius, while questioning how established the company was.",
+     "episode": {
+      "title": "Property prices under pressure, 3 stocks buzzing on X & a “no-brainer” Community Portfolio pitch",
+      "url": "https://equitymates.com/episode/property-prices-under-pressure-3-stocks-buzzing-on-x-a-no-brainer-community-portfolio-pitch/",
+      "jump": "https://www.youtube.com/watch?v=z2NVa2iVr7M&t=1149s",
+      "at": "19:09"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2026-04-09",
+     "when": "April 2026",
+     "text": "In April 2026, Equity Mates said for today’s stock price to make sense, Nebius needed AI demand to stay red hot and to start making margins to turn a profit, noting that a lot was already priced in.",
+     "episode": {
+      "title": "Property prices under pressure, 3 stocks buzzing on X & a “no-brainer” Community Portfolio pitch",
+      "url": "https://equitymates.com/episode/property-prices-under-pressure-3-stocks-buzzing-on-x-a-no-brainer-community-portfolio-pitch/",
+      "jump": "https://www.youtube.com/watch?v=z2NVa2iVr7M&t=1415s",
+      "at": "23:35"
+     }
+    }
+   ]
+  }
+ ]
+}

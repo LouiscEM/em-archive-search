@@ -1,0 +1,136 @@
+{
+ "slug": "deere-de",
+ "name": "Deere",
+ "full": "Deere & Company",
+ "listings": [
+  "NYSE: DE"
+ ],
+ "built": "2026-10-30",
+ "episodes": 5,
+ "mentioned_in": 16,
+ "latest": "2026-08-03",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2026-08-03",
+     "when": "August 2026",
+     "text": "In August 2026, Equity Mates described Deere as the dominant agricultural machinery company that shifted into AI and precision agriculture, rolling out GPS-guided, automated tractors and sprayers alongside its own farm management platforms.",
+     "episode": {
+      "title": "Agriculture: Robots, Drones and the Future of Food | The Decade Ahead",
+      "url": "https://equitymates.com/episode/agriculture-robots-drones-and-the-future-of-food/",
+      "jump": "https://www.youtube.com/watch?v=OEzPbs9ZFr0&t=1554s",
+      "at": "25:54"
+     }
+    },
+    {
+     "date": "2023-02-09",
+     "when": "February 2023",
+     "text": "In February 2023, Equity Mates explained Deere’s sprayer used 36 cameras and machine learning to distinguish weeds from crops, firing nozzles within 200 milliseconds and feeding data into the John Deere Operations Center to build weed maps.",
+     "episode": {
+      "title": "The Apple of Agriculture - Deere & Co | Summer Series",
+      "url": "https://equitymates.com/episode/the-apple-of-agriculture-deere-co-summer-series/",
+      "jump": null,
+      "at": "18:01"
+     }
+    },
+    {
+     "date": "2022-11-30",
+     "when": "November 2022",
+     "text": "In November 2022, Equity Mates outlined Deere’s self-driving tractor that could be positioned and operated via an app to drive field lengths, turn and navigate obstacles, reducing in-cab time for farmers.",
+     "episode": {
+      "title": "Will farming be fully autonomous by 2030?",
+      "url": "https://equitymates.com/episode/will-farming-be-fully-autonomous-by-2030/",
+      "jump": null,
+      "at": "4:35"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2026-08-03",
+     "when": "August 2026",
+     "text": "In August 2026, Equity Mates said Deere’s leadership in machinery and its push into smart, connected equipment put it on the cutting edge, with scale and technology making it the natural acquirer in agtech.",
+     "episode": {
+      "title": "Agriculture: Robots, Drones and the Future of Food | The Decade Ahead",
+      "url": "https://equitymates.com/episode/agriculture-robots-drones-and-the-future-of-food/",
+      "jump": "https://www.youtube.com/watch?v=OEzPbs9ZFr0&t=1554s",
+      "at": "25:54"
+     }
+    },
+    {
+     "date": "2026-03-19",
+     "when": "March 2026",
+     "text": "In March 2026, a guest on Equity Mates grouped John Deere with heavy machinery leaders and said automation potential and being an industry leader created a massive competitive moat.",
+     "episode": {
+      "title": "Bryce’s top 5 healthcare picks, 2 quality additions to the Community Portfolio & Gen Z’s $6 billion boom",
+      "url": "https://equitymates.com/episode/bryces-top-5-healthcare-picks-2-quality-additions-to-the-community-portfolio-gen-zs-6-billion-boom/",
+      "jump": "https://www.youtube.com/watch?v=XYtVxhP9IdA&t=1759s",
+      "at": "29:19"
+     }
+    },
+    {
+     "date": "2022-03-21",
+     "when": "March 2022",
+     "text": "In March 2022, Equity Mates highlighted Deere’s 53 percent share in large farm tractors and 60 percent in combine harvesters, noting self-driving and IoT advances plus acquisitions helped it grow strongly against smaller rivals.",
+     "episode": {
+      "title": "Rate rises, growth stocks & Ren's monopoly thesis",
+      "url": "https://equitymates.com/episode/market-update-monopoly/",
+      "jump": null,
+      "at": "32:07"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2026-08-03",
+     "when": "August 2026",
+     "text": "In August 2026, Equity Mates said Deere’s 2017 purchase of Blue River Technology marked a real shift into AI and positioned it as the natural buyer of emerging agtech startups.",
+     "episode": {
+      "title": "Agriculture: Robots, Drones and the Future of Food | The Decade Ahead",
+      "url": "https://equitymates.com/episode/agriculture-robots-drones-and-the-future-of-food/",
+      "jump": "https://www.youtube.com/watch?v=OEzPbs9ZFr0&t=1554s",
+      "at": "25:54"
+     }
+    },
+    {
+     "date": "2023-02-09",
+     "when": "February 2023",
+     "text": "In February 2023, Equity Mates reported Deere targeted 500 million engaged acres by 2026 from 315 million and used connected machines to drive subscriptions, with Production and Precision Ag revenue up 59 percent in the quarter cited.",
+     "episode": {
+      "title": "The Apple of Agriculture - Deere & Co | Summer Series",
+      "url": "https://equitymates.com/episode/the-apple-of-agriculture-deere-co-summer-series/",
+      "jump": null,
+      "at": "23:04"
+     }
+    },
+    {
+     "date": "2022-03-21",
+     "when": "March 2022",
+     "text": "In March 2022, Equity Mates noted Deere had made 22 acquisitions, including 12 in the past five years, and brought precision agriculture in-house with the Blue River Technologies deal.",
+     "episode": {
+      "title": "Rate rises, growth stocks & Ren's monopoly thesis",
+      "url": "https://equitymates.com/episode/market-update-monopoly/",
+      "jump": null,
+      "at": "32:07"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

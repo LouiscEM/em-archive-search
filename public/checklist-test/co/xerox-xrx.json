@@ -1,0 +1,46 @@
+{
+ "slug": "xerox-xrx",
+ "name": "Xerox",
+ "full": "Xerox",
+ "listings": [
+  "NASDAQ: XRX"
+ ],
+ "built": "2026-11-01",
+ "episodes": 1,
+ "mentioned_in": 5,
+ "latest": "2020-06-08",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": []
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": []
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2020-06-08",
+     "when": "June 2020",
+     "text": "In June 2020, a guest on Equity Mates said Xerox bid for HP, with an activist pressuring both sides, and explained he sold into the bid. It showed Xerox using M&A as a capital allocation lever.",
+     "episode": {
+      "title": "Expert Investor: Tobias Carlisle - Value Investing During COVID-19",
+      "url": "https://equitymates.com/episode/expert-investor-tobias-carlisle-value-investing-during-covid-19/",
+      "jump": null,
+      "at": "49:18"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

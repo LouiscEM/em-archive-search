@@ -1,0 +1,92 @@
+{
+ "slug": "unilever-ulvr",
+ "name": "Unilever",
+ "full": "Unilever",
+ "listings": [
+  "LSE: ULVR"
+ ],
+ "built": "2026-10-30",
+ "episodes": 4,
+ "mentioned_in": 19,
+ "latest": "2026-10-09",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2026-07-27",
+     "when": "July 2026",
+     "text": "In July 2026, Equity Mates said big consumer brands like Unilever built strategies for the rising middle class and localised products in markets such as India, Indonesia and Brazil to match tastes and preferences.",
+     "episode": {
+      "title": "Emerging Middle Class: 300,000 New Consumers Every Day | The Decade Ahead",
+      "url": "https://equitymates.com/episode/emerging-middle-class-300000-new-consumers-every-day-the-decade-ahead/",
+      "jump": "https://www.youtube.com/watch?v=iQKJM--ez7o&t=738s",
+      "at": "12:18"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2026-07-27",
+     "when": "July 2026",
+     "text": "In July 2026, Equity Mates noted Unilever derived 59% of its revenue from emerging markets, positioning it to capture demand growth as these economies expand.",
+     "episode": {
+      "title": "Emerging Middle Class: 300,000 New Consumers Every Day | The Decade Ahead",
+      "url": "https://equitymates.com/episode/emerging-middle-class-300000-new-consumers-every-day-the-decade-ahead/",
+      "jump": "https://www.youtube.com/watch?v=iQKJM--ez7o&t=1968s",
+      "at": "32:48"
+     }
+    },
+    {
+     "date": "2025-03-06",
+     "when": "March 2025",
+     "text": "In March 2025, Equity Mates grouped Unilever with a set of globally recognised \"high quality\" businesses, highlighting its standing among durable consumer staples companies.",
+     "episode": {
+      "title": "European stocks are ripping, the portfolio of England's Warren Buffett & Australian house price update",
+      "url": "https://equitymates.com/episode/european-stocks-are-ripping-the-portfolio-of-englands-warren-buffett-australian-house-price-update/",
+      "jump": "https://www.youtube.com/watch?v=uxA9D--kTrg&t=1557s",
+      "at": "25:57"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2026-10-09",
+     "when": "October 2026",
+     "text": "In October 2026, a guest on Equity Mates said Unilever India, as a separately listed consumer brands business, traded around 70 times earnings while growing about 15%, which made finding value difficult in India’s consumer names at the time.",
+     "episode": {
+      "title": "The Asian Opportunities Investors Are Missing with Cameron Robertson",
+      "url": "https://equitymates.com/episode/the-asian-opportunities-investors-are-missing-with-cameron-robertson/",
+      "jump": "https://www.youtube.com/watch?v=_yvjXv4igvM&t=1679s",
+      "at": "27:59"
+     }
+    },
+    {
+     "date": "2026-01-23",
+     "when": "January 2026",
+     "text": "In January 2026, a guest on Equity Mates described the UK market as cheap and noted consumer staples were particularly beaten up, with Unilever the largest of those in the index.",
+     "episode": {
+      "title": "14 Bold Predictions with Andrew Brown",
+      "url": "https://equitymates.com/episode/14-bold-predictions-with-andrew-brown/",
+      "jump": "https://www.youtube.com/watch?v=i1suaRKMSsI&t=1980s",
+      "at": "33:00"
+     }
+    }
+   ]
+  }
+ ]
+}

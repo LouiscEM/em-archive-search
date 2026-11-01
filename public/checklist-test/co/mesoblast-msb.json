@@ -1,0 +1,114 @@
+{
+ "slug": "mesoblast-msb",
+ "name": "Mesoblast",
+ "full": "Mesoblast",
+ "listings": [
+  "ASX: MSB"
+ ],
+ "built": "2026-11-01",
+ "episodes": 6,
+ "mentioned_in": 7,
+ "latest": "2026-07-09",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2026-07-09",
+     "when": "July 2026",
+     "text": "In July 2026, Equity Mates said Mesoblast did stem cell therapies and sat on the cutting edge of Australian healthcare alongside Telix, while many larger local players focused on devices and services.",
+     "episode": {
+      "title": "Longevity: Can We Add Another 30 Years? | The Decade Ahead",
+      "url": "https://equitymates.com/episode/longevity-can-we-add-another-30-years-the-decade-ahead/",
+      "jump": "https://www.youtube.com/watch?v=P8y_M1gda_E&t=1563s",
+      "at": "26:03"
+     }
+    },
+    {
+     "date": "2020-09-21",
+     "when": "September 2020",
+     "text": "In September 2020, a guest on Equity Mates explained Mesoblast pursued stem cell treatments for lower back pain, heart failure and paediatric graft-versus-host disease, noting one product was already sold in Japan and a pending US FDA decision was a major catalyst.",
+     "episode": {
+      "title": "Expert Investor: Market & Watchlist Update With Julia Lee",
+      "url": "https://equitymates.com/episode/expert-investor-market-watchlist-update-with-julia-lee/",
+      "jump": null,
+      "at": "32:56"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2025-04-15",
+     "when": "April 2025",
+     "text": "In April 2025, a guest on Equity Mates said Mesoblast was not making money, might need funding in a tough market, and had FDA approval that could enable future revenue, reflecting a long runway before meaningful earnings from its stem cell technology.",
+     "episode": {
+      "title": "Buy or Sell: Nick Guidera - DroneShield, Temple & Webster, Nuix & more",
+      "url": "https://equitymates.com/episode/buy-or-sell-nick-guidera-droneshield-temple-webster-nuix-more/",
+      "jump": "https://www.youtube.com/watch?v=DYj_3OGxN7I&t=438s",
+      "at": "7:18"
+     }
+    },
+    {
+     "date": "2021-11-09",
+     "when": "November 2021",
+     "text": "In November 2021, Equity Mates said biotech outcomes were binary and noted Mesoblast had many attempts to get a treatment right, with share price moves hinging on whether endpoints were met.",
+     "episode": {
+      "title": "ASX week: Adam Dawes - Buy, Hold, Sell",
+      "url": "https://equitymates.com/episode/asx-week-adam-dawes-buy-hold-sell/",
+      "jump": "https://www.youtube.com/watch?v=yaSRUwKM4Os&t=2174s",
+      "at": "36:14"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2025-04-15",
+     "when": "April 2025",
+     "text": "In April 2025, a guest on Equity Mates said some stocks still looked relatively expensive despite declines and highlighted Mesoblast as not earning cash and potentially reliant on capital markets in the near term.",
+     "episode": {
+      "title": "Buy or Sell: Nick Guidera - DroneShield, Temple & Webster, Nuix & more",
+      "url": "https://equitymates.com/episode/buy-or-sell-nick-guidera-droneshield-temple-webster-nuix-more/",
+      "jump": "https://www.youtube.com/watch?v=DYj_3OGxN7I&t=438s",
+      "at": "7:18"
+     }
+    },
+    {
+     "date": "2024-07-11",
+     "when": "July 2024",
+     "text": "In July 2024, Equity Mates noted Mesoblast’s share price was up 225 percent year to date in a market wrap of notable movers.",
+     "episode": {
+      "title": "Half year market wrap, the worst investing take, struggling Australian media & Pimp My Portfolio",
+      "url": "https://equitymates.com/episode/half-year-market-wrap-the-worst-investing-take-struggling-australian-media-pimp-my-portfolio/",
+      "jump": "https://www.youtube.com/watch?v=SKJv-W7OkWM&t=945s",
+      "at": "15:45"
+     }
+    },
+    {
+     "date": "2021-05-31",
+     "when": "May 2021",
+     "text": "In May 2021, Equity Mates used Mesoblast as a classic example where hype built before trial results and the share price fell when endpoints were missed.",
+     "episode": {
+      "title": "ASX Week: Buy, hold or sell with Adam Dawes",
+      "url": "https://equitymates.com/episode/buy-hold-or-sell-with-adam-dawes-asx-week/",
+      "jump": null,
+      "at": "40:01"
+     }
+    }
+   ]
+  }
+ ]
+}

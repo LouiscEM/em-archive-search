@@ -1,0 +1,58 @@
+{
+ "slug": "colgate-palmolive-cl",
+ "name": "Colgate-Palmolive",
+ "full": "Colgate-Palmolive",
+ "listings": [
+  "NYSE: CL"
+ ],
+ "built": "2026-11-01",
+ "episodes": 1,
+ "mentioned_in": 1,
+ "latest": "2023-02-20",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2023-02-20",
+     "when": "February 2023",
+     "text": "In February 2023, Equity Mates described Colgate-Palmolive's brands, including Colgate, Palmolive, Ajax, Fluffy, Cuddly and Hills pet food, as classic consumer staples that shoppers kept picking up in supermarkets.",
+     "episode": {
+      "title": "Stock of the Year 2023 | Axon Enterprise vs Infosys",
+      "url": "https://equitymates.com/episode/stock-of-the-year-2023-axon-enterprise-vs-infosys/",
+      "jump": null,
+      "at": "25:26"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2023-02-20",
+     "when": "February 2023",
+     "text": "In February 2023, Equity Mates said Colgate-Palmolive held dominant positions with brand moats and benefited from scale and cost advantages.",
+     "episode": {
+      "title": "Stock of the Year 2023 | Axon Enterprise vs Infosys",
+      "url": "https://equitymates.com/episode/stock-of-the-year-2023-axon-enterprise-vs-infosys/",
+      "jump": null,
+      "at": "25:26"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

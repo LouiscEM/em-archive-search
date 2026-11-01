@@ -1,0 +1,58 @@
+{
+ "slug": "kotak-mahindra-bank-kotakbank",
+ "name": "Kotak Mahindra Bank",
+ "full": "Kotak Mahindra Bank",
+ "listings": [
+  "NSE: KOTAKBANK"
+ ],
+ "built": "2026-11-01",
+ "episodes": 1,
+ "mentioned_in": 1,
+ "latest": "2023-11-16",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2023-11-16",
+     "when": "November 2023",
+     "text": "In November 2023, a guest on Equity Mates described Kotak Mahindra Bank as a founder-run Indian bank that centred its model on excellent customer service and building a strong deposit base, positioning its core banking services around taking great care of customers.",
+     "episode": {
+      "title": "Expert: Ashish Swarup - Invest in snacks, let's get that bread | Aikya Investment Management",
+      "url": "https://equitymates.com/episode/expert-ashish-swarup-invest-in-snacks-lets-get-that-bread-aikya-investment-management/",
+      "jump": null,
+      "at": "27:18"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2023-11-16",
+     "when": "November 2023",
+     "text": "In November 2023, a guest on Equity Mates said the bank grew from an auto lending business in the 1980s into one of India’s leading banks by focusing on two principles: maintaining a very strong deposit base and delivering excellent customer service.",
+     "episode": {
+      "title": "Expert: Ashish Swarup - Invest in snacks, let's get that bread | Aikya Investment Management",
+      "url": "https://equitymates.com/episode/expert-ashish-swarup-invest-in-snacks-lets-get-that-bread-aikya-investment-management/",
+      "jump": null,
+      "at": "27:18"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

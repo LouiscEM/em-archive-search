@@ -1,0 +1,70 @@
+{
+ "slug": "tesserent-tnt",
+ "name": "Tesserent",
+ "full": "Tesserent",
+ "listings": [
+  "ASX: TNT"
+ ],
+ "built": "2026-11-01",
+ "episodes": 1,
+ "mentioned_in": 1,
+ "latest": "2021-10-01",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2021-10-01",
+     "when": "October 2021",
+     "text": "In October 2021, Equity Mates described Tesserent as providing full-service enterprise-grade cybersecurity and networking to mid-market enterprise and government clients in Australia, delivered by 350+ security engineers and a Cyber 360 offering including ID protection and 24/7 threat monitoring.",
+     "episode": {
+      "title": "Our Order Pad  | Tesserent (TNT:ASX) & SVB Financial Group (SIVB:NAS)",
+      "url": "https://equitymates.com/episode/our-order-pad-tesserent-tntasx-svb-financial-group-sivbnas/",
+      "jump": null,
+      "at": "2:42"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2021-10-01",
+     "when": "October 2021",
+     "text": "In October 2021, Equity Mates said TNT aimed to build on organic growth targeting high value government work but highlighted moat risks: integration of acquired firms, reliance on a small key management group, increasing domestic and international competition, and reputational damage if clients suffer cybersecurity incidents.",
+     "episode": {
+      "title": "Our Order Pad  | Tesserent (TNT:ASX) & SVB Financial Group (SIVB:NAS)",
+      "url": "https://equitymates.com/episode/our-order-pad-tesserent-tntasx-svb-financial-group-sivbnas/",
+      "jump": null,
+      "at": "9:24"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2021-10-01",
+     "when": "October 2021",
+     "text": "In October 2021, Equity Mates noted TNT had spent the past two years and $25 million acquiring several smaller businesses as part of a major revamp after listing, indicating a roll-up approach to drive growth.",
+     "episode": {
+      "title": "Our Order Pad  | Tesserent (TNT:ASX) & SVB Financial Group (SIVB:NAS)",
+      "url": "https://equitymates.com/episode/our-order-pad-tesserent-tntasx-svb-financial-group-sivbnas/",
+      "jump": null,
+      "at": "2:42"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

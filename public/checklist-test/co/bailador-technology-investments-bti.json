@@ -1,0 +1,81 @@
+{
+ "slug": "bailador-technology-investments-bti",
+ "name": "Bailador Technology Investments",
+ "full": "Bailador Technology Investments",
+ "listings": [
+  "ASX: BTI"
+ ],
+ "built": "2026-11-01",
+ "episodes": 2,
+ "mentioned_in": 3,
+ "latest": "2024-03-19",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2021-09-30",
+     "when": "September 2021",
+     "text": "In September 2021, Equity Mates explained Bailador Technology Investments specialised in providing capital to fast growing Australian businesses, positioning it as a listed investor focused on growth-stage tech companies.",
+     "episode": {
+      "title": "Expert: Paul Wilson - Finding Australia's best tech businesses | Bailador",
+      "url": "https://equitymates.com/episode/expert-paul-wilson-finding-australias-best-tech-businesses-bailador/",
+      "jump": null,
+      "at": "0:56"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": []
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2021-09-30",
+     "when": "September 2021",
+     "text": "In September 2021, Equity Mates said Bailador’s model was to deploy capital into fast growing Australian businesses, outlining a focus on investing in growth opportunities rather than operating companies itself.",
+     "episode": {
+      "title": "Expert: Paul Wilson - Finding Australia's best tech businesses | Bailador",
+      "url": "https://equitymates.com/episode/expert-paul-wilson-finding-australias-best-tech-businesses-bailador/",
+      "jump": null,
+      "at": "0:56"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2024-03-19",
+     "when": "March 2024",
+     "text": "In March 2024, Equity Mates noted Bailador’s share price had lifted from $1.16 to $1.33, a 14 per cent move, as context for a subsequent price-focused segment.",
+     "episode": {
+      "title": "Buy or Sell: Adam Keily with Andrew Page",
+      "url": "https://equitymates.com/episode/buy-or-sell-adam-keily-with-andrew-page/",
+      "jump": "https://www.youtube.com/watch?v=70FUUh7Nf24&t=1574s",
+      "at": "26:14"
+     }
+    },
+    {
+     "date": "2021-09-30",
+     "when": "September 2021",
+     "text": "In September 2021, Equity Mates highlighted that Bailador’s share price was cut in half early in the pandemic before rising 165 per cent and sitting 35 per cent above the start of 2020, providing historical context for how the market had priced its portfolio exposure.",
+     "episode": {
+      "title": "Expert: Paul Wilson - Finding Australia's best tech businesses | Bailador",
+      "url": "https://equitymates.com/episode/expert-paul-wilson-finding-australias-best-tech-businesses-bailador/",
+      "jump": null,
+      "at": "0:56"
+     }
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,125 @@
+{
+ "slug": "intel-intc",
+ "name": "Intel",
+ "full": "Intel",
+ "listings": [
+  "NASDAQ: INTC"
+ ],
+ "built": "2026-10-30",
+ "episodes": 7,
+ "mentioned_in": 49,
+ "latest": "2026-10-21",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2026-09-04",
+     "when": "September 2026",
+     "text": "In September 2026, a guest on Equity Mates explained Nvidia used TSMC almost exclusively but might try to use Intel more for dual sourcing, highlighting Intel’s expanding foundry offering to manufacture chips for external designers.",
+     "episode": {
+      "title": "Is one of the world’s best AI stocks cheap? Two experts can’t agree",
+      "url": "https://equitymates.com/episode/is-one-of-the-worlds-best-ai-stocks-cheap-two-experts-cant-agree/",
+      "jump": "https://www.youtube.com/watch?v=aGroZv01EKM&t=352s",
+      "at": "5:52"
+     }
+    },
+    {
+     "date": "2026-08-11",
+     "when": "August 2026",
+     "text": "In August 2026, a guest on Equity Mates said the shift to agentic AI made CPU workloads surge, moving server racks from roughly 8:1 GPUs to CPUs towards parity, which had benefited names like Intel as CPUs took on more of the brute force execution.",
+     "episode": {
+      "title": "AI investors are getting nervous. Should they be?",
+      "url": "https://equitymates.com/episode/ai-investors-are-getting-nervous-should-they-be/",
+      "jump": "https://www.youtube.com/watch?v=RwM7fxlWmHc&t=1515s",
+      "at": "25:15"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2026-05-15",
+     "when": "May 2026",
+     "text": "In May 2026, Equity Mates compared TSMC’s focused manufacturing model with Intel’s combined design and manufacturing approach, saying Intel’s foundry business had faults when both were tied together, which could hurt execution.",
+     "episode": {
+      "title": "The $1.8 Trillion Space Opportunity with Hugh Lam",
+      "url": "https://equitymates.com/episode/the-1-8-trillion-space-opportunity-with-hugh-lam/",
+      "jump": null,
+      "at": "32:49"
+     }
+    },
+    {
+     "date": "2026-05-04",
+     "when": "May 2026",
+     "text": "In May 2026, Equity Mates said that in chip manufacturing leadership it was TSMC, then Samsung and maybe Intel, noting Intel had a good report but was still a bit behind.",
+     "episode": {
+      "title": "Our Monthly Portfolio Update - April 2026",
+      "url": "https://equitymates.com/episode/our-monthly-portfolio-update-april-2026/",
+      "jump": "https://www.youtube.com/watch?v=Luk3B3045sc&t=1099s",
+      "at": "18:19"
+     }
+    },
+    {
+     "date": "2026-04-10",
+     "when": "April 2026",
+     "text": "In April 2026, a guest on Equity Mates said TSMC competed with Samsung and Intel, but both had fallen behind at the leading edge and were struggling to catch up, where capital intensity and customer feedback loops reinforced the leader’s advantage.",
+     "episode": {
+      "title": "Finding opportunities in well-known names with Ryan Joyce",
+      "url": "https://equitymates.com/episode/finding-opportunities-in-well-known-names-with-ryan-joyce/",
+      "jump": "https://www.youtube.com/watch?v=qNiwsfvSELk&t=1128s",
+      "at": "18:48"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2026-10-21",
+     "when": "October 2026",
+     "text": "In October 2026, a guest on Equity Mates noted the US government now had a stake in Intel, raising the policy risk of government influence over corporate decisions.",
+     "episode": {
+      "title": "Robots and ruins: Inside China’s splitting economy",
+      "url": "https://equitymates.com/episode/robots-and-ruins-inside-chinas-splitting-economy/",
+      "jump": "https://www.youtube.com/watch?v=G9N-6bBNO4c&t=366s",
+      "at": "6:06"
+     }
+    },
+    {
+     "date": "2026-04-10",
+     "when": "April 2026",
+     "text": "In April 2026, a guest on Equity Mates said meaningful gains by Intel at leading edges, including signing customers and proving yields in pilot production, would be a key development they monitored, implying Intel was investing to catch up.",
+     "episode": {
+      "title": "Finding opportunities in well-known names with Ryan Joyce",
+      "url": "https://equitymates.com/episode/finding-opportunities-in-well-known-names-with-ryan-joyce/",
+      "jump": "https://www.youtube.com/watch?v=qNiwsfvSELk&t=1397s",
+      "at": "23:17"
+     }
+    },
+    {
+     "date": "2022-05-20",
+     "when": "May 2022",
+     "text": "In May 2022, Equity Mates reported Intel shareholders voted against a proposed $179 million executive pay plan, signalling close scrutiny of management compensation after performance.",
+     "episode": {
+      "title": "We can do that? Shareholders reject CEO’s $50m payday",
+      "url": "https://equitymates.com/episode/we-can-do-that-shareholders-reject-ceos-50m-payday/",
+      "jump": null,
+      "at": "2:25"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

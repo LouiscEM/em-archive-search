@@ -1,0 +1,46 @@
+{
+ "slug": "woodside-energy-wds",
+ "name": "Woodside Energy",
+ "full": "Woodside Energy",
+ "listings": [
+  "ASX: WDS"
+ ],
+ "built": "2026-11-01",
+ "episodes": 1,
+ "mentioned_in": 2,
+ "latest": "2022-09-05",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": []
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2022-09-05",
+     "when": "September 2022",
+     "text": "In September 2022, Equity Mates said Woodside Energy became Australia’s biggest oil company after merging with BHP’s oil assets, and reported revenue up 132% to $5.8 billion and profit up 414% to $1.6 billion, highlighting strong profitability after the deal.",
+     "episode": {
+      "title": "Reporting season is (finally) over. What did we learn?",
+      "url": "https://equitymates.com/episode/reporting-season-is-finally-over-what-did-we-learn/",
+      "jump": "https://www.youtube.com/watch?v=-5y9AvNuURQ&t=1219s",
+      "at": "20:19"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

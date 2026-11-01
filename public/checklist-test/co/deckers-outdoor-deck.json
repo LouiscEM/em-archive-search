@@ -1,0 +1,58 @@
+{
+ "slug": "deckers-outdoor-deck",
+ "name": "Deckers Outdoor",
+ "full": "Deckers Outdoor",
+ "listings": [
+  "NYSE: DECK"
+ ],
+ "built": "2026-11-01",
+ "episodes": 1,
+ "mentioned_in": 2,
+ "latest": "2024-03-04",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2024-03-04",
+     "when": "March 2024",
+     "text": "In March 2024, Equity Mates explained that Deckers Outdoor designed and sold footwear under brands including UGG, clarifying it was not a decking company but a shoes business.",
+     "episode": {
+      "title": "Pimp my Portfolio, two investor letters & what do UGG and Hoka have in common?",
+      "url": "https://equitymates.com/episode/pimp-my-portfolio-two-investor-letters-what-do-ugg-and-hoka-have-in-common/",
+      "jump": "https://www.youtube.com/watch?v=DieZEsmIvXU&t=148s",
+      "at": "2:28"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2024-03-04",
+     "when": "March 2024",
+     "text": "In March 2024, Equity Mates discussed how footwear brands improve margins by selling directly to customers and questioned whether this applied to Deckers Outdoor, noting they did not know its online or direct sales mix.",
+     "episode": {
+      "title": "Pimp my Portfolio, two investor letters & what do UGG and Hoka have in common?",
+      "url": "https://equitymates.com/episode/pimp-my-portfolio-two-investor-letters-what-do-ugg-and-hoka-have-in-common/",
+      "jump": "https://www.youtube.com/watch?v=DieZEsmIvXU&t=463s",
+      "at": "7:43"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

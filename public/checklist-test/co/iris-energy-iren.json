@@ -1,0 +1,125 @@
+{
+ "slug": "iris-energy-iren",
+ "name": "Iris Energy",
+ "full": "Iris Energy Limited",
+ "listings": [
+  "NASDAQ: IREN"
+ ],
+ "built": "2026-11-01",
+ "episodes": 4,
+ "mentioned_in": 6,
+ "latest": "2025-11-10",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2025-11-10",
+     "when": "November 2025",
+     "text": "In November 2025, Equity Mates explained Iris Energy as a neocloud player building AI focused data centres packed with Nvidia, having pivoted from renewable powered bitcoin mining to providing compute for AI, and noted it signed a US$9.7 billion deal with Microsoft.",
+     "episode": {
+      "title": "Australia's fastest growing company, 3 stocks we're watching & Pimp my Portfolio with Matt Ingram",
+      "url": "https://equitymates.com/episode/australias-fastest-growing-company-3-stocks-were-watching-pimp-my-portfolio-with-matt-ingram/",
+      "jump": "https://www.youtube.com/watch?v=uQyY1mdLBkk&t=195s",
+      "at": "3:15"
+     }
+    },
+    {
+     "date": "2025-09-08",
+     "when": "September 2025",
+     "text": "In September 2025, Equity Mates said the company ran renewable powered data centres and had shifted to renting computing power for AI workloads across facilities in the US, Canada and Australia, alongside strong quarterly results with revenue up 200%.",
+     "episode": {
+      "title": "Google's loss turns into a win, Super is now double the size of Australia's economy & X-marks the stock",
+      "url": "https://equitymates.com/episode/googles-loss-turns-into-a-win-super-is-now-double-the-size-of-australias-economy-x-marks-the-stock/",
+      "jump": "https://www.youtube.com/watch?v=wDhm90D4qFM&t=1024s",
+      "at": "17:04"
+     }
+    },
+    {
+     "date": "2022-02-28",
+     "when": "February 2022",
+     "text": "In February 2022, Equity Mates described Iris Energy as building and operating large data centres for bitcoin mining that draw power from renewable sources, positioning it as one of the world's largest sustainable bitcoin miners.",
+     "episode": {
+      "title": "19 - Chatting Crypto | Talking with Daniel Roberts of Iris Energy",
+      "url": "https://equitymates.com/episode/debunking-the-jargon-of-crypto/",
+      "jump": null,
+      "at": "0:25"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2025-11-10",
+     "when": "November 2025",
+     "text": "In November 2025, Equity Mates contrasted Iris Energy with hyperscalers by placing it among neoclouds that specialise in AI tasks, suggesting focused infrastructure and customer demand, and pointed to the US$9.7 billion Microsoft deal as evidence of traction.",
+     "episode": {
+      "title": "Australia's fastest growing company, 3 stocks we're watching & Pimp my Portfolio with Matt Ingram",
+      "url": "https://equitymates.com/episode/australias-fastest-growing-company-3-stocks-were-watching-pimp-my-portfolio-with-matt-ingram/",
+      "jump": "https://www.youtube.com/watch?v=uQyY1mdLBkk&t=195s",
+      "at": "3:15"
+     }
+    },
+    {
+     "date": "2025-09-08",
+     "when": "September 2025",
+     "text": "In September 2025, Equity Mates highlighted its uniqueness of running all data centres off renewable energy and a pivot that delivered rapid growth, with about a billion in annualised revenue from bitcoin mining and 250 million a year from AI cloud rentals.",
+     "episode": {
+      "title": "Google's loss turns into a win, Super is now double the size of Australia's economy & X-marks the stock",
+      "url": "https://equitymates.com/episode/googles-loss-turns-into-a-win-super-is-now-double-the-size-of-australias-economy-x-marks-the-stock/",
+      "jump": "https://www.youtube.com/watch?v=wDhm90D4qFM&t=1024s",
+      "at": "17:04"
+     }
+    },
+    {
+     "date": "2022-04-11",
+     "when": "April 2022",
+     "text": "In April 2022, Equity Mates referred to Iris Energy as the world's largest sustainable bitcoin miner, implying scale and cost advantages from renewable energy sourcing.",
+     "episode": {
+      "title": "25 - Crypto Jargon - The Phrases You Hear but Don’t Understand Explained!",
+      "url": "https://equitymates.com/episode/25-crypto-jargon-the-phrases-you-hear-but-dont-understand-explained/",
+      "jump": null,
+      "at": "16:55"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2025-11-10",
+     "when": "November 2025",
+     "text": "In November 2025, Equity Mates said the company pivoted from using its data centres to mine bitcoin to reallocating that compute to AI, responding to surging demand for AI workloads.",
+     "episode": {
+      "title": "Australia's fastest growing company, 3 stocks we're watching & Pimp my Portfolio with Matt Ingram",
+      "url": "https://equitymates.com/episode/australias-fastest-growing-company-3-stocks-were-watching-pimp-my-portfolio-with-matt-ingram/",
+      "jump": "https://www.youtube.com/watch?v=uQyY1mdLBkk&t=195s",
+      "at": "3:15"
+     }
+    },
+    {
+     "date": "2025-09-08",
+     "when": "September 2025",
+     "text": "In September 2025, Equity Mates noted a massive pivot into AI by renting out computing power while still mining bitcoin, indicating management redeployed assets toward higher demand uses.",
+     "episode": {
+      "title": "Google's loss turns into a win, Super is now double the size of Australia's economy & X-marks the stock",
+      "url": "https://equitymates.com/episode/googles-loss-turns-into-a-win-super-is-now-double-the-size-of-australias-economy-x-marks-the-stock/",
+      "jump": "https://www.youtube.com/watch?v=wDhm90D4qFM&t=1024s",
+      "at": "17:04"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

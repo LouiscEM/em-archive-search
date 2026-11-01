@@ -1,0 +1,46 @@
+{
+ "slug": "juventus-juve",
+ "name": "Juventus",
+ "full": "Juventus",
+ "listings": [
+  "BIT: JUVE"
+ ],
+ "built": "2026-11-01",
+ "episodes": 1,
+ "mentioned_in": 2,
+ "latest": "2022-11-28",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": []
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": []
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2022-11-28",
+     "when": "November 2022",
+     "text": "In November 2022, Equity Mates said Juventus was the most valuable of several listed football clubs at USD 713 million, compared with USD 400 million for Borussia Dortmund, which illustrated how the market had priced major European teams.",
+     "episode": {
+      "title": "12 stocks for the next 12 months",
+      "url": "https://equitymates.com/episode/12-stocks-for-the-next-12-months/",
+      "jump": "https://www.youtube.com/watch?v=f7myeVH9q3Y&t=2643s",
+      "at": "44:03"
+     }
+    }
+   ]
+  }
+ ]
+}

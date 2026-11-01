@@ -1,0 +1,170 @@
+{
+ "slug": "netwealth-nwl",
+ "name": "Netwealth",
+ "full": "Netwealth",
+ "listings": [
+  "ASX: NWL"
+ ],
+ "built": "2026-10-30",
+ "episodes": 7,
+ "mentioned_in": 29,
+ "latest": "2026-10-05",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2026-10-05",
+     "when": "October 2026",
+     "text": "In October 2026, Equity Mates described Netwealth as an adviser-focused wealth platform, like a broker for advisers, offering access to listed markets and a long menu of unlisted options, with structures like trusts and super accounts being a major driver of usage.",
+     "episode": {
+      "title": "Our Monthly Portfolio Update – September 2026",
+      "url": "https://equitymates.com/episode/our-monthly-portfolio-update-september-2026/",
+      "jump": "https://www.youtube.com/watch?v=vCFjzqwKHz8&t=1533s",
+      "at": "25:33"
+     }
+    },
+    {
+     "date": "2026-06-01",
+     "when": "June 2026",
+     "text": "In June 2026, Equity Mates said platforms like Netwealth offer a wild investment menu for advised clients, including private equity and unlisted funds alongside listed securities, highlighting the breadth of product access compared to standard retail brokers.",
+     "episode": {
+      "title": "Our Monthly Portfolio Update - May 2026",
+      "url": "https://equitymates.com/episode/our-monthly-portfolio-update-may-2026/",
+      "jump": "https://www.youtube.com/watch?v=3R8_Bh1XDns&t=926s",
+      "at": "15:26"
+     }
+    },
+    {
+     "date": "2026-02-26",
+     "when": "February 2026",
+     "text": "In February 2026, Equity Mates noted Netwealth’s retail platform existed but criticised its brokerage pricing for international trades as expensive at about $33, highlighting a product pain point on costs.",
+     "episode": {
+      "title": "The drug beating Ozempic, Pimp my Portfolio with Luke Laretive & Australia's most popular small caps",
+      "url": "https://equitymates.com/episode/the-drug-beating-ozempic-pimp-my-portfolio-with-luke-laretive-australias-most-popular-small-caps/",
+      "jump": null,
+      "at": "27:11"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2026-10-05",
+     "when": "October 2026",
+     "text": "In October 2026, Equity Mates discussed rising fee competition among platforms and questioned whether a race to the lowest fee could shift advisor flows toward Netwealth, noting numerous rivals also target the same advisers.",
+     "episode": {
+      "title": "Our Monthly Portfolio Update – September 2026",
+      "url": "https://equitymates.com/episode/our-monthly-portfolio-update-september-2026/",
+      "jump": "https://www.youtube.com/watch?v=vCFjzqwKHz8&t=1767s",
+      "at": "29:27"
+     }
+    },
+    {
+     "date": "2024-10-21",
+     "when": "October 2024",
+     "text": "In October 2024, Equity Mates said Netwealth had about 8% market share and roughly $10 billion in net inflows over 12 months, benefiting from incumbents’ outflows and the long-term superannuation tailwind across a $1.1 trillion platform industry.",
+     "episode": {
+      "title": "Ren's portfolio revamp: VAS is gone! & Pimp my Portfolio with Adam Dawes",
+      "url": "https://equitymates.com/episode/rens-portfolio-revamp-vas-is-gone-pimp-my-portfolio-with-adam-dawes/",
+      "jump": "https://www.youtube.com/watch?v=N7Sa0oG7tiE&t=831s",
+      "at": "13:51"
+     }
+    },
+    {
+     "date": "2024-08-15",
+     "when": "August 2024",
+     "text": "In August 2024, Equity Mates highlighted Netwealth’s strong unit economics, citing revenue of $207 million up 21% year on year, a 64% gross margin and $67 million profit, framing why the business model had looked attractive to investors.",
+     "episode": {
+      "title": "Watchlist for a market crash, Pimp my Portfolio returns & a ban on sports betting ads?",
+      "url": "https://equitymates.com/episode/watchlist-for-a-market-crash-pimp-my-portfolio-returns-a-ban-on-sports-betting-ads/",
+      "jump": "https://www.youtube.com/watch?v=3YY8OE7EUhI&t=1102s",
+      "at": "18:22"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2026-09-30",
+     "when": "September 2026",
+     "text": "In September 2026, Equity Mates reported that Netwealth acquired Paradino for $29 million, showing it was investing in AI-related capabilities within adviser workflows.",
+     "episode": {
+      "title": "HUB24’s Jason Entwistle on AI and avoiding the next advice scandal",
+      "url": "https://equitymates.com/episode/hub24s-jason-entwistle-on-ai-and-avoiding-the-next-advice-scandal/",
+      "jump": "https://www.youtube.com/watch?v=8I_QYrtvqvI&t=600s",
+      "at": "10:00"
+     }
+    },
+    {
+     "date": "2024-10-21",
+     "when": "October 2024",
+     "text": "In October 2024, Equity Mates framed Netwealth’s long reinvestment runway as it disrupts incumbents and captures superannuation-driven growth, implying ongoing opportunities to deploy capital back into the business.",
+     "episode": {
+      "title": "Ren's portfolio revamp: VAS is gone! & Pimp my Portfolio with Adam Dawes",
+      "url": "https://equitymates.com/episode/rens-portfolio-revamp-vas-is-gone-pimp-my-portfolio-with-adam-dawes/",
+      "jump": "https://www.youtube.com/watch?v=N7Sa0oG7tiE&t=831s",
+      "at": "13:51"
+     }
+    },
+    {
+     "date": "2024-06-25",
+     "when": "June 2024",
+     "text": "In June 2024, a guest on Equity Mates said Netwealth struck a deal to deliver a broad set of alternative managers to clients via its platform, indicating investment to expand product access for advisers and their clients.",
+     "episode": {
+      "title": "Expert: Tim Samway - The new frontier of private equity",
+      "url": "https://equitymates.com/episode/expert-tim-samway-the-new-frontier-of-private-equity/",
+      "jump": null,
+      "at": "26:34"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2026-10-05",
+     "when": "October 2026",
+     "text": "In October 2026, Equity Mates said Netwealth’s share price had roughly halved from its highs after years of being priced at high multiples, as growth in non-super flows moderated and industry fee pressure raised questions about margins.",
+     "episode": {
+      "title": "Our Monthly Portfolio Update – September 2026",
+      "url": "https://equitymates.com/episode/our-monthly-portfolio-update-september-2026/",
+      "jump": "https://www.youtube.com/watch?v=vCFjzqwKHz8&t=1533s",
+      "at": "25:33"
+     }
+    },
+    {
+     "date": "2024-10-21",
+     "when": "October 2024",
+     "text": "In October 2024, Equity Mates noted Netwealth traded around 80 times earnings, observing that while the sector had a long runway, current multiples reflected high expectations.",
+     "episode": {
+      "title": "Ren's portfolio revamp: VAS is gone! & Pimp my Portfolio with Adam Dawes",
+      "url": "https://equitymates.com/episode/rens-portfolio-revamp-vas-is-gone-pimp-my-portfolio-with-adam-dawes/",
+      "jump": "https://www.youtube.com/watch?v=N7Sa0oG7tiE&t=947s",
+      "at": "15:47"
+     }
+    },
+    {
+     "date": "2024-08-15",
+     "when": "August 2024",
+     "text": "In August 2024, Equity Mates said Netwealth was not cheap at a 71 price to earnings ratio, even as revenue grew 21% year on year and margins and profits were strong.",
+     "episode": {
+      "title": "Watchlist for a market crash, Pimp my Portfolio returns & a ban on sports betting ads?",
+      "url": "https://equitymates.com/episode/watchlist-for-a-market-crash-pimp-my-portfolio-returns-a-ban-on-sports-betting-ads/",
+      "jump": "https://www.youtube.com/watch?v=3YY8OE7EUhI&t=1102s",
+      "at": "18:22"
+     }
+    }
+   ]
+  }
+ ]
+}

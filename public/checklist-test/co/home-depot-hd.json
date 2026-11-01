@@ -1,0 +1,104 @@
+{
+ "slug": "home-depot-hd",
+ "name": "Home Depot",
+ "full": "Home Depot",
+ "listings": [
+  "NYSE: HD"
+ ],
+ "built": "2026-10-30",
+ "episodes": 3,
+ "mentioned_in": 25,
+ "latest": "2026-10-15",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2024-02-12",
+     "when": "February 2024",
+     "text": "In February 2024, Equity Mates described Home Depot as an incredibly well run US retailer, noting its track record of producing leaders for other chains and its scale in a fragmented market.",
+     "episode": {
+      "title": "Will US fixed mortgage rates lead to a renovation boom? - Lowes | Summer Series",
+      "url": "https://equitymates.com/episode/will-us-fixed-mortgage-rates-lead-to-a-renovation-boom-lowes-summer-series/",
+      "jump": "https://www.youtube.com/watch?v=lixJ_S3ES7Q&t=493s",
+      "at": "8:13"
+     }
+    },
+    {
+     "date": "2021-07-13",
+     "when": "July 2021",
+     "text": "In July 2021, Equity Mates outlined Home Depot’s offer to both DIY customers and small contractors, likening it to Bunnings and highlighting its role serving homeowners and tradies during housing and DIY tailwinds.",
+     "episode": {
+      "title": "Why are the experts buying Costco & Home Depot?",
+      "url": "https://equitymates.com/episode/why-are-the-experts-buying-costco-home-depot-2/",
+      "jump": "https://www.youtube.com/watch?v=I4OJIcShHds&t=1849s",
+      "at": "30:49"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2024-02-12",
+     "when": "February 2024",
+     "text": "In February 2024, a guest on Equity Mates said Home Depot had done an incredible job with very attractive returns and a mature pro strategy, indicating durable strengths even as rivals targeted professional customers.",
+     "episode": {
+      "title": "Will US fixed mortgage rates lead to a renovation boom? - Lowes | Summer Series",
+      "url": "https://equitymates.com/episode/will-us-fixed-mortgage-rates-lead-to-a-renovation-boom-lowes-summer-series/",
+      "jump": "https://www.youtube.com/watch?v=lixJ_S3ES7Q&t=1423s",
+      "at": "23:43"
+     }
+    },
+    {
+     "date": "2021-07-13",
+     "when": "July 2021",
+     "text": "In July 2021, Equity Mates highlighted Home Depot’s 15-year annual return of 17 percent and a 45 percent return on invested capital, underscoring strong profitability from serving both DIY and small contractor markets.",
+     "episode": {
+      "title": "Why are the experts buying Costco & Home Depot?",
+      "url": "https://equitymates.com/episode/why-are-the-experts-buying-costco-home-depot-2/",
+      "jump": "https://www.youtube.com/watch?v=I4OJIcShHds&t=1849s",
+      "at": "30:49"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2024-02-12",
+     "when": "February 2024",
+     "text": "In February 2024, Equity Mates discussed how fragmentation left room for players like Home Depot to expand store footprints and improve sales per square foot, pointing to reinvestment paths that leverage scale.",
+     "episode": {
+      "title": "Will US fixed mortgage rates lead to a renovation boom? - Lowes | Summer Series",
+      "url": "https://equitymates.com/episode/will-us-fixed-mortgage-rates-lead-to-a-renovation-boom-lowes-summer-series/",
+      "jump": "https://www.youtube.com/watch?v=lixJ_S3ES7Q&t=493s",
+      "at": "8:13"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2026-10-15",
+     "when": "October 2026",
+     "text": "In October 2026, Equity Mates listed Home Depot among established companies trading below their 200-week moving average, framing it within a group of well-known stocks that had fallen despite market highs.",
+     "episode": {
+      "title": "Firmus IPO falls apart & the invisible crash behind Wall Street’s record highs",
+      "url": "https://equitymates.com/episode/firmus-44-billion-ipo-has-been-pulled-the-invisible-crash-beneath-market-highs/",
+      "jump": "https://www.youtube.com/watch?v=vLf9N74a5LQ&t=1391s",
+      "at": "23:11"
+     }
+    }
+   ]
+  }
+ ]
+}

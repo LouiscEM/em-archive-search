@@ -1,0 +1,57 @@
+{
+ "slug": "aristocrat-leisure-all",
+ "name": "Aristocrat Leisure",
+ "full": "Aristocrat Leisure",
+ "listings": [
+  "ASX: ALL"
+ ],
+ "built": "2026-10-30",
+ "episodes": 2,
+ "mentioned_in": 9,
+ "latest": "2026-08-21",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2026-08-21",
+     "when": "August 2026",
+     "text": "In August 2026, Equity Mates described Aristocrat Leisure as a gambling technology player, framing its core offering within the gaming sector.",
+     "episode": {
+      "title": "Your top ASX stocks, analysed by the experts",
+      "url": "https://equitymates.com/episode/your-top-asx-stocks-analysed-by-the-experts/",
+      "jump": "https://www.youtube.com/watch?v=Ycow8xvP3iM&t=437s",
+      "at": "7:17"
+     }
+    },
+    {
+     "date": "2017-11-26",
+     "when": "November 2017",
+     "text": "In November 2017, Equity Mates explained Aristocrat Leisure manufactured poker machines globally and said pokies had been a lucrative business for shareholders, highlighting the appeal of its core product despite community concerns.",
+     "episode": {
+      "title": "Tips & Tricks: 6 Steps To Finding A Great Stock",
+      "url": "https://equitymates.com/episode/tips-tricks-6-steps-to-finding-a-great-stock/",
+      "jump": null,
+      "at": "43:34"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": []
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

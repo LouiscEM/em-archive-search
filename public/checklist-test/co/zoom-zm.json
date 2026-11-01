@@ -1,0 +1,126 @@
+{
+ "slug": "zoom-zm",
+ "name": "Zoom",
+ "full": "Zoom Communications",
+ "listings": [
+  "NASDAQ: ZM"
+ ],
+ "built": "2026-10-30",
+ "episodes": 6,
+ "mentioned_in": 68,
+ "latest": "2026-06-16",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2026-03-25",
+     "when": "March 2026",
+     "text": "In March 2026, a guest on Equity Mates described rapidly learning to use Zoom and Teams to keep advising clients during COVID, showing how essential video meetings became for service delivery.",
+     "episode": {
+      "title": "Why inheriting a fortune can tear a family apart - and how to stop it",
+      "url": "https://equitymates.com/episode/why-inheriting-a-fortune-can-tear-a-family-apart-and-how-to-stop-it/",
+      "jump": "https://www.youtube.com/watch?v=LEI5IihYdGA&t=348s",
+      "at": "5:48"
+     }
+    },
+    {
+     "date": "2023-08-23",
+     "when": "August 2023",
+     "text": "In August 2023, Equity Mates said the technology behind Zoom made remote working possible, with its software used by workers around the world through lockdowns.",
+     "episode": {
+      "title": "Once valued at $47 billion, WeWork is now on its knees",
+      "url": "https://equitymates.com/episode/once-valued-at-47-billion-this-company-is-on-its-knees/",
+      "jump": null,
+      "at": "4:25"
+     }
+    },
+    {
+     "date": "2022-05-30",
+     "when": "May 2022",
+     "text": "In May 2022, Equity Mates noted Zoom became a verb, with people saying \"jump on Zoom\", highlighting strong brand recognition even when other video tools were available.",
+     "episode": {
+      "title": "Compare the Pair: Warren Buffett + Cathie Wood are both buying again",
+      "url": "https://equitymates.com/episode/compare-the-pair-warren-buffett-cathie-wood-are-both-buying-again/",
+      "jump": null,
+      "at": "33:48"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2026-03-06",
+     "when": "March 2026",
+     "text": "In March 2026, Equity Mates contrasted Zoom with Microsoft Teams, saying Teams’ distribution advantage led to a hockey-stick in adoption that hurt Zoom’s share price.",
+     "episode": {
+      "title": "4 steps to find winning software stocks with Ben Arnold",
+      "url": "https://equitymates.com/episode/4-steps-to-find-winning-software-stocks-with-ben-arnold/",
+      "jump": "https://www.youtube.com/watch?v=4o_MexmZVEw&t=2311s",
+      "at": "38:31"
+     }
+    },
+    {
+     "date": "2024-05-20",
+     "when": "May 2024",
+     "text": "In May 2024, Equity Mates compared Shopify with Zoom, saying Shopify’s fundamentals and ability to extract value looked stronger, which helped explain why Zoom hadn’t recovered.",
+     "episode": {
+      "title": "COVID stocks that haven't recovered (yet?), Pimp my portfolio & should I invest in gold?",
+      "url": "https://equitymates.com/episode/covid-stocks-that-havent-recovered-yet-pimp-my-portfolio-should-i-invest-in-gold/",
+      "jump": "https://www.youtube.com/watch?v=mvYu1ThJsJQ&t=669s",
+      "at": "11:09"
+     }
+    },
+    {
+     "date": "2023-08-23",
+     "when": "August 2023",
+     "text": "In August 2023, Equity Mates reported a drop in demand for Zoom after the pandemic and said the company moved to a structured hybrid approach, suggesting growth headwinds.",
+     "episode": {
+      "title": "Once valued at $47 billion, WeWork is now on its knees",
+      "url": "https://equitymates.com/episode/once-valued-at-47-billion-this-company-is-on-its-knees/",
+      "jump": null,
+      "at": "4:25"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2026-06-16",
+     "when": "June 2026",
+     "text": "In June 2026, Equity Mates said Zoom owned a chunk of Anthropic shares, giving it indirect exposure to a fast-growing AI business that was attracting top talent.",
+     "episode": {
+      "title": "Chris Judd Thinks You're Wrong About Rates, Bonds and AI",
+      "url": "https://equitymates.com/episode/chris-judd-thinks-youre-wrong-about-rates-bonds-and-ai/",
+      "jump": "https://www.youtube.com/watch?v=SUCInMJIqXc&t=1621s",
+      "at": "27:01"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2024-05-20",
+     "when": "May 2024",
+     "text": "In May 2024, Equity Mates said Zoom ran 765% during COVID then fell about 80%, wiping $77 billion in market cap, showing how pandemic-era expectations unwound.",
+     "episode": {
+      "title": "COVID stocks that haven't recovered (yet?), Pimp my portfolio & should I invest in gold?",
+      "url": "https://equitymates.com/episode/covid-stocks-that-havent-recovered-yet-pimp-my-portfolio-should-i-invest-in-gold/",
+      "jump": "https://www.youtube.com/watch?v=mvYu1ThJsJQ&t=477s",
+      "at": "7:57"
+     }
+    }
+   ]
+  }
+ ]
+}

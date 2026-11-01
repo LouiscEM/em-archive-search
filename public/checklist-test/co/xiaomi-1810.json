@@ -1,0 +1,80 @@
+{
+ "slug": "xiaomi-1810",
+ "name": "Xiaomi",
+ "full": "Xiaomi Corp",
+ "listings": [
+  "HKG: 1810"
+ ],
+ "built": "2026-11-01",
+ "episodes": 4,
+ "mentioned_in": 4,
+ "latest": "2025-12-04",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2025-07-28",
+     "when": "July 2025",
+     "text": "In July 2025, Equity Mates highlighted Xiaomi's SU7 EV having AI features like parking assistance and the ability to play movies for passengers, signalling a feature-rich offering beyond simple cost competition.",
+     "episode": {
+      "title": "The Chinese EV boom, Pimp my Portfolio & X marks the stock: what's buzzing right now",
+      "url": "https://equitymates.com/episode/the-chinese-ev-boom-pimp-my-portfolio-x-marks-the-stock-whats-buzzing-right-now/",
+      "jump": "https://www.youtube.com/watch?v=mgxIZSt2Znk&t=590s",
+      "at": "9:50"
+     }
+    },
+    {
+     "date": "2025-07-07",
+     "when": "July 2025",
+     "text": "In July 2025, Equity Mates noted Xiaomi launched its first car and sold 200,000 cars in three minutes in its presale, showing massive initial demand for the product.",
+     "episode": {
+      "title": "Crunch time for trade deals, Pimp my Portfolio & a new China-focused ETF",
+      "url": "https://equitymates.com/episode/crunch-time-for-trade-deals-pimp-my-portfolio-a-new-china-focused-etf/",
+      "jump": "https://www.youtube.com/watch?v=mChr9i5nG_0&t=1629s",
+      "at": "27:09"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2025-12-04",
+     "when": "December 2025",
+     "text": "In December 2025, a guest on Equity Mates described touring a Xiaomi EV dark factory where vehicles were made in about two minutes, indicating highly automated, rapid production capability that could support efficient scale.",
+     "episode": {
+      "title": "Best of the Best: AI Hype, China Risk & Australia's Best Stocks - Julia Weng | Paradice Investments",
+      "url": "https://equitymates.com/episode/best-of-the-best-ai-hype-china-risk-australias-best-stocks-julia-weng-paradice-investments/",
+      "jump": "https://www.youtube.com/watch?v=DgCMnr2fVC8&t=1528s",
+      "at": "25:28"
+     }
+    },
+    {
+     "date": "2025-10-17",
+     "when": "October 2025",
+     "text": "In October 2025, a guest on Equity Mates characterised Xiaomi as a global company, contrasting it with earlier Chinese tech that struggled abroad, positioning it on the global stage amid China's strength in advanced manufacturing.",
+     "episode": {
+      "title": "How Loftus Peak Keeps beating the Market - And What They’re Buying Now | Alex Pollak",
+      "url": "https://equitymates.com/episode/how-loftus-peak-keeps-beating-the-market-and-what-theyre-buying-now-alex-pollak/",
+      "jump": "https://www.youtube.com/watch?v=u_i9UTHlTkg&t=2276s",
+      "at": "37:56"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

@@ -1,0 +1,58 @@
+{
+ "slug": "readytech-rdy",
+ "name": "ReadyTech",
+ "full": "ReadyTech",
+ "listings": [
+  "ASX: RDY"
+ ],
+ "built": "2026-11-01",
+ "episodes": 1,
+ "mentioned_in": 1,
+ "latest": "2026-05-25",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2026-05-25",
+     "when": "May 2026",
+     "text": "In May 2026, a guest on Equity Mates described ReadyTech as a government ERP cloud migrator, like a smaller TechOne, serving universities, TAFEs and colleges, outlining its cloud software role for education and public sector clients.",
+     "episode": {
+      "title": "Nvidia blows us away, X Marks the Stock & Pimp My Portfolio with Luke Laretive",
+      "url": "https://equitymates.com/episode/nvidia-blows-us-away-x-marks-the-stock-pimp-my-portfolio-with-luke-laretive/",
+      "jump": "https://www.youtube.com/watch?v=fhmt8dhkV-k&t=2132s",
+      "at": "35:32"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": []
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2026-05-25",
+     "when": "May 2026",
+     "text": "In May 2026, a guest on Equity Mates highlighted ReadyTech was on about two times EV to sales and described it as cheap, noting a checkered earnings history, a prior private equity bid at 450, and a view that parts could be worth more than its market cap.",
+     "episode": {
+      "title": "Nvidia blows us away, X Marks the Stock & Pimp My Portfolio with Luke Laretive",
+      "url": "https://equitymates.com/episode/nvidia-blows-us-away-x-marks-the-stock-pimp-my-portfolio-with-luke-laretive/",
+      "jump": "https://www.youtube.com/watch?v=fhmt8dhkV-k&t=2132s",
+      "at": "35:32"
+     }
+    }
+   ]
+  }
+ ]
+}

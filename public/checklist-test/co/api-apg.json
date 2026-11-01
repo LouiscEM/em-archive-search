@@ -1,0 +1,92 @@
+{
+ "slug": "api-apg",
+ "name": "API",
+ "full": "API Group",
+ "listings": [
+  "NYSE: APG"
+ ],
+ "built": "2026-10-30",
+ "episodes": 2,
+ "mentioned_in": 28,
+ "latest": "2025-03-21",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2025-03-21",
+     "when": "March 2025",
+     "text": "In March 2025, a guest on Equity Mates described API Group as an industrial services firm that installed, inspected and maintained life safety and security systems like smoke detectors, sprinklers and fire alarms, and noted it had expanded into security and elevator service through a recent acquisition.",
+     "episode": {
+      "title": "Basis Points: There's more to life than the Magnificent Seven with Alexander Whight | Milford",
+      "url": "https://equitymates.com/episode/basis-points-theres-more-to-life-than-the-magnificent-seven-with-alexander-whight-milford/",
+      "jump": "https://www.youtube.com/watch?v=Zg1HqS_HELg&t=1382s",
+      "at": "23:02"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2025-03-21",
+     "when": "March 2025",
+     "text": "In March 2025, a guest on Equity Mates said API Group’s revenues were resilient because regulations and insurers mandated inspections at least annually, sometimes more often, so demand persisted regardless of customers’ sales cycles.",
+     "episode": {
+      "title": "Basis Points: There's more to life than the Magnificent Seven with Alexander Whight | Milford",
+      "url": "https://equitymates.com/episode/basis-points-theres-more-to-life-than-the-magnificent-seven-with-alexander-whight-milford/",
+      "jump": "https://www.youtube.com/watch?v=Zg1HqS_HELg&t=1382s",
+      "at": "23:02"
+     }
+    },
+    {
+     "date": "2025-03-11",
+     "when": "March 2025",
+     "text": "In March 2025, a guest on Equity Mates reiterated that API Group’s fire and safety work formed the lion’s share of the business and was supported by mandated inspection schedules, which underpinned steady demand through different macro conditions.",
+     "episode": {
+      "title": "Finding Opportunities Beyond the Magnificent Seven with Alexander Whight",
+      "url": "https://equitymates.com/episode/finding-opportunities-beyond-the-magnificent-seven-with-alexander-whight/",
+      "jump": "https://www.youtube.com/watch?v=Zg1HqS_HELg&t=1382s",
+      "at": "23:02"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2025-03-21",
+     "when": "March 2025",
+     "text": "In March 2025, a guest on Equity Mates highlighted that API Group had recently acquired an elevator service business, presenting an example of reinvesting into adjacent, recurring service lines.",
+     "episode": {
+      "title": "Basis Points: There's more to life than the Magnificent Seven with Alexander Whight | Milford",
+      "url": "https://equitymates.com/episode/basis-points-theres-more-to-life-than-the-magnificent-seven-with-alexander-whight-milford/",
+      "jump": "https://www.youtube.com/watch?v=Zg1HqS_HELg&t=1382s",
+      "at": "23:02"
+     }
+    },
+    {
+     "date": "2025-03-11",
+     "when": "March 2025",
+     "text": "In March 2025, a guest on Equity Mates repeated that API Group broadened its offering with an elevator service acquisition, framing it as strategic expansion within regulated, maintenance-driven markets.",
+     "episode": {
+      "title": "Finding Opportunities Beyond the Magnificent Seven with Alexander Whight",
+      "url": "https://equitymates.com/episode/finding-opportunities-beyond-the-magnificent-seven-with-alexander-whight/",
+      "jump": "https://www.youtube.com/watch?v=Zg1HqS_HELg&t=1382s",
+      "at": "23:02"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

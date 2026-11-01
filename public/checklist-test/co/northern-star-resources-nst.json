@@ -1,0 +1,58 @@
+{
+ "slug": "northern-star-resources-nst",
+ "name": "Northern Star Resources",
+ "full": "Northern Star Resources",
+ "listings": [
+  "ASX: NST"
+ ],
+ "built": "2026-11-01",
+ "episodes": 2,
+ "mentioned_in": 4,
+ "latest": "2023-05-22",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2023-04-25",
+     "when": "April 2023",
+     "text": "In April 2023, Equity Mates listed Northern Star Resources as one of the biggest Australian gold mining companies when discussing ways to invest in gold, highlighting it alongside Newcrest and Evolution as major producers.",
+     "episode": {
+      "title": "Should I invest in gold?",
+      "url": "https://equitymates.com/episode/should-i-invest-in-gold/",
+      "jump": null,
+      "at": "13:14"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2023-05-22",
+     "when": "May 2023",
+     "text": "In May 2023, Equity Mates cited Northern Star Resources as Australia’s best performing stock over the prior decade, averaging 79% a year, and noted it still fell by almost half in 2016 to show how volatile long-term compounders can be.",
+     "episode": {
+      "title": "You don't have to pick one winner to be a good investor | Wealth Builders Pt 3",
+      "url": "https://equitymates.com/episode/you-dont-have-to-pick-one-winner-to-be-a-good-investor-wealth-builders-pt-3/",
+      "jump": null,
+      "at": "23:46"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

@@ -1,0 +1,57 @@
+{
+ "slug": "credit-suisse-csgn",
+ "name": "Credit Suisse",
+ "full": "Credit Suisse",
+ "listings": [
+  "SWX: CSGN"
+ ],
+ "built": "2026-10-30",
+ "episodes": 2,
+ "mentioned_in": 23,
+ "latest": "2025-09-09",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": []
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2025-09-09",
+     "when": "September 2025",
+     "text": "In September 2025, Equity Mates used Credit Suisse as an example of how a loss of depositor confidence can wipe out equity and tier one hybrids before losses hit tier two, senior debt and deposits, to explain the risks in a bank capital stack.",
+     "episode": {
+      "title": "The $40b hole in Aussie portfolios & how to fill it - Helen Mason | Schroders",
+      "url": "https://equitymates.com/episode/the-40b-hole-in-aussie-portfolios-how-to-fill-it-helen-mason-schroders/",
+      "jump": "https://www.youtube.com/watch?v=t4kWd1K46HY&t=422s",
+      "at": "7:02"
+     }
+    },
+    {
+     "date": "2023-03-22",
+     "when": "March 2023",
+     "text": "In March 2023, Equity Mates recapped that Credit Suisse shares fell more than 30% in a single day and it was then acquired by UBS after authorities intervened, highlighting how quickly confidence collapsed.",
+     "episode": {
+      "title": "Are we in a banking crisis?",
+      "url": "https://equitymates.com/episode/are-we-in-a-banking-crisis/",
+      "jump": null,
+      "at": "1:37"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

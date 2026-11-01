@@ -1,0 +1,58 @@
+{
+ "slug": "weride-wrd",
+ "name": "WeRide",
+ "full": "WeRide",
+ "listings": [
+  "NASDAQ: WRD"
+ ],
+ "built": "2026-11-01",
+ "episodes": 2,
+ "mentioned_in": 2,
+ "latest": "2026-09-10",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2026-07-06",
+     "when": "July 2026",
+     "text": "In July 2026, Equity Mates said WeRide was running robotaxi tests in Singapore, showing its autonomous ride service was in active development and expanding beyond China.",
+     "episode": {
+      "title": "Self-Driving Cars: From 7,000 to 6 million Robotaxis | The Decade Ahead",
+      "url": "https://equitymates.com/episode/self-driving-cars-from-7000-to-6-million-robotaxis-the-decade-ahead/",
+      "jump": "https://www.youtube.com/watch?v=P8y_M1gda_E&t=1178s",
+      "at": "19:38"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2026-09-10",
+     "when": "September 2026",
+     "text": "In September 2026, Equity Mates described China’s robotaxi race as led by Baidu and Waymo, with WeRide named alongside Pony AI as other players to watch, highlighting a competitive market that could challenge sustained above‑market profits.",
+     "episode": {
+      "title": "Tesla’s robotaxi reality check, One Nation’s Super proposal & what would you do for $750k?",
+      "url": "https://equitymates.com/episode/teslas-robotaxi-reality-check-one-nations-super-proposal-what-would-you-do-for-750k/",
+      "jump": "https://www.youtube.com/watch?v=Bh4nlJVhEdw&t=486s",
+      "at": "8:06"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

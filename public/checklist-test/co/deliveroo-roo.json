@@ -1,0 +1,114 @@
+{
+ "slug": "deliveroo-roo",
+ "name": "Deliveroo",
+ "full": "Deliveroo",
+ "listings": [
+  "LSE: ROO"
+ ],
+ "built": "2026-11-01",
+ "episodes": 5,
+ "mentioned_in": 7,
+ "latest": "2022-12-21",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2022-11-23",
+     "when": "November 2022",
+     "text": "In November 2022, Equity Mates reported Deliveroo Australia had partnerships with over 12,000 venues and used about 15,000 riders, showing the platform’s reach before it exited.",
+     "episode": {
+      "title": "Will food delivery services ever deliver profits?",
+      "url": "https://equitymates.com/episode/will-food-delivery-services-ever-deliver-profits/",
+      "jump": null,
+      "at": "2:57"
+     }
+    },
+    {
+     "date": "2022-03-03",
+     "when": "March 2022",
+     "text": "In March 2022, a guest on Equity Mates noted Guzman y Gomez’s burrito was the most ordered meal in Singapore on Deliveroo, highlighting strong consumer usage of the app in that market.",
+     "episode": {
+      "title": "Expert: Andy Simon - Where to from here for growth stocks | TDM Growth Partners",
+      "url": "https://equitymates.com/episode/expert-andy-simon-where-to-from-here-for-growth-stocks-tdm-growth-partners/",
+      "jump": "https://www.youtube.com/watch?v=SYXIWHO4L4g&t=2129s",
+      "at": "35:29"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2022-12-21",
+     "when": "December 2022",
+     "text": "In December 2022, Equity Mates framed Deliveroo’s Australian exit within a broader delivery shake-out, citing bad unit economics, poor margins and heavy cash burn that became unsustainable as inflation rose and capital tightened.",
+     "episode": {
+      "title": "The 6 biggest business stories of the year",
+      "url": "https://equitymates.com/episode/the-6-biggest-business-stories-of-the-year/",
+      "jump": null,
+      "at": "3:16"
+     }
+    },
+    {
+     "date": "2022-11-23",
+     "when": "November 2022",
+     "text": "In November 2022, Equity Mates explained Deliveroo’s parent shut Australia, which was 3% of revenue, saying making it financially viable required big investment amid intense competition from UberEats, Menulog and DoorDash as post-COVID demand fell.",
+     "episode": {
+      "title": "How do soccer matches affect market liquidity?",
+      "url": "https://equitymates.com/episode/how-do-soccer-matches-affect-market-liquidity/",
+      "jump": null,
+      "at": "14:31"
+     }
+    },
+    {
+     "date": "2022-05-13",
+     "when": "May 2022",
+     "text": "In May 2022, Equity Mates said Deliveroo warned in its IPO that increased regulation threatened its business model and profitability, and it was already unprofitable, making tougher labour laws a major risk.",
+     "episode": {
+      "title": "What's the deal with the gig economy?",
+      "url": "https://equitymates.com/episode/whats-the-deal-with-the-gig-economy/",
+      "jump": null,
+      "at": "15:04"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2022-11-23",
+     "when": "November 2022",
+     "text": "In November 2022, Equity Mates said Deliveroo pulled out of the Netherlands and Spain and appointed administrators in Australia after stating Australian takings were just 3% of overall earnings.",
+     "episode": {
+      "title": "Will food delivery services ever deliver profits?",
+      "url": "https://equitymates.com/episode/will-food-delivery-services-ever-deliver-profits/",
+      "jump": null,
+      "at": "2:57"
+     }
+    },
+    {
+     "date": "2022-11-23",
+     "when": "November 2022",
+     "text": "In November 2022, Equity Mates reported the company exited Australia because making the business financially viable required a big investment and the risk-reward did not stack up amid heavy competition.",
+     "episode": {
+      "title": "How do soccer matches affect market liquidity?",
+      "url": "https://equitymates.com/episode/how-do-soccer-matches-affect-market-liquidity/",
+      "jump": null,
+      "at": "14:31"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

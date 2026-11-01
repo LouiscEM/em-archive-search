@@ -1,0 +1,68 @@
+{
+ "slug": "softbank-9984",
+ "name": "SoftBank",
+ "full": "SoftBank Group",
+ "listings": [
+  "TYO: 9984"
+ ],
+ "built": "2026-10-30",
+ "episodes": 3,
+ "mentioned_in": 13,
+ "latest": "2025-02-03",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": []
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": []
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2025-02-03",
+     "when": "February 2025",
+     "text": "In February 2025, Equity Mates said Project Stargate, involving Oracle, OpenAI, SoftBank and a UAE fund, aimed to spend $100 billion in 2025 on AI infrastructure, illustrating SoftBank’s role in massive AI build-out spending where hundreds of billions were locked in from major players.",
+     "episode": {
+      "title": "Picks and shovel AI stocks, investing in cyclical stocks & Chris Judd joins the show",
+      "url": "https://equitymates.com/episode/picks-and-shovel-ai-stocks-investing-in-cyclical-stocks-chris-judd-joins-the-show/",
+      "jump": "https://www.youtube.com/watch?v=1xgPQOwamec&t=188s",
+      "at": "3:08"
+     }
+    },
+    {
+     "date": "2024-10-07",
+     "when": "October 2024",
+     "text": "In October 2024, Equity Mates reported OpenAI’s round valued it at $157 billion, raising $6.6 billion, with SoftBank investing about $500 million, and flagged how heavy chip costs and forecast losses framed SoftBank’s backing despite rapid revenue growth.",
+     "episode": {
+      "title": "How the US election will impact your portfolio, Owen Rask reveals his portfolio & shackles are off at OpenAI",
+      "url": "https://equitymates.com/episode/how-the-us-election-will-impact-your-portfolio-owen-rask-reveals-his-portfolio-shackles-are-off-at-openai/",
+      "jump": "https://www.youtube.com/watch?v=d2TPzxGGdZo&t=429s",
+      "at": "7:09"
+     }
+    },
+    {
+     "date": "2023-09-11",
+     "when": "September 2023",
+     "text": "In September 2023, Equity Mates said SoftBank was one of the largest owners of a company IPOing at about a $52 billion valuation, saying the listing timing rode a hot market and could crystallise value from SoftBank’s stake.",
+     "episode": {
+      "title": "What next for QANTAS, Andrew Page on Reporting Season & the ESG debate continues",
+      "url": "https://equitymates.com/episode/what-next-for-qantas-andrew-page-on-reporting-season-the-esg-debate-continues/",
+      "jump": null,
+      "at": "14:09"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

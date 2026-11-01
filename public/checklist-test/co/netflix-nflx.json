@@ -1,0 +1,159 @@
+{
+ "slug": "netflix-nflx",
+ "name": "Netflix",
+ "full": "Netflix",
+ "listings": [
+  "NASDAQ: NFLX"
+ ],
+ "built": "2026-10-30",
+ "episodes": 5,
+ "mentioned_in": 255,
+ "latest": "2025-02-17",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2025-02-17",
+     "when": "February 2025",
+     "text": "In February 2025, Equity Mates said Netflix’s product slate expanded into live events, streaming two NFL games and a Jake Paul fight, and reported a stellar quarter adding 19 million customers to 302 million, with prices and revenue both up 16%.",
+     "episode": {
+      "title": "Netflix won the streaming wars, Pimp my Portfolio with Luke Laretive & we debate Novo Nordisk or Eli Lilly",
+      "url": "https://equitymates.com/episode/netflix-won-the-streaming-wars-pimp-my-portfolio-with-luke-laretive-we-debate-novo-nordisk-or-eli-lilly/",
+      "jump": "https://www.youtube.com/watch?v=bUKW7RKCxRU&t=208s",
+      "at": "3:28"
+     }
+    },
+    {
+     "date": "2022-05-06",
+     "when": "May 2022",
+     "text": "In May 2022, Equity Mates highlighted Netflix’s deals with established creators like Shonda Rhimes and Ryan Murphy as having produced hit content, citing Bridgerton, and said reporting suggested such partnerships had been worth it for the platform’s content offering.",
+     "episode": {
+      "title": "The Obamas are splitting up... with Spotify",
+      "url": "https://equitymates.com/episode/the-obamas-are-splitting-up-with-spotify/",
+      "jump": null,
+      "at": "19:12"
+     }
+    },
+    {
+     "date": "2022-04-29",
+     "when": "April 2022",
+     "text": "In April 2022, Equity Mates noted Netflix remained the largest U.S. streamer by viewing time with 27% market share, ahead of Amazon Prime at 21% and Disney at 14%, showing its service still captured significant audience attention.",
+     "episode": {
+      "title": "Who’s winning the war for our attention?",
+      "url": "https://equitymates.com/episode/whos-winning-the-war-for-our-attention/",
+      "jump": null,
+      "at": "14:17"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2025-02-17",
+     "when": "February 2025",
+     "text": "In February 2025, Equity Mates said Netflix was larger than rivals, could raise prices more, was growing users and revenue faster, had a lower churn rate, and produced more content overseas at lower cost, suggesting stronger economics than competitors.",
+     "episode": {
+      "title": "Netflix won the streaming wars, Pimp my Portfolio with Luke Laretive & we debate Novo Nordisk or Eli Lilly",
+      "url": "https://equitymates.com/episode/netflix-won-the-streaming-wars-pimp-my-portfolio-with-luke-laretive-we-debate-novo-nordisk-or-eli-lilly/",
+      "jump": "https://www.youtube.com/watch?v=bUKW7RKCxRU&t=460s",
+      "at": "7:40"
+     }
+    },
+    {
+     "date": "2024-10-24",
+     "when": "October 2024",
+     "text": "In October 2024, Equity Mates said Netflix’s ad‑supported tier was adding users and lifting top‑line revenue, indicating the new tier was improving monetisation.",
+     "episode": {
+      "title": "Q&A on leveraged ETFs, Netflix's 300% surge & we react to terrible financial advice",
+      "url": "https://equitymates.com/episode/qa-on-leveraged-etfs-netflixs-300-surge-we-react-to-terrible-financial-advice/",
+      "jump": "https://www.youtube.com/watch?v=1FeEe_Bg1BA&t=604s",
+      "at": "10:04"
+     }
+    },
+    {
+     "date": "2022-04-25",
+     "when": "April 2022",
+     "text": "In April 2022, Equity Mates said Netflix aimed to convert 100 million households that weren’t paying and had raised prices, actions framed as responses to competition and ways to support margins.",
+     "episode": {
+      "title": "Why Ramsay is just the tip of the iceberg & Netflix headlines early results from US earnings season",
+      "url": "https://equitymates.com/episode/em-chat-3/",
+      "jump": "https://www.youtube.com/watch?v=qAr2Y2LyrCo&t=1946s",
+      "at": "32:26"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2025-02-17",
+     "when": "February 2025",
+     "text": "In February 2025, Equity Mates reported Netflix was investing in live sports and events, televising two NFL games and a Jake Paul fight, as part of its content strategy.",
+     "episode": {
+      "title": "Netflix won the streaming wars, Pimp my Portfolio with Luke Laretive & we debate Novo Nordisk or Eli Lilly",
+      "url": "https://equitymates.com/episode/netflix-won-the-streaming-wars-pimp-my-portfolio-with-luke-laretive-we-debate-novo-nordisk-or-eli-lilly/",
+      "jump": "https://www.youtube.com/watch?v=bUKW7RKCxRU&t=208s",
+      "at": "3:28"
+     }
+    },
+    {
+     "date": "2024-10-24",
+     "when": "October 2024",
+     "text": "In October 2024, Equity Mates said the introduction of an ad‑supported tier was attracting more users and adding to revenue, showing management was building a new monetisation stream.",
+     "episode": {
+      "title": "Q&A on leveraged ETFs, Netflix's 300% surge & we react to terrible financial advice",
+      "url": "https://equitymates.com/episode/qa-on-leveraged-etfs-netflixs-300-surge-we-react-to-terrible-financial-advice/",
+      "jump": "https://www.youtube.com/watch?v=1FeEe_Bg1BA&t=604s",
+      "at": "10:04"
+     }
+    },
+    {
+     "date": "2022-04-25",
+     "when": "April 2022",
+     "text": "In April 2022, Equity Mates said Netflix sought to monetise an additional 100 million households by cracking down on non‑paying users and had implemented price rises, outlining active capital allocation to grow revenue.",
+     "episode": {
+      "title": "Why Ramsay is just the tip of the iceberg & Netflix headlines early results from US earnings season",
+      "url": "https://equitymates.com/episode/em-chat-3/",
+      "jump": "https://www.youtube.com/watch?v=qAr2Y2LyrCo&t=1946s",
+      "at": "32:26"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2024-10-24",
+     "when": "October 2024",
+     "text": "In October 2024, Equity Mates said Netflix fell 75% from late 2021 to mid‑2022 then rose 340%, and that by October 2024 it had surpassed its previous high.",
+     "episode": {
+      "title": "Q&A on leveraged ETFs, Netflix's 300% surge & we react to terrible financial advice",
+      "url": "https://equitymates.com/episode/qa-on-leveraged-etfs-netflixs-300-surge-we-react-to-terrible-financial-advice/",
+      "jump": "https://www.youtube.com/watch?v=1FeEe_Bg1BA&t=500s",
+      "at": "8:20"
+     }
+    },
+    {
+     "date": "2022-04-25",
+     "when": "April 2022",
+     "text": "In April 2022, Equity Mates reported the stock fell about 40% after Netflix disclosed a 200,000 net subscriber loss and forecast losing another 2 million the following quarter, underscoring how quickly sentiment impacted valuation.",
+     "episode": {
+      "title": "Why Ramsay is just the tip of the iceberg & Netflix headlines early results from US earnings season",
+      "url": "https://equitymates.com/episode/em-chat-3/",
+      "jump": "https://www.youtube.com/watch?v=qAr2Y2LyrCo&t=1800s",
+      "at": "30:00"
+     }
+    }
+   ]
+  }
+ ]
+}

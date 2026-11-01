@@ -1,0 +1,80 @@
+{
+ "slug": "hdfc-bank-hdb",
+ "name": "HDFC Bank",
+ "full": "HDFC Bank Limited",
+ "listings": [
+  "NYSE: HDB"
+ ],
+ "built": "2026-10-30",
+ "episodes": 4,
+ "mentioned_in": 8,
+ "latest": "2026-07-27",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2026-07-27",
+     "when": "July 2026",
+     "text": "In July 2026, Equity Mates said HDFC Bank, India’s largest private bank, added 30 million customers in four years to exceed 100 million, showing strong take-up as more Indians enter the formal economy.",
+     "episode": {
+      "title": "Emerging Middle Class: 300,000 New Consumers Every Day | The Decade Ahead",
+      "url": "https://equitymates.com/episode/emerging-middle-class-300000-new-consumers-every-day-the-decade-ahead/",
+      "jump": "https://www.youtube.com/watch?v=iQKJM--ez7o&t=1707s",
+      "at": "28:27"
+     }
+    },
+    {
+     "date": "2021-06-03",
+     "when": "June 2021",
+     "text": "In June 2021, Equity Mates relayed that HDFC Bank was described as best in class with 49 million customers and around 7,000 branches, highlighting a large domestic footprint serving everyday banking needs.",
+     "episode": {
+      "title": "Fidelity's 6 favourite emerging market stocks with Anthony Doyle | ASX Week",
+      "url": "https://equitymates.com/episode/fidelitys-6-favourite-emerging-market-stocks-with-anthony-doyle-asx-week/",
+      "jump": null,
+      "at": "49:40"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2023-11-16",
+     "when": "November 2023",
+     "text": "In November 2023, a guest on Equity Mates said payment players threatened banks on deposits, but argued HDFC Bank’s advantage came from superior risk management, which mattered more in India where limited histories made underwriting harder than just taking payments.",
+     "episode": {
+      "title": "Expert: Ashish Swarup - Invest in snacks, let's get that bread | Aikya Investment Management",
+      "url": "https://equitymates.com/episode/expert-ashish-swarup-invest-in-snacks-lets-get-that-bread-aikya-investment-management/",
+      "jump": null,
+      "at": "31:07"
+     }
+    },
+    {
+     "date": "2023-03-30",
+     "when": "March 2023",
+     "text": "In March 2023, a guest on Equity Mates noted HDFC Bank’s top 20 customers made up only about 4% of deposits, pointing to a diversified funding base and disciplined management that reduced concentration risk.",
+     "episode": {
+      "title": "Expert: Gary Monaghan - 4 Asian stocks to watch 👀 | Fidelity",
+      "url": "https://equitymates.com/episode/expert-gary-monaghan-4-asian-stocks-to-watch-%f0%9f%91%80-fidelity/",
+      "jump": null,
+      "at": "5:04"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

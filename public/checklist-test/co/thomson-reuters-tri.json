@@ -1,0 +1,58 @@
+{
+ "slug": "thomson-reuters-tri",
+ "name": "Thomson Reuters",
+ "full": "Thomson Reuters",
+ "listings": [
+  "NYSE: TRI"
+ ],
+ "built": "2026-11-01",
+ "episodes": 1,
+ "mentioned_in": 1,
+ "latest": "2026-03-10",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2026-03-10",
+     "when": "March 2026",
+     "text": "In March 2026, Equity Mates said Thomson Reuters announced its AI tool Co-Counsel had over one million users and used Anthropic and other AI agents, highlighting rapid uptake of a new product in its legal software suite.",
+     "episode": {
+      "title": "War in Iran, AI Disruption & the Software Selloff: Where Todd Hoare sees Opportunity",
+      "url": "https://equitymates.com/episode/war-in-iran-ai-disruption-the-software-selloff-where-todd-hoare-sees-opportunity/",
+      "jump": "https://www.youtube.com/watch?v=NLcxpQw1TGg&t=1063s",
+      "at": "17:43"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": []
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2026-03-10",
+     "when": "March 2026",
+     "text": "In March 2026, Equity Mates noted Thomson Reuters’ share price jumped 10% on the day of the Co-Counsel announcement, 10% the next day, and rose in five of the next six days, indicating a strong market reaction to the news.",
+     "episode": {
+      "title": "War in Iran, AI Disruption & the Software Selloff: Where Todd Hoare sees Opportunity",
+      "url": "https://equitymates.com/episode/war-in-iran-ai-disruption-the-software-selloff-where-todd-hoare-sees-opportunity/",
+      "jump": "https://www.youtube.com/watch?v=NLcxpQw1TGg&t=1063s",
+      "at": "17:43"
+     }
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,126 @@
+{
+ "slug": "calix-cxl",
+ "name": "Calix",
+ "full": "Calix",
+ "listings": [
+  "ASX: CXL"
+ ],
+ "built": "2026-10-30",
+ "episodes": 5,
+ "mentioned_in": 9,
+ "latest": "2023-06-19",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2022-01-20",
+     "when": "January 2022",
+     "text": "In January 2022, Equity Mates explained Calix’s core product as a new kiln that heats materials differently, enabling CO2 separation and creating nano active materials used across batteries, wastewater, agriculture, cement and steel.",
+     "episode": {
+      "title": "'Because Mars is for quitters' - Calix w/ CEO Dr Phil Hodgson | Summer Series",
+      "url": "https://equitymates.com/episode/summer-series-calix/",
+      "jump": "https://www.youtube.com/watch?v=lzZkzTklPQ0&t=329s",
+      "at": "5:29"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2022-01-20",
+     "when": "January 2022",
+     "text": "In January 2022, Equity Mates discussed competition, saying Calix appeared on the forefront of zero carbon Portland cement with test facilities in Europe, while alternatives like geopolymer cement and fly-ash blends also aimed to solve the problem.",
+     "episode": {
+      "title": "'Because Mars is for quitters' - Calix w/ CEO Dr Phil Hodgson | Summer Series",
+      "url": "https://equitymates.com/episode/summer-series-calix/",
+      "jump": "https://www.youtube.com/watch?v=lzZkzTklPQ0&t=800s",
+      "at": "13:20"
+     }
+    },
+    {
+     "date": "2021-09-27",
+     "when": "September 2021",
+     "text": "In September 2021, Equity Mates noted Calix as a smaller cap in the concrete kiln space with climate change tailwinds, while acknowledging it as a higher risk pick.",
+     "episode": {
+      "title": "Woolworths' buyback, Evergrande's debt and expert's stocks for the next 5 years",
+      "url": "https://equitymates.com/episode/woolworths-buyback-evergrandes-debt-and-experts-stocks-for-the-next-5-years/",
+      "jump": null,
+      "at": "37:50"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2023-06-19",
+     "when": "June 2023",
+     "text": "In June 2023, Equity Mates said Calix’s share price was down about 35% and noted heaps of cash on the balance sheet, raising the question of whether a buyback could be an option.",
+     "episode": {
+      "title": "Apple’s Vision 👓 + can Bryce find bargains in the dog kennel?",
+      "url": "https://equitymates.com/episode/apples-vision-%f0%9f%91%93-can-bryce-find-bargains-in-the-dog-kennel/",
+      "jump": null,
+      "at": "19:58"
+     }
+    },
+    {
+     "date": "2022-01-20",
+     "when": "January 2022",
+     "text": "In January 2022, Equity Mates relayed that Calix was developing new materials and commercialising lines in areas like batteries and biotech, indicating continued investment to expand beyond cement and lime.",
+     "episode": {
+      "title": "'Because Mars is for quitters' - Calix w/ CEO Dr Phil Hodgson | Summer Series",
+      "url": "https://equitymates.com/episode/summer-series-calix/",
+      "jump": "https://www.youtube.com/watch?v=lzZkzTklPQ0&t=1184s",
+      "at": "19:44"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2023-06-19",
+     "when": "June 2023",
+     "text": "In June 2023, Equity Mates said Calix was down 35% with no new news, suggesting recent price moves were driven by sentiment rather than updates.",
+     "episode": {
+      "title": "Apple’s Vision 👓 + can Bryce find bargains in the dog kennel?",
+      "url": "https://equitymates.com/episode/apples-vision-%f0%9f%91%93-can-bryce-find-bargains-in-the-dog-kennel/",
+      "jump": null,
+      "at": "19:58"
+     }
+    },
+    {
+     "date": "2022-01-17",
+     "when": "January 2022",
+     "text": "In January 2022, Equity Mates previewed a Calix deep dive by noting the stock had risen about 600% in the past 12 months, prompting a look into what drove the surge.",
+     "episode": {
+      "title": "What is the future of fitness? - Peloton Interactive w/ CM Karen Lawson | Summer Series",
+      "url": "https://equitymates.com/episode/summer-series-peloton/",
+      "jump": "https://www.youtube.com/watch?v=bcqIZvLTYIA&t=3595s",
+      "at": "59:55"
+     }
+    },
+    {
+     "date": "2021-12-28",
+     "when": "December 2021",
+     "text": "In December 2021, Equity Mates reflected that Calix was up over 600% in the prior year, illustrating how quickly market expectations can shift for fast-moving stocks.",
+     "episode": {
+      "title": "Top Investing Mistakes to Avoid | Summer Series",
+      "url": "https://equitymates.com/episode/what-is-your-biggest-investing-mistake-summer-series/",
+      "jump": null,
+      "at": "3:24"
+     }
+    }
+   ]
+  }
+ ]
+}

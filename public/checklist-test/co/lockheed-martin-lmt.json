@@ -1,0 +1,102 @@
+{
+ "slug": "lockheed-martin-lmt",
+ "name": "Lockheed Martin",
+ "full": "Lockheed Martin",
+ "listings": [
+  "NYSE: LMT"
+ ],
+ "built": "2026-10-30",
+ "episodes": 5,
+ "mentioned_in": 16,
+ "latest": "2026-02-23",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2026-01-29",
+     "when": "January 2026",
+     "text": "In January 2026, Equity Mates explained the F-35 was the leading fighter jet and said Lockheed Martin was the prime contractor and assembler, underscoring how central its flagship aircraft program was to what it built.",
+     "episode": {
+      "title": "Brace for rate rises, which defence ETF is best & Pimp my Portfolio with Matt Ingram",
+      "url": "https://equitymates.com/episode/brace-for-rate-rises-which-defence-etf-is-best-pimp-my-portfolio-with-matt-ingram/",
+      "jump": null,
+      "at": "19:13"
+     }
+    },
+    {
+     "date": "2023-07-12",
+     "when": "July 2023",
+     "text": "In July 2023, Equity Mates noted Lockheed Martin worked with Nanoracks to build the Starlab space station, showing its capability to deliver complex space infrastructure alongside traditional aerospace projects.",
+     "episode": {
+      "title": "Out of This World: Space hotels may be launching as soon as 2026",
+      "url": "https://equitymates.com/episode/out-of-this-world-space-hotels-may-be-launching-as-soon-as-2025/",
+      "jump": null,
+      "at": "10:49"
+     }
+    },
+    {
+     "date": "2022-08-18",
+     "when": "August 2022",
+     "text": "In August 2022, a guest on Equity Mates described Lockheed Martin’s Skunk Works developing the Blackbird, the world’s fastest plane, as proof of standout engineering achieved by focused teams inside the company.",
+     "episode": {
+      "title": "Expert: Niki Scevak - Blackbird's search for wild ideas and wild hearts",
+      "url": "https://equitymates.com/episode/expert-niki-scevak-blackbird/",
+      "jump": "https://www.youtube.com/watch?v=cBU4qjAWt4A&t=997s",
+      "at": "16:37"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2026-02-23",
+     "when": "February 2026",
+     "text": "In February 2026, Equity Mates said Lockheed Martin’s space exposure was small and that performance was driven by demand for F-35 strike fighters, highlighting reliance on a long-lived flagship program.",
+     "episode": {
+      "title": "Beer tax beats Big Oil, a bold small cap for the Community Portfolio & the $880 billion space economy",
+      "url": "https://equitymates.com/episode/beer-tax-a-bold-small-cap-for-the-community-portfolio-the-880-billion-space-economy/",
+      "jump": null,
+      "at": "22:20"
+     }
+    },
+    {
+     "date": "2026-01-29",
+     "when": "January 2026",
+     "text": "In January 2026, Equity Mates outlined how major contractors shared enormous defence budgets, pointing to the 1.5 trillion the US is spending and collaboration on the F-35, with Lockheed Martin as prime contractor.",
+     "episode": {
+      "title": "Brace for rate rises, which defence ETF is best & Pimp my Portfolio with Matt Ingram",
+      "url": "https://equitymates.com/episode/brace-for-rate-rises-which-defence-etf-is-best-pimp-my-portfolio-with-matt-ingram/",
+      "jump": null,
+      "at": "19:13"
+     }
+    },
+    {
+     "date": "2024-10-17",
+     "when": "October 2024",
+     "text": "In October 2024, Equity Mates argued defence created winners and losers and noted much of Lockheed Martin’s revenue came from F-35 fighter jets, making the fortunes of that program pivotal.",
+     "episode": {
+      "title": "We review the 3 new defence ETFs, Elon's mixed week & stealing from your partner",
+      "url": "https://equitymates.com/episode/we-review-the-3-new-defence-etfs-elons-mixed-week-stealing-from-your-partner/",
+      "jump": "https://www.youtube.com/watch?v=T2Pr8LVPDnk&t=1404s",
+      "at": "23:24"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

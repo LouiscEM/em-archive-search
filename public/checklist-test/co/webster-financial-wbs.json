@@ -1,0 +1,58 @@
+{
+ "slug": "webster-financial-wbs",
+ "name": "Webster Financial",
+ "full": "Webster Financial",
+ "listings": [
+  "NYSE: WBS"
+ ],
+ "built": "2026-11-01",
+ "episodes": 1,
+ "mentioned_in": 1,
+ "latest": "2023-11-20",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2023-11-20",
+     "when": "November 2023",
+     "text": "In November 2023, Equity Mates explained Webster Financial was pitched as the fourth largest health savings account provider in the US and outlined that customers contribute pre-tax while the bank pays around 0.15 percent interest on these accounts.",
+     "episode": {
+      "title": "We review the 16 stocks pitched at the Sohn Hearts & Minds conference",
+      "url": "https://equitymates.com/episode/we-review-the-16-stocks-pitched-at-the-sohn-hearts-minds-conference/",
+      "jump": null,
+      "at": "25:54"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2023-11-20",
+     "when": "November 2023",
+     "text": "In November 2023, Equity Mates said the HSA structure let Webster Financial capture a larger margin while interest rates were in the five percents, highlighting its scale in this niche as US banks had been beaten down over the past 12 months.",
+     "episode": {
+      "title": "We review the 16 stocks pitched at the Sohn Hearts & Minds conference",
+      "url": "https://equitymates.com/episode/we-review-the-16-stocks-pitched-at-the-sohn-hearts-minds-conference/",
+      "jump": null,
+      "at": "25:54"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

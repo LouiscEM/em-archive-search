@@ -1,0 +1,46 @@
+{
+ "slug": "mirati-therapeutics-mrtx",
+ "name": "Mirati Therapeutics",
+ "full": "Mirati Therapeutics",
+ "listings": [
+  "NASDAQ: MRTX"
+ ],
+ "built": "2026-11-01",
+ "episodes": 1,
+ "mentioned_in": 1,
+ "latest": "2023-05-15",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2023-05-15",
+     "when": "May 2023",
+     "text": "In May 2023, Equity Mates said Mirati Therapeutics focused on cancer therapeutics and had its lead drug approved in December, late last year, highlighting it had moved a treatment through to approval.",
+     "episode": {
+      "title": "We draft 6 stocks from SOHN Investment Conference New York",
+      "url": "https://equitymates.com/episode/we-draft-6-stocks-from-sohn-investment-conference-new-york/",
+      "jump": null,
+      "at": "36:17"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": []
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

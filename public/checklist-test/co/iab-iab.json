@@ -1,0 +1,81 @@
+{
+ "slug": "iab-iab",
+ "name": "IAB",
+ "full": "IAB Holdings",
+ "listings": [
+  "ASX: IAB"
+ ],
+ "built": "2026-11-01",
+ "episodes": 2,
+ "mentioned_in": 3,
+ "latest": "2024-04-23",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2024-04-23",
+     "when": "April 2024",
+     "text": "In April 2024, Equity Mates described IAB as an aftermarket 4WD parts and accessories business with a brand so strong that copies in Thailand used IAB stickers to appear genuine, indicating customers valued its bull bars, spotlights and related gear.",
+     "episode": {
+      "title": "Expert: Roger Montgomery - 5 stocks he's buying today",
+      "url": "https://equitymates.com/episode/expert-roger-montgomery-5-stocks-hes-buying-today/",
+      "jump": "https://www.youtube.com/watch?v=_s7pZpDr3BE&t=2075s",
+      "at": "34:35"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2024-04-23",
+     "when": "April 2024",
+     "text": "In April 2024, Equity Mates said IAB had high margins and high returns on equity, while noting it was sensitive to the economic cycle as an Australian-focused business.",
+     "episode": {
+      "title": "Expert: Roger Montgomery - 5 stocks he's buying today",
+      "url": "https://equitymates.com/episode/expert-roger-montgomery-5-stocks-hes-buying-today/",
+      "jump": "https://www.youtube.com/watch?v=_s7pZpDr3BE&t=2075s",
+      "at": "34:35"
+     }
+    },
+    {
+     "date": "2022-10-27",
+     "when": "October 2022",
+     "text": "In October 2022, a guest on Equity Mates said IAB was among the first holdings added and had been owned for about 20 years in a long-term quality strategy, suggesting confidence in its enduring business strength.",
+     "episode": {
+      "title": "Expert: Wayne Jones - Low activity investing",
+      "url": "https://equitymates.com/episode/expert-wayne-jones-low-activity-investing/",
+      "jump": "https://www.youtube.com/watch?v=evWrUqwfFS0&t=149s",
+      "at": "2:29"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2024-04-23",
+     "when": "April 2024",
+     "text": "In April 2024, Equity Mates noted IAB was opening stores in the United States and that the cost to open a store was low with a very short payback period, showing management’s focus on expanding overseas.",
+     "episode": {
+      "title": "Expert: Roger Montgomery - 5 stocks he's buying today",
+      "url": "https://equitymates.com/episode/expert-roger-montgomery-5-stocks-hes-buying-today/",
+      "jump": "https://www.youtube.com/watch?v=_s7pZpDr3BE&t=2075s",
+      "at": "34:35"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

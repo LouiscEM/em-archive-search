@@ -1,0 +1,91 @@
+{
+ "slug": "vale-vale",
+ "name": "Vale",
+ "full": "Vale",
+ "listings": [
+  "NYSE: VALE"
+ ],
+ "built": "2026-11-01",
+ "episodes": 3,
+ "mentioned_in": 5,
+ "latest": "2026-07-16",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2026-07-16",
+     "when": "July 2026",
+     "text": "In July 2026, Equity Mates explained Vale is a Brazilian diversified miner listed on the NYSE, producing nickel, copper and especially iron ore, and competing with BHP and Rio as one of the sector’s giants.",
+     "episode": {
+      "title": "Electrification: Australia’s Chance to Power the World | The Decade Ahead",
+      "url": "https://equitymates.com/episode/electrification-australias-chance-to-power-the-world-the-decade-ahead/",
+      "jump": "https://www.youtube.com/watch?v=c45ZJowSvyI&t=1283s",
+      "at": "21:23"
+     }
+    },
+    {
+     "date": "2025-11-17",
+     "when": "November 2025",
+     "text": "In November 2025, Equity Mates noted Vale was the only other major iron ore producer alongside Australia’s miners, highlighting its central role in global iron ore supply.",
+     "episode": {
+      "title": "Warren Buffett's swan song, we're changing our core portfolios & timing your investing",
+      "url": "https://equitymates.com/episode/warren-buffetts-swan-song/",
+      "jump": null,
+      "at": "7:25"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2026-07-16",
+     "when": "July 2026",
+     "text": "In July 2026, Equity Mates described Vale as one of four iron ore giants alongside BHP, Rio and Fortescue, indicating significant scale in a concentrated market.",
+     "episode": {
+      "title": "Electrification: Australia’s Chance to Power the World | The Decade Ahead",
+      "url": "https://equitymates.com/episode/electrification-australias-chance-to-power-the-world-the-decade-ahead/",
+      "jump": "https://www.youtube.com/watch?v=c45ZJowSvyI&t=1283s",
+      "at": "21:23"
+     }
+    },
+    {
+     "date": "2025-11-17",
+     "when": "November 2025",
+     "text": "In November 2025, Equity Mates said Australia dominated iron ore with BHP, Rio and Fortescue, and the only other major producer was Brazil’s Vale, framing an oligopolistic industry structure.",
+     "episode": {
+      "title": "Warren Buffett's swan song, we're changing our core portfolios & timing your investing",
+      "url": "https://equitymates.com/episode/warren-buffetts-swan-song/",
+      "jump": null,
+      "at": "7:25"
+     }
+    },
+    {
+     "date": "2021-01-17",
+     "when": "January 2021",
+     "text": "In January 2021, Equity Mates said Brazil’s Vale was more heavily affected by the pandemic than Australian miners, which shifted competitive dynamics in iron ore during 2020.",
+     "episode": {
+      "title": "Investing in Fortescue Metals Group (ASX: FMG) - A Summer Series Analysis",
+      "url": "https://equitymates.com/episode/summer-series-fortescue-metals-group-ltd-asx-fmg/",
+      "jump": null,
+      "at": "8:03"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

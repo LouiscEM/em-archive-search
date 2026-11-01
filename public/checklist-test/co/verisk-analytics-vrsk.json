@@ -1,0 +1,58 @@
+{
+ "slug": "verisk-analytics-vrsk",
+ "name": "Verisk Analytics",
+ "full": "Verisk Analytics",
+ "listings": [
+  "NASDAQ: VRSK"
+ ],
+ "built": "2026-11-01",
+ "episodes": 1,
+ "mentioned_in": 1,
+ "latest": "2020-08-13",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2020-08-13",
+     "when": "August 2020",
+     "text": "In August 2020, a guest on Equity Mates described Verisk as operating at the intersection of incredibly boring and incredibly complex industries, setting up the thesis and explaining the niche nature of what it does.",
+     "episode": {
+      "title": "Expert Investor: Nick Cregan - 3 Small Cap Stocks You've Never Heard Of",
+      "url": "https://equitymates.com/episode/expert-investor-nick-cregan-3-small-cap-stocks-youve-never-heard-of/",
+      "jump": null,
+      "at": "46:40"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": []
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2020-08-13",
+     "when": "August 2020",
+     "text": "In August 2020, a guest on Equity Mates said Verisk’s valuation multiple was getting high and they were looking to take some capital out, contrasting it with another company trading at under 30 times earnings.",
+     "episode": {
+      "title": "Expert Investor: Nick Cregan - 3 Small Cap Stocks You've Never Heard Of",
+      "url": "https://equitymates.com/episode/expert-investor-nick-cregan-3-small-cap-stocks-youve-never-heard-of/",
+      "jump": null,
+      "at": "1:03:39"
+     }
+    }
+   ]
+  }
+ ]
+}

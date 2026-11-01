@@ -1,0 +1,81 @@
+{
+ "slug": "compass-cpg",
+ "name": "Compass",
+ "full": "Compass Group",
+ "listings": [
+  "LON: CPG",
+  "LSE: CPG"
+ ],
+ "built": "2026-11-01",
+ "episodes": 2,
+ "mentioned_in": 3,
+ "latest": "2026-06-12",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2026-06-12",
+     "when": "June 2026",
+     "text": "In June 2026, Equity Mates described Compass Group as the world's largest contract caterer feeding millions daily across workplaces, hospitals, universities and major sporting events, and noted Alphabet was its largest customer yet under 1% of revenue, showing scale and diversified service.",
+     "episode": {
+      "title": "The Case For Owning Fewer, Better Stocks with Stephen Arnold",
+      "url": "https://equitymates.com/episode/the-case-for-owning-fewer-better-stocks-with-stephen-arnold/",
+      "jump": "https://www.youtube.com/watch?v=Cc-cQpiqoB4&t=584s",
+      "at": "9:44"
+     }
+    },
+    {
+     "date": "2025-05-20",
+     "when": "May 2025",
+     "text": "In May 2025, Equity Mates explained Compass had to win customers twice in corporate cafeterias, keeping menus attractive and prices restrained during post covid inflation, which widened the price gap to high street options and drew more meals in each site.",
+     "episode": {
+      "title": "Why this fund manager is betting BIG on the UK - Stephen Arnold | Aoris",
+      "url": "https://equitymates.com/episode/why-this-fund-manager-is-betting-big-on-the-uk-stephen-arnold-aoris/",
+      "jump": "https://www.youtube.com/watch?v=8CrB5rFFHqo&t=1879s",
+      "at": "31:19"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2026-06-12",
+     "when": "June 2026",
+     "text": "In June 2026, Equity Mates highlighted Compass as a broad, robust business serving many industries, customers and geographies, reducing exposure to any single customer or sector shock, which aligned with a preference for resilient profit streams.",
+     "episode": {
+      "title": "The Case For Owning Fewer, Better Stocks with Stephen Arnold",
+      "url": "https://equitymates.com/episode/the-case-for-owning-fewer-better-stocks-with-stephen-arnold/",
+      "jump": "https://www.youtube.com/watch?v=Cc-cQpiqoB4&t=2139s",
+      "at": "35:39"
+     }
+    },
+    {
+     "date": "2025-05-20",
+     "when": "May 2025",
+     "text": "In May 2025, Equity Mates noted Compass fed about 15 million people a day across tens of thousands of sites, with the US about two thirds of revenue and the UK 8 percent, arguing this breadth across markets and clients made earnings more resilient.",
+     "episode": {
+      "title": "Why this fund manager is betting BIG on the UK - Stephen Arnold | Aoris",
+      "url": "https://equitymates.com/episode/why-this-fund-manager-is-betting-big-on-the-uk-stephen-arnold-aoris/",
+      "jump": "https://www.youtube.com/watch?v=8CrB5rFFHqo&t=1392s",
+      "at": "23:12"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

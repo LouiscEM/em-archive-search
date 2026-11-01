@@ -1,0 +1,148 @@
+{
+ "slug": "walt-disney-dis",
+ "name": "Walt Disney",
+ "full": "Walt Disney",
+ "listings": [
+  "NYSE: DIS"
+ ],
+ "built": "2026-10-30",
+ "episodes": 7,
+ "mentioned_in": 17,
+ "latest": "2024-06-10",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2024-06-10",
+     "when": "June 2024",
+     "text": "In June 2024, Equity Mates detailed Disney’s three divisions and cited brands like Pixar, Marvel, Lucasfilm, ABC and National Geographic, showing the breadth of its content and distribution from studios to streaming and TV networks.",
+     "episode": {
+      "title": "Disney: Investing ride of a lifetime or time to get off? | Company Deep Dive",
+      "url": "https://equitymates.com/episode/disney-investing-ride-of-a-lifetime-or-time-to-get-off-company-deep-dive/",
+      "jump": "https://www.youtube.com/watch?v=9kf_asxEjYQ&t=609s",
+      "at": "10:09"
+     }
+    },
+    {
+     "date": "2022-09-09",
+     "when": "September 2022",
+     "text": "In September 2022, Equity Mates highlighted stronger spending at Disney’s domestic theme parks and said families still paid higher prices and enjoyed the experience, suggesting enduring appeal of the parks offering.",
+     "episode": {
+      "title": "The celebrations continue... We review another 10 Order Pad picks 🎂 Pt II",
+      "url": "https://equitymates.com/episode/the-celebrations-continue-we-review-another-10-order-pad-picks-%f0%9f%8e%82-pt-ii/",
+      "jump": null,
+      "at": "14:22"
+     }
+    },
+    {
+     "date": "2022-08-08",
+     "when": "August 2022",
+     "text": "In August 2022, Equity Mates noted Mickey Mouse’s outsized value to Disney, citing estimates of over US$3 billion brand value and about US$80 billion in lifetime revenue from movies, games, parks, cruises and merchandise.",
+     "episode": {
+      "title": "Disney could be losing Mickey Mouse",
+      "url": "https://equitymates.com/episode/disney-could-be-losing-mickey-mouse/",
+      "jump": null,
+      "at": "5:21"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2023-08-21",
+     "when": "August 2023",
+     "text": "In August 2023, Equity Mates covered ESPN’s ten year US$2 billion licensing deal with Penn to launch ESPN Bet, showing how Disney could monetise ESPN’s brand in betting without building its own sportsbook.",
+     "episode": {
+      "title": "How Dave Portnoy bought back his $840M company for just $1",
+      "url": "https://equitymates.com/episode/how-dave-portnoy-bought-back-his-840m-company-for-just-1/",
+      "jump": null,
+      "at": "7:43"
+     }
+    },
+    {
+     "date": "2023-05-18",
+     "when": "May 2023",
+     "text": "In May 2023, Equity Mates described Disney’s ability to leverage decades of IP, from Mickey Mouse to a stable of characters, to build a media powerhouse, implying durable brand strength across formats.",
+     "episode": {
+      "title": "The perils of selling too early | Wealth Builders Pt 2",
+      "url": "https://equitymates.com/episode/the-perils-of-selling-too-early-wealth-builders-pt-2/",
+      "jump": null,
+      "at": "13:17"
+     }
+    },
+    {
+     "date": "2022-09-09",
+     "when": "September 2022",
+     "text": "In September 2022, Equity Mates said Disney Plus reached 152.1 million subscribers in Q3, beating expectations, and noted Disney accounted for 47% of sports hours watched by 18 to 49s in Q3, reflecting powerful franchises and sports reach.",
+     "episode": {
+      "title": "The celebrations continue... We review another 10 Order Pad picks 🎂 Pt II",
+      "url": "https://equitymates.com/episode/the-celebrations-continue-we-review-another-10-order-pad-picks-%f0%9f%8e%82-pt-ii/",
+      "jump": null,
+      "at": "15:48"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2023-08-21",
+     "when": "August 2023",
+     "text": "In August 2023, Equity Mates explained Disney chose a partnership model for sports betting via ESPN’s deal with Penn rather than building a book, indicating a capital light approach to expand monetisation.",
+     "episode": {
+      "title": "How Dave Portnoy bought back his $840M company for just $1",
+      "url": "https://equitymates.com/episode/how-dave-portnoy-bought-back-his-840m-company-for-just-1/",
+      "jump": null,
+      "at": "7:43"
+     }
+    },
+    {
+     "date": "2023-01-27",
+     "when": "January 2023",
+     "text": "In January 2023, Equity Mates discussed the CEO’s return and said management would refocus on profitability and content quality over quantity, while parks revenue was rebuilding as travel normalised.",
+     "episode": {
+      "title": "23 Stocks for 2023 | Elders, Playside, Qantas and more! Pt I",
+      "url": "https://equitymates.com/episode/23-stocks-for-2023-elders-playside-qantas-and-more-pt-i/",
+      "jump": null,
+      "at": "18:11"
+     }
+    },
+    {
+     "date": "2022-12-13",
+     "when": "December 2022",
+     "text": "In December 2022, Equity Mates outlined the surprise reinstatement of Disney’s former CEO to boost investor confidence and address streaming unit profits after a difficult period of pandemic disruptions.",
+     "episode": {
+      "title": "Why leadership matters: Disney presents the tale of 2 Bobs",
+      "url": "https://equitymates.com/episode/why-leadership-matters-disney-presents-the-tale-of-2-bobs/",
+      "jump": null,
+      "at": "2:50"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2022-12-13",
+     "when": "December 2022",
+     "text": "In December 2022, Equity Mates reported Disney’s share price fell 41% year to date and dropped 13% in one day after results, then jumped almost 10% on the CEO announcement, indicating how recent performance and leadership changes were reflected in the price.",
+     "episode": {
+      "title": "Why leadership matters: Disney presents the tale of 2 Bobs",
+      "url": "https://equitymates.com/episode/why-leadership-matters-disney-presents-the-tale-of-2-bobs/",
+      "jump": null,
+      "at": "4:15"
+     }
+    }
+   ]
+  }
+ ]
+}

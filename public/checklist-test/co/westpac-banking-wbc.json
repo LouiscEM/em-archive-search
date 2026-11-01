@@ -1,0 +1,126 @@
+{
+ "slug": "westpac-banking-wbc",
+ "name": "Westpac Banking",
+ "full": "Westpac Banking Corporation",
+ "listings": [
+  "ASX: WBC"
+ ],
+ "built": "2026-10-30",
+ "episodes": 6,
+ "mentioned_in": 115,
+ "latest": "2026-08-17",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2023-09-12",
+     "when": "September 2023",
+     "text": "In September 2023, Equity Mates recounted needing a Westpac branch visit to resolve payments misdirected to an old credit card and finding managers unavailable on Saturdays, highlighting friction points in Westpac’s customer service experience.",
+     "episode": {
+      "title": "Our dumbest money mistakes",
+      "url": "https://equitymates.com/episode/our-dumbest-money-mistakes/",
+      "jump": null,
+      "at": "7:45"
+     }
+    },
+    {
+     "date": "2021-05-27",
+     "when": "May 2021",
+     "text": "In May 2021, Equity Mates interviewed Westpac’s former CEO, who described Westpac as Australia’s oldest company, founded in 1817 to support the private economy, positioning it as a core provider of banking services across the economy.",
+     "episode": {
+      "title": "CEO Series: Brian Hartzer - Challenges of Leading Westpac for 6 Years",
+      "url": "https://equitymates.com/episode/ceo-series-brian-hartzer-challenges-of-leading-westpac-for-6-years/",
+      "jump": "https://www.youtube.com/watch?v=qC8jXoc_ZzU&t=133s",
+      "at": "2:13"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2026-08-17",
+     "when": "August 2026",
+     "text": "In August 2026, Equity Mates noted Westpac’s third quarter profit of $1.8 billion was down 5% year on year, pointing to pressure on near-term profitability.",
+     "episode": {
+      "title": "Banks flag a housing slowdown, AI won’t pick your stocks & Ren’s portfolio reviewed",
+      "url": "https://equitymates.com/episode/banks-flag-a-housing-slowdown-ai-wont-pick-your-stocks-rens-portfolio-reviewed/",
+      "jump": "https://www.youtube.com/watch?v=OE5hJWsiAx0&t=465s",
+      "at": "7:45"
+     }
+    },
+    {
+     "date": "2025-11-13",
+     "when": "November 2025",
+     "text": "In November 2025, a guest on Equity Mates argued at least three of the four big banks had lost competitive advantage, saying poor treatment of depositors opened the door for Macquarie to win customers on both deposits and lending.",
+     "episode": {
+      "title": "50-year mortgages are a bad idea, how to check for ETF overlap & why the Big Banks are struggling",
+      "url": "https://equitymates.com/episode/50-year-mortgages/",
+      "jump": "https://www.youtube.com/watch?v=X1sM5m85_ys&t=1220s",
+      "at": "20:20"
+     }
+    },
+    {
+     "date": "2025-01-23",
+     "when": "January 2025",
+     "text": "In January 2025, a guest on Equity Mates said Westpac’s returns on equity sat around 10 to 11% alongside peers (except CBA at 14%), while profit before doubtful debts fell and earnings were downgraded amid margin pressure.",
+     "episode": {
+      "title": "Expert: Andrew Brown - 14 Bold Predictions for 2025",
+      "url": "https://equitymates.com/episode/expert-andrew-brown-14-bold-predictions-for-2025/",
+      "jump": "https://www.youtube.com/watch?v=3GaBApfud9Y&t=1792s",
+      "at": "29:52"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2021-05-27",
+     "when": "May 2021",
+     "text": "In May 2021, Equity Mates discussed a framework from a Westpac CEO interview that bank value depends more on sustaining return on equity than on dividends, implying management focus goes beyond payouts to long-term performance drivers.",
+     "episode": {
+      "title": "CEO Series: Brian Hartzer - Challenges of Leading Westpac for 6 Years",
+      "url": "https://equitymates.com/episode/ceo-series-brian-hartzer-challenges-of-leading-westpac-for-6-years/",
+      "jump": "https://www.youtube.com/watch?v=qC8jXoc_ZzU&t=405s",
+      "at": "6:45"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2025-02-24",
+     "when": "February 2025",
+     "text": "In February 2025, Equity Mates contrasted five-year returns, noting Westpac was up 25% while the market leader CBA rose 79%, illustrating how investors often pay a premium for perceived higher quality.",
+     "episode": {
+      "title": "Bad news for banks & miners, where did all the dividends go & stocks with freebies",
+      "url": "https://equitymates.com/episode/bad-news-for-banks-miners-where-did-all-the-dividends-go-stocks-with-freebies/",
+      "jump": "https://www.youtube.com/watch?v=hkGW5JdchqY&t=559s",
+      "at": "9:19"
+     }
+    },
+    {
+     "date": "2025-01-23",
+     "when": "January 2025",
+     "text": "In January 2025, a guest on Equity Mates said Australian banks, including Westpac, traded on 16-plus times earnings (with CBA in the twenties), despite low bad debt charges and falling profit before doubtful debts, raising questions about what was priced in.",
+     "episode": {
+      "title": "Expert: Andrew Brown - 14 Bold Predictions for 2025",
+      "url": "https://equitymates.com/episode/expert-andrew-brown-14-bold-predictions-for-2025/",
+      "jump": "https://www.youtube.com/watch?v=3GaBApfud9Y&t=1792s",
+      "at": "29:52"
+     }
+    }
+   ]
+  }
+ ]
+}

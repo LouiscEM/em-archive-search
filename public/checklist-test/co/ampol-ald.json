@@ -1,0 +1,104 @@
+{
+ "slug": "ampol-ald",
+ "name": "Ampol",
+ "full": "Ampol",
+ "listings": [
+  "ASX: ALD"
+ ],
+ "built": "2026-11-01",
+ "episodes": 3,
+ "mentioned_in": 6,
+ "latest": "2025-02-18",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2024-02-01",
+     "when": "February 2024",
+     "text": "In February 2024, Equity Mates compared fuel and convenience networks and said Ampol ranked second nationally in network size behind Viva’s Shell and On The Run combination, highlighting Ampol’s substantial service station presence across Australia.",
+     "episode": {
+      "title": "From oil refining to servos - Viva Energy | Summer Series",
+      "url": "https://equitymates.com/episode/from-oil-refining-to-servos-viva-energy-summer-series/",
+      "jump": "https://www.youtube.com/watch?v=jZZcDyUnQM8&t=304s",
+      "at": "5:04"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2025-02-18",
+     "when": "February 2025",
+     "text": "In February 2025, a guest on Equity Mates said Australia has only two onshore oil refineries owned by Ampol and Viva and described a government backstop that supports refineries for national security, shaping the industry’s profitability.",
+     "episode": {
+      "title": "Expert: Luke Laretive - Looking for catalysts in Aussie stocks",
+      "url": "https://equitymates.com/episode/expert-luke-laretive-looking-for-catalysts-in-aussie-stocks/",
+      "jump": "https://www.youtube.com/watch?v=j3C2KNYZryY&t=962s",
+      "at": "16:02"
+     }
+    },
+    {
+     "date": "2024-02-01",
+     "when": "February 2024",
+     "text": "In February 2024, Equity Mates explained that government minimum storage obligations meant many competitors had to store excess crude at refineries like Ampol’s, which could create additional earnings for local refiners.",
+     "episode": {
+      "title": "From oil refining to servos - Viva Energy | Summer Series",
+      "url": "https://equitymates.com/episode/from-oil-refining-to-servos-viva-energy-summer-series/",
+      "jump": "https://www.youtube.com/watch?v=jZZcDyUnQM8&t=1822s",
+      "at": "30:22"
+     }
+    },
+    {
+     "date": "2022-08-29",
+     "when": "August 2022",
+     "text": "In August 2022, Equity Mates highlighted Ampol’s 2022 results with revenue up 83% to $17.3b, profit up 114% to $695m and dividend up 131% to $1.20, reflecting a period of strong refining economics.",
+     "episode": {
+      "title": "Disney is getting into sports betting + Earnings wrap",
+      "url": "https://equitymates.com/episode/disney-is-getting-into-sports-betting-earnings-wrap/",
+      "jump": "https://www.youtube.com/watch?v=z1dcF7VKMsM&t=379s",
+      "at": "6:19"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2022-08-29",
+     "when": "August 2022",
+     "text": "In August 2022, Equity Mates noted Ampol increased its dividend 131% to $1.20 alongside profit growth, showing it returned more cash to shareholders in that period.",
+     "episode": {
+      "title": "Disney is getting into sports betting + Earnings wrap",
+      "url": "https://equitymates.com/episode/disney-is-getting-into-sports-betting-earnings-wrap/",
+      "jump": "https://www.youtube.com/watch?v=z1dcF7VKMsM&t=379s",
+      "at": "6:19"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2025-02-18",
+     "when": "February 2025",
+     "text": "In February 2025, a guest on Equity Mates said Ampol traded about 20% cheaper than Viva despite similar business drivers, suggesting attention on the valuation gap between the two refiners.",
+     "episode": {
+      "title": "Expert: Luke Laretive - Looking for catalysts in Aussie stocks",
+      "url": "https://equitymates.com/episode/expert-luke-laretive-looking-for-catalysts-in-aussie-stocks/",
+      "jump": "https://www.youtube.com/watch?v=j3C2KNYZryY&t=962s",
+      "at": "16:02"
+     }
+    }
+   ]
+  }
+ ]
+}

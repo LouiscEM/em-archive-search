@@ -1,0 +1,46 @@
+{
+ "slug": "corpay-cpay",
+ "name": "Corpay",
+ "full": "Corpay",
+ "listings": [
+  "NYSE: CPAY"
+ ],
+ "built": "2026-11-01",
+ "episodes": 1,
+ "mentioned_in": 1,
+ "latest": "2025-03-10",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2025-03-10",
+     "when": "March 2025",
+     "text": "In March 2025, Equity Mates described Corpay as a corporate credit card business that used its customer base to negotiate preferred supplier deals, such as with one petrol station chain, giving businesses discounts while Corpay clipped the ticket as the middleman.",
+     "episode": {
+      "title": "10 stocks that have us excited, Pimp my Portfolio with Adam Dawes & Aussie economy turnaround",
+      "url": "https://equitymates.com/episode/10-stocks-that-have-us-excited-pimp-my-portfolio-with-adam-dawes-aussie-economy-turnaround/",
+      "jump": "https://www.youtube.com/watch?v=bFGzna8rrJw&t=1553s",
+      "at": "25:53"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": []
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

@@ -1,0 +1,70 @@
+{
+ "slug": "vbx-vbx",
+ "name": "VBX",
+ "full": "VBX Ltd",
+ "listings": [
+  "ASX: VBX"
+ ],
+ "built": "2026-11-01",
+ "episodes": 1,
+ "mentioned_in": 2,
+ "latest": "2026-01-27",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2026-01-27",
+     "when": "January 2026",
+     "text": "In January 2026, a guest on Equity Mates described VBX’s bauxite project in WA near the NT as promising, saying they were bullish on bauxite and that there were few ASX ways to gain exposure; the project was still being developed.",
+     "episode": {
+      "title": "Why 2026 is the Year of Resources - Luke Laretive",
+      "url": "https://equitymates.com/episode/why-2026-is-the-year-of-resources-luke-laretive/",
+      "jump": "https://www.youtube.com/watch?v=3FKFAXzFUQw&t=1439s",
+      "at": "23:59"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2026-01-27",
+     "when": "January 2026",
+     "text": "In January 2026, a guest on Equity Mates said VBX stood to benefit from favourable bauxite supply and demand dynamics, adding that when copper runs, bauxite also tends to run and bauxite had not yet moved.",
+     "episode": {
+      "title": "Why 2026 is the Year of Resources - Luke Laretive",
+      "url": "https://equitymates.com/episode/why-2026-is-the-year-of-resources-luke-laretive/",
+      "jump": "https://www.youtube.com/watch?v=3FKFAXzFUQw&t=1616s",
+      "at": "26:56"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2026-01-27",
+     "when": "January 2026",
+     "text": "In January 2026, a guest on Equity Mates noted VBX was back above its IPO price after a tough period and likely needed to raise cash soon, expecting a placement, which shaped how the market was pricing the project.",
+     "episode": {
+      "title": "Why 2026 is the Year of Resources - Luke Laretive",
+      "url": "https://equitymates.com/episode/why-2026-is-the-year-of-resources-luke-laretive/",
+      "jump": "https://www.youtube.com/watch?v=3FKFAXzFUQw&t=1439s",
+      "at": "23:59"
+     }
+    }
+   ]
+  }
+ ]
+}

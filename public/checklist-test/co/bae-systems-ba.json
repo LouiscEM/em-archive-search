@@ -1,0 +1,57 @@
+{
+ "slug": "bae-systems-ba",
+ "name": "BAE Systems",
+ "full": "BAE Systems",
+ "listings": [
+  "LSE: BA"
+ ],
+ "built": "2026-11-01",
+ "episodes": 2,
+ "mentioned_in": 3,
+ "latest": "2026-05-11",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2026-05-11",
+     "when": "May 2026",
+     "text": "In May 2026, Equity Mates said BAE Systems was developing drone technology in Australia, with work under evaluation that used PWR cooling technology. It highlighted that this local program showed BAE Systems' role in defence innovation in Australia.",
+     "episode": {
+      "title": "Apple’s battle with CBA, why even God can’t beat DCA & a community stock pick",
+      "url": "https://equitymates.com/episode/apples-battle-with-cba-why-even-god-cant-beat-dca-a-community-stock-pick/",
+      "jump": "https://www.youtube.com/watch?v=YJfHE1HyUF4&t=1143s",
+      "at": "19:03"
+     }
+    },
+    {
+     "date": "2026-02-23",
+     "when": "February 2026",
+     "text": "In February 2026, Equity Mates noted BAE Systems had exposure to space as part of the aerospace and defence giants, but said this was small relative to the rest of its business. It explained that, like peers, core defence programs would drive performance more than space.",
+     "episode": {
+      "title": "Beer tax beats Big Oil, a bold small cap for the Community Portfolio & the $880 billion space economy",
+      "url": "https://equitymates.com/episode/beer-tax-a-bold-small-cap-for-the-community-portfolio-the-880-billion-space-economy/",
+      "jump": null,
+      "at": "22:20"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": []
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

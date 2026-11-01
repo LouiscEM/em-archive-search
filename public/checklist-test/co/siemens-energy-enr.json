@@ -1,0 +1,57 @@
+{
+ "slug": "siemens-energy-enr",
+ "name": "Siemens Energy",
+ "full": "Siemens Energy",
+ "listings": [
+  "ETR: ENR"
+ ],
+ "built": "2026-11-01",
+ "episodes": 2,
+ "mentioned_in": 3,
+ "latest": "2025-05-06",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2025-05-06",
+     "when": "May 2025",
+     "text": "In May 2025, a guest on Equity Mates said European industrials like Siemens Energy had been overlooked during the ESG boom despite making products that address global warming, and explained that the market later began to recognise their viability.",
+     "episode": {
+      "title": "The caveman in your portfolio: Why behaviour sabotages returns - Alec Cutler | Orbis",
+      "url": "https://equitymates.com/episode/the-caveman-in-your-portfolio-why-behaviour-sabotages-returns-alec-cutler-orbis/",
+      "jump": "https://www.youtube.com/watch?v=RzFZzYoLeOY&t=1495s",
+      "at": "24:55"
+     }
+    },
+    {
+     "date": "2021-07-25",
+     "when": "July 2021",
+     "text": "In July 2021, Equity Mates noted Siemens Energy was a Siemens spin off focused on renewable energy generation and had come up in their carbon capture discussions, highlighting its role in the energy transition.",
+     "episode": {
+      "title": "Country Deep Dive: Germany's export giants | DAX 30",
+      "url": "https://equitymates.com/episode/country-deep-dive-germanys-export-giants-dax-30/",
+      "jump": null,
+      "at": "20:56"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": []
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

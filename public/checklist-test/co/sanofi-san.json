@@ -1,0 +1,46 @@
+{
+ "slug": "sanofi-san",
+ "name": "Sanofi",
+ "full": "Sanofi",
+ "listings": [
+  "EPA: SAN"
+ ],
+ "built": "2026-11-01",
+ "episodes": 1,
+ "mentioned_in": 5,
+ "latest": "2024-04-08",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": []
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": []
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2024-04-08",
+     "when": "April 2024",
+     "text": "In April 2024, Equity Mates noted Sanofi as a French pharmaceutical company with a $111 billion market cap, and said its share price was down 10% over the past 12 months while discussing Europe’s “Granolas” group of stocks, providing recent performance context for valuation thinking.",
+     "episode": {
+      "title": "Move over Magnificent 7, meet the Magnificent 11, Bryce’s small cap investment & Compounding continued",
+      "url": "https://equitymates.com/episode/move-over-magnificent-7-meet-the-magnificent-11-bryces-small-cap-investment-compounding-continued/",
+      "jump": "https://www.youtube.com/watch?v=lOIZb_iNSMw&t=1181s",
+      "at": "19:41"
+     }
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,126 @@
+{
+ "slug": "hub24-hub",
+ "name": "Hub24",
+ "full": "Hub24",
+ "listings": [
+  "ASX: HUB"
+ ],
+ "built": "2026-10-30",
+ "episodes": 6,
+ "mentioned_in": 13,
+ "latest": "2026-10-26",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2026-04-02",
+     "when": "April 2026",
+     "text": "In April 2026, Equity Mates said Hub24, accessed via an adviser, offered a bigger investment menu that included many unlisted funds and allowed investing from a dollar, making it practical to build an active manager sleeve.",
+     "episode": {
+      "title": "Our Monthly Portfolio Update - March 2026",
+      "url": "https://equitymates.com/episode/our-monthly-portfolio-update-march-2026/",
+      "jump": "https://www.youtube.com/watch?v=hZKP3DLHeDk&t=1754s",
+      "at": "29:14"
+     }
+    },
+    {
+     "date": "2026-03-02",
+     "when": "March 2026",
+     "text": "In March 2026, Equity Mates described using Hub24 for active management because of its breadth and ability to access funds without paying minimums, highlighting the platform’s wide investment menu.",
+     "episode": {
+      "title": "Our Monthly Portfolio Update - February 2026",
+      "url": "https://equitymates.com/episode/our-monthly-portfolio-update-february-2026/",
+      "jump": "https://www.youtube.com/watch?v=SSQf8Vd70mk&t=1751s",
+      "at": "29:11"
+     }
+    },
+    {
+     "date": "2026-01-22",
+     "when": "January 2026",
+     "text": "In January 2026, Equity Mates explained Hub24 was an adviser platform that provided access to products with no minimums through advice, contrasting it with the high investment minimums required when investing directly.",
+     "episode": {
+      "title": "Bryce sells everything, European defence stocks surge & managing your Super",
+      "url": "https://equitymates.com/episode/bryce-sells-everything-european-defence-stocks-surge-managing-your-super/",
+      "jump": "https://www.youtube.com/watch?v=AAd7xA8nCx8&t=904s",
+      "at": "15:04"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2026-10-26",
+     "when": "October 2026",
+     "text": "In October 2026, Equity Mates reported Hub24 recorded $4 billion in quarterly inflows, but said the market remained unconvinced given short-term headwinds.",
+     "episode": {
+      "title": "Data centre backlash grows, the latest on our Community Portfolio & Pimp my Portfolio with Henry Jennings",
+      "url": "https://equitymates.com/episode/data-centre-backlash-grows-the-latest-on-our-community-portfolio-pimp-my-portfolio-with-henry-jennings/",
+      "jump": "https://www.youtube.com/watch?v=giRilawtx7A&t=1320s",
+      "at": "22:00"
+     }
+    },
+    {
+     "date": "2026-10-05",
+     "when": "October 2026",
+     "text": "In October 2026, Equity Mates noted HUB24 led platform inflows for 10 straight quarters, lifted market share from 8.6% to 9.9%, and was used by 37% of Australian financial advisers, supporting sustained adoption and rising funds under administration.",
+     "episode": {
+      "title": "Our Monthly Portfolio Update – September 2026",
+      "url": "https://equitymates.com/episode/our-monthly-portfolio-update-september-2026/",
+      "jump": "https://www.youtube.com/watch?v=vCFjzqwKHz8&t=1669s",
+      "at": "27:49"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2026-09-30",
+     "when": "September 2026",
+     "text": "In September 2026, a guest on Equity Mates said Hub24’s Innovation Labs worked with Amazon, Microsoft, Google and OpenAI to develop advisor‑focused AI capabilities, expecting localised solutions to address Australia’s regulatory requirements for advice.",
+     "episode": {
+      "title": "HUB24’s Jason Entwistle on AI and avoiding the next advice scandal",
+      "url": "https://equitymates.com/episode/hub24s-jason-entwistle-on-ai-and-avoiding-the-next-advice-scandal/",
+      "jump": "https://www.youtube.com/watch?v=8I_QYrtvqvI&t=515s",
+      "at": "8:35"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2026-10-26",
+     "when": "October 2026",
+     "text": "In October 2026, Equity Mates said Hub24’s $4 billion quarterly inflows hadn’t convinced the market, suggesting short‑term headwinds were weighing on sentiment despite continued growth.",
+     "episode": {
+      "title": "Data centre backlash grows, the latest on our Community Portfolio & Pimp my Portfolio with Henry Jennings",
+      "url": "https://equitymates.com/episode/data-centre-backlash-grows-the-latest-on-our-community-portfolio-pimp-my-portfolio-with-henry-jennings/",
+      "jump": "https://www.youtube.com/watch?v=giRilawtx7A&t=1320s",
+      "at": "22:00"
+     }
+    },
+    {
+     "date": "2026-10-05",
+     "when": "October 2026",
+     "text": "In October 2026, Equity Mates said Hub24 and its main peer had been priced at crazy multiples during rapid growth, then were smashed, with Hub24 down 45% from its highs, framing the question of what slowdown was already priced in.",
+     "episode": {
+      "title": "Our Monthly Portfolio Update – September 2026",
+      "url": "https://equitymates.com/episode/our-monthly-portfolio-update-september-2026/",
+      "jump": "https://www.youtube.com/watch?v=vCFjzqwKHz8&t=1522s",
+      "at": "25:22"
+     }
+    }
+   ]
+  }
+ ]
+}

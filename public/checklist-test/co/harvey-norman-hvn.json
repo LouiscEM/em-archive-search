@@ -1,0 +1,126 @@
+{
+ "slug": "harvey-norman-hvn",
+ "name": "Harvey Norman",
+ "full": "Harvey Norman Holdings Ltd",
+ "listings": [
+  "ASX: HVN"
+ ],
+ "built": "2026-11-01",
+ "episodes": 5,
+ "mentioned_in": 23,
+ "latest": "2026-05-08",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2026-05-08",
+     "when": "May 2026",
+     "text": "In May 2026, Equity Mates reported large format retail centres with Harvey Norman anchors were trading strongly, with tight supply, rising rents and tenants wanting to expand, indicating robust demand for those stores.",
+     "episode": {
+      "title": "What’s Hot, What’s Not in Commercial Property with Jason Huljich",
+      "url": "https://equitymates.com/episode/whats-hot-whats-not-in-commercial-property-with-jason-huljich/",
+      "jump": "https://www.youtube.com/watch?v=AJ7TqSa4Eow&t=1530s",
+      "at": "25:30"
+     }
+    },
+    {
+     "date": "2022-11-30",
+     "when": "November 2022",
+     "text": "In November 2022, Equity Mates said Harvey Norman expected record trade over Black Friday, with the biggest sales in computers and electronics and plenty of money in the community, pointing to strong interest in its offering.",
+     "episode": {
+      "title": "Why is Black Friday 'Black'?",
+      "url": "https://equitymates.com/episode/why-is-black-friday-black/",
+      "jump": null,
+      "at": "2:59"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2025-11-04",
+     "when": "November 2025",
+     "text": "In November 2025, a guest on Equity Mates contrasted JB Hi‑Fi and Harvey Norman, noting Harvey Norman’s earnings compounded 3.7% annually over 22 years while JB Hi‑Fi took market share, framing Harvey Norman’s competitive position and growth pace.",
+     "episode": {
+      "title": "Private markets are an illusion - Tim Carleton | Auscap Asset Management",
+      "url": "https://equitymates.com/episode/private-markets-are-an-illusion-tim-carleton-auscap-asset-management/",
+      "jump": null,
+      "at": "27:38"
+     }
+    },
+    {
+     "date": "2025-04-11",
+     "when": "April 2025",
+     "text": "In April 2025, Equity Mates highlighted that large format retail centres featuring Harvey Norman had performed well through recent years, suggesting resilience in the big‑box format that hosts its stores.",
+     "episode": {
+      "title": "Office Pain, Industrial Gain: Opportunities in Commercial Property - Jason Huljich | Centuria",
+      "url": "https://equitymates.com/episode/office-pain-industrial-gain-opportunities-in-commercial-property-jason-huljich-centuria/",
+      "jump": "https://www.youtube.com/watch?v=yw91ZusVxZQ&t=1801s",
+      "at": "30:01"
+     }
+    },
+    {
+     "date": "2021-03-13",
+     "when": "March 2021",
+     "text": "In March 2021, a guest on Equity Mates described Harvey Norman as one of the strongest retailers, with a large property portfolio and a long way to go in online, implying structural strengths and potential growth runway.",
+     "episode": {
+      "title": "Expert Investor: Tom Millner – Contact Asset Management – 5 steps to find a quality company",
+      "url": "https://equitymates.com/episode/expert-investor-tom-millner-contact-asset-management-5-steps-to-find-a-quality-company/",
+      "jump": "https://www.youtube.com/watch?v=8dvvo-RWcGU&t=2810s",
+      "at": "46:50"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2021-03-13",
+     "when": "March 2021",
+     "text": "In March 2021, a guest on Equity Mates noted Harvey Norman’s property book was enormous and not fixed in use, suggesting management had optionality to redevelop sites over 10 to 15 years as part of long‑term capital allocation.",
+     "episode": {
+      "title": "Expert Investor: Tom Millner – Contact Asset Management – 5 steps to find a quality company",
+      "url": "https://equitymates.com/episode/expert-investor-tom-millner-contact-asset-management-5-steps-to-find-a-quality-company/",
+      "jump": "https://www.youtube.com/watch?v=8dvvo-RWcGU&t=2810s",
+      "at": "46:50"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2025-11-04",
+     "when": "November 2025",
+     "text": "In November 2025, a guest on Equity Mates observed Harvey Norman often traded on a lower multiple and had compounded earnings at 3.7% per year over 22 years, providing context for how the market priced its slower growth history.",
+     "episode": {
+      "title": "Private markets are an illusion - Tim Carleton | Auscap Asset Management",
+      "url": "https://equitymates.com/episode/private-markets-are-an-illusion-tim-carleton-auscap-asset-management/",
+      "jump": null,
+      "at": "27:38"
+     }
+    },
+    {
+     "date": "2021-03-13",
+     "when": "March 2021",
+     "text": "In March 2021, a guest on Equity Mates said Harvey Norman’s property book underpinned most of the share price at current value, indicating real estate was a key component of how the company was valued.",
+     "episode": {
+      "title": "Expert Investor: Tom Millner – Contact Asset Management – 5 steps to find a quality company",
+      "url": "https://equitymates.com/episode/expert-investor-tom-millner-contact-asset-management-5-steps-to-find-a-quality-company/",
+      "jump": "https://www.youtube.com/watch?v=8dvvo-RWcGU&t=2810s",
+      "at": "46:50"
+     }
+    }
+   ]
+  }
+ ]
+}

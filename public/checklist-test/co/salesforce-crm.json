@@ -1,0 +1,137 @@
+{
+ "slug": "salesforce-crm",
+ "name": "Salesforce",
+ "full": "Salesforce",
+ "listings": [
+  "NYSE: CRM"
+ ],
+ "built": "2026-10-30",
+ "episodes": 5,
+ "mentioned_in": 57,
+ "latest": "2026-03-10",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2022-03-11",
+     "when": "March 2022",
+     "text": "In March 2022, a guest on Equity Mates described Salesforce as essential enterprise software, saying there was no business that could do without it and calling out its role as a core platform for how enterprises run.",
+     "episode": {
+      "title": "Talking Money To Us | Jules Cooper - Senior Analyst at Shaw & Partners",
+      "url": "https://equitymates.com/episode/talking-money-to-us/",
+      "jump": null,
+      "at": "27:49"
+     }
+    },
+    {
+     "date": "2020-12-06",
+     "when": "December 2020",
+     "text": "In December 2020, a guest on Equity Mates said Salesforce’s acquisition of Slack made a lot of sense strategically, expecting the product to be very successful under Salesforce’s ownership and strengthening its workplace collaboration offering.",
+     "episode": {
+      "title": "Expert Investor: Hamish Corlett & Why He Pitched Slack At Sohn Hearts & Minds | TDM Growth Partners",
+      "url": "https://equitymates.com/episode/expert-investor-hamish-corlett-why-he-pitched-slack-at-sohn-hearts-minds-tdm-growth-partners/",
+      "jump": null,
+      "at": "17:08"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2026-03-10",
+     "when": "March 2026",
+     "text": "In March 2026, Equity Mates discussed Salesforce’s resilience from brand and trust, noting companies were unlikely to rip out enterprise software, though AI created a do‑it‑yourself alternative that could pressure pricing and increase competition.",
+     "episode": {
+      "title": "War in Iran, AI Disruption & the Software Selloff: Where Todd Hoare sees Opportunity",
+      "url": "https://equitymates.com/episode/war-in-iran-ai-disruption-the-software-selloff-where-todd-hoare-sees-opportunity/",
+      "jump": "https://www.youtube.com/watch?v=NLcxpQw1TGg&t=1184s",
+      "at": "19:44"
+     }
+    },
+    {
+     "date": "2026-01-26",
+     "when": "January 2026",
+     "text": "In January 2026, Equity Mates noted Salesforce’s revenue was up 9% over the prior 12 months, arguing that, despite fears about AI disruption, recent numbers across large software names still showed meaningful growth.",
+     "episode": {
+      "title": "Bryce reveals 500 to 5k results, China's warning signs and are software companies on sale?",
+      "url": "https://equitymates.com/episode/bryce-reveals-500-to-5k-results-chinas-warning-signs-and-are-software-companies-on-sale/",
+      "jump": "https://www.youtube.com/watch?v=oh4zH9bZklA&t=1365s",
+      "at": "22:45"
+     }
+    },
+    {
+     "date": "2021-12-10",
+     "when": "December 2021",
+     "text": "In December 2021, Equity Mates recapped Salesforce’s takeover of Slack and said it was a no‑brainer for expanding CRM market share, highlighting Salesforce’s scale in its core market.",
+     "episode": {
+      "title": "Need To Know Bumper Edition: SOHN Hearts & Minds Investor Conference",
+      "url": "https://equitymates.com/episode/need-to-know-bumper-edition-sohn-hearts-minds-investor-conference/",
+      "jump": null,
+      "at": "17:27"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2021-12-10",
+     "when": "December 2021",
+     "text": "In December 2021, Equity Mates outlined Salesforce’s US$27 billion takeover of Slack, describing it as a strategic move to expand its platform and capture more of the CRM and collaboration workflow.",
+     "episode": {
+      "title": "Need To Know Bumper Edition: SOHN Hearts & Minds Investor Conference",
+      "url": "https://equitymates.com/episode/need-to-know-bumper-edition-sohn-hearts-minds-investor-conference/",
+      "jump": null,
+      "at": "17:27"
+     }
+    },
+    {
+     "date": "2020-12-06",
+     "when": "December 2020",
+     "text": "In December 2020, a guest on Equity Mates reflected on Salesforce acquiring Slack, saying the price was strong and the combination would likely be very successful, indicating confidence in Salesforce’s acquisition-driven growth strategy.",
+     "episode": {
+      "title": "Expert Investor: Hamish Corlett & Why He Pitched Slack At Sohn Hearts & Minds | TDM Growth Partners",
+      "url": "https://equitymates.com/episode/expert-investor-hamish-corlett-why-he-pitched-slack-at-sohn-hearts-minds-tdm-growth-partners/",
+      "jump": null,
+      "at": "17:08"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2026-01-26",
+     "when": "January 2026",
+     "text": "In January 2026, Equity Mates highlighted a broad SaaS selloff and said Salesforce was down 32% over 12 months as investors worried AI could replace some software spending with internal builds.",
+     "episode": {
+      "title": "Bryce reveals 500 to 5k results, China's warning signs and are software companies on sale?",
+      "url": "https://equitymates.com/episode/bryce-reveals-500-to-5k-results-chinas-warning-signs-and-are-software-companies-on-sale/",
+      "jump": "https://www.youtube.com/watch?v=oh4zH9bZklA&t=1148s",
+      "at": "19:08"
+     }
+    },
+    {
+     "date": "2022-03-11",
+     "when": "March 2022",
+     "text": "In March 2022, a guest on Equity Mates said Salesforce was trading at about 30 times cash while growing roughly 20%, arguing that leading enterprise software platforms could justify premium multiples.",
+     "episode": {
+      "title": "Talking Money To Us | Jules Cooper - Senior Analyst at Shaw & Partners",
+      "url": "https://equitymates.com/episode/talking-money-to-us/",
+      "jump": null,
+      "at": "27:49"
+     }
+    }
+   ]
+  }
+ ]
+}

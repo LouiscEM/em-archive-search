@@ -1,0 +1,170 @@
+{
+ "slug": "breville-brg",
+ "name": "Breville",
+ "full": "Breville",
+ "listings": [
+  "ASX: BRG"
+ ],
+ "built": "2026-11-01",
+ "episodes": 8,
+ "mentioned_in": 17,
+ "latest": "2026-02-26",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2026-02-26",
+     "when": "February 2026",
+     "text": "In February 2026, Equity Mates described Breville as synonymous with kettles and kitchen appliances and said the brand’s story went beyond coffee machines as it expanded globally.",
+     "episode": {
+      "title": "The drug beating Ozempic, Pimp my Portfolio with Luke Laretive & Australia's most popular small caps",
+      "url": "https://equitymates.com/episode/the-drug-beating-ozempic-pimp-my-portfolio-with-luke-laretive-australias-most-popular-small-caps/",
+      "jump": null,
+      "at": "28:36"
+     }
+    },
+    {
+     "date": "2024-08-26",
+     "when": "August 2024",
+     "text": "In August 2024, Equity Mates highlighted that 84% of earnings were from international markets and said revenue had doubled in five years, showing its appliances were winning overseas.",
+     "episode": {
+      "title": "Community confessions, Bryce's latest investment & Aussie companies taking on the world",
+      "url": "https://equitymates.com/episode/community-confessions-bryces-latest-investment-aussie-companies-taking-on-the-world/",
+      "jump": "https://www.youtube.com/watch?v=Zk2jKXcewPA&t=370s",
+      "at": "6:10"
+     }
+    },
+    {
+     "date": "2022-04-28",
+     "when": "April 2022",
+     "text": "In April 2022, Equity Mates noted an investor on the show called Breville a true global success in a discussion about Premier Investments’ stake, pointing to strong international performance.",
+     "episode": {
+      "title": "Expert: John Sevior - Airlie Funds Management",
+      "url": "https://equitymates.com/episode/john-sevior/",
+      "jump": "https://www.youtube.com/watch?v=fwnScXX4dfw&t=2155s",
+      "at": "35:55"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2024-08-26",
+     "when": "August 2024",
+     "text": "In August 2024, Equity Mates reported revenue up 3.5% to 1.53 billion and profit up 7.5% to 119 million, citing steady growth as Breville scaled.",
+     "episode": {
+      "title": "Community confessions, Bryce's latest investment & Aussie companies taking on the world",
+      "url": "https://equitymates.com/episode/community-confessions-bryces-latest-investment-aussie-companies-taking-on-the-world/",
+      "jump": "https://www.youtube.com/watch?v=Zk2jKXcewPA&t=342s",
+      "at": "5:42"
+     }
+    },
+    {
+     "date": "2022-04-28",
+     "when": "April 2022",
+     "text": "In April 2022, Equity Mates relayed that Breville had been a true global success, implying durable competitive strength as it grew under long-term ownership.",
+     "episode": {
+      "title": "Expert: John Sevior - Airlie Funds Management",
+      "url": "https://equitymates.com/episode/john-sevior/",
+      "jump": "https://www.youtube.com/watch?v=fwnScXX4dfw&t=2155s",
+      "at": "35:55"
+     }
+    },
+    {
+     "date": "2022-02-25",
+     "when": "February 2022",
+     "text": "In February 2022, Equity Mates said Breville flagged supply chain issues that were negatively impacting operations and outlook, framing them as pressures on margins and profitability.",
+     "episode": {
+      "title": "Our Order Pad  | Magellan Financial Group (MFG:ASX) & Pinnacle Investment Management (PNI:ASX)",
+      "url": "https://equitymates.com/episode/tmtm-friday-episode/",
+      "jump": null,
+      "at": "3:05"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2026-02-26",
+     "when": "February 2026",
+     "text": "In February 2026, Equity Mates said Breville’s story went beyond coffee machines and was globally expanding, indicating management focus on product development and entering new markets.",
+     "episode": {
+      "title": "The drug beating Ozempic, Pimp my Portfolio with Luke Laretive & Australia's most popular small caps",
+      "url": "https://equitymates.com/episode/the-drug-beating-ozempic-pimp-my-portfolio-with-luke-laretive-australias-most-popular-small-caps/",
+      "jump": null,
+      "at": "28:36"
+     }
+    },
+    {
+     "date": "2025-02-18",
+     "when": "February 2025",
+     "text": "In February 2025, a guest on Equity Mates praised how Breville was run and said its geographic expansion story was still rolling, while explaining an exit was driven by valuation rather than strategy concerns.",
+     "episode": {
+      "title": "Expert: Luke Laretive - Looking for catalysts in Aussie stocks",
+      "url": "https://equitymates.com/episode/expert-luke-laretive-looking-for-catalysts-in-aussie-stocks/",
+      "jump": "https://www.youtube.com/watch?v=j3C2KNYZryY&t=1198s",
+      "at": "19:58"
+     }
+    },
+    {
+     "date": "2024-07-29",
+     "when": "July 2024",
+     "text": "In July 2024, Equity Mates used Breville as an example of a company reinvesting in R&D and geographic expansion rather than paying out most free cash flow as dividends, to pursue higher returns.",
+     "episode": {
+      "title": "We're searching for the world's best moat, 1 million people working for you & Pimp my Portfolio",
+      "url": "https://equitymates.com/episode/were-searching-for-the-worlds-best-moat-1-million-people-working-for-you-pimp-my-portfolio/",
+      "jump": "https://www.youtube.com/watch?v=G8ubhCeZVSk&t=1233s",
+      "at": "20:33"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2025-11-04",
+     "when": "November 2025",
+     "text": "In November 2025, a guest on Equity Mates said valuations across selected retailers, including Breville, looked extended and positions were being trimmed.",
+     "episode": {
+      "title": "Private markets are an illusion - Tim Carleton | Auscap Asset Management",
+      "url": "https://equitymates.com/episode/private-markets-are-an-illusion-tim-carleton-auscap-asset-management/",
+      "jump": null,
+      "at": "37:32"
+     }
+    },
+    {
+     "date": "2025-02-18",
+     "when": "February 2025",
+     "text": "In February 2025, a guest on Equity Mates argued Breville was not worth 40 times earnings in a decelerating global economy, saying a lot of expected European growth was already priced in.",
+     "episode": {
+      "title": "Expert: Luke Laretive - Looking for catalysts in Aussie stocks",
+      "url": "https://equitymates.com/episode/expert-luke-laretive-looking-for-catalysts-in-aussie-stocks/",
+      "jump": "https://www.youtube.com/watch?v=j3C2KNYZryY&t=1198s",
+      "at": "19:58"
+     }
+    },
+    {
+     "date": "2024-10-03",
+     "when": "October 2024",
+     "text": "In October 2024, Equity Mates noted Breville shares were up 29% for the quarter, highlighting strong recent price performance.",
+     "episode": {
+      "title": "ASX's best start since 2013, is Boeing a buy after 40% drop & Pimp my Portfolio with Adam Dawes",
+      "url": "https://equitymates.com/episode/asxs-best-start-since-2013-is-boeing-a-buy-after-40-drop-pimp-my-portfolio-with-adam-dawes/",
+      "jump": "https://www.youtube.com/watch?v=jGRygXJKZD0&t=288s",
+      "at": "4:48"
+     }
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,81 @@
+{
+ "slug": "evt-evt",
+ "name": "EVT",
+ "full": "EVT Ltd",
+ "listings": [
+  "ASX: EVT"
+ ],
+ "built": "2026-11-01",
+ "episodes": 2,
+ "mentioned_in": 2,
+ "latest": "2026-01-23",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2026-01-23",
+     "when": "January 2026",
+     "text": "In January 2026, a guest on Equity Mates highlighted EVT's portfolio of Event Cinemas, Thredbo and the QT Hotels brand, plus hotels in New Zealand, as a way to play domestic tourism, noting Australia felt cheap to visitors and upcoming sporting events could drive demand.",
+     "episode": {
+      "title": "14 Bold Predictions with Andrew Brown",
+      "url": "https://equitymates.com/episode/14-bold-predictions-with-andrew-brown/",
+      "jump": "https://www.youtube.com/watch?v=i1suaRKMSsI&t=2467s",
+      "at": "41:07"
+     }
+    },
+    {
+     "date": "2025-02-24",
+     "when": "February 2025",
+     "text": "In February 2025, Equity Mates explained EVT ran Event Cinemas and owned Thredbo and other ski resorts, and offered a shareholder benefits card with discounts on movies, hotel rooms and food and beverages.",
+     "episode": {
+      "title": "Bad news for banks & miners, where did all the dividends go & stocks with freebies",
+      "url": "https://equitymates.com/episode/bad-news-for-banks-miners-where-did-all-the-dividends-go-stocks-with-freebies/",
+      "jump": "https://www.youtube.com/watch?v=hkGW5JdchqY&t=1694s",
+      "at": "28:14"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": []
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2026-01-23",
+     "when": "January 2026",
+     "text": "In January 2026, a guest on Equity Mates said EVT owned some hotel properties but was shifting to a more asset light model, keeping management rights while property investors sought around 8 to 9 per cent returns on the hard assets.",
+     "episode": {
+      "title": "14 Bold Predictions with Andrew Brown",
+      "url": "https://equitymates.com/episode/14-bold-predictions-with-andrew-brown/",
+      "jump": "https://www.youtube.com/watch?v=i1suaRKMSsI&t=2467s",
+      "at": "41:07"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2025-02-24",
+     "when": "February 2025",
+     "text": "In February 2025, Equity Mates noted EVT traded at about $12 a share and that accessing its shareholder benefits card required 500 shares, roughly $6,000 at that price.",
+     "episode": {
+      "title": "Bad news for banks & miners, where did all the dividends go & stocks with freebies",
+      "url": "https://equitymates.com/episode/bad-news-for-banks-miners-where-did-all-the-dividends-go-stocks-with-freebies/",
+      "jump": "https://www.youtube.com/watch?v=hkGW5JdchqY&t=1728s",
+      "at": "28:48"
+     }
+    }
+   ]
+  }
+ ]
+}

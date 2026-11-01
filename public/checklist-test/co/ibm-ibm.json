@@ -1,0 +1,114 @@
+{
+ "slug": "ibm-ibm",
+ "name": "IBM",
+ "full": "IBM",
+ "listings": [
+  "NYSE: IBM"
+ ],
+ "built": "2026-10-30",
+ "episodes": 6,
+ "mentioned_in": 50,
+ "latest": "2026-07-23",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2026-07-23",
+     "when": "July 2026",
+     "text": "In July 2026, Equity Mates said legacy computer makers like IBM were flying as unprecedented AI demand lifted hardware sales, placing IBM within the broader AI supply chain.",
+     "episode": {
+      "title": "AI & Robotics: From $300bn to $5.2 trillion in three years | The Decade Ahead",
+      "url": "https://equitymates.com/episode/ai-robotics-from-300bn-to-5-2-trillion-in-three-years-the-decade-ahead/",
+      "jump": "https://www.youtube.com/watch?v=7IRkRrOw1ho&t=1934s",
+      "at": "32:14"
+     }
+    },
+    {
+     "date": "2023-07-05",
+     "when": "July 2023",
+     "text": "In July 2023, Equity Mates explained IBM’s AI generated tennis commentary used match stats and specialist language input to narrate Wimbledon highlights, showing a practical entertainment application of its AI tools.",
+     "episode": {
+      "title": "Apple is the first $3 trillion company. Should I care?",
+      "url": "https://equitymates.com/episode/apple-is-the-first-3-trillion-company-should-i-care/",
+      "jump": null,
+      "at": "8:45"
+     }
+    },
+    {
+     "date": "2020-11-08",
+     "when": "November 2020",
+     "text": "In November 2020, Equity Mates noted IBM had started offering quantum computing as a service, giving organisations on-demand access to next generation compute for problems classical computers struggle with.",
+     "episode": {
+      "title": "Industry Deep Dive: Cloud 101",
+      "url": "https://equitymates.com/episode/industry-deep-dive-cloud-101/",
+      "jump": null,
+      "at": "21:51"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2024-09-13",
+     "when": "September 2024",
+     "text": "In September 2024, Equity Mates contrasted index leaders over decades, noting IBM slid from number 1 in 1980 to 53rd by 2020 and delivered about 400% in 40 years, far behind the index’s 13000%.",
+     "episode": {
+      "title": "Why Index Investing: Because indexes are forever | iShares by BlackRock",
+      "url": "https://equitymates.com/episode/why-index-investing-because-indexes-are-forever-ishares-by-blackrock/",
+      "jump": "https://www.youtube.com/watch?v=Lkic-g_SzgY&t=542s",
+      "at": "9:02"
+     }
+    },
+    {
+     "date": "2024-04-29",
+     "when": "April 2024",
+     "text": "In April 2024, Equity Mates recounted that IBM dominated in the 1980s but then fell away, illustrating how even cutting edge leaders can be disrupted over time.",
+     "episode": {
+      "title": "Why companies die but indexes are forever, Pimp my portfolio & ETF overlap",
+      "url": "https://equitymates.com/episode/why-companies-die-but-indexes-are-forever-pimp-my-portfolio-etf-overlap/",
+      "jump": "https://www.youtube.com/watch?v=90XVGbSb7WY&t=473s",
+      "at": "7:53"
+     }
+    },
+    {
+     "date": "2023-10-26",
+     "when": "October 2023",
+     "text": "In October 2023, a guest on Equity Mates described IBM’s 1970s antitrust battle as evidence of its once formidable market power, with legal spending outstripping the U.S. government’s antitrust division annually.",
+     "episode": {
+      "title": "Expert: Cory Doctorow - This guy HATES big tech & plans to change it",
+      "url": "https://equitymates.com/episode/expert-cory-doctorow-this-guy-hates-big-tech-plans-to-change-it/",
+      "jump": null,
+      "at": "16:50"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2020-11-08",
+     "when": "November 2020",
+     "text": "In November 2020, Equity Mates highlighted IBM’s acquisition of Red Hat as part of big tech’s push into cloud, using deals to expand product suites and innovation capacity.",
+     "episode": {
+      "title": "Industry Deep Dive: Cloud 101",
+      "url": "https://equitymates.com/episode/industry-deep-dive-cloud-101/",
+      "jump": null,
+      "at": "54:44"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

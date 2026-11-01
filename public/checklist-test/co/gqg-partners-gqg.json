@@ -1,0 +1,81 @@
+{
+ "slug": "gqg-partners-gqg",
+ "name": "GQG Partners",
+ "full": "GQG Partners",
+ "listings": [
+  "ASX: GQG"
+ ],
+ "built": "2026-11-01",
+ "episodes": 2,
+ "mentioned_in": 4,
+ "latest": "2025-03-04",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2025-03-04",
+     "when": "March 2025",
+     "text": "In March 2025, Equity Mates explained GQG Partners is a global fund manager offering global equities strategies, including emerging markets, US and ex US, managing money for institutions and earning fees on assets under management.",
+     "episode": {
+      "title": "Buy or Sell: Ben Richards - WiseTech, Guzman y Gomez, Catapult, Antipa Minerals and more",
+      "url": "https://equitymates.com/episode/buy-or-sell-ben-richards-wisetech-guzman-y-gomez-catapult-antipa-minerals-and-more/",
+      "jump": "https://www.youtube.com/watch?v=SQ-HbCPpNto&t=147s",
+      "at": "2:27"
+     }
+    },
+    {
+     "date": "2022-06-23",
+     "when": "June 2022",
+     "text": "In June 2022, Equity Mates introduced GQG Partners as an asset manager that scaled from 0 to about 100 billion in assets in remarkable time and discussed its founding story, highlighting how the firm was set up to manage money globally.",
+     "episode": {
+      "title": "Zero to 100 (billion) in six years - Tim Carver of GQG Partners | ASX CEO Connect Series",
+      "url": "https://equitymates.com/episode/zero-to-100-billion-in-six-years-tim-carver-of-gqg-partners-asx-ceo-connect-series/",
+      "jump": null,
+      "at": "1:19"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2025-03-04",
+     "when": "March 2025",
+     "text": "In March 2025, Equity Mates said GQG Partners prioritised management fees over performance fees, getting paid a percentage of total assets under management rather than on investment outperformance, outlining how its revenue model worked.",
+     "episode": {
+      "title": "Buy or Sell: Ben Richards - WiseTech, Guzman y Gomez, Catapult, Antipa Minerals and more",
+      "url": "https://equitymates.com/episode/buy-or-sell-ben-richards-wisetech-guzman-y-gomez-catapult-antipa-minerals-and-more/",
+      "jump": "https://www.youtube.com/watch?v=SQ-HbCPpNto&t=147s",
+      "at": "2:27"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2025-03-04",
+     "when": "March 2025",
+     "text": "In March 2025, Equity Mates noted ASX GQG was trading at $2.33 and that it IPOd at about $2 per share, while 2024 net inflows doubled from 10 billion to 20 billion, providing recent price context.",
+     "episode": {
+      "title": "Buy or Sell: Ben Richards - WiseTech, Guzman y Gomez, Catapult, Antipa Minerals and more",
+      "url": "https://equitymates.com/episode/buy-or-sell-ben-richards-wisetech-guzman-y-gomez-catapult-antipa-minerals-and-more/",
+      "jump": "https://www.youtube.com/watch?v=SQ-HbCPpNto&t=147s",
+      "at": "2:27"
+     }
+    }
+   ]
+  }
+ ]
+}

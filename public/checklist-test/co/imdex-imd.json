@@ -1,0 +1,58 @@
+{
+ "slug": "imdex-imd",
+ "name": "Imdex",
+ "full": "Imdex",
+ "listings": [
+  "ASX: IMD"
+ ],
+ "built": "2026-11-01",
+ "episodes": 1,
+ "mentioned_in": 1,
+ "latest": "2024-06-11",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2024-06-11",
+     "when": "June 2024",
+     "text": "In June 2024, a guest on Equity Mates described Imdex as a global leader in mining technology specialising in downhole navigation, with solutions that helped miners get rocks out faster and understand the orebody, especially as deposits became deeper and lower grade.",
+     "episode": {
+      "title": "Buy or Sell: Lucas Goode - Xero, NextDC, Brainchip, Cettire + more",
+      "url": "https://equitymates.com/episode/buy-or-sell-lucas-goode-xero-nextdc-brainchip-cettire-more/",
+      "jump": "https://www.youtube.com/watch?v=k6x_OwWwzyM&t=377s",
+      "at": "6:17"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2024-06-11",
+     "when": "June 2024",
+     "text": "In June 2024, a guest on Equity Mates said the energy transition would require more commodities and tougher, lower-grade deposits, so miners would likely allocate more spending to service providers like Imdex, implying sustained demand for its solutions.",
+     "episode": {
+      "title": "Buy or Sell: Lucas Goode - Xero, NextDC, Brainchip, Cettire + more",
+      "url": "https://equitymates.com/episode/buy-or-sell-lucas-goode-xero-nextdc-brainchip-cettire-more/",
+      "jump": "https://www.youtube.com/watch?v=k6x_OwWwzyM&t=377s",
+      "at": "6:17"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

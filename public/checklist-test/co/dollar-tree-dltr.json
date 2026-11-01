@@ -1,0 +1,57 @@
+{
+ "slug": "dollar-tree-dltr",
+ "name": "Dollar Tree",
+ "full": "Dollar Tree",
+ "listings": [
+  "NASDAQ: DLTR"
+ ],
+ "built": "2026-11-01",
+ "episodes": 2,
+ "mentioned_in": 3,
+ "latest": "2026-04-10",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": []
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2026-04-10",
+     "when": "April 2026",
+     "text": "In April 2026, a guest on Equity Mates said discount chains like Dollar Tree benefited as consumers traded down from Walmart in a K-shaped US economy, noting Dollar Tree was up 65% over 12 months while discussing macro sensitivity alongside a bottom-up turnaround thesis.",
+     "episode": {
+      "title": "Finding opportunities in well-known names with Ryan Joyce",
+      "url": "https://equitymates.com/episode/finding-opportunities-in-well-known-names-with-ryan-joyce/",
+      "jump": "https://www.youtube.com/watch?v=qNiwsfvSELk&t=1745s",
+      "at": "29:05"
+     }
+    },
+    {
+     "date": "2022-09-05",
+     "when": "September 2022",
+     "text": "In September 2022, Equity Mates noted Dollar Tree reported strong numbers as US consumers traded down, with Walmart seeing shoppers opt for cheaper goods, and said signs of a weaker consumer were emerging but had not yet shown up in the company results.",
+     "episode": {
+      "title": "Reporting season is (finally) over. What did we learn?",
+      "url": "https://equitymates.com/episode/reporting-season-is-finally-over-what-did-we-learn/",
+      "jump": "https://www.youtube.com/watch?v=-5y9AvNuURQ&t=2205s",
+      "at": "36:45"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

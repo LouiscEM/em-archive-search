@@ -1,0 +1,46 @@
+{
+ "slug": "interglobe-aviation-indigo",
+ "name": "Interglobe Aviation",
+ "full": "Interglobe Aviation",
+ "listings": [
+  "NSE: INDIGO"
+ ],
+ "built": "2026-11-01",
+ "episodes": 1,
+ "mentioned_in": 1,
+ "latest": "2024-02-27",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2024-02-27",
+     "when": "February 2024",
+     "text": "In February 2024, Equity Mates cited Interglobe Aviation's website describing a simple philosophy of affordable fares, on-time flights and a courteous, hassle free travel experience, using it to outline the airline's core service offering.",
+     "episode": {
+      "title": "Buy or Sell: Adam Keily with Julian McCormack",
+      "url": "https://equitymates.com/episode/buy-or-sell-adam-keily-with-julian-mccormack/",
+      "jump": "https://www.youtube.com/watch?v=OatW5fbnfqk&t=185s",
+      "at": "3:05"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": []
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

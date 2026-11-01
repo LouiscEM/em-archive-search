@@ -1,0 +1,81 @@
+{
+ "slug": "atlanta-braves-batrk",
+ "name": "Atlanta Braves",
+ "full": "Atlanta Braves",
+ "listings": [
+  "NASDAQ: BATRK"
+ ],
+ "built": "2026-11-01",
+ "episodes": 2,
+ "mentioned_in": 3,
+ "latest": "2023-10-30",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2023-10-30",
+     "when": "October 2023",
+     "text": "In October 2023, Equity Mates noted the Atlanta Braves topped the National League, pointing to on‑field success that supported strong fan interest and demand.",
+     "episode": {
+      "title": "Big Tech earnings, investing in Formula One & should Bryce go fixed or variable?",
+      "url": "https://equitymates.com/episode/big-tech-earnings-investing-in-formula-one-should-bryce-go-fixed-or-variable/",
+      "jump": "https://www.youtube.com/watch?v=jMr_XfUJU_Y&t=1674s",
+      "at": "27:54"
+     }
+    },
+    {
+     "date": "2023-01-23",
+     "when": "January 2023",
+     "text": "In January 2023, Equity Mates explained the Braves encompassed the team, the stadium and surplus property being redeveloped around it, broadening the game‑day offering beyond just baseball.",
+     "episode": {
+      "title": "What next for Formula One? - Liberty Media | Summer Series",
+      "url": "https://equitymates.com/episode/what-next-for-formula-one-liberty-media-summer-series/",
+      "jump": "https://www.youtube.com/watch?v=Dv370i3KifM&t=796s",
+      "at": "13:16"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": []
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2023-01-23",
+     "when": "January 2023",
+     "text": "In January 2023, Equity Mates said the Braves included significant surplus property being redeveloped around the stadium, indicating ongoing investment linked to the franchise’s precinct.",
+     "episode": {
+      "title": "What next for Formula One? - Liberty Media | Summer Series",
+      "url": "https://equitymates.com/episode/what-next-for-formula-one-liberty-media-summer-series/",
+      "jump": "https://www.youtube.com/watch?v=Dv370i3KifM&t=796s",
+      "at": "13:16"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2023-01-23",
+     "when": "January 2023",
+     "text": "In January 2023, Equity Mates said the Braves traded roughly in line with Forbes’ valuation of about 2.7 billion when including debt, using that benchmark to frame how the market priced the team.",
+     "episode": {
+      "title": "What next for Formula One? - Liberty Media | Summer Series",
+      "url": "https://equitymates.com/episode/what-next-for-formula-one-liberty-media-summer-series/",
+      "jump": "https://www.youtube.com/watch?v=Dv370i3KifM&t=796s",
+      "at": "13:16"
+     }
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,92 @@
+{
+ "slug": "freddie-mac-fmcc",
+ "name": "Freddie Mac",
+ "full": "Freddie Mac",
+ "listings": [
+  "OTC: FMCC"
+ ],
+ "built": "2026-11-01",
+ "episodes": 4,
+ "mentioned_in": 4,
+ "latest": "2026-10-29",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2026-08-13",
+     "when": "August 2026",
+     "text": "In August 2026, Equity Mates described Freddie Mac as a company that packages up mortgages and on-sells them, outlining its role in the US housing finance system.",
+     "episode": {
+      "title": "3 impressive Aussie companies, how often should you invest & don’t listen to Michael Burry",
+      "url": "https://equitymates.com/episode/3-impressive-aussie-companies-how-often-should-you-invest-dont-listen-to-michael-burry/",
+      "jump": "https://www.youtube.com/watch?v=i9_g__QJyOI&t=1833s",
+      "at": "30:33"
+     }
+    },
+    {
+     "date": "2024-08-06",
+     "when": "August 2024",
+     "text": "In August 2024, a guest on Equity Mates explained that Fannie Mae and Freddie Mac proposed allowing homeowners to take a second mortgage and redraw at their original rate, noting US mortgages are typically fixed for 30 years.",
+     "episode": {
+      "title": "Expert: Chris Judd - The biggest change creates the biggest opportunities",
+      "url": "https://equitymates.com/episode/expert-chris-judd-the-biggest-change-creates-the-biggest-opportunities/",
+      "jump": "https://www.youtube.com/watch?v=KwDD2k-QuQQ&t=1414s",
+      "at": "23:34"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2026-10-29",
+     "when": "October 2026",
+     "text": "In October 2026, a guest on Equity Mates described Fannie Mae and Freddie Mac as a duopoly and a royalty on the US mortgage market, noting they rebuilt capital while in conservatorship.",
+     "episode": {
+      "title": "Bill Ackman on building the next Berkshire, AI & his next 10-bagger",
+      "url": "https://equitymates.com/episode/bill-ackman-on-building-the-next-berkshire-ai-his-next-10-bagger/",
+      "jump": "https://www.youtube.com/watch?v=IN8ugYE4UmE&t=4010s",
+      "at": "1:06:50"
+     }
+    },
+    {
+     "date": "2026-04-09",
+     "when": "April 2026",
+     "text": "In April 2026, Equity Mates said Freddie Mac made nearly 11 billion last year and was performing well, but uncertainty about ongoing government control affected how the market viewed it.",
+     "episode": {
+      "title": "Property prices under pressure, 3 stocks buzzing on X & a “no-brainer” Community Portfolio pitch",
+      "url": "https://equitymates.com/episode/property-prices-under-pressure-3-stocks-buzzing-on-x-a-no-brainer-community-portfolio-pitch/",
+      "jump": "https://www.youtube.com/watch?v=z2NVa2iVr7M&t=890s",
+      "at": "14:50"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2026-10-29",
+     "when": "October 2026",
+     "text": "In October 2026, a guest on Equity Mates noted Freddie Mac traded at about one to one and a half times earnings on the OTC market and said a potential re-listing and release from conservatorship were key considerations.",
+     "episode": {
+      "title": "Bill Ackman on building the next Berkshire, AI & his next 10-bagger",
+      "url": "https://equitymates.com/episode/bill-ackman-on-building-the-next-berkshire-ai-his-next-10-bagger/",
+      "jump": "https://www.youtube.com/watch?v=IN8ugYE4UmE&t=4010s",
+      "at": "1:06:50"
+     }
+    }
+   ]
+  }
+ ]
+}

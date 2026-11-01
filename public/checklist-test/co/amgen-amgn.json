@@ -1,0 +1,58 @@
+{
+ "slug": "amgen-amgn",
+ "name": "Amgen",
+ "full": "Amgen",
+ "listings": [
+  "NASDAQ: AMGN"
+ ],
+ "built": "2026-11-01",
+ "episodes": 1,
+ "mentioned_in": 2,
+ "latest": "2024-04-01",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2024-04-01",
+     "when": "April 2024",
+     "text": "In April 2024, Equity Mates said Amgen had a once-per-month injectable called maritide that delivered 15% weight loss after 85 days in trials, showing its push into obesity treatment.",
+     "episode": {
+      "title": "Lump sum or DCA, the latest on Ozempic & a baby Berkshire?",
+      "url": "https://equitymates.com/episode/lump-sum-or-dca-the-latest-on-ozempic-a-baby-berkshire/",
+      "jump": "https://www.youtube.com/watch?v=4v1jWA4_EPk&t=523s",
+      "at": "8:43"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2024-04-01",
+     "when": "April 2024",
+     "text": "In April 2024, Equity Mates described the obesity drug market as a race for market share, with Amgen’s maritide showing similar results to rivals, so competition would shape whether it sustained strong profits.",
+     "episode": {
+      "title": "Lump sum or DCA, the latest on Ozempic & a baby Berkshire?",
+      "url": "https://equitymates.com/episode/lump-sum-or-dca-the-latest-on-ozempic-a-baby-berkshire/",
+      "jump": "https://www.youtube.com/watch?v=4v1jWA4_EPk&t=523s",
+      "at": "8:43"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

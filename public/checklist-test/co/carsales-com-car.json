@@ -1,0 +1,103 @@
+{
+ "slug": "carsales-com-car",
+ "name": "Carsales.Com",
+ "full": "CAR group Limited",
+ "listings": [
+  "ASX: CAR"
+ ],
+ "built": "2026-11-01",
+ "episodes": 3,
+ "mentioned_in": 4,
+ "latest": "2025-05-06",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2023-02-10",
+     "when": "February 2023",
+     "text": "In February 2023, Equity Mates described CAR as Australia’s leading online automotive classifieds provider, spanning cars, motorbikes, boating and marine, with revenue from advertising and data services for dealers.",
+     "episode": {
+      "title": "23 Stocks for 2023 | Car Sales, Aussie Broadband and PayPal! Pt III",
+      "url": "https://equitymates.com/episode/23-stocks-for-2023-car-sales-aussie-broadband-and-paypal-pt-iii/",
+      "jump": null,
+      "at": "13:13"
+     }
+    },
+    {
+     "date": "2023-01-30",
+     "when": "January 2023",
+     "text": "In January 2023, Equity Mates said Carsales.com dominated Australian car classifieds with 6.7 times more web traffic than its nearest competitor, highlighting strong user engagement.",
+     "episode": {
+      "title": "Seriously, name a competitor - Carsales.com | Summer Series",
+      "url": "https://equitymates.com/episode/seriously-name-a-competitor-carsales-com-summer-series/",
+      "jump": "https://www.youtube.com/watch?v=uS-Io09ZLOI&t=416s",
+      "at": "6:56"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2025-05-06",
+     "when": "May 2025",
+     "text": "In May 2025, a guest on Equity Mates noted CAR’s margins were about 65% in Australia versus roughly 50% internationally, and argued rolling out Australian features abroad should lift profitability over time.",
+     "episode": {
+      "title": "Buy or Sell: William Mumford - Resmed, Commonwealth Bank, BHP & more",
+      "url": "https://equitymates.com/episode/buy-or-sell-william-mumford-resmed-commonwealth-bank-bhp-more/",
+      "jump": null,
+      "at": "18:56"
+     }
+    },
+    {
+     "date": "2023-01-30",
+     "when": "January 2023",
+     "text": "In January 2023, Equity Mates highlighted CAR’s competitive position by citing 6.7 times more web traffic than the nearest Australian competitor, suggesting strong market leadership.",
+     "episode": {
+      "title": "Seriously, name a competitor - Carsales.com | Summer Series",
+      "url": "https://equitymates.com/episode/seriously-name-a-competitor-carsales-com-summer-series/",
+      "jump": "https://www.youtube.com/watch?v=uS-Io09ZLOI&t=416s",
+      "at": "6:56"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2025-05-06",
+     "when": "May 2025",
+     "text": "In May 2025, a guest on Equity Mates detailed CAR’s acquisitions of Trader Interactive in the US and a 70% stake in Webmotors in Brazil, which made most revenue international and supported ongoing earnings growth.",
+     "episode": {
+      "title": "Buy or Sell: William Mumford - Resmed, Commonwealth Bank, BHP & more",
+      "url": "https://equitymates.com/episode/buy-or-sell-william-mumford-resmed-commonwealth-bank-bhp-more/",
+      "jump": null,
+      "at": "18:56"
+     }
+    },
+    {
+     "date": "2023-02-10",
+     "when": "February 2023",
+     "text": "In February 2023, Equity Mates said CAR expanded through strategic acquisitions of niche sites and expected further deals over coming years to broaden services and markets.",
+     "episode": {
+      "title": "23 Stocks for 2023 | Car Sales, Aussie Broadband and PayPal! Pt III",
+      "url": "https://equitymates.com/episode/23-stocks-for-2023-car-sales-aussie-broadband-and-paypal-pt-iii/",
+      "jump": null,
+      "at": "13:13"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

@@ -1,0 +1,114 @@
+{
+ "slug": "ocado-ocdo",
+ "name": "Ocado",
+ "full": "Ocado",
+ "listings": [
+  "LSE: OCDO"
+ ],
+ "built": "2026-11-01",
+ "episodes": 3,
+ "mentioned_in": 7,
+ "latest": "2023-01-17",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2023-01-17",
+     "when": "January 2023",
+     "text": "In January 2023, a guest on Equity Mates described Ocado as a UK-based online grocer whose robots packed and delivered orders, and said it partnered with supermarkets to make grocery shopping easier.",
+     "episode": {
+      "title": "Are robotics and AI about to have their moment on the ASX? | 2023 investing inspo with Global X",
+      "url": "https://equitymates.com/episode/are-robotics-and-ai-about-to-have-their-moment-on-the-asx-2023-investing-inspo-with-global-x/",
+      "jump": null,
+      "at": "22:08"
+     }
+    },
+    {
+     "date": "2022-07-18",
+     "when": "July 2022",
+     "text": "In July 2022, Equity Mates said Ocado built technology to automate grocery fulfilment and noted it being rolled out in retail settings.",
+     "episode": {
+      "title": "Great time to travel to Europe… or look at their stocks",
+      "url": "https://equitymates.com/episode/great-time-to-travel-to-europe-or-look-at-their-stocks/",
+      "jump": "https://www.youtube.com/watch?v=jVRWIC5f1Jo&t=2146s",
+      "at": "35:46"
+     }
+    },
+    {
+     "date": "2022-02-25",
+     "when": "February 2022",
+     "text": "In February 2022, a guest on Equity Mates called Ocado a UK grocery logistics company and highlighted its role building fulfilment centres through a tie-up with Coles.",
+     "episode": {
+      "title": "Bonus: William Studebacker - The future of robotics and automation | ETF Securities",
+      "url": "https://equitymates.com/episode/bonus-william-studebacker-the-future-of-robotics-and-automation-etf-securities/",
+      "jump": null,
+      "at": "29:20"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2023-01-17",
+     "when": "January 2023",
+     "text": "In January 2023, a guest on Equity Mates said Ocado partnered with supermarkets to provide robotics, adding that supermarkets were enduring businesses, which implied stable demand for Ocado’s offering.",
+     "episode": {
+      "title": "Are robotics and AI about to have their moment on the ASX? | 2023 investing inspo with Global X",
+      "url": "https://equitymates.com/episode/are-robotics-and-ai-about-to-have-their-moment-on-the-asx-2023-investing-inspo-with-global-x/",
+      "jump": null,
+      "at": "22:08"
+     }
+    },
+    {
+     "date": "2022-07-18",
+     "when": "July 2022",
+     "text": "In July 2022, Equity Mates explained Ocado shifted from an online supermarket to selling its tech, partnering with only one grocer per country, including Kroger and Coles, suggesting exclusivity that could support long-term advantages.",
+     "episode": {
+      "title": "Great time to travel to Europe… or look at their stocks",
+      "url": "https://equitymates.com/episode/great-time-to-travel-to-europe-or-look-at-their-stocks/",
+      "jump": "https://www.youtube.com/watch?v=jVRWIC5f1Jo&t=2173s",
+      "at": "36:13"
+     }
+    },
+    {
+     "date": "2022-02-25",
+     "when": "February 2022",
+     "text": "In February 2022, a guest on Equity Mates cited Ocado’s fulfilment-centre partnership with Coles as an example of major grocers relying on its logistics technology.",
+     "episode": {
+      "title": "Bonus: William Studebacker - The future of robotics and automation | ETF Securities",
+      "url": "https://equitymates.com/episode/bonus-william-studebacker-the-future-of-robotics-and-automation-etf-securities/",
+      "jump": null,
+      "at": "29:20"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2022-07-18",
+     "when": "July 2022",
+     "text": "In July 2022, Equity Mates said Ocado began as a UK e-commerce grocer before focusing on monetising its technology through exclusive supermarket partnerships, requiring partners to reach a scale threshold before working with them.",
+     "episode": {
+      "title": "Great time to travel to Europe… or look at their stocks",
+      "url": "https://equitymates.com/episode/great-time-to-travel-to-europe-or-look-at-their-stocks/",
+      "jump": "https://www.youtube.com/watch?v=jVRWIC5f1Jo&t=2173s",
+      "at": "36:13"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

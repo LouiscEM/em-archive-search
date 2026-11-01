@@ -1,0 +1,114 @@
+{
+ "slug": "l-oreal-or",
+ "name": "L'Oreal",
+ "full": "L'Oreal",
+ "listings": [
+  "EPA: OR"
+ ],
+ "built": "2026-10-30",
+ "episodes": 5,
+ "mentioned_in": 11,
+ "latest": "2025-06-02",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2023-05-05",
+     "when": "May 2023",
+     "text": "In May 2023, Equity Mates said L'Oreal was a truly global company listed in Europe but earning a large share of revenue outside Europe, highlighting the brand’s broad international reach.",
+     "episode": {
+      "title": "Under the Hood | Can I access global indexes through the ASX?",
+      "url": "https://equitymates.com/episode/under-the-hood-can-i-access-global-indexes-through-the-asx/",
+      "jump": null,
+      "at": "17:42"
+     }
+    },
+    {
+     "date": "2023-04-14",
+     "when": "April 2023",
+     "text": "In April 2023, a guest on Equity Mates discussed packaging with L'Oreal and broader industry initiatives, saying consumers were increasingly choosing products with better sustainability credentials and sometimes paying more for them.",
+     "episode": {
+      "title": "Expert: Elisa Di Marco - 5 companies driving real ESG outcomes",
+      "url": "https://equitymates.com/episode/expert-elisa-di-marco-5-companies-driving-real-esg-outcomes/",
+      "jump": null,
+      "at": "32:09"
+     }
+    },
+    {
+     "date": "2022-03-14",
+     "when": "March 2022",
+     "text": "In March 2022, Equity Mates noted L'Oreal was among companies using Microsoft’s mixed reality tools to tackle complex operational challenges, pointing to innovation in how it delivers and develops products.",
+     "episode": {
+      "title": "Compair the pair - CEOs go head to head | Quartr Reporting Season",
+      "url": "https://equitymates.com/episode/compair-the-pair-ceos-go-head-to-head-quartr-reporting-season/",
+      "jump": "https://www.youtube.com/watch?v=vY-UrZMLW64&t=2229s",
+      "at": "37:09"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2025-06-02",
+     "when": "June 2025",
+     "text": "In June 2025, Equity Mates compared beauty companies’ profitability and cited L'Oreal’s 72% gross margin alongside peers, using it to illustrate the sector’s strong unit economics.",
+     "episode": {
+      "title": "Australia's best asset class, Michael Burry sells everything & buying property with mates",
+      "url": "https://equitymates.com/episode/australias-best-asset-class-michael-burry-sells-everything-buying-property-with-mates/",
+      "jump": "https://www.youtube.com/watch?v=keGNB20JA-M&t=1155s",
+      "at": "19:15"
+     }
+    },
+    {
+     "date": "2023-03-09",
+     "when": "March 2023",
+     "text": "In March 2023, a guest on Equity Mates said L'Oreal was outperforming smaller peers in its markets and taking share, arguing stronger businesses separated themselves during tougher conditions.",
+     "episode": {
+      "title": "My High Conviction Stock: Stephen Arnold - Tractor Supply (NASDAQ: TSCO)",
+      "url": "https://equitymates.com/episode/my-high-conviction-stock-stephen-arnold-tractor-supply-nasdaq-tsco/",
+      "jump": null,
+      "at": "25:59"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2023-04-14",
+     "when": "April 2023",
+     "text": "In April 2023, a guest on Equity Mates referenced L'Oreal in conversations about packaging improvements and industry-led sustainability efforts, describing how major brands were investing to meet shifting consumer preferences.",
+     "episode": {
+      "title": "Expert: Elisa Di Marco - 5 companies driving real ESG outcomes",
+      "url": "https://equitymates.com/episode/expert-elisa-di-marco-5-companies-driving-real-esg-outcomes/",
+      "jump": null,
+      "at": "32:09"
+     }
+    },
+    {
+     "date": "2022-03-14",
+     "when": "March 2022",
+     "text": "In March 2022, Equity Mates highlighted L'Oreal’s adoption of Microsoft’s mixed reality technology, indicating ongoing investment in advanced tools to improve operations and solve complex problems.",
+     "episode": {
+      "title": "Compair the pair - CEOs go head to head | Quartr Reporting Season",
+      "url": "https://equitymates.com/episode/compair-the-pair-ceos-go-head-to-head-quartr-reporting-season/",
+      "jump": "https://www.youtube.com/watch?v=vY-UrZMLW64&t=2229s",
+      "at": "37:09"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

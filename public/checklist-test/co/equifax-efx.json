@@ -1,0 +1,92 @@
+{
+ "slug": "equifax-efx",
+ "name": "Equifax",
+ "full": "Equifax",
+ "listings": [
+  "NYSE: EFX"
+ ],
+ "built": "2026-11-01",
+ "episodes": 3,
+ "mentioned_in": 3,
+ "latest": "2024-10-11",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2024-10-11",
+     "when": "October 2024",
+     "text": "In October 2024, a guest on Equity Mates described Veda, later rebranded as Equifax in Australia, as a dominant provider of credit information to financial institutions, highlighting the core usefulness of its data service.",
+     "episode": {
+      "title": "Expert: Cameron Blanks - 3 key lessons from 20 years of private equity deals | Pacific Equity Partners",
+      "url": "https://equitymates.com/episode/expert-cameron-blanks-3-key-lessons-from-20-years-of-private-equity-deals-pacific-equity-partners/",
+      "jump": "https://www.youtube.com/watch?v=lmkJyEUBIy0&t=1868s",
+      "at": "31:08"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2024-10-11",
+     "when": "October 2024",
+     "text": "In October 2024, a guest on Equity Mates said Equifax, a global credit bureau, acquired Veda at a substantial premium after its IPO, indicating strategic value in consolidating credit data assets at scale.",
+     "episode": {
+      "title": "Expert: Cameron Blanks - 3 key lessons from 20 years of private equity deals | Pacific Equity Partners",
+      "url": "https://equitymates.com/episode/expert-cameron-blanks-3-key-lessons-from-20-years-of-private-equity-deals-pacific-equity-partners/",
+      "jump": "https://www.youtube.com/watch?v=lmkJyEUBIy0&t=2190s",
+      "at": "36:30"
+     }
+    },
+    {
+     "date": "2023-05-30",
+     "when": "May 2023",
+     "text": "In May 2023, Equity Mates recalled Equifax had a massive data breach, describing it as not ideal for a company collecting people’s credit information, which highlighted reputational and operational risks for its model.",
+     "episode": {
+      "title": "Do credit scores matter when you're investing?",
+      "url": "https://equitymates.com/episode/do-credit-scores-matter-when-youre-investing/",
+      "jump": null,
+      "at": "2:43"
+     }
+    },
+    {
+     "date": "2020-09-07",
+     "when": "September 2020",
+     "text": "In September 2020, Equity Mates cited Equifax among major companies hacked, with data taken, to illustrate cybersecurity risks faced by data-rich firms that could threaten customer trust and operations.",
+     "episode": {
+      "title": "Industry Deep Dive: Cyber Security",
+      "url": "https://equitymates.com/episode/deep-dive-cyber-security/",
+      "jump": null,
+      "at": "8:30"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2024-10-11",
+     "when": "October 2024",
+     "text": "In October 2024, a guest on Equity Mates said Equifax bought Veda, paying a substantial premium after Veda’s IPO, showing Equifax pursued growth through acquisitions to expand its credit bureau footprint.",
+     "episode": {
+      "title": "Expert: Cameron Blanks - 3 key lessons from 20 years of private equity deals | Pacific Equity Partners",
+      "url": "https://equitymates.com/episode/expert-cameron-blanks-3-key-lessons-from-20-years-of-private-equity-deals-pacific-equity-partners/",
+      "jump": "https://www.youtube.com/watch?v=lmkJyEUBIy0&t=2190s",
+      "at": "36:30"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

@@ -1,0 +1,93 @@
+{
+ "slug": "corporate-travel-management-ctd",
+ "name": "Corporate Travel Management",
+ "full": "Corporate Travel Management",
+ "listings": [
+  "ASX: CTD"
+ ],
+ "built": "2026-11-01",
+ "episodes": 2,
+ "mentioned_in": 3,
+ "latest": "2024-05-07",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2024-02-05",
+     "when": "February 2024",
+     "text": "In February 2024, a guest on Equity Mates explained Corporate Travel Management managed travel for medium to large corporates, mostly online with a call centre, and had global operations across every continent serving many multinational clients.",
+     "episode": {
+      "title": "It's all in the name - Corporate Travel Management | Summer Series",
+      "url": "https://equitymates.com/episode/its-all-in-the-name-corporate-travel-management-summer-series/",
+      "jump": "https://www.youtube.com/watch?v=qxOpdGC7JxY&t=641s",
+      "at": "10:41"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2024-05-07",
+     "when": "May 2024",
+     "text": "In May 2024, Equity Mates said profits were hit when a UK government contract delivered only a couple of million dollars instead of the expected 30 to 40 million, leading to downgraded guidance and a weaker share price.",
+     "episode": {
+      "title": "Buy or Sell: Adam Keily with Scott Phillips - Qantas, Pilbara, Cochlear & more",
+      "url": "https://equitymates.com/episode/buy-or-sell-adam-keily-with-scott-phillips-qantas-pilbara-cochlear-more/",
+      "jump": "https://www.youtube.com/watch?v=rOuRqNuREe8&t=404s",
+      "at": "6:44"
+     }
+    },
+    {
+     "date": "2024-02-05",
+     "when": "February 2024",
+     "text": "In February 2024, a guest on Equity Mates highlighted risks to long-term performance, citing key person risk with the founder as the driving force and concern if organic growth lagged beyond normal economic cycles.",
+     "episode": {
+      "title": "It's all in the name - Corporate Travel Management | Summer Series",
+      "url": "https://equitymates.com/episode/its-all-in-the-name-corporate-travel-management-summer-series/",
+      "jump": "https://www.youtube.com/watch?v=qxOpdGC7JxY&t=1548s",
+      "at": "25:48"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2024-02-05",
+     "when": "February 2024",
+     "text": "In February 2024, Equity Mates discussed growth depending on expanding global market share and operating in industry niches, noting the company had been acquiring businesses as part of its strategy.",
+     "episode": {
+      "title": "It's all in the name - Corporate Travel Management | Summer Series",
+      "url": "https://equitymates.com/episode/its-all-in-the-name-corporate-travel-management-summer-series/",
+      "jump": "https://www.youtube.com/watch?v=qxOpdGC7JxY&t=485s",
+      "at": "8:05"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2024-05-07",
+     "when": "May 2024",
+     "text": "In May 2024, Equity Mates noted the shares traded at $15.09 and that the price had fallen after guidance was downgraded when the UK government contract delivered far less profit than expected.",
+     "episode": {
+      "title": "Buy or Sell: Adam Keily with Scott Phillips - Qantas, Pilbara, Cochlear & more",
+      "url": "https://equitymates.com/episode/buy-or-sell-adam-keily-with-scott-phillips-qantas-pilbara-cochlear-more/",
+      "jump": "https://www.youtube.com/watch?v=rOuRqNuREe8&t=404s",
+      "at": "6:44"
+     }
+    }
+   ]
+  }
+ ]
+}

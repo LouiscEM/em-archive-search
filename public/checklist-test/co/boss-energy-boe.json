@@ -1,0 +1,92 @@
+{
+ "slug": "boss-energy-boe",
+ "name": "Boss Energy",
+ "full": "Boss Energy",
+ "listings": [
+  "ASX: BOE"
+ ],
+ "built": "2026-11-01",
+ "episodes": 3,
+ "mentioned_in": 7,
+ "latest": "2026-10-02",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2022-12-16",
+     "when": "December 2022",
+     "text": "In December 2022, Equity Mates outlined Boss Energy’s Honeymoon uranium project as fully permitted with $170 million of existing infrastructure and a plant that had produced and exported before, saying it could be restarted in under 12 months in South Australia.",
+     "episode": {
+      "title": "12 stocks of Christmas Pt 1 | TCL, GL1, WMT, BOE & more!",
+      "url": "https://equitymates.com/episode/12-stocks-of-christmas-pt-1-tcl-gl1-wmt-boe-more/",
+      "jump": null,
+      "at": "21:49"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2026-10-02",
+     "when": "October 2026",
+     "text": "In October 2026, a guest on Equity Mates argued Boss Energy had a shorter mine life and very high production costs, plus prior disappointments and management issues, which together increased business risk relative to other uranium names.",
+     "episode": {
+      "title": "3 of Australia’s most shorted stocks (and 2 BIG buys)",
+      "url": "https://equitymates.com/episode/3-of-australias-most-shorted-stocks-and-2-big-buys/",
+      "jump": "https://www.youtube.com/watch?v=cz1D2I7OtMA&t=106s",
+      "at": "1:46"
+     }
+    },
+    {
+     "date": "2026-03-24",
+     "when": "March 2026",
+     "text": "In March 2026, a guest on Equity Mates said Boss Energy triggered numerous red flags in their framework, leading them to short it, and noted the share price fell 40 to 50 percent afterwards.",
+     "episode": {
+      "title": "The Data Signals That Predict Winning (and Losing) Stocks with Dr. David Allen",
+      "url": "https://equitymates.com/episode/the-data-signals-that-predict-winning-and-losing-stocks-with-dr-david-allen/",
+      "jump": null,
+      "at": "42:10"
+     }
+    },
+    {
+     "date": "2022-12-16",
+     "when": "December 2022",
+     "text": "In December 2022, Equity Mates said Honeymoon aimed to be the lowest cost uranium producer in the Western world and required low upfront capital, implying potential margin advantages if the restart proceeded as planned.",
+     "episode": {
+      "title": "12 stocks of Christmas Pt 1 | TCL, GL1, WMT, BOE & more!",
+      "url": "https://equitymates.com/episode/12-stocks-of-christmas-pt-1-tcl-gl1-wmt-boe-more/",
+      "jump": null,
+      "at": "21:49"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2026-10-02",
+     "when": "October 2026",
+     "text": "In October 2026, a guest on Equity Mates cited management issues and a history of disappointments at Boss Energy, framing concerns about execution and how the company was being run.",
+     "episode": {
+      "title": "3 of Australia’s most shorted stocks (and 2 BIG buys)",
+      "url": "https://equitymates.com/episode/3-of-australias-most-shorted-stocks-and-2-big-buys/",
+      "jump": "https://www.youtube.com/watch?v=cz1D2I7OtMA&t=106s",
+      "at": "1:46"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

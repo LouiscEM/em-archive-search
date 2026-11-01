@@ -1,0 +1,92 @@
+{
+ "slug": "dollar-general-dg",
+ "name": "Dollar General",
+ "full": "Dollar General",
+ "listings": [
+  "NYSE: DG"
+ ],
+ "built": "2026-11-01",
+ "episodes": 4,
+ "mentioned_in": 4,
+ "latest": "2026-04-10",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2026-04-10",
+     "when": "April 2026",
+     "text": "In April 2026, a guest on Equity Mates described Dollar General as a US discount grocer with about 20,000 rural stores and a Value Alley selling $1 items, noting same-store sales there rose 18% year on year while total comps were up 3%.",
+     "episode": {
+      "title": "Finding opportunities in well-known names with Ryan Joyce",
+      "url": "https://equitymates.com/episode/finding-opportunities-in-well-known-names-with-ryan-joyce/",
+      "jump": "https://www.youtube.com/watch?v=qNiwsfvSELk&t=1516s",
+      "at": "25:16"
+     }
+    },
+    {
+     "date": "2022-09-05",
+     "when": "September 2022",
+     "text": "In September 2022, Equity Mates said Dollar General and Dollar Tree posted strong results as Walmart saw customers trade down, showing the dollar-store offer resonated with cost-conscious shoppers.",
+     "episode": {
+      "title": "Reporting season is (finally) over. What did we learn?",
+      "url": "https://equitymates.com/episode/reporting-season-is-finally-over-what-did-we-learn/",
+      "jump": "https://www.youtube.com/watch?v=-5y9AvNuURQ&t=2205s",
+      "at": "36:45"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2026-04-10",
+     "when": "April 2026",
+     "text": "In April 2026, a guest on Equity Mates framed Dollar General as a turnaround after being a quality compounder through the 2010s to 2023, saying a macro perfect storm, including COVID-era handouts shifting spending, dented recent performance.",
+     "episode": {
+      "title": "Finding opportunities in well-known names with Ryan Joyce",
+      "url": "https://equitymates.com/episode/finding-opportunities-in-well-known-names-with-ryan-joyce/",
+      "jump": "https://www.youtube.com/watch?v=qNiwsfvSELk&t=1516s",
+      "at": "25:16"
+     }
+    },
+    {
+     "date": "2026-02-16",
+     "when": "February 2026",
+     "text": "In February 2026, Equity Mates reported US discount chains like Dollar General cut guidance as discretionary spending weakened, highlighting pressure on sales and profitability despite luxury growth elsewhere.",
+     "episode": {
+      "title": "Pope-approved stocks, a pitch for the Community Portfolio & currency hedging explained",
+      "url": "https://equitymates.com/episode/the-vaticans-new-index-earnings-season-winners-should-you-hedge-your-etfs/",
+      "jump": "https://www.youtube.com/watch?v=vcOdC_yV2cs&t=445s",
+      "at": "7:25"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2025-10-21",
+     "when": "October 2025",
+     "text": "In October 2025, a guest on Equity Mates argued 'quality' stocks traded at about double value multiples, around 20 times vs 10 times, still growing near 6%, and cited Dollar General as one they had shorted in that pricey cohort.",
+     "episode": {
+      "title": "Buy or Sell with Ally Selby and Vihari Ross",
+      "url": "https://equitymates.com/episode/buy-or-sell-with-ally-selby-and-vihari-ross/",
+      "jump": "https://www.youtube.com/watch?v=ea1zB6_1O-c&t=1514s",
+      "at": "25:14"
+     }
+    }
+   ]
+  }
+ ]
+}

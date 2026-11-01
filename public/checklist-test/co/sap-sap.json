@@ -1,0 +1,114 @@
+{
+ "slug": "sap-sap",
+ "name": "SAP",
+ "full": "SAP",
+ "listings": [
+  "ETR: SAP"
+ ],
+ "built": "2026-10-30",
+ "episodes": 5,
+ "mentioned_in": 20,
+ "latest": "2026-01-26",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2026-01-26",
+     "when": "January 2026",
+     "text": "In January 2026, Equity Mates argued it was unrealistic to quickly build an internal SAP-style system with AI and said SAP was pretty sticky, implying customers were likely to keep using it.",
+     "episode": {
+      "title": "Bryce reveals 500 to 5k results, China's warning signs and are software companies on sale?",
+      "url": "https://equitymates.com/episode/bryce-reveals-500-to-5k-results-chinas-warning-signs-and-are-software-companies-on-sale/",
+      "jump": "https://www.youtube.com/watch?v=oh4zH9bZklA&t=1304s",
+      "at": "21:44"
+     }
+    },
+    {
+     "date": "2024-09-23",
+     "when": "September 2024",
+     "text": "In September 2024, Equity Mates described SAP as enterprise software used inside big corporates for tasks like logging sick or annual leave, highlighting it as B2B software akin to Oracle rather than consumer-facing apps.",
+     "episode": {
+      "title": "Super-for-Housing is still a bad idea, Luke Laretive returns for Pimp my Portfolio and Nick Cregan breaks down the power of real estate platforms",
+      "url": "https://equitymates.com/episode/super-for-housing-is-still-a-bad-idea-luke-laretive-returns-for-pimp-my-portfolio-and-nick-cregan-breaks-down-the-power-of-real-estate-platforms/",
+      "jump": "https://www.youtube.com/watch?v=IjBVmZowfcI&t=237s",
+      "at": "3:57"
+     }
+    },
+    {
+     "date": "2021-07-25",
+     "when": "July 2021",
+     "text": "In July 2021, Equity Mates said SAP was ingrained in large companies’ processes, like lodging leave, and noted people often found it annoying yet unavoidable, pointing to product stickiness.",
+     "episode": {
+      "title": "Country Deep Dive: Germany's export giants | DAX 30",
+      "url": "https://equitymates.com/episode/country-deep-dive-germanys-export-giants-dax-30/",
+      "jump": null,
+      "at": "17:14"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2026-01-26",
+     "when": "January 2026",
+     "text": "In January 2026, Equity Mates discussed market concerns that AI could let companies build similar tools in-house, signalling potential turbulence for SaaS names including SAP.",
+     "episode": {
+      "title": "Bryce reveals 500 to 5k results, China's warning signs and are software companies on sale?",
+      "url": "https://equitymates.com/episode/bryce-reveals-500-to-5k-results-chinas-warning-signs-and-are-software-companies-on-sale/",
+      "jump": "https://www.youtube.com/watch?v=oh4zH9bZklA&t=1148s",
+      "at": "19:08"
+     }
+    },
+    {
+     "date": "2025-10-17",
+     "when": "October 2025",
+     "text": "In October 2025, a guest on Equity Mates cited SAP as one of Europe’s standout companies but said heavy regulation in the region could hamstring businesses, shaping the competitive environment.",
+     "episode": {
+      "title": "How Loftus Peak Keeps beating the Market - And What They’re Buying Now | Alex Pollak",
+      "url": "https://equitymates.com/episode/how-loftus-peak-keeps-beating-the-market-and-what-theyre-buying-now-alex-pollak/",
+      "jump": "https://www.youtube.com/watch?v=u_i9UTHlTkg&t=1620s",
+      "at": "27:00"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2026-01-26",
+     "when": "January 2026",
+     "text": "In January 2026, Equity Mates contrasted a SaaS index’s decline with the NASDAQ’s rise and said the market was pricing in AI-driven risks for software sellers like SAP, contributing to underperformance.",
+     "episode": {
+      "title": "Bryce reveals 500 to 5k results, China's warning signs and are software companies on sale?",
+      "url": "https://equitymates.com/episode/bryce-reveals-500-to-5k-results-chinas-warning-signs-and-are-software-companies-on-sale/",
+      "jump": "https://www.youtube.com/watch?v=oh4zH9bZklA&t=1148s",
+      "at": "19:08"
+     }
+    },
+    {
+     "date": "2025-03-07",
+     "when": "March 2025",
+     "text": "In March 2025, a guest on Equity Mates said Germany and SAP had driven Euro Stoxx gains as investors used SAP as a proxy when they could not buy US mega-cap tech, pushing prices higher.",
+     "episode": {
+      "title": "Volatility is back, so are the opportunities - Seb Mullins | Schroders",
+      "url": "https://equitymates.com/episode/volatility-is-back-so-are-the-opportunities-seb-mullins-schroders/",
+      "jump": "https://www.youtube.com/watch?v=ea2Vi2rW91Y&t=612s",
+      "at": "10:12"
+     }
+    }
+   ]
+  }
+ ]
+}

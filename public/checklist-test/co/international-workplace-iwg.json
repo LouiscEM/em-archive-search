@@ -1,0 +1,58 @@
+{
+ "slug": "international-workplace-iwg",
+ "name": "International Workplace",
+ "full": "International Workplace Group",
+ "listings": [
+  "LON: IWG"
+ ],
+ "built": "2026-11-01",
+ "episodes": 1,
+ "mentioned_in": 1,
+ "latest": "2026-06-05",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2026-06-05",
+     "when": "June 2026",
+     "text": "In June 2026, Equity Mates described IWG’s coworking offering as attractive for companies avoiding five-year leases by choosing flexible shared space. Research cited suggested coworking could reach 10% to 30% of global office space by 2030, with landlords even dedicating multiple floors to it.",
+     "episode": {
+      "title": "4 anti-hype anti-AI compounders, with Chloe Stokes and James Rodda",
+      "url": "https://equitymates.com/episode/4-anti-hype-anti-ai-compounders-with-chloe-stokes-and-james-rodda/",
+      "jump": "https://www.youtube.com/watch?v=75IdXtaF2YY&t=391s",
+      "at": "6:31"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2026-06-05",
+     "when": "June 2026",
+     "text": "In June 2026, Equity Mates argued AI was a tailwind for IWG because expanding firms preferred flexible offices and landlords increasingly included coworking floors. They pointed to forecasts that coworking could grow from about 2% in the US to 10% to 30% globally by 2030.",
+     "episode": {
+      "title": "4 anti-hype anti-AI compounders, with Chloe Stokes and James Rodda",
+      "url": "https://equitymates.com/episode/4-anti-hype-anti-ai-compounders-with-chloe-stokes-and-james-rodda/",
+      "jump": "https://www.youtube.com/watch?v=75IdXtaF2YY&t=391s",
+      "at": "6:31"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

@@ -1,0 +1,46 @@
+{
+ "slug": "palantir-technologies-pltr",
+ "name": "Palantir Technologies",
+ "full": "Palantir Technologies",
+ "listings": [
+  "NYSE: PLTR"
+ ],
+ "built": "2026-11-01",
+ "episodes": 1,
+ "mentioned_in": 4,
+ "latest": "2026-10-22",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2026-10-22",
+     "when": "October 2026",
+     "text": "In October 2026, a guest on Equity Mates said Palantir brought together an organisation's scattered data and used an AI tool to help businesses make better decisions, and noted it did extensive work with the US government and large defence and private sector contracts, showing how important the product was.",
+     "episode": {
+      "title": "From maxing out credit cards in his 20’s to building a $100K portfolio by 32",
+      "url": "https://equitymates.com/episode/from-maxing-out-credit-cards-in-his-20s-to-building-a-100k-portfolio-by-32/",
+      "jump": "https://www.youtube.com/watch?v=nV2kLej0qWk&t=1239s",
+      "at": "20:39"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": []
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

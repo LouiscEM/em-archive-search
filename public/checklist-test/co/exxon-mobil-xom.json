@@ -1,0 +1,80 @@
+{
+ "slug": "exxon-mobil-xom",
+ "name": "Exxon Mobil",
+ "full": "Exxon Mobil",
+ "listings": [
+  "NYSE: XOM"
+ ],
+ "built": "2026-11-01",
+ "episodes": 3,
+ "mentioned_in": 4,
+ "latest": "2021-06-30",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": []
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2021-06-30",
+     "when": "June 2021",
+     "text": "In June 2021, Equity Mates argued ethical fund flows influenced executives and share prices, noting Exxon Mobil was unlikely to pivot to a solar business, which raised questions about how sustainability pressures could affect its long-term strategy and profitability.",
+     "episode": {
+      "title": "Expert Investor: Scott Phillips from the Motley Fool on sensible investing and sensationalist advertising",
+      "url": "https://equitymates.com/episode/expert-investor-scott-phillips-from-the-motley-fool-on-sensible-investing-and-sensationalist-advertising/",
+      "jump": null,
+      "at": "32:23"
+     }
+    },
+    {
+     "date": "2020-10-08",
+     "when": "October 2020",
+     "text": "In October 2020, Equity Mates discussed Exxon Mobil after its removal from the Dow, saying low oil prices risked reserve write-downs because fields only profitable at higher prices could not be booked, which challenged future production and profits.",
+     "episode": {
+      "title": "Expert Investor: Andrew Brown - Finding Opportunities in 2020",
+      "url": "https://equitymates.com/episode/expert-investor-andrew-brown-finding-opportunities-in-2020/",
+      "jump": null,
+      "at": "32:31"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2021-06-13",
+     "when": "June 2021",
+     "text": "In June 2021, Equity Mates compared financing flows to industry spending and said Exxon Mobil invested about 7 billion in exploration and drilling over five years, which framed how much it was ploughing back into finding new reserves.",
+     "episode": {
+      "title": "3 stocks that are surprisingly unethical",
+      "url": "https://equitymates.com/episode/3-stocks-that-are-surprisingly-unethical/",
+      "jump": "https://www.youtube.com/watch?v=4nDF0cJ0-ks&t=1564s",
+      "at": "26:04"
+     }
+    },
+    {
+     "date": "2020-10-08",
+     "when": "October 2020",
+     "text": "In October 2020, Equity Mates said many oil companies, including Exxon Mobil, had been poor performers and had over distributed through dividends and debt-fuelled buybacks, highlighting capital allocation choices that constrained flexibility.",
+     "episode": {
+      "title": "Expert Investor: Andrew Brown - Finding Opportunities in 2020",
+      "url": "https://equitymates.com/episode/expert-investor-andrew-brown-finding-opportunities-in-2020/",
+      "jump": null,
+      "at": "32:31"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

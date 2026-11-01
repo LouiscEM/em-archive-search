@@ -1,0 +1,126 @@
+{
+ "slug": "endeavour-edv",
+ "name": "Endeavour",
+ "full": "Endeavour Group",
+ "listings": [
+  "ASX: EDV"
+ ],
+ "built": "2026-10-30",
+ "episodes": 5,
+ "mentioned_in": 20,
+ "latest": "2023-10-30",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2023-02-22",
+     "when": "February 2023",
+     "text": "In February 2023, Equity Mates noted Endeavour said its fastest growing product at BWS was Suntory -196 premix, showing the range adapted to shifting drinking trends.",
+     "episode": {
+      "title": "\"The buffers are breached on half our loan book\" - What is Westpac worried about?",
+      "url": "https://equitymates.com/episode/the-buffers-are-breached-on-half-our-loan-book-what-is-westpac-worried-about/",
+      "jump": null,
+      "at": "37:22"
+     }
+    },
+    {
+     "date": "2022-08-29",
+     "when": "August 2022",
+     "text": "In August 2022, Equity Mates described Endeavour’s mix of Dan Murphy’s and BWS with 344 hotels, noting liquor retail boomed during lockdowns while hotels later became the growth driver, showing the service met demand across very different settings.",
+     "episode": {
+      "title": "Disney is getting into sports betting + Earnings wrap",
+      "url": "https://equitymates.com/episode/disney-is-getting-into-sports-betting-earnings-wrap/",
+      "jump": "https://www.youtube.com/watch?v=z1dcF7VKMsM&t=456s",
+      "at": "7:36"
+     }
+    },
+    {
+     "date": "2022-07-04",
+     "when": "July 2022",
+     "text": "In July 2022, Equity Mates said Endeavour owned BWS and Dan Murphy’s and was the largest owner of hotels and pubs in Australia, highlighting the brand recognition and national footprint of its venues and stores.",
+     "episode": {
+      "title": "Macquarie's 16 recession-proof stocks",
+      "url": "https://equitymates.com/episode/macquaries-16-recession-proof-stocks/",
+      "jump": "https://www.youtube.com/watch?v=T4ttySx-d7M&t=1055s",
+      "at": "17:35"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2022-08-29",
+     "when": "August 2022",
+     "text": "In August 2022, Equity Mates said revenue was flat at $11.6 billion but profit rose 11% and dividends 10%, with hotels overtaking as the main growth driver, indicating the business mix supported profitability through changing conditions.",
+     "episode": {
+      "title": "Disney is getting into sports betting + Earnings wrap",
+      "url": "https://equitymates.com/episode/disney-is-getting-into-sports-betting-earnings-wrap/",
+      "jump": "https://www.youtube.com/watch?v=z1dcF7VKMsM&t=456s",
+      "at": "7:36"
+     }
+    },
+    {
+     "date": "2022-06-29",
+     "when": "June 2022",
+     "text": "In June 2022, Equity Mates reported Endeavour presented immediate pay rises and active hiring as signs of strong demand and a healthy cash position in its pubs and hotels.",
+     "episode": {
+      "title": "What does a soft landing even look like?",
+      "url": "https://equitymates.com/episode/what-does-a-soft-landing-even-look-like/",
+      "jump": null,
+      "at": "12:18"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2022-08-29",
+     "when": "August 2022",
+     "text": "In August 2022, Equity Mates highlighted a 10% dividend increase, noting cash returned to shareholders alongside a pivot to hotels as the key growth engine post-lockdowns.",
+     "episode": {
+      "title": "Disney is getting into sports betting + Earnings wrap",
+      "url": "https://equitymates.com/episode/disney-is-getting-into-sports-betting-earnings-wrap/",
+      "jump": "https://www.youtube.com/watch?v=z1dcF7VKMsM&t=456s",
+      "at": "7:36"
+     }
+    },
+    {
+     "date": "2022-06-29",
+     "when": "June 2022",
+     "text": "In June 2022, Equity Mates said Endeavour sought to hire 800 people and bring forward award pay rises to tackle staff shortages, indicating reinvestment in operations to meet venue demand.",
+     "episode": {
+      "title": "What does a soft landing even look like?",
+      "url": "https://equitymates.com/episode/what-does-a-soft-landing-even-look-like/",
+      "jump": null,
+      "at": "11:32"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2023-10-30",
+     "when": "October 2023",
+     "text": "In October 2023, Equity Mates used Woolworths’ demerger of Endeavour to illustrate how separating assets can unlock better valuations than remaining in a conglomerate, drawing a parallel with other spin-offs.",
+     "episode": {
+      "title": "Big Tech earnings, investing in Formula One & should Bryce go fixed or variable?",
+      "url": "https://equitymates.com/episode/big-tech-earnings-investing-in-formula-one-should-bryce-go-fixed-or-variable/",
+      "jump": "https://www.youtube.com/watch?v=jMr_XfUJU_Y&t=1525s",
+      "at": "25:25"
+     }
+    }
+   ]
+  }
+ ]
+}

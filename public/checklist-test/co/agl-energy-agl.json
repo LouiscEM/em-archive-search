@@ -1,0 +1,92 @@
+{
+ "slug": "agl-energy-agl",
+ "name": "AGL Energy",
+ "full": "AGL Energy",
+ "listings": [
+  "ASX: AGL"
+ ],
+ "built": "2026-11-01",
+ "episodes": 3,
+ "mentioned_in": 5,
+ "latest": "2022-09-06",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2022-06-03",
+     "when": "June 2022",
+     "text": "In June 2022, Equity Mates noted AGL Energy was Australia's largest electricity generator when discussing the company’s scrapped demerger, highlighting the scale of its power operations.",
+     "episode": {
+      "title": "Mike Cannon-Brookes, AGL, and the future of coal",
+      "url": "https://equitymates.com/episode/mike-cannon-brookes-agl-and-the-future-of-coal/",
+      "jump": null,
+      "at": "8:58"
+     }
+    },
+    {
+     "date": "2022-03-28",
+     "when": "March 2022",
+     "text": "In March 2022, Equity Mates described AGL Energy as Australia's biggest coal fired power operator, underscoring its core product of coal-generated electricity during a segment on unloved stocks.",
+     "episode": {
+      "title": "Berkshire's latest acquisition, brain-computer interfaces & Morningstar's stocks for March",
+      "url": "https://equitymates.com/episode/berkshires-latest-acquisition-brain-computer-interfaces-morningstars-stocks-for-march/",
+      "jump": "https://www.youtube.com/watch?v=avHZ-paaNjY&t=1668s",
+      "at": "27:48"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": []
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2022-09-06",
+     "when": "September 2022",
+     "text": "In September 2022, Equity Mates discussed a takeover attempt for AGL Energy driven by concern that its energy transition goals lacked ambition, illustrating investor pressure on the company’s strategic direction.",
+     "episode": {
+      "title": "How much money is a lot of money?",
+      "url": "https://equitymates.com/episode/how-much-money-is-a-lot-of-money/",
+      "jump": null,
+      "at": "19:13"
+     }
+    },
+    {
+     "date": "2022-06-03",
+     "when": "June 2022",
+     "text": "In June 2022, Equity Mates reported AGL Energy abandoned plans to demerge its coal-focused generation business due to insufficient shareholder support, with the CEO and chair expected to leave, signalling a shift in strategy.",
+     "episode": {
+      "title": "Mike Cannon-Brookes, AGL, and the future of coal",
+      "url": "https://equitymates.com/episode/mike-cannon-brookes-agl-and-the-future-of-coal/",
+      "jump": null,
+      "at": "8:58"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2022-03-28",
+     "when": "March 2022",
+     "text": "In March 2022, Equity Mates said Morningstar analysts viewed AGL Energy as trading at a significant discount to fair value after its share price fell 30 percent over 12 months, while noting high uncertainty around its operating environment.",
+     "episode": {
+      "title": "Berkshire's latest acquisition, brain-computer interfaces & Morningstar's stocks for March",
+      "url": "https://equitymates.com/episode/berkshires-latest-acquisition-brain-computer-interfaces-morningstars-stocks-for-march/",
+      "jump": "https://www.youtube.com/watch?v=avHZ-paaNjY&t=1668s",
+      "at": "27:48"
+     }
+    }
+   ]
+  }
+ ]
+}

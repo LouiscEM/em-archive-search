@@ -1,0 +1,148 @@
+{
+ "slug": "spacex-spcx",
+ "name": "SpaceX",
+ "full": "SpaceX",
+ "listings": [
+  "NASDAQ: SPCX"
+ ],
+ "built": "2026-10-30",
+ "episodes": 5,
+ "mentioned_in": 78,
+ "latest": "2026-10-01",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2026-10-01",
+     "when": "October 2026",
+     "text": "In October 2026, Equity Mates said Starship reached orbit on its 14th flight and deployed 26 Starlink V3 satellites, with engineers managing an engine failure, highlighting SpaceX’s capability and the leap in satellite speeds claimed for V3 units.",
+     "episode": {
+      "title": "RBA raises rates again, Pimp my Portfolio with Henry Jennings & we review the community portfolio",
+      "url": "https://equitymates.com/episode/rba-raises-rates-again-pimp-my-portfolio-with-henry-jennings-we-review-the-community-portfolio/",
+      "jump": "https://www.youtube.com/watch?v=2tXP1ZRn-5w&t=462s",
+      "at": "7:42"
+     }
+    },
+    {
+     "date": "2026-05-15",
+     "when": "May 2026",
+     "text": "In May 2026, a guest on Equity Mates explained Starlink sold maritime connectivity as a recurring service, with over 75,000 vessels contracted and $250 per month for 50GB, illustrating real-world product adoption and software-like revenue.",
+     "episode": {
+      "title": "The $1.8 Trillion Space Opportunity with Hugh Lam",
+      "url": "https://equitymates.com/episode/the-1-8-trillion-space-opportunity-with-hugh-lam/",
+      "jump": null,
+      "at": "9:42"
+     }
+    },
+    {
+     "date": "2026-02-27",
+     "when": "February 2026",
+     "text": "In February 2026, Equity Mates described SpaceX’s service as consistent, reliable and affordable in a discussion about Starlink, noting widespread enthusiasm for its performance.",
+     "episode": {
+      "title": "What SpaceX shows us about private markets with Adam Myers",
+      "url": "https://equitymates.com/episode/what-spacex-shows-us-about-private-markets-with-adam-myers/",
+      "jump": "https://www.youtube.com/watch?v=UdYNJq5Tc40&t=620s",
+      "at": "10:20"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2026-10-01",
+     "when": "October 2026",
+     "text": "In October 2026, Equity Mates noted NASA contracted SpaceX to return astronauts to the moon with Starship, positioning the rocket as critical infrastructure for government missions and SpaceX’s long-term plans.",
+     "episode": {
+      "title": "RBA raises rates again, Pimp my Portfolio with Henry Jennings & we review the community portfolio",
+      "url": "https://equitymates.com/episode/rba-raises-rates-again-pimp-my-portfolio-with-henry-jennings-we-review-the-community-portfolio/",
+      "jump": "https://www.youtube.com/watch?v=2tXP1ZRn-5w&t=409s",
+      "at": "6:49"
+     }
+    },
+    {
+     "date": "2026-05-15",
+     "when": "May 2026",
+     "text": "In May 2026, a guest on Equity Mates highlighted SpaceX’s vertical integration across the space value chain as a differentiator, contrasting it with narrower pure-play operators.",
+     "episode": {
+      "title": "The $1.8 Trillion Space Opportunity with Hugh Lam",
+      "url": "https://equitymates.com/episode/the-1-8-trillion-space-opportunity-with-hugh-lam/",
+      "jump": null,
+      "at": "13:27"
+     }
+    },
+    {
+     "date": "2026-02-27",
+     "when": "February 2026",
+     "text": "In February 2026, a guest on Equity Mates argued SpaceX had a virtual monopoly in launch and low-Earth-orbit internet, citing about 9,000 Starlink satellites versus OneWeb’s roughly 700 and SpaceX’s unmatched launch cadence as a hard-to-close advantage.",
+     "episode": {
+      "title": "What SpaceX shows us about private markets with Adam Myers",
+      "url": "https://equitymates.com/episode/what-spacex-shows-us-about-private-markets-with-adam-myers/",
+      "jump": "https://www.youtube.com/watch?v=UdYNJq5Tc40&t=289s",
+      "at": "4:49"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2026-10-01",
+     "when": "October 2026",
+     "text": "In October 2026, Equity Mates outlined Project Suncatcher, a SpaceX and Google test placing AI chips in orbit to trial radiative cooling, showing SpaceX investing in new infrastructure concepts like data centres in space.",
+     "episode": {
+      "title": "RBA raises rates again, Pimp my Portfolio with Henry Jennings & we review the community portfolio",
+      "url": "https://equitymates.com/episode/rba-raises-rates-again-pimp-my-portfolio-with-henry-jennings-we-review-the-community-portfolio/",
+      "jump": "https://www.youtube.com/watch?v=2tXP1ZRn-5w&t=557s",
+      "at": "9:17"
+     }
+    },
+    {
+     "date": "2026-08-10",
+     "when": "August 2026",
+     "text": "In August 2026, Equity Mates reported SpaceX’s AI CapEx more than doubled to $16 billion in the quarter as revenue rose 92% to $8 billion and net loss nearly halved, signalling heavy reinvestment alongside improving operating results.",
+     "episode": {
+      "title": "We're back: AI selloff reverses, US earnings, Aussie property & more",
+      "url": "https://equitymates.com/episode/were-back-ai-selloff-reverses-us-earnings-aussie-property-more/",
+      "jump": "https://www.youtube.com/watch?v=PPVVlE3Yppk&t=1160s",
+      "at": "19:20"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2026-08-10",
+     "when": "August 2026",
+     "text": "In August 2026, Equity Mates said SpaceX fell about 40% from near US$200 to US$108 post-IPO amid AI jitters, calling the earlier valuation crazy and noting the float was tight at 5% of shares, rising to 12% after unlocks.",
+     "episode": {
+      "title": "We're back: AI selloff reverses, US earnings, Aussie property & more",
+      "url": "https://equitymates.com/episode/were-back-ai-selloff-reverses-us-earnings-aussie-property-more/",
+      "jump": "https://www.youtube.com/watch?v=PPVVlE3Yppk&t=302s",
+      "at": "5:02"
+     }
+    },
+    {
+     "date": "2026-06-18",
+     "when": "June 2026",
+     "text": "In June 2026, Equity Mates covered SpaceX’s record IPO, saying it raised US$85 billion, jumped 19% on day one and 20% on day two to a US$2.5 trillion valuation, illustrating how much optimism was priced in early.",
+     "episode": {
+      "title": "Let the oil flow, our IPO warning & last chance tax moves",
+      "url": "https://equitymates.com/episode/let-the-oil-flow-our-ipo-warning-last-chance-tax-moves/",
+      "jump": "https://www.youtube.com/watch?v=qqgS9rOifFQ&t=481s",
+      "at": "8:01"
+     }
+    }
+   ]
+  }
+ ]
+}

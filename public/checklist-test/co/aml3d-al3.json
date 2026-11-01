@@ -1,0 +1,58 @@
+{
+ "slug": "aml3d-al3",
+ "name": "AML3D",
+ "full": "AML3D",
+ "listings": [
+  "ASX: AL3"
+ ],
+ "built": "2026-11-01",
+ "episodes": 1,
+ "mentioned_in": 1,
+ "latest": "2024-07-23",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2024-07-23",
+     "when": "July 2024",
+     "text": "In July 2024, Equity Mates said AML3D developed technology to 3D print complex industrial metal parts for defence, oil and gas and aerospace customers, operating at a much larger scale than consumer printers.",
+     "episode": {
+      "title": "Buy or Sell: Felicity Thomas - Lynas, AMD, Playside Studios & more",
+      "url": "https://equitymates.com/episode/buy-or-sell-felicity-thomas-lynas-amd-playside-studios-more/",
+      "jump": "https://www.youtube.com/watch?v=iXTO7_ArYrI&t=1438s",
+      "at": "23:58"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": []
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2024-07-23",
+     "when": "July 2024",
+     "text": "In July 2024, Equity Mates noted AML3D was a micro cap around $81 million, with its share price rising from about 14c to 22c over two weeks and up another 16 percent on the day discussed.",
+     "episode": {
+      "title": "Buy or Sell: Felicity Thomas - Lynas, AMD, Playside Studios & more",
+      "url": "https://equitymates.com/episode/buy-or-sell-felicity-thomas-lynas-amd-playside-studios-more/",
+      "jump": "https://www.youtube.com/watch?v=iXTO7_ArYrI&t=1438s",
+      "at": "23:58"
+     }
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,114 @@
+{
+ "slug": "liontown-resources-ltr",
+ "name": "Liontown Resources",
+ "full": "Lion Town Resources",
+ "listings": [
+  "ASX: LTR"
+ ],
+ "built": "2026-11-01",
+ "episodes": 3,
+ "mentioned_in": 5,
+ "latest": "2024-10-22",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2024-10-22",
+     "when": "October 2024",
+     "text": "In October 2024, Equity Mates noted Liontown had recently started shipping from its Kathleen Valley site, highlighting that operational progress at the project had begun.",
+     "episode": {
+      "title": "Buy or Sell: Henry Jennings - Liontown, Zip, Qantas, NextDC, Lynas & more",
+      "url": "https://equitymates.com/episode/buy-or-sell-henry-jennings-liontown-zip-qantas-nextdc-lynas-more/",
+      "jump": "https://www.youtube.com/watch?v=fcB_Gx634vA&t=1048s",
+      "at": "17:28"
+     }
+    },
+    {
+     "date": "2023-10-23",
+     "when": "October 2023",
+     "text": "In October 2023, Equity Mates explained Liontown as a lithium miner with two major WA deposits, saying the flagship Kathleen Valley was among the world’s largest and highest grade hard‑rock lithium deposits and would supply spodumene under deals with Ford, Tesla and LG’s battery unit.",
+     "episode": {
+      "title": "Fast 3: Gina v Albemarle | AI Deep Fakes | Is Amazon ripping off small businesses?",
+      "url": "https://equitymates.com/episode/fast-3-gina-v-albemarle-ai-deep-fakes-is-amazon-ripping-off-small-businesses/",
+      "jump": null,
+      "at": "0:53"
+     }
+    },
+    {
+     "date": "2022-04-29",
+     "when": "April 2022",
+     "text": "In April 2022, Equity Mates said Liontown had a deal with Tesla to supply up to 150,000 tonnes per year of spodumene concentrate, outlining the product and contracted demand.",
+     "episode": {
+      "title": "Bonus: Australia's future industries - Mining | Stake",
+      "url": "https://equitymates.com/episode/bonus-australias-future-industries-mining-stake/",
+      "jump": "https://www.youtube.com/watch?v=-XgKTpEcCa0&t=1385s",
+      "at": "23:05"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2023-10-23",
+     "when": "October 2023",
+     "text": "In October 2023, Equity Mates highlighted Kathleen Valley’s scale and high grade alongside offtake agreements with Ford, Tesla and LG’s battery unit, suggesting contracted demand and resource quality could support durable profitability.",
+     "episode": {
+      "title": "Fast 3: Gina v Albemarle | AI Deep Fakes | Is Amazon ripping off small businesses?",
+      "url": "https://equitymates.com/episode/fast-3-gina-v-albemarle-ai-deep-fakes-is-amazon-ripping-off-small-businesses/",
+      "jump": null,
+      "at": "0:53"
+     }
+    },
+    {
+     "date": "2022-04-29",
+     "when": "April 2022",
+     "text": "In April 2022, Equity Mates pointed to Liontown’s supply agreement with Tesla for up to 150,000 tonnes a year as a sign of demand security that could underpin future earnings.",
+     "episode": {
+      "title": "Bonus: Australia's future industries - Mining | Stake",
+      "url": "https://equitymates.com/episode/bonus-australias-future-industries-mining-stake/",
+      "jump": "https://www.youtube.com/watch?v=-XgKTpEcCa0&t=1385s",
+      "at": "23:05"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2024-10-22",
+     "when": "October 2024",
+     "text": "In October 2024, Equity Mates observed Liontown was trading around 80 cents and contrasted it with an earlier February level near $1.18, framing recent pricing while noting shipments had commenced.",
+     "episode": {
+      "title": "Buy or Sell: Henry Jennings - Liontown, Zip, Qantas, NextDC, Lynas & more",
+      "url": "https://equitymates.com/episode/buy-or-sell-henry-jennings-liontown-zip-qantas-nextdc-lynas-more/",
+      "jump": "https://www.youtube.com/watch?v=fcB_Gx634vA&t=1048s",
+      "at": "17:28"
+     }
+    },
+    {
+     "date": "2023-10-23",
+     "when": "October 2023",
+     "text": "In October 2023, Equity Mates added that lithium prices were down, providing market context relevant to valuation for Liontown during discussion of the corporate battle around the company.",
+     "episode": {
+      "title": "Fast 3: Gina v Albemarle | AI Deep Fakes | Is Amazon ripping off small businesses?",
+      "url": "https://equitymates.com/episode/fast-3-gina-v-albemarle-ai-deep-fakes-is-amazon-ripping-off-small-businesses/",
+      "jump": null,
+      "at": "0:53"
+     }
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,46 @@
+{
+ "slug": "nitro-software-nto",
+ "name": "Nitro Software",
+ "full": "Nitro Software",
+ "listings": [
+  "ASX: NTO"
+ ],
+ "built": "2026-11-01",
+ "episodes": 1,
+ "mentioned_in": 2,
+ "latest": "2021-09-10",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2021-09-10",
+     "when": "September 2021",
+     "text": "In September 2021, a guest on Equity Mates said Nitro Software developed document productivity and digital signature software for mid-market and enterprise customers globally, operating brands including Nitro PDF Pro, Nitro Sign and the Nitro Productivity Platform. Equity Mates added it aimed to drive digital transformation in organisations worldwide.",
+     "episode": {
+      "title": "Our Order Pad | Dusk Group (DSK) & Nitro Software (NTO)",
+      "url": "https://equitymates.com/episode/our-order-pad-dusk-group-dsk-nitro-software-nto/",
+      "jump": null,
+      "at": "9:39"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": []
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

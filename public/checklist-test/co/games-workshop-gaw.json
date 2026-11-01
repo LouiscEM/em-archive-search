@@ -1,0 +1,59 @@
+{
+ "slug": "games-workshop-gaw",
+ "name": "Games Workshop",
+ "full": "Games Workshop Group PLC",
+ "listings": [
+  "LON: GAW",
+  "LSE: GAW"
+ ],
+ "built": "2026-11-01",
+ "episodes": 1,
+ "mentioned_in": 2,
+ "latest": "2026-06-26",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2026-06-26",
+     "when": "June 2026",
+     "text": "In June 2026, a guest on Equity Mates explained Games Workshop makes Warhammer figurines and games, with extremely loyal customers who invest time painting miniatures and learning rules before playing, creating deep engagement with the product.",
+     "episode": {
+      "title": "Copper: The metal at the centre of everything with William Taylor",
+      "url": "https://equitymates.com/episode/copper-the-metal-at-the-centre-of-everything-with-william-taylor/",
+      "jump": "https://www.youtube.com/watch?v=t6HopgUj4gA&t=2094s",
+      "at": "34:54"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2026-06-26",
+     "when": "June 2026",
+     "text": "In June 2026, a guest on Equity Mates highlighted outstanding profitability and discipline, citing roughly 10-year averages of ROE and ROIC above 50%, net margin around 25%, EBITDA margin about 40%, and low debt to equity near 10%, supported by a committed customer base.",
+     "episode": {
+      "title": "Copper: The metal at the centre of everything with William Taylor",
+      "url": "https://equitymates.com/episode/copper-the-metal-at-the-centre-of-everything-with-william-taylor/",
+      "jump": "https://www.youtube.com/watch?v=t6HopgUj4gA&t=2094s",
+      "at": "34:54"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

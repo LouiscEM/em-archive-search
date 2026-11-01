@@ -1,0 +1,136 @@
+{
+ "slug": "quanta-pwr",
+ "name": "Quanta",
+ "full": "Quanta Services",
+ "listings": [
+  "NYSE: PWR"
+ ],
+ "built": "2026-11-01",
+ "episodes": 5,
+ "mentioned_in": 7,
+ "latest": "2026-09-18",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2026-07-16",
+     "when": "July 2026",
+     "text": "In July 2026, Equity Mates said Quanta Services did a lot of the electrical work for data centres in the US and had more than doubled in the past year as part of the electrification boom.",
+     "episode": {
+      "title": "Electrification: Australia’s Chance to Power the World | The Decade Ahead",
+      "url": "https://equitymates.com/episode/electrification-australias-chance-to-power-the-world-the-decade-ahead/",
+      "jump": "https://www.youtube.com/watch?v=c45ZJowSvyI&t=189s",
+      "at": "3:09"
+     }
+    },
+    {
+     "date": "2025-02-03",
+     "when": "February 2025",
+     "text": "In February 2025, Equity Mates explained Quanta Services as a big player that builds grid connections, infrastructure and repairs to get data centres online and keep electrical systems maintained for large customers.",
+     "episode": {
+      "title": "Picks and shovel AI stocks, investing in cyclical stocks & Chris Judd joins the show",
+      "url": "https://equitymates.com/episode/picks-and-shovel-ai-stocks-investing-in-cyclical-stocks-chris-judd-joins-the-show/",
+      "jump": "https://www.youtube.com/watch?v=1xgPQOwamec&t=793s",
+      "at": "13:13"
+     }
+    },
+    {
+     "date": "2024-05-17",
+     "when": "May 2024",
+     "text": "In May 2024, a guest on Equity Mates described Quanta Services as the largest provider maintaining and upgrading US electrical and transmission grids, noting a ChatGPT search used about ten times the electricity of a Google search.",
+     "episode": {
+      "title": "Expert: Catriona Burns - Investing in AI outside the Big 7 | Wilson Asset Management",
+      "url": "https://equitymates.com/episode/expert-catriona-burns-investing-in-ai-outside-the-big-7-wilson-asset-management/",
+      "jump": "https://www.youtube.com/watch?v=rgBYcJyowm4&t=449s",
+      "at": "7:29"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2026-02-05",
+     "when": "February 2026",
+     "text": "In February 2026, Equity Mates outlined a bull case that over a trillion dollars of AI infrastructure spending had been committed by major tech firms, and service providers like Quanta stood to pick up a lot of it.",
+     "episode": {
+      "title": "Introducing the Equity Mates Community Portfolio, house prices diverge & Corporate Travel Management’s collapse",
+      "url": "https://equitymates.com/episode/introducing-the-equity-mates-community-portfolio-house-prices-diverge-corporate-travel-managements-collapse/",
+      "jump": "https://www.youtube.com/watch?v=_C96HVmrJgo&t=1013s",
+      "at": "16:53"
+     }
+    },
+    {
+     "date": "2025-02-03",
+     "when": "February 2025",
+     "text": "In February 2025, Equity Mates expected a big incremental increase in demand for providers like Quanta that connect data centres to the grid and maintain electrical infrastructure for big customers.",
+     "episode": {
+      "title": "Picks and shovel AI stocks, investing in cyclical stocks & Chris Judd joins the show",
+      "url": "https://equitymates.com/episode/picks-and-shovel-ai-stocks-investing-in-cyclical-stocks-chris-judd-joins-the-show/",
+      "jump": "https://www.youtube.com/watch?v=1xgPQOwamec&t=793s",
+      "at": "13:13"
+     }
+    },
+    {
+     "date": "2024-05-17",
+     "when": "May 2024",
+     "text": "In May 2024, a guest on Equity Mates said US utilities outsourced grid work after the GFC, leading Quanta to sign long-term agreements and become the largest player, which supported sustained demand for its services.",
+     "episode": {
+      "title": "Expert: Catriona Burns - Investing in AI outside the Big 7 | Wilson Asset Management",
+      "url": "https://equitymates.com/episode/expert-catriona-burns-investing-in-ai-outside-the-big-7-wilson-asset-management/",
+      "jump": "https://www.youtube.com/watch?v=rgBYcJyowm4&t=449s",
+      "at": "7:29"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2026-09-18",
+     "when": "September 2026",
+     "text": "In September 2026, a guest on Equity Mates observed US electrification companies such as Quanta had seen huge multiple re-rates driven by EPS revisions.",
+     "episode": {
+      "title": "The Small Cap index is lying to you with Andrew Mitchell",
+      "url": "https://equitymates.com/episode/the-small-cap-index-is-lying-to-you-with-andrew-mitchell/",
+      "jump": "https://www.youtube.com/watch?v=aYboApIohyE&t=1615s",
+      "at": "26:55"
+     }
+    },
+    {
+     "date": "2026-07-16",
+     "when": "July 2026",
+     "text": "In July 2026, Equity Mates said Quanta Services had more than doubled in the past year during the electrification boom.",
+     "episode": {
+      "title": "Electrification: Australia’s Chance to Power the World | The Decade Ahead",
+      "url": "https://equitymates.com/episode/electrification-australias-chance-to-power-the-world-the-decade-ahead/",
+      "jump": "https://www.youtube.com/watch?v=c45ZJowSvyI&t=189s",
+      "at": "3:09"
+     }
+    },
+    {
+     "date": "2025-02-03",
+     "when": "February 2025",
+     "text": "In February 2025, Equity Mates noted Quanta Services fell about 18 percent and was still trading around a 55 P/E after the DeepSeek news.",
+     "episode": {
+      "title": "Picks and shovel AI stocks, investing in cyclical stocks & Chris Judd joins the show",
+      "url": "https://equitymates.com/episode/picks-and-shovel-ai-stocks-investing-in-cyclical-stocks-chris-judd-joins-the-show/",
+      "jump": "https://www.youtube.com/watch?v=1xgPQOwamec&t=964s",
+      "at": "16:04"
+     }
+    }
+   ]
+  }
+ ]
+}

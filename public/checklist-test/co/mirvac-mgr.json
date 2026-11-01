@@ -1,0 +1,70 @@
+{
+ "slug": "mirvac-mgr",
+ "name": "Mirvac",
+ "full": "Mirvac Group",
+ "listings": [
+  "ASX: MGR"
+ ],
+ "built": "2026-11-01",
+ "episodes": 3,
+ "mentioned_in": 5,
+ "latest": "2025-11-07",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2021-12-07",
+     "when": "December 2021",
+     "text": "In December 2021, Equity Mates described Mirvac as a true end to end real estate play that owned, designed, developed and managed residential, retail and office assets, noting its big city skyscrapers and that it offered exposure to the residential housing market.",
+     "episode": {
+      "title": "How to Build a Property Portfolio Without Owning a Single House",
+      "url": "https://equitymates.com/episode/investing-in-property-without-buying-a-house/",
+      "jump": "https://www.youtube.com/watch?v=LKdj6D33vVw&t=803s",
+      "at": "13:23"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": []
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2025-11-07",
+     "when": "November 2025",
+     "text": "In November 2025, a guest on Equity Mates pointed to Mirvac’s 55 Pitt Street office project on land it had owned for over 10 years, saying current office developments only stacked in rare cases and legacy sites like this could still be built.",
+     "episode": {
+      "title": "The $20 billion commercial property investor - Jason Huljich | Centuria Capital",
+      "url": "https://equitymates.com/episode/the-20-billion-commercial-property-investor-jason-huljich-centuria-capital/",
+      "jump": "https://www.youtube.com/watch?v=Vr9G7X4-JxI&t=1126s",
+      "at": "18:46"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2025-02-17",
+     "when": "February 2025",
+     "text": "In February 2025, Equity Mates noted Australia’s largest office property funds fell 27% over two years and said Mirvac was down 40% since Covid, arguing office had underperformed other property classes and vacancy issues lingered despite talk of green shoots.",
+     "episode": {
+      "title": "Netflix won the streaming wars, Pimp my Portfolio with Luke Laretive & we debate Novo Nordisk or Eli Lilly",
+      "url": "https://equitymates.com/episode/netflix-won-the-streaming-wars-pimp-my-portfolio-with-luke-laretive-we-debate-novo-nordisk-or-eli-lilly/",
+      "jump": "https://www.youtube.com/watch?v=bUKW7RKCxRU&t=655s",
+      "at": "10:55"
+     }
+    }
+   ]
+  }
+ ]
+}

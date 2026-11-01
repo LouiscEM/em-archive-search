@@ -1,0 +1,103 @@
+{
+ "slug": "national-australia-bank-nab",
+ "name": "National Australia Bank",
+ "full": "National Australia Bank",
+ "listings": [
+  "ASX: NAB"
+ ],
+ "built": "2026-10-30",
+ "episodes": 6,
+ "mentioned_in": 107,
+ "latest": "2026-10-20",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2026-10-20",
+     "when": "October 2026",
+     "text": "In October 2026, Equity Mates discussed the NAB Equity Builder, noting its perks and downsides, and compared its interest cost to interest-only real estate loans, which were quoted around 6.5% versus “eight plus” for the investment loan.",
+     "episode": {
+      "title": "Ask An Adviser: Where property is heading, debt recycling and the future of rentvesting with Pat Noll",
+      "url": "https://equitymates.com/episode/ask-an-adviser-where-property-is-heading-debt-recycling-and-the-future-of-rentvesting-with-pat-noll/",
+      "jump": "https://www.youtube.com/watch?v=6USxVHTn6-c&t=2025s",
+      "at": "33:45"
+     }
+    },
+    {
+     "date": "2026-05-21",
+     "when": "May 2026",
+     "text": "In May 2026, Equity Mates criticised NAB’s Reward Saver pricing after it lifted the bonus rate by 35 basis points while the base rate stayed at 0.01%, saying customers had to jump through hoops to access the higher rate.",
+     "episode": {
+      "title": "Inflation panic takes hold, OpenAI beats Elon (sort of) & why \"rentvesting is dead”",
+      "url": "https://equitymates.com/episode/inflation-panic-takes-hold-openai-beats-elon-sort-of-why-rentvesting-is-dead/",
+      "jump": "https://www.youtube.com/watch?v=y48TxYmAez4&t=609s",
+      "at": "10:09"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2025-11-13",
+     "when": "November 2025",
+     "text": "In November 2025, Equity Mates reported NAB’s quarterly profit fell 3%, framing it within broader pressure on Australia’s major banks from costs and one-offs that hit earnings.",
+     "episode": {
+      "title": "50-year mortgages are a bad idea, how to check for ETF overlap & why the Big Banks are struggling",
+      "url": "https://equitymates.com/episode/50-year-mortgages/",
+      "jump": "https://www.youtube.com/watch?v=X1sM5m85_ys&t=504s",
+      "at": "8:24"
+     }
+    },
+    {
+     "date": "2023-11-20",
+     "when": "November 2023",
+     "text": "In November 2023, Equity Mates relayed NAB’s view that its mortgage book was in good shape, with customers increasing amounts in offset and redraw facilities, and only a slight uptick in arrears across the sector.",
+     "episode": {
+      "title": "Aussie banks have just made record profits. What's going on?",
+      "url": "https://equitymates.com/episode/aussie-banks-have-just-made-record-profits-whats-going-on/",
+      "jump": null,
+      "at": "7:16"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2025-02-24",
+     "when": "February 2025",
+     "text": "In February 2025, Equity Mates contrasted five-year share price performance, noting NAB up 32% while market leader CBA rose 79%, to show how markets have priced perceived quality and leadership in the banking sector.",
+     "episode": {
+      "title": "Bad news for banks & miners, where did all the dividends go & stocks with freebies",
+      "url": "https://equitymates.com/episode/bad-news-for-banks-miners-where-did-all-the-dividends-go-stocks-with-freebies/",
+      "jump": "https://www.youtube.com/watch?v=hkGW5JdchqY&t=559s",
+      "at": "9:19"
+     }
+    },
+    {
+     "date": "2025-01-23",
+     "when": "January 2025",
+     "text": "In January 2025, a guest on Equity Mates argued Australian banks traded on 16-plus times earnings despite returns on equity of about 10 to 11% for peers including NAB, questioning valuations given margin pressure and low bad debt charges.",
+     "episode": {
+      "title": "Expert: Andrew Brown - 14 Bold Predictions for 2025",
+      "url": "https://equitymates.com/episode/expert-andrew-brown-14-bold-predictions-for-2025/",
+      "jump": "https://www.youtube.com/watch?v=3GaBApfud9Y&t=1792s",
+      "at": "29:52"
+     }
+    }
+   ]
+  }
+ ]
+}

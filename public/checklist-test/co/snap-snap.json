@@ -1,0 +1,115 @@
+{
+ "slug": "snap-snap",
+ "name": "Snap",
+ "full": "Snap",
+ "listings": [
+  "NYSE: SNAP"
+ ],
+ "built": "2026-11-01",
+ "episodes": 5,
+ "mentioned_in": 7,
+ "latest": "2026-10-15",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2026-10-15",
+     "when": "October 2026",
+     "text": "In October 2026, a guest on Equity Mates observed many teens using Snap Maps for location sharing as an alternative to Life360, highlighting Snapchat’s embedded feature usage among younger users.",
+     "episode": {
+      "title": "Why This 42-Year-Old Farmer Is Investing in Shares, Not Just the Farm",
+      "url": "https://equitymates.com/episode/why-this-fourth-generation-farmer-started-buying-etfs/",
+      "jump": "https://www.youtube.com/watch?v=qbMoCIxSBsc&t=1347s",
+      "at": "22:27"
+     }
+    },
+    {
+     "date": "2026-05-25",
+     "when": "May 2026",
+     "text": "In May 2026, Equity Mates cited Snap’s Spectacles alongside other smart glasses and asked when anyone last saw a pair, implying the product existed but had struggled for mainstream adoption.",
+     "episode": {
+      "title": "Nvidia blows us away, X Marks the Stock & Pimp My Portfolio with Luke Laretive",
+      "url": "https://equitymates.com/episode/nvidia-blows-us-away-x-marks-the-stock-pimp-my-portfolio-with-luke-laretive/",
+      "jump": "https://www.youtube.com/watch?v=fhmt8dhkV-k&t=417s",
+      "at": "6:57"
+     }
+    },
+    {
+     "date": "2022-05-11",
+     "when": "May 2022",
+     "text": "In May 2022, Equity Mates said Snapchat wasn’t dead and was going from strength to strength, countering the idea it had faded since its early 2010s popularity.",
+     "episode": {
+      "title": "Get me excited about reporting season",
+      "url": "https://equitymates.com/episode/get-me-excited-about-reporting-season/",
+      "jump": null,
+      "at": "8:14"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2024-03-07",
+     "when": "March 2024",
+     "text": "In March 2024, Equity Mates compared social platforms and noted Snap generated US$4.6 billion revenue in 2023 but lost US$1.32 billion, showing it remained unprofitable alongside peers.",
+     "episode": {
+      "title": "7 takeaways from Buffett letter, Reddit's IPO & a question on share registries",
+      "url": "https://equitymates.com/episode/7-takeaways-from-buffett-letter-reddits-ipo-a-question-on-share-registries/",
+      "jump": "https://www.youtube.com/watch?v=JQ0S2COv7Xc&t=1500s",
+      "at": "25:00"
+     }
+    },
+    {
+     "date": "2022-08-01",
+     "when": "August 2022",
+     "text": "In August 2022, Equity Mates noted the ad market was thought weak off Snap’s results, then contrasted it with Alphabet’s stronger figures, suggesting Snap’s performance signalled pressures not felt equally across the sector.",
+     "episode": {
+      "title": "Earnings season continues as we unpack a few companies that caught our eye",
+      "url": "https://equitymates.com/episode/unknown-companies-that-caught-our-eye/",
+      "jump": "https://www.youtube.com/watch?v=wTpPFfYjJis&t=165s",
+      "at": "2:45"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2026-05-25",
+     "when": "May 2026",
+     "text": "In May 2026, Equity Mates discussed Snap building its own Spectacles and questioned their real-world presence, implying investment into hardware initiatives outside the core app had not yet translated into visible traction.",
+     "episode": {
+      "title": "Nvidia blows us away, X Marks the Stock & Pimp My Portfolio with Luke Laretive",
+      "url": "https://equitymates.com/episode/nvidia-blows-us-away-x-marks-the-stock-pimp-my-portfolio-with-luke-laretive/",
+      "jump": "https://www.youtube.com/watch?v=fhmt8dhkV-k&t=417s",
+      "at": "6:57"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2024-03-07",
+     "when": "March 2024",
+     "text": "In March 2024, Equity Mates relayed that Reddit sought a US$5 billion IPO valuation and compared it to Snap at US$18 billion and Pinterest at US$24.5 billion, framing where Snap’s market value sat among peers.",
+     "episode": {
+      "title": "7 takeaways from Buffett letter, Reddit's IPO & a question on share registries",
+      "url": "https://equitymates.com/episode/7-takeaways-from-buffett-letter-reddits-ipo-a-question-on-share-registries/",
+      "jump": "https://www.youtube.com/watch?v=JQ0S2COv7Xc&t=1636s",
+      "at": "27:16"
+     }
+    }
+   ]
+  }
+ ]
+}

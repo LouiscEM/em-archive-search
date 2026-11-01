@@ -1,0 +1,125 @@
+{
+ "slug": "albemarle-alb",
+ "name": "Albemarle",
+ "full": "Albemarle",
+ "listings": [
+  "NYSE: ALB"
+ ],
+ "built": "2026-10-30",
+ "episodes": 5,
+ "mentioned_in": 9,
+ "latest": "2026-07-16",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2026-07-16",
+     "when": "July 2026",
+     "text": "In July 2026, Equity Mates described Albemarle as the largest publicly listed lithium producer, with operations in Australia, the US and Chile, highlighting its scale in supplying electrification.",
+     "episode": {
+      "title": "Electrification: Australia’s Chance to Power the World | The Decade Ahead",
+      "url": "https://equitymates.com/episode/electrification-australias-chance-to-power-the-world-the-decade-ahead/",
+      "jump": "https://www.youtube.com/watch?v=c45ZJowSvyI&t=1269s",
+      "at": "21:09"
+     }
+    },
+    {
+     "date": "2023-10-23",
+     "when": "October 2023",
+     "text": "In October 2023, Equity Mates called Albemarle a US speciality chemicals giant and, as of 2020, the largest producer of lithium for EV batteries, noting its focus on securing supply and potentially moving further into mining.",
+     "episode": {
+      "title": "Fast 3: Gina v Albemarle | AI Deep Fakes | Is Amazon ripping off small businesses?",
+      "url": "https://equitymates.com/episode/fast-3-gina-v-albemarle-ai-deep-fakes-is-amazon-ripping-off-small-businesses/",
+      "jump": null,
+      "at": "2:26"
+     }
+    },
+    {
+     "date": "2023-03-06",
+     "when": "March 2023",
+     "text": "In March 2023, a guest on Equity Mates used Albemarle as an example of a miner with multiple lithium operations worldwide when explaining greenfields versus brownfields projects.",
+     "episode": {
+      "title": "What we learned from Buffett's letter + An insiders view of the lithium opportunity",
+      "url": "https://equitymates.com/episode/what-we-learned-from-buffetts-letter-an-insiders-view-of-the-lithium-opportunity/",
+      "jump": null,
+      "at": "21:02"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2026-07-16",
+     "when": "July 2026",
+     "text": "In July 2026, Equity Mates noted Albemarle was the largest listed lithium producer with operations across several countries, framing it as a giant with industry scale.",
+     "episode": {
+      "title": "Electrification: Australia’s Chance to Power the World | The Decade Ahead",
+      "url": "https://equitymates.com/episode/electrification-australias-chance-to-power-the-world-the-decade-ahead/",
+      "jump": "https://www.youtube.com/watch?v=c45ZJowSvyI&t=1269s",
+      "at": "21:09"
+     }
+    },
+    {
+     "date": "2024-08-12",
+     "when": "August 2024",
+     "text": "In August 2024, Equity Mates reported Albemarle cut 300 jobs and shut half its WA refining plant after lithium prices tanked, showing how commodity swings hit profitability and operations.",
+     "episode": {
+      "title": "A lot of panic for an average week, where to next for the economy & the rise and fall of media stocks",
+      "url": "https://equitymates.com/episode/a-lot-of-panic-for-an-average-week-where-to-next-for-the-economy-the-rise-and-fall-of-media-stocks/",
+      "jump": "https://www.youtube.com/watch?v=PbYVlmJxVLI&t=681s",
+      "at": "11:21"
+     }
+    },
+    {
+     "date": "2023-10-23",
+     "when": "October 2023",
+     "text": "In October 2023, Equity Mates said Albemarle was focused on securing supply and potentially moving up the chain into mining, indicating an effort to control inputs in a competitive market.",
+     "episode": {
+      "title": "Fast 3: Gina v Albemarle | AI Deep Fakes | Is Amazon ripping off small businesses?",
+      "url": "https://equitymates.com/episode/fast-3-gina-v-albemarle-ai-deep-fakes-is-amazon-ripping-off-small-businesses/",
+      "jump": null,
+      "at": "2:26"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2023-11-03",
+     "when": "November 2023",
+     "text": "In November 2023, Equity Mates covered Albemarle’s $6.6 billion takeover bid for Liontown that met resistance after a major shareholder amassed a large stake, leaving strategy questions for the target.",
+     "episode": {
+      "title": "If Qantas is an indication, it’s going to be a fiery AGM season",
+      "url": "https://equitymates.com/episode/if-qantas-is-an-indication-its-going-to-be-a-fiery-agm-season/",
+      "jump": null,
+      "at": "11:50"
+     }
+    },
+    {
+     "date": "2023-10-23",
+     "when": "October 2023",
+     "text": "In October 2023, Equity Mates outlined Albemarle’s pursuit of Liontown and its push to secure lithium supply, including interest in moving further into mining as part of its strategy.",
+     "episode": {
+      "title": "Fast 3: Gina v Albemarle | AI Deep Fakes | Is Amazon ripping off small businesses?",
+      "url": "https://equitymates.com/episode/fast-3-gina-v-albemarle-ai-deep-fakes-is-amazon-ripping-off-small-businesses/",
+      "jump": null,
+      "at": "2:26"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

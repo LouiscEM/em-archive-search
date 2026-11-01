@@ -1,0 +1,103 @@
+{
+ "slug": "adani-adanient",
+ "name": "Adani",
+ "full": "Adani",
+ "listings": [
+  "NSE: ADANIENT"
+ ],
+ "built": "2026-10-30",
+ "episodes": 5,
+ "mentioned_in": 14,
+ "latest": "2023-09-21",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2022-04-29",
+     "when": "April 2022",
+     "text": "In April 2022, Equity Mates noted Adani rebranded its Australian business to Bravus and said the Carmichael coal mine had been approved and construction had begun, adding coal would likely still have a place in energy and steel, implying ongoing demand for its product.",
+     "episode": {
+      "title": "Bonus: Australia's future industries - Mining | Stake",
+      "url": "https://equitymates.com/episode/bonus-australias-future-industries-mining-stake/",
+      "jump": "https://www.youtube.com/watch?v=-XgKTpEcCa0&t=523s",
+      "at": "8:43"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2023-09-21",
+     "when": "September 2023",
+     "text": "In September 2023, Equity Mates discussed India’s Supreme Court and the securities regulator investigating Adani and noted local institutions were not heavily invested, underscoring heightened governance scrutiny around the group.",
+     "episode": {
+      "title": "Expert: Saurabh Mukherjea - Why you must be investing in India | Marcellus Investment Managers",
+      "url": "https://equitymates.com/episode/expert-saurabh-mukherjea-why-you-must-be-investing-in-india-marcellus-investment-managers/",
+      "jump": null,
+      "at": "22:12"
+     }
+    },
+    {
+     "date": "2023-03-29",
+     "when": "March 2023",
+     "text": "In March 2023, Equity Mates recapped Hindenburg’s report accusing the Adani Group of the biggest fraud in corporate history and said it wiped about US$100 billion from Adani-related companies, highlighting serious concerns about the group’s practices.",
+     "episode": {
+      "title": "Afterpay's new owner, Block, has been accused of facilitating fraud",
+      "url": "https://equitymates.com/episode/afterpays-new-owner-block-has-been-accused-of-facilitating-fraud/",
+      "jump": null,
+      "at": "4:42"
+     }
+    },
+    {
+     "date": "2023-02-08",
+     "when": "February 2023",
+     "text": "In February 2023, Equity Mates explained Hindenburg alleged Adani used high leverage, undisclosed related-party dealings and Mauritius shell companies that could breach free-float rules, raising governance concerns about the reliability of reported performance.",
+     "episode": {
+      "title": "What's left of 'The Chalmers Doctrine' if you take out the boring bits?",
+      "url": "https://equitymates.com/episode/whats-left-of-the-chalmers-doctrine-if-you-take-out-the-boring-bits/",
+      "jump": null,
+      "at": "27:28"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2023-02-08",
+     "when": "February 2023",
+     "text": "In February 2023, Equity Mates reported Adani Enterprises was down about 50% after previously rising 1,355% over five years, and that seven of the ten worst performers in the MSCI Asia Pacific index were Adani companies.",
+     "episode": {
+      "title": "What's left of 'The Chalmers Doctrine' if you take out the boring bits?",
+      "url": "https://equitymates.com/episode/whats-left-of-the-chalmers-doctrine-if-you-take-out-the-boring-bits/",
+      "jump": null,
+      "at": "32:42"
+     }
+    },
+    {
+     "date": "2023-02-03",
+     "when": "February 2023",
+     "text": "In February 2023, Equity Mates said Adani Enterprises had risen 3,000% over five years before the report and that more than US$90 billion was wiped from Adani Group stocks, cutting the group’s value from about US$200 billion by almost half.",
+     "episode": {
+      "title": "How a short seller crushed Adani's share price",
+      "url": "https://equitymates.com/episode/how-a-short-seller-crushed-adanis-share-price/",
+      "jump": null,
+      "at": "2:58"
+     }
+    }
+   ]
+  }
+ ]
+}

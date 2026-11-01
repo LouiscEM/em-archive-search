@@ -1,0 +1,125 @@
+{
+ "slug": "catl-300750",
+ "name": "CATL",
+ "full": "Contemporary Amperex Technology Co. Ltd.",
+ "listings": [
+  "SHE: 300750"
+ ],
+ "built": "2026-10-30",
+ "episodes": 6,
+ "mentioned_in": 9,
+ "latest": "2026-10-09",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2026-10-09",
+     "when": "October 2026",
+     "text": "In October 2026, Equity Mates noted CATL, the world's biggest battery maker, was looking to commercialise sodium ion batteries for cold weather and stationary storage, addressing fast‑growing use cases beyond EVs.",
+     "episode": {
+      "title": "6 Aussie miners winning thanks to AI and robotics",
+      "url": "https://equitymates.com/episode/6-aussie-miners-wining-thanks-to-ai-and-robotics/",
+      "jump": "https://www.youtube.com/watch?v=aCXeJX-S8NQ&t=585s",
+      "at": "9:45"
+     }
+    },
+    {
+     "date": "2026-08-07",
+     "when": "August 2026",
+     "text": "In August 2026, a guest on Equity Mates said CATL's batteries would power data centres and houses as well as cars, arguing demand for batteries would spread across the economy.",
+     "episode": {
+      "title": "The economics of the AI companies is being tested with Alex Pollak | Loftus Peak",
+      "url": "https://equitymates.com/episode/the-economics-of-the-ai-companies-is-being-tested-with-alex-pollak-loftus-peak/",
+      "jump": "https://www.youtube.com/watch?v=wImM23W54do&t=1928s",
+      "at": "32:08"
+     }
+    },
+    {
+     "date": "2025-10-21",
+     "when": "October 2025",
+     "text": "In October 2025, a guest on Equity Mates described CATL as a global leader in battery technology that had become essential to the EV supply chain.",
+     "episode": {
+      "title": "Buy or Sell with Ally Selby and Vihari Ross",
+      "url": "https://equitymates.com/episode/buy-or-sell-with-ally-selby-and-vihari-ross/",
+      "jump": "https://www.youtube.com/watch?v=ea1zB6_1O-c&t=1393s",
+      "at": "23:13"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2026-10-09",
+     "when": "October 2026",
+     "text": "In October 2026, Equity Mates pointed out CATL's push into sodium ion technology, presenting a technology edge that could threaten lithium‑focused rivals.",
+     "episode": {
+      "title": "6 Aussie miners winning thanks to AI and robotics",
+      "url": "https://equitymates.com/episode/6-aussie-miners-wining-thanks-to-ai-and-robotics/",
+      "jump": "https://www.youtube.com/watch?v=aCXeJX-S8NQ&t=585s",
+      "at": "9:45"
+     }
+    },
+    {
+     "date": "2026-03-13",
+     "when": "March 2026",
+     "text": "In March 2026, a guest on Equity Mates said CATL was the number one player in energy storage, a market described as larger by revenue than the global car industry, implying scale advantages.",
+     "episode": {
+      "title": "What an AI-Powered Future Could Look Like with Alex Pollak",
+      "url": "https://equitymates.com/episode/what-an-ai-powered-future-could-look-like-with-alex-pollak/",
+      "jump": "https://www.youtube.com/watch?v=c6g6syrN82M&t=788s",
+      "at": "13:08"
+     }
+    },
+    {
+     "date": "2025-10-17",
+     "when": "October 2025",
+     "text": "In October 2025, Equity Mates highlighted CATL as a global Chinese manufacturer operating on the world stage, suggesting scale and advanced manufacturing capability.",
+     "episode": {
+      "title": "How Loftus Peak Keeps beating the Market - And What They’re Buying Now | Alex Pollak",
+      "url": "https://equitymates.com/episode/how-loftus-peak-keeps-beating-the-market-and-what-theyre-buying-now-alex-pollak/",
+      "jump": "https://www.youtube.com/watch?v=u_i9UTHlTkg&t=2276s",
+      "at": "37:56"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2026-10-09",
+     "when": "October 2026",
+     "text": "In October 2026, Equity Mates reported CATL was working to commercialise sodium ion batteries, signalling continued investment in new chemistries to serve cold climates and stationary storage.",
+     "episode": {
+      "title": "6 Aussie miners winning thanks to AI and robotics",
+      "url": "https://equitymates.com/episode/6-aussie-miners-wining-thanks-to-ai-and-robotics/",
+      "jump": "https://www.youtube.com/watch?v=aCXeJX-S8NQ&t=585s",
+      "at": "9:45"
+     }
+    },
+    {
+     "date": "2026-07-16",
+     "when": "July 2026",
+     "text": "In July 2026, Equity Mates said CATL was working hard on sodium ion batteries, indicating ongoing R&D to reduce reliance on lithium and broaden applications.",
+     "episode": {
+      "title": "Electrification: Australia’s Chance to Power the World | The Decade Ahead",
+      "url": "https://equitymates.com/episode/electrification-australias-chance-to-power-the-world-the-decade-ahead/",
+      "jump": "https://www.youtube.com/watch?v=c45ZJowSvyI&t=299s",
+      "at": "4:59"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

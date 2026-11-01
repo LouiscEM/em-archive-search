@@ -1,0 +1,114 @@
+{
+ "slug": "infosys-infy",
+ "name": "Infosys",
+ "full": "Infosys",
+ "listings": [
+  "NSE: INFY"
+ ],
+ "built": "2026-10-30",
+ "episodes": 4,
+ "mentioned_in": 9,
+ "latest": "2025-02-28",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2025-02-28",
+     "when": "February 2025",
+     "text": "In February 2025, Equity Mates referred to Infosys as a huge consulting firm while reviewing Indian ETF holdings, highlighting its prominence among major Indian companies.",
+     "episode": {
+      "title": "What is the best ETF to invest in India? IIND vs NDIA",
+      "url": "https://equitymates.com/episode/what-is-the-best-etf-to-invest-in-india-iind-vs-ndia/",
+      "jump": "https://www.youtube.com/watch?v=ycZy9pdls5Q&t=374s",
+      "at": "6:14"
+     }
+    },
+    {
+     "date": "2023-07-03",
+     "when": "July 2023",
+     "text": "In July 2023, Equity Mates described Infosys as a global provider of consulting and IT support, and discussed how its guidance on a tough outlook for India’s tech sector led brokers to downgrade the stock.",
+     "episode": {
+      "title": "Who’s winning stock of the year & Andrew Brown discusses what’s coming",
+      "url": "https://equitymates.com/episode/whos-winning-stock-of-the-year-andrew-brown-discusses-whats-coming/",
+      "jump": null,
+      "at": "16:50"
+     }
+    },
+    {
+     "date": "2023-02-20",
+     "when": "February 2023",
+     "text": "In February 2023, Equity Mates outlined Infosys as one of the largest consulting, tech and outsourcing providers, helping companies build apps, move to cloud and digitise operations, and noted its global scale of about 300,000 employees across 54 countries.",
+     "episode": {
+      "title": "Stock of the Year 2023 | Axon Enterprise vs Infosys",
+      "url": "https://equitymates.com/episode/stock-of-the-year-2023-axon-enterprise-vs-infosys/",
+      "jump": null,
+      "at": "10:13"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2023-07-03",
+     "when": "July 2023",
+     "text": "In July 2023, Equity Mates said Infosys issued guidance pointing to a negative outlook for India’s technology sector, which prompted broker downgrades and suggested pressure on near-term profitability.",
+     "episode": {
+      "title": "Who’s winning stock of the year & Andrew Brown discusses what’s coming",
+      "url": "https://equitymates.com/episode/whos-winning-stock-of-the-year-andrew-brown-discusses-whats-coming/",
+      "jump": null,
+      "at": "16:50"
+     }
+    },
+    {
+     "date": "2023-02-20",
+     "when": "February 2023",
+     "text": "In February 2023, Equity Mates assessed Infosys’ moat as debatable, saying advantages likely came from brand recognition, size and global presence, while noting a large rival like Accenture may be bigger.",
+     "episode": {
+      "title": "Stock of the Year 2023 | Axon Enterprise vs Infosys",
+      "url": "https://equitymates.com/episode/stock-of-the-year-2023-axon-enterprise-vs-infosys/",
+      "jump": null,
+      "at": "14:55"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2023-09-25",
+     "when": "September 2023",
+     "text": "In September 2023, Equity Mates revisited Infosys’ share price and said it had resurged since a prior check, up about 20 to 21 percent since May but still down year to date.",
+     "episode": {
+      "title": "Best way to invest in India, how to rebalance your portfolio, and does anyone care about the new iPhone?",
+      "url": "https://equitymates.com/episode/best-way-to-invest-in-india-how-to-rebalance-your-portfolio-and-does-anyone-care-about-the-new-iphone/",
+      "jump": null,
+      "at": "37:29"
+     }
+    },
+    {
+     "date": "2023-07-03",
+     "when": "July 2023",
+     "text": "In July 2023, Equity Mates noted Infosys fell about 10 percent in a day after weak guidance and was down 15 percent year to date at the time, as the market reacted to broker downgrades.",
+     "episode": {
+      "title": "Who’s winning stock of the year & Andrew Brown discusses what’s coming",
+      "url": "https://equitymates.com/episode/whos-winning-stock-of-the-year-andrew-brown-discusses-whats-coming/",
+      "jump": null,
+      "at": "16:50"
+     }
+    }
+   ]
+  }
+ ]
+}

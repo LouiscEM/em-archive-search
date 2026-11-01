@@ -1,0 +1,125 @@
+{
+ "slug": "goldman-sachs-gs",
+ "name": "Goldman Sachs",
+ "full": "Goldman Sachs",
+ "listings": [
+  "NYSE: GS"
+ ],
+ "built": "2026-10-30",
+ "episodes": 6,
+ "mentioned_in": 95,
+ "latest": "2026-08-10",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2025-07-21",
+     "when": "July 2025",
+     "text": "In July 2025, Equity Mates said Goldman Sachs posted $3.7 billion profit in the second quarter, stronger than expected, driven by its equities trading arm which broke the Wall Street record with $4.3 billion in revenues, up 36% year on year from market volatility.",
+     "episode": {
+      "title": "Card fees to go, Pimp my Portfolio & BlackRock lost $52 billion in one go",
+      "url": "https://equitymates.com/episode/card-fees-to-go-pimp-my-portfolio-blackrock-lost-52-billion-in-one-go/",
+      "jump": "https://www.youtube.com/watch?v=ZLCmrceevTU&t=905s",
+      "at": "15:05"
+     }
+    },
+    {
+     "date": "2022-09-21",
+     "when": "September 2022",
+     "text": "In September 2022, Equity Mates reported Goldman Sachs’ credit card business had loss rates just under 3%, worse than Bank of America and Capital One, showing difficulties with its Apple Card retail push and highlighting service challenges in consumer lending.",
+     "episode": {
+      "title": "Is the sub-prime monster back?",
+      "url": "https://equitymates.com/episode/is-the-sub-prime-monster-back/",
+      "jump": null,
+      "at": "22:12"
+     }
+    },
+    {
+     "date": "2022-07-29",
+     "when": "July 2022",
+     "text": "In July 2022, Equity Mates explained Apple launched Apple Card with Goldman Sachs and MasterCard, illustrating Goldman’s role enabling big‑tech payments partnerships before Apple later moved to underwrite and fund Apple Pay Later itself.",
+     "episode": {
+      "title": "Big Tech wants a piece of everything. Who’s going to stop them?",
+      "url": "https://equitymates.com/episode/big-tech-wants-a-piece-of-everything-whos-going-to-stop-them/",
+      "jump": null,
+      "at": "4:00"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2026-08-10",
+     "when": "August 2026",
+     "text": "In August 2026, Equity Mates noted Goldman Sachs nearly doubled earnings per share in a quarter where all five major US banks beat analyst expectations, pointing to a period of strong profitability for the franchise.",
+     "episode": {
+      "title": "We're back: AI selloff reverses, US earnings, Aussie property & more",
+      "url": "https://equitymates.com/episode/were-back-ai-selloff-reverses-us-earnings-aussie-property-more/",
+      "jump": "https://www.youtube.com/watch?v=PPVVlE3Yppk&t=1439s",
+      "at": "23:59"
+     }
+    },
+    {
+     "date": "2025-07-21",
+     "when": "July 2025",
+     "text": "In July 2025, Equity Mates highlighted Goldman Sachs’ $3.7 billion quarterly profit and record $4.3 billion stock‑trading revenue, up 36% year on year, showing how market volatility boosted earnings.",
+     "episode": {
+      "title": "Card fees to go, Pimp my Portfolio & BlackRock lost $52 billion in one go",
+      "url": "https://equitymates.com/episode/card-fees-to-go-pimp-my-portfolio-blackrock-lost-52-billion-in-one-go/",
+      "jump": "https://www.youtube.com/watch?v=ZLCmrceevTU&t=905s",
+      "at": "15:05"
+     }
+    },
+    {
+     "date": "2022-09-21",
+     "when": "September 2022",
+     "text": "In September 2022, Equity Mates cautioned that a US recession could see subprime borrowers default first, potentially creating large losses on Goldman Sachs’ books from its Apple Card exposure, raising questions about earnings resilience.",
+     "episode": {
+      "title": "Is the sub-prime monster back?",
+      "url": "https://equitymates.com/episode/is-the-sub-prime-monster-back/",
+      "jump": null,
+      "at": "27:49"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2022-12-14",
+     "when": "December 2022",
+     "text": "In December 2022, Equity Mates said Goldman Sachs planned to spend tens of millions on discounted crypto investments after FTX’s implosion, arguing there were bargains and a need for trustworthy, established players in the market.",
+     "episode": {
+      "title": "62 - Sam from FTX’s arrest story & all the weekly updates, a Goldman Sachs crypto play & Celebs in Trouble over NFT Pump & Dump",
+      "url": "https://equitymates.com/episode/62-sam-from-ftxs-arrest-story-all-the-weekly-updates-a-goldman-sachs-crypto-play-celebs-in-trouble-over-nft-pump-dump/",
+      "jump": null,
+      "at": "9:42"
+     }
+    },
+    {
+     "date": "2022-07-04",
+     "when": "July 2022",
+     "text": "In July 2022, Equity Mates discussed rumours Goldman Sachs was raising $2 billion to buy Celsius assets at a massive discount if it filed for bankruptcy, showing opportunistic deployment of capital into stressed crypto assets.",
+     "episode": {
+      "title": "37: Uh-oh…More Platforms in Trouble. Will Goldman Sachs or FTX Save the Day?",
+      "url": "https://equitymates.com/episode/37-uh-ohmore-platforms-in-trouble-will-goldman-sachs-or-ftx-save-the-day/",
+      "jump": null,
+      "at": "10:18"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

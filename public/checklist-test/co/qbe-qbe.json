@@ -1,0 +1,80 @@
+{
+ "slug": "qbe-qbe",
+ "name": "QBE",
+ "full": "QBE Insurance Group",
+ "listings": [
+  "ASX: QBE"
+ ],
+ "built": "2026-10-30",
+ "episodes": 4,
+ "mentioned_in": 11,
+ "latest": "2026-06-18",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": []
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2024-09-03",
+     "when": "September 2024",
+     "text": "In September 2024, a guest on Equity Mates said insurers had lifted premiums in recent years, but as inflation eased those premiums and the earnings tailwind could fade, and warned unknown events can quickly hit insurers’ results.",
+     "episode": {
+      "title": "Buy or Sell: Michael Gable - Gold, Paladin Energy, Goodman Group, BHP & more",
+      "url": "https://equitymates.com/episode/buy-or-sell-michael-gable-gold-paladin-energy-goodman-group-bhp-more/",
+      "jump": "https://www.youtube.com/watch?v=GC0bdsEHxww&t=249s",
+      "at": "4:09"
+     }
+    },
+    {
+     "date": "2022-12-01",
+     "when": "December 2022",
+     "text": "In December 2022, a guest on Equity Mates said QBE often appeared in easy portfolios and had underperformed for decades, implying persistent business and market challenges for the insurer.",
+     "episode": {
+      "title": "Marcus Padley & Henry Jennings - Chickens don't make money | Finfest",
+      "url": "https://equitymates.com/episode/marcus-padley-henry-jennings-chickens-dont-make-money-finfest/",
+      "jump": null,
+      "at": "4:41"
+     }
+    },
+    {
+     "date": "2020-10-15",
+     "when": "October 2020",
+     "text": "In October 2020, a guest on Equity Mates pointed to questionable performances from insurers including QBE, noting QBE had dropped out of the top fifty, highlighting sector headwinds.",
+     "episode": {
+      "title": "Expert Investor: Rudi Filapek-Vandyck - Finding truly great, long-term businesses",
+      "url": "https://equitymates.com/episode/expert-investor-rudi-filapek-vandyck-finding-truly-great-long-term-businesses/",
+      "jump": null,
+      "at": "29:26"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2026-06-18",
+     "when": "June 2026",
+     "text": "In June 2026, Equity Mates compared a high-profile IPO with similar revenue to QBE and noted QBE was profitable yet valued at about one tenth, suggesting the IPO’s scarcity and hype drove a much richer price than QBE’s.",
+     "episode": {
+      "title": "Let the oil flow, our IPO warning & last chance tax moves",
+      "url": "https://equitymates.com/episode/let-the-oil-flow-our-ipo-warning-last-chance-tax-moves/",
+      "jump": "https://www.youtube.com/watch?v=qqgS9rOifFQ&t=907s",
+      "at": "15:07"
+     }
+    }
+   ]
+  }
+ ]
+}

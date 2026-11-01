@@ -1,0 +1,46 @@
+{
+ "slug": "amaero-international-3da",
+ "name": "Amaero International",
+ "full": "Amaero International Ltd",
+ "listings": [
+  "ASX: 3DA"
+ ],
+ "built": "2026-11-01",
+ "episodes": 1,
+ "mentioned_in": 1,
+ "latest": "2024-04-09",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": []
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": []
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2024-04-09",
+     "when": "April 2024",
+     "text": "In April 2024, Equity Mates said Amaero International cut ties with Australia to focus on the US, highlighting a deliberate shift in operations and management focus.",
+     "episode": {
+      "title": "Buy or Sell with Adam Keily and Adam Dawes",
+      "url": "https://equitymates.com/episode/buy-or-sell-with-adam-keily-and-adam-dawes/",
+      "jump": "https://www.youtube.com/watch?v=JnH_lFsX2KA&t=181s",
+      "at": "3:01"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

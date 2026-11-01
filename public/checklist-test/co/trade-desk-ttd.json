@@ -1,0 +1,125 @@
+{
+ "slug": "trade-desk-ttd",
+ "name": "Trade Desk",
+ "full": "Trade Desk",
+ "listings": [
+  "NASDAQ: TTD"
+ ],
+ "built": "2026-11-01",
+ "episodes": 6,
+ "mentioned_in": 8,
+ "latest": "2026-10-15",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2021-04-14",
+     "when": "April 2021",
+     "text": "In April 2021, a guest on Equity Mates described Trade Desk as a leader in digital programmatic advertising, where advertisers bid for inventory across digital devices to reach particular users.",
+     "episode": {
+      "title": "6 Small Caps To Add To Your Watchlist",
+      "url": "https://equitymates.com/episode/6-small-caps-to-add-to-your-watchlist/",
+      "jump": null,
+      "at": "3:52"
+     }
+    },
+    {
+     "date": "2020-11-15",
+     "when": "November 2020",
+     "text": "In November 2020, a guest on Equity Mates explained Trade Desk built a buyer platform that worked like a Bloomberg screen, letting agencies pick the inventory they wanted as new connected TV and podcast inventory came to market.",
+     "episode": {
+      "title": "Expert Investor: Nick Griffin - Finding High Growth Companies",
+      "url": "https://equitymates.com/episode/expert-investor-nick-griffin-finding-high-growth-companies/",
+      "jump": null,
+      "at": "31:02"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2021-04-14",
+     "when": "April 2021",
+     "text": "In April 2021, a guest on Equity Mates characterised Trade Desk as a leader in its niche of digital programmatic advertising, indicating a strong industry position.",
+     "episode": {
+      "title": "6 Small Caps To Add To Your Watchlist",
+      "url": "https://equitymates.com/episode/6-small-caps-to-add-to-your-watchlist/",
+      "jump": null,
+      "at": "3:52"
+     }
+    },
+    {
+     "date": "2020-11-15",
+     "when": "November 2020",
+     "text": "In November 2020, a guest on Equity Mates argued Trade Desk’s buyer‑platform design gave it an edge over black‑box rivals, likening it to a Bloomberg terminal used by agency trading desks.",
+     "episode": {
+      "title": "Expert Investor: Nick Griffin - Finding High Growth Companies",
+      "url": "https://equitymates.com/episode/expert-investor-nick-griffin-finding-high-growth-companies/",
+      "jump": null,
+      "at": "31:02"
+     }
+    },
+    {
+     "date": "2019-12-19",
+     "when": "December 2019",
+     "text": "In December 2019, a guest on Equity Mates said Trade Desk’s independence helped it take share from Google and Facebook by “turning the lights on” for the open internet as targeted ads increased the value of inventory.",
+     "episode": {
+      "title": "Expert Investor: Tobias Bucks - Searching the World for Surprising Companies",
+      "url": "https://equitymates.com/episode/expert-investor-tobias-bucks-searching-the-world-for-surprising-companies/",
+      "jump": null,
+      "at": "19:37"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2026-10-15",
+     "when": "October 2026",
+     "text": "In October 2026, Equity Mates noted Trade Desk was down about two‑thirds in 2026 and featured among stocks off 50 percent or more even as the index was up 14 percent.",
+     "episode": {
+      "title": "Firmus IPO falls apart & the invisible crash behind Wall Street’s record highs",
+      "url": "https://equitymates.com/episode/firmus-44-billion-ipo-has-been-pulled-the-invisible-crash-beneath-market-highs/",
+      "jump": "https://www.youtube.com/watch?v=vLf9N74a5LQ&t=791s",
+      "at": "13:11"
+     }
+    },
+    {
+     "date": "2026-01-19",
+     "when": "January 2026",
+     "text": "In January 2026, Equity Mates highlighted Trade Desk fell 70 percent last year and was cited in a discussion about turnarounds among quality companies whose share prices had been punished.",
+     "episode": {
+      "title": "We're back: 4 big investing themes & our Stocks of the Year",
+      "url": "https://equitymates.com/episode/were-back-big-themes-big-opportunities-the-stock-of-the-year/",
+      "jump": "https://www.youtube.com/watch?v=4nVjeTwKtMc&t=1318s",
+      "at": "21:58"
+     }
+    },
+    {
+     "date": "2022-05-16",
+     "when": "May 2022",
+     "text": "In May 2022, Equity Mates contrasted Trade Desk’s multiple with its business results, noting price to sales peaked at 41 times then fell to 20 times, while sales rose from 661 million to 13.7 billion and free cash flow from 60 million to 380 million.",
+     "episode": {
+      "title": "Twelve stocks from two investor letters",
+      "url": "https://equitymates.com/episode/twelve-stocks-from-two-investor-letters/",
+      "jump": "https://www.youtube.com/watch?v=9uAqi81mMSE&t=2115s",
+      "at": "35:15"
+     }
+    }
+   ]
+  }
+ ]
+}

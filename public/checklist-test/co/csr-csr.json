@@ -1,0 +1,68 @@
+{
+ "slug": "csr-csr",
+ "name": "CSR",
+ "full": "CSR Limited",
+ "listings": [
+  "ASX: CSR"
+ ],
+ "built": "2026-11-01",
+ "episodes": 3,
+ "mentioned_in": 5,
+ "latest": "2026-01-19",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": []
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": []
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2026-01-19",
+     "when": "January 2026",
+     "text": "In January 2026, Equity Mates recalled CSR was taken over during a burst of ASX construction deals, saying strong residential building and major infrastructure projects drew capital to the sector and shaped how these businesses were valued.",
+     "episode": {
+      "title": "We're back: 4 big investing themes & our Stocks of the Year",
+      "url": "https://equitymates.com/episode/were-back-big-themes-big-opportunities-the-stock-of-the-year/",
+      "jump": "https://www.youtube.com/watch?v=4nVjeTwKtMc&t=507s",
+      "at": "8:27"
+     }
+    },
+    {
+     "date": "2025-01-20",
+     "when": "January 2025",
+     "text": "In January 2025, Equity Mates said CSR was acquired by French company Saint-Gobain for $4.3 billion amid a rush of construction materials takeovers, noting investors were eyeing infrastructure and housing tailwinds that could be priced into sector valuations.",
+     "episode": {
+      "title": "We're back for 2025: Stock of the Year & Bold Predictions",
+      "url": "https://equitymates.com/episode/were-back-for-2025-stock-of-the-year-bold-predictions/",
+      "jump": "https://www.youtube.com/watch?v=B1_O59KW54Q&t=2195s",
+      "at": "36:35"
+     }
+    },
+    {
+     "date": "2024-08-02",
+     "when": "August 2024",
+     "text": "In August 2024, a guest on Equity Mates noted CSR ended a 62-year ASX listing as M&A surged, and explained proposed competition rules could change how acquisitions are reviewed, affecting deal certainty and pricing.",
+     "episode": {
+      "title": "Expert: Casey McLean - Opportunities in Australia: PolyNovo, Car Group, CSL, SiteMinder & more",
+      "url": "https://equitymates.com/episode/expert-casey-mclean-opportunities-in-australia-polynovo-car-group-csl-siteminder-more/",
+      "jump": "https://www.youtube.com/watch?v=FNTA0nNCO9k&t=1529s",
+      "at": "25:29"
+     }
+    }
+   ]
+  }
+ ]
+}

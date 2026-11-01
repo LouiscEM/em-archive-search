@@ -1,0 +1,127 @@
+{
+ "slug": "byd-002594",
+ "name": "BYD",
+ "full": "BYD",
+ "listings": [
+  "HKEX: 1211",
+  "SHE: 002594"
+ ],
+ "built": "2026-10-30",
+ "episodes": 6,
+ "mentioned_in": 32,
+ "latest": "2026-05-29",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2026-05-29",
+     "when": "May 2026",
+     "text": "In May 2026, a guest on Equity Mates described BYD’s sodium ion battery demo in Beijing, showing cars charging inside a minus 30 degree chamber. It was used to argue the tech could improve EV usability in colder regions where charging has been a barrier.",
+     "episode": {
+      "title": "Humanoid Robots, Chinese EVs & AI: What Investors Still Get Wrong About Disruption",
+      "url": "https://equitymates.com/episode/humanoid-robots-chinese-evs-ai-what-investors-still-get-wrong-about-disruption/",
+      "jump": "https://www.youtube.com/watch?v=74pL7C0Vgj4&t=1671s",
+      "at": "27:51"
+     }
+    },
+    {
+     "date": "2025-05-08",
+     "when": "May 2025",
+     "text": "In May 2025, Equity Mates reported BYD sold 3,207 vehicles in Australia in April, more than six times Tesla’s 500, and noted many rideshare trips now occurred in BYD cars. The sales and visibility suggested strong local product appeal.",
+     "episode": {
+      "title": "Our biggest Buffett lessons, Reddit's round trip & investing tools that make it easy",
+      "url": "https://equitymates.com/episode/our-biggest-buffett-lessons-reddits-round-trip-investing-tools-that-make-it-easy/",
+      "jump": "https://www.youtube.com/watch?v=foaUJom9wME&t=508s",
+      "at": "8:28"
+     }
+    },
+    {
+     "date": "2025-03-27",
+     "when": "March 2025",
+     "text": "In March 2025, Equity Mates said BYD unveiled an ultra fast charging solution adding up to 400 kilometres in five minutes, even 475 km, far quicker than Tesla’s ultra fast charger. It highlighted how BYD was directly challenging a key performance benchmark.",
+     "episode": {
+      "title": "Australia’s pre-election Budget, how one Wall Street titan is buying the dip & what to do about stock buybacks",
+      "url": "https://equitymates.com/episode/australias-pre-election-budget-how-one-wall-street-titan-is-buying-the-dip-what-to-do-about-stock-buybacks/",
+      "jump": "https://www.youtube.com/watch?v=dyErfVd-VFw&t=442s",
+      "at": "7:22"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2026-05-29",
+     "when": "May 2026",
+     "text": "In May 2026, a guest on Equity Mates said BYD made about 4,000 RMB per car in China but 16,000 to 20,000 RMB in Europe after taxes and tariffs. It framed China as an export story combining the cheapest manufacturing with leading technology.",
+     "episode": {
+      "title": "Humanoid Robots, Chinese EVs & AI: What Investors Still Get Wrong About Disruption",
+      "url": "https://equitymates.com/episode/humanoid-robots-chinese-evs-ai-what-investors-still-get-wrong-about-disruption/",
+      "jump": "https://www.youtube.com/watch?v=74pL7C0Vgj4&t=2154s",
+      "at": "35:54"
+     }
+    },
+    {
+     "date": "2025-07-28",
+     "when": "July 2025",
+     "text": "In July 2025, Equity Mates said BYD had overtaken Tesla as Australia’s best selling EV brand, reflecting rising consumer demand and broader model choice. It was used to illustrate BYD’s growing competitive position in a key market.",
+     "episode": {
+      "title": "The Chinese EV boom, Pimp my Portfolio & X marks the stock: what's buzzing right now",
+      "url": "https://equitymates.com/episode/the-chinese-ev-boom-pimp-my-portfolio-x-marks-the-stock-whats-buzzing-right-now/",
+      "jump": "https://www.youtube.com/watch?v=mgxIZSt2Znk&t=161s",
+      "at": "2:41"
+     }
+    },
+    {
+     "date": "2024-02-27",
+     "when": "February 2024",
+     "text": "In February 2024, a guest on Equity Mates argued BYD had reinvented EVs with plug in hybrids, had nearly doubled in size, generated wads of cash, and sat at the centre of an industrial system. It was presented as intensifying competition for Western automakers.",
+     "episode": {
+      "title": "Buy or Sell: Adam Keily with Julian McCormack",
+      "url": "https://equitymates.com/episode/buy-or-sell-adam-keily-with-julian-mccormack/",
+      "jump": "https://www.youtube.com/watch?v=OatW5fbnfqk&t=1505s",
+      "at": "25:05"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2025-09-25",
+     "when": "September 2025",
+     "text": "In September 2025, Equity Mates recapped Berkshire’s 2008 stake when BYD was a leading rechargeable battery maker with a fast growing auto unit that made nearly a third of revenue. It noted the investor backed management’s record to build businesses, including potential grid scale storage.",
+     "episode": {
+      "title": "Buffett's latest 30-bagger, 3 ways to boost your Superannuation & the basics of rent-vesting",
+      "url": "https://equitymates.com/episode/buffetts-latest-30-bagger-3-ways-to-boost-your-superannuation-the-basics-of-rent-vesting/",
+      "jump": "https://www.youtube.com/watch?v=TwlJhTQ0Slc&t=282s",
+      "at": "4:42"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2025-03-27",
+     "when": "March 2025",
+     "text": "In March 2025, Equity Mates noted BYD shares were up about 60% year to date and cited a stat valuing each Tesla sold at about $425,000 versus about $39,000 for each BYD sold. It was discussed as a stark difference in how the market priced the two automakers.",
+     "episode": {
+      "title": "Australia’s pre-election Budget, how one Wall Street titan is buying the dip & what to do about stock buybacks",
+      "url": "https://equitymates.com/episode/australias-pre-election-budget-how-one-wall-street-titan-is-buying-the-dip-what-to-do-about-stock-buybacks/",
+      "jump": "https://www.youtube.com/watch?v=dyErfVd-VFw&t=469s",
+      "at": "7:49"
+     }
+    }
+   ]
+  }
+ ]
+}

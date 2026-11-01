@@ -1,0 +1,81 @@
+{
+ "slug": "gsk-gsk",
+ "name": "GSK",
+ "full": "GSK",
+ "listings": [
+  "LSE: GSK"
+ ],
+ "built": "2026-11-01",
+ "episodes": 3,
+ "mentioned_in": 7,
+ "latest": "2026-03-06",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2023-11-08",
+     "when": "November 2023",
+     "text": "In November 2023, Equity Mates reported GSK would pay 23andMe $20 million for one year of non-exclusive access to anonymised customer DNA data to support drug research, illustrating how GSK sources data to inform its pharmaceutical development efforts.",
+     "episode": {
+      "title": "23andMe is selling access to customer's DNA",
+      "url": "https://equitymates.com/episode/23andme-is-selling-access-to-customers-dna/",
+      "jump": null,
+      "at": "4:05"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2026-03-06",
+     "when": "March 2026",
+     "text": "In March 2026, a guest on Equity Mates said GSK sat in an opportunistic bucket due to a short-term inflexion the market was missing, adding that concerns about its pipeline development were overdone according to a healthcare analyst.",
+     "episode": {
+      "title": "4 steps to find winning software stocks with Ben Arnold",
+      "url": "https://equitymates.com/episode/4-steps-to-find-winning-software-stocks-with-ben-arnold/",
+      "jump": "https://www.youtube.com/watch?v=4o_MexmZVEw&t=1474s",
+      "at": "24:34"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2026-03-06",
+     "when": "March 2026",
+     "text": "In March 2026, a guest on Equity Mates placed GSK in a value-tilted opportunistic sleeve, calling it unloved in the UK and Europe and expecting a 12 to 18 month inflexion that the market had not recognised.",
+     "episode": {
+      "title": "4 steps to find winning software stocks with Ben Arnold",
+      "url": "https://equitymates.com/episode/4-steps-to-find-winning-software-stocks-with-ben-arnold/",
+      "jump": "https://www.youtube.com/watch?v=4o_MexmZVEw&t=1474s",
+      "at": "24:34"
+     }
+    },
+    {
+     "date": "2026-01-23",
+     "when": "January 2026",
+     "text": "In January 2026, Equity Mates noted the UK stock market looked cheap and that pharmaceuticals were a beaten up sector, highlighting GSK as a major index constituent and implying subdued valuations in parts of the market.",
+     "episode": {
+      "title": "14 Bold Predictions with Andrew Brown",
+      "url": "https://equitymates.com/episode/14-bold-predictions-with-andrew-brown/",
+      "jump": "https://www.youtube.com/watch?v=i1suaRKMSsI&t=1980s",
+      "at": "33:00"
+     }
+    }
+   ]
+  }
+ ]
+}

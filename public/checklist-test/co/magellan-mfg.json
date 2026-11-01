@@ -1,0 +1,115 @@
+{
+ "slug": "magellan-mfg",
+ "name": "Magellan",
+ "full": "Magellan Financial Group",
+ "listings": [
+  "ASX: MFG"
+ ],
+ "built": "2026-10-30",
+ "episodes": 5,
+ "mentioned_in": 105,
+ "latest": "2022-05-17",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2021-07-26",
+     "when": "July 2021",
+     "text": "In July 2021, Equity Mates explained Magellan pioneered active ETFs in 2015 by working with regulators and the ASX to enable delayed holdings disclosure and live NAV, making its active strategies easier to access on market.",
+     "episode": {
+      "title": "From the Experts: Emma Kirk on Global Investing | Magellan Financial Group",
+      "url": "https://equitymates.com/episode/from-the-experts-emma-kirk-on-global-investing-magellan-financial-group/",
+      "jump": null,
+      "at": "43:45"
+     }
+    },
+    {
+     "date": "2021-07-07",
+     "when": "July 2021",
+     "text": "In July 2021, Equity Mates outlined Magellan’s infrastructure products, contrasting a broadly diversified core fund with a concentrated fund, both grounded in Magellan’s proprietary infrastructure definition and fundamental research approach.",
+     "episode": {
+      "title": "Expert Investor: David Costello - Can Infrastructure Investing be Sustainable? | Magellan Financial Group",
+      "url": "https://equitymates.com/episode/expert-investor-david-costello-can-infrastructure-investing-be-sustainable-magellan-financial-group/",
+      "jump": null,
+      "at": "15:58"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2022-02-25",
+     "when": "February 2022",
+     "text": "In February 2022, Equity Mates highlighted business risk in funds management and noted Magellan’s announcement that losing an institutional client could be about 30 percent of revenue, underscoring concentration risk.",
+     "episode": {
+      "title": "Our Order Pad  | Magellan Financial Group (MFG:ASX) & Pinnacle Investment Management (PNI:ASX)",
+      "url": "https://equitymates.com/episode/tmtm-friday-episode/",
+      "jump": null,
+      "at": "21:06"
+     }
+    },
+    {
+     "date": "2021-07-26",
+     "when": "July 2021",
+     "text": "In July 2021, Equity Mates said Magellan’s first-to-market active ETF structure balanced price transparency with IP protection, suggesting an innovation edge in distribution and product design.",
+     "episode": {
+      "title": "From the Experts: Emma Kirk on Global Investing | Magellan Financial Group",
+      "url": "https://equitymates.com/episode/from-the-experts-emma-kirk-on-global-investing-magellan-financial-group/",
+      "jump": null,
+      "at": "43:45"
+     }
+    },
+    {
+     "date": "2020-08-24",
+     "when": "August 2020",
+     "text": "In August 2020, Equity Mates described Magellan’s economics as strong, citing about 700 million in revenue on 97 billion of funds under management and just shy of 400 million profit, implying roughly a 57 percent profit margin.",
+     "episode": {
+      "title": "EM Portfolio: First Investment Committee Meeting",
+      "url": "https://equitymates.com/episode/em-portfolio-first-investment-committee-meeting/",
+      "jump": null,
+      "at": "18:04"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2022-05-17",
+     "when": "May 2022",
+     "text": "In May 2022, Equity Mates explained Magellan issued shareholder options exercisable at 35 dollars until 2024 while the shares traded around 15 dollars, framing it as a capital management move.",
+     "episode": {
+      "title": "Understanding Interest Rates and Their Impact on Your Finances",
+      "url": "https://equitymates.com/episode/explaining-interest-rates-options-and-why-your-vote-counts/",
+      "jump": "https://www.youtube.com/watch?v=wvb2m7cXdCQ&t=784s",
+      "at": "13:04"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2020-08-24",
+     "when": "August 2020",
+     "text": "In August 2020, Equity Mates noted Magellan traded on a price to earnings ratio of 29 at the time, which was described as expensive for a fund manager unless high funds-under-management growth continued.",
+     "episode": {
+      "title": "EM Portfolio: First Investment Committee Meeting",
+      "url": "https://equitymates.com/episode/em-portfolio-first-investment-committee-meeting/",
+      "jump": null,
+      "at": "18:04"
+     }
+    }
+   ]
+  }
+ ]
+}

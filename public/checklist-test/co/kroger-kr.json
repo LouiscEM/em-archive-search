@@ -1,0 +1,81 @@
+{
+ "slug": "kroger-kr",
+ "name": "Kroger",
+ "full": "Kroger",
+ "listings": [
+  "NYSE: KR"
+ ],
+ "built": "2026-10-30",
+ "episodes": 3,
+ "mentioned_in": 12,
+ "latest": "2026-02-16",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2022-07-18",
+     "when": "July 2022",
+     "text": "In July 2022, Equity Mates described Kroger’s waste-to-energy setup at its Oakland distribution centre, backhauling food waste to anaerobic digesters that generated electricity to power the site, illustrating efficient logistics and sustainability in its grocery operations.",
+     "episode": {
+      "title": "Great time to travel to Europe… or look at their stocks",
+      "url": "https://equitymates.com/episode/great-time-to-travel-to-europe-or-look-at-their-stocks/",
+      "jump": "https://www.youtube.com/watch?v=jVRWIC5f1Jo&t=1858s",
+      "at": "30:58"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2026-02-16",
+     "when": "February 2026",
+     "text": "In February 2026, Equity Mates said many US shoppers traded down from chains like Kroger to cheaper retailers such as Walmart and Target, highlighting price pressure on full-line grocers as discretionary spending slowed.",
+     "episode": {
+      "title": "Pope-approved stocks, a pitch for the Community Portfolio & currency hedging explained",
+      "url": "https://equitymates.com/episode/the-vaticans-new-index-earnings-season-winners-should-you-hedge-your-etfs/",
+      "jump": "https://www.youtube.com/watch?v=vcOdC_yV2cs&t=474s",
+      "at": "7:54"
+     }
+    },
+    {
+     "date": "2023-10-23",
+     "when": "October 2023",
+     "text": "In October 2023, Equity Mates explained that supermarkets like Kroger control shelf space and develop private label products that compete with branded suppliers, a long-standing model that shaped their bargaining power and competitive dynamics.",
+     "episode": {
+      "title": "Fast 3: Gina v Albemarle | AI Deep Fakes | Is Amazon ripping off small businesses?",
+      "url": "https://equitymates.com/episode/fast-3-gina-v-albemarle-ai-deep-fakes-is-amazon-ripping-off-small-businesses/",
+      "jump": null,
+      "at": "20:55"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2022-07-18",
+     "when": "July 2022",
+     "text": "In July 2022, Equity Mates noted Kroger partnered with Ocado in the US, signalling investment in outsourced e-commerce technology to grow its online grocery capability.",
+     "episode": {
+      "title": "Great time to travel to Europe… or look at their stocks",
+      "url": "https://equitymates.com/episode/great-time-to-travel-to-europe-or-look-at-their-stocks/",
+      "jump": "https://www.youtube.com/watch?v=jVRWIC5f1Jo&t=2173s",
+      "at": "36:13"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

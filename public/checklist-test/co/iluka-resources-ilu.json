@@ -1,0 +1,70 @@
+{
+ "slug": "iluka-resources-ilu",
+ "name": "Iluka Resources",
+ "full": "Iluka Resources",
+ "listings": [
+  "ASX: ILU"
+ ],
+ "built": "2026-11-01",
+ "episodes": 2,
+ "mentioned_in": 2,
+ "latest": "2026-10-09",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2026-10-09",
+     "when": "October 2026",
+     "text": "In October 2026, Equity Mates described Iluka Resources as a mineral sands and rare earths explorer and said it was benefiting from the robotics trend, pointing to demand tailwinds for its materials.",
+     "episode": {
+      "title": "6 Aussie miners winning thanks to AI and robotics",
+      "url": "https://equitymates.com/episode/6-aussie-miners-wining-thanks-to-ai-and-robotics/",
+      "jump": "https://www.youtube.com/watch?v=aCXeJX-S8NQ&t=11s",
+      "at": "0:11"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": []
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2022-07-06",
+     "when": "July 2022",
+     "text": "In July 2022, Equity Mates reported that Export Finance Australia lent $1,000,000,000 to Iluka Resources to build a rare earths separation plant in Western Australia, indicating a major investment to expand into processing as governments sought to diversify supply chains.",
+     "episode": {
+      "title": "Why are Chinese hackers trying to take down Aussie miners?",
+      "url": "https://equitymates.com/episode/why-are-chinese-hackers-trying-to-take-down-aussie-miners/",
+      "jump": null,
+      "at": "13:18"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2026-10-09",
+     "when": "October 2026",
+     "text": "In October 2026, Equity Mates noted Iluka Resources’ share price was down 6% over the last 12 months and asked if it had already run hard, framing a discussion about valuation.",
+     "episode": {
+      "title": "6 Aussie miners winning thanks to AI and robotics",
+      "url": "https://equitymates.com/episode/6-aussie-miners-wining-thanks-to-ai-and-robotics/",
+      "jump": "https://www.youtube.com/watch?v=aCXeJX-S8NQ&t=11s",
+      "at": "0:11"
+     }
+    }
+   ]
+  }
+ ]
+}

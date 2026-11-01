@@ -1,0 +1,46 @@
+{
+ "slug": "new-relic-newr",
+ "name": "New Relic",
+ "full": "New Relic",
+ "listings": [
+  "NYSE: NEWR"
+ ],
+ "built": "2026-11-01",
+ "episodes": 1,
+ "mentioned_in": 2,
+ "latest": "2022-11-28",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2022-11-28",
+     "when": "November 2022",
+     "text": "In November 2022, a guest on Equity Mates described New Relic as a software as a service platform that let companies track the performance of their technology stack in one integrated place.",
+     "episode": {
+      "title": "12 stocks for the next 12 months",
+      "url": "https://equitymates.com/episode/12-stocks-for-the-next-12-months/",
+      "jump": "https://www.youtube.com/watch?v=f7myeVH9q3Y&t=1564s",
+      "at": "26:04"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": []
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

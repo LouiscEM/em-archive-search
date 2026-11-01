@@ -1,0 +1,58 @@
+{
+ "slug": "jumia-technologies-jmia",
+ "name": "Jumia Technologies",
+ "full": "Jumia Technologies",
+ "listings": [
+  "NYSE: JMIA"
+ ],
+ "built": "2026-11-01",
+ "episodes": 1,
+ "mentioned_in": 2,
+ "latest": "2022-11-14",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2022-11-14",
+     "when": "November 2022",
+     "text": "In November 2022, Equity Mates described Jumia as a pan-African e-commerce player that built out a payments infrastructure, likening it to Amazon or MercadoLibre for Africa. It was framed as shaping up to be an African super app.",
+     "episode": {
+      "title": "Everyone makes mistakes. We just make a lot of them.",
+      "url": "https://equitymates.com/episode/everyone-makes-mistakes-we-just-make-a-lot-of-them/",
+      "jump": null,
+      "at": "8:27"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2022-11-14",
+     "when": "November 2022",
+     "text": "In November 2022, Equity Mates highlighted the African growth opportunity Jumia targeted, noting a 1.4 billion population and Pew data that just 41% of sub-Saharan Africans had internet or smartphone access. The low penetration was presented as room for long-term expansion.",
+     "episode": {
+      "title": "Everyone makes mistakes. We just make a lot of them.",
+      "url": "https://equitymates.com/episode/everyone-makes-mistakes-we-just-make-a-lot-of-them/",
+      "jump": null,
+      "at": "8:27"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

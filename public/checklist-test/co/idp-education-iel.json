@@ -1,0 +1,70 @@
+{
+ "slug": "idp-education-iel",
+ "name": "Idp Education",
+ "full": "IDP Education Ltd",
+ "listings": [
+  "ASX: IEL"
+ ],
+ "built": "2026-11-01",
+ "episodes": 2,
+ "mentioned_in": 2,
+ "latest": "2025-02-18",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2020-09-21",
+     "when": "September 2020",
+     "text": "In September 2020, Equity Mates described IDP Education as providing international student placement and English testing, noting these services were hit hard by Covid because of travel restrictions and campus disruptions.",
+     "episode": {
+      "title": "Expert Investor: Market & Watchlist Update With Julia Lee",
+      "url": "https://equitymates.com/episode/expert-investor-market-watchlist-update-with-julia-lee/",
+      "jump": null,
+      "at": "6:14"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2025-02-18",
+     "when": "February 2025",
+     "text": "In February 2025, a guest on Equity Mates said IDP Education was historically high quality with strong return on invested capital and dominance in its niche, but its profits were vulnerable to shifting government policies in key study destinations and slower-than-hoped student migration recovery.",
+     "episode": {
+      "title": "Expert: Luke Laretive - Looking for catalysts in Aussie stocks",
+      "url": "https://equitymates.com/episode/expert-luke-laretive-looking-for-catalysts-in-aussie-stocks/",
+      "jump": "https://www.youtube.com/watch?v=j3C2KNYZryY&t=1294s",
+      "at": "21:34"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2020-09-21",
+     "when": "September 2020",
+     "text": "In September 2020, Equity Mates noted IDP Education rose 50 percent in August 2020 as the market looked 12 to 18 months ahead, suggesting expectations of recovery were being priced despite Covid impacts.",
+     "episode": {
+      "title": "Expert Investor: Market & Watchlist Update With Julia Lee",
+      "url": "https://equitymates.com/episode/expert-investor-market-watchlist-update-with-julia-lee/",
+      "jump": null,
+      "at": "6:14"
+     }
+    }
+   ]
+  }
+ ]
+}

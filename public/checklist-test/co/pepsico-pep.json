@@ -1,0 +1,104 @@
+{
+ "slug": "pepsico-pep",
+ "name": "PepsiCo",
+ "full": "PepsiCo",
+ "listings": [
+  "NASDAQ: PEP"
+ ],
+ "built": "2026-10-30",
+ "episodes": 6,
+ "mentioned_in": 12,
+ "latest": "2025-01-23",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2023-01-26",
+     "when": "January 2023",
+     "text": "In January 2023, Equity Mates used the sports drink category to show Gatorade, owned by PepsiCo, led the market, and Coca-Cola’s $5.6 billion Bodyarmor deal underscored how strong and popular PepsiCo’s product was in that segment.",
+     "episode": {
+      "title": "Have we reached peak soft drink? - Coca-Cola | Summer Series",
+      "url": "https://equitymates.com/episode/have-we-reached-peak-soft-drink-coca-cola-summer-series/",
+      "jump": "https://www.youtube.com/watch?v=6q8evhaPEB8&t=1510s",
+      "at": "25:10"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2024-05-06",
+     "when": "May 2024",
+     "text": "In May 2024, Equity Mates reported PepsiCo said inflation was still present throughout its pipeline, pointing to ongoing cost pressures that could influence margins and profitability.",
+     "episode": {
+      "title": "Snapchat and Spotify are back, Bonza isn't & Pimp my Portfolio returns",
+      "url": "https://equitymates.com/episode/snapchat-and-spotify-are-back-bonza-isnt-pimp-my-portfolio-returns/",
+      "jump": "https://www.youtube.com/watch?v=gRwq2wHR5Mg&t=565s",
+      "at": "9:25"
+     }
+    },
+    {
+     "date": "2022-03-21",
+     "when": "March 2022",
+     "text": "In March 2022, Equity Mates said food and consumer staples were dominated by a few giants including PepsiCo, highlighting industry consolidation that suggested entrenched competitive positions.",
+     "episode": {
+      "title": "Rate rises, growth stocks & Ren's monopoly thesis",
+      "url": "https://equitymates.com/episode/market-update-monopoly/",
+      "jump": null,
+      "at": "20:59"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2022-03-14",
+     "when": "March 2022",
+     "text": "In March 2022, Equity Mates noted PepsiCo used Microsoft’s autonomous systems to simulate manufacturing and improve product consistency, indicating continued investment in operations and technology.",
+     "episode": {
+      "title": "Compair the pair - CEOs go head to head | Quartr Reporting Season",
+      "url": "https://equitymates.com/episode/compair-the-pair-ceos-go-head-to-head-quartr-reporting-season/",
+      "jump": "https://www.youtube.com/watch?v=vY-UrZMLW64&t=2229s",
+      "at": "37:09"
+     }
+    },
+    {
+     "date": "2022-01-03",
+     "when": "January 2022",
+     "text": "In January 2022, Equity Mates explained many major brands, including PepsiCo, partnered with Beyond Meat to trial plant-based products, framing these partnerships as experimentation to explore growth areas.",
+     "episode": {
+      "title": "Is this the taste of the future of food? - Beyond Meat | Summer Series",
+      "url": "https://equitymates.com/episode/summer-series-beyond-meat/",
+      "jump": "https://www.youtube.com/watch?v=58a2abXWCl8&t=1019s",
+      "at": "16:59"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2025-01-23",
+     "when": "January 2025",
+     "text": "In January 2025, a guest on Equity Mates contrasted expensive US staples with PepsiCo trading at about 17 times earnings, noting its portfolio that included Lay’s and beverages as context for the multiple.",
+     "episode": {
+      "title": "Expert: Andrew Brown - 14 Bold Predictions for 2025",
+      "url": "https://equitymates.com/episode/expert-andrew-brown-14-bold-predictions-for-2025/",
+      "jump": "https://www.youtube.com/watch?v=3GaBApfud9Y&t=781s",
+      "at": "13:01"
+     }
+    }
+   ]
+  }
+ ]
+}

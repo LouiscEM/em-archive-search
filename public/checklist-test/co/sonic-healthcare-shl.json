@@ -1,0 +1,46 @@
+{
+ "slug": "sonic-healthcare-shl",
+ "name": "Sonic Healthcare",
+ "full": "Sonic Healthcare",
+ "listings": [
+  "ASX: SHL"
+ ],
+ "built": "2026-11-01",
+ "episodes": 1,
+ "mentioned_in": 4,
+ "latest": "2024-12-23",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": []
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": []
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2024-12-23",
+     "when": "December 2024",
+     "text": "In December 2024, a guest on Equity Mates recounted a nurse at a Sonic-owned workplace describing Sonic Healthcare’s managers as exceptional, highlighting perceived strength in management quality.",
+     "episode": {
+      "title": "Geoff Wilson - What is Equity Mates Media actually worth? | Summer Series",
+      "url": "https://equitymates.com/episode/geoff-wilson-what-is-equity-mates-media-actually-worth-summer-series/",
+      "jump": "https://www.youtube.com/watch?v=G686URJv1Ek&t=461s",
+      "at": "7:41"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

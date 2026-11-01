@@ -1,0 +1,58 @@
+{
+ "slug": "azek-azek",
+ "name": "Azek",
+ "full": "Azek Company Inc",
+ "listings": [
+  "NYSE: AZEK"
+ ],
+ "built": "2026-11-01",
+ "episodes": 1,
+ "mentioned_in": 1,
+ "latest": "2025-04-07",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": []
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2025-04-07",
+     "when": "April 2025",
+     "text": "In April 2025, Equity Mates said Azek was perceived as a lower quality business despite posting a three-year revenue CAGR of 11%, EPS CAGR of 16% and return on equity north of 20%, which framed the debate after a bid from James Hardie.",
+     "episode": {
+      "title": "Trump tariff tsunami, 7 new stocks on our watchlist & how to play the defence boom",
+      "url": "https://equitymates.com/episode/trump-tariff-tsunami-7-new-stocks-on-our-watchlist-how-to-play-the-defence-boom/",
+      "jump": "https://www.youtube.com/watch?v=1fhZyrOOKQY&t=734s",
+      "at": "12:14"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2025-04-07",
+     "when": "April 2025",
+     "text": "In April 2025, Equity Mates noted Azek was seen as trading on a higher multiple and cited a valuation of about 23 times earnings, which helped explain why a takeover approach sparked investor pushback.",
+     "episode": {
+      "title": "Trump tariff tsunami, 7 new stocks on our watchlist & how to play the defence boom",
+      "url": "https://equitymates.com/episode/trump-tariff-tsunami-7-new-stocks-on-our-watchlist-how-to-play-the-defence-boom/",
+      "jump": "https://www.youtube.com/watch?v=1fhZyrOOKQY&t=734s",
+      "at": "12:14"
+     }
+    }
+   ]
+  }
+ ]
+}

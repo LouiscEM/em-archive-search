@@ -1,0 +1,58 @@
+{
+ "slug": "investec-inp",
+ "name": "Investec",
+ "full": "Investec Group",
+ "listings": [
+  "JSE: INP"
+ ],
+ "built": "2026-11-01",
+ "episodes": 1,
+ "mentioned_in": 3,
+ "latest": "2026-03-25",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2026-03-25",
+     "when": "March 2026",
+     "text": "In March 2026, a guest on Equity Mates described Investec as a South African bank listed in Johannesburg and London with wealth advisory and property lending in Australia, and said it was a fantastic organisation even though its Australian push underdelivered after some property lending decisions.",
+     "episode": {
+      "title": "Why inheriting a fortune can tear a family apart - and how to stop it",
+      "url": "https://equitymates.com/episode/why-inheriting-a-fortune-can-tear-a-family-apart-and-how-to-stop-it/",
+      "jump": "https://www.youtube.com/watch?v=LEI5IihYdGA&t=160s",
+      "at": "2:40"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2026-03-25",
+     "when": "March 2026",
+     "text": "In March 2026, a guest on Equity Mates said property lending decisions left Investec’s Australian arm struggling and revealed broader issues across the business, suggesting its competitive position in that market did not sustain strong performance.",
+     "episode": {
+      "title": "Why inheriting a fortune can tear a family apart - and how to stop it",
+      "url": "https://equitymates.com/episode/why-inheriting-a-fortune-can-tear-a-family-apart-and-how-to-stop-it/",
+      "jump": "https://www.youtube.com/watch?v=LEI5IihYdGA&t=160s",
+      "at": "2:40"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

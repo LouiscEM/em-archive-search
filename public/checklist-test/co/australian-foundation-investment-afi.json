@@ -1,0 +1,69 @@
+{
+ "slug": "australian-foundation-investment-afi",
+ "name": "Australian Foundation Investment",
+ "full": "Australian Foundation Investment Co Ltd",
+ "listings": [
+  "ASX: AFI"
+ ],
+ "built": "2026-11-01",
+ "episodes": 2,
+ "mentioned_in": 3,
+ "latest": "2025-10-07",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2025-10-07",
+     "when": "October 2025",
+     "text": "In October 2025, Equity Mates described Australian Foundation Investment Co as a prominent listed investment company in Australia, adding that LICs had been popular 10 to 20 years ago but, in their view, had since been superseded by ETFs.",
+     "episode": {
+      "title": "Pardon the Jargon: Index vs ETF vs Mutual Funds vs LIC",
+      "url": "https://equitymates.com/episode/pardon-the-jargon-index-vs-etf-vs-mutual-funds-vs-lic/",
+      "jump": "https://www.youtube.com/watch?v=VLbJ7rZMj3Y&t=655s",
+      "at": "10:55"
+     }
+    },
+    {
+     "date": "2025-10-06",
+     "when": "October 2025",
+     "text": "In October 2025, Equity Mates explained that Australian Foundation Investment Co and Argo were among the earliest LIC vehicles on the ASX and had been around a long time, characterising AFI’s offering as a traditional, diversified listed investment company.",
+     "episode": {
+      "title": "This is not a bubble, Pimp my Portfolio with Adam Dawes & the mental biases holding you back",
+      "url": "https://equitymates.com/episode/this-is-not-a-bubble-pimp-my-portfolio-with-adam-dawes-the-mental-biases-holding-you-back/",
+      "jump": null,
+      "at": "17:33"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2025-10-06",
+     "when": "October 2025",
+     "text": "In October 2025, Equity Mates said that comparing Australian Foundation Investment Co to the ASX 200 showed AFI and Argo had underperformed the index over time, highlighting the difficulty for these LICs to match benchmark performance.",
+     "episode": {
+      "title": "This is not a bubble, Pimp my Portfolio with Adam Dawes & the mental biases holding you back",
+      "url": "https://equitymates.com/episode/this-is-not-a-bubble-pimp-my-portfolio-with-adam-dawes-the-mental-biases-holding-you-back/",
+      "jump": null,
+      "at": "17:33"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

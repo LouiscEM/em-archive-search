@@ -1,0 +1,58 @@
+{
+ "slug": "danimer-scientific-dnmr",
+ "name": "Danimer Scientific",
+ "full": "Danimer Scientific",
+ "listings": [
+  "NYSE: DNMR"
+ ],
+ "built": "2026-11-01",
+ "episodes": 1,
+ "mentioned_in": 1,
+ "latest": "2023-03-13",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2023-03-13",
+     "when": "March 2023",
+     "text": "In March 2023, Equity Mates said Danimer Scientific produced bioplastics by feeding microorganisms plant oils to create polyester, with uses like corn-based coffee cup linings, and noted it was working with some big companies.",
+     "episode": {
+      "title": "What underpins an investing thesis? + We uncover Danimer Scientific (NYSE: DNMR)",
+      "url": "https://equitymates.com/episode/what-underpins-an-investing-thesis-we-uncover-danimer-scientific-nyse-dnmr/",
+      "jump": null,
+      "at": "28:29"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2023-03-13",
+     "when": "March 2023",
+     "text": "In March 2023, Equity Mates contrasted Danimer with big chemical and oil companies that had bioplastics arms, said few pure-play bioplastic firms were listed, and positioned Danimer as a specialist that worked with large partners.",
+     "episode": {
+      "title": "What underpins an investing thesis? + We uncover Danimer Scientific (NYSE: DNMR)",
+      "url": "https://equitymates.com/episode/what-underpins-an-investing-thesis-we-uncover-danimer-scientific-nyse-dnmr/",
+      "jump": null,
+      "at": "28:29"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

@@ -1,0 +1,82 @@
+{
+ "slug": "chrysos-c79",
+ "name": "Chrysos",
+ "full": "Chrysos Corporation",
+ "listings": [
+  "ASX: C79"
+ ],
+ "built": "2026-11-01",
+ "episodes": 1,
+ "mentioned_in": 1,
+ "latest": "2023-02-10",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2023-02-10",
+     "when": "February 2023",
+     "text": "In February 2023, Equity Mates said Chrysos developed a novel gold assaying technology for the global mining and geochemistry lab industry with CSIRO, and reported 15 units deployed with expectations to reach 21 by FY23, indicating growing adoption.",
+     "episode": {
+      "title": "23 Stocks for 2023 | Car Sales, Aussie Broadband and PayPal! Pt III",
+      "url": "https://equitymates.com/episode/23-stocks-for-2023-car-sales-aussie-broadband-and-paypal-pt-iii/",
+      "jump": null,
+      "at": "9:49"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2023-02-10",
+     "when": "February 2023",
+     "text": "In February 2023, Equity Mates noted unit economics continued to improve and utilisation was trending stronger than guidance, as the company reiterated deployment targets and updated FY23 prospectus growth forecasts.",
+     "episode": {
+      "title": "23 Stocks for 2023 | Car Sales, Aussie Broadband and PayPal! Pt III",
+      "url": "https://equitymates.com/episode/23-stocks-for-2023-car-sales-aussie-broadband-and-paypal-pt-iii/",
+      "jump": null,
+      "at": "9:49"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2023-02-10",
+     "when": "February 2023",
+     "text": "In February 2023, Equity Mates highlighted strong cash receipts, lower cash costs and an $81.1 million cash balance, and said the company was exploring debt funding to support further roll out of units.",
+     "episode": {
+      "title": "23 Stocks for 2023 | Car Sales, Aussie Broadband and PayPal! Pt III",
+      "url": "https://equitymates.com/episode/23-stocks-for-2023-car-sales-aussie-broadband-and-paypal-pt-iii/",
+      "jump": null,
+      "at": "9:49"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2023-02-10",
+     "when": "February 2023",
+     "text": "In February 2023, a guest on Equity Mates discussed valuation using a 10 year DCF with a 9.2% WACC, and said the stock traded at 6.6 times NTM EV/sales and 9.9 times FY25 EBITDA while targeting 10 times EV/sales and 16.8 times EBITDA, assuming 82% revenue growth by FY25.",
+     "episode": {
+      "title": "23 Stocks for 2023 | Car Sales, Aussie Broadband and PayPal! Pt III",
+      "url": "https://equitymates.com/episode/23-stocks-for-2023-car-sales-aussie-broadband-and-paypal-pt-iii/",
+      "jump": null,
+      "at": "11:33"
+     }
+    }
+   ]
+  }
+ ]
+}

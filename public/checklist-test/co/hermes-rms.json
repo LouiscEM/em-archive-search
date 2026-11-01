@@ -1,0 +1,102 @@
+{
+ "slug": "hermes-rms",
+ "name": "Hermes",
+ "full": "Hermes",
+ "listings": [
+  "EPA: RMS"
+ ],
+ "built": "2026-10-30",
+ "episodes": 6,
+ "mentioned_in": 12,
+ "latest": "2026-08-06",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2023-12-14",
+     "when": "December 2023",
+     "text": "In December 2023, Equity Mates contrasted luxury players and said Hermes, the 10 grand handbags name, rose from about €180 to €208 while mid-tier peers fell, implying its very top-end offering kept attracting buyers.",
+     "episode": {
+      "title": "Expert: Andrew Brown - Bold predictions wrap 2023",
+      "url": "https://equitymates.com/episode/expert-andrew-brown-bold-predictions-wrap-2023/",
+      "jump": null,
+      "at": "32:43"
+     }
+    },
+    {
+     "date": "2022-03-17",
+     "when": "March 2022",
+     "text": "In March 2022, Equity Mates said Hermes produced €30,000 handbags and argued luxury demand was resilient because these high-quality products targeted the top 1% and were backed by decades of craftsmanship.",
+     "episode": {
+      "title": "Expert: Tim Samway - How a growth fund manager is reacting to markets",
+      "url": "https://equitymates.com/episode/expert-tim-samway-how-a-growth-fund-manager-is-reacting-to-markets/",
+      "jump": "https://www.youtube.com/watch?v=NuLEd4JVf1k&t=1618s",
+      "at": "26:58"
+     }
+    },
+    {
+     "date": "2021-10-07",
+     "when": "October 2021",
+     "text": "In October 2021, a guest on Equity Mates praised Hermes’ longevity, saying the 200-year-old, family-descended company still grew and that used handbags sold for $101,629, showing enduring desirability.",
+     "episode": {
+      "title": "Expert: Lawrence Lam - Investing in Founder-Led Businesses",
+      "url": "https://equitymates.com/episode/expert-lawrence-lam-investing-in-founder-led-businesses/",
+      "jump": null,
+      "at": "33:43"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2026-08-06",
+     "when": "August 2026",
+     "text": "In August 2026, Equity Mates described Hermes as a pure play on scarcity with the Birkin and Kelly, reporting €16 billion revenue in 2025, up 9%, and a 41% recurring operating margin, indicating strong economics.",
+     "episode": {
+      "title": "Luxury: How Experiences Became the New Luxury | The Decade Ahead",
+      "url": "https://equitymates.com/episode/how-experiences-became-the-new-luxury/",
+      "jump": "https://www.youtube.com/watch?v=d_S06HssHnc&t=1556s",
+      "at": "25:56"
+     }
+    },
+    {
+     "date": "2026-01-19",
+     "when": "January 2026",
+     "text": "In January 2026, Equity Mates argued Hermes handbags were becoming less super scarce as wealth in China rose, suggesting exclusivity risk as spending shifted from goods to experiences.",
+     "episode": {
+      "title": "We're back: 4 big investing themes & our Stocks of the Year",
+      "url": "https://equitymates.com/episode/were-back-big-themes-big-opportunities-the-stock-of-the-year/",
+      "jump": "https://www.youtube.com/watch?v=4nVjeTwKtMc&t=957s",
+      "at": "15:57"
+     }
+    },
+    {
+     "date": "2022-07-25",
+     "when": "July 2022",
+     "text": "In July 2022, Equity Mates noted Hermes had fought a trademark case in China since 1997, showing ongoing efforts to defend brand equity in a key market.",
+     "episode": {
+      "title": "And just like that... Manolo Blahnik can sell in China",
+      "url": "https://equitymates.com/episode/and-just-like-that-manolo-blahnik-can-sell-in-china/",
+      "jump": null,
+      "at": "4:49"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

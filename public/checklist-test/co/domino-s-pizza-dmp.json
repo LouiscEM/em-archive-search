@@ -1,0 +1,171 @@
+{
+ "slug": "domino-s-pizza-dmp",
+ "name": "Domino's Pizza",
+ "full": "Domino's Pizza Enterprises",
+ "listings": [
+  "ASX: DMP",
+  "NYSE: DPZ"
+ ],
+ "built": "2026-10-30",
+ "episodes": 8,
+ "mentioned_in": 29,
+ "latest": "2025-03-04",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2024-04-09",
+     "when": "April 2024",
+     "text": "In April 2024, Equity Mates noted Domino's resonated with many consumers during the cost of living squeeze, highlighting its low-cost, convenient offering and broad brand recognition.",
+     "episode": {
+      "title": "Buy or Sell with Adam Keily and Adam Dawes",
+      "url": "https://equitymates.com/episode/buy-or-sell-with-adam-keily-and-adam-dawes/",
+      "jump": "https://www.youtube.com/watch?v=JnH_lFsX2KA&t=1205s",
+      "at": "20:05"
+     }
+    },
+    {
+     "date": "2022-08-15",
+     "when": "August 2022",
+     "text": "In August 2022, Equity Mates explained Domino's usual edge was price, but in Italy local restaurants sold pizzas for about €5 while Domino's cost about €6, undermining its value proposition and contributing to the Italian franchise’s bankruptcy.",
+     "episode": {
+      "title": "The world’s biggest pizza maker is leaving the home of pizza",
+      "url": "https://equitymates.com/episode/the-worlds-biggest-pizza-maker-is-leaving-the-home-of-pizza/",
+      "jump": null,
+      "at": "7:31"
+     }
+    },
+    {
+     "date": "2021-08-26",
+     "when": "August 2021",
+     "text": "In August 2021, a guest on Equity Mates described Domino's as pioneering home-delivered food globally and building a large, loved pizza brand supported by technology and a focus on people and culture.",
+     "episode": {
+      "title": "CEO: Don Meij - From Delivering Pizzas to Leading a Global Pizza Business | Domino's (ASX: DMP)",
+      "url": "https://equitymates.com/episode/ceo-don-meij-from-delivering-pizzas-to-leading-a-global-pizza-business-dominos-asx-dmp/",
+      "jump": null,
+      "at": "0:45"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2025-03-04",
+     "when": "March 2025",
+     "text": "In March 2025, a guest on Equity Mates said Domino's push selling cheap pizza in Japan had led to store closures there and called it a disaster, raising concerns about sustaining profitability in that market.",
+     "episode": {
+      "title": "Buy or Sell: Ben Richards - WiseTech, Guzman y Gomez, Catapult, Antipa Minerals and more",
+      "url": "https://equitymates.com/episode/buy-or-sell-ben-richards-wisetech-guzman-y-gomez-catapult-antipa-minerals-and-more/",
+      "jump": "https://www.youtube.com/watch?v=SQ-HbCPpNto&t=1255s",
+      "at": "20:55"
+     }
+    },
+    {
+     "date": "2024-04-09",
+     "when": "April 2024",
+     "text": "In April 2024, Equity Mates recalled Domino's split store territories, increasing density but reducing individual store profitability, which pressured store economics even as the company expanded overseas.",
+     "episode": {
+      "title": "Buy or Sell with Adam Keily and Adam Dawes",
+      "url": "https://equitymates.com/episode/buy-or-sell-with-adam-keily-and-adam-dawes/",
+      "jump": "https://www.youtube.com/watch?v=JnH_lFsX2KA&t=1205s",
+      "at": "20:05"
+     }
+    },
+    {
+     "date": "2022-10-27",
+     "when": "October 2022",
+     "text": "In October 2022, a guest on Equity Mates said Domino's grew turnover from about $200 million to $2 billion and stores from 1,000 to roughly 3,500 over a decade, arguing scale in Europe would improve marketing efficiency and customer acquisition.",
+     "episode": {
+      "title": "Expert: Wayne Jones - Low activity investing",
+      "url": "https://equitymates.com/episode/expert-wayne-jones-low-activity-investing/",
+      "jump": "https://www.youtube.com/watch?v=evWrUqwfFS0&t=2363s",
+      "at": "39:23"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2024-08-13",
+     "when": "August 2024",
+     "text": "In August 2024, a guest on Equity Mates noted Domino's was rationalising stores and carried higher net debt since 2020, indicating capital was being directed to consolidation rather than rapid expansion.",
+     "episode": {
+      "title": "Buy or Sell: Ben Rundle - Catapult, Dominos, Guzman y Gomez and more",
+      "url": "https://equitymates.com/episode/buy-or-sell-ben-rundle-catapult-dominos-guzman-y-gomez-and-more/",
+      "jump": "https://www.youtube.com/watch?v=hDgPNqEvKdM&t=535s",
+      "at": "8:55"
+     }
+    },
+    {
+     "date": "2024-04-09",
+     "when": "April 2024",
+     "text": "In April 2024, Equity Mates said Domino's expanded into Japan and Europe and changed territory structures, decisions that affected store-level profits and showed management’s willingness to tweak the model to drive growth.",
+     "episode": {
+      "title": "Buy or Sell with Adam Keily and Adam Dawes",
+      "url": "https://equitymates.com/episode/buy-or-sell-with-adam-keily-and-adam-dawes/",
+      "jump": "https://www.youtube.com/watch?v=JnH_lFsX2KA&t=1205s",
+      "at": "20:05"
+     }
+    },
+    {
+     "date": "2022-10-27",
+     "when": "October 2022",
+     "text": "In October 2022, a guest on Equity Mates highlighted Domino's reinvestment into new markets, lifting stores to about 3,500 and building scale in France and Germany so advertising spend could work more effectively.",
+     "episode": {
+      "title": "Expert: Wayne Jones - Low activity investing",
+      "url": "https://equitymates.com/episode/expert-wayne-jones-low-activity-investing/",
+      "jump": "https://www.youtube.com/watch?v=evWrUqwfFS0&t=2363s",
+      "at": "39:23"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2025-02-13",
+     "when": "February 2025",
+     "text": "In February 2025, Equity Mates noted Domino's shares were up about 22 percent year to date in early February, illustrating how quickly market expectations for the company had shifted.",
+     "episode": {
+      "title": "Bryce's $500-to-$5k challenge continues, best stocks for 2025 & gold in the portfolio",
+      "url": "https://equitymates.com/episode/bryces-500-to-5k-challenge-continues-best-stocks-for-2025-gold-in-the-portfolio/",
+      "jump": "https://www.youtube.com/watch?v=J2HmxP1ngSs&t=103s",
+      "at": "1:43"
+     }
+    },
+    {
+     "date": "2024-08-13",
+     "when": "August 2024",
+     "text": "In August 2024, a guest on Equity Mates said Domino's still traded on a rich multiple despite slower growth, with high net debt and ongoing store rationalisation shaping what was priced into the shares.",
+     "episode": {
+      "title": "Buy or Sell: Ben Rundle - Catapult, Dominos, Guzman y Gomez and more",
+      "url": "https://equitymates.com/episode/buy-or-sell-ben-rundle-catapult-dominos-guzman-y-gomez-and-more/",
+      "jump": "https://www.youtube.com/watch?v=hDgPNqEvKdM&t=535s",
+      "at": "8:55"
+     }
+    },
+    {
+     "date": "2024-07-11",
+     "when": "July 2024",
+     "text": "In July 2024, Equity Mates reported Domino's was among the ASX’s worst performers year to date at that time, down 39 percent, offering context for how the market had been valuing its outlook.",
+     "episode": {
+      "title": "Half year market wrap, the worst investing take, struggling Australian media & Pimp My Portfolio",
+      "url": "https://equitymates.com/episode/half-year-market-wrap-the-worst-investing-take-struggling-australian-media-pimp-my-portfolio/",
+      "jump": "https://www.youtube.com/watch?v=SKJv-W7OkWM&t=978s",
+      "at": "16:18"
+     }
+    }
+   ]
+  }
+ ]
+}

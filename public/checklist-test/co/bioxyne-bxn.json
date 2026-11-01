@@ -1,0 +1,46 @@
+{
+ "slug": "bioxyne-bxn",
+ "name": "Bioxyne",
+ "full": "Bioxyne",
+ "listings": [
+  "ASX: BXN"
+ ],
+ "built": "2026-11-01",
+ "episodes": 1,
+ "mentioned_in": 1,
+ "latest": "2025-11-10",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": []
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2025-11-10",
+     "when": "November 2025",
+     "text": "In November 2025, Equity Mates discussed a listener’s portfolio and noted Bioxyne was the largest position, a tiny $86 million market cap company that could move more than 20 percent in a day, and said it was profitable now, highlighting current earnings alongside high volatility.",
+     "episode": {
+      "title": "Australia's fastest growing company, 3 stocks we're watching & Pimp my Portfolio with Matt Ingram",
+      "url": "https://equitymates.com/episode/australias-fastest-growing-company-3-stocks-were-watching-pimp-my-portfolio-with-matt-ingram/",
+      "jump": "https://www.youtube.com/watch?v=uQyY1mdLBkk&t=1021s",
+      "at": "17:01"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

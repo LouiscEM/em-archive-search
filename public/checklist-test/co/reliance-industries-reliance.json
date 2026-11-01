@@ -1,0 +1,57 @@
+{
+ "slug": "reliance-industries-reliance",
+ "name": "Reliance Industries",
+ "full": "Reliance Industries",
+ "listings": [
+  "NSE: RELIANCE"
+ ],
+ "built": "2026-11-01",
+ "episodes": 2,
+ "mentioned_in": 7,
+ "latest": "2026-07-20",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2026-07-20",
+     "when": "July 2026",
+     "text": "In July 2026, Equity Mates said Reliance Industries had a telco, Jio, and created a smartphone priced about 6,000 rupees, around 90 Australian dollars, making access far more accessible and driving smartphone and internet penetration alongside digital entertainment uptake in India.",
+     "episode": {
+      "title": "Entertainment: The Smartphone Is Eating Hollywood | The Decade Ahead",
+      "url": "https://equitymates.com/episode/entertainment-the-smartphone-is-eating-hollywood-the-decade-ahead/",
+      "jump": "https://www.youtube.com/watch?v=cFh7-XUWuPQ&t=1005s",
+      "at": "16:45"
+     }
+    },
+    {
+     "date": "2022-02-21",
+     "when": "February 2022",
+     "text": "In February 2022, Equity Mates highlighted Reliance Industries’ Jamnagar facility among the world’s largest refineries, noting it handled about 1.24 million barrels a day, as part of a discussion on major downstream operators.",
+     "episode": {
+      "title": "Industry Deep Dive: Oil - what is the future of this $3.3 trillion industry?",
+      "url": "https://equitymates.com/episode/industry-deep-dive-oil-what-is-the-future-of-this-3-3-trillion-industry/",
+      "jump": "https://www.youtube.com/watch?v=LLJNTO80mCo&t=1639s",
+      "at": "27:19"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": []
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

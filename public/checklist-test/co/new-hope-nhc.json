@@ -1,0 +1,92 @@
+{
+ "slug": "new-hope-nhc",
+ "name": "New Hope",
+ "full": "New Hope",
+ "listings": [
+  "ASX: NHC"
+ ],
+ "built": "2026-10-30",
+ "episodes": 3,
+ "mentioned_in": 12,
+ "latest": "2026-09-15",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": []
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2026-09-15",
+     "when": "September 2026",
+     "text": "In September 2026, a guest on Equity Mates said New Hope sat in a strong energy thematic, with Asian coal demand holding or growing as new thermal power stations were built, and rising electricity use from AI and data centres lifting long-term demand.",
+     "episode": {
+      "title": "A century of compounding: inside Soul Patts’ permanent capital with Todd Barlow",
+      "url": "https://equitymates.com/episode/a-century-of-compounding-inside-soul-patts-permanent-capital-with-todd-barlow/",
+      "jump": null,
+      "at": "19:47"
+     }
+    },
+    {
+     "date": "2026-04-17",
+     "when": "April 2026",
+     "text": "In April 2026, a guest on Equity Mates said New Hope was low cost and positioned for long-term thermal coal demand, noting approvals for new supply were very hard while power demand was rising and China kept building coal-fired generators.",
+     "episode": {
+      "title": "Buy or Sell: 5 Aussie stocks flying in 2026 with Jun Bei Liu & Anthony Aboud",
+      "url": "https://equitymates.com/episode/buy-or-sell-5-aussie-stocks-flying-in-2026-with-jun-bei-liu-anthony-aboud/",
+      "jump": "https://www.youtube.com/watch?v=vhNbVgBXc1o&t=540s",
+      "at": "9:00"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2026-04-17",
+     "when": "April 2026",
+     "text": "In April 2026, a guest on Equity Mates highlighted planned production growth from about 10 million tonnes to around 15 million tonnes longer term, implying reinvestment to expand volumes.",
+     "episode": {
+      "title": "Buy or Sell: 5 Aussie stocks flying in 2026 with Jun Bei Liu & Anthony Aboud",
+      "url": "https://equitymates.com/episode/buy-or-sell-5-aussie-stocks-flying-in-2026-with-jun-bei-liu-anthony-aboud/",
+      "jump": "https://www.youtube.com/watch?v=vhNbVgBXc1o&t=540s",
+      "at": "9:00"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2026-04-17",
+     "when": "April 2026",
+     "text": "In April 2026, a guest on Equity Mates noted market earnings for New Hope were based on about 115 for Newcastle thermal coal, while spot was around 130, suggesting earnings upgrades if spot held.",
+     "episode": {
+      "title": "Buy or Sell: 5 Aussie stocks flying in 2026 with Jun Bei Liu & Anthony Aboud",
+      "url": "https://equitymates.com/episode/buy-or-sell-5-aussie-stocks-flying-in-2026-with-jun-bei-liu-anthony-aboud/",
+      "jump": "https://www.youtube.com/watch?v=vhNbVgBXc1o&t=540s",
+      "at": "9:00"
+     }
+    },
+    {
+     "date": "2022-10-27",
+     "when": "October 2022",
+     "text": "In October 2022, a guest on Equity Mates said New Hope looked as if it traded at roughly one times cash flow if spot coal prices persisted, after estimating costs and cash generation from simple inputs.",
+     "episode": {
+      "title": "Expert: Wayne Jones - Low activity investing",
+      "url": "https://equitymates.com/episode/expert-wayne-jones-low-activity-investing/",
+      "jump": "https://www.youtube.com/watch?v=evWrUqwfFS0&t=1649s",
+      "at": "27:29"
+     }
+    }
+   ]
+  }
+ ]
+}

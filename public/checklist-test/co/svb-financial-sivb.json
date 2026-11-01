@@ -1,0 +1,82 @@
+{
+ "slug": "svb-financial-sivb",
+ "name": "SVB Financial",
+ "full": "SVB Financial Group",
+ "listings": [
+  "NASDAQ: SIVB"
+ ],
+ "built": "2026-11-01",
+ "episodes": 1,
+ "mentioned_in": 1,
+ "latest": "2021-10-01",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2021-10-01",
+     "when": "October 2021",
+     "text": "In October 2021, Equity Mates described SVB Financial as the largest commercial bank focused on the innovation economy, lending to tech, life sciences, private equity and venture capital, and serving emerging growth companies, which made its offering very different to traditional banks.",
+     "episode": {
+      "title": "Our Order Pad  | Tesserent (TNT:ASX) & SVB Financial Group (SIVB:NAS)",
+      "url": "https://equitymates.com/episode/our-order-pad-tesserent-tntasx-svb-financial-group-sivbnas/",
+      "jump": null,
+      "at": "12:01"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2021-10-01",
+     "when": "October 2021",
+     "text": "In October 2021, Equity Mates said SVB Financial held a leading, differentiated position in its niche, dominated its segment, showed the best loan growth among US banks, and benefited from an asset sensitive balance sheet and pioneering use of off balance sheet funding.",
+     "episode": {
+      "title": "Our Order Pad  | Tesserent (TNT:ASX) & SVB Financial Group (SIVB:NAS)",
+      "url": "https://equitymates.com/episode/our-order-pad-tesserent-tntasx-svb-financial-group-sivbnas/",
+      "jump": null,
+      "at": "12:01"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2021-10-01",
+     "when": "October 2021",
+     "text": "In October 2021, Equity Mates highlighted a recent acquisition of Leerink Swann, indicating SVB Financial deployed capital to expand its capabilities beyond lending.",
+     "episode": {
+      "title": "Our Order Pad  | Tesserent (TNT:ASX) & SVB Financial Group (SIVB:NAS)",
+      "url": "https://equitymates.com/episode/our-order-pad-tesserent-tntasx-svb-financial-group-sivbnas/",
+      "jump": null,
+      "at": "12:01"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2021-10-01",
+     "when": "October 2021",
+     "text": "In October 2021, Equity Mates noted the shares traded around $675 per share and were up nearly 4 percent overnight.",
+     "episode": {
+      "title": "Our Order Pad  | Tesserent (TNT:ASX) & SVB Financial Group (SIVB:NAS)",
+      "url": "https://equitymates.com/episode/our-order-pad-tesserent-tntasx-svb-financial-group-sivbnas/",
+      "jump": null,
+      "at": "21:25"
+     }
+    }
+   ]
+  }
+ ]
+}

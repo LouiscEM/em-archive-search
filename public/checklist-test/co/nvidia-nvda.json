@@ -1,0 +1,126 @@
+{
+ "slug": "nvidia-nvda",
+ "name": "Nvidia",
+ "full": "NVIDIA Corporation",
+ "listings": [
+  "NASDAQ: NVDA"
+ ],
+ "built": "2026-10-30",
+ "episodes": 5,
+ "mentioned_in": 238,
+ "latest": "2026-01-30",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2026-01-30",
+     "when": "January 2026",
+     "text": "In January 2026, a guest on Equity Mates argued Nvidia was a software monopolist, saying about 90% of AI systems ran on CUDA and a 5 million strong developer community made switching prohibitively hard.",
+     "episode": {
+      "title": "Google and Nvidia will 20-bag from here according to this expert | David Tuckwell - ETF Shares",
+      "url": "https://equitymates.com/episode/google-and-nvidia-will-20-bag-from-here-according-to-this-expert-david-tuckwell-etf-shares/",
+      "jump": "https://www.youtube.com/watch?v=xH250oTgyQI&t=963s",
+      "at": "16:03"
+     }
+    },
+    {
+     "date": "2024-01-08",
+     "when": "January 2024",
+     "text": "In January 2024, Equity Mates described the H100 as Nvidia's cutting edge GPU with at least a six month waiting list and prices between 25,000 and 40,000 US dollars per unit.",
+     "episode": {
+      "title": "Up more than 200% in 2023, what does 2024 hold? - Nvidia | Summer Series",
+      "url": "https://equitymates.com/episode/up-more-than-200-in-2023-what-does-2024-hold-nvidia-summer-series/",
+      "jump": null,
+      "at": "6:20"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2026-01-30",
+     "when": "January 2026",
+     "text": "In January 2026, a guest on Equity Mates said Wall Street loved Nvidia because CUDA made it a software monopolist, with about 90% of AI systems using it and a 5 million developer base creating powerful lock in.",
+     "episode": {
+      "title": "Google and Nvidia will 20-bag from here according to this expert | David Tuckwell - ETF Shares",
+      "url": "https://equitymates.com/episode/google-and-nvidia-will-20-bag-from-here-according-to-this-expert-david-tuckwell-etf-shares/",
+      "jump": "https://www.youtube.com/watch?v=xH250oTgyQI&t=963s",
+      "at": "16:03"
+     }
+    },
+    {
+     "date": "2024-12-09",
+     "when": "December 2024",
+     "text": "In December 2024, a guest on Equity Mates argued the company that controlled accelerated compute beyond further chip shrink was Nvidia, positioning it to drive computing power increases from here.",
+     "episode": {
+      "title": "Nick Griffin - The Nvidia story is not over | Summer Series",
+      "url": "https://equitymates.com/episode/nick-griffin-the-nvidia-story-is-not-over-summer-series/",
+      "jump": "https://www.youtube.com/watch?v=LadyuObnFNw&t=1490s",
+      "at": "24:50"
+     }
+    },
+    {
+     "date": "2024-09-12",
+     "when": "September 2024",
+     "text": "In September 2024, Equity Mates said Nvidia had profit margins above 50% and customer willingness to wait 18 months for systems, suggesting strong pricing power and product dominance.",
+     "episode": {
+      "title": "Channel 9: Australian housing \"to fall 50%\", hiding money from your partner & what makes Nvidia great",
+      "url": "https://equitymates.com/episode/channel-9-australian-housing-to-fall-50-hiding-money-from-your-partner-what-makes-nvidia-great/",
+      "jump": "https://www.youtube.com/watch?v=NF3IJCkTJNE&t=1337s",
+      "at": "22:17"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2024-01-08",
+     "when": "January 2024",
+     "text": "In January 2024, Equity Mates noted an argument that Nvidia funded start ups, with much of the money returning as H100 orders, implying ecosystem investment that supported demand for its hardware.",
+     "episode": {
+      "title": "Up more than 200% in 2023, what does 2024 hold? - Nvidia | Summer Series",
+      "url": "https://equitymates.com/episode/up-more-than-200-in-2023-what-does-2024-hold-nvidia-summer-series/",
+      "jump": null,
+      "at": "9:52"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2026-01-30",
+     "when": "January 2026",
+     "text": "In January 2026, a guest on Equity Mates said NVIDIA's PE ratio had collapsed 68% over two years, noting major AI company multiples were falling even as the trade remained strong.",
+     "episode": {
+      "title": "Google and Nvidia will 20-bag from here according to this expert | David Tuckwell - ETF Shares",
+      "url": "https://equitymates.com/episode/google-and-nvidia-will-20-bag-from-here-according-to-this-expert-david-tuckwell-etf-shares/",
+      "jump": "https://www.youtube.com/watch?v=xH250oTgyQI&t=208s",
+      "at": "3:28"
+     }
+    },
+    {
+     "date": "2024-11-25",
+     "when": "November 2024",
+     "text": "In November 2024, Equity Mates said Nvidia traded on a 68 price to earnings ratio, observing it was not even the frothiest multiple when compared with another listed company.",
+     "episode": {
+      "title": "Investing for a $1.5m portfolio, Nvidia earnings & Cathie Wood's $1 billion mistake",
+      "url": "https://equitymates.com/episode/investing-for-a-1-5m-portfolio-nvidia-earnings-cathie-woods-1-billion-mistake/",
+      "jump": "https://www.youtube.com/watch?v=1Qgwfrhr6vM&t=176s",
+      "at": "2:56"
+     }
+    }
+   ]
+  }
+ ]
+}

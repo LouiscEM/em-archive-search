@@ -1,0 +1,137 @@
+{
+ "slug": "astrazeneca-azn",
+ "name": "AstraZeneca",
+ "full": "AstraZeneca",
+ "listings": [
+  "LSE: AZN"
+ ],
+ "built": "2026-10-30",
+ "episodes": 9,
+ "mentioned_in": 17,
+ "latest": "2026-07-09",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2026-06-09",
+     "when": "June 2026",
+     "text": "In June 2026, Equity Mates discussed criticism and stigma around advertising medical services and noted the AstraZeneca vaccine as an example where negative media coverage was unwarranted, highlighting how public perception affected how the product was talked about.",
+     "episode": {
+      "title": "The Inside Story of Eucalyptus: Tim Doyle on Starting, Scaling and Selling a $1.6 billion business",
+      "url": "https://equitymates.com/episode/the-inside-story-of-eucalyptus-tim-doyle-on-starting-scaling-and-selling-a-1-6-billion-business/",
+      "jump": "https://www.youtube.com/watch?v=5PXZ7KOg7Vo&t=1772s",
+      "at": "29:32"
+     }
+    },
+    {
+     "date": "2021-10-19",
+     "when": "October 2021",
+     "text": "In October 2021, Equity Mates contrasted chatter about side effects between COVID vaccines and said there was more talk about side effects for AstraZeneca than Pfizer, which shaped how people perceived AstraZeneca’s product.",
+     "episode": {
+      "title": "How Froomes is Investing to Make a Million Dollars",
+      "url": "https://equitymates.com/episode/how-froomes-is-investing-to-make-a-million-dollars/",
+      "jump": null,
+      "at": "9:09"
+     }
+    },
+    {
+     "date": "2021-09-08",
+     "when": "September 2021",
+     "text": "In September 2021, Equity Mates said Australia was stockpiling AstraZeneca vaccines that many people did not want, noting this boosted GDP via inventories and showed weak consumer acceptance of the product at the time.",
+     "episode": {
+      "title": "Why Are Builders Going Bust into the Boom?",
+      "url": "https://equitymates.com/episode/why-are-builders-going-bust-into-the-boom/",
+      "jump": null,
+      "at": "2:30"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2026-07-09",
+     "when": "July 2026",
+     "text": "In July 2026, Equity Mates grouped AstraZeneca with global pharma giants that had huge, constantly evolving pipelines and the balance sheet strength to acquire smaller biotechs, suggesting diversified drug pipelines rather than single large bets.",
+     "episode": {
+      "title": "Longevity: Can We Add Another 30 Years? | The Decade Ahead",
+      "url": "https://equitymates.com/episode/longevity-can-we-add-another-30-years-the-decade-ahead/",
+      "jump": "https://www.youtube.com/watch?v=P8y_M1gda_E&t=1315s",
+      "at": "21:55"
+     }
+    },
+    {
+     "date": "2023-07-17",
+     "when": "July 2023",
+     "text": "In July 2023, Equity Mates included AstraZeneca among big pharma firms with immense clinical trial data and said combining that data with AI could improve drug discovery, hinting at a data-driven competitive edge for future development.",
+     "episode": {
+      "title": "An alternative investment thesis for AI",
+      "url": "https://equitymates.com/episode/an-alternative-investment-thesis-for-ai/",
+      "jump": null,
+      "at": "25:40"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2024-05-20",
+     "when": "May 2024",
+     "text": "In May 2024, Equity Mates said AstraZeneca announced it would stop making its COVID vaccine, signalling a shift in resources away from that product line as demand faded.",
+     "episode": {
+      "title": "COVID stocks that haven't recovered (yet?), Pimp my portfolio & should I invest in gold?",
+      "url": "https://equitymates.com/episode/covid-stocks-that-havent-recovered-yet-pimp-my-portfolio-should-i-invest-in-gold/",
+      "jump": "https://www.youtube.com/watch?v=mvYu1ThJsJQ&t=513s",
+      "at": "8:33"
+     }
+    },
+    {
+     "date": "2022-07-01",
+     "when": "July 2022",
+     "text": "In July 2022, a guest on Equity Mates said AstraZeneca invested alongside others in an AI-driven drug discovery company in Cambridge, indicating active reinvestment into external innovation to enhance its R&D capabilities.",
+     "episode": {
+      "title": "Talking Money To Us | Frank Yu - Ally Bridge Group & Julius Garofali - Shaw and Partners",
+      "url": "https://equitymates.com/episode/talking-money-to-us-frank-you-ally-bridge-group-julius-garofali-shaw-and-partners/",
+      "jump": null,
+      "at": "27:46"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2026-03-06",
+     "when": "March 2026",
+     "text": "In March 2026, a guest on Equity Mates placed AstraZeneca in an opportunistic, value-leaning sleeve and said market fears about its pipeline development looked overdone, indicating expectations embedded in the share price might be too negative.",
+     "episode": {
+      "title": "4 steps to find winning software stocks with Ben Arnold",
+      "url": "https://equitymates.com/episode/4-steps-to-find-winning-software-stocks-with-ben-arnold/",
+      "jump": "https://www.youtube.com/watch?v=4o_MexmZVEw&t=1474s",
+      "at": "24:34"
+     }
+    },
+    {
+     "date": "2026-01-23",
+     "when": "January 2026",
+     "text": "In January 2026, a guest on Equity Mates described the UK market as cheap and noted pharmaceuticals were beaten up, with AstraZeneca a major index component, framing a supportive valuation backdrop for large UK pharma names.",
+     "episode": {
+      "title": "14 Bold Predictions with Andrew Brown",
+      "url": "https://equitymates.com/episode/14-bold-predictions-with-andrew-brown/",
+      "jump": "https://www.youtube.com/watch?v=i1suaRKMSsI&t=1980s",
+      "at": "33:00"
+     }
+    }
+   ]
+  }
+ ]
+}

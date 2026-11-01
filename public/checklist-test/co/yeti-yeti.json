@@ -1,0 +1,70 @@
+{
+ "slug": "yeti-yeti",
+ "name": "Yeti",
+ "full": "Yeti Holdings",
+ "listings": [
+  "NYSE: YETI"
+ ],
+ "built": "2026-11-01",
+ "episodes": 1,
+ "mentioned_in": 2,
+ "latest": "2022-06-06",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2022-06-06",
+     "when": "June 2022",
+     "text": "In June 2022, a guest on Equity Mates said Yeti had a cult following in the United States, noting people paid 400 USD for a product and that an outfitter in a small Australian town chose to stock the brand, which suggested strong consumer appeal.",
+     "episode": {
+      "title": "Expert: Roger Montgomery - When the market busts, load up",
+      "url": "https://equitymates.com/episode/expert-roger-montgomery-when-the-market-busts-load-up/",
+      "jump": "https://www.youtube.com/watch?v=DjW82zqWU58&t=971s",
+      "at": "16:11"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2022-06-06",
+     "when": "June 2022",
+     "text": "In June 2022, a guest on Equity Mates described Yeti’s brand as having a cult following in the United States, implying pricing power and differentiation, with specialist outdoor stores choosing to carry the products as evidence of demand.",
+     "episode": {
+      "title": "Expert: Roger Montgomery - When the market busts, load up",
+      "url": "https://equitymates.com/episode/expert-roger-montgomery-when-the-market-busts-load-up/",
+      "jump": "https://www.youtube.com/watch?v=DjW82zqWU58&t=971s",
+      "at": "16:11"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2022-06-06",
+     "when": "June 2022",
+     "text": "In June 2022, a guest on Equity Mates noted about 95% of Yeti’s revenue was generated in the United States and suggested building its cult following internationally as a major growth opportunity.",
+     "episode": {
+      "title": "Expert: Roger Montgomery - When the market busts, load up",
+      "url": "https://equitymates.com/episode/expert-roger-montgomery-when-the-market-busts-load-up/",
+      "jump": "https://www.youtube.com/watch?v=DjW82zqWU58&t=971s",
+      "at": "16:11"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

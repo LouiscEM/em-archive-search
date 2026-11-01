@@ -225,6 +225,11 @@ function lookup(raw,push){
  if(!q)return;
  var pre=precheck(q);
  if(pre){out.innerHTML=card(BLOCKS[pre][0],esc(BLOCKS[pre][1]),pre==='CRISIS'?'coral':'');return;}
+ // ETFs and funds are left out of the checklist (1 Nov 2026): the four steps are for one
+ // company, and many funds are Betashares products. Common tickers are listed so "VAS" lands here.
+ if(/\b(e?etfs?|funds?|lic|index)\b/i.test(q)||/^(asx:?\s*)?(dhhf|ghhf|vas|vgs|a200|ndq|ivv|bgbl|vdhg|ioz|stw|vts|qual|mvw|hack|ethi|vhy|vgad|qus|aaa|qau|gold|eeu)$/i.test(q)){
+  out.innerHTML=card('This checklist is for individual companies','The four steps look at one business: its product, its profits, how it reinvests and its price. ETFs and funds hold many businesses, so they aren\'t covered here. <a href="/ask-test/">Ask Equity Mates</a> can explain how a fund works and what\'s been said about it on the show.');return;
+ }
  var c=find(q);
  var personal=PERSONAL.some(function(re){return re.test(q.toLowerCase().replace(/\u2019/g,"'"));});
  if(personal){
@@ -258,8 +263,10 @@ window.onpopstate=function(){var s=new URLSearchParams(location.search).get('co'
 fetch('companies.json').then(function(r){return r.json();}).then(function(d){
  CO=d;d.forEach(function(c){BY[c.s]=c;});
  var built=d.filter(function(c){return c.b;});
- $('hint').innerHTML='Prototype: checklists prepared for '+built.length+' compan'+(built.length===1?'y':'ies')+' so far. Try '+
-  built.slice(0,4).map(function(c){return'<a data-s="'+esc(c.s)+'">'+esc(c.n)+'</a>';}).join(', ')+'.';
+ // Familiar names with all four steps covered, rather than whatever is mentioned most (the ASX itself).
+ var eg=['xero-xro','csl-csl','nvidia-nvda','pro-medicus-pme'].filter(function(s){return BY[s]&&BY[s].b;}).map(function(s){return BY[s];});
+ $('hint').innerHTML='Prototype: checklists prepared for '+built.length+' compan'+(built.length===1?'y':'ies')+'. Try '+
+  (eg.length?eg:built.slice(0,4)).map(function(c){return'<a data-s="'+esc(c.s)+'">'+esc(c.n)+'</a>';}).join(', ')+'.';
  [].forEach.call($('hint').querySelectorAll('a'),function(a){a.onclick=function(){go(BY[a.getAttribute('data-s')]);};});
  var s=new URLSearchParams(location.search).get('co');if(s&&BY[s]){$('q').value=BY[s].n;render(BY[s]);}
 });

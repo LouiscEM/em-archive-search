@@ -1,0 +1,46 @@
+{
+ "slug": "paladin-energy-pdn",
+ "name": "Paladin Energy",
+ "full": "Paladin Energy",
+ "listings": [
+  "ASX: PDN"
+ ],
+ "built": "2026-11-01",
+ "episodes": 1,
+ "mentioned_in": 4,
+ "latest": "2024-09-03",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": []
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2024-09-03",
+     "when": "September 2024",
+     "text": "In September 2024, a guest on Equity Mates discussed Paladin Energy within the uranium sector, saying supply had dwindled after mines were mothballed and with issues in Kazakhstan, while demand for nuclear energy was rising, which they argued supported stronger industry pricing.",
+     "episode": {
+      "title": "Buy or Sell: Michael Gable - Gold, Paladin Energy, Goodman Group, BHP & more",
+      "url": "https://equitymates.com/episode/buy-or-sell-michael-gable-gold-paladin-energy-goodman-group-bhp-more/",
+      "jump": "https://www.youtube.com/watch?v=GC0bdsEHxww&t=1182s",
+      "at": "19:42"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

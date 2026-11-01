@@ -1,0 +1,115 @@
+{
+ "slug": "cover-5253",
+ "name": "Cover",
+ "full": "Cover Corporation",
+ "listings": [
+  "TYO: 5253"
+ ],
+ "built": "2026-11-01",
+ "episodes": 2,
+ "mentioned_in": 7,
+ "latest": "2026-05-19",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2026-05-19",
+     "when": "May 2026",
+     "text": "In May 2026, a guest on Equity Mates explained that Cover Corporation runs a VTuber talent agency where creators use anime-style avatars that improve safety and versatility, and said joining Cover often 10 to 20 times a streamer’s audience from day one.",
+     "episode": {
+      "title": "How AI improves the investing process with Arms Rosenberg",
+      "url": "https://equitymates.com/episode/how-ai-improves-the-investing-process-with-arms-rosenberg/",
+      "jump": "https://www.youtube.com/watch?v=bQnZb__UAGw&t=2109s",
+      "at": "35:09"
+     }
+    },
+    {
+     "date": "2025-11-11",
+     "when": "November 2025",
+     "text": "In November 2025, a guest on Equity Mates noted VTubers were growing faster than other streaming, with 7 of the top 10 female streamers last quarter being VTubers, framing why Cover’s VTuber-focused offering resonated with audiences.",
+     "episode": {
+      "title": "Buy or Sell: Ally Selby with Arms Rosenberg",
+      "url": "https://equitymates.com/episode/buy-or-sell-ally-selby-with-arms-rosenberg/",
+      "jump": "https://www.youtube.com/watch?v=y3VxCgeyEg4&t=1706s",
+      "at": "28:26"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2026-05-19",
+     "when": "May 2026",
+     "text": "In May 2026, a guest on Equity Mates said Cover’s brand power meant new talent often saw their audience 10 to 20 times larger almost immediately, highlighting a strong distribution advantage for creators who join.",
+     "episode": {
+      "title": "How AI improves the investing process with Arms Rosenberg",
+      "url": "https://equitymates.com/episode/how-ai-improves-the-investing-process-with-arms-rosenberg/",
+      "jump": "https://www.youtube.com/watch?v=bQnZb__UAGw&t=2109s",
+      "at": "35:09"
+     }
+    },
+    {
+     "date": "2025-11-11",
+     "when": "November 2025",
+     "text": "In November 2025, a guest on Equity Mates highlighted that Cover enabled sponsorship deals, including with McDonald’s for top talent, suggesting meaningful partner relationships that strengthened talent monetisation and the company’s competitive standing.",
+     "episode": {
+      "title": "Buy or Sell: Ally Selby with Arms Rosenberg",
+      "url": "https://equitymates.com/episode/buy-or-sell-ally-selby-with-arms-rosenberg/",
+      "jump": "https://www.youtube.com/watch?v=y3VxCgeyEg4&t=1757s",
+      "at": "29:17"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2026-05-19",
+     "when": "May 2026",
+     "text": "In May 2026, a guest on Equity Mates described how Cover organised sponsorships and concerts for talent, using motion capture so avatars could perform, showing operational investment to open new revenue channels beyond streaming.",
+     "episode": {
+      "title": "How AI improves the investing process with Arms Rosenberg",
+      "url": "https://equitymates.com/episode/how-ai-improves-the-investing-process-with-arms-rosenberg/",
+      "jump": "https://www.youtube.com/watch?v=bQnZb__UAGw&t=2176s",
+      "at": "36:16"
+     }
+    },
+    {
+     "date": "2025-11-11",
+     "when": "November 2025",
+     "text": "In November 2025, a guest on Equity Mates said earnings were growing around 50% but not in the current period due to an investment year, implying the company was prioritising spending to support future growth initiatives.",
+     "episode": {
+      "title": "Buy or Sell: Ally Selby with Arms Rosenberg",
+      "url": "https://equitymates.com/episode/buy-or-sell-ally-selby-with-arms-rosenberg/",
+      "jump": "https://www.youtube.com/watch?v=y3VxCgeyEg4&t=1757s",
+      "at": "29:17"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2025-11-11",
+     "when": "November 2025",
+     "text": "In November 2025, a guest on Equity Mates stated Cover was trading on 16 times FY27 earnings, with revenue per VTuber around $3 million and expectations of faster earnings growth from FY27 after an investment year, outlining what was priced into the stock.",
+     "episode": {
+      "title": "Buy or Sell: Ally Selby with Arms Rosenberg",
+      "url": "https://equitymates.com/episode/buy-or-sell-ally-selby-with-arms-rosenberg/",
+      "jump": "https://www.youtube.com/watch?v=y3VxCgeyEg4&t=1757s",
+      "at": "29:17"
+     }
+    }
+   ]
+  }
+ ]
+}

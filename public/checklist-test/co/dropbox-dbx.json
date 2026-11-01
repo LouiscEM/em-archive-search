@@ -1,0 +1,137 @@
+{
+ "slug": "dropbox-dbx",
+ "name": "Dropbox",
+ "full": "Dropbox",
+ "listings": [
+  "NASDAQ: DBX"
+ ],
+ "built": "2026-10-30",
+ "episodes": 4,
+ "mentioned_in": 14,
+ "latest": "2026-07-14",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2023-07-13",
+     "when": "July 2023",
+     "text": "In July 2023, a guest on Equity Mates described Dropbox’s shift from simple cloud storage to content collaboration, with small teams organising files of many types and using features like native e‑signature and document analytics from an acquisition.",
+     "episode": {
+      "title": "The investment case for Nelnet, Dropbox and Match Group | Arch Capital",
+      "url": "https://equitymates.com/episode/the-investment-case-for-nelnet-dropbox-and-match-group-arch-capital/",
+      "jump": null,
+      "at": "16:35"
+     }
+    },
+    {
+     "date": "2022-12-22",
+     "when": "December 2022",
+     "text": "In December 2022, a guest on Equity Mates said Dropbox worked really well, calling it the best for small and medium business cloud storage archives, though price hikes had pushed some individuals away.",
+     "episode": {
+      "title": "Expert: Andrew Brown - A look back at 2022",
+      "url": "https://equitymates.com/episode/expert-andrew-brown-a-look-back-at-2022/",
+      "jump": "https://www.youtube.com/watch?v=ro8g4Vtc2EE&t=1595s",
+      "at": "26:35"
+     }
+    },
+    {
+     "date": "2020-11-08",
+     "when": "November 2020",
+     "text": "In November 2020, Equity Mates cited Dropbox among everyday cloud tools people used to share and collaborate files, noting its commonplace role alongside Google Docs and Office 365.",
+     "episode": {
+      "title": "Industry Deep Dive: Cloud 101",
+      "url": "https://equitymates.com/episode/industry-deep-dive-cloud-101/",
+      "jump": null,
+      "at": "7:17"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2023-07-13",
+     "when": "July 2023",
+     "text": "In July 2023, a guest on Equity Mates said Big Tech replicated free file storage, undercutting Dropbox’s early model and prompting a pivot toward collaboration tools for small teams.",
+     "episode": {
+      "title": "The investment case for Nelnet, Dropbox and Match Group | Arch Capital",
+      "url": "https://equitymates.com/episode/the-investment-case-for-nelnet-dropbox-and-match-group-arch-capital/",
+      "jump": null,
+      "at": "16:35"
+     }
+    },
+    {
+     "date": "2022-12-22",
+     "when": "December 2022",
+     "text": "In December 2022, a guest on Equity Mates acknowledged debate about Dropbox’s long‑term viability given free Google Drive, while noting it still served small and medium businesses well.",
+     "episode": {
+      "title": "Expert: Andrew Brown - A look back at 2022",
+      "url": "https://equitymates.com/episode/expert-andrew-brown-a-look-back-at-2022/",
+      "jump": "https://www.youtube.com/watch?v=ro8g4Vtc2EE&t=1595s",
+      "at": "26:35"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2023-07-13",
+     "when": "July 2023",
+     "text": "In July 2023, a guest on Equity Mates noted Dropbox reinvested by adding native e‑signature and acquiring a document analytics capability to deepen its workflow offering.",
+     "episode": {
+      "title": "The investment case for Nelnet, Dropbox and Match Group | Arch Capital",
+      "url": "https://equitymates.com/episode/the-investment-case-for-nelnet-dropbox-and-match-group-arch-capital/",
+      "jump": null,
+      "at": "16:35"
+     }
+    },
+    {
+     "date": "2022-12-22",
+     "when": "December 2022",
+     "text": "In December 2022, a guest on Equity Mates said Dropbox issued about $250 million of stock to employees each year and held net cash, highlighting equity compensation and a solid balance sheet.",
+     "episode": {
+      "title": "Expert: Andrew Brown - A look back at 2022",
+      "url": "https://equitymates.com/episode/expert-andrew-brown-a-look-back-at-2022/",
+      "jump": "https://www.youtube.com/watch?v=ro8g4Vtc2EE&t=1595s",
+      "at": "26:35"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2026-07-14",
+     "when": "July 2026",
+     "text": "In July 2026, Equity Mates highlighted that in the first 12 months after listing, Dropbox fell as much as 54%, using it to illustrate common post‑IPO drawdowns as hype faded and lockups ended.",
+     "episode": {
+      "title": "The next big IPO is coming, should I Invest in it?",
+      "url": "https://equitymates.com/episode/the-next-big-ipo-is-coming-should-i-invest-in-it/",
+      "jump": "https://www.youtube.com/watch?v=yOQJwJp40-c&t=956s",
+      "at": "15:56"
+     }
+    },
+    {
+     "date": "2022-12-22",
+     "when": "December 2022",
+     "text": "In December 2022, a guest on Equity Mates discussed Dropbox’s $9 billion market cap and that it was down 7% year to date, contrasting it with larger tech names’ bigger falls.",
+     "episode": {
+      "title": "Expert: Andrew Brown - A look back at 2022",
+      "url": "https://equitymates.com/episode/expert-andrew-brown-a-look-back-at-2022/",
+      "jump": "https://www.youtube.com/watch?v=ro8g4Vtc2EE&t=1595s",
+      "at": "26:35"
+     }
+    }
+   ]
+  }
+ ]
+}

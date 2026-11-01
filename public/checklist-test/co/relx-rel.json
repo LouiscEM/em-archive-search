@@ -1,0 +1,70 @@
+{
+ "slug": "relx-rel",
+ "name": "RELX",
+ "full": "RELX",
+ "listings": [
+  "LON: REL"
+ ],
+ "built": "2026-11-01",
+ "episodes": 1,
+ "mentioned_in": 1,
+ "latest": "2026-02-09",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2026-02-09",
+     "when": "February 2026",
+     "text": "In February 2026, Equity Mates noted RELX is the parent company of LexisNexis, described as a big legal database used by people who work in law.",
+     "episode": {
+      "title": "From Xero to zero, why the lazy investors win & Pimp my Portfolio with Luke Laretive",
+      "url": "https://equitymates.com/episode/from-xero-to-zero-why-the-lazy-investors-win-pimp-my-portfolio-with-luke-laretive/",
+      "jump": "https://www.youtube.com/watch?v=N6XqW57JdjI&t=250s",
+      "at": "4:10"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2026-02-09",
+     "when": "February 2026",
+     "text": "In February 2026, Equity Mates said investors feared new AI tools could automate legal tasks, prompting questions about how companies like RELX would be affected and whether their industry economics could be pressured.",
+     "episode": {
+      "title": "From Xero to zero, why the lazy investors win & Pimp my Portfolio with Luke Laretive",
+      "url": "https://equitymates.com/episode/from-xero-to-zero-why-the-lazy-investors-win-pimp-my-portfolio-with-luke-laretive/",
+      "jump": "https://www.youtube.com/watch?v=N6XqW57JdjI&t=250s",
+      "at": "4:10"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2026-02-09",
+     "when": "February 2026",
+     "text": "In February 2026, Equity Mates reported RELX dropped about 15% in a single day as part of a broader selloff, with investors pricing in potential AI disruption to analytics and legal information businesses.",
+     "episode": {
+      "title": "From Xero to zero, why the lazy investors win & Pimp my Portfolio with Luke Laretive",
+      "url": "https://equitymates.com/episode/from-xero-to-zero-why-the-lazy-investors-win-pimp-my-portfolio-with-luke-laretive/",
+      "jump": "https://www.youtube.com/watch?v=N6XqW57JdjI&t=250s",
+      "at": "4:10"
+     }
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,81 @@
+{
+ "slug": "transmedics-tmdx",
+ "name": "TransMedics",
+ "full": "TransMedics Group",
+ "listings": [
+  "NASDAQ: TMDX"
+ ],
+ "built": "2026-11-01",
+ "episodes": 2,
+ "mentioned_in": 4,
+ "latest": "2026-05-18",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2026-05-18",
+     "when": "May 2026",
+     "text": "In May 2026, Equity Mates described TransMedics’ Organ Care System as a portable life-support box that kept a heart beating, a lung breathing or a liver functioning during hospital transfers, contrasting it with the old method of putting organs on ice.",
+     "episode": {
+      "title": "CommBank's worst day, Mr Beat Up reviews a stock we all own & who would want to be Fed chair",
+      "url": "https://equitymates.com/episode/commbanks-worst-day-mr-beat-up-reviews-a-stock-we-all-own-who-would-want-to-be-fed-chair/",
+      "jump": "https://www.youtube.com/watch?v=gD4LP8hMOo8&t=681s",
+      "at": "11:21"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2026-05-18",
+     "when": "May 2026",
+     "text": "In May 2026, Equity Mates highlighted TransMedics’ integrated model, noting it owned 22 planes and used OCS to keep hearts beating in flight, presenting a step-change from ice storage that suggested a strong operational advantage in organ transport.",
+     "episode": {
+      "title": "CommBank's worst day, Mr Beat Up reviews a stock we all own & who would want to be Fed chair",
+      "url": "https://equitymates.com/episode/commbanks-worst-day-mr-beat-up-reviews-a-stock-we-all-own-who-would-want-to-be-fed-chair/",
+      "jump": "https://www.youtube.com/watch?v=gD4LP8hMOo8&t=681s",
+      "at": "11:21"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2026-05-18",
+     "when": "May 2026",
+     "text": "In May 2026, Equity Mates said the stock had fallen by about two thirds, introducing a discussion of the company after a significant share price decline.",
+     "episode": {
+      "title": "CommBank's worst day, Mr Beat Up reviews a stock we all own & who would want to be Fed chair",
+      "url": "https://equitymates.com/episode/commbanks-worst-day-mr-beat-up-reviews-a-stock-we-all-own-who-would-want-to-be-fed-chair/",
+      "jump": "https://www.youtube.com/watch?v=gD4LP8hMOo8&t=681s",
+      "at": "11:21"
+     }
+    },
+    {
+     "date": "2024-11-01",
+     "when": "November 2024",
+     "text": "In November 2024, a guest on Equity Mates said TransMedics had been growing fast but had just posted a bad result, and noted the position was still up a lot from earlier levels.",
+     "episode": {
+      "title": "Expert: Michael Frazis - Ozempic, semiconductors, AI & the next big biotech",
+      "url": "https://equitymates.com/episode/expert-michael-frazis-ozempic-semiconductors-ai-the-next-big-biotech/",
+      "jump": "https://www.youtube.com/watch?v=HUP4ZjY4Ffs&t=2388s",
+      "at": "39:48"
+     }
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,114 @@
+{
+ "slug": "intuit-intu",
+ "name": "Intuit",
+ "full": "Intuit",
+ "listings": [
+  "NASDAQ: INTU"
+ ],
+ "built": "2026-11-01",
+ "episodes": 6,
+ "mentioned_in": 14,
+ "latest": "2026-10-15",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2026-02-12",
+     "when": "February 2026",
+     "text": "In February 2026, Equity Mates contrasted Intuit QuickBooks’ ability to process payments within the platform to Xero’s need to leave the software to pay via a bank, saying this was a handy feature for busy small businesses and key to competing in the US.",
+     "episode": {
+      "title": "Bryce and Mr. Beat-Up can't agree, AI spending reaches new heights & Reddit is punished",
+      "url": "https://equitymates.com/episode/bryce-and-mr-beat-up-cant-agree-ai-spending-reaches-new-heights-reddit-is-punished/",
+      "jump": "https://www.youtube.com/watch?v=daJEvzjJxXs&t=1354s",
+      "at": "22:34"
+     }
+    },
+    {
+     "date": "2026-01-19",
+     "when": "January 2026",
+     "text": "In January 2026, Equity Mates said Intuit’s QuickBooks let users pay invoices directly in the software, a functionality Xero historically lacked, framing it as a practical feature advantage in the US market.",
+     "episode": {
+      "title": "We're back: 4 big investing themes & our Stocks of the Year",
+      "url": "https://equitymates.com/episode/were-back-big-themes-big-opportunities-the-stock-of-the-year/",
+      "jump": "https://www.youtube.com/watch?v=4nVjeTwKtMc&t=1910s",
+      "at": "31:50"
+     }
+    },
+    {
+     "date": "2024-06-11",
+     "when": "June 2024",
+     "text": "In June 2024, a guest on Equity Mates argued Intuit’s product set, including TurboTax, created strong familiarity with potential US customers and fit the local accountant-led sales model, making it hard for Xero to win users.",
+     "episode": {
+      "title": "Buy or Sell: Lucas Goode - Xero, NextDC, Brainchip, Cettire + more",
+      "url": "https://equitymates.com/episode/buy-or-sell-lucas-goode-xero-nextdc-brainchip-cettire-more/",
+      "jump": "https://www.youtube.com/watch?v=k6x_OwWwzyM&t=1419s",
+      "at": "23:39"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2026-01-19",
+     "when": "January 2026",
+     "text": "In January 2026, Equity Mates described Intuit as larger and entrenched in US cloud accounting, noting America’s complex, state-based taxes and QuickBooks’ superior functionality as factors supporting its competitive position.",
+     "episode": {
+      "title": "We're back: 4 big investing themes & our Stocks of the Year",
+      "url": "https://equitymates.com/episode/were-back-big-themes-big-opportunities-the-stock-of-the-year/",
+      "jump": "https://www.youtube.com/watch?v=4nVjeTwKtMc&t=1910s",
+      "at": "31:50"
+     }
+    },
+    {
+     "date": "2023-10-30",
+     "when": "October 2023",
+     "text": "In October 2023, Equity Mates highlighted reporting that Intuit spent heavily lobbying against US pre-filled tax filing, suggesting regulatory influence that could help protect TurboTax and its economics.",
+     "episode": {
+      "title": "How are Americans avoiding paying $688B in tax?",
+      "url": "https://equitymates.com/episode/how-are-americans-avoiding-paying-688b-in-tax/",
+      "jump": null,
+      "at": "5:56"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2026-10-15",
+     "when": "October 2026",
+     "text": "In October 2026, Equity Mates noted Intuit’s share price was down about 54% for the year alongside other big names, despite the index rising, pointing to a sharp reset in market expectations.",
+     "episode": {
+      "title": "Firmus IPO falls apart & the invisible crash behind Wall Street’s record highs",
+      "url": "https://equitymates.com/episode/firmus-44-billion-ipo-has-been-pulled-the-invisible-crash-beneath-market-highs/",
+      "jump": "https://www.youtube.com/watch?v=vLf9N74a5LQ&t=823s",
+      "at": "13:43"
+     }
+    },
+    {
+     "date": "2026-02-09",
+     "when": "February 2026",
+     "text": "In February 2026, Equity Mates reported a sharp risk-off day where software names sold off and said Oracle, Adobe and Intuit fell between 4% and 10%, reflecting valuation pressure across the sector.",
+     "episode": {
+      "title": "From Xero to zero, why the lazy investors win & Pimp my Portfolio with Luke Laretive",
+      "url": "https://equitymates.com/episode/from-xero-to-zero-why-the-lazy-investors-win-pimp-my-portfolio-with-luke-laretive/",
+      "jump": "https://www.youtube.com/watch?v=N6XqW57JdjI&t=289s",
+      "at": "4:49"
+     }
+    }
+   ]
+  }
+ ]
+}

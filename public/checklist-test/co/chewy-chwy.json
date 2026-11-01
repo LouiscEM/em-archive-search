@@ -1,0 +1,70 @@
+{
+ "slug": "chewy-chwy",
+ "name": "Chewy",
+ "full": "Chewy",
+ "listings": [
+  "NYSE: CHWY"
+ ],
+ "built": "2026-11-01",
+ "episodes": 1,
+ "mentioned_in": 1,
+ "latest": "2026-07-13",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2026-07-13",
+     "when": "July 2026",
+     "text": "In July 2026, Equity Mates described Chewy as an online pet retailer with a $10.8 billion market cap, calling it the Amazon of pet retail, and said it had expanded into vet clinics and prescription pet medication.",
+     "episode": {
+      "title": "Pet Care: Australia Has More Pets Than People | The Decade Ahead",
+      "url": "https://equitymates.com/episode/pet-care-australia-has-more-pets-than-people-the-decade-ahead/",
+      "jump": "https://www.youtube.com/watch?v=E6lfTucRXX4&t=1811s",
+      "at": "30:11"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2026-07-13",
+     "when": "July 2026",
+     "text": "In July 2026, Equity Mates said Chewy faced competition from Amazon, which already sold pet products and could pressure it with scale and distribution, while noting a counterpoint that pure play retailers tended to capture more top-end spend.",
+     "episode": {
+      "title": "Pet Care: Australia Has More Pets Than People | The Decade Ahead",
+      "url": "https://equitymates.com/episode/pet-care-australia-has-more-pets-than-people-the-decade-ahead/",
+      "jump": "https://www.youtube.com/watch?v=E6lfTucRXX4&t=1811s",
+      "at": "30:11"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2026-07-13",
+     "when": "July 2026",
+     "text": "In July 2026, Equity Mates noted Chewy had expanded into vet clinics and prescription pet medication, showing a move beyond core e-commerce into higher value services.",
+     "episode": {
+      "title": "Pet Care: Australia Has More Pets Than People | The Decade Ahead",
+      "url": "https://equitymates.com/episode/pet-care-australia-has-more-pets-than-people-the-decade-ahead/",
+      "jump": "https://www.youtube.com/watch?v=E6lfTucRXX4&t=1811s",
+      "at": "30:11"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

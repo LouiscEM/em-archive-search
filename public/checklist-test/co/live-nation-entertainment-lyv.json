@@ -1,0 +1,103 @@
+{
+ "slug": "live-nation-entertainment-lyv",
+ "name": "Live Nation Entertainment",
+ "full": "Live Nation Entertainment",
+ "listings": [
+  "NYSE: LYV"
+ ],
+ "built": "2026-11-01",
+ "episodes": 3,
+ "mentioned_in": 3,
+ "latest": "2026-08-06",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2026-08-06",
+     "when": "August 2026",
+     "text": "In August 2026, Equity Mates described Live Nation Entertainment as dominating live events, owning Ticketmaster, holding venue relationships and selling VIP packages, and said it made $25 billion last year, showing its scale in stadium concerts and premium experiences.",
+     "episode": {
+      "title": "Luxury: How Experiences Became the New Luxury | The Decade Ahead",
+      "url": "https://equitymates.com/episode/how-experiences-became-the-new-luxury/",
+      "jump": "https://www.youtube.com/watch?v=d_S06HssHnc&t=1731s",
+      "at": "28:51"
+     }
+    },
+    {
+     "date": "2022-12-06",
+     "when": "December 2022",
+     "text": "In December 2022, Equity Mates said most major events used Ticketmaster, which merged with Live Nation Entertainment, and that exclusive venue contracts made its ticketing service unavoidable for artists at places like Madison Square Garden.",
+     "episode": {
+      "title": "YIGC - Ticketmaster: It's me! Hi! I'm the problem, it's me",
+      "url": "https://equitymates.com/episode/ticketmaster-its-me-hi-im-the-problem-its-me-2/",
+      "jump": null,
+      "at": "6:04"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2026-08-06",
+     "when": "August 2026",
+     "text": "In August 2026, Equity Mates referred to Live Nation Entertainment as a monopoly in live entertainment, highlighting Ticketmaster ownership and global venue relationships that let it take a cut when artists tour, especially for big stadium events.",
+     "episode": {
+      "title": "Luxury: How Experiences Became the New Luxury | The Decade Ahead",
+      "url": "https://equitymates.com/episode/how-experiences-became-the-new-luxury/",
+      "jump": "https://www.youtube.com/watch?v=d_S06HssHnc&t=1731s",
+      "at": "28:51"
+     }
+    },
+    {
+     "date": "2023-09-27",
+     "when": "September 2023",
+     "text": "In September 2023, Equity Mates noted a US Justice Department antitrust investigation into Live Nation Entertainment over Ticketmaster and discussed how pricing practices could erode consumer trust if perceived as monopolistic.",
+     "episode": {
+      "title": "Unhappy Hour: How UK pubs are using dynamic pricing",
+      "url": "https://equitymates.com/episode/unhappy-hour-how-uk-pubs-are-using-dynamic-pricing/",
+      "jump": null,
+      "at": "13:07"
+     }
+    },
+    {
+     "date": "2022-12-06",
+     "when": "December 2022",
+     "text": "In December 2022, Equity Mates explained that Live Nation Entertainment’s vertical integration after merging with Ticketmaster, plus exclusive venue deals and promoter fees within ticket prices, underpinned its industry power.",
+     "episode": {
+      "title": "YIGC - Ticketmaster: It's me! Hi! I'm the problem, it's me",
+      "url": "https://equitymates.com/episode/ticketmaster-its-me-hi-im-the-problem-its-me-2/",
+      "jump": null,
+      "at": "6:04"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2022-12-06",
+     "when": "December 2022",
+     "text": "In December 2022, Equity Mates outlined the 2010 merger of Ticketmaster with Live Nation Entertainment and said the combined company’s integration and exclusive venue contracts reshaped how it grows in live music.",
+     "episode": {
+      "title": "YIGC - Ticketmaster: It's me! Hi! I'm the problem, it's me",
+      "url": "https://equitymates.com/episode/ticketmaster-its-me-hi-im-the-problem-its-me-2/",
+      "jump": null,
+      "at": "6:04"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

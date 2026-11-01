@@ -1,0 +1,46 @@
+{
+ "slug": "homeco-daily-needs-reit-hdn",
+ "name": "HomeCo Daily Needs REIT",
+ "full": "HomeCo Daily Needs REIT",
+ "listings": [
+  "ASX: HDN"
+ ],
+ "built": "2026-11-01",
+ "episodes": 1,
+ "mentioned_in": 1,
+ "latest": "2025-11-04",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": []
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2025-11-04",
+     "when": "November 2025",
+     "text": "In November 2025, a guest on Equity Mates said HomeCo Daily Needs REIT owned retail assets that were effectively monopoly-like because shopping centres were hard to replicate, and population growth led to more visits, allowing rents to rise faster than other parts of the market over time.",
+     "episode": {
+      "title": "Private markets are an illusion - Tim Carleton | Auscap Asset Management",
+      "url": "https://equitymates.com/episode/private-markets-are-an-illusion-tim-carleton-auscap-asset-management/",
+      "jump": null,
+      "at": "30:54"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

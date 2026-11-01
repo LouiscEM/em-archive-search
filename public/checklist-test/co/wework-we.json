@@ -1,0 +1,148 @@
+{
+ "slug": "wework-we",
+ "name": "WeWork",
+ "full": "WeWork",
+ "listings": [
+  "NYSE: WE"
+ ],
+ "built": "2026-10-30",
+ "episodes": 4,
+ "mentioned_in": 12,
+ "latest": "2023-11-06",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2023-08-23",
+     "when": "August 2023",
+     "text": "In August 2023, Equity Mates recapped WeWork’s co-working model and how the pandemic pushed tenants to escape leases, stressing how its flexible office service was tested by the shift to remote work.",
+     "episode": {
+      "title": "Once valued at $47 billion, WeWork is now on its knees",
+      "url": "https://equitymates.com/episode/once-valued-at-47-billion-this-company-is-on-its-knees/",
+      "jump": null,
+      "at": "12:56"
+     }
+    },
+    {
+     "date": "2022-08-17",
+     "when": "August 2022",
+     "text": "In August 2022, Equity Mates outlined WeWork as a co-working office space company founded in 2010 that expanded to 756 locations in 38 countries, highlighting the core service it offered.",
+     "episode": {
+      "title": "WeWork’s Adam Neumann has another billion dollar idea...",
+      "url": "https://equitymates.com/episode/weworks-adam-neumann-has-another-billion-dollar-idea/",
+      "jump": null,
+      "at": "1:41"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2023-11-06",
+     "when": "November 2023",
+     "text": "In November 2023, Equity Mates reported rumours WeWork would file for bankruptcy within a week after a 50% share price fall, underscoring doubts about ongoing viability and profits.",
+     "episode": {
+      "title": "Leveraged ETFs, Ren's Melbourne Cup tip & Speccy Magee returns",
+      "url": "https://equitymates.com/episode/leveraged-etfs-rens-melbourne-cup-tip-speccy-magee-returns/",
+      "jump": "https://www.youtube.com/watch?v=1hegfgeWR58&t=679s",
+      "at": "11:19"
+     }
+    },
+    {
+     "date": "2023-08-23",
+     "when": "August 2023",
+     "text": "In August 2023, Equity Mates said executives sold assets, cut jobs and modified hundreds of leases to stem losses, indicating profitability pressures persisted.",
+     "episode": {
+      "title": "Once valued at $47 billion, WeWork is now on its knees",
+      "url": "https://equitymates.com/episode/once-valued-at-47-billion-this-company-is-on-its-knees/",
+      "jump": null,
+      "at": "12:56"
+     }
+    },
+    {
+     "date": "2021-11-01",
+     "when": "November 2021",
+     "text": "In November 2021, Equity Mates noted WeWork recorded a net loss of nearly $3 billion in the first half of 2021 and described the office business as tough after Covid, raising questions about sustained profitability.",
+     "episode": {
+      "title": "The Berkshire Hathaway of software companies",
+      "url": "https://equitymates.com/episode/the-berkshire-hathaway-of-software-companies/",
+      "jump": null,
+      "at": "6:34"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2023-08-23",
+     "when": "August 2023",
+     "text": "In August 2023, Equity Mates explained management offloaded ancillary businesses, cut jobs and cancelled or modified leases to conserve cash as the firm tried to reduce losses.",
+     "episode": {
+      "title": "Once valued at $47 billion, WeWork is now on its knees",
+      "url": "https://equitymates.com/episode/once-valued-at-47-billion-this-company-is-on-its-knees/",
+      "jump": null,
+      "at": "12:56"
+     }
+    },
+    {
+     "date": "2022-08-17",
+     "when": "August 2022",
+     "text": "In August 2022, Equity Mates described how WeWork poured funding into side ventures like WeGrow, Rise by We and WeLive, illustrating past capital allocation away from its core business.",
+     "episode": {
+      "title": "WeWork’s Adam Neumann has another billion dollar idea...",
+      "url": "https://equitymates.com/episode/weworks-adam-neumann-has-another-billion-dollar-idea/",
+      "jump": null,
+      "at": "1:41"
+     }
+    },
+    {
+     "date": "2021-11-01",
+     "when": "November 2021",
+     "text": "In November 2021, Equity Mates detailed several rounds of layoffs and renegotiations of hundreds of leases before merging via SPAC, showing a pivot to restructuring over growth.",
+     "episode": {
+      "title": "The Berkshire Hathaway of software companies",
+      "url": "https://equitymates.com/episode/the-berkshire-hathaway-of-software-companies/",
+      "jump": null,
+      "at": "6:34"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2023-08-23",
+     "when": "August 2023",
+     "text": "In August 2023, Equity Mates said the stock fell more than 25% on an announcement, was down 90% year to date, and contrasted that with a past peak valuation of $47 billion.",
+     "episode": {
+      "title": "Once valued at $47 billion, WeWork is now on its knees",
+      "url": "https://equitymates.com/episode/once-valued-at-47-billion-this-company-is-on-its-knees/",
+      "jump": null,
+      "at": "12:56"
+     }
+    },
+    {
+     "date": "2021-11-01",
+     "when": "November 2021",
+     "text": "In November 2021, Equity Mates compared the shelved $47 billion IPO ambition with the eventual $9 billion SPAC merger valuation, illustrating how expectations reset.",
+     "episode": {
+      "title": "The Berkshire Hathaway of software companies",
+      "url": "https://equitymates.com/episode/the-berkshire-hathaway-of-software-companies/",
+      "jump": null,
+      "at": "6:34"
+     }
+    }
+   ]
+  }
+ ]
+}

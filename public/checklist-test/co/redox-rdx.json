@@ -1,0 +1,58 @@
+{
+ "slug": "redox-rdx",
+ "name": "Redox",
+ "full": "Redox",
+ "listings": [
+  "ASX: RDX"
+ ],
+ "built": "2026-11-01",
+ "episodes": 1,
+ "mentioned_in": 1,
+ "latest": "2024-08-13",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2024-08-13",
+     "when": "August 2024",
+     "text": "In August 2024, a guest on Equity Mates described Redox as a distributor of chemical products across Australasia with a smaller US business, noting it listed a little over 12 months ago.",
+     "episode": {
+      "title": "Buy or Sell: Ben Rundle - Catapult, Dominos, Guzman y Gomez and more",
+      "url": "https://equitymates.com/episode/buy-or-sell-ben-rundle-catapult-dominos-guzman-y-gomez-and-more/",
+      "jump": "https://www.youtube.com/watch?v=hDgPNqEvKdM&t=129s",
+      "at": "2:09"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2024-08-13",
+     "when": "August 2024",
+     "text": "In August 2024, a guest on Equity Mates said Redox had a very long operating track record and impressive numbers, citing average revenue growth of 12% over 30 years and 11% over 10 years, while questioning whether that growth rate could continue.",
+     "episode": {
+      "title": "Buy or Sell: Ben Rundle - Catapult, Dominos, Guzman y Gomez and more",
+      "url": "https://equitymates.com/episode/buy-or-sell-ben-rundle-catapult-dominos-guzman-y-gomez-and-more/",
+      "jump": "https://www.youtube.com/watch?v=hDgPNqEvKdM&t=129s",
+      "at": "2:09"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

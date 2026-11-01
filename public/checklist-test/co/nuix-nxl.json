@@ -1,0 +1,137 @@
+{
+ "slug": "nuix-nxl",
+ "name": "Nuix",
+ "full": "Nuix Ltd",
+ "listings": [
+  "ASX: NXL"
+ ],
+ "built": "2026-11-01",
+ "episodes": 4,
+ "mentioned_in": 5,
+ "latest": "2025-08-01",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2025-04-15",
+     "when": "April 2025",
+     "text": "In April 2025, a guest on Equity Mates explained Nuix’s investigation and analytics software was used by ASIC and other regulators as case management for law enforcement, police and lawyers in eDiscovery, calling it critical software with plenty of existing customers.",
+     "episode": {
+      "title": "Buy or Sell: Nick Guidera - DroneShield, Temple & Webster, Nuix & more",
+      "url": "https://equitymates.com/episode/buy-or-sell-nick-guidera-droneshield-temple-webster-nuix-more/",
+      "jump": "https://www.youtube.com/watch?v=DYj_3OGxN7I&t=1473s",
+      "at": "24:33"
+     }
+    },
+    {
+     "date": "2024-10-25",
+     "when": "October 2024",
+     "text": "In October 2024, a guest on Equity Mates said Nuix was the global market leader in processing unstructured data for discovery and litigation, used in major matters like Royal Commissions and the Panama Papers, and highlighted its deterministic results compared to probabilistic LLMs.",
+     "episode": {
+      "title": "Expert: Jared Pohl - 4 companies this growth investor loves | ECP Asset Management",
+      "url": "https://equitymates.com/episode/expert-jared-pohl-4-companies-this-growth-investor-loves-ecp-asset-management/",
+      "jump": null,
+      "at": "34:00"
+     }
+    },
+    {
+     "date": "2022-01-25",
+     "when": "January 2022",
+     "text": "In January 2022, Equity Mates described Nuix as a forensic data analytics engine used around the world to manage cybersecurity risk and compliance threats, noting it was the largest IPO of 2020.",
+     "episode": {
+      "title": "#6 Patience is a virtue | Investing convos every millennial should have",
+      "url": "https://equitymates.com/episode/6-patience-is-a-virtue-investing-convos-every-millennial-should-have/",
+      "jump": null,
+      "at": "8:54"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2025-08-01",
+     "when": "August 2025",
+     "text": "In August 2025, a guest on Equity Mates said prior valuations assumed very high net revenue retention that Nuix had never delivered, highlighting uncertainty around the company’s ability to sustain such economics.",
+     "episode": {
+      "title": "The DNA of a great growth stock - Jared Pohl | ECP Asset Management",
+      "url": "https://equitymates.com/episode/the-dna-of-a-great-growth-stock-jared-pohl-ecp-asset-management/",
+      "jump": "https://www.youtube.com/watch?v=hV72X3rsTZQ&t=2332s",
+      "at": "38:52"
+     }
+    },
+    {
+     "date": "2025-04-15",
+     "when": "April 2025",
+     "text": "In April 2025, a guest on Equity Mates noted Nuix’s software was embedded with regulators, police and lawyers for critical case work, implying sticky usage, but added a cloud transition was underway that required customer upgrades.",
+     "episode": {
+      "title": "Buy or Sell: Nick Guidera - DroneShield, Temple & Webster, Nuix & more",
+      "url": "https://equitymates.com/episode/buy-or-sell-nick-guidera-droneshield-temple-webster-nuix-more/",
+      "jump": "https://www.youtube.com/watch?v=DYj_3OGxN7I&t=1473s",
+      "at": "24:33"
+     }
+    },
+    {
+     "date": "2024-10-25",
+     "when": "October 2024",
+     "text": "In October 2024, a guest on Equity Mates argued Nuix’s leadership in processing unstructured data and deterministic outputs created an edge over general LLMs, while noting recent operational challenges were being addressed.",
+     "episode": {
+      "title": "Expert: Jared Pohl - 4 companies this growth investor loves | ECP Asset Management",
+      "url": "https://equitymates.com/episode/expert-jared-pohl-4-companies-this-growth-investor-loves-ecp-asset-management/",
+      "jump": null,
+      "at": "34:00"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2025-04-15",
+     "when": "April 2025",
+     "text": "In April 2025, a guest on Equity Mates said Nuix had built a cloud‑enabled product and was trying to move customers to it, a transition that required customer upgrades and spend.",
+     "episode": {
+      "title": "Buy or Sell: Nick Guidera - DroneShield, Temple & Webster, Nuix & more",
+      "url": "https://equitymates.com/episode/buy-or-sell-nick-guidera-droneshield-temple-webster-nuix-more/",
+      "jump": "https://www.youtube.com/watch?v=DYj_3OGxN7I&t=1473s",
+      "at": "24:33"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2025-08-01",
+     "when": "August 2025",
+     "text": "In August 2025, a guest on Equity Mates said the market got ahead of itself when Nuix traded at $7.30, as pricing assumed very high net revenue retention that had not been delivered, and stressed the need to ask what was being priced in.",
+     "episode": {
+      "title": "The DNA of a great growth stock - Jared Pohl | ECP Asset Management",
+      "url": "https://equitymates.com/episode/the-dna-of-a-great-growth-stock-jared-pohl-ecp-asset-management/",
+      "jump": "https://www.youtube.com/watch?v=hV72X3rsTZQ&t=2332s",
+      "at": "38:52"
+     }
+    },
+    {
+     "date": "2024-10-25",
+     "when": "October 2024",
+     "text": "In October 2024, a guest on Equity Mates said the market was implying pretty big growth numbers for Nuix and wanted to see execution match those expectations before assuming them in valuation.",
+     "episode": {
+      "title": "Expert: Jared Pohl - 4 companies this growth investor loves | ECP Asset Management",
+      "url": "https://equitymates.com/episode/expert-jared-pohl-4-companies-this-growth-investor-loves-ecp-asset-management/",
+      "jump": null,
+      "at": "34:00"
+     }
+    }
+   ]
+  }
+ ]
+}

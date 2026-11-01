@@ -1,0 +1,126 @@
+{
+ "slug": "monash-ivf-mvf",
+ "name": "Monash IVF",
+ "full": "Monash IVF Group",
+ "listings": [
+  "ASX: MVF"
+ ],
+ "built": "2026-11-01",
+ "episodes": 3,
+ "mentioned_in": 4,
+ "latest": "2026-09-03",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2026-09-03",
+     "when": "September 2026",
+     "text": "In September 2026, Equity Mates noted two embryo mix-ups during the year severely damaged Monash IVF’s reputation, highlighting service reliability risks for an IVF provider.",
+     "episode": {
+      "title": "Apple enters a new era, Super September is back & Pimp My Portfiolio with Henry Jennings",
+      "url": "https://equitymates.com/episode/apple-enters-a-new-era-super-september-is-back-pimp-my-portfiolio-with-henry-jennings/",
+      "jump": "https://www.youtube.com/watch?v=c4xrClvBRVk&t=532s",
+      "at": "8:52"
+     }
+    },
+    {
+     "date": "2022-07-29",
+     "when": "July 2022",
+     "text": "In July 2022, Equity Mates described Monash IVF as a leading IVF company in Australia that was taking market share and growing profit 17% year on year domestically, with a net cash position.",
+     "episode": {
+      "title": "Ouch! Is your portfolio hurting in 2022? Ideas, themes and stocks that might benefit",
+      "url": "https://equitymates.com/episode/ouch-is-your-portfolio-hurting-in-2022-ideas-themes-and-stocks-that-might-benefit/",
+      "jump": null,
+      "at": "20:46"
+     }
+    },
+    {
+     "date": "2021-06-20",
+     "when": "June 2021",
+     "text": "In June 2021, Equity Mates outlined Monash IVF’s network of 27 clinics and three service centres across Australia and Malaysia, with plans for more Southeast Asian expansion.",
+     "episode": {
+      "title": "Industry Deep Dive: Fertility and IVF",
+      "url": "https://equitymates.com/episode/industry-deep-dive-fertility-and-ivf/",
+      "jump": "https://www.youtube.com/watch?v=eNuE7GHToiA&t=1519s",
+      "at": "25:19"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2026-09-03",
+     "when": "September 2026",
+     "text": "In September 2026, Equity Mates reported revenue was basically flat at 270 million while underlying profit fell 41%, but market share grew in the second half and the company forecast profit growth for FY27.",
+     "episode": {
+      "title": "Apple enters a new era, Super September is back & Pimp My Portfiolio with Henry Jennings",
+      "url": "https://equitymates.com/episode/apple-enters-a-new-era-super-september-is-back-pimp-my-portfiolio-with-henry-jennings/",
+      "jump": "https://www.youtube.com/watch?v=c4xrClvBRVk&t=532s",
+      "at": "8:52"
+     }
+    },
+    {
+     "date": "2022-07-29",
+     "when": "July 2022",
+     "text": "In July 2022, Equity Mates said Monash IVF was taking market share and growing profit 17% year on year domestically, indicating competitive momentum at that time.",
+     "episode": {
+      "title": "Ouch! Is your portfolio hurting in 2022? Ideas, themes and stocks that might benefit",
+      "url": "https://equitymates.com/episode/ouch-is-your-portfolio-hurting-in-2022-ideas-themes-and-stocks-that-might-benefit/",
+      "jump": null,
+      "at": "20:46"
+     }
+    },
+    {
+     "date": "2021-06-20",
+     "when": "June 2021",
+     "text": "In June 2021, Equity Mates said the IVF industry was not massive and was heavily fragmented, after comparing clinic counts across players, framing the competitive landscape Monash IVF operates in.",
+     "episode": {
+      "title": "Industry Deep Dive: Fertility and IVF",
+      "url": "https://equitymates.com/episode/industry-deep-dive-fertility-and-ivf/",
+      "jump": "https://www.youtube.com/watch?v=eNuE7GHToiA&t=1618s",
+      "at": "26:58"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2021-06-20",
+     "when": "June 2021",
+     "text": "In June 2021, Equity Mates said Monash IVF had plans for more Southeast Asian expansion beyond its 27 clinics and three service centres in Australia and Malaysia, signalling a focus on growth investment.",
+     "episode": {
+      "title": "Industry Deep Dive: Fertility and IVF",
+      "url": "https://equitymates.com/episode/industry-deep-dive-fertility-and-ivf/",
+      "jump": "https://www.youtube.com/watch?v=eNuE7GHToiA&t=1519s",
+      "at": "25:19"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2026-09-03",
+     "when": "September 2026",
+     "text": "In September 2026, Equity Mates said investors liked the report despite a 41% profit fall, with shares up 4% on the day as the company forecast profit growth for FY27, hinting at shifting expectations in the share price.",
+     "episode": {
+      "title": "Apple enters a new era, Super September is back & Pimp My Portfiolio with Henry Jennings",
+      "url": "https://equitymates.com/episode/apple-enters-a-new-era-super-september-is-back-pimp-my-portfiolio-with-henry-jennings/",
+      "jump": "https://www.youtube.com/watch?v=c4xrClvBRVk&t=532s",
+      "at": "8:52"
+     }
+    }
+   ]
+  }
+ ]
+}

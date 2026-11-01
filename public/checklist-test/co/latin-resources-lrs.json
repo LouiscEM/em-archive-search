@@ -1,0 +1,69 @@
+{
+ "slug": "latin-resources-lrs",
+ "name": "Latin Resources",
+ "full": "Latin Resources",
+ "listings": [
+  "ASX: LRS"
+ ],
+ "built": "2026-11-01",
+ "episodes": 2,
+ "mentioned_in": 3,
+ "latest": "2025-02-17",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2023-07-10",
+     "when": "July 2023",
+     "text": "In July 2023, Equity Mates described Latin Resources as a lithium company, highlighting it in the context of a recent company announcement that drew attention to the stock.",
+     "episode": {
+      "title": "Searching for the Dogs of FY23 + Ren's 5 minute valuation",
+      "url": "https://equitymates.com/episode/searching-for-the-dogs-of-fy23-rens-5-minute-valuation/",
+      "jump": null,
+      "at": "13:38"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": []
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2025-02-17",
+     "when": "February 2025",
+     "text": "In February 2025, Equity Mates said Latin Resources had been taken over by Pilbara Minerals and the deal was done, noting it was no longer a standalone position in that portfolio discussion.",
+     "episode": {
+      "title": "Netflix won the streaming wars, Pimp my Portfolio with Luke Laretive & we debate Novo Nordisk or Eli Lilly",
+      "url": "https://equitymates.com/episode/netflix-won-the-streaming-wars-pimp-my-portfolio-with-luke-laretive-we-debate-novo-nordisk-or-eli-lilly/",
+      "jump": "https://www.youtube.com/watch?v=bUKW7RKCxRU&t=993s",
+      "at": "16:33"
+     }
+    },
+    {
+     "date": "2023-07-10",
+     "when": "July 2023",
+     "text": "In July 2023, Equity Mates noted Latin Resources had risen about 105% over six weeks to around 30 cents after an announcement, and a guest on Equity Mates expected it could reach $1 within a year or two, while stressing this was general commentary only.",
+     "episode": {
+      "title": "Searching for the Dogs of FY23 + Ren's 5 minute valuation",
+      "url": "https://equitymates.com/episode/searching-for-the-dogs-of-fy23-rens-5-minute-valuation/",
+      "jump": null,
+      "at": "13:38"
+     }
+    }
+   ]
+  }
+ ]
+}

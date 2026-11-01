@@ -1,0 +1,159 @@
+{
+ "slug": "mineral-resources-min",
+ "name": "Mineral Resources",
+ "full": "Mineral Resources",
+ "listings": [
+  "ASX: MIN"
+ ],
+ "built": "2026-10-30",
+ "episodes": 7,
+ "mentioned_in": 26,
+ "latest": "2026-07-16",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2024-02-08",
+     "when": "February 2024",
+     "text": "In February 2024, a guest on Equity Mates described Mineral Resources as a WA mining conglomerate with four units ,  mining services, iron ore, lithium and energy ,  and said the heartbeat was mining services that underpin the whole business.",
+     "episode": {
+      "title": "Averaging 26% a year for 17 years, what next? - Mineral Resources | Summer Series",
+      "url": "https://equitymates.com/episode/averaging-26-a-year-for-17-years-what-next-mineral-resources-summer-series/",
+      "jump": "https://www.youtube.com/watch?v=GVrqOPxaX8Y&t=546s",
+      "at": "9:06"
+     }
+    },
+    {
+     "date": "2022-09-29",
+     "when": "September 2022",
+     "text": "In September 2022, a guest on Equity Mates said Mineral Resources’ base business was mining services, doing extensive work for majors like BHP and Rio, with additional iron ore operations alongside other businesses.",
+     "episode": {
+      "title": "Expert: Tim Carleton - Mineral Resources, Nick Scali & What makes a great Australian company",
+      "url": "https://equitymates.com/episode/expert-hearts-minds-tim-carleton/",
+      "jump": null,
+      "at": "26:12"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2024-02-08",
+     "when": "February 2024",
+     "text": "In February 2024, Equity Mates explained Mineral Resources structured contracts around rock throughput near large miners, which made revenues less tied to commodity prices than typical mining services.",
+     "episode": {
+      "title": "Averaging 26% a year for 17 years, what next? - Mineral Resources | Summer Series",
+      "url": "https://equitymates.com/episode/averaging-26-a-year-for-17-years-what-next-mineral-resources-summer-series/",
+      "jump": "https://www.youtube.com/watch?v=GVrqOPxaX8Y&t=282s",
+      "at": "4:42"
+     }
+    },
+    {
+     "date": "2023-11-23",
+     "when": "November 2023",
+     "text": "In November 2023, a guest on Equity Mates said a screen for companies with return on capital above 50% over the prior decade surprisingly flagged Mineral Resources, and explained its model differed from typical cyclical mining services.",
+     "episode": {
+      "title": "Expert: Emma Fisher - Mineral Resources, PWR Holdings & Investor Psychology | Airlie Funds Management",
+      "url": "https://equitymates.com/episode/expert-emma-fisher-mineral-resources-pwr-holdings-investor-psychology-airlie-funds-management/",
+      "jump": "https://www.youtube.com/watch?v=ikhnala5e3Q&t=2605s",
+      "at": "43:25"
+     }
+    },
+    {
+     "date": "2022-09-29",
+     "when": "September 2022",
+     "text": "In September 2022, a guest on Equity Mates said the iron ore arm was shifting from high cost and low tonnage to lower cost with significantly higher tonnage via two projects due within five years, aiming for cost advantage.",
+     "episode": {
+      "title": "Expert: Tim Carleton - Mineral Resources, Nick Scali & What makes a great Australian company",
+      "url": "https://equitymates.com/episode/expert-hearts-minds-tim-carleton/",
+      "jump": null,
+      "at": "26:12"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2024-04-12",
+     "when": "April 2024",
+     "text": "In April 2024, an adviser on Equity Mates noted the founder owned 12% of Mineral Resources, highlighting strong management alignment when assessing who deploys capital in resources businesses.",
+     "episode": {
+      "title": "Expert: Joe Wright - Three ways to invest in resources | Airlie Funds Management",
+      "url": "https://equitymates.com/episode/expert-joe-wright-three-ways-to-invest-in-resources-airlie-funds-management/",
+      "jump": "https://www.youtube.com/watch?v=hCQA1gZfZsI&t=805s",
+      "at": "13:25"
+     }
+    },
+    {
+     "date": "2024-02-08",
+     "when": "February 2024",
+     "text": "In February 2024, a guest on Equity Mates outlined that the energy unit had no earnings yet, but Mineral Resources amassed WA gas tenements, bought out a joint venture partner for about half a billion dollars, and purchased drill rigs to accelerate development.",
+     "episode": {
+      "title": "Averaging 26% a year for 17 years, what next? - Mineral Resources | Summer Series",
+      "url": "https://equitymates.com/episode/averaging-26-a-year-for-17-years-what-next-mineral-resources-summer-series/",
+      "jump": "https://www.youtube.com/watch?v=GVrqOPxaX8Y&t=1464s",
+      "at": "24:24"
+     }
+    },
+    {
+     "date": "2022-09-29",
+     "when": "September 2022",
+     "text": "In September 2022, a guest on Equity Mates said Mineral Resources planned two new iron ore projects over the next five years to transition to lower costs and higher scale, indicating active reinvestment to reshape the asset base.",
+     "episode": {
+      "title": "Expert: Tim Carleton - Mineral Resources, Nick Scali & What makes a great Australian company",
+      "url": "https://equitymates.com/episode/expert-hearts-minds-tim-carleton/",
+      "jump": null,
+      "at": "26:12"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2026-07-16",
+     "when": "July 2026",
+     "text": "In July 2026, Equity Mates said Mineral Resources’ share price was up over 200% in the prior 12 months as lithium rebounded, highlighting how quickly expectations had shifted.",
+     "episode": {
+      "title": "Electrification: Australia’s Chance to Power the World | The Decade Ahead",
+      "url": "https://equitymates.com/episode/electrification-australias-chance-to-power-the-world-the-decade-ahead/",
+      "jump": "https://www.youtube.com/watch?v=c45ZJowSvyI&t=1241s",
+      "at": "20:41"
+     }
+    },
+    {
+     "date": "2024-10-24",
+     "when": "October 2024",
+     "text": "In October 2024, Equity Mates reported Mineral Resources’ shares fell 14% in a day and about 20% over five days after its founder was accused of operating an offshore tax evasion scheme.",
+     "episode": {
+      "title": "Q&A on leveraged ETFs, Netflix's 300% surge & we react to terrible financial advice",
+      "url": "https://equitymates.com/episode/qa-on-leveraged-etfs-netflixs-300-surge-we-react-to-terrible-financial-advice/",
+      "jump": "https://www.youtube.com/watch?v=1FeEe_Bg1BA&t=177s",
+      "at": "2:57"
+     }
+    },
+    {
+     "date": "2024-08-15",
+     "when": "August 2024",
+     "text": "In August 2024, Equity Mates noted Mineral Resources was down 43% from its recent high and trading at a 25 PE, flagging a meaningful reset in the multiple.",
+     "episode": {
+      "title": "Watchlist for a market crash, Pimp my Portfolio returns & a ban on sports betting ads?",
+      "url": "https://equitymates.com/episode/watchlist-for-a-market-crash-pimp-my-portfolio-returns-a-ban-on-sports-betting-ads/",
+      "jump": "https://www.youtube.com/watch?v=3YY8OE7EUhI&t=1044s",
+      "at": "17:24"
+     }
+    }
+   ]
+  }
+ ]
+}

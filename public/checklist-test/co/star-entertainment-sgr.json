@@ -1,0 +1,69 @@
+{
+ "slug": "star-entertainment-sgr",
+ "name": "Star Entertainment",
+ "full": "Star Entertainment Group",
+ "listings": [
+  "ASX: SGR"
+ ],
+ "built": "2026-11-01",
+ "episodes": 3,
+ "mentioned_in": 3,
+ "latest": "2026-09-03",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": []
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2026-09-03",
+     "when": "September 2026",
+     "text": "In September 2026, Equity Mates said Star Entertainment posted a $307 million loss on revenue slipping from $1.13 billion to $1.1 billion, and flagged a possible $400 million AUSTRAC fine, which raised concerns about the business’s ongoing sustainability.",
+     "episode": {
+      "title": "Apple enters a new era, Super September is back & Pimp My Portfiolio with Henry Jennings",
+      "url": "https://equitymates.com/episode/apple-enters-a-new-era-super-september-is-back-pimp-my-portfiolio-with-henry-jennings/",
+      "jump": "https://www.youtube.com/watch?v=c4xrClvBRVk&t=376s",
+      "at": "6:16"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2024-10-03",
+     "when": "October 2024",
+     "text": "In October 2024, Equity Mates noted Star Entertainment’s share price fell 50% in a day during a rough quarter, highlighting how sharply the market marked down the company.",
+     "episode": {
+      "title": "ASX's best start since 2013, is Boeing a buy after 40% drop & Pimp my Portfolio with Adam Dawes",
+      "url": "https://equitymates.com/episode/asxs-best-start-since-2013-is-boeing-a-buy-after-40-drop-pimp-my-portfolio-with-adam-dawes/",
+      "jump": "https://www.youtube.com/watch?v=jGRygXJKZD0&t=164s",
+      "at": "2:44"
+     }
+    },
+    {
+     "date": "2023-07-10",
+     "when": "July 2023",
+     "text": "In July 2023, Equity Mates cited Star Entertainment as down 20% over three months but up 10% in a week, pointing to big short term swings in how the market priced the stock.",
+     "episode": {
+      "title": "Searching for the Dogs of FY23 + Ren's 5 minute valuation",
+      "url": "https://equitymates.com/episode/searching-for-the-dogs-of-fy23-rens-5-minute-valuation/",
+      "jump": null,
+      "at": "11:52"
+     }
+    }
+   ]
+  }
+ ]
+}

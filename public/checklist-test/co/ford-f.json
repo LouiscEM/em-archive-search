@@ -1,0 +1,136 @@
+{
+ "slug": "ford-f",
+ "name": "Ford",
+ "full": "Ford",
+ "listings": [
+  "NYSE: F"
+ ],
+ "built": "2026-10-30",
+ "episodes": 6,
+ "mentioned_in": 66,
+ "latest": "2026-05-11",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2026-05-11",
+     "when": "May 2026",
+     "text": "In May 2026, a guest on Equity Mates described PWR becoming an OEM supplier for Ford’s S650 Mustang programme and said Ford was growing its global racing interests. It suggested the programme created a pipeline tied to high-end performance vehicles.",
+     "episode": {
+      "title": "Apple’s battle with CBA, why even God can’t beat DCA & a community stock pick",
+      "url": "https://equitymates.com/episode/apples-battle-with-cba-why-even-god-cant-beat-dca-a-community-stock-pick/",
+      "jump": "https://www.youtube.com/watch?v=YJfHE1HyUF4&t=952s",
+      "at": "15:52"
+     }
+    },
+    {
+     "date": "2023-08-07",
+     "when": "August 2023",
+     "text": "In August 2023, Equity Mates said Ford had a great quarter, with $45 billion revenue up 12% and profit of $1.92 billion, showing strong demand for its cars. It added Ford planned to manufacture 600,000 electric vehicles annually by late 2023 as part of its EV push.",
+     "episode": {
+      "title": "3 stories from reporting season",
+      "url": "https://equitymates.com/episode/3-stories-from-reporting-season/",
+      "jump": null,
+      "at": "1:13"
+     }
+    },
+    {
+     "date": "2023-02-06",
+     "when": "February 2023",
+     "text": "In February 2023, Equity Mates reported Ford cut US prices on its Mustang Mach‑E SUVs, with average prices dropping about $4,500. It set those cuts alongside Tesla’s, framing them within broader EV market dynamics.",
+     "episode": {
+      "title": "Is 2023 the year to buy an electric vehicle?",
+      "url": "https://equitymates.com/episode/is-2023-the-year-to-buy-an-electric-vehicle/",
+      "jump": null,
+      "at": "1:37"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2025-07-28",
+     "when": "July 2025",
+     "text": "In July 2025, Equity Mates warned that Chinese EV makers were the biggest threat to investors in legacy automakers such as Ford. It pointed to rapid feature innovation and price competition in China as pressure on Western car margins.",
+     "episode": {
+      "title": "The Chinese EV boom, Pimp my Portfolio & X marks the stock: what's buzzing right now",
+      "url": "https://equitymates.com/episode/the-chinese-ev-boom-pimp-my-portfolio-x-marks-the-stock-whats-buzzing-right-now/",
+      "jump": "https://www.youtube.com/watch?v=mgxIZSt2Znk&t=546s",
+      "at": "9:06"
+     }
+    },
+    {
+     "date": "2024-06-17",
+     "when": "June 2024",
+     "text": "In June 2024, Equity Mates compared Tesla’s 15% net margin to Ford’s 3% margin and highlighted how traditional peers sat around 4% to 7%. It used the gap to question how legacy automakers would sustain profits against higher‑margin competitors.",
+     "episode": {
+      "title": "Tesla: \"It's on a path\" to grow 300% by 2030 | Company deep dive",
+      "url": "https://equitymates.com/episode/tesla-its-on-a-path-to-grow-300-by-2030-company-deep-dive/",
+      "jump": "https://www.youtube.com/watch?v=dCWARcFGDgs&t=1100s",
+      "at": "18:20"
+     }
+    },
+    {
+     "date": "2023-08-07",
+     "when": "August 2023",
+     "text": "In August 2023, Equity Mates said Ford expected full‑year losses in its Model E unit to reach $4.5 billion, up from $3 billion. It noted profits in Ford Blue and Ford Pro showed ongoing demand for internal combustion and commercial vehicles as EV adoption lagged expectations.",
+     "episode": {
+      "title": "3 stories from reporting season",
+      "url": "https://equitymates.com/episode/3-stories-from-reporting-season/",
+      "jump": null,
+      "at": "5:27"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2024-06-17",
+     "when": "June 2024",
+     "text": "In June 2024, Equity Mates discussed reports that Ford announced a plant it was not building anymore as some automakers eased EV timelines. It said the transition remained a question of timing rather than intent for many manufacturers.",
+     "episode": {
+      "title": "Tesla: \"It's on a path\" to grow 300% by 2030 | Company deep dive",
+      "url": "https://equitymates.com/episode/tesla-its-on-a-path-to-grow-300-by-2030-company-deep-dive/",
+      "jump": "https://www.youtube.com/watch?v=dCWARcFGDgs&t=1279s",
+      "at": "21:19"
+     }
+    },
+    {
+     "date": "2023-08-07",
+     "when": "August 2023",
+     "text": "In August 2023, Equity Mates noted Ford committed more than $50 billion to electric vehicles through to 2026 and aimed for a 600,000 EV annual run rate by late 2023. It framed the spend as a major shift in how the company would grow.",
+     "episode": {
+      "title": "3 stories from reporting season",
+      "url": "https://equitymates.com/episode/3-stories-from-reporting-season/",
+      "jump": null,
+      "at": "1:13"
+     }
+    },
+    {
+     "date": "2021-11-17",
+     "when": "November 2021",
+     "text": "In November 2021, Equity Mates highlighted that Ford owned 12% of Rivian, signalling a strategic bet alongside developing its own EV efforts. It contrasted approaches to manufacturing advantages in the sector.",
+     "episode": {
+      "title": "The Coffee Crisis of 2022?",
+      "url": "https://equitymates.com/episode/the-coffee-crisis-of-2022/",
+      "jump": null,
+      "at": "10:19"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

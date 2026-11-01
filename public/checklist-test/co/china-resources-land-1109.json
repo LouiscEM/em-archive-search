@@ -1,0 +1,58 @@
+{
+ "slug": "china-resources-land-1109",
+ "name": "China Resources Land",
+ "full": "China Resources Land",
+ "listings": [
+  "HKG: 1109"
+ ],
+ "built": "2026-11-01",
+ "episodes": 1,
+ "mentioned_in": 1,
+ "latest": "2024-02-27",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2024-02-27",
+     "when": "February 2024",
+     "text": "In February 2024, a guest on Equity Mates described China Resources Land as a Chinese property developer delivering quality housing, supported by a steady 3 to 4 year land bank.",
+     "episode": {
+      "title": "Buy or Sell: Adam Keily with Julian McCormack",
+      "url": "https://equitymates.com/episode/buy-or-sell-adam-keily-with-julian-mccormack/",
+      "jump": "https://www.youtube.com/watch?v=OatW5fbnfqk&t=1067s",
+      "at": "17:47"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2024-02-27",
+     "when": "February 2024",
+     "text": "In February 2024, a guest on Equity Mates noted its exceptional business track record, citing about a 70 bagger total shareholder return from 2000, and said it remained strong at what it does despite wider property sector woes.",
+     "episode": {
+      "title": "Buy or Sell: Adam Keily with Julian McCormack",
+      "url": "https://equitymates.com/episode/buy-or-sell-adam-keily-with-julian-mccormack/",
+      "jump": "https://www.youtube.com/watch?v=OatW5fbnfqk&t=1067s",
+      "at": "17:47"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

@@ -1,0 +1,170 @@
+{
+ "slug": "csl-csl",
+ "name": "CSL",
+ "full": "CSL Limited",
+ "listings": [
+  "ASX: CSL"
+ ],
+ "built": "2026-10-30",
+ "episodes": 5,
+ "mentioned_in": 129,
+ "latest": "2026-09-21",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2026-08-20",
+     "when": "August 2026",
+     "text": "In August 2026, Equity Mates said annual profit fell 2% as revenue declined in the core plasma division, highlighting the importance of CSL Behring and US inventory dynamics.",
+     "episode": {
+      "title": "Data centre resistance grows, CSL is (sort of) back & a stock picker joins Pimp my Portfolio",
+      "url": "https://equitymates.com/episode/data-centre-resistance-grows-csl-is-sort-of-back-a-stock-picker-joins-pimp-my-portfolio/",
+      "jump": null,
+      "at": "17:33"
+     }
+    },
+    {
+     "date": "2026-05-18",
+     "when": "May 2026",
+     "text": "In May 2026, Equity Mates explained CSL as a blood plasma business making pharmaceutical products and vaccines, noting its plasma operations as the core.",
+     "episode": {
+      "title": "CommBank's worst day, Mr Beat Up reviews a stock we all own & who would want to be Fed chair",
+      "url": "https://equitymates.com/episode/commbanks-worst-day-mr-beat-up-reviews-a-stock-we-all-own-who-would-want-to-be-fed-chair/",
+      "jump": "https://www.youtube.com/watch?v=gD4LP8hMOo8&t=416s",
+      "at": "6:56"
+     }
+    },
+    {
+     "date": "2026-03-19",
+     "when": "March 2026",
+     "text": "In March 2026, Equity Mates described CSL as a global leader in life-saving blood plasma therapies and vaccines, bought because of a perceived market overreaction rather than disruption potential.",
+     "episode": {
+      "title": "Bryce’s top 5 healthcare picks, 2 quality additions to the Community Portfolio & Gen Z’s $6 billion boom",
+      "url": "https://equitymates.com/episode/bryces-top-5-healthcare-picks-2-quality-additions-to-the-community-portfolio-gen-zs-6-billion-boom/",
+      "jump": "https://www.youtube.com/watch?v=XYtVxhP9IdA&t=961s",
+      "at": "16:01"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2026-09-21",
+     "when": "September 2026",
+     "text": "In September 2026, Equity Mates called CSL an industry leader in blood plasma and vaccines and noted it still held competitive advantages despite issues from past balance sheet choices and non-core assets.",
+     "episode": {
+      "title": "Rates rise around the world, why the Aged Pension isn’t enough & Pimp my Portfolio with Owen Rask",
+      "url": "https://equitymates.com/episode/rates-rise-around-the-world-why-the-aged-pension-isnt-enough-pimp-my-portfolio-with-owen-rask/",
+      "jump": "https://www.youtube.com/watch?v=iCUjHY95ABg&t=1624s",
+      "at": "27:04"
+     }
+    },
+    {
+     "date": "2026-03-19",
+     "when": "March 2026",
+     "text": "In March 2026, Equity Mates highlighted CSL's network of collection centres and FDA regulation as durable advantages in plasma therapies, saying the business still held a strong place in its market.",
+     "episode": {
+      "title": "Bryce’s top 5 healthcare picks, 2 quality additions to the Community Portfolio & Gen Z’s $6 billion boom",
+      "url": "https://equitymates.com/episode/bryces-top-5-healthcare-picks-2-quality-additions-to-the-community-portfolio-gen-zs-6-billion-boom/",
+      "jump": "https://www.youtube.com/watch?v=XYtVxhP9IdA&t=1022s",
+      "at": "17:02"
+     }
+    },
+    {
+     "date": "2020-12-30",
+     "when": "December 2020",
+     "text": "In December 2020, Equity Mates said CSL’s scale created a moat via lower costs and higher margins than smaller rivals, enabling pricing power and ongoing R&D investment to stay ahead of treatments.",
+     "episode": {
+      "title": "Summer Series: CSL Limited (ASX CSL)",
+      "url": "https://equitymates.com/episode/summer-series-csl-limited-asx-csl/",
+      "jump": null,
+      "at": "15:52"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2026-09-21",
+     "when": "September 2026",
+     "text": "In September 2026, Equity Mates said prior management overleveraged in low rates and acquired assets outside CSL’s core, arguing some portfolio changes were needed.",
+     "episode": {
+      "title": "Rates rise around the world, why the Aged Pension isn’t enough & Pimp my Portfolio with Owen Rask",
+      "url": "https://equitymates.com/episode/rates-rise-around-the-world-why-the-aged-pension-isnt-enough-pimp-my-portfolio-with-owen-rask/",
+      "jump": "https://www.youtube.com/watch?v=iCUjHY95ABg&t=1624s",
+      "at": "27:04"
+     }
+    },
+    {
+     "date": "2026-05-18",
+     "when": "May 2026",
+     "text": "In May 2026, Equity Mates reported CSL wrote down its kidney disease asset by $5 billion, while margins were falling and guidance was weak, raising questions about recent capital allocation.",
+     "episode": {
+      "title": "CommBank's worst day, Mr Beat Up reviews a stock we all own & who would want to be Fed chair",
+      "url": "https://equitymates.com/episode/commbanks-worst-day-mr-beat-up-reviews-a-stock-we-all-own-who-would-want-to-be-fed-chair/",
+      "jump": "https://www.youtube.com/watch?v=gD4LP8hMOo8&t=416s",
+      "at": "6:56"
+     }
+    },
+    {
+     "date": "2020-12-30",
+     "when": "December 2020",
+     "text": "In December 2020, Equity Mates noted CSL consistently invested about 10% of revenue in research and development, building a product pipeline to drive future growth.",
+     "episode": {
+      "title": "Summer Series: CSL Limited (ASX CSL)",
+      "url": "https://equitymates.com/episode/summer-series-csl-limited-asx-csl/",
+      "jump": null,
+      "at": "8:01"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2026-08-20",
+     "when": "August 2026",
+     "text": "In August 2026, Equity Mates noted profit fell 2% and revenue weakened in plasma, yet the share price had rebounded about 40% off its bottom before the result, framing market expectations.",
+     "episode": {
+      "title": "Data centre resistance grows, CSL is (sort of) back & a stock picker joins Pimp my Portfolio",
+      "url": "https://equitymates.com/episode/data-centre-resistance-grows-csl-is-sort-of-back-a-stock-picker-joins-pimp-my-portfolio/",
+      "jump": null,
+      "at": "17:33"
+     }
+    },
+    {
+     "date": "2026-05-18",
+     "when": "May 2026",
+     "text": "In May 2026, Equity Mates said CSL was down 68% from its August 2024 high and 28% in the prior month, and described it as cheap on valuation despite falling margins and an empty CEO seat.",
+     "episode": {
+      "title": "CommBank's worst day, Mr Beat Up reviews a stock we all own & who would want to be Fed chair",
+      "url": "https://equitymates.com/episode/commbanks-worst-day-mr-beat-up-reviews-a-stock-we-all-own-who-would-want-to-be-fed-chair/",
+      "jump": "https://www.youtube.com/watch?v=gD4LP8hMOo8&t=416s",
+      "at": "6:56"
+     }
+    },
+    {
+     "date": "2026-03-19",
+     "when": "March 2026",
+     "text": "In March 2026, Equity Mates said it was trading on a PE of 35 after a roughly 30% six-month fall, discussing headwinds in flu vaccines and a perceived market overreaction.",
+     "episode": {
+      "title": "Bryce’s top 5 healthcare picks, 2 quality additions to the Community Portfolio & Gen Z’s $6 billion boom",
+      "url": "https://equitymates.com/episode/bryces-top-5-healthcare-picks-2-quality-additions-to-the-community-portfolio-gen-zs-6-billion-boom/",
+      "jump": "https://www.youtube.com/watch?v=XYtVxhP9IdA&t=1022s",
+      "at": "17:02"
+     }
+    }
+   ]
+  }
+ ]
+}

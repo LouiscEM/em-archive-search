@@ -1,0 +1,148 @@
+{
+ "slug": "mcdonald-s-mcd",
+ "name": "McDonald's",
+ "full": "McDonald's",
+ "listings": [
+  "NYSE: MCD"
+ ],
+ "built": "2026-10-30",
+ "episodes": 7,
+ "mentioned_in": 65,
+ "latest": "2026-10-15",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2024-06-02",
+     "when": "June 2024",
+     "text": "In June 2024, a guest on Equity Mates cited an average McDonald's drive-through time of about 3 minutes 30 seconds, using it as a benchmark for fast service in the category.",
+     "episode": {
+      "title": "Guzman y Gomez is going public: We speak to co-CEOs Steven Marks and Hilton Brett",
+      "url": "https://equitymates.com/episode/guzman-y-gomez-is-going-public-we-speak-to-co-ceos-steven-marks-and-hilton-brett/",
+      "jump": null,
+      "at": "24:05"
+     }
+    },
+    {
+     "date": "2022-08-31",
+     "when": "August 2022",
+     "text": "In August 2022, Equity Mates explained McDonald's closure of 846 Russian stores and the emergence of sanctioned knockoff brands, underscoring how embedded its restaurants had been in daily life there.",
+     "episode": {
+      "title": "The Russian knockoff brands that are all too familiar",
+      "url": "https://equitymates.com/episode/the-russian-knockoff-brands-that-are-all-too-familiar/",
+      "jump": null,
+      "at": "1:47"
+     }
+    },
+    {
+     "date": "2022-08-01",
+     "when": "August 2022",
+     "text": "In August 2022, Equity Mates highlighted McDonald's same-store sales growth, up 3.7% in the US and 13% internationally, as evidence of strong ongoing demand.",
+     "episode": {
+      "title": "Earnings season continues as we unpack a few companies that caught our eye",
+      "url": "https://equitymates.com/episode/unknown-companies-that-caught-our-eye/",
+      "jump": "https://www.youtube.com/watch?v=wTpPFfYjJis&t=372s",
+      "at": "6:12"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2026-10-15",
+     "when": "October 2026",
+     "text": "In October 2026, Equity Mates observed McDonald's was about 32% below all-time highs and questioned how it would find its place amid a growing health food trend.",
+     "episode": {
+      "title": "Firmus IPO falls apart & the invisible crash behind Wall Street’s record highs",
+      "url": "https://equitymates.com/episode/firmus-44-billion-ipo-has-been-pulled-the-invisible-crash-beneath-market-highs/",
+      "jump": "https://www.youtube.com/watch?v=vLf9N74a5LQ&t=1321s",
+      "at": "22:01"
+     }
+    },
+    {
+     "date": "2026-03-12",
+     "when": "March 2026",
+     "text": "In March 2026, Equity Mates contrasted McDonald's roughly 44,000 stores and about US$25 billion revenue with a rival’s far lower revenue per store and noted around US$8 billion profit, pointing to scale and franchise economics.",
+     "episode": {
+      "title": "McDonald's has lost its crown, why boring stocks are winning & 4 reasons to sell",
+      "url": "https://equitymates.com/episode/mcdonalds-has-lost-its-crown-why-boring-stocks-are-winning-4-reasons-to-sell/",
+      "jump": "https://www.youtube.com/watch?v=XILfumUGoRY&t=331s",
+      "at": "5:31"
+     }
+    },
+    {
+     "date": "2022-05-25",
+     "when": "May 2022",
+     "text": "In May 2022, Equity Mates relayed the view that McDonald's key advantage lay in owning prime real estate, describing it as fundamentally a property-focused business.",
+     "episode": {
+      "title": "Four trends that just disrupted two-party politics",
+      "url": "https://equitymates.com/episode/four-trends-that-just-disrupted-two-party-politics/",
+      "jump": null,
+      "at": "31:15"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2026-03-12",
+     "when": "March 2026",
+     "text": "In March 2026, Equity Mates said McDonald's added about 7,000 stores since 2019, indicating continued investment in rolling out its network.",
+     "episode": {
+      "title": "McDonald's has lost its crown, why boring stocks are winning & 4 reasons to sell",
+      "url": "https://equitymates.com/episode/mcdonalds-has-lost-its-crown-why-boring-stocks-are-winning-4-reasons-to-sell/",
+      "jump": "https://www.youtube.com/watch?v=XILfumUGoRY&t=331s",
+      "at": "5:31"
+     }
+    },
+    {
+     "date": "2023-01-02",
+     "when": "January 2023",
+     "text": "In January 2023, Equity Mates recounted McDonald's investment in Chipotle that turned US$360 million into US$1.5 billion by 2006, showing portfolio capital allocation outside its core brand.",
+     "episode": {
+      "title": "$3 for Guac, $1,500 for a share - Chipotle | Summer Series",
+      "url": "https://equitymates.com/episode/3-for-guac-1500-for-a-share-chipotle-summer-series/",
+      "jump": "https://www.youtube.com/watch?v=_CnP1-bqTNI&t=269s",
+      "at": "4:29"
+     }
+    },
+    {
+     "date": "2022-08-31",
+     "when": "August 2022",
+     "text": "In August 2022, Equity Mates detailed McDonald's permanent exit from Russia, selling its operations and absorbing an estimated US$1.2 billion cost, reflecting management’s choice to reallocate capital away from that market.",
+     "episode": {
+      "title": "The Russian knockoff brands that are all too familiar",
+      "url": "https://equitymates.com/episode/the-russian-knockoff-brands-that-are-all-too-familiar/",
+      "jump": null,
+      "at": "1:47"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2026-10-15",
+     "when": "October 2026",
+     "text": "In October 2026, Equity Mates noted McDonald's traded about 20% below its 200-day moving average and roughly 32% off all-time highs, providing context for market expectations in the price.",
+     "episode": {
+      "title": "Firmus IPO falls apart & the invisible crash behind Wall Street’s record highs",
+      "url": "https://equitymates.com/episode/firmus-44-billion-ipo-has-been-pulled-the-invisible-crash-beneath-market-highs/",
+      "jump": "https://www.youtube.com/watch?v=vLf9N74a5LQ&t=1321s",
+      "at": "22:01"
+     }
+    }
+   ]
+  }
+ ]
+}

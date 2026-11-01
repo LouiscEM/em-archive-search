@@ -1,0 +1,125 @@
+{
+ "slug": "general-motors-gm",
+ "name": "General Motors",
+ "full": "General Motors",
+ "listings": [
+  "NYSE: GM"
+ ],
+ "built": "2026-10-30",
+ "episodes": 7,
+ "mentioned_in": 23,
+ "latest": "2026-07-06",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2023-11-06",
+     "when": "November 2023",
+     "text": "In November 2023, Equity Mates explained US regulators pulled all Cruise vehicles after an accident, and said General Motors argued Cruise’s safety record outperformed comparable human drivers, highlighting a setback for its robotaxi service.",
+     "episode": {
+      "title": "Driveless cars are driving headlines. Here's what you've missed",
+      "url": "https://equitymates.com/episode/driveless-cars-are-driving-headlines-heres-what-youve-missed/",
+      "jump": null,
+      "at": "5:16"
+     }
+    },
+    {
+     "date": "2023-02-13",
+     "when": "February 2023",
+     "text": "In February 2023, Equity Mates cited Kantar research that General Motors was among the brands achieving the best Super Bowl ad results, suggesting effective marketing that translated into more sales.",
+     "episode": {
+      "title": "Why would you pay $7 million for a Super Bowl ad",
+      "url": "https://equitymates.com/episode/why-would-you-pay-7-million-for-a-super-bowl-ad/",
+      "jump": null,
+      "at": "11:48"
+     }
+    },
+    {
+     "date": "2023-02-06",
+     "when": "February 2023",
+     "text": "In February 2023, Equity Mates reported General Motors planned to launch dozens more electric vehicles by 2025 and said its EV prices were where they needed to be, signalling a major product push while monitoring competitiveness.",
+     "episode": {
+      "title": "Is 2023 the year to buy an electric vehicle?",
+      "url": "https://equitymates.com/episode/is-2023-the-year-to-buy-an-electric-vehicle/",
+      "jump": null,
+      "at": "4:59"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2025-08-04",
+     "when": "August 2025",
+     "text": "In August 2025, Equity Mates said General Motors projected it could pay as much as $5 billion in tariffs in the year, showing how tariffs on inputs and finished cars were squeezing automaker margins.",
+     "episode": {
+      "title": "The good, bad & ugly of earnings season, Mr Beat-Up's biggest stock yet & Bryce tees off on LICs",
+      "url": "https://equitymates.com/episode/the-good-bad-ugly-of-earnings-season-mr-beat-ups-biggest-stock-yet-bryce-tees-off-on-lics/",
+      "jump": "https://www.youtube.com/watch?v=gDWoexXgpbQ&t=591s",
+      "at": "9:51"
+     }
+    },
+    {
+     "date": "2022-12-09",
+     "when": "December 2022",
+     "text": "In December 2022, Equity Mates outlined General Motors’ in-car subscription push, noting about 16 million cars on US roads, over $2 billion in subscription revenue last year, and a goal of $25 billion a year by decade’s end, pointing to a growing recurring revenue stream.",
+     "episode": {
+      "title": "Bonus: $18 a month for heated seats: Car companies are adding monthly subscriptions",
+      "url": "https://equitymates.com/episode/bonus-18-a-month-for-heated-seats-car-companies-are-adding-monthly-subscriptions/",
+      "jump": null,
+      "at": "13:42"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2026-07-06",
+     "when": "July 2026",
+     "text": "In July 2026, Equity Mates recounted that General Motors exited its Cruise robotaxi business in 2024 after a high-profile incident and a false report, writing off almost $10 billion, underscoring a costly capital allocation outcome.",
+     "episode": {
+      "title": "Self-Driving Cars: From 7,000 to 6 million Robotaxis | The Decade Ahead",
+      "url": "https://equitymates.com/episode/self-driving-cars-from-7000-to-6-million-robotaxis-the-decade-ahead/",
+      "jump": "https://www.youtube.com/watch?v=P8y_M1gda_E&t=1658s",
+      "at": "27:38"
+     }
+    },
+    {
+     "date": "2023-02-06",
+     "when": "February 2023",
+     "text": "In February 2023, Equity Mates said General Motors planned to launch dozens more electric vehicles by 2025, indicating ongoing reinvestment into product development and growth.",
+     "episode": {
+      "title": "Is 2023 the year to buy an electric vehicle?",
+      "url": "https://equitymates.com/episode/is-2023-the-year-to-buy-an-electric-vehicle/",
+      "jump": null,
+      "at": "4:59"
+     }
+    },
+    {
+     "date": "2022-12-05",
+     "when": "December 2022",
+     "text": "In December 2022, Equity Mates described General Motors’ strategy to build a software platform for in-car services, noting a quarter of its 16 million US vehicles already had paid features and management targeted $25 billion a year in subscription revenue by decade’s end.",
+     "episode": {
+      "title": "$18 a month for heated seats: Car companies are adding monthly subscriptions",
+      "url": "https://equitymates.com/episode/18-a-month-for-heated-seats-car-companies-are-adding-monthly-subscriptions/",
+      "jump": null,
+      "at": "13:42"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

@@ -1,0 +1,82 @@
+{
+ "slug": "cineworld-cine",
+ "name": "Cineworld",
+ "full": "Cineworld",
+ "listings": [
+  "LSE: CINE"
+ ],
+ "built": "2026-11-01",
+ "episodes": 1,
+ "mentioned_in": 1,
+ "latest": "2022-09-16",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2022-09-16",
+     "when": "September 2022",
+     "text": "In September 2022, Equity Mates explained Cineworld operated over 9,500 screens across about 800 sites under brands including Cineworld, Picturehouse and Regal, and noted Picturehouse cinemas were described as fabulous, highlighting the appeal of the cinema experience for many patrons.",
+     "episode": {
+      "title": "Are the credits rolling for the cinema industry?",
+      "url": "https://equitymates.com/episode/are-the-credits-rolling-for-the-cinema-industry/",
+      "jump": null,
+      "at": "1:11"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2022-09-16",
+     "when": "September 2022",
+     "text": "In September 2022, Equity Mates said cinema attendance was already declining before COVID, and fewer tentpole blockbusters and overall releases made it harder for chains like Cineworld to consistently fill seats.",
+     "episode": {
+      "title": "Are the credits rolling for the cinema industry?",
+      "url": "https://equitymates.com/episode/are-the-credits-rolling-for-the-cinema-industry/",
+      "jump": null,
+      "at": "5:10"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2022-09-16",
+     "when": "September 2022",
+     "text": "In September 2022, Equity Mates said Cineworld had more than US$5 billion in debt, much of it from acquiring Regal in 2017, and that the shutdown of cinemas later made this acquisition-driven debt load hard to manage.",
+     "episode": {
+      "title": "Are the credits rolling for the cinema industry?",
+      "url": "https://equitymates.com/episode/are-the-credits-rolling-for-the-cinema-industry/",
+      "jump": null,
+      "at": "10:10"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2022-09-16",
+     "when": "September 2022",
+     "text": "In September 2022, Equity Mates noted Cineworld’s share price had lost almost 99% of its value from 2019 levels as it entered Chapter 11, signalling how severely expectations had shifted.",
+     "episode": {
+      "title": "Are the credits rolling for the cinema industry?",
+      "url": "https://equitymates.com/episode/are-the-credits-rolling-for-the-cinema-industry/",
+      "jump": null,
+      "at": "2:42"
+     }
+    }
+   ]
+  }
+ ]
+}

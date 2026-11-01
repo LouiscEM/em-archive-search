@@ -1,0 +1,92 @@
+{
+ "slug": "veolia-vie",
+ "name": "Veolia",
+ "full": "Veolia",
+ "listings": [
+  "EPA: VIE"
+ ],
+ "built": "2026-11-01",
+ "episodes": 3,
+ "mentioned_in": 5,
+ "latest": "2022-11-14",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2022-11-14",
+     "when": "November 2022",
+     "text": "In November 2022, Equity Mates reported Veolia partnered with Macquarie to deliver Australia’s first thermal waste‑to‑energy facility in WA and explored a second in NSW, highlighting its waste‑to‑energy service offering when soft‑plastic recycling struggled.",
+     "episode": {
+      "title": "REDcycle collapse: Why is it so hard to recycle a plastic bag?",
+      "url": "https://equitymates.com/episode/redcycle-collapse-why-is-it-so-hard-to-recycle-a-plastic-bag/",
+      "jump": null,
+      "at": "16:12"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2022-04-25",
+     "when": "April 2022",
+     "text": "In April 2022, Equity Mates said Veolia pursued scale via a proposed merger with Suez because waste‑to‑energy plants were capital intensive and returns improved with volume, implying larger operators could sustain stronger economics.",
+     "episode": {
+      "title": "Why Ramsay is just the tip of the iceberg & Netflix headlines early results from US earnings season",
+      "url": "https://equitymates.com/episode/em-chat-3/",
+      "jump": "https://www.youtube.com/watch?v=qAr2Y2LyrCo&t=1194s",
+      "at": "19:54"
+     }
+    },
+    {
+     "date": "2021-02-19",
+     "when": "February 2021",
+     "text": "In February 2021, a guest on Equity Mates described European operators like Veolia as having more assets, infrastructure and people power than Australian peers, suggesting a scale advantage.",
+     "episode": {
+      "title": "Phil Muscatello's Top Beginner Tips for Investing in Shares",
+      "url": "https://equitymates.com/episode/bonus-episode-phil-muscatello-shares-for-beginners/",
+      "jump": "https://www.youtube.com/watch?v=HGxMP16zblg&t=1027s",
+      "at": "17:07"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2022-11-14",
+     "when": "November 2022",
+     "text": "In November 2022, Equity Mates highlighted Veolia investing with Macquarie in a WA waste‑to‑energy facility and assessing a second in NSW, indicating ongoing project development.",
+     "episode": {
+      "title": "REDcycle collapse: Why is it so hard to recycle a plastic bag?",
+      "url": "https://equitymates.com/episode/redcycle-collapse-why-is-it-so-hard-to-recycle-a-plastic-bag/",
+      "jump": null,
+      "at": "16:12"
+     }
+    },
+    {
+     "date": "2022-04-25",
+     "when": "April 2022",
+     "text": "In April 2022, Equity Mates explained Veolia sought to merge with Suez to build scale for waste‑to‑energy, directing capital to productive assets despite high upfront costs.",
+     "episode": {
+      "title": "Why Ramsay is just the tip of the iceberg & Netflix headlines early results from US earnings season",
+      "url": "https://equitymates.com/episode/em-chat-3/",
+      "jump": "https://www.youtube.com/watch?v=qAr2Y2LyrCo&t=1194s",
+      "at": "19:54"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

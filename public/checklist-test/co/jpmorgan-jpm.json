@@ -1,0 +1,69 @@
+{
+ "slug": "jpmorgan-jpm",
+ "name": "JPMorgan",
+ "full": "JP Morgan Chase & Co.",
+ "listings": [
+  "NYSE: JPM"
+ ],
+ "built": "2026-10-30",
+ "episodes": 3,
+ "mentioned_in": 27,
+ "latest": "2024-07-12",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2024-07-12",
+     "when": "July 2024",
+     "text": "In July 2024, a guest on Equity Mates explained JPMorgan Asset Management developed net zero investing building blocks, including carbon transition-aligned strategies and forestry investments, and engaged companies to support economy-wide decarbonisation.",
+     "episode": {
+      "title": "Expert: Jennifer Wu - the core ingredients of a sustainable investing strategy",
+      "url": "https://equitymates.com/episode/expert-jennifer-wu-the-core-ingredients-of-a-sustainable-investing-strategy/",
+      "jump": "https://www.youtube.com/watch?v=Hu0ooPpGnI4&t=2064s",
+      "at": "34:24"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2023-03-22",
+     "when": "March 2023",
+     "text": "In March 2023, Equity Mates recapped that JPMorgan Chase’s CEO helped organise a private sector deposit rescue for First Republic during the 2023 banking turmoil, underscoring the bank’s scale and influence in the system.",
+     "episode": {
+      "title": "Are we in a banking crisis?",
+      "url": "https://equitymates.com/episode/are-we-in-a-banking-crisis/",
+      "jump": null,
+      "at": "1:37"
+     }
+    },
+    {
+     "date": "2023-02-17",
+     "when": "February 2023",
+     "text": "In February 2023, a guest on Equity Mates said JPMorgan could benefit from higher net interest margins, its brokerage business was doing well despite slower IPO markets, and it was flush with cash.",
+     "episode": {
+      "title": "Finding global equity ideas for your portfolio in 2023",
+      "url": "https://equitymates.com/episode/finding-global-equity-ideas-for-your-portfolio-in-2023/",
+      "jump": null,
+      "at": "19:47"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

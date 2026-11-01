@@ -1,0 +1,103 @@
+{
+ "slug": "macquarie-telecom-maq",
+ "name": "Macquarie Telecom",
+ "full": "Macquarie Telecom Group",
+ "listings": [
+  "ASX: MAQ"
+ ],
+ "built": "2026-11-01",
+ "episodes": 3,
+ "mentioned_in": 5,
+ "latest": "2024-04-23",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2022-06-06",
+     "when": "June 2022",
+     "text": "In June 2022, a guest on Equity Mates said Macquarie Telecom sold enterprise-level cloud services and defence-level data centres, and highlighted growth as its Epping or North Ryde facilities filled with tenants.",
+     "episode": {
+      "title": "Expert: Roger Montgomery - When the market busts, load up",
+      "url": "https://equitymates.com/episode/expert-roger-montgomery-when-the-market-busts-load-up/",
+      "jump": "https://www.youtube.com/watch?v=DjW82zqWU58&t=644s",
+      "at": "10:44"
+     }
+    },
+    {
+     "date": "2021-01-06",
+     "when": "January 2021",
+     "text": "In January 2021, Equity Mates said Macquarie Telecom operated data centres in Australia and was a smaller player compared to NextDC, situating its offering within the local data centre market.",
+     "episode": {
+      "title": "Summer Series: NEXTDC Ltd (ASX: NXT)",
+      "url": "https://equitymates.com/episode/summer-series-nextdc-ltd-asx-nxt/",
+      "jump": null,
+      "at": "6:05"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2024-04-23",
+     "when": "April 2024",
+     "text": "In April 2024, a guest on Equity Mates argued Macquarie Telecom had strong tailwinds from AI and cloud computing, with enterprise migration to the cloud in Australia only halfway, supporting durable demand.",
+     "episode": {
+      "title": "Expert: Roger Montgomery - 5 stocks he's buying today",
+      "url": "https://equitymates.com/episode/expert-roger-montgomery-5-stocks-hes-buying-today/",
+      "jump": "https://www.youtube.com/watch?v=_s7pZpDr3BE&t=1211s",
+      "at": "20:11"
+     }
+    },
+    {
+     "date": "2022-06-06",
+     "when": "June 2022",
+     "text": "In June 2022, a guest on Equity Mates said once Macquarie Telecom’s data centres were fully tenanted they would throw off cash and allow higher pricing, pointing to earnings durability and some pricing power.",
+     "episode": {
+      "title": "Expert: Roger Montgomery - When the market busts, load up",
+      "url": "https://equitymates.com/episode/expert-roger-montgomery-when-the-market-busts-load-up/",
+      "jump": "https://www.youtube.com/watch?v=DjW82zqWU58&t=644s",
+      "at": "10:44"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2022-06-06",
+     "when": "June 2022",
+     "text": "In June 2022, a guest on Equity Mates noted the companies discussed, including Macquarie Telecom, were profitable and had a P/E ratio, allowing them to be assessed on earnings-based multiples.",
+     "episode": {
+      "title": "Expert: Roger Montgomery - When the market busts, load up",
+      "url": "https://equitymates.com/episode/expert-roger-montgomery-when-the-market-busts-load-up/",
+      "jump": "https://www.youtube.com/watch?v=DjW82zqWU58&t=1267s",
+      "at": "21:07"
+     }
+    },
+    {
+     "date": "2021-01-06",
+     "when": "January 2021",
+     "text": "In January 2021, Equity Mates compared sales multiples and said NextDC traded around 20 times sales while peers like Macquarie Telecom were between 1.5 and 4, indicating Macquarie Telecom traded on lower price-to-sales ratios.",
+     "episode": {
+      "title": "Summer Series: NEXTDC Ltd (ASX: NXT)",
+      "url": "https://equitymates.com/episode/summer-series-nextdc-ltd-asx-nxt/",
+      "jump": null,
+      "at": "15:14"
+     }
+    }
+   ]
+  }
+ ]
+}

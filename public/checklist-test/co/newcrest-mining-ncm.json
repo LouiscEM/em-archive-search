@@ -1,0 +1,70 @@
+{
+ "slug": "newcrest-mining-ncm",
+ "name": "Newcrest Mining",
+ "full": "Newcrest Mining",
+ "listings": [
+  "ASX: NCM"
+ ],
+ "built": "2026-11-01",
+ "episodes": 3,
+ "mentioned_in": 5,
+ "latest": "2023-04-25",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2023-04-25",
+     "when": "April 2023",
+     "text": "In April 2023, Equity Mates listed Newcrest Mining among Australia’s biggest gold producers when outlining ways to invest in gold miners, highlighting its scale in gold production.",
+     "episode": {
+      "title": "Should I invest in gold?",
+      "url": "https://equitymates.com/episode/should-i-invest-in-gold/",
+      "jump": null,
+      "at": "13:14"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2022-07-04",
+     "when": "July 2022",
+     "text": "In July 2022, Equity Mates covered a Macquarie list of recession-proof stocks that chose Newcrest Mining for gold exposure, presenting it as a defensive pick during downturns.",
+     "episode": {
+      "title": "Macquarie's 16 recession-proof stocks",
+      "url": "https://equitymates.com/episode/macquaries-16-recession-proof-stocks/",
+      "jump": "https://www.youtube.com/watch?v=T4ttySx-d7M&t=1334s",
+      "at": "22:14"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2022-12-09",
+     "when": "December 2022",
+     "text": "In December 2022, Equity Mates said gold equities had rallied and Newcrest Mining was doing quite well, prompting a discussion about taking profits after strong moves, noting Evolution was up almost 50% from its lows.",
+     "episode": {
+      "title": "Martin Crabb comes back to review his predictions from 2022!",
+      "url": "https://equitymates.com/episode/martin-crabb-comes-back-to-review-his-predictions-from-2022/",
+      "jump": null,
+      "at": "10:58"
+     }
+    }
+   ]
+  }
+ ]
+}

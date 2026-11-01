@@ -1,0 +1,114 @@
+{
+ "slug": "pro-medicus-pme",
+ "name": "Pro Medicus",
+ "full": "Pro Medicus Ltd",
+ "listings": [
+  "ASX: PME"
+ ],
+ "built": "2026-10-30",
+ "episodes": 4,
+ "mentioned_in": 15,
+ "latest": "2025-04-10",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2024-06-24",
+     "when": "June 2024",
+     "text": "In June 2024, Equity Mates described Pro Medicus as the de facto standard in radiography software, noting high margins and network effects that helped it dominate its niche.",
+     "episode": {
+      "title": "Audinate: Is it a buying opportunity at these levels? | Company deep dive",
+      "url": "https://equitymates.com/episode/audinate-is-it-a-buying-opportunity-at-these-levels-company-deep-dive/",
+      "jump": "https://www.youtube.com/watch?v=A7KYQJrwWGA&t=1036s",
+      "at": "17:16"
+     }
+    },
+    {
+     "date": "2024-03-18",
+     "when": "March 2024",
+     "text": "In March 2024, Equity Mates explained that Pro Medicus provides software for radiology and medical imaging to hospitals, imaging centres and doctors.",
+     "episode": {
+      "title": "Top 5 ASX stocks of the past 10 years, TikTok, Temu & Shein make news & a crypto market update",
+      "url": "https://equitymates.com/episode/top-5-asx-stocks-of-the-past-10-years-tiktok-temu-shein-make-news-a-crypto-market-update/",
+      "jump": null,
+      "at": "14:10"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2025-02-27",
+     "when": "February 2025",
+     "text": "In February 2025, an adviser on Equity Mates highlighted that margins were already at 70% and that market share gains eventually slow, questioning how long above-market profitability could persist.",
+     "episode": {
+      "title": "6 lessons from Buffett's annual letter, Pimp my Portfolio & Australia's quantum computing breakthrough",
+      "url": "https://equitymates.com/episode/6-lessons-from-buffetts-annual-letter-pimp-my-portfolio-australias-quantum-computing-breakthrough/",
+      "jump": "https://www.youtube.com/watch?v=ObagQznktgQ&t=1169s",
+      "at": "19:29"
+     }
+    },
+    {
+     "date": "2024-06-24",
+     "when": "June 2024",
+     "text": "In June 2024, Equity Mates said network effects supported Pro Medicus’ position in radiography software, contributing to strong economics and industry dominance.",
+     "episode": {
+      "title": "Audinate: Is it a buying opportunity at these levels? | Company deep dive",
+      "url": "https://equitymates.com/episode/audinate-is-it-a-buying-opportunity-at-these-levels-company-deep-dive/",
+      "jump": "https://www.youtube.com/watch?v=A7KYQJrwWGA&t=1036s",
+      "at": "17:16"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2025-04-10",
+     "when": "April 2025",
+     "text": "In April 2025, Equity Mates noted Pro Medicus still traded at a price to earnings above 100 and placed it among high quality names that rarely appeared cheap.",
+     "episode": {
+      "title": "Don’t Panic: Here’s what’s happening, why you should stay invested & what we’re buying",
+      "url": "https://equitymates.com/episode/dont-panic-heres-whats-happening-why-you-should-stay-invested-what-were-buying/",
+      "jump": "https://www.youtube.com/watch?v=KHewkKvIGhc&t=1576s",
+      "at": "26:16"
+     }
+    },
+    {
+     "date": "2025-02-27",
+     "when": "February 2025",
+     "text": "In February 2025, an adviser on Equity Mates said it was trading on 200 times earnings, while another source showed 350 times using last year’s earnings, indicating rich expectations were embedded.",
+     "episode": {
+      "title": "6 lessons from Buffett's annual letter, Pimp my Portfolio & Australia's quantum computing breakthrough",
+      "url": "https://equitymates.com/episode/6-lessons-from-buffetts-annual-letter-pimp-my-portfolio-australias-quantum-computing-breakthrough/",
+      "jump": "https://www.youtube.com/watch?v=ObagQznktgQ&t=1127s",
+      "at": "18:47"
+     }
+    },
+    {
+     "date": "2024-03-18",
+     "when": "March 2024",
+     "text": "In March 2024, Equity Mates reported Pro Medicus traded at a 150 price to earnings and discussed that the market expected ongoing growth, raising questions about what was already priced in.",
+     "episode": {
+      "title": "Top 5 ASX stocks of the past 10 years, TikTok, Temu & Shein make news & a crypto market update",
+      "url": "https://equitymates.com/episode/top-5-asx-stocks-of-the-past-10-years-tiktok-temu-shein-make-news-a-crypto-market-update/",
+      "jump": null,
+      "at": "21:38"
+     }
+    }
+   ]
+  }
+ ]
+}

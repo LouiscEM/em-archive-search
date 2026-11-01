@@ -1,0 +1,46 @@
+{
+ "slug": "ubs-ubsg",
+ "name": "UBS",
+ "full": "UBS",
+ "listings": [
+  "SWX: UBSG"
+ ],
+ "built": "2026-10-30",
+ "episodes": 1,
+ "mentioned_in": 42,
+ "latest": "2023-03-27",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": []
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": []
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2023-03-27",
+     "when": "March 2023",
+     "text": "In March 2023, Equity Mates explained UBS’s acquisition of Credit Suisse as a strategic transaction supported by the Swiss government, highlighting the deal structure as favourable to UBS from a capital allocation and growth perspective.",
+     "episode": {
+      "title": "Expert: Chris Joye - Mortgage holders are in for the mother of all shocks",
+      "url": "https://equitymates.com/episode/expert-chris-joye-mortgage-holders-are-in-for-the-mother-of-all-shocks/",
+      "jump": null,
+      "at": "2:58"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

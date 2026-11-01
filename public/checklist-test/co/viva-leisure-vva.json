@@ -1,0 +1,46 @@
+{
+ "slug": "viva-leisure-vva",
+ "name": "Viva Leisure",
+ "full": "Viva Leisure",
+ "listings": [
+  "ASX: VVA"
+ ],
+ "built": "2026-11-01",
+ "episodes": 1,
+ "mentioned_in": 1,
+ "latest": "2025-02-24",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": []
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": []
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2025-02-24",
+     "when": "February 2025",
+     "text": "In February 2025, Equity Mates noted Viva Leisure’s stock had been a poor performer, down 8% over the last 12 months and almost 50% across the last five years, framing how the market had priced it.",
+     "episode": {
+      "title": "Bad news for banks & miners, where did all the dividends go & stocks with freebies",
+      "url": "https://equitymates.com/episode/bad-news-for-banks-miners-where-did-all-the-dividends-go-stocks-with-freebies/",
+      "jump": "https://www.youtube.com/watch?v=hkGW5JdchqY&t=1654s",
+      "at": "27:34"
+     }
+    }
+   ]
+  }
+ ]
+}

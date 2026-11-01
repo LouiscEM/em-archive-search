@@ -1,0 +1,159 @@
+{
+ "slug": "general-electric-ge",
+ "name": "General Electric",
+ "full": "General Electric",
+ "listings": [
+  "NYSE: GE"
+ ],
+ "built": "2026-11-01",
+ "episodes": 8,
+ "mentioned_in": 14,
+ "latest": "2026-10-15",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2024-09-13",
+     "when": "September 2024",
+     "text": "In September 2024, Equity Mates recalled General Electric showcasing its healthcare, aerospace and power generation divisions at a promotional day, illustrating the breadth of its industrial products and services.",
+     "episode": {
+      "title": "Why Index Investing: Because indexes are forever | iShares by BlackRock",
+      "url": "https://equitymates.com/episode/why-index-investing-because-indexes-are-forever-ishares-by-blackrock/",
+      "jump": "https://www.youtube.com/watch?v=Lkic-g_SzgY&t=496s",
+      "at": "8:16"
+     }
+    },
+    {
+     "date": "2023-09-08",
+     "when": "September 2023",
+     "text": "In September 2023, Equity Mates noted General Electric created the first lab grown diamonds in 1954, demonstrating long-standing materials science capability even though early jewellery quality was limited.",
+     "episode": {
+      "title": "Lab Grown Diamonds are forever",
+      "url": "https://equitymates.com/episode/lab-grown-diamonds-are-forever/",
+      "jump": null,
+      "at": "1:59"
+     }
+    },
+    {
+     "date": "2023-01-31",
+     "when": "January 2023",
+     "text": "In January 2023, Equity Mates described General Electric as Thomas Edison's company that commercialised electricity and light bulbs, highlighting its role in foundational household technology.",
+     "episode": {
+      "title": "A strong core to support your future | Summer Series",
+      "url": "https://equitymates.com/episode/a-strong-core-to-support-your-future-summer-series/",
+      "jump": "https://www.youtube.com/watch?v=MrD13auGVdk&t=772s",
+      "at": "12:52"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2026-10-15",
+     "when": "October 2026",
+     "text": "In October 2026, Equity Mates used General Electric as an example of a giant that later underperformed after topping the market in 2000, raising questions about sustaining above-market profits over decades.",
+     "episode": {
+      "title": "Firmus IPO falls apart & the invisible crash behind Wall Street’s record highs",
+      "url": "https://equitymates.com/episode/firmus-44-billion-ipo-has-been-pulled-the-invisible-crash-beneath-market-highs/",
+      "jump": "https://www.youtube.com/watch?v=vLf9N74a5LQ&t=1010s",
+      "at": "16:50"
+     }
+    },
+    {
+     "date": "2024-04-29",
+     "when": "April 2024",
+     "text": "In April 2024, Equity Mates said General Electric was the biggest American company in 2000 but is now down about 80%, showing how leadership status did not translate into lasting outperformance.",
+     "episode": {
+      "title": "Why companies die but indexes are forever, Pimp my portfolio & ETF overlap",
+      "url": "https://equitymates.com/episode/why-companies-die-but-indexes-are-forever-pimp-my-portfolio-etf-overlap/",
+      "jump": "https://www.youtube.com/watch?v=90XVGbSb7WY&t=473s",
+      "at": "7:53"
+     }
+    },
+    {
+     "date": "2023-07-18",
+     "when": "July 2023",
+     "text": "In July 2023, Equity Mates explained that investing at General Electric’s 2000 peak would have materially lagged the index, underscoring how its dominance faded compared to market returns.",
+     "episode": {
+      "title": "Automated Investing: Why it works",
+      "url": "https://equitymates.com/episode/automated-investing-why-it-works/",
+      "jump": null,
+      "at": "12:22"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2026-08-20",
+     "when": "August 2026",
+     "text": "In August 2026, a guest on Equity Mates said General Electric’s acquisition spree led to a CEO resignation, and a new CEO later oversaw a recovery, highlighting the impact of capital allocation and leadership change.",
+     "episode": {
+      "title": "Data centre resistance grows, CSL is (sort of) back & a stock picker joins Pimp my Portfolio",
+      "url": "https://equitymates.com/episode/data-centre-resistance-grows-csl-is-sort-of-back-a-stock-picker-joins-pimp-my-portfolio/",
+      "jump": null,
+      "at": "31:06"
+     }
+    },
+    {
+     "date": "2022-08-04",
+     "when": "August 2022",
+     "text": "In August 2022, a guest on Equity Mates recalled choosing General Electric shares partly because it had increased its dividend every quarter for 30 years, reflecting a long history of returning cash to shareholders before the GFC.",
+     "episode": {
+      "title": "Expert: Mark Bouris - Fear is the great thief of imagination",
+      "url": "https://equitymates.com/episode/expert-mark-bouris-yellow-brick-road/",
+      "jump": "https://www.youtube.com/watch?v=SBF7RSr8P0E&t=1581s",
+      "at": "26:21"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2026-10-15",
+     "when": "October 2026",
+     "text": "In October 2026, Equity Mates noted that buying General Electric near its top later underperformed, illustrating how paying peak prices can embed optimistic expectations that do not persist.",
+     "episode": {
+      "title": "Firmus IPO falls apart & the invisible crash behind Wall Street’s record highs",
+      "url": "https://equitymates.com/episode/firmus-44-billion-ipo-has-been-pulled-the-invisible-crash-beneath-market-highs/",
+      "jump": "https://www.youtube.com/watch?v=vLf9N74a5LQ&t=1010s",
+      "at": "16:50"
+     }
+    },
+    {
+     "date": "2024-09-13",
+     "when": "September 2024",
+     "text": "In September 2024, Equity Mates compared index outcomes with General Electric’s fall from number one in 2000 to 63rd two decades later, implying that a 2000 purchase price proved demanding in hindsight.",
+     "episode": {
+      "title": "Why Index Investing: Because indexes are forever | iShares by BlackRock",
+      "url": "https://equitymates.com/episode/why-index-investing-because-indexes-are-forever-ishares-by-blackrock/",
+      "jump": "https://www.youtube.com/watch?v=Lkic-g_SzgY&t=542s",
+      "at": "9:02"
+     }
+    },
+    {
+     "date": "2023-07-18",
+     "when": "July 2023",
+     "text": "In July 2023, Equity Mates said General Electric fell about 80% from its 2000 peak, while the S&P 500 would have almost tripled, highlighting how entry price affected realised returns.",
+     "episode": {
+      "title": "Automated Investing: Why it works",
+      "url": "https://equitymates.com/episode/automated-investing-why-it-works/",
+      "jump": null,
+      "at": "12:22"
+     }
+    }
+   ]
+  }
+ ]
+}

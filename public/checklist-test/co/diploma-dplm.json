@@ -1,0 +1,46 @@
+{
+ "slug": "diploma-dplm",
+ "name": "Diploma",
+ "full": "Diploma PLC",
+ "listings": [
+  "LON: DPLM"
+ ],
+ "built": "2026-11-01",
+ "episodes": 1,
+ "mentioned_in": 3,
+ "latest": "2024-04-08",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2024-04-08",
+     "when": "April 2024",
+     "text": "In April 2024, Equity Mates noted Diploma PLC supplied specialised technical products and services and said it featured in a fund’s top five holdings, which sparked discussion of its business focus.",
+     "episode": {
+      "title": "Move over Magnificent 7, meet the Magnificent 11, Bryce’s small cap investment & Compounding continued",
+      "url": "https://equitymates.com/episode/move-over-magnificent-7-meet-the-magnificent-11-bryces-small-cap-investment-compounding-continued/",
+      "jump": "https://www.youtube.com/watch?v=lOIZb_iNSMw&t=510s",
+      "at": "8:30"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": []
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

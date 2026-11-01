@@ -1,0 +1,46 @@
+{
+ "slug": "alliance-aviation-services-aqz",
+ "name": "Alliance Aviation Services",
+ "full": "Alliance Aviation Services",
+ "listings": [
+  "ASX: AQZ"
+ ],
+ "built": "2026-11-01",
+ "episodes": 1,
+ "mentioned_in": 1,
+ "latest": "2024-05-21",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2024-05-21",
+     "when": "May 2024",
+     "text": "In May 2024, Equity Mates noted Alliance Aviation Services renewed a three-year contract with Glencore Coal, highlighting its role providing midsize passenger aircraft services to resources companies.",
+     "episode": {
+      "title": "Buy or Sell: Roger Montgomery  - Nick Scali, Megaport, NovoNordisk & more",
+      "url": "https://equitymates.com/episode/buy-or-sell-roger-montgomery-nick-scali-megaport-novonordisk-more/",
+      "jump": "https://www.youtube.com/watch?v=LnccOVbozX8&t=293s",
+      "at": "4:53"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": []
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

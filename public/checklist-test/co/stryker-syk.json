@@ -1,0 +1,91 @@
+{
+ "slug": "stryker-syk",
+ "name": "Stryker",
+ "full": "Stryker",
+ "listings": [
+  "NYSE: SYK"
+ ],
+ "built": "2026-11-01",
+ "episodes": 4,
+ "mentioned_in": 6,
+ "latest": "2025-03-06",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2025-03-06",
+     "when": "March 2025",
+     "text": "In March 2025, Equity Mates outlined Stryker as a producer of medical devices and equipment for orthopaedics, surgical and neurotechnology applications.",
+     "episode": {
+      "title": "European stocks are ripping, the portfolio of England's Warren Buffett & Australian house price update",
+      "url": "https://equitymates.com/episode/european-stocks-are-ripping-the-portfolio-of-englands-warren-buffett-australian-house-price-update/",
+      "jump": "https://www.youtube.com/watch?v=uxA9D--kTrg&t=1443s",
+      "at": "24:03"
+     }
+    },
+    {
+     "date": "2025-02-07",
+     "when": "February 2025",
+     "text": "In February 2025, a guest on Equity Mates described Stryker's orthopaedic implants and robotic surgery tools, saying innovation improved precision and patient outcomes, with patients typically up walking within 24 hours after serious surgery.",
+     "episode": {
+      "title": "Expert: Elisa Di Marco - 3 trends that will define the next decade",
+      "url": "https://equitymates.com/episode/expert-elisa-di-marco-3-trends-that-will-define-the-next-decade/",
+      "jump": "https://www.youtube.com/watch?v=bz6CKtADquY&t=931s",
+      "at": "15:31"
+     }
+    },
+    {
+     "date": "2024-12-26",
+     "when": "December 2024",
+     "text": "In December 2024, Equity Mates noted hospital demonstrations of Stryker's surgical robots, saying the technology was driving growth and helping bring down procedure costs.",
+     "episode": {
+      "title": "Elise Kennedy - Finding growth in all parts of the market | Summer Series",
+      "url": "https://equitymates.com/episode/elise-kennedy-finding-growth-in-all-parts-of-the-market-summer-series/",
+      "jump": "https://www.youtube.com/watch?v=MF3KfZnDRXY&t=225s",
+      "at": "3:45"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2025-02-07",
+     "when": "February 2025",
+     "text": "In February 2025, a guest on Equity Mates said Stryker had defensible earnings built on a history of innovation and a first mover advantage, with over 60% of US knees and over 30% of hips using Stryker.",
+     "episode": {
+      "title": "Expert: Elisa Di Marco - 3 trends that will define the next decade",
+      "url": "https://equitymates.com/episode/expert-elisa-di-marco-3-trends-that-will-define-the-next-decade/",
+      "jump": "https://www.youtube.com/watch?v=bz6CKtADquY&t=931s",
+      "at": "15:31"
+     }
+    },
+    {
+     "date": "2022-02-25",
+     "when": "February 2022",
+     "text": "In February 2022, a guest on Equity Mates said Stryker held a solid market position across hospital medical devices, with extensive reach in technologies and portfolios that embedded it in the hospital ecosystem.",
+     "episode": {
+      "title": "Bonus: William Studebacker - The future of robotics and automation | ETF Securities",
+      "url": "https://equitymates.com/episode/bonus-william-studebacker-the-future-of-robotics-and-automation-etf-securities/",
+      "jump": null,
+      "at": "18:10"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

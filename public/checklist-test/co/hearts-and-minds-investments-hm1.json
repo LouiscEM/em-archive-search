@@ -1,0 +1,103 @@
+{
+ "slug": "hearts-and-minds-investments-hm1",
+ "name": "Hearts and Minds Investments",
+ "full": "Hearts and Minds Investments Ltd",
+ "listings": [
+  "ASX: HM1"
+ ],
+ "built": "2026-11-01",
+ "episodes": 3,
+ "mentioned_in": 4,
+ "latest": "2023-10-19",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2023-10-19",
+     "when": "October 2023",
+     "text": "In October 2023, Equity Mates described the Sohn Hearts and Minds Investment Conference and HM1’s model where leading fund managers pitched their highest conviction stocks, with proceeds from the listed company directed to medical research, calling it an interesting structure and concept.",
+     "episode": {
+      "title": "Expert: Rikki Bannan - Two small caps: Propel Funeral Services (ASX: PFP) and Clarity Pharmaceuticals (ASX: CU6)",
+      "url": "https://equitymates.com/episode/expert-rikki-bannan-two-small-caps-propel-funeral-services-asx-pfp-and-clarity-pharmaceuticals-asx-cu6/",
+      "jump": "https://www.youtube.com/watch?v=AxIIPNKMioE&t=165s",
+      "at": "2:45"
+     }
+    },
+    {
+     "date": "2021-11-23",
+     "when": "November 2021",
+     "text": "In November 2021, Equity Mates explained HM1 pooled stock picks from leading global fund managers into an ASX-listed portfolio, with a core group contributing 65% and annual conference ideas making up 35%, letting investors access those ideas while typical fees were waived and money donated to medical research.",
+     "episode": {
+      "title": "How you can invest with the world's best fund managers",
+      "url": "https://equitymates.com/episode/how-you-can-invest-with-the-worlds-best-fund-managers/",
+      "jump": null,
+      "at": "1:42"
+     }
+    },
+    {
+     "date": "2020-12-06",
+     "when": "December 2020",
+     "text": "In December 2020, Equity Mates highlighted HM1 as a unique listed investment company that used expert stock pitches to build a portfolio and give back to charities, offering exposure to ideas like telemedicine and payments businesses that retail investors rarely accessed.",
+     "episode": {
+      "title": "Expert Investor: Hamish Corlett & Why He Pitched Slack At Sohn Hearts & Minds | TDM Growth Partners",
+      "url": "https://equitymates.com/episode/expert-investor-hamish-corlett-why-he-pitched-slack-at-sohn-hearts-minds-tdm-growth-partners/",
+      "jump": null,
+      "at": "2:26"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": []
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2023-10-19",
+     "when": "October 2023",
+     "text": "In October 2023, Equity Mates noted that proceeds from HM1 were directed to medical research, with more than $60 million donated to Australian researchers, outlining how the vehicle allocated its profits for impact.",
+     "episode": {
+      "title": "Expert: Rikki Bannan - Two small caps: Propel Funeral Services (ASX: PFP) and Clarity Pharmaceuticals (ASX: CU6)",
+      "url": "https://equitymates.com/episode/expert-rikki-bannan-two-small-caps-propel-funeral-services-asx-pfp-and-clarity-pharmaceuticals-asx-cu6/",
+      "jump": "https://www.youtube.com/watch?v=AxIIPNKMioE&t=165s",
+      "at": "2:45"
+     }
+    },
+    {
+     "date": "2021-11-23",
+     "when": "November 2021",
+     "text": "In November 2021, Equity Mates said HM1 waived typical investment fees and instead donated money to medical research, describing a philanthropic approach to capital allocation within the listed investment company.",
+     "episode": {
+      "title": "How you can invest with the world's best fund managers",
+      "url": "https://equitymates.com/episode/how-you-can-invest-with-the-worlds-best-fund-managers/",
+      "jump": null,
+      "at": "1:42"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2021-11-23",
+     "when": "November 2021",
+     "text": "In November 2021, Equity Mates stated HM1 was listed on the ASX and its share price was $4.23 at the time, providing a clear reference point for what the market was paying for access to the portfolio.",
+     "episode": {
+      "title": "How you can invest with the world's best fund managers",
+      "url": "https://equitymates.com/episode/how-you-can-invest-with-the-worlds-best-fund-managers/",
+      "jump": null,
+      "at": "4:42"
+     }
+    }
+   ]
+  }
+ ]
+}

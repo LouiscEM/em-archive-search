@@ -1,0 +1,58 @@
+{
+ "slug": "alpha-hpa-a4n",
+ "name": "Alpha HPA",
+ "full": "Alpha HPA Ltd",
+ "listings": [
+  "ASX: A4N"
+ ],
+ "built": "2026-11-01",
+ "episodes": 1,
+ "mentioned_in": 2,
+ "latest": "2023-10-20",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2023-10-20",
+     "when": "October 2023",
+     "text": "In October 2023, a guest on Equity Mates described Alpha HPA as the standout in high-purity alumina, saying it moved from a junior explorer with a new processing method to small-scale production over 4 to 5 years, working on a chemical feedstock.",
+     "episode": {
+      "title": "Uncovered: There's more to a battery than Lithium, introducing HPA - Impact Minerals (ASX: IPT)",
+      "url": "https://equitymates.com/episode/uncovered-theres-more-to-a-battery-than-lithium-introducing-hpa-impact-minerals-asx-ipt/",
+      "jump": null,
+      "at": "19:10"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2023-10-20",
+     "when": "October 2023",
+     "text": "In October 2023, a guest on Equity Mates said Alpha HPA developed a new processing method using a chemical feedstock and had become very successful in HPA, indicating technical differentiation as it progressed to small-scale production.",
+     "episode": {
+      "title": "Uncovered: There's more to a battery than Lithium, introducing HPA - Impact Minerals (ASX: IPT)",
+      "url": "https://equitymates.com/episode/uncovered-theres-more-to-a-battery-than-lithium-introducing-hpa-impact-minerals-asx-ipt/",
+      "jump": null,
+      "at": "19:10"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

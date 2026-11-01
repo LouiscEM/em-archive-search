@@ -1,0 +1,115 @@
+{
+ "slug": "new-york-times-ny",
+ "name": "New York Times",
+ "full": "New York Times",
+ "listings": [
+  "NYSE: NY"
+ ],
+ "built": "2026-10-30",
+ "episodes": 6,
+ "mentioned_in": 63,
+ "latest": "2025-05-08",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2025-05-08",
+     "when": "May 2025",
+     "text": "In May 2025, Equity Mates said the New York Times was one of the first reads each morning to get across overnight US news, highlighting its relevance for timely business coverage.",
+     "episode": {
+      "title": "Our biggest Buffett lessons, Reddit's round trip & investing tools that make it easy",
+      "url": "https://equitymates.com/episode/our-biggest-buffett-lessons-reddits-round-trip-investing-tools-that-make-it-easy/",
+      "jump": "https://www.youtube.com/watch?v=foaUJom9wME&t=1742s",
+      "at": "29:02"
+     }
+    },
+    {
+     "date": "2024-08-12",
+     "when": "August 2024",
+     "text": "In August 2024, Equity Mates contrasted a deeply reported New York Times investigation with low‑cost viral content, noting the internet put them on equal footing and pushed cheaper content to win on volume.",
+     "episode": {
+      "title": "A lot of panic for an average week, where to next for the economy & the rise and fall of media stocks",
+      "url": "https://equitymates.com/episode/a-lot-of-panic-for-an-average-week-where-to-next-for-the-economy-the-rise-and-fall-of-media-stocks/",
+      "jump": "https://www.youtube.com/watch?v=PbYVlmJxVLI&t=894s",
+      "at": "14:54"
+     }
+    },
+    {
+     "date": "2023-12-06",
+     "when": "December 2023",
+     "text": "In December 2023, Equity Mates noted the New York Times DealBook Summit drew major corporate leaders, underscoring the brand’s ability to host agenda‑setting business conversations.",
+     "episode": {
+      "title": "Fast 3: Is it really cheaper to buy than rent? | World’s first plastic waste treaty | Elon’s latest outburst",
+      "url": "https://equitymates.com/episode/fast-3-is-it-really-cheaper-to-buy-than-rent-worlds-first-plastic-waste-treaty-elons-latest-outburst/",
+      "jump": null,
+      "at": "12:30"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2023-06-30",
+     "when": "June 2023",
+     "text": "In June 2023, Equity Mates cited a 7.6 percent profit margin for the New York Times in a media comparison, using it as a benchmark against other publishers.",
+     "episode": {
+      "title": "News Corp (NWS) deep dive w/ Will Granger | Airlie Funds",
+      "url": "https://equitymates.com/episode/news-corp-nws-deep-dive-w-will-granger-airlie-funds/",
+      "jump": null,
+      "at": "12:26"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2022-03-23",
+     "when": "March 2022",
+     "text": "In March 2022, Equity Mates discussed the New York Times buying Wordle for a few million dollars to drive subscriptions, noting the company made about $2 billion in annual revenue and could justify the purchase by converting players.",
+     "episode": {
+      "title": "Srsly tho, what happened to the price of pies?",
+      "url": "https://equitymates.com/episode/srsly-tho-what-happened-to-the-price-of-pies/",
+      "jump": null,
+      "at": "33:06"
+     }
+    },
+    {
+     "date": "2022-01-31",
+     "when": "January 2022",
+     "text": "In January 2022, Equity Mates said the New York Times targeted 10 million paid subscribers by 2025 and paid 550 million to acquire The Athletic, adding about 1 million subscribers to its base.",
+     "episode": {
+      "title": "We're back (& one of us is engaged)! Bold Predictions for 2022",
+      "url": "https://equitymates.com/episode/were-back-one-of-us-is-engaged-bold-predictions-for-2022/",
+      "jump": "https://www.youtube.com/watch?v=lTrkNVdTeZU&t=1416s",
+      "at": "23:36"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2023-06-30",
+     "when": "June 2023",
+     "text": "In June 2023, an adviser on Equity Mates argued that applying a New York Times valuation multiple to Dow Jones was defensible, using the New York Times as a reference point for media company pricing.",
+     "episode": {
+      "title": "News Corp (NWS) deep dive w/ Will Granger | Airlie Funds",
+      "url": "https://equitymates.com/episode/news-corp-nws-deep-dive-w-will-granger-airlie-funds/",
+      "jump": null,
+      "at": "25:28"
+     }
+    }
+   ]
+  }
+ ]
+}

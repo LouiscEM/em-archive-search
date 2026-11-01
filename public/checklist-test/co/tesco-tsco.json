@@ -1,0 +1,58 @@
+{
+ "slug": "tesco-tsco",
+ "name": "Tesco",
+ "full": "Tesco",
+ "listings": [
+  "LSE: TSCO"
+ ],
+ "built": "2026-10-30",
+ "episodes": 2,
+ "mentioned_in": 8,
+ "latest": "2026-03-06",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2023-03-03",
+     "when": "March 2023",
+     "text": "In March 2023, Equity Mates reported Tesco limited purchases of tomatoes, peppers and cucumbers during the UK salad shortage, explaining the supermarket relied on winter imports from southern Europe and North Africa and supply disruptions forced temporary rationing.",
+     "episode": {
+      "title": "The world is running out of onions",
+      "url": "https://equitymates.com/episode/the-world-is-running-out-of-onions/",
+      "jump": null,
+      "at": "4:37"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2026-03-06",
+     "when": "March 2026",
+     "text": "In March 2026, a guest on Equity Mates said Tesco was taking market share in the UK and was included in a value-tilted sleeve seeking a 12 to 18 month inflection, noting improving sentiment toward some UK companies.",
+     "episode": {
+      "title": "4 steps to find winning software stocks with Ben Arnold",
+      "url": "https://equitymates.com/episode/4-steps-to-find-winning-software-stocks-with-ben-arnold/",
+      "jump": "https://www.youtube.com/watch?v=4o_MexmZVEw&t=1474s",
+      "at": "24:34"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

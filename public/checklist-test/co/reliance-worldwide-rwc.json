@@ -1,0 +1,58 @@
+{
+ "slug": "reliance-worldwide-rwc",
+ "name": "Reliance Worldwide",
+ "full": "Reliance Worldwide Corporation Ltd",
+ "listings": [
+  "ASX: RWC"
+ ],
+ "built": "2026-11-01",
+ "episodes": 1,
+ "mentioned_in": 1,
+ "latest": "2025-05-06",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2025-05-06",
+     "when": "May 2025",
+     "text": "In May 2025, a guest on Equity Mates said Reliance Worldwide sold behind the wall plumbing products in the US, Australia and Europe, highlighting SharkBite push to connect fittings that let two pipes be joined easily and quickly for trade customers.",
+     "episode": {
+      "title": "Buy or Sell: William Mumford - Resmed, Commonwealth Bank, BHP & more",
+      "url": "https://equitymates.com/episode/buy-or-sell-william-mumford-resmed-commonwealth-bank-bhp-more/",
+      "jump": null,
+      "at": "2:19"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2025-05-06",
+     "when": "May 2025",
+     "text": "In May 2025, a guest on Equity Mates explained about 60% of Reliance Worldwide’s sales served the defensive repair market, with the balance tied to more cyclical new build and renovation, outlining a mix that underpinned demand in its key US market.",
+     "episode": {
+      "title": "Buy or Sell: William Mumford - Resmed, Commonwealth Bank, BHP & more",
+      "url": "https://equitymates.com/episode/buy-or-sell-william-mumford-resmed-commonwealth-bank-bhp-more/",
+      "jump": null,
+      "at": "2:19"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

@@ -1,0 +1,103 @@
+{
+ "slug": "silex-slx",
+ "name": "Silex",
+ "full": "Silex",
+ "listings": [
+  "ASX: SLX"
+ ],
+ "built": "2026-10-30",
+ "episodes": 3,
+ "mentioned_in": 11,
+ "latest": "2023-02-24",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2022-09-02",
+     "when": "September 2022",
+     "text": "In September 2022, Equity Mates described Silex as offering exposure to uranium fuel and zero spin silicon, linking it to carbon free power, quantum computing and medical isotopes, and said its report showed a clear path to commercialisation.",
+     "episode": {
+      "title": "It's our birthday! We review all our Order Pad stocks 🎂 Pt I",
+      "url": "https://equitymates.com/episode/its-our-birthday-we-review-all-our-order-pad-stocks-%f0%9f%8e%82-pt-i/",
+      "jump": null,
+      "at": "16:19"
+     }
+    },
+    {
+     "date": "2021-10-22",
+     "when": "October 2021",
+     "text": "In October 2021, Equity Mates explained Silex’s laser isotope separation for uranium enrichment, licensed to Global Laser Enrichment with Cameco, and outlined the planned Paducah facility intended to process US Department of Energy tails into nuclear fuel.",
+     "episode": {
+      "title": "Our Order Pad  | Silex (SLX:ASX) & BHP Group (BHP:ASX)",
+      "url": "https://equitymates.com/episode/our-order-pad-silex-slxasx-bhp-group-bhpasx/",
+      "jump": null,
+      "at": "4:03"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2023-02-24",
+     "when": "February 2023",
+     "text": "In February 2023, a guest on Equity Mates noted enrichment prices for SWU jumped over 1,000% and the West’s reliance on Russian capacity, and highlighted Silex as a favourite enrichment exposure as supply chains shifted away from Russia.",
+     "episode": {
+      "title": "Digging into the Global Natural Resources Sector with Terra Capital  ",
+      "url": "https://equitymates.com/episode/digging-into-the-global-natural-resources-sector-with-terra-capital-%e2%80%a8/",
+      "jump": null,
+      "at": "19:49"
+     }
+    },
+    {
+     "date": "2021-10-22",
+     "when": "October 2021",
+     "text": "In October 2021, Equity Mates said Silex’s laser enrichment had proved more efficient than centrifuges at prototype scale, potentially lowering costs, and highlighted the Cameco partnership and a revenue model focused on enriching US government uranium tails.",
+     "episode": {
+      "title": "Our Order Pad  | Silex (SLX:ASX) & BHP Group (BHP:ASX)",
+      "url": "https://equitymates.com/episode/our-order-pad-silex-slxasx-bhp-group-bhpasx/",
+      "jump": null,
+      "at": "8:38"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2022-09-02",
+     "when": "September 2022",
+     "text": "In September 2022, Equity Mates said Silex’s update outlined multiple growth markets and a path to commercialisation, indicating management was advancing projects in uranium fuel, quantum computing materials and medical isotopes.",
+     "episode": {
+      "title": "It's our birthday! We review all our Order Pad stocks 🎂 Pt I",
+      "url": "https://equitymates.com/episode/its-our-birthday-we-review-all-our-order-pad-stocks-%f0%9f%8e%82-pt-i/",
+      "jump": null,
+      "at": "16:19"
+     }
+    },
+    {
+     "date": "2021-10-22",
+     "when": "October 2021",
+     "text": "In October 2021, Equity Mates said Silex invested $3 million into a zero spin silicon project with UNSW, aiming to establish cost effective production from 2023 for partners at about US$500 per kilo, positioning silicon as the likeliest near term revenue source.",
+     "episode": {
+      "title": "Our Order Pad  | Silex (SLX:ASX) & BHP Group (BHP:ASX)",
+      "url": "https://equitymates.com/episode/our-order-pad-silex-slxasx-bhp-group-bhpasx/",
+      "jump": null,
+      "at": "12:52"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

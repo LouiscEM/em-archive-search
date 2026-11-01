@@ -1,0 +1,82 @@
+{
+ "slug": "first-pacific-0142",
+ "name": "First Pacific",
+ "full": "First Pacific",
+ "listings": [
+  "HKG: 0142"
+ ],
+ "built": "2026-11-01",
+ "episodes": 2,
+ "mentioned_in": 2,
+ "latest": "2023-11-16",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2023-11-09",
+     "when": "November 2023",
+     "text": "In November 2023, a guest on Equity Mates described First Pacific as a Hong Kong conglomerate with stakes in Indofood noodles, PLDT telecom and Philippine infrastructure, noting Indofood held 70% of Indonesia's noodle market and was the biggest noodle company in the world.",
+     "episode": {
+      "title": "Expert: Tom Naughton - There's money in mi goreng | Prusik Investment",
+      "url": "https://equitymates.com/episode/expert-tom-naughton-theres-money-in-mi-goreng-prusik-investment/",
+      "jump": null,
+      "at": "24:50"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2023-11-09",
+     "when": "November 2023",
+     "text": "In November 2023, a guest on Equity Mates noted Indofood, owned through First Pacific, had 70% of Indonesia’s noodle market, suggesting significant scale within the portfolio that could support durable industry positioning.",
+     "episode": {
+      "title": "Expert: Tom Naughton - There's money in mi goreng | Prusik Investment",
+      "url": "https://equitymates.com/episode/expert-tom-naughton-theres-money-in-mi-goreng-prusik-investment/",
+      "jump": null,
+      "at": "24:50"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2023-11-16",
+     "when": "November 2023",
+     "text": "In November 2023, a guest on Equity Mates expressed governance concerns about First Pacific’s family ownership by the Salim family when evaluating ownership and control.",
+     "episode": {
+      "title": "Expert: Ashish Swarup - Invest in snacks, let's get that bread | Aikya Investment Management",
+      "url": "https://equitymates.com/episode/expert-ashish-swarup-invest-in-snacks-lets-get-that-bread-aikya-investment-management/",
+      "jump": null,
+      "at": "20:50"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2023-11-09",
+     "when": "November 2023",
+     "text": "In November 2023, a guest on Equity Mates described First Pacific as very cheap, citing a market cap around US$1.6 billion alongside ongoing share buybacks and a big dividend.",
+     "episode": {
+      "title": "Expert: Tom Naughton - There's money in mi goreng | Prusik Investment",
+      "url": "https://equitymates.com/episode/expert-tom-naughton-theres-money-in-mi-goreng-prusik-investment/",
+      "jump": null,
+      "at": "24:50"
+     }
+    }
+   ]
+  }
+ ]
+}

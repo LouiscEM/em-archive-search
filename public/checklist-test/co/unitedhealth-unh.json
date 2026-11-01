@@ -1,0 +1,69 @@
+{
+ "slug": "unitedhealth-unh",
+ "name": "UnitedHealth",
+ "full": "UnitedHealth Group Inc",
+ "listings": [
+  "NYSE: UNH"
+ ],
+ "built": "2026-11-01",
+ "episodes": 3,
+ "mentioned_in": 7,
+ "latest": "2024-09-06",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2023-03-20",
+     "when": "March 2023",
+     "text": "In March 2023, Equity Mates described UnitedHealth Group as a big health insurer when discussing a large fund’s holdings, noting it sat alongside other major American companies.",
+     "episode": {
+      "title": "The Mormon Church’s secret $100bn investment fund",
+      "url": "https://equitymates.com/episode/the-mormon-churchs-secret-100bn-investment-fund/",
+      "jump": null,
+      "at": "15:28"
+     }
+    },
+    {
+     "date": "2022-12-23",
+     "when": "December 2022",
+     "text": "In December 2022, Equity Mates outlined UnitedHealth as the largest healthcare company by revenue, offering commercial and government health plans in the US and health services through Optum, including OptumRx pharmacy care, OptumInsight tech consulting and OptumHealth wellness.",
+     "episode": {
+      "title": "12 stocks for 12 days of Christmas Pt 2 | ECF, SRG, TSI, UNH & more!",
+      "url": "https://equitymates.com/episode/12-stocks-for-12-days-of-christmas-pt-2-ecf-srg-tsi-unh-more/",
+      "jump": null,
+      "at": "21:40"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2024-09-06",
+     "when": "September 2024",
+     "text": "In September 2024, a guest on Equity Mates said UnitedHealth appeared among a fund’s top holdings selected for higher quality names with predictable earnings and less volatility than the broader index.",
+     "episode": {
+      "title": "ETF Explained: JPMorgan Global Equity Premium Income Complex ETF (JEGA)",
+      "url": "https://equitymates.com/episode/etf-explained-jpmorgan-global-equity-premium-income-complex-etf-jega/",
+      "jump": "https://www.youtube.com/watch?v=j8-XraMvp1A&t=637s",
+      "at": "10:37"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

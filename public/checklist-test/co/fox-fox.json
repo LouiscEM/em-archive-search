@@ -1,0 +1,70 @@
+{
+ "slug": "fox-fox",
+ "name": "Fox",
+ "full": "Fox",
+ "listings": [
+  "NASDAQ: FOX"
+ ],
+ "built": "2026-10-30",
+ "episodes": 2,
+ "mentioned_in": 75,
+ "latest": "2023-10-11",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2023-04-10",
+     "when": "April 2023",
+     "text": "In April 2023, Equity Mates outlined the $1.6 billion Dominion defamation case against Fox News and explained how the network’s election coverage led to legal risk for the broadcaster, highlighting the nature of its core news programming.",
+     "episode": {
+      "title": "Fox News V Dominion Voting Systems: What does it mean for the Murdochs?",
+      "url": "https://equitymates.com/episode/fox-news-v-dominion-voting-systems-what-does-it-mean-for-the-murdochs/",
+      "jump": null,
+      "at": "0:35"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2023-10-11",
+     "when": "October 2023",
+     "text": "In October 2023, Equity Mates said no major editorial shifts were expected at Fox News, with coverage likely to remain or become more conservative, indicating continuity in its market positioning.",
+     "episode": {
+      "title": "What’s Lachlan Murdoch’s plans for News Corp & Fox?",
+      "url": "https://equitymates.com/episode/whats-lachlan-murdochs-plans-for-news-corp-fox/",
+      "jump": null,
+      "at": "9:57"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2023-10-11",
+     "when": "October 2023",
+     "text": "In October 2023, Equity Mates explained that News Corp and Fox Corporation were split in 2014 and suggested the structure could change again, pointing to potential corporate actions that might reshape Fox’s strategy and capital allocation.",
+     "episode": {
+      "title": "What’s Lachlan Murdoch’s plans for News Corp & Fox?",
+      "url": "https://equitymates.com/episode/whats-lachlan-murdochs-plans-for-news-corp-fox/",
+      "jump": null,
+      "at": "13:12"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

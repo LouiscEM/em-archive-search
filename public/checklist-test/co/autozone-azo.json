@@ -1,0 +1,46 @@
+{
+ "slug": "autozone-azo",
+ "name": "Autozone",
+ "full": "Autozone",
+ "listings": [
+  "NYSE: AZO"
+ ],
+ "built": "2026-11-01",
+ "episodes": 1,
+ "mentioned_in": 1,
+ "latest": "2024-02-15",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": []
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2024-02-15",
+     "when": "February 2024",
+     "text": "In February 2024, a guest on Equity Mates said a bottom-up review of AutoZone's product mix found 100% EV fleet could cut revenues 20 to 40% as motor oil and ignition parts vanish, though heavier EVs lift brake, chassis and suspension demand, with wheel motors ~$1,500.",
+     "episode": {
+      "title": "Selling car parts, buying back stock - Autozone | Summer Series",
+      "url": "https://equitymates.com/episode/selling-car-parts-buying-back-stock-autozone-summer-series/",
+      "jump": "https://www.youtube.com/watch?v=OKuiNwub_lQ&t=1289s",
+      "at": "21:29"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

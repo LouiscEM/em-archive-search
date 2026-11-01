@@ -1,0 +1,58 @@
+{
+ "slug": "artrya-aya",
+ "name": "ARTRYA",
+ "full": "ARTRYA Ltd",
+ "listings": [
+  "ASX: AYA"
+ ],
+ "built": "2026-11-01",
+ "episodes": 1,
+ "mentioned_in": 1,
+ "latest": "2025-09-30",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2025-09-30",
+     "when": "September 2025",
+     "text": "In September 2025, a guest on Equity Mates described ARTRYA's AI software that lets cardiologists and radiologists analyse coronary CT scans in real time, including plaque and flow analysis tools. They noted FDA sign off, three US and two Australian customers, and that it was generating revenue.",
+     "episode": {
+      "title": "Buy or Sell: Ally Selby with Jess Farr-Jones",
+      "url": "https://equitymates.com/episode/buy-or-sell-ally-selby-with-jess-farr-jones/",
+      "jump": "https://www.youtube.com/watch?v=iFOfDVZ2oMT&t=1315s",
+      "at": "21:55"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2025-09-30",
+     "when": "September 2025",
+     "text": "In September 2025, a guest on Equity Mates said ARTRYA's platform was market leading and could win significant share from manual reviews, contrasting its real-time results with HeartFlow's offsite manual process taking a day or two. They expected another FDA approval for a second product early next year.",
+     "episode": {
+      "title": "Buy or Sell: Ally Selby with Jess Farr-Jones",
+      "url": "https://equitymates.com/episode/buy-or-sell-ally-selby-with-jess-farr-jones/",
+      "jump": "https://www.youtube.com/watch?v=iFOfDVZ2oMT&t=1315s",
+      "at": "21:55"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

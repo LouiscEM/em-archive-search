@@ -1,0 +1,137 @@
+{
+ "slug": "nintendo-7974",
+ "name": "Nintendo",
+ "full": "Nintendo",
+ "listings": [
+  "TYO: 7974"
+ ],
+ "built": "2026-11-01",
+ "episodes": 5,
+ "mentioned_in": 18,
+ "latest": "2026-07-20",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2026-07-20",
+     "when": "July 2026",
+     "text": "In July 2026, Equity Mates highlighted Nintendo’s huge IP like Pokémon, Zelda and Mario, noting the Switch was a hit and the Switch Two also did well, suggesting strong products even after past console cycles were mixed.",
+     "episode": {
+      "title": "Entertainment: The Smartphone Is Eating Hollywood | The Decade Ahead",
+      "url": "https://equitymates.com/episode/entertainment-the-smartphone-is-eating-hollywood-the-decade-ahead/",
+      "jump": "https://www.youtube.com/watch?v=cFh7-XUWuPQ&t=1610s",
+      "at": "26:50"
+     }
+    },
+    {
+     "date": "2023-04-21",
+     "when": "April 2023",
+     "text": "In April 2023, Equity Mates reported The Super Mario Bros. Movie smashed global opening weekend records, and said Nintendo was pushing beyond games into broader entertainment, following a Disney-like playbook for its characters.",
+     "episode": {
+      "title": "🍄 The Super Mario Bros. Movie broke box office records",
+      "url": "https://equitymates.com/episode/%f0%9f%8d%84-the-super-mario-bros-movie-broke-box-office-records/",
+      "jump": null,
+      "at": "0:03"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2026-07-20",
+     "when": "July 2026",
+     "text": "In July 2026, Equity Mates said Nintendo’s IP was powerful but historically monetised less effectively than Disney, and that console success had been uneven, though the Switch and Switch Two appeared to buck the pattern.",
+     "episode": {
+      "title": "Entertainment: The Smartphone Is Eating Hollywood | The Decade Ahead",
+      "url": "https://equitymates.com/episode/entertainment-the-smartphone-is-eating-hollywood-the-decade-ahead/",
+      "jump": "https://www.youtube.com/watch?v=cFh7-XUWuPQ&t=1610s",
+      "at": "26:50"
+     }
+    },
+    {
+     "date": "2025-03-11",
+     "when": "March 2025",
+     "text": "In March 2025, a guest on Equity Mates described the key risk as Nintendo never historically delivering two successful hardware generations in a row, framing the business as vulnerable to boom-bust cycles.",
+     "episode": {
+      "title": "Contrarian Investing and Global Markets with Eric Marais",
+      "url": "https://equitymates.com/episode/contrarian-investing-and-global-markets-with-eric-marais/",
+      "jump": "https://www.youtube.com/watch?v=0plRopAmbvA&t=1922s",
+      "at": "32:02"
+     }
+    },
+    {
+     "date": "2023-05-18",
+     "when": "May 2023",
+     "text": "In May 2023, Equity Mates framed Nintendo as one of the strongest IP stables after Disney, citing franchises like Pokémon, Mario and Zelda as long-term competitive advantages.",
+     "episode": {
+      "title": "The perils of selling too early | Wealth Builders Pt 2",
+      "url": "https://equitymates.com/episode/the-perils-of-selling-too-early-wealth-builders-pt-2/",
+      "jump": null,
+      "at": "16:09"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2026-07-20",
+     "when": "July 2026",
+     "text": "In July 2026, Equity Mates said investors often argued Nintendo was about to better monetise its IP and noted the opening of a first Pokémon theme park in Japan as an example of expanding into experiences.",
+     "episode": {
+      "title": "Entertainment: The Smartphone Is Eating Hollywood | The Decade Ahead",
+      "url": "https://equitymates.com/episode/entertainment-the-smartphone-is-eating-hollywood-the-decade-ahead/",
+      "jump": "https://www.youtube.com/watch?v=cFh7-XUWuPQ&t=1610s",
+      "at": "26:50"
+     }
+    },
+    {
+     "date": "2023-04-21",
+     "when": "April 2023",
+     "text": "In April 2023, Equity Mates outlined reinvestment into experiences with Super Nintendo World expansions in Florida and Singapore and a planned Nintendo Gallery in Japan, extending monetisation beyond consoles.",
+     "episode": {
+      "title": "🍄 The Super Mario Bros. Movie broke box office records",
+      "url": "https://equitymates.com/episode/%f0%9f%8d%84-the-super-mario-bros-movie-broke-box-office-records/",
+      "jump": null,
+      "at": "14:42"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2025-03-11",
+     "when": "March 2025",
+     "text": "In March 2025, a guest on Equity Mates said Nintendo became a meaningful position in 2023 when it was out of favour after years of poor share performance, with sentiment tied to uncertainty around the next console.",
+     "episode": {
+      "title": "Contrarian Investing and Global Markets with Eric Marais",
+      "url": "https://equitymates.com/episode/contrarian-investing-and-global-markets-with-eric-marais/",
+      "jump": "https://www.youtube.com/watch?v=0plRopAmbvA&t=1922s",
+      "at": "32:02"
+     }
+    },
+    {
+     "date": "2021-12-10",
+     "when": "December 2021",
+     "text": "In December 2021, Equity Mates recapped a 2020 pitch around 54,480 yen, noting the stock later sat near 50,640 yen with a 52-week high of 69,830 yen, and compared Nintendo to Disney-like platform plays.",
+     "episode": {
+      "title": "Need To Know Bumper Edition: SOHN Hearts & Minds Investor Conference",
+      "url": "https://equitymates.com/episode/need-to-know-bumper-edition-sohn-hearts-minds-investor-conference/",
+      "jump": null,
+      "at": "9:36"
+     }
+    }
+   ]
+  }
+ ]
+}

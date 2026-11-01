@@ -1,0 +1,80 @@
+{
+ "slug": "qualcomm-qcom",
+ "name": "Qualcomm",
+ "full": "Qualcomm",
+ "listings": [
+  "NASDAQ: QCOM"
+ ],
+ "built": "2026-10-30",
+ "episodes": 3,
+ "mentioned_in": 9,
+ "latest": "2026-04-10",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2021-09-13",
+     "when": "September 2021",
+     "text": "In September 2021, Equity Mates described Qualcomm as a fabless chip designer that produced chip designs while foundries such as TSMC manufactured them, explaining its role in the semiconductor supply chain.",
+     "episode": {
+      "title": "Expert: Are Semiconductors the Picks & Shovels Play for the Tech Industry | ETF Securities",
+      "url": "https://equitymates.com/episode/expert-are-semiconductors-the-picks-shovels-play-for-the-tech-industry-etf-securities/",
+      "jump": null,
+      "at": "4:40"
+     }
+    },
+    {
+     "date": "2021-06-01",
+     "when": "June 2021",
+     "text": "In June 2021, Equity Mates explained Qualcomm’s baseband modems powered most 2G to 5G phones, estimating about an 80% chance a handset used Qualcomm, making it central to connecting mobiles to cell towers.",
+     "episode": {
+      "title": "7 highly disruptive stocks with Alex Pollak | ASX Week",
+      "url": "https://equitymates.com/episode/7-highly-disruptive-stocks-with-alex-pollak-asx-week/",
+      "jump": null,
+      "at": "30:36"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2026-04-10",
+     "when": "April 2026",
+     "text": "In April 2026, a guest on Equity Mates said Apple had been replacing Qualcomm’s chips with its own silicon to differentiate and reduce costs, showing how key customers insourcing components could affect suppliers’ margins and market share.",
+     "episode": {
+      "title": "Finding opportunities in well-known names with Ryan Joyce",
+      "url": "https://equitymates.com/episode/finding-opportunities-in-well-known-names-with-ryan-joyce/",
+      "jump": "https://www.youtube.com/watch?v=qNiwsfvSELk&t=2294s",
+      "at": "38:14"
+     }
+    },
+    {
+     "date": "2021-06-01",
+     "when": "June 2021",
+     "text": "In June 2021, Equity Mates said Qualcomm more or less had the mobile baseband market to itself, indicating a strong competitive position that supported profits.",
+     "episode": {
+      "title": "7 highly disruptive stocks with Alex Pollak | ASX Week",
+      "url": "https://equitymates.com/episode/7-highly-disruptive-stocks-with-alex-pollak-asx-week/",
+      "jump": null,
+      "at": "30:36"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

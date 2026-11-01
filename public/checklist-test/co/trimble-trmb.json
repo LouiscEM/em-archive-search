@@ -1,0 +1,58 @@
+{
+ "slug": "trimble-trmb",
+ "name": "Trimble",
+ "full": "Trimble",
+ "listings": [
+  "NASDAQ: TRMB"
+ ],
+ "built": "2026-11-01",
+ "episodes": 1,
+ "mentioned_in": 1,
+ "latest": "2026-08-03",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2026-08-03",
+     "when": "August 2026",
+     "text": "In August 2026, Equity Mates described Trimble as a precision agriculture software and GPS hardware company with a farm management platform and guidance systems, adding it partnered with major machinery makers like Deere, CNH and AGCO and had a $13 billion market cap.",
+     "episode": {
+      "title": "Agriculture: Robots, Drones and the Future of Food | The Decade Ahead",
+      "url": "https://equitymates.com/episode/agriculture-robots-drones-and-the-future-of-food/",
+      "jump": "https://www.youtube.com/watch?v=OEzPbs9ZFr0&t=1674s",
+      "at": "27:54"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2026-08-03",
+     "when": "August 2026",
+     "text": "In August 2026, Equity Mates noted Trimble partnered with Deere, CNH and AGCO, but also said it was not the only company competing in precision agriculture technology, pointing to an active competitive field.",
+     "episode": {
+      "title": "Agriculture: Robots, Drones and the Future of Food | The Decade Ahead",
+      "url": "https://equitymates.com/episode/agriculture-robots-drones-and-the-future-of-food/",
+      "jump": "https://www.youtube.com/watch?v=OEzPbs9ZFr0&t=1674s",
+      "at": "27:54"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

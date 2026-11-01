@@ -1,0 +1,81 @@
+{
+ "slug": "pdd-pdd",
+ "name": "PDD",
+ "full": "PDD Holdings Inc.",
+ "listings": [
+  "NASDAQ: PDD"
+ ],
+ "built": "2026-11-01",
+ "episodes": 4,
+ "mentioned_in": 7,
+ "latest": "2026-02-04",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2025-07-07",
+     "when": "July 2025",
+     "text": "In July 2025, Equity Mates identified PDD as the company behind Temu and noted that, even if Temu was not loved on the show, it had been a big winner, indicating strong consumer traction for its shopping app.",
+     "episode": {
+      "title": "Crunch time for trade deals, Pimp my Portfolio & a new China-focused ETF",
+      "url": "https://equitymates.com/episode/crunch-time-for-trade-deals-pimp-my-portfolio-a-new-china-focused-etf/",
+      "jump": "https://www.youtube.com/watch?v=mChr9i5nG_0&t=1844s",
+      "at": "30:44"
+     }
+    },
+    {
+     "date": "2024-03-18",
+     "when": "March 2024",
+     "text": "In March 2024, Equity Mates said Pinduoduo had been covered on the show for years, suggesting its platform had become well known among major Chinese consumer apps.",
+     "episode": {
+      "title": "Top 5 ASX stocks of the past 10 years, TikTok, Temu & Shein make news & a crypto market update",
+      "url": "https://equitymates.com/episode/top-5-asx-stocks-of-the-past-10-years-tiktok-temu-shein-make-news-a-crypto-market-update/",
+      "jump": null,
+      "at": "10:07"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2025-01-23",
+     "when": "January 2025",
+     "text": "In January 2025, a guest on Equity Mates argued China had intense competition and that PDD and Temu had been hammering rivals, pointing to a strong competitive position within Chinese e-commerce.",
+     "episode": {
+      "title": "Expert: Andrew Brown - 14 Bold Predictions for 2025",
+      "url": "https://equitymates.com/episode/expert-andrew-brown-14-bold-predictions-for-2025/",
+      "jump": "https://www.youtube.com/watch?v=3GaBApfud9Y&t=2815s",
+      "at": "46:55"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2026-02-04",
+     "when": "February 2026",
+     "text": "In February 2026, a guest on Equity Mates described PDD as one of China’s e-commerce leaders trading at very reasonable valuation ratios compared to its growth rates.",
+     "episode": {
+      "title": "The risk hiding in your client’s portfolio - Ben Preston | Orbis",
+      "url": "https://equitymates.com/episode/the-risk-hiding-in-your-clients-portfolio-ben-preston-orbis/",
+      "jump": "https://www.youtube.com/watch?v=ZbDp0eFtgfI&t=1612s",
+      "at": "26:52"
+     }
+    }
+   ]
+  }
+ ]
+}

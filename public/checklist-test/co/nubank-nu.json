@@ -1,0 +1,93 @@
+{
+ "slug": "nubank-nu",
+ "name": "Nubank",
+ "full": "Nu Holdings Ltd.",
+ "listings": [
+  "NYSE: NU"
+ ],
+ "built": "2026-11-01",
+ "episodes": 4,
+ "mentioned_in": 5,
+ "latest": "2025-11-10",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2025-11-10",
+     "when": "November 2025",
+     "text": "In November 2025, Equity Mates described Nubank operating across Brazil, Mexico and Argentina and said it was growing at a rate of knots, highlighting rapid customer and market adoption of its digital banking service.",
+     "episode": {
+      "title": "Australia's fastest growing company, 3 stocks we're watching & Pimp my Portfolio with Matt Ingram",
+      "url": "https://equitymates.com/episode/australias-fastest-growing-company-3-stocks-were-watching-pimp-my-portfolio-with-matt-ingram/",
+      "jump": "https://www.youtube.com/watch?v=uQyY1mdLBkk&t=1938s",
+      "at": "32:18"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2025-10-21",
+     "when": "October 2025",
+     "text": "In October 2025, a guest on Equity Mates said Nubank added 60 million customers in four years with more than 20% growth, and highlighted really high returns on capital from a low-cost, branchless model, suggesting a cost advantage as it expands into Mexico.",
+     "episode": {
+      "title": "Buy or Sell with Ally Selby and Vihari Ross",
+      "url": "https://equitymates.com/episode/buy-or-sell-with-ally-selby-and-vihari-ross/",
+      "jump": "https://www.youtube.com/watch?v=ea1zB6_1O-c&t=1312s",
+      "at": "21:52"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2025-10-21",
+     "when": "October 2025",
+     "text": "In October 2025, a guest on Equity Mates said Nubank had launched in Mexico after rapid customer growth in Brazil, implying management was reinvesting to expand geographically and scale its digital banking platform.",
+     "episode": {
+      "title": "Buy or Sell with Ally Selby and Vihari Ross",
+      "url": "https://equitymates.com/episode/buy-or-sell-with-ally-selby-and-vihari-ross/",
+      "jump": "https://www.youtube.com/watch?v=ea1zB6_1O-c&t=1312s",
+      "at": "21:52"
+     }
+    },
+    {
+     "date": "2023-02-06",
+     "when": "February 2023",
+     "text": "In February 2023, a guest on Equity Mates noted Nubank was paying a dividend, framing it as an example of a tech-driven Latin American financial company shifting towards cash flow sustainability and shareholder returns.",
+     "episode": {
+      "title": "More than the Amazon of South America - Mercado Libre | Summer Series",
+      "url": "https://equitymates.com/episode/more-than-the-amazon-of-south-america-mercado-libre-summer-series/",
+      "jump": "https://www.youtube.com/watch?v=jbRQbXXOoAk&t=1138s",
+      "at": "18:58"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2025-02-17",
+     "when": "February 2025",
+     "text": "In February 2025, a guest on Equity Mates identified Nu Holdings as a NYSE-listed digital banking services provider and focused the discussion on price, portfolio weight and what incremental returns might be from here, raising valuation considerations.",
+     "episode": {
+      "title": "Netflix won the streaming wars, Pimp my Portfolio with Luke Laretive & we debate Novo Nordisk or Eli Lilly",
+      "url": "https://equitymates.com/episode/netflix-won-the-streaming-wars-pimp-my-portfolio-with-luke-laretive-we-debate-novo-nordisk-or-eli-lilly/",
+      "jump": "https://www.youtube.com/watch?v=bUKW7RKCxRU&t=1105s",
+      "at": "18:25"
+     }
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,70 @@
+{
+ "slug": "tractor-supply-tsco",
+ "name": "Tractor Supply",
+ "full": "Tractor Supply",
+ "listings": [
+  "NASDAQ: TSCO"
+ ],
+ "built": "2026-11-01",
+ "episodes": 2,
+ "mentioned_in": 3,
+ "latest": "2024-02-12",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2024-02-12",
+     "when": "February 2024",
+     "text": "In February 2024, a guest on Equity Mates described Tractor Supply as a great regional US retailer with customers who are highly obsessed with the brand and often use stores as community hubs to chat about chickens and horses, pointing to a compelling in-store experience and engagement.",
+     "episode": {
+      "title": "Will US fixed mortgage rates lead to a renovation boom? - Lowes | Summer Series",
+      "url": "https://equitymates.com/episode/will-us-fixed-mortgage-rates-lead-to-a-renovation-boom-lowes-summer-series/",
+      "jump": "https://www.youtube.com/watch?v=lixJ_S3ES7Q&t=1904s",
+      "at": "31:44"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2023-03-09",
+     "when": "March 2023",
+     "text": "In March 2023, Equity Mates noted that Walmart and Home Depot both attempted rural retail concepts to rival Tractor Supply but exited, while Tractor Supply increased market share, retained most of its newer, younger and more female customers, and achieved record satisfaction, indicating resilient competitive advantages.",
+     "episode": {
+      "title": "My High Conviction Stock: Stephen Arnold - Tractor Supply (NASDAQ: TSCO)",
+      "url": "https://equitymates.com/episode/my-high-conviction-stock-stephen-arnold-tractor-supply-nasdaq-tsco/",
+      "jump": null,
+      "at": "9:16"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2023-03-09",
+     "when": "March 2023",
+     "text": "In March 2023, Equity Mates said management planned to open around 70 stores annually, keep investing in existing locations to boost customer spend, and expand what it can offer trusted shoppers, presenting measured store growth and range expansion as the focus for the next decade.",
+     "episode": {
+      "title": "My High Conviction Stock: Stephen Arnold - Tractor Supply (NASDAQ: TSCO)",
+      "url": "https://equitymates.com/episode/my-high-conviction-stock-stephen-arnold-tractor-supply-nasdaq-tsco/",
+      "jump": null,
+      "at": "29:17"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

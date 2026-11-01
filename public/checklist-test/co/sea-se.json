@@ -1,0 +1,103 @@
+{
+ "slug": "sea-se",
+ "name": "Sea",
+ "full": "Sea Limited",
+ "listings": [
+  "NYSE: SE"
+ ],
+ "built": "2026-10-30",
+ "episodes": 4,
+ "mentioned_in": 32,
+ "latest": "2026-10-09",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": []
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2026-10-09",
+     "when": "October 2026",
+     "text": "In October 2026, a guest on Equity Mates said Sea Limited’s three businesses included games, e-commerce and consumer lending, and noted e-commerce margins were quite low, with the share price implying they improve from here.",
+     "episode": {
+      "title": "The Asian Opportunities Investors Are Missing with Cameron Robertson",
+      "url": "https://equitymates.com/episode/the-asian-opportunities-investors-are-missing-with-cameron-robertson/",
+      "jump": "https://www.youtube.com/watch?v=_yvjXv4igvM&t=1199s",
+      "at": "19:59"
+     }
+    },
+    {
+     "date": "2026-09-24",
+     "when": "September 2026",
+     "text": "In September 2026, Equity Mates said in Indonesia, Sea Limited was profitable, bigger and the largest digital bank at the time, underscoring a strong position in a key battleground against Grab.",
+     "episode": {
+      "title": "Australia’s older, slower future, how much do you need to retire & Mr Beat-Up looks at Grab Holdings",
+      "url": "https://equitymates.com/episode/australias-older-slower-future-how-much-do-you-need-to-retire-mr-beat-up-looks-at-grab-holdings/",
+      "jump": "https://www.youtube.com/watch?v=zGQ8kuciJuc&t=2193s",
+      "at": "36:33"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2026-09-24",
+     "when": "September 2026",
+     "text": "In September 2026, Equity Mates contrasted Sea Limited and Grab and described both pushing into financial services, noting Sea’s progress in Indonesia where it operated the largest digital bank at the time.",
+     "episode": {
+      "title": "Australia’s older, slower future, how much do you need to retire & Mr Beat-Up looks at Grab Holdings",
+      "url": "https://equitymates.com/episode/australias-older-slower-future-how-much-do-you-need-to-retire-mr-beat-up-looks-at-grab-holdings/",
+      "jump": "https://www.youtube.com/watch?v=zGQ8kuciJuc&t=2193s",
+      "at": "36:33"
+     }
+    },
+    {
+     "date": "2026-03-02",
+     "when": "March 2026",
+     "text": "In March 2026, Equity Mates said emerging market e-commerce players often evolve into payments businesses and cited Sea Limited in Southeast Asia as an example of that shift.",
+     "episode": {
+      "title": "Our Monthly Portfolio Update - February 2026",
+      "url": "https://equitymates.com/episode/our-monthly-portfolio-update-february-2026/",
+      "jump": "https://www.youtube.com/watch?v=SSQf8Vd70mk&t=1316s",
+      "at": "21:56"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2026-10-09",
+     "when": "October 2026",
+     "text": "In October 2026, a guest on Equity Mates said Sea Limited was about a $60 billion company and could appear cheap if e-commerce margins improve, highlighting that current margins were quite low and improvement was implied by the share price.",
+     "episode": {
+      "title": "The Asian Opportunities Investors Are Missing with Cameron Robertson",
+      "url": "https://equitymates.com/episode/the-asian-opportunities-investors-are-missing-with-cameron-robertson/",
+      "jump": "https://www.youtube.com/watch?v=_yvjXv4igvM&t=1199s",
+      "at": "19:59"
+     }
+    },
+    {
+     "date": "2026-09-28",
+     "when": "September 2026",
+     "text": "In September 2026, Equity Mates reported Sea Limited was down 46% over the past 12 months amid a broader super app selloff, suggesting sector-wide pessimism was reflected in prices.",
+     "episode": {
+      "title": "OpenAI’s Medicare hack, First Home Super Saver Scheme explained & the Super App selloff",
+      "url": "https://equitymates.com/episode/openais-medicare-hack-first-home-super-saver-scheme-explained-the-super-app-selloff/",
+      "jump": "https://www.youtube.com/watch?v=zaHh1O3MFOE&t=1706s",
+      "at": "28:26"
+     }
+    }
+   ]
+  }
+ ]
+}

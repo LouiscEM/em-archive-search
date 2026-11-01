@@ -1,0 +1,115 @@
+{
+ "slug": "whitehaven-coal-whc",
+ "name": "Whitehaven Coal",
+ "full": "Whitehaven Coal",
+ "listings": [
+  "ASX: WHC"
+ ],
+ "built": "2026-10-30",
+ "episodes": 4,
+ "mentioned_in": 11,
+ "latest": "2026-05-19",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2026-05-19",
+     "when": "May 2026",
+     "text": "In May 2026, a guest on Equity Mates highlighted Whitehaven Coal’s product quality, saying its coal yielded about 93% versus a 70% Hunter Valley average, and noted the company was ramping output with a new longwall mine at Narrabri.",
+     "episode": {
+      "title": "How AI improves the investing process with Arms Rosenberg",
+      "url": "https://equitymates.com/episode/how-ai-improves-the-investing-process-with-arms-rosenberg/",
+      "jump": "https://www.youtube.com/watch?v=bQnZb__UAGw&t=81s",
+      "at": "1:21"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2022-09-05",
+     "when": "September 2022",
+     "text": "In September 2022, Equity Mates reported Whitehaven Coal’s revenue rose 216% to just under $5 billion and profit jumped 459% to just under $2 billion, attributing the surge to strong coal prices.",
+     "episode": {
+      "title": "Reporting season is (finally) over. What did we learn?",
+      "url": "https://equitymates.com/episode/reporting-season-is-finally-over-what-did-we-learn/",
+      "jump": "https://www.youtube.com/watch?v=-5y9AvNuURQ&t=1344s",
+      "at": "22:24"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2026-05-19",
+     "when": "May 2026",
+     "text": "In May 2026, a guest on Equity Mates described Whitehaven Coal ramping production by starting a longwall mine at Narrabri, reflecting growth-focused capital spending at the time.",
+     "episode": {
+      "title": "How AI improves the investing process with Arms Rosenberg",
+      "url": "https://equitymates.com/episode/how-ai-improves-the-investing-process-with-arms-rosenberg/",
+      "jump": "https://www.youtube.com/watch?v=bQnZb__UAGw&t=81s",
+      "at": "1:21"
+     }
+    },
+    {
+     "date": "2024-05-07",
+     "when": "May 2024",
+     "text": "In May 2024, Equity Mates said Whitehaven Coal abandoned plans for driverless trucks as labour shortages eased and considered conveyor belts, showing a shift in how it invests in operations.",
+     "episode": {
+      "title": "Buy or Sell: Adam Keily with Scott Phillips - Qantas, Pilbara, Cochlear & more",
+      "url": "https://equitymates.com/episode/buy-or-sell-adam-keily-with-scott-phillips-qantas-pilbara-cochlear-more/",
+      "jump": "https://www.youtube.com/watch?v=rOuRqNuREe8&t=885s",
+      "at": "14:45"
+     }
+    },
+    {
+     "date": "2022-09-05",
+     "when": "September 2022",
+     "text": "In September 2022, Equity Mates noted Whitehaven Coal paid a 40 cent dividend after not paying one the prior year, indicating a return of cash to shareholders from recent profits.",
+     "episode": {
+      "title": "Reporting season is (finally) over. What did we learn?",
+      "url": "https://equitymates.com/episode/reporting-season-is-finally-over-what-did-we-learn/",
+      "jump": "https://www.youtube.com/watch?v=-5y9AvNuURQ&t=1344s",
+      "at": "22:24"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2026-05-19",
+     "when": "May 2026",
+     "text": "In May 2026, a guest on Equity Mates said valuing Whitehaven Coal was driven by price times production, and their thesis rested on thermal coal rising from $53 to $129 per tonne alongside a production ramp.",
+     "episode": {
+      "title": "How AI improves the investing process with Arms Rosenberg",
+      "url": "https://equitymates.com/episode/how-ai-improves-the-investing-process-with-arms-rosenberg/",
+      "jump": "https://www.youtube.com/watch?v=bQnZb__UAGw&t=81s",
+      "at": "1:21"
+     }
+    },
+    {
+     "date": "2022-10-27",
+     "when": "October 2022",
+     "text": "In October 2022, a guest on Equity Mates explained they valued coal stocks like Whitehaven by comparing spot prices to costs and thought they were trading at about one times cash flow if spot prices held.",
+     "episode": {
+      "title": "Expert: Wayne Jones - Low activity investing",
+      "url": "https://equitymates.com/episode/expert-wayne-jones-low-activity-investing/",
+      "jump": "https://www.youtube.com/watch?v=evWrUqwfFS0&t=1649s",
+      "at": "27:29"
+     }
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,70 @@
+{
+ "slug": "aic-mines-a1m",
+ "name": "AIC Mines",
+ "full": "AIC Mines",
+ "listings": [
+  "ASX: A1M"
+ ],
+ "built": "2026-11-01",
+ "episodes": 1,
+ "mentioned_in": 1,
+ "latest": "2026-01-27",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": []
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2026-01-27",
+     "when": "January 2026",
+     "text": "In January 2026, a guest on Equity Mates said AIC Mines was making really good money at current copper prices, noting the project was a little deep but execution under its CEO had been strong.",
+     "episode": {
+      "title": "Why 2026 is the Year of Resources - Luke Laretive",
+      "url": "https://equitymates.com/episode/why-2026-is-the-year-of-resources-luke-laretive/",
+      "jump": "https://www.youtube.com/watch?v=3FKFAXzFUQw&t=991s",
+      "at": "16:31"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2026-01-27",
+     "when": "January 2026",
+     "text": "In January 2026, a guest on Equity Mates said there was lots of scope for AIC Mines to be a consolidator, while also being a likely acquisition target for large international miners based on conversations late last year.",
+     "episode": {
+      "title": "Why 2026 is the Year of Resources - Luke Laretive",
+      "url": "https://equitymates.com/episode/why-2026-is-the-year-of-resources-luke-laretive/",
+      "jump": "https://www.youtube.com/watch?v=3FKFAXzFUQw&t=991s",
+      "at": "16:31"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2026-01-27",
+     "when": "January 2026",
+     "text": "In January 2026, a guest on Equity Mates suggested interest from large miners, viewing AIC Mines as a top acquisition target, indicated there was value seen in the business even if no takeover occurred.",
+     "episode": {
+      "title": "Why 2026 is the Year of Resources - Luke Laretive",
+      "url": "https://equitymates.com/episode/why-2026-is-the-year-of-resources-luke-laretive/",
+      "jump": "https://www.youtube.com/watch?v=3FKFAXzFUQw&t=991s",
+      "at": "16:31"
+     }
+    }
+   ]
+  }
+ ]
+}

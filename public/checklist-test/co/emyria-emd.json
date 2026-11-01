@@ -1,0 +1,58 @@
+{
+ "slug": "emyria-emd",
+ "name": "Emyria",
+ "full": "Emyria",
+ "listings": [
+  "ASX: EMD"
+ ],
+ "built": "2026-11-01",
+ "episodes": 1,
+ "mentioned_in": 1,
+ "latest": "2024-03-01",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2024-03-01",
+     "when": "March 2024",
+     "text": "In March 2024, Equity Mates introduced Emyria as bringing psychedelic-assisted therapies to Australia, having earlier worked on CBD when it was rescheduled, and now developing MDMA and psilocybin therapy paired with intensive counselling sessions.",
+     "episode": {
+      "title": "Uncovered: Emyria - Bringing psychedelic-assisted therapies to Australia",
+      "url": "https://equitymates.com/episode/uncovered-emyria-bringing-psychedelic-assisted-therapies-to-australia/",
+      "jump": null,
+      "at": "0:30"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2024-03-01",
+     "when": "March 2024",
+     "text": "In March 2024, a guest on Equity Mates said healthcare incentives require engaging doctors, payers and patients, and outlined Emyria’s focus on strong data, clinical settings for therapists, and payer discussions to enable adoption despite psychiatrist shortages.",
+     "episode": {
+      "title": "Uncovered: Emyria - Bringing psychedelic-assisted therapies to Australia",
+      "url": "https://equitymates.com/episode/uncovered-emyria-bringing-psychedelic-assisted-therapies-to-australia/",
+      "jump": null,
+      "at": "31:30"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

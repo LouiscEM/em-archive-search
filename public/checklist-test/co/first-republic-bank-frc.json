@@ -1,0 +1,46 @@
+{
+ "slug": "first-republic-bank-frc",
+ "name": "First Republic Bank",
+ "full": "First Republic Bank",
+ "listings": [
+  "NYSE: FRC"
+ ],
+ "built": "2026-11-01",
+ "episodes": 1,
+ "mentioned_in": 1,
+ "latest": "2023-03-22",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": []
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2023-03-22",
+     "when": "March 2023",
+     "text": "In March 2023, Equity Mates said First Republic was on the verge of collapse after customer deposit withdrawals, prompting a private sector rescue where American lenders deposited tens of billions to shore it up, and linked the stress to interest rates, raising doubts about resilience of returns.",
+     "episode": {
+      "title": "Are we in a banking crisis?",
+      "url": "https://equitymates.com/episode/are-we-in-a-banking-crisis/",
+      "jump": null,
+      "at": "1:37"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

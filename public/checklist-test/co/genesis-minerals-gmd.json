@@ -1,0 +1,69 @@
+{
+ "slug": "genesis-minerals-gmd",
+ "name": "Genesis Minerals",
+ "full": "Genesis Minerals",
+ "listings": [
+  "ASX: GMD"
+ ],
+ "built": "2026-11-01",
+ "episodes": 2,
+ "mentioned_in": 2,
+ "latest": "2026-02-26",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2026-02-26",
+     "when": "February 2026",
+     "text": "In February 2026, Equity Mates said Genesis Minerals was a gold exploration company and was the most widely held stock among 33 small-cap managers, helped by recent strength in the gold price.",
+     "episode": {
+      "title": "The drug beating Ozempic, Pimp my Portfolio with Luke Laretive & Australia's most popular small caps",
+      "url": "https://equitymates.com/episode/the-drug-beating-ozempic-pimp-my-portfolio-with-luke-laretive-australias-most-popular-small-caps/",
+      "jump": null,
+      "at": "25:57"
+     }
+    },
+    {
+     "date": "2025-04-15",
+     "when": "April 2025",
+     "text": "In April 2025, a guest on Equity Mates described Genesis Minerals’ product, gold, as a long-standing store of value that investors wanted amid uncertainty, implying persistent demand for what the company produces.",
+     "episode": {
+      "title": "Buy or Sell: Nick Guidera - DroneShield, Temple & Webster, Nuix & more",
+      "url": "https://equitymates.com/episode/buy-or-sell-nick-guidera-droneshield-temple-webster-nuix-more/",
+      "jump": "https://www.youtube.com/watch?v=DYj_3OGxN7I&t=984s",
+      "at": "16:24"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2025-04-15",
+     "when": "April 2025",
+     "text": "In April 2025, a guest on Equity Mates said with Aussie dollar gold around $5,000 an ounce, any pure play Australian gold miner was making a lot of money, with profitability differing by ore quality and production profiles.",
+     "episode": {
+      "title": "Buy or Sell: Nick Guidera - DroneShield, Temple & Webster, Nuix & more",
+      "url": "https://equitymates.com/episode/buy-or-sell-nick-guidera-droneshield-temple-webster-nuix-more/",
+      "jump": "https://www.youtube.com/watch?v=DYj_3OGxN7I&t=984s",
+      "at": "16:24"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

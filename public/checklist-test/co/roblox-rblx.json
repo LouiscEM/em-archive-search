@@ -1,0 +1,126 @@
+{
+ "slug": "roblox-rblx",
+ "name": "Roblox",
+ "full": "Roblox",
+ "listings": [
+  "NYSE: RBLX"
+ ],
+ "built": "2026-10-30",
+ "episodes": 4,
+ "mentioned_in": 12,
+ "latest": "2025-09-12",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2024-10-14",
+     "when": "October 2024",
+     "text": "In October 2024, Equity Mates highlighted Roblox’s scale, citing 79 million daily active users and claims that about half of kids aged 9 to 14 play, while also noting a short report alleging inflated user numbers and weak child safety controls.",
+     "episode": {
+      "title": "Seth Klarman's portfolio revealed, the end of obesity is near & is Roblox a \"pedophile hellscape\"?",
+      "url": "https://equitymates.com/episode/seth-klarmans-portfolio-revealed-the-end-of-obesity-is-near-is-roblox-a-pedophile-hellscape/",
+      "jump": "https://www.youtube.com/watch?v=IKoB8FK9aKE&t=287s",
+      "at": "4:47"
+     }
+    },
+    {
+     "date": "2023-05-01",
+     "when": "May 2023",
+     "text": "In May 2023, Equity Mates said Roblox continued to roll out more games and universes on its platform as part of ongoing metaverse-related development.",
+     "episode": {
+      "title": "What ever happened to the Metaverse?",
+      "url": "https://equitymates.com/episode/what-ever-happened-to-the-metaverse/",
+      "jump": null,
+      "at": "10:35"
+     }
+    },
+    {
+     "date": "2021-02-02",
+     "when": "February 2021",
+     "text": "In February 2021, Equity Mates described Roblox’s user-generated platform and strong network effects, with incentives for developers and players and social avatars that could extend into VR as a “co-human environment.”",
+     "episode": {
+      "title": "Bonus Episode: Stock Of The Year 2021",
+      "url": "https://equitymates.com/episode/bonus-episode-stock-of-the-year-2021/",
+      "jump": "https://www.youtube.com/watch?v=Vt8-q0ab_hw&t=655s",
+      "at": "10:55"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2025-09-12",
+     "when": "September 2025",
+     "text": "In September 2025, a guest on Equity Mates argued profits were not dropping to the bottom line because costs kept rising to incentivise developers, suggesting competitive pressure and a potentially smaller moat, though noted the platform strategy could help over time.",
+     "episode": {
+      "title": "Separating what's real from the hype: Roblox, Games Workshop and more - James Abela | Fidelity",
+      "url": "https://equitymates.com/episode/separating-whats-real-from-the-hype-roblox-games-workshop-and-more-james-abela-fidelity/",
+      "jump": null,
+      "at": "17:33"
+     }
+    },
+    {
+     "date": "2024-10-14",
+     "when": "October 2024",
+     "text": "In October 2024, Equity Mates noted Roblox’s rapid revenue growth, up 110% in 2021 and 26% last year, but said losses were expanding at the same time.",
+     "episode": {
+      "title": "Seth Klarman's portfolio revealed, the end of obesity is near & is Roblox a \"pedophile hellscape\"?",
+      "url": "https://equitymates.com/episode/seth-klarmans-portfolio-revealed-the-end-of-obesity-is-near-is-roblox-a-pedophile-hellscape/",
+      "jump": "https://www.youtube.com/watch?v=IKoB8FK9aKE&t=380s",
+      "at": "6:20"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2025-09-12",
+     "when": "September 2025",
+     "text": "In September 2025, a guest on Equity Mates highlighted significant share-based compensation to developers causing dilution and said the company generated cash flow but limited profit, which shaped their view of management’s capital allocation.",
+     "episode": {
+      "title": "Separating what's real from the hype: Roblox, Games Workshop and more - James Abela | Fidelity",
+      "url": "https://equitymates.com/episode/separating-whats-real-from-the-hype-roblox-games-workshop-and-more-james-abela-fidelity/",
+      "jump": null,
+      "at": "15:24"
+     }
+    },
+    {
+     "date": "2021-02-02",
+     "when": "February 2021",
+     "text": "In February 2021, Equity Mates explained Roblox’s model of incentivising developers to build environments and users to engage, reinvesting in the ecosystem to strengthen the platform’s growth flywheel.",
+     "episode": {
+      "title": "Bonus Episode: Stock Of The Year 2021",
+      "url": "https://equitymates.com/episode/bonus-episode-stock-of-the-year-2021/",
+      "jump": "https://www.youtube.com/watch?v=Vt8-q0ab_hw&t=655s",
+      "at": "10:55"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2025-09-12",
+     "when": "September 2025",
+     "text": "In September 2025, a guest on Equity Mates framed Roblox within shifting tech valuations, noting it was nearly a US$100 billion company while losing about US$1 billion a year.",
+     "episode": {
+      "title": "Separating what's real from the hype: Roblox, Games Workshop and more - James Abela | Fidelity",
+      "url": "https://equitymates.com/episode/separating-whats-real-from-the-hype-roblox-games-workshop-and-more-james-abela-fidelity/",
+      "jump": null,
+      "at": "5:24"
+     }
+    }
+   ]
+  }
+ ]
+}

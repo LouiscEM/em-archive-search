@@ -1,0 +1,58 @@
+{
+ "slug": "zoetis-zts",
+ "name": "Zoetis",
+ "full": "Zoetis",
+ "listings": [
+  "NYSE: ZTS"
+ ],
+ "built": "2026-11-01",
+ "episodes": 1,
+ "mentioned_in": 2,
+ "latest": "2026-07-13",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2026-07-13",
+     "when": "July 2026",
+     "text": "In July 2026, Equity Mates described Zoetis as a global leader in animal pharmaceuticals, making many of the drugs vets prescribe for conditions like dermatitis, kidney disease, cancer and osteoarthritis, positioning its products at the core of pet healthcare.",
+     "episode": {
+      "title": "Pet Care: Australia Has More Pets Than People | The Decade Ahead",
+      "url": "https://equitymates.com/episode/pet-care-australia-has-more-pets-than-people-the-decade-ahead/",
+      "jump": "https://www.youtube.com/watch?v=E6lfTucRXX4&t=1730s",
+      "at": "28:50"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2026-07-13",
+     "when": "July 2026",
+     "text": "In July 2026, Equity Mates said Zoetis held a leadership position in pet pharmaceuticals, suggesting an advantage that could support profits if owners keep spending more to extend pets’ lives.",
+     "episode": {
+      "title": "Pet Care: Australia Has More Pets Than People | The Decade Ahead",
+      "url": "https://equitymates.com/episode/pet-care-australia-has-more-pets-than-people-the-decade-ahead/",
+      "jump": "https://www.youtube.com/watch?v=E6lfTucRXX4&t=1730s",
+      "at": "28:50"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

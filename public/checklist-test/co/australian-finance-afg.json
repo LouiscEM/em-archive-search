@@ -1,0 +1,46 @@
+{
+ "slug": "australian-finance-afg",
+ "name": "Australian Finance",
+ "full": "Australian Finance Group",
+ "listings": [
+  "ASX: AFG"
+ ],
+ "built": "2026-10-30",
+ "episodes": 1,
+ "mentioned_in": 8,
+ "latest": "2025-04-15",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2025-04-15",
+     "when": "April 2025",
+     "text": "In April 2025, Equity Mates discussed Australian Finance Group’s positioning, joking about its website showing sticky notes on a glass wall, and a guest on Equity Mates said it was not the most innovative or agile company.",
+     "episode": {
+      "title": "Buy or Sell: Nick Guidera - DroneShield, Temple & Webster, Nuix & more",
+      "url": "https://equitymates.com/episode/buy-or-sell-nick-guidera-droneshield-temple-webster-nuix-more/",
+      "jump": "https://www.youtube.com/watch?v=DYj_3OGxN7I&t=548s",
+      "at": "9:08"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": []
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

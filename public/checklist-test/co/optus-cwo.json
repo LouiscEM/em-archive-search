@@ -1,0 +1,125 @@
+{
+ "slug": "optus-cwo",
+ "name": "Optus",
+ "full": "Optus",
+ "listings": [
+  "ASX: CWO"
+ ],
+ "built": "2026-10-30",
+ "episodes": 5,
+ "mentioned_in": 16,
+ "latest": "2024-06-20",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2024-06-20",
+     "when": "June 2024",
+     "text": "In June 2024, Equity Mates noted that Australians now used services like Optus Sport, Kayo and Stan Sport to get the sports they once watched on free-to-air, highlighting Optus’ role in paid sports streaming.",
+     "episode": {
+      "title": "Catapult: Dominating sports analytics - how big can it get? | Company deep dive",
+      "url": "https://equitymates.com/episode/catapult-dominating-sports-analytics-how-big-can-it-get-company-deep-dive/",
+      "jump": "https://www.youtube.com/watch?v=_SLWpiNVv0A&t=1689s",
+      "at": "28:09"
+     }
+    },
+    {
+     "date": "2023-07-21",
+     "when": "July 2023",
+     "text": "In July 2023, Equity Mates explained Optus bought all 64 Women's World Cup matches for $13 million, then on-sold 15 to free-to-air, showing Optus Sport’s push into premium sports content.",
+     "episode": {
+      "title": "The numbers behind the Women’s World Cup ⚽",
+      "url": "https://equitymates.com/episode/the-numbers-behind-the-womens-world-cup-%e2%9a%bd/",
+      "jump": null,
+      "at": "5:03"
+     }
+    },
+    {
+     "date": "2021-10-14",
+     "when": "October 2021",
+     "text": "In October 2021, Equity Mates interviewed Optus' CEO, who described Optus as a telco delivering voice, data and fixed home internet, and as an enabler of the digital economy because connectivity had become essential to daily life.",
+     "episode": {
+      "title": "CEO: Kelly Bayer Rosmarin - Is 5G All It's Cracked Up To Be? | Optus",
+      "url": "https://equitymates.com/episode/ceo-kelly-bayer-rosmarin-is-5g-all-its-cracked-up-to-be-optus/",
+      "jump": null,
+      "at": "0:51"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2022-12-21",
+     "when": "December 2022",
+     "text": "In December 2022, Equity Mates covered the Optus data breach, where data of up to 9.8 million Australians was stolen, raising significant concerns about cybersecurity and governance for the company.",
+     "episode": {
+      "title": "The 6 biggest business stories of the year",
+      "url": "https://equitymates.com/episode/the-6-biggest-business-stories-of-the-year/",
+      "jump": null,
+      "at": "12:10"
+     }
+    },
+    {
+     "date": "2022-11-08",
+     "when": "November 2022",
+     "text": "In November 2022, Equity Mates reported reputational damage risks after the cyber attack, citing research that 56 percent of Optus customers considered switching and 10 percent had already changed providers.",
+     "episode": {
+      "title": "Cybersecurity is a hot topic, but is it a good investment?",
+      "url": "https://equitymates.com/episode/cybersecurity-is-a-hot-topic-but-is-it-a-good-investment/",
+      "jump": null,
+      "at": "14:46"
+     }
+    },
+    {
+     "date": "2021-10-14",
+     "when": "October 2021",
+     "text": "In October 2021, Equity Mates heard that with only three operators in a continent-sized market and historic dominance by the largest player, telcos like Optus competed hard for customers to recoup heavy network investment.",
+     "episode": {
+      "title": "CEO: Kelly Bayer Rosmarin - Is 5G All It's Cracked Up To Be? | Optus",
+      "url": "https://equitymates.com/episode/ceo-kelly-bayer-rosmarin-is-5g-all-its-cracked-up-to-be-optus/",
+      "jump": null,
+      "at": "26:21"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2023-07-21",
+     "when": "July 2023",
+     "text": "In July 2023, Equity Mates said Optus allocated $13 million to acquire Women’s World Cup broadcast rights and licensed 15 games to free-to-air, indicating investment in building Optus Sport’s content slate.",
+     "episode": {
+      "title": "The numbers behind the Women’s World Cup ⚽",
+      "url": "https://equitymates.com/episode/the-numbers-behind-the-womens-world-cup-%e2%9a%bd/",
+      "jump": null,
+      "at": "5:03"
+     }
+    },
+    {
+     "date": "2021-10-14",
+     "when": "October 2021",
+     "text": "In October 2021, Equity Mates noted the extremely high investment required to build Australian connectivity, implying ongoing capital spending by operators like Optus to expand and maintain networks.",
+     "episode": {
+      "title": "CEO: Kelly Bayer Rosmarin - Is 5G All It's Cracked Up To Be? | Optus",
+      "url": "https://equitymates.com/episode/ceo-kelly-bayer-rosmarin-is-5g-all-its-cracked-up-to-be-optus/",
+      "jump": null,
+      "at": "26:21"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

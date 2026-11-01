@@ -1,0 +1,46 @@
+{
+ "slug": "insignia-financial-ifl",
+ "name": "Insignia Financial",
+ "full": "Insignia Financial",
+ "listings": [
+  "ASX: IFL"
+ ],
+ "built": "2026-11-01",
+ "episodes": 1,
+ "mentioned_in": 1,
+ "latest": "2025-02-11",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": []
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": []
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2025-02-11",
+     "when": "February 2025",
+     "text": "In February 2025, a guest on Equity Mates discussed Insignia being in a takeover situation with about three parties bidding, likening it to an auction where competition can push the price up. It noted the risk that takeovers sometimes fall through; shares traded at $4.60.",
+     "episode": {
+      "title": "Buy or Sell: Adam Dawes - Xero, Pilbara Minerals, Resmed & more",
+      "url": "https://equitymates.com/episode/buy-or-sell-adam-dawes-xero-pilbara-minerals-resmed-more/",
+      "jump": "https://www.youtube.com/watch?v=00cff-6eb1M&t=249s",
+      "at": "4:09"
+     }
+    }
+   ]
+  }
+ ]
+}

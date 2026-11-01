@@ -1,0 +1,114 @@
+{
+ "slug": "monday-com-mndy",
+ "name": "Monday.com",
+ "full": "Monday.com Ltd",
+ "listings": [
+  "NASDAQ: MNDY"
+ ],
+ "built": "2026-11-01",
+ "episodes": 5,
+ "mentioned_in": 5,
+ "latest": "2026-05-22",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2025-11-24",
+     "when": "November 2025",
+     "text": "In November 2025, Equity Mates described monday.com as a workflow management platform and noted its heavy marketing presence, suggesting the product had broad visibility.",
+     "episode": {
+      "title": "Nvidia's wild swings & 11 experts pitched their best ideas for 2026, we review them",
+      "url": "https://equitymates.com/episode/nvidia-swings-big-the-hearts-minds-conference-delivers-and-we-draft-portfolio-picks/",
+      "jump": "https://www.youtube.com/watch?v=MBDUJS2VNsM&t=1340s",
+      "at": "22:20"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2026-05-22",
+     "when": "May 2026",
+     "text": "In May 2026, Equity Mates said monday.com, viewed as a prime AI disruption candidate, beat estimates, and discussed inertia and switching costs that make firms slow to replace integrated software.",
+     "episode": {
+      "title": "Why private equity investors aren’t panicking about AI",
+      "url": "https://equitymates.com/episode/why-private-equity-investors-arent-panicking-about-ai/",
+      "jump": "https://www.youtube.com/watch?v=jOf4MXfq5I4&t=543s",
+      "at": "9:03"
+     }
+    },
+    {
+     "date": "2026-05-19",
+     "when": "May 2026",
+     "text": "In May 2026, a guest on Equity Mates argued monday.com was vulnerable to AI replication, citing someone quickly coding up monday.com and calling it a one product suite, implying weaker defensibility.",
+     "episode": {
+      "title": "How AI improves the investing process with Arms Rosenberg",
+      "url": "https://equitymates.com/episode/how-ai-improves-the-investing-process-with-arms-rosenberg/",
+      "jump": "https://www.youtube.com/watch?v=bQnZb__UAGw&t=1808s",
+      "at": "30:08"
+     }
+    },
+    {
+     "date": "2026-03-10",
+     "when": "March 2026",
+     "text": "In March 2026, Equity Mates highlighted trust and brand in enterprise software, saying companies prefer accountable vendors like monday.com, while DIY AI alternatives increase competition and curb price rises rather than prompt wholesale rip-outs.",
+     "episode": {
+      "title": "War in Iran, AI Disruption & the Software Selloff: Where Todd Hoare sees Opportunity",
+      "url": "https://equitymates.com/episode/war-in-iran-ai-disruption-the-software-selloff-where-todd-hoare-sees-opportunity/",
+      "jump": "https://www.youtube.com/watch?v=NLcxpQw1TGg&t=1197s",
+      "at": "19:57"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2026-05-19",
+     "when": "May 2026",
+     "text": "In May 2026, a guest on Equity Mates said multiples were high and reported being short monday.com, making about 40% in a month as the stock derated and sold off.",
+     "episode": {
+      "title": "How AI improves the investing process with Arms Rosenberg",
+      "url": "https://equitymates.com/episode/how-ai-improves-the-investing-process-with-arms-rosenberg/",
+      "jump": "https://www.youtube.com/watch?v=bQnZb__UAGw&t=1568s",
+      "at": "26:08"
+     }
+    },
+    {
+     "date": "2026-01-26",
+     "when": "January 2026",
+     "text": "In January 2026, Equity Mates reported monday.com was down 49% over 12 months in a broader SaaS selloff, with markets fearing AI could let customers build similar tools internally.",
+     "episode": {
+      "title": "Bryce reveals 500 to 5k results, China's warning signs and are software companies on sale?",
+      "url": "https://equitymates.com/episode/bryce-reveals-500-to-5k-results-chinas-warning-signs-and-are-software-companies-on-sale/",
+      "jump": "https://www.youtube.com/watch?v=oh4zH9bZklA&t=1148s",
+      "at": "19:08"
+     }
+    },
+    {
+     "date": "2025-11-24",
+     "when": "November 2025",
+     "text": "In November 2025, Equity Mates cited monday.com’s Rule of 40 at 57 last year and above 60 for five years, while noting it looked highly valued and was down 40% in the past 12 months.",
+     "episode": {
+      "title": "Nvidia's wild swings & 11 experts pitched their best ideas for 2026, we review them",
+      "url": "https://equitymates.com/episode/nvidia-swings-big-the-hearts-minds-conference-delivers-and-we-draft-portfolio-picks/",
+      "jump": "https://www.youtube.com/watch?v=MBDUJS2VNsM&t=1413s",
+      "at": "23:33"
+     }
+    }
+   ]
+  }
+ ]
+}

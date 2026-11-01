@@ -1,0 +1,82 @@
+{
+ "slug": "lgi-lgi",
+ "name": "LGI",
+ "full": "LGI Limited",
+ "listings": [
+  "ASX: LGI"
+ ],
+ "built": "2026-11-01",
+ "episodes": 1,
+ "mentioned_in": 1,
+ "latest": "2023-10-02",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2023-10-02",
+     "when": "October 2023",
+     "text": "In October 2023, Equity Mates explained that LGI captured landfill biogas and either flared it with ERF-compliant flares or converted it to renewable power, using batteries and offtake agreements to monetise energy, and noted it operated 26 sites, including 8 biogas-to-power and 17 flaring.",
+     "episode": {
+      "title": "Finding investing ideas in the news, what next for inflation & 3 new companies we're watching",
+      "url": "https://equitymates.com/episode/finding-investing-ideas-in-the-news-what-next-for-inflation-3-new-companies-were-watching/",
+      "jump": null,
+      "at": "33:55"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2023-10-02",
+     "when": "October 2023",
+     "text": "In October 2023, Equity Mates said LGI saw a runway with about 1,100 operational landfills in Australia and a little over 200 suitable for its solutions, and highlighted FY23 revenue up 27% to 30 million and profit up 35% to six and a half million as evidence of momentum.",
+     "episode": {
+      "title": "Finding investing ideas in the news, what next for inflation & 3 new companies we're watching",
+      "url": "https://equitymates.com/episode/finding-investing-ideas-in-the-news-what-next-for-inflation-3-new-companies-were-watching/",
+      "jump": null,
+      "at": "35:48"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2023-10-02",
+     "when": "October 2023",
+     "text": "In October 2023, Equity Mates discussed how landfill operators would weigh capital and operating costs against expected returns when adopting LGI’s systems, framing LGI’s growth as monetising gas that was not previously monetised across more suitable sites.",
+     "episode": {
+      "title": "Finding investing ideas in the news, what next for inflation & 3 new companies we're watching",
+      "url": "https://equitymates.com/episode/finding-investing-ideas-in-the-news-what-next-for-inflation-3-new-companies-were-watching/",
+      "jump": null,
+      "at": "35:48"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2023-10-02",
+     "when": "October 2023",
+     "text": "In October 2023, Equity Mates noted LGI’s roughly 200 million market cap while discussing FY23 results and growth in multiple revenue lines, including energy generation up 42% and revenue from large-scale generation certificates up 14%.",
+     "episode": {
+      "title": "Finding investing ideas in the news, what next for inflation & 3 new companies we're watching",
+      "url": "https://equitymates.com/episode/finding-investing-ideas-in-the-news-what-next-for-inflation-3-new-companies-were-watching/",
+      "jump": null,
+      "at": "35:48"
+     }
+    }
+   ]
+  }
+ ]
+}

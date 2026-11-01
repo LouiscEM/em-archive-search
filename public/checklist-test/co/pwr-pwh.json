@@ -1,0 +1,81 @@
+{
+ "slug": "pwr-pwh",
+ "name": "PWR",
+ "full": "PWR Holdings",
+ "listings": [
+  "ASX: PWH"
+ ],
+ "built": "2026-11-01",
+ "episodes": 2,
+ "mentioned_in": 7,
+ "latest": "2026-05-11",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2026-05-11",
+     "when": "May 2026",
+     "text": "In May 2026, Equity Mates described PWR as an ASX-listed manufacturer of intercoolers and radiators for automotive and defence, with plants in Queensland, Indianapolis and the UK, and said its long track record supplying Formula One teams and hypercar OEMs showed product quality and credibility.",
+     "episode": {
+      "title": "Apple’s battle with CBA, why even God can’t beat DCA & a community stock pick",
+      "url": "https://equitymates.com/episode/apples-battle-with-cba-why-even-god-cant-beat-dca-a-community-stock-pick/",
+      "jump": "https://www.youtube.com/watch?v=YJfHE1HyUF4&t=906s",
+      "at": "15:06"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2026-05-11",
+     "when": "May 2026",
+     "text": "In May 2026, a guest on Equity Mates said Formula One regulations were lifting spending on hybrid cooling, creating tailwinds, while the cost cap kept increasing each year, implying ongoing demand for PWR’s specialised solutions despite uncertainty about how rules may evolve.",
+     "episode": {
+      "title": "Apple’s battle with CBA, why even God can’t beat DCA & a community stock pick",
+      "url": "https://equitymates.com/episode/apples-battle-with-cba-why-even-god-cant-beat-dca-a-community-stock-pick/",
+      "jump": "https://www.youtube.com/watch?v=YJfHE1HyUF4&t=1117s",
+      "at": "18:37"
+     }
+    },
+    {
+     "date": "2023-11-23",
+     "when": "November 2023",
+     "text": "In November 2023, Equity Mates noted founder-led succession was a risk and said it applied to PWR, with bench strength and leadership continuity important to sustaining performance over time.",
+     "episode": {
+      "title": "Expert: Emma Fisher - Mineral Resources, PWR Holdings & Investor Psychology | Airlie Funds Management",
+      "url": "https://equitymates.com/episode/expert-emma-fisher-mineral-resources-pwr-holdings-investor-psychology-airlie-funds-management/",
+      "jump": "https://www.youtube.com/watch?v=ikhnala5e3Q&t=3051s",
+      "at": "50:51"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2026-05-11",
+     "when": "May 2026",
+     "text": "In May 2026, Equity Mates said PWR looked expensive on valuation but had momentum, and also noted it was entrenched with defence work, including BAE Systems drones in Australia using PWR cooling technology.",
+     "episode": {
+      "title": "Apple’s battle with CBA, why even God can’t beat DCA & a community stock pick",
+      "url": "https://equitymates.com/episode/apples-battle-with-cba-why-even-god-cant-beat-dca-a-community-stock-pick/",
+      "jump": "https://www.youtube.com/watch?v=YJfHE1HyUF4&t=1128s",
+      "at": "18:48"
+     }
+    }
+   ]
+  }
+ ]
+}

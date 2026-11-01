@@ -1,0 +1,70 @@
+{
+ "slug": "aroa-biosurgery-arx",
+ "name": "Aroa Biosurgery",
+ "full": "Aroa Biosurgery",
+ "listings": [
+  "ASX: ARX"
+ ],
+ "built": "2026-11-01",
+ "episodes": 1,
+ "mentioned_in": 1,
+ "latest": "2021-12-02",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2021-12-02",
+     "when": "December 2021",
+     "text": "In December 2021, a guest on Equity Mates described Aroa Biosurgery’s wound care scaffolds made from sheep stomach as enabling skin cells and blood vessels to grow into the scaffold, closing wounds faster than traditional products with fewer recurrences.",
+     "episode": {
+      "title": "Expert: Eleanor Swanson - Small caps, big returns",
+      "url": "https://equitymates.com/episode/expert-eleanor-swanson-small-caps-big-returns/",
+      "jump": "https://www.youtube.com/watch?v=uMyk_zFtEi4&t=2163s",
+      "at": "36:03"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2021-12-02",
+     "when": "December 2021",
+     "text": "In December 2021, a guest on Equity Mates said a US competitor was in a weakened position and that Aroa had used a Nasdaq listed sales force but was building its own, indicating potential to penetrate its addressable market.",
+     "episode": {
+      "title": "Expert: Eleanor Swanson - Small caps, big returns",
+      "url": "https://equitymates.com/episode/expert-eleanor-swanson-small-caps-big-returns/",
+      "jump": "https://www.youtube.com/watch?v=uMyk_zFtEi4&t=2163s",
+      "at": "36:03"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2021-12-02",
+     "when": "December 2021",
+     "text": "In December 2021, a guest on Equity Mates said Aroa had raised a lot of capital to build out its own sales force, aiming to accelerate market penetration for its wound care products.",
+     "episode": {
+      "title": "Expert: Eleanor Swanson - Small caps, big returns",
+      "url": "https://equitymates.com/episode/expert-eleanor-swanson-small-caps-big-returns/",
+      "jump": "https://www.youtube.com/watch?v=uMyk_zFtEi4&t=2163s",
+      "at": "36:03"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

@@ -1,0 +1,126 @@
+{
+ "slug": "volkswagen-vow3",
+ "name": "Volkswagen",
+ "full": "Volkswagen",
+ "listings": [
+  "FRA: VOW3"
+ ],
+ "built": "2026-10-30",
+ "episodes": 8,
+ "mentioned_in": 39,
+ "latest": "2025-08-04",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2023-02-06",
+     "when": "February 2023",
+     "text": "In February 2023, Equity Mates said Volkswagen had EV models among Europe’s top ten best sellers, indicating traction for its electric line-up in that market.",
+     "episode": {
+      "title": "Is 2023 the year to buy an electric vehicle?",
+      "url": "https://equitymates.com/episode/is-2023-the-year-to-buy-an-electric-vehicle/",
+      "jump": null,
+      "at": "12:55"
+     }
+    },
+    {
+     "date": "2021-07-25",
+     "when": "July 2021",
+     "text": "In July 2021, Equity Mates outlined Volkswagen’s product breadth, listing core VW alongside Audi, Skoda, Lamborghini, Porsche, Bentley, Bugatti and Ducati, and described it as the largest car manufacturer by production at the time.",
+     "episode": {
+      "title": "Country Deep Dive: Germany's export giants | DAX 30",
+      "url": "https://equitymates.com/episode/country-deep-dive-germanys-export-giants-dax-30/",
+      "jump": null,
+      "at": "19:37"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2025-08-04",
+     "when": "August 2025",
+     "text": "In August 2025, Equity Mates reported Volkswagen had already paid about $1.5 billion in tariffs in the first six months of the year, highlighting how tariffs on cars and inputs were squeezing automakers’ profitability.",
+     "episode": {
+      "title": "The good, bad & ugly of earnings season, Mr Beat-Up's biggest stock yet & Bryce tees off on LICs",
+      "url": "https://equitymates.com/episode/the-good-bad-ugly-of-earnings-season-mr-beat-ups-biggest-stock-yet-bryce-tees-off-on-lics/",
+      "jump": "https://www.youtube.com/watch?v=gDWoexXgpbQ&t=591s",
+      "at": "9:51"
+     }
+    },
+    {
+     "date": "2025-07-28",
+     "when": "July 2025",
+     "text": "In July 2025, Equity Mates framed Chinese EV makers as the biggest threat to legacy automakers like Volkswagen, with cheaper cars and added features increasing competitive pressure on incumbents’ margins.",
+     "episode": {
+      "title": "The Chinese EV boom, Pimp my Portfolio & X marks the stock: what's buzzing right now",
+      "url": "https://equitymates.com/episode/the-chinese-ev-boom-pimp-my-portfolio-x-marks-the-stock-whats-buzzing-right-now/",
+      "jump": "https://www.youtube.com/watch?v=mgxIZSt2Znk&t=546s",
+      "at": "9:06"
+     }
+    },
+    {
+     "date": "2025-01-23",
+     "when": "January 2025",
+     "text": "In January 2025, a guest on Equity Mates noted Volkswagen was shutting down its first plant in Europe and warned that automakers’ finance subsidiaries carry debt, underscoring risks to earnings in a challenging year.",
+     "episode": {
+      "title": "Expert: Andrew Brown - 14 Bold Predictions for 2025",
+      "url": "https://equitymates.com/episode/expert-andrew-brown-14-bold-predictions-for-2025/",
+      "jump": "https://www.youtube.com/watch?v=3GaBApfud9Y&t=2494s",
+      "at": "41:34"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2024-06-17",
+     "when": "June 2024",
+     "text": "In June 2024, Equity Mates explained that Volkswagen and other traditional automakers had poured big money into EV development, then eased the pace as demand softened, presenting it as timing the transition rather than abandoning it.",
+     "episode": {
+      "title": "Tesla: \"It's on a path\" to grow 300% by 2030 | Company deep dive",
+      "url": "https://equitymates.com/episode/tesla-its-on-a-path-to-grow-300-by-2030-company-deep-dive/",
+      "jump": "https://www.youtube.com/watch?v=dCWARcFGDgs&t=1237s",
+      "at": "20:37"
+     }
+    },
+    {
+     "date": "2021-08-16",
+     "when": "August 2021",
+     "text": "In August 2021, Equity Mates covered Volkswagen defending its Europcar acquisition as part of a long-term mobility strategy, linking it to leveraging aspirational brands and shared hardware and software platforms for scale.",
+     "episode": {
+      "title": "EU Reporting Season Wrap | Hearing from the CEOs of Europe's biggest companies",
+      "url": "https://equitymates.com/episode/eu-reporting-season-wrap-hearing-from-the-ceos-of-europes-biggest-companies/",
+      "jump": null,
+      "at": "32:42"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2022-12-19",
+     "when": "December 2022",
+     "text": "In December 2022, Equity Mates compared automaker valuations, citing Volkswagen around US$130 billion market cap at the time versus larger Toyota and far larger Tesla, to frame relative pricing in the sector.",
+     "episode": {
+      "title": "Bold predictions wrapped for 2023",
+      "url": "https://equitymates.com/episode/bold-predictions-wrapped-for-2023/",
+      "jump": "https://www.youtube.com/watch?v=X83UnQZxVkE&t=301s",
+      "at": "5:01"
+     }
+    }
+   ]
+  }
+ ]
+}

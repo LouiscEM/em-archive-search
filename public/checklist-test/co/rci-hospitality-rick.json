@@ -1,0 +1,93 @@
+{
+ "slug": "rci-hospitality-rick",
+ "name": "RCI Hospitality",
+ "full": "RCI Hospitality",
+ "listings": [
+  "NASDAQ: RICK"
+ ],
+ "built": "2026-11-01",
+ "episodes": 2,
+ "mentioned_in": 2,
+ "latest": "2024-03-04",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2024-03-04",
+     "when": "March 2024",
+     "text": "In March 2024, Equity Mates said RCI Hospitality was the largest adult entertainment operator in the US, owning many strip clubs, and also ran a Hooters‑esque Bombshells restaurant franchise it aimed to roll out across America.",
+     "episode": {
+      "title": "Pimp my Portfolio, two investor letters & what do UGG and Hoka have in common?",
+      "url": "https://equitymates.com/episode/pimp-my-portfolio-two-investor-letters-what-do-ugg-and-hoka-have-in-common/",
+      "jump": "https://www.youtube.com/watch?v=DieZEsmIvXU&t=1865s",
+      "at": "31:05"
+     }
+    },
+    {
+     "date": "2020-06-11",
+     "when": "June 2020",
+     "text": "In June 2020, a guest on Equity Mates explained RCI Hospitality owned about three dozen gentlemen’s clubs across the US and a smaller military‑themed sports bar concept called Bombshells.",
+     "episode": {
+      "title": "Expert Investor: Yaron Naymark - Deep Dive on an Unconventional Stock",
+      "url": "https://equitymates.com/episode/expert-investor-yaron-naymark-deep-dive-on-an-unconventional-stock/",
+      "jump": null,
+      "at": "22:22"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2024-03-04",
+     "when": "March 2024",
+     "text": "In March 2024, Equity Mates noted local governments were not granting new strip‑club licences, which made existing venues local monopolies and suggested durable competitive positions for RCI Hospitality’s clubs.",
+     "episode": {
+      "title": "Pimp my Portfolio, two investor letters & what do UGG and Hoka have in common?",
+      "url": "https://equitymates.com/episode/pimp-my-portfolio-two-investor-letters-what-do-ugg-and-hoka-have-in-common/",
+      "jump": "https://www.youtube.com/watch?v=DieZEsmIvXU&t=1865s",
+      "at": "31:05"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2024-03-04",
+     "when": "March 2024",
+     "text": "In March 2024, Equity Mates said management planned to expand the Bombshells restaurant franchise across America, indicating a growth focus alongside the core club operations.",
+     "episode": {
+      "title": "Pimp my Portfolio, two investor letters & what do UGG and Hoka have in common?",
+      "url": "https://equitymates.com/episode/pimp-my-portfolio-two-investor-letters-what-do-ugg-and-hoka-have-in-common/",
+      "jump": "https://www.youtube.com/watch?v=DieZEsmIvXU&t=1865s",
+      "at": "31:05"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2020-06-11",
+     "when": "June 2020",
+     "text": "In June 2020, a guest on Equity Mates said the stock sold at a cheap valuation, trading at a very low multiple of maintenance free cash flow, which was described as about US$35 million.",
+     "episode": {
+      "title": "Expert Investor: Yaron Naymark - Deep Dive on an Unconventional Stock",
+      "url": "https://equitymates.com/episode/expert-investor-yaron-naymark-deep-dive-on-an-unconventional-stock/",
+      "jump": null,
+      "at": "22:22"
+     }
+    }
+   ]
+  }
+ ]
+}

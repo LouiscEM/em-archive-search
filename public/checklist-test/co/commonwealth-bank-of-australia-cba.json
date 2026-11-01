@@ -1,0 +1,137 @@
+{
+ "slug": "commonwealth-bank-of-australia-cba",
+ "name": "Commonwealth Bank of Australia",
+ "full": "Commonwealth Bank of Australia",
+ "listings": [
+  "ASX: CBA"
+ ],
+ "built": "2026-10-30",
+ "episodes": 7,
+ "mentioned_in": 165,
+ "latest": "2026-08-17",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2026-05-11",
+     "when": "May 2026",
+     "text": "In May 2026, Equity Mates covered Apple accusing Commonwealth Bank of spearheading a self-serving push to stifle competition in digital wallets, pointing to Commonwealth Bank’s Android wallet that locks out other banks, while the banking association backed Commonwealth Bank.",
+     "episode": {
+      "title": "Apple’s battle with CBA, why even God can’t beat DCA & a community stock pick",
+      "url": "https://equitymates.com/episode/apples-battle-with-cba-why-even-god-cant-beat-dca-a-community-stock-pick/",
+      "jump": "https://www.youtube.com/watch?v=YJfHE1HyUF4&t=113s",
+      "at": "1:53"
+     }
+    },
+    {
+     "date": "2022-09-13",
+     "when": "September 2022",
+     "text": "In September 2022, Equity Mates criticised Commonwealth Bank’s app for limited spend categorisation, noting it lacked subcategories and an investing category, which made tracking expenses like subscriptions and Uber Eats difficult.",
+     "episode": {
+      "title": "How we track our spending and know how much we can invest",
+      "url": "https://equitymates.com/episode/the-lesson-how-we-track-our-spending-and-know-how-much-we-can-invest/",
+      "jump": null,
+      "at": "3:37"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2026-08-17",
+     "when": "August 2026",
+     "text": "In August 2026, Equity Mates highlighted slowing housing demand at Commonwealth Bank, with investor home loan applications down 28% and owner-occupier applications down 9%, signalling pressure on a key profit driver.",
+     "episode": {
+      "title": "Banks flag a housing slowdown, AI won’t pick your stocks & Ren’s portfolio reviewed",
+      "url": "https://equitymates.com/episode/banks-flag-a-housing-slowdown-ai-wont-pick-your-stocks-rens-portfolio-reviewed/",
+      "jump": "https://www.youtube.com/watch?v=OE5hJWsiAx0&t=214s",
+      "at": "3:34"
+     }
+    },
+    {
+     "date": "2025-02-24",
+     "when": "February 2025",
+     "text": "In February 2025, Equity Mates noted Commonwealth Bank defied sector weakness with net profit up 6%, cash earnings up 2% and a 5% dividend increase, pointing to the benefits of scale.",
+     "episode": {
+      "title": "Bad news for banks & miners, where did all the dividends go & stocks with freebies",
+      "url": "https://equitymates.com/episode/bad-news-for-banks-miners-where-did-all-the-dividends-go-stocks-with-freebies/",
+      "jump": "https://www.youtube.com/watch?v=hkGW5JdchqY&t=490s",
+      "at": "8:10"
+     }
+    },
+    {
+     "date": "2024-05-21",
+     "when": "May 2024",
+     "text": "In May 2024, a guest on Equity Mates said Commonwealth Bank consistently generated the highest net interest return on assets, strong other income and the highest pre and post tax return on assets among Australian banks, while also being the most efficient despite its large asset base.",
+     "episode": {
+      "title": "Buy or Sell: Roger Montgomery  - Nick Scali, Megaport, NovoNordisk & more",
+      "url": "https://equitymates.com/episode/buy-or-sell-roger-montgomery-nick-scali-megaport-novonordisk-more/",
+      "jump": "https://www.youtube.com/watch?v=LnccOVbozX8&t=794s",
+      "at": "13:14"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2025-02-24",
+     "when": "February 2025",
+     "text": "In February 2025, Equity Mates said Commonwealth Bank lifted its dividend 5% as net profit rose 6% and cash earnings 2%, indicating a choice to return more cash to shareholders.",
+     "episode": {
+      "title": "Bad news for banks & miners, where did all the dividends go & stocks with freebies",
+      "url": "https://equitymates.com/episode/bad-news-for-banks-miners-where-did-all-the-dividends-go-stocks-with-freebies/",
+      "jump": "https://www.youtube.com/watch?v=hkGW5JdchqY&t=490s",
+      "at": "8:10"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2025-05-06",
+     "when": "May 2025",
+     "text": "In May 2025, a guest on Equity Mates described Commonwealth Bank as a high quality, dominant bank but argued the then $165.59 share price made future returns unlikely to meet their standards.",
+     "episode": {
+      "title": "Buy or Sell: William Mumford - Resmed, Commonwealth Bank, BHP & more",
+      "url": "https://equitymates.com/episode/buy-or-sell-william-mumford-resmed-commonwealth-bank-bhp-more/",
+      "jump": null,
+      "at": "12:25"
+     }
+    },
+    {
+     "date": "2025-03-10",
+     "when": "March 2025",
+     "text": "In March 2025, Equity Mates contrasted Alphabet at 20 times earnings as cheaper than Commonwealth Bank, underlining CBA’s higher multiple.",
+     "episode": {
+      "title": "10 stocks that have us excited, Pimp my Portfolio with Adam Dawes & Aussie economy turnaround",
+      "url": "https://equitymates.com/episode/10-stocks-that-have-us-excited-pimp-my-portfolio-with-adam-dawes-aussie-economy-turnaround/",
+      "jump": "https://www.youtube.com/watch?v=bFGzna8rrJw&t=1525s",
+      "at": "25:25"
+     }
+    },
+    {
+     "date": "2025-02-24",
+     "when": "February 2025",
+     "text": "In February 2025, Equity Mates said Commonwealth Bank was, on some metrics, the most expensive bank in the world, with investors paying more per dollar of earnings for CBA than for JP Morgan.",
+     "episode": {
+      "title": "Bad news for banks & miners, where did all the dividends go & stocks with freebies",
+      "url": "https://equitymates.com/episode/bad-news-for-banks-miners-where-did-all-the-dividends-go-stocks-with-freebies/",
+      "jump": "https://www.youtube.com/watch?v=hkGW5JdchqY&t=402s",
+      "at": "6:42"
+     }
+    }
+   ]
+  }
+ ]
+}

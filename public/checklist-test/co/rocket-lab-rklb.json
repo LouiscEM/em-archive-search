@@ -1,0 +1,115 @@
+{
+ "slug": "rocket-lab-rklb",
+ "name": "Rocket Lab",
+ "full": "Rocket Lab",
+ "listings": [
+  "NASDAQ: RKLB"
+ ],
+ "built": "2026-10-30",
+ "episodes": 3,
+ "mentioned_in": 8,
+ "latest": "2026-05-15",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2026-05-15",
+     "when": "May 2026",
+     "text": "In May 2026, a guest on Equity Mates noted Rocket Lab also manufactured its own satellites, describing companies becoming vertically integrated across the space value chain.",
+     "episode": {
+      "title": "The $1.8 Trillion Space Opportunity with Hugh Lam",
+      "url": "https://equitymates.com/episode/the-1-8-trillion-space-opportunity-with-hugh-lam/",
+      "jump": null,
+      "at": "13:27"
+     }
+    },
+    {
+     "date": "2026-04-09",
+     "when": "April 2026",
+     "text": "In April 2026, Equity Mates described Rocket Lab evolving from launches into a broader space systems and defence business, citing about $600 million of 2025 revenue and a $1.85 billion contract backlog as evidence of traction.",
+     "episode": {
+      "title": "Property prices under pressure, 3 stocks buzzing on X & a “no-brainer” Community Portfolio pitch",
+      "url": "https://equitymates.com/episode/property-prices-under-pressure-3-stocks-buzzing-on-x-a-no-brainer-community-portfolio-pitch/",
+      "jump": "https://www.youtube.com/watch?v=z2NVa2iVr7M&t=1253s",
+      "at": "20:53"
+     }
+    },
+    {
+     "date": "2026-02-23",
+     "when": "February 2026",
+     "text": "In February 2026, Equity Mates explained Rocket Lab manufactured and launched small rockets to send satellites into orbit for governments and private companies.",
+     "episode": {
+      "title": "Beer tax beats Big Oil, a bold small cap for the Community Portfolio & the $880 billion space economy",
+      "url": "https://equitymates.com/episode/beer-tax-a-bold-small-cap-for-the-community-portfolio-the-880-billion-space-economy/",
+      "jump": null,
+      "at": "23:34"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2026-05-15",
+     "when": "May 2026",
+     "text": "In May 2026, a guest on Equity Mates said most space firms were unprofitable and focused on unit economics; Rocket Lab’s revenues grew 40% year over year, but operating costs needed to fall and margins and earnings needed to increase.",
+     "episode": {
+      "title": "The $1.8 Trillion Space Opportunity with Hugh Lam",
+      "url": "https://equitymates.com/episode/the-1-8-trillion-space-opportunity-with-hugh-lam/",
+      "jump": null,
+      "at": "28:30"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2026-05-15",
+     "when": "May 2026",
+     "text": "In May 2026, a guest on Equity Mates said Rocket Lab’s move to manufacture satellites as well as launch them reflected a strategic push to vertical integration within the industry.",
+     "episode": {
+      "title": "The $1.8 Trillion Space Opportunity with Hugh Lam",
+      "url": "https://equitymates.com/episode/the-1-8-trillion-space-opportunity-with-hugh-lam/",
+      "jump": null,
+      "at": "13:27"
+     }
+    },
+    {
+     "date": "2026-04-09",
+     "when": "April 2026",
+     "text": "In April 2026, Equity Mates highlighted Rocket Lab’s founder cut salary to $1 to redirect it to R&D, presenting it as prioritising reinvestment while revenues scaled and backlog built.",
+     "episode": {
+      "title": "Property prices under pressure, 3 stocks buzzing on X & a “no-brainer” Community Portfolio pitch",
+      "url": "https://equitymates.com/episode/property-prices-under-pressure-3-stocks-buzzing-on-x-a-no-brainer-community-portfolio-pitch/",
+      "jump": "https://www.youtube.com/watch?v=z2NVa2iVr7M&t=1253s",
+      "at": "20:53"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2026-04-09",
+     "when": "April 2026",
+     "text": "In April 2026, Equity Mates said a lot was already priced into Rocket Lab’s share price, and launches, the backlog and space systems revenue would need to keep compounding to justify it.",
+     "episode": {
+      "title": "Property prices under pressure, 3 stocks buzzing on X & a “no-brainer” Community Portfolio pitch",
+      "url": "https://equitymates.com/episode/property-prices-under-pressure-3-stocks-buzzing-on-x-a-no-brainer-community-portfolio-pitch/",
+      "jump": "https://www.youtube.com/watch?v=z2NVa2iVr7M&t=1415s",
+      "at": "23:35"
+     }
+    }
+   ]
+  }
+ ]
+}

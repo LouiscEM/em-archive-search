@@ -1,0 +1,69 @@
+{
+ "slug": "brisbane-broncos-bbl",
+ "name": "Brisbane Broncos",
+ "full": "Brisbane Broncos",
+ "listings": [
+  "ASX: BBL"
+ ],
+ "built": "2026-10-30",
+ "episodes": 3,
+ "mentioned_in": 11,
+ "latest": "2023-09-18",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": []
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2022-11-28",
+     "when": "November 2022",
+     "text": "In November 2022, Equity Mates said Brisbane Broncos’ financials looked steady like Manchester United’s, with revenue barely changing year to year at about $38 million, highlighting how club revenues often showed limited growth.",
+     "episode": {
+      "title": "12 stocks for the next 12 months",
+      "url": "https://equitymates.com/episode/12-stocks-for-the-next-12-months/",
+      "jump": "https://www.youtube.com/watch?v=f7myeVH9q3Y&t=2674s",
+      "at": "44:34"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2023-09-18",
+     "when": "September 2023",
+     "text": "In September 2023, Equity Mates noted Brisbane Broncos, listed as ASX BBL, had almost doubled its share price over five years, using it as an example of a listed sports team that delivered solid share price gains.",
+     "episode": {
+      "title": "Ren talks Resmed + GQG Partners, UFC and WWE are merging, & trying to perfect DCA investing",
+      "url": "https://equitymates.com/episode/ren-talks-resmed-gqg-partners-ufc-and-wwe-are-merging-trying-to-perfect-dca-investing/",
+      "jump": null,
+      "at": "21:44"
+     }
+    },
+    {
+     "date": "2023-06-30",
+     "when": "June 2023",
+     "text": "In June 2023, Equity Mates reported News Corp owned about 70 percent of Brisbane Broncos and said the club’s share market performance had not been a standout, though it had been acceptable.",
+     "episode": {
+      "title": "News Corp (NWS) deep dive w/ Will Granger | Airlie Funds",
+      "url": "https://equitymates.com/episode/news-corp-nws-deep-dive-w-will-granger-airlie-funds/",
+      "jump": null,
+      "at": "13:51"
+     }
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,69 @@
+{
+ "slug": "jumbo-interactive-jin",
+ "name": "Jumbo Interactive",
+ "full": "Jumbo Interactive",
+ "listings": [
+  "ASX: JIN"
+ ],
+ "built": "2026-11-01",
+ "episodes": 2,
+ "mentioned_in": 3,
+ "latest": "2024-03-19",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2024-03-19",
+     "when": "March 2024",
+     "text": "In March 2024, Equity Mates said Jumbo Interactive earned most revenue from reselling lottery tickets and also sold software that enabled other companies to run lotteries.",
+     "episode": {
+      "title": "Buy or Sell: Adam Keily with Andrew Page",
+      "url": "https://equitymates.com/episode/buy-or-sell-adam-keily-with-andrew-page/",
+      "jump": "https://www.youtube.com/watch?v=70FUUh7Nf24&t=1326s",
+      "at": "22:06"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2024-03-19",
+     "when": "March 2024",
+     "text": "In March 2024, Equity Mates described Jumbo Interactive as focused on lotteries and added it provided software to other operators, suggesting diversified revenue beyond ticket resale.",
+     "episode": {
+      "title": "Buy or Sell: Adam Keily with Andrew Page",
+      "url": "https://equitymates.com/episode/buy-or-sell-adam-keily-with-andrew-page/",
+      "jump": "https://www.youtube.com/watch?v=70FUUh7Nf24&t=1326s",
+      "at": "22:06"
+     }
+    },
+    {
+     "date": "2023-11-07",
+     "when": "November 2023",
+     "text": "In November 2023, Equity Mates noted a 10-year contract with its lottery counterparty, with about seven years left, reducing near-term risk, and said lottery demand had not been eroded by online sports betting.",
+     "episode": {
+      "title": "Buy or Sell: 10 stocks with Adam Keily & Andrew Page",
+      "url": "https://equitymates.com/episode/buy-or-sell-10-stocks-with-adam-keily-andrew-page/",
+      "jump": "https://www.youtube.com/watch?v=LqDONP_2IdE&t=1511s",
+      "at": "25:11"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

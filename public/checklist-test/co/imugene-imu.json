@@ -1,0 +1,58 @@
+{
+ "slug": "imugene-imu",
+ "name": "Imugene",
+ "full": "Imugene",
+ "listings": [
+  "ASX: IMU"
+ ],
+ "built": "2026-11-01",
+ "episodes": 1,
+ "mentioned_in": 1,
+ "latest": "2022-03-31",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2022-03-31",
+     "when": "March 2022",
+     "text": "In March 2022, Equity Mates described Imugene as an ASX-listed biotechnology company aiming to change the paradigm of cancer treatment, emphasising its focus on oncology therapies.",
+     "episode": {
+      "title": "Changing the lives of cancer patients - Dr Leslie Chong of Imugene | ASX CEO Connect Series",
+      "url": "https://equitymates.com/episode/changing-the-lives-of-cancer-patients-dr-leslie-chong-of-imugene-asx-ceo-connect-series/",
+      "jump": "https://www.youtube.com/watch?v=30k6TmoUovk&t=89s",
+      "at": "1:29"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": []
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2022-03-31",
+     "when": "March 2022",
+     "text": "In March 2022, a guest on Equity Mates outlined hopes to either have Imugene acquired by big pharma or take a product to market, then move on to novel early-stage science, leaving marketing to others while focusing internally on new development.",
+     "episode": {
+      "title": "Changing the lives of cancer patients - Dr Leslie Chong of Imugene | ASX CEO Connect Series",
+      "url": "https://equitymates.com/episode/changing-the-lives-of-cancer-patients-dr-leslie-chong-of-imugene-asx-ceo-connect-series/",
+      "jump": "https://www.youtube.com/watch?v=30k6TmoUovk&t=1679s",
+      "at": "27:59"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

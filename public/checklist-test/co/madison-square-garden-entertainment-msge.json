@@ -1,0 +1,58 @@
+{
+ "slug": "madison-square-garden-entertainment-msge",
+ "name": "Madison Square Garden Entertainment",
+ "full": "Madison Square Garden Entertainment Corp",
+ "listings": [
+  "NYSE: MSGE"
+ ],
+ "built": "2026-11-01",
+ "episodes": 1,
+ "mentioned_in": 1,
+ "latest": "2026-06-22",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2026-06-22",
+     "when": "June 2026",
+     "text": "In June 2026, Equity Mates said tickets were very expensive and the secondary market was even higher, indicating strong demand for events at Madison Square Garden linked to Madison Square Garden Entertainment.",
+     "episode": {
+      "title": "What’s a Hydration Break Worth & Mr Beat Up Divides Bryce and Ren",
+      "url": "https://equitymates.com/episode/whats-a-hydration-break-worth-mr-beat-up-divides-bryce-and-ren/",
+      "jump": "https://www.youtube.com/watch?v=l_gHR_T2syU&t=330s",
+      "at": "5:30"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2026-06-22",
+     "when": "June 2026",
+     "text": "In June 2026, Equity Mates explained the actual stadium was owned by Madison Square Garden Entertainment Corp, not the Sports Corp, clarifying which entity controlled the venue economics relevant to profitability.",
+     "episode": {
+      "title": "What’s a Hydration Break Worth & Mr Beat Up Divides Bryce and Ren",
+      "url": "https://equitymates.com/episode/whats-a-hydration-break-worth-mr-beat-up-divides-bryce-and-ren/",
+      "jump": "https://www.youtube.com/watch?v=l_gHR_T2syU&t=330s",
+      "at": "5:30"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

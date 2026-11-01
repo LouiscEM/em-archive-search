@@ -1,0 +1,104 @@
+{
+ "slug": "arb-arb",
+ "name": "ARB",
+ "full": "ARB",
+ "listings": [
+  "ASX: ARB"
+ ],
+ "built": "2026-11-01",
+ "episodes": 3,
+ "mentioned_in": 4,
+ "latest": "2024-09-16",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2024-05-21",
+     "when": "May 2024",
+     "text": "In May 2024, a guest on Equity Mates explained ARB made four wheel drive parts and had built a reputation strong enough to secure OEM agreements with Toyota and Ford in the US, with accessories available through dealerships.",
+     "episode": {
+      "title": "Buy or Sell: Roger Montgomery  - Nick Scali, Megaport, NovoNordisk & more",
+      "url": "https://equitymates.com/episode/buy-or-sell-roger-montgomery-nick-scali-megaport-novonordisk-more/",
+      "jump": "https://www.youtube.com/watch?v=LnccOVbozX8&t=150s",
+      "at": "2:30"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2024-09-16",
+     "when": "September 2024",
+     "text": "In September 2024, Equity Mates noted ARB was pushing into the US by looking to buy Four Wheel Parts for $45 million, describing it as an Australian aftermarket 4WD specialist taking on the world.",
+     "episode": {
+      "title": "Rupert's real-life Succession, Ren's latest buy & should I consolidate my ETFs?",
+      "url": "https://equitymates.com/episode/ruperts-real-life-succession-rens-latest-buy-should-i-consolidate-my-etfs/",
+      "jump": "https://www.youtube.com/watch?v=S-ESJC0kGbM&t=712s",
+      "at": "11:52"
+     }
+    },
+    {
+     "date": "2024-05-21",
+     "when": "May 2024",
+     "text": "In May 2024, a guest on Equity Mates said Australia was mature and pro cyclical for ARB, but long-term growth would come from the US, helped by OEM deals with Toyota and Ford that embedded its products at purchase.",
+     "episode": {
+      "title": "Buy or Sell: Roger Montgomery  - Nick Scali, Megaport, NovoNordisk & more",
+      "url": "https://equitymates.com/episode/buy-or-sell-roger-montgomery-nick-scali-megaport-novonordisk-more/",
+      "jump": "https://www.youtube.com/watch?v=LnccOVbozX8&t=150s",
+      "at": "2:30"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2024-09-16",
+     "when": "September 2024",
+     "text": "In September 2024, Equity Mates said ARB was looking to buy US retailer Four Wheel Parts for $45 million to accelerate its US expansion, using acquisition to grow.",
+     "episode": {
+      "title": "Rupert's real-life Succession, Ren's latest buy & should I consolidate my ETFs?",
+      "url": "https://equitymates.com/episode/ruperts-real-life-succession-rens-latest-buy-should-i-consolidate-my-etfs/",
+      "jump": "https://www.youtube.com/watch?v=S-ESJC0kGbM&t=712s",
+      "at": "11:52"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2024-05-21",
+     "when": "May 2024",
+     "text": "In May 2024, a guest on Equity Mates said the market underestimated ARB's future growth because it saw the business as pro cyclical in Australia, creating scepticism in the valuation.",
+     "episode": {
+      "title": "Buy or Sell: Roger Montgomery  - Nick Scali, Megaport, NovoNordisk & more",
+      "url": "https://equitymates.com/episode/buy-or-sell-roger-montgomery-nick-scali-megaport-novonordisk-more/",
+      "jump": "https://www.youtube.com/watch?v=LnccOVbozX8&t=150s",
+      "at": "2:30"
+     }
+    },
+    {
+     "date": "2022-06-06",
+     "when": "June 2022",
+     "text": "In June 2022, a guest on Equity Mates grouped ARB among quality growth businesses that had fallen 35 percent, saying earlier pull forward demand would leave an air gap.",
+     "episode": {
+      "title": "Expert: Roger Montgomery - When the market busts, load up",
+      "url": "https://equitymates.com/episode/expert-roger-montgomery-when-the-market-busts-load-up/",
+      "jump": "https://www.youtube.com/watch?v=DjW82zqWU58&t=644s",
+      "at": "10:44"
+     }
+    }
+   ]
+  }
+ ]
+}

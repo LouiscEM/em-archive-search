@@ -1,0 +1,46 @@
+{
+ "slug": "vivendi-viv",
+ "name": "Vivendi",
+ "full": "Vivendi SE",
+ "listings": [
+  "EPA: VIV"
+ ],
+ "built": "2026-11-01",
+ "episodes": 1,
+ "mentioned_in": 2,
+ "latest": "2021-12-16",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": []
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": []
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2021-12-16",
+     "when": "December 2021",
+     "text": "In December 2021, Equity Mates said Universal Music Group was spun out of Vivendi and was a €46 billion company with 32% of music intellectual property, as streaming and platforms like Peloton and TikTok increased licensing demand.",
+     "episode": {
+      "title": "Expert: Andrew Brown - Wrap of 2021 and Review of Bold Predictions",
+      "url": "https://equitymates.com/episode/expert-andrew-brown-wrap-of-2021-and-review-of-bold-predictions/",
+      "jump": "https://www.youtube.com/watch?v=o5JKRFY_Ats&t=2796s",
+      "at": "46:36"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

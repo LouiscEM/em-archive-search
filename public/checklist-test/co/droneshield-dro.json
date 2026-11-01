@@ -1,0 +1,80 @@
+{
+ "slug": "droneshield-dro",
+ "name": "DroneShield",
+ "full": "DroneShield",
+ "listings": [
+  "ASX: DRO"
+ ],
+ "built": "2026-10-30",
+ "episodes": 3,
+ "mentioned_in": 15,
+ "latest": "2026-04-13",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": []
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2026-03-24",
+     "when": "March 2026",
+     "text": "In March 2026, an adviser on Equity Mates described DroneShield as having a thin patent portfolio and leaders without defence industry experience, indicating weaker defensibility and execution risk than peers.",
+     "episode": {
+      "title": "The Data Signals That Predict Winning (and Losing) Stocks with Dr. David Allen",
+      "url": "https://equitymates.com/episode/the-data-signals-that-predict-winning-and-losing-stocks-with-dr-david-allen/",
+      "jump": null,
+      "at": "32:36"
+     }
+    },
+    {
+     "date": "2025-10-14",
+     "when": "October 2025",
+     "text": "In October 2025, Equity Mates questioned whether DroneShield’s stream of contract wins would translate into sustainable earnings, saying clearer evidence of durability was needed.",
+     "episode": {
+      "title": "Avoid ‘Boomer Pandering’ with your investments - Luke Laretive",
+      "url": "https://equitymates.com/episode/avoid-boomer-pandering-with-your-investments-luke-laretive/",
+      "jump": "https://www.youtube.com/watch?v=peiaCwp_qu0&t=1653s",
+      "at": "27:33"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2026-04-13",
+     "when": "April 2026",
+     "text": "In April 2026, Equity Mates said the market had lost trust after the CEO stepped down and that the drone-warfare tailwind was already baked into the price, implying high expectations were already factored in.",
+     "episode": {
+      "title": "Wall Street’s secret agent, talking super with your parents & Buy or Sell is back",
+      "url": "https://equitymates.com/episode/wall-streets-secret-agent-talking-super-with-your-parents-buy-or-sell-is-back/",
+      "jump": "https://www.youtube.com/watch?v=ZtSAOHnQWtY&t=1342s",
+      "at": "22:22"
+     }
+    },
+    {
+     "date": "2026-03-24",
+     "when": "March 2026",
+     "text": "In March 2026, an adviser on Equity Mates likened DroneShield’s exciting narrative to other retail favourites and noted hot sentiment, suggesting optimism was already reflected in prices and complicating valuation-based trades.",
+     "episode": {
+      "title": "The Data Signals That Predict Winning (and Losing) Stocks with Dr. David Allen",
+      "url": "https://equitymates.com/episode/the-data-signals-that-predict-winning-and-losing-stocks-with-dr-david-allen/",
+      "jump": null,
+      "at": "40:14"
+     }
+    }
+   ]
+  }
+ ]
+}

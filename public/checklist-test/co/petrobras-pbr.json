@@ -1,0 +1,70 @@
+{
+ "slug": "petrobras-pbr",
+ "name": "Petrobras",
+ "full": "Petrobras",
+ "listings": [
+  "NYSE: PBR"
+ ],
+ "built": "2026-11-01",
+ "episodes": 2,
+ "mentioned_in": 4,
+ "latest": "2026-03-10",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2022-02-21",
+     "when": "February 2022",
+     "text": "In February 2022, Equity Mates described Petrobras as Brazil’s national oil company with strategic and operational autonomy, saying it functioned like a corporation while balancing profit with national goals.",
+     "episode": {
+      "title": "Industry Deep Dive: Oil - what is the future of this $3.3 trillion industry?",
+      "url": "https://equitymates.com/episode/industry-deep-dive-oil-what-is-the-future-of-this-3-3-trillion-industry/",
+      "jump": "https://www.youtube.com/watch?v=LLJNTO80mCo&t=1168s",
+      "at": "19:28"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2022-02-21",
+     "when": "February 2022",
+     "text": "In February 2022, Equity Mates included Petrobras among state-backed giants that control large oil resources, and explained upstream producers’ revenue was directly tied to international oil prices, making profitability highly cyclical.",
+     "episode": {
+      "title": "Industry Deep Dive: Oil - what is the future of this $3.3 trillion industry?",
+      "url": "https://equitymates.com/episode/industry-deep-dive-oil-what-is-the-future-of-this-3-3-trillion-industry/",
+      "jump": "https://www.youtube.com/watch?v=LLJNTO80mCo&t=1409s",
+      "at": "23:29"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2026-03-10",
+     "when": "March 2026",
+     "text": "In March 2026, a guest on Equity Mates said companies like Petrobras were a lot cheaper than the rest of the oil patch, which made them interesting in that market context.",
+     "episode": {
+      "title": "Kerr Neilson on oil shocks and why gold will hit $8,000",
+      "url": "https://equitymates.com/episode/kerr-neilson-on-oil-shocks-and-why-gold-will-hit-8000/",
+      "jump": null,
+      "at": "18:49"
+     }
+    }
+   ]
+  }
+ ]
+}

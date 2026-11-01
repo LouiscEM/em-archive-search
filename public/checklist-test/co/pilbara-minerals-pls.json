@@ -1,0 +1,92 @@
+{
+ "slug": "pilbara-minerals-pls",
+ "name": "Pilbara Minerals",
+ "full": "Pilbara Minerals",
+ "listings": [
+  "ASX: PLS"
+ ],
+ "built": "2026-10-30",
+ "episodes": 5,
+ "mentioned_in": 14,
+ "latest": "2026-04-16",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": []
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2026-04-16",
+     "when": "April 2026",
+     "text": "In April 2026, Equity Mates said Pilbara Minerals just traded with lithium spot prices, implying results moved with commodity cycles rather than company-specific advantages.",
+     "episode": {
+      "title": "Crisis at Aston Martin, a new ETF pitch & Pimp my Portfolio with Luke Laretive",
+      "url": "https://equitymates.com/episode/crisis-at-aston-martin-a-new-etf-pitch-pimp-my-portfolio-with-luke-laretive/",
+      "jump": "https://www.youtube.com/watch?v=xyymJFM7HOU&t=1470s",
+      "at": "24:30"
+     }
+    },
+    {
+     "date": "2024-05-07",
+     "when": "May 2024",
+     "text": "In May 2024, Equity Mates outlined a structural case that rising lithium demand could attract supply and cap long‑term prices, likening it to oil where prices rose only about 2.5 times over a century despite massive volume growth, which mattered for miners like Pilbara Minerals.",
+     "episode": {
+      "title": "Buy or Sell: Adam Keily with Scott Phillips - Qantas, Pilbara, Cochlear & more",
+      "url": "https://equitymates.com/episode/buy-or-sell-adam-keily-with-scott-phillips-qantas-pilbara-cochlear-more/",
+      "jump": "https://www.youtube.com/watch?v=rOuRqNuREe8&t=1119s",
+      "at": "18:39"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2025-02-17",
+     "when": "February 2025",
+     "text": "In February 2025, a guest on Equity Mates noted Pilbara Minerals acquired Latin Resources and said they were not a fan of the deal from Pilbara Minerals’ perspective, highlighting capital allocation concerns.",
+     "episode": {
+      "title": "Netflix won the streaming wars, Pimp my Portfolio with Luke Laretive & we debate Novo Nordisk or Eli Lilly",
+      "url": "https://equitymates.com/episode/netflix-won-the-streaming-wars-pimp-my-portfolio-with-luke-laretive-we-debate-novo-nordisk-or-eli-lilly/",
+      "jump": "https://www.youtube.com/watch?v=bUKW7RKCxRU&t=993s",
+      "at": "16:33"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2025-02-11",
+     "when": "February 2025",
+     "text": "In February 2025, Equity Mates discussed Pilbara Minerals at $2.33, down 18% over six months, noting short interest had eased and some producers were removing supply to address an oversupplied lithium market.",
+     "episode": {
+      "title": "Buy or Sell: Adam Dawes - Xero, Pilbara Minerals, Resmed & more",
+      "url": "https://equitymates.com/episode/buy-or-sell-adam-dawes-xero-pilbara-minerals-resmed-more/",
+      "jump": "https://www.youtube.com/watch?v=00cff-6eb1M&t=355s",
+      "at": "5:55"
+     }
+    },
+    {
+     "date": "2022-06-08",
+     "when": "June 2022",
+     "text": "In June 2022, Equity Mates reported Pilbara Minerals fell 22% in a day as a broker called for lithium to drop from about US$60,000 a tonne to US$16,000 in 2023, saying the spot price had been trading like a forward‑looking equity.",
+     "episode": {
+      "title": "Lithium market meltdown: is the future cancelled?",
+      "url": "https://equitymates.com/episode/lithium-market-meltdown-is-the-future-cancelled/",
+      "jump": null,
+      "at": "18:23"
+     }
+    }
+   ]
+  }
+ ]
+}

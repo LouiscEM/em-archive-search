@@ -1,0 +1,69 @@
+{
+ "slug": "dropsuite-dse",
+ "name": "Dropsuite",
+ "full": "Dropsuite",
+ "listings": [
+  "ASX: DSE"
+ ],
+ "built": "2026-11-01",
+ "episodes": 2,
+ "mentioned_in": 3,
+ "latest": "2024-03-19",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2024-01-22",
+     "when": "January 2024",
+     "text": "In January 2024, Equity Mates explained Dropsuite was a cloud backup, archiving and recovery software platform focused on business continuity and compliance for businesses.",
+     "episode": {
+      "title": "The Aussie small cap taking on the tech giants - Dropsuite | Summer Series",
+      "url": "https://equitymates.com/episode/andrew-page-dropsuite/",
+      "jump": "https://www.youtube.com/watch?v=1ZecPsHg9gE&t=174s",
+      "at": "2:54"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2024-03-19",
+     "when": "March 2024",
+     "text": "In March 2024, a guest on Equity Mates said worries about Microsoft launching its own backup eased because large institutions prefer a third‑party provider to protect data, and the market for backup remained massively underpenetrated despite competition.",
+     "episode": {
+      "title": "Buy or Sell: Adam Keily with Andrew Page",
+      "url": "https://equitymates.com/episode/buy-or-sell-adam-keily-with-andrew-page/",
+      "jump": "https://www.youtube.com/watch?v=70FUUh7Nf24&t=1231s",
+      "at": "20:31"
+     }
+    },
+    {
+     "date": "2024-01-22",
+     "when": "January 2024",
+     "text": "In January 2024, Equity Mates highlighted consistently improving metrics, noting presentations showed revenue, profit, cash and users all rising, with revenue growing from $1 million to $20 million in less than seven years.",
+     "episode": {
+      "title": "The Aussie small cap taking on the tech giants - Dropsuite | Summer Series",
+      "url": "https://equitymates.com/episode/andrew-page-dropsuite/",
+      "jump": "https://www.youtube.com/watch?v=1ZecPsHg9gE&t=700s",
+      "at": "11:40"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

@@ -1,0 +1,137 @@
+{
+ "slug": "lvmh-mc",
+ "name": "LVMH",
+ "full": "LVMH",
+ "listings": [
+  "EPA: MC"
+ ],
+ "built": "2026-10-30",
+ "episodes": 3,
+ "mentioned_in": 45,
+ "latest": "2026-08-06",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2026-08-06",
+     "when": "August 2026",
+     "text": "In August 2026, Equity Mates outlined LVMH’s portfolio spanning Louis Vuitton, Dior, Tiffany, Bulgari, Moët Hennessy and Sephora, highlighting its massive scale and breadth of brands across categories.",
+     "episode": {
+      "title": "Luxury: How Experiences Became the New Luxury | The Decade Ahead",
+      "url": "https://equitymates.com/episode/how-experiences-became-the-new-luxury/",
+      "jump": "https://www.youtube.com/watch?v=d_S06HssHnc&t=1501s",
+      "at": "25:01"
+     }
+    },
+    {
+     "date": "2025-10-20",
+     "when": "October 2025",
+     "text": "In October 2025, Equity Mates pointed to Louis Vuitton’s ship-shaped flagship in Shanghai drawing crowds, saying creative retail experiments were lifting engagement as Asian shoppers returned.",
+     "episode": {
+      "title": "Big Bank's Big Warnings, core & satellite is dead & Pimp My Portfolio with Matt Ingram",
+      "url": "https://equitymates.com/episode/big-banks-big-warnings-core-satellite-is-dead-pimp-my-portfolio-with-matt-ingram/",
+      "jump": null,
+      "at": "9:29"
+     }
+    },
+    {
+     "date": "2024-11-18",
+     "when": "November 2024",
+     "text": "In November 2024, Equity Mates described LVMH as a powerhouse with 75 plus brands across fashion, cosmetics, wines, watches and retail, noting diversification across categories, price points and geographies.",
+     "episode": {
+      "title": "House prices are falling in these cities, our favourite investing books & LVMH is in the bargain bin - is it time to buy?",
+      "url": "https://equitymates.com/episode/house-prices-are-falling-in-these-cities-our-favourite-investing-books-lvmh-is-in-the-bargain-bin-is-it-time-to-buy/",
+      "jump": "https://www.youtube.com/watch?v=jDHg9BMuT9E&t=1480s",
+      "at": "24:40"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2026-08-06",
+     "when": "August 2026",
+     "text": "In August 2026, Equity Mates showed LVMH had 16 consecutive quarters of slowing sales growth, turning negative in 2024 and 2025 as China slowed and mass-market luxury softened, raising questions about durability.",
+     "episode": {
+      "title": "Luxury: How Experiences Became the New Luxury | The Decade Ahead",
+      "url": "https://equitymates.com/episode/how-experiences-became-the-new-luxury/",
+      "jump": "https://www.youtube.com/watch?v=d_S06HssHnc&t=1202s",
+      "at": "20:02"
+     }
+    },
+    {
+     "date": "2024-11-18",
+     "when": "November 2024",
+     "text": "In November 2024, Equity Mates cited Morningstar calling LVMH’s economic moat wide and its market presence nearly impossible to replicate, attributing advantage to its scale of brands and entrenched positioning.",
+     "episode": {
+      "title": "House prices are falling in these cities, our favourite investing books & LVMH is in the bargain bin - is it time to buy?",
+      "url": "https://equitymates.com/episode/house-prices-are-falling-in-these-cities-our-favourite-investing-books-lvmh-is-in-the-bargain-bin-is-it-time-to-buy/",
+      "jump": "https://www.youtube.com/watch?v=jDHg9BMuT9E&t=1480s",
+      "at": "24:40"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2025-10-20",
+     "when": "October 2025",
+     "text": "In October 2025, Equity Mates said LVMH was running creative retail experiments like a ship-shaped Louis Vuitton store in Shanghai, indicating investment in brand experiences as Asian demand improved.",
+     "episode": {
+      "title": "Big Bank's Big Warnings, core & satellite is dead & Pimp My Portfolio with Matt Ingram",
+      "url": "https://equitymates.com/episode/big-banks-big-warnings-core-satellite-is-dead-pimp-my-portfolio-with-matt-ingram/",
+      "jump": null,
+      "at": "9:29"
+     }
+    },
+    {
+     "date": "2024-11-18",
+     "when": "November 2024",
+     "text": "In November 2024, Equity Mates noted the Arnault family owned 47 percent of LVMH and controlled 65 percent of voting rights, highlighting long-term, aligned stewardship over the brand portfolio.",
+     "episode": {
+      "title": "House prices are falling in these cities, our favourite investing books & LVMH is in the bargain bin - is it time to buy?",
+      "url": "https://equitymates.com/episode/house-prices-are-falling-in-these-cities-our-favourite-investing-books-lvmh-is-in-the-bargain-bin-is-it-time-to-buy/",
+      "jump": "https://www.youtube.com/watch?v=jDHg9BMuT9E&t=1480s",
+      "at": "24:40"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2026-08-06",
+     "when": "August 2026",
+     "text": "In August 2026, Equity Mates said LVMH was down 25 percent year to date and more than 50 percent from all-time highs, providing context as revenue fell 5 percent and profit fell 13 percent in 2025.",
+     "episode": {
+      "title": "Luxury: How Experiences Became the New Luxury | The Decade Ahead",
+      "url": "https://equitymates.com/episode/how-experiences-became-the-new-luxury/",
+      "jump": "https://www.youtube.com/watch?v=d_S06HssHnc&t=1501s",
+      "at": "25:01"
+     }
+    },
+    {
+     "date": "2024-11-18",
+     "when": "November 2024",
+     "text": "In November 2024, Equity Mates ran a quick DCF, noting shares around 570 euros implied roughly 12 percent annual EPS growth over 10 years at a 10 percent discount rate, and a simple model suggested about 800 euros fair value.",
+     "episode": {
+      "title": "House prices are falling in these cities, our favourite investing books & LVMH is in the bargain bin - is it time to buy?",
+      "url": "https://equitymates.com/episode/house-prices-are-falling-in-these-cities-our-favourite-investing-books-lvmh-is-in-the-bargain-bin-is-it-time-to-buy/",
+      "jump": "https://www.youtube.com/watch?v=jDHg9BMuT9E&t=1649s",
+      "at": "27:29"
+     }
+    }
+   ]
+  }
+ ]
+}

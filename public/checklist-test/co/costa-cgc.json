@@ -1,0 +1,115 @@
+{
+ "slug": "costa-cgc",
+ "name": "Costa",
+ "full": "Costa",
+ "listings": [
+  "ASX: CGC"
+ ],
+ "built": "2026-10-30",
+ "episodes": 4,
+ "mentioned_in": 16,
+ "latest": "2022-12-19",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2022-07-04",
+     "when": "July 2022",
+     "text": "In July 2022, Equity Mates placed Costa in a food value chain alongside growers, traders, packagers and supermarkets, arguing food demand persisted in downturns.",
+     "episode": {
+      "title": "Macquarie's 16 recession-proof stocks",
+      "url": "https://equitymates.com/episode/macquaries-16-recession-proof-stocks/",
+      "jump": "https://www.youtube.com/watch?v=T4ttySx-d7M&t=1401s",
+      "at": "23:21"
+     }
+    },
+    {
+     "date": "2021-07-04",
+     "when": "July 2021",
+     "text": "In July 2021, a guest on Equity Mates described Costa as Australia's largest horticultural company selling avocados, berries, citrus, tomatoes and mushrooms, and said it also handled packaging, marketing and distribution to Australia, China and Morocco.",
+     "episode": {
+      "title": "Watchlist: Mastermind episode with Julia Lee",
+      "url": "https://equitymates.com/episode/watchlist-mastermind-episode-with-julia-lee/",
+      "jump": null,
+      "at": "15:54"
+     }
+    },
+    {
+     "date": "2018-03-07",
+     "when": "March 2018",
+     "text": "In March 2018, Equity Mates outlined Costa's five product pillars of citrus, mushrooms, tomatoes, berries and avocados, noted exports to Japan, the US and China, and cited first-half FY18 revenue up 9.8% to $499 million.",
+     "episode": {
+      "title": "EM Talk: Learn To Invest In 15 Minutes Or Less",
+      "url": "https://equitymates.com/episode/em-talk-learn-to-invest-in-15-minutes-or-less/",
+      "jump": null,
+      "at": "9:01"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2021-07-04",
+     "when": "July 2021",
+     "text": "In July 2021, a guest on Equity Mates said berries had good pricing and outlook, tomatoes' pricing had improved, citrus would rebound after hail and fruit fly disruptions, while mushrooms suffered from year-round labour needs.",
+     "episode": {
+      "title": "Watchlist: Mastermind episode with Julia Lee",
+      "url": "https://equitymates.com/episode/watchlist-mastermind-episode-with-julia-lee/",
+      "jump": null,
+      "at": "18:22"
+     }
+    },
+    {
+     "date": "2018-03-07",
+     "when": "March 2018",
+     "text": "In March 2018, Equity Mates reported first-half FY18 revenue up 9.8% to $499 million, pointing to growth from its diversified produce categories.",
+     "episode": {
+      "title": "EM Talk: Learn To Invest In 15 Minutes Or Less",
+      "url": "https://equitymates.com/episode/em-talk-learn-to-invest-in-15-minutes-or-less/",
+      "jump": null,
+      "at": "9:01"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2018-03-07",
+     "when": "March 2018",
+     "text": "In March 2018, Equity Mates said Costa was aggressively expanding its avocado business, indicating reinvestment to grow production and exports.",
+     "episode": {
+      "title": "EM Talk: Learn To Invest In 15 Minutes Or Less",
+      "url": "https://equitymates.com/episode/em-talk-learn-to-invest-in-15-minutes-or-less/",
+      "jump": null,
+      "at": "9:01"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2022-12-19",
+     "when": "December 2022",
+     "text": "In December 2022, Equity Mates noted Costa was down 15% that year, the best of six stocks discussed, reflecting a tough market.",
+     "episode": {
+      "title": "Bold predictions wrapped for 2023",
+      "url": "https://equitymates.com/episode/bold-predictions-wrapped-for-2023/",
+      "jump": "https://www.youtube.com/watch?v=X83UnQZxVkE&t=1471s",
+      "at": "24:31"
+     }
+    }
+   ]
+  }
+ ]
+}

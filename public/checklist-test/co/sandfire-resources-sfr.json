@@ -1,0 +1,80 @@
+{
+ "slug": "sandfire-resources-sfr",
+ "name": "Sandfire Resources",
+ "full": "Sandfire Resources Ltd",
+ "listings": [
+  "ASX: SFR"
+ ],
+ "built": "2026-11-01",
+ "episodes": 3,
+ "mentioned_in": 4,
+ "latest": "2026-08-28",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2026-08-28",
+     "when": "August 2026",
+     "text": "In August 2026, Equity Mates introduced Sandfire as a copper player and said copper was tricky and hot at the moment.",
+     "episode": {
+      "title": "8 high growth ASX stocks, reviewed by the experts",
+      "url": "https://equitymates.com/episode/8-high-growth-asx-stocks-reviewed-by-the-experts/",
+      "jump": "https://www.youtube.com/watch?v=3eau_Bg389w&t=151s",
+      "at": "2:31"
+     }
+    },
+    {
+     "date": "2026-07-16",
+     "when": "July 2026",
+     "text": "In July 2026, Equity Mates described Sandfire as an Australian-listed pure play copper miner with an $8.8 billion market cap and mines in Spain and Botswana.",
+     "episode": {
+      "title": "Electrification: Australia’s Chance to Power the World | The Decade Ahead",
+      "url": "https://equitymates.com/episode/electrification-australias-chance-to-power-the-world-the-decade-ahead/",
+      "jump": "https://www.youtube.com/watch?v=c45ZJowSvyI&t=1084s",
+      "at": "18:04"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": []
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2026-07-16",
+     "when": "July 2026",
+     "text": "In July 2026, Equity Mates said Sandfire had an $8.8 billion market cap, framing it as a mid-sized company on the ASX.",
+     "episode": {
+      "title": "Electrification: Australia’s Chance to Power the World | The Decade Ahead",
+      "url": "https://equitymates.com/episode/electrification-australias-chance-to-power-the-world-the-decade-ahead/",
+      "jump": "https://www.youtube.com/watch?v=c45ZJowSvyI&t=1084s",
+      "at": "18:04"
+     }
+    },
+    {
+     "date": "2024-04-09",
+     "when": "April 2024",
+     "text": "In April 2024, Equity Mates noted Sandfire’s price moved from $5.78 to $8.97, up 55%, since it was previously discussed.",
+     "episode": {
+      "title": "Buy or Sell with Adam Keily and Adam Dawes",
+      "url": "https://equitymates.com/episode/buy-or-sell-with-adam-keily-and-adam-dawes/",
+      "jump": "https://www.youtube.com/watch?v=JnH_lFsX2KA&t=322s",
+      "at": "5:22"
+     }
+    }
+   ]
+  }
+ ]
+}

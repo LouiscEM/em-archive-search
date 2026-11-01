@@ -1,0 +1,159 @@
+{
+ "slug": "walmart-wmt",
+ "name": "Walmart",
+ "full": "Walmart",
+ "listings": [
+  "NYSE: WMT"
+ ],
+ "built": "2026-10-30",
+ "episodes": 11,
+ "mentioned_in": 80,
+ "latest": "2026-08-07",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2026-08-07",
+     "when": "August 2026",
+     "text": "In August 2026, a guest on Equity Mates described Walmart’s disruption as digital marketing that recommended add‑on purchases to its huge customer base, saying this became additive to stores by turning Walmart into an omnichannel retailer that leveraged its massive infrastructure and footprint.",
+     "episode": {
+      "title": "The economics of the AI companies is being tested with Alex Pollak | Loftus Peak",
+      "url": "https://equitymates.com/episode/the-economics-of-the-ai-companies-is-being-tested-with-alex-pollak-loftus-peak/",
+      "jump": "https://www.youtube.com/watch?v=wImM23W54do&t=2147s",
+      "at": "35:47"
+     }
+    },
+    {
+     "date": "2022-12-16",
+     "when": "December 2022",
+     "text": "In December 2022, Equity Mates said Walmart was well positioned as shoppers sought value in a messy backdrop, arguing its model helped consumers through difficult times when many retailers faced inventory uncertainty after Christmas.",
+     "episode": {
+      "title": "12 stocks of Christmas Pt 1 | TCL, GL1, WMT, BOE & more!",
+      "url": "https://equitymates.com/episode/12-stocks-of-christmas-pt-1-tcl-gl1-wmt-boe-more/",
+      "jump": null,
+      "at": "11:00"
+     }
+    },
+    {
+     "date": "2022-10-24",
+     "when": "October 2022",
+     "text": "In October 2022, Equity Mates reported Walmart expected crypto to play a big role in retail and its digital strategy, pointing to payments and product discovery in the metaverse and social live streams.",
+     "episode": {
+      "title": "54 - A chat about the Real Estate NFT market, FTX taking on the regulators & is Board Apes Yaga Labs in trouble?",
+      "url": "https://equitymates.com/episode/54-a-chat-about-the-real-estate-nft-market-ftx-taking-on-the-regulators-is-board-apes-yaga-labs-in-trouble/",
+      "jump": null,
+      "at": "10:00"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2025-02-17",
+     "when": "February 2025",
+     "text": "In February 2025, Equity Mates noted Walmart’s online sales were about 14 percent of revenue and said e‑commerce had affected margins at both Walmart and Woolworths from a shareholder point of view.",
+     "episode": {
+      "title": "Netflix won the streaming wars, Pimp my Portfolio with Luke Laretive & we debate Novo Nordisk or Eli Lilly",
+      "url": "https://equitymates.com/episode/netflix-won-the-streaming-wars-pimp-my-portfolio-with-luke-laretive-we-debate-novo-nordisk-or-eli-lilly/",
+      "jump": "https://www.youtube.com/watch?v=bUKW7RKCxRU&t=2443s",
+      "at": "40:43"
+     }
+    },
+    {
+     "date": "2024-07-29",
+     "when": "July 2024",
+     "text": "In July 2024, Equity Mates used Walmart as a classic scale moat, saying its size let it offer lower prices that kept customers coming back, which in turn reinforced its scale advantage.",
+     "episode": {
+      "title": "We're searching for the world's best moat, 1 million people working for you & Pimp my Portfolio",
+      "url": "https://equitymates.com/episode/were-searching-for-the-worlds-best-moat-1-million-people-working-for-you-pimp-my-portfolio/",
+      "jump": "https://www.youtube.com/watch?v=G8ubhCeZVSk&t=1531s",
+      "at": "25:31"
+     }
+    },
+    {
+     "date": "2022-08-22",
+     "when": "August 2022",
+     "text": "In August 2022, Equity Mates highlighted a quarter where Walmart’s revenue grew 8.5 percent and same‑store sales rose 6.5 percent, while profit fell 6.8 percent to just under 7 billion dollars, showing pressure on profitability despite sales growth.",
+     "episode": {
+      "title": "Hands down, the most unethical industry deep dive we’ve done",
+      "url": "https://equitymates.com/episode/hands-down-the-most-unethical-industry-deep-dive-weve-done/",
+      "jump": "https://www.youtube.com/watch?v=wAXnKtjXqLs&t=538s",
+      "at": "8:58"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2025-07-01",
+     "when": "July 2025",
+     "text": "In July 2025, Equity Mates highlighted Walmart’s India approach, saying it took a stake in Flipkart rather than build its own network because local distribution know‑how is key to reaching large numbers of consumers.",
+     "episode": {
+      "title": "Basis Points: Investing in India’s Future - with Mugunthan Siva of India Avenue",
+      "url": "https://equitymates.com/episode/basis-points-investing-in-indias-future-with-mugunthan-siva-of-india-avenue/",
+      "jump": "https://www.youtube.com/watch?v=haZ1degpsfU&t=1138s",
+      "at": "18:58"
+     }
+    },
+    {
+     "date": "2022-08-17",
+     "when": "August 2022",
+     "text": "In August 2022, Equity Mates said Walmart explored bundling streaming into Walmart Plus and moving toward a super app, partnering to draw new consumer bases into Walmart as part of its growth strategy.",
+     "episode": {
+      "title": "What if we all just refuse to pay for electricity?",
+      "url": "https://equitymates.com/episode/what-if-we-all-just-refuse-to-pay-for-electricity/",
+      "jump": null,
+      "at": "18:00"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2026-05-04",
+     "when": "May 2026",
+     "text": "In May 2026, Equity Mates noted Walmart traded at about 46 times earnings during reporting season, citing it alongside other large caps to illustrate rich valuations.",
+     "episode": {
+      "title": "Our Monthly Portfolio Update - April 2026",
+      "url": "https://equitymates.com/episode/our-monthly-portfolio-update-april-2026/",
+      "jump": "https://www.youtube.com/watch?v=Luk3B3045sc&t=1164s",
+      "at": "19:24"
+     }
+    },
+    {
+     "date": "2025-11-28",
+     "when": "November 2025",
+     "text": "In November 2025, Equity Mates revisited an earlier call that Walmart’s price to earnings was well above 30, later noting the stock was up about 11 percent as investors reassessed how much to pay for such companies.",
+     "episode": {
+      "title": "Andrew Brown reviews his 2025 bold predictions",
+      "url": "https://equitymates.com/episode/andrew-brown-reviews-his-2025-bold-predictions/",
+      "jump": "https://www.youtube.com/watch?v=cC--QTvqzQ8&t=1082s",
+      "at": "18:02"
+     }
+    },
+    {
+     "date": "2025-01-23",
+     "when": "January 2025",
+     "text": "In January 2025, Equity Mates said Walmart was up 71 percent last year and about 35 times forward earnings, presenting it as a highly priced great company in a prediction that such names could struggle.",
+     "episode": {
+      "title": "Expert: Andrew Brown - 14 Bold Predictions for 2025",
+      "url": "https://equitymates.com/episode/expert-andrew-brown-14-bold-predictions-for-2025/",
+      "jump": "https://www.youtube.com/watch?v=3GaBApfud9Y&t=781s",
+      "at": "13:01"
+     }
+    }
+   ]
+  }
+ ]
+}

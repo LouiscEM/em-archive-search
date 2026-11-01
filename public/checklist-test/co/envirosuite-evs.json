@@ -1,0 +1,69 @@
+{
+ "slug": "envirosuite-evs",
+ "name": "Envirosuite",
+ "full": "Envirosuite",
+ "listings": [
+  "ASX: EVS"
+ ],
+ "built": "2026-11-01",
+ "episodes": 2,
+ "mentioned_in": 3,
+ "latest": "2025-02-04",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": []
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2025-02-04",
+     "when": "February 2025",
+     "text": "In February 2025, a guest on Equity Mates said the earlier investment thesis for Envirosuite did not appear to be playing out at that stage, noting recent performance had been disappointing.",
+     "episode": {
+      "title": "Expert: Andrew Page - How we can all invest in Aussie small caps (and Bitcoin)",
+      "url": "https://equitymates.com/episode/expert-andrew-page-how-we-can-all-invest-in-aussie-small-caps-and-bitcoin/",
+      "jump": "https://www.youtube.com/watch?v=LBtl7-c092I&t=1786s",
+      "at": "29:46"
+     }
+    },
+    {
+     "date": "2024-03-19",
+     "when": "March 2024",
+     "text": "In March 2024, Equity Mates said Envirosuite was growing but at a slower pace than hoped, and had not yet turned cash flow positive or profitable as quickly as planned.",
+     "episode": {
+      "title": "Buy or Sell: Adam Keily with Andrew Page",
+      "url": "https://equitymates.com/episode/buy-or-sell-adam-keily-with-andrew-page/",
+      "jump": "https://www.youtube.com/watch?v=70FUUh7Nf24&t=440s",
+      "at": "7:20"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2024-03-19",
+     "when": "March 2024",
+     "text": "In March 2024, Equity Mates noted Envirosuite traded at 6 cents and had reached 10 cents in January, and discussed how market sentiment had swung between pessimism and optimism as expectations changed.",
+     "episode": {
+      "title": "Buy or Sell: Adam Keily with Andrew Page",
+      "url": "https://equitymates.com/episode/buy-or-sell-adam-keily-with-andrew-page/",
+      "jump": "https://www.youtube.com/watch?v=70FUUh7Nf24&t=440s",
+      "at": "7:20"
+     }
+    }
+   ]
+  }
+ ]
+}

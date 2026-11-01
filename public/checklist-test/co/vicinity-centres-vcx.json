@@ -1,0 +1,46 @@
+{
+ "slug": "vicinity-centres-vcx",
+ "name": "Vicinity Centres",
+ "full": "Vicinity Centres",
+ "listings": [
+  "ASX: VCX"
+ ],
+ "built": "2026-11-01",
+ "episodes": 1,
+ "mentioned_in": 1,
+ "latest": "2024-05-07",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": []
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2024-05-07",
+     "when": "May 2024",
+     "text": "In May 2024, a guest on Equity Mates argued ecommerce growth and higher rates posed headwinds for retail REITs like Vicinity, noting Myer still had about 25% of sales online after Covid, down from about one-third during Covid, casting doubt on long-term physical retail profitability.",
+     "episode": {
+      "title": "Buy or Sell: Adam Keily with Scott Phillips - Qantas, Pilbara, Cochlear & more",
+      "url": "https://equitymates.com/episode/buy-or-sell-adam-keily-with-scott-phillips-qantas-pilbara-cochlear-more/",
+      "jump": "https://www.youtube.com/watch?v=rOuRqNuREe8&t=1437s",
+      "at": "23:57"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

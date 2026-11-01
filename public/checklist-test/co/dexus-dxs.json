@@ -1,0 +1,148 @@
+{
+ "slug": "dexus-dxs",
+ "name": "Dexus",
+ "full": "Dexus",
+ "listings": [
+  "ASX: DXS"
+ ],
+ "built": "2026-11-01",
+ "episodes": 5,
+ "mentioned_in": 6,
+ "latest": "2025-04-22",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2025-04-22",
+     "when": "April 2025",
+     "text": "In April 2025, Equity Mates said Dexus was well known for its Sydney and Melbourne office buildings, noting offices had struggled recently, which framed what the REIT actually owned and the current state of that product.",
+     "episode": {
+      "title": "How to buy property without a mortgage",
+      "url": "https://equitymates.com/episode/how-to-buy-property-without-a-mortgage/",
+      "jump": "https://www.youtube.com/watch?v=E95a0fjuy7g&t=781s",
+      "at": "13:01"
+     }
+    },
+    {
+     "date": "2021-12-07",
+     "when": "December 2021",
+     "text": "In December 2021, Equity Mates described Dexus as holding about $32 billion in office and industrial real estate, highlighting the scale and focus of its property portfolio.",
+     "episode": {
+      "title": "How to Build a Property Portfolio Without Owning a Single House",
+      "url": "https://equitymates.com/episode/investing-in-property-without-buying-a-house/",
+      "jump": "https://www.youtube.com/watch?v=LKdj6D33vVw&t=857s",
+      "at": "14:17"
+     }
+    },
+    {
+     "date": "2021-09-23",
+     "when": "September 2021",
+     "text": "In September 2021, a guest on Equity Mates said there was very strong bidding for quality offices Dexus put on the market, suggesting demand for its better assets remained solid.",
+     "episode": {
+      "title": "CEO: Darren Steinberg - The Ultimate Australian Portfolio - $42.5bn in Property... | Dexus",
+      "url": "https://equitymates.com/episode/ceo-darren-steinberg-the-ultimate-australian-portfolio-42b-in-proprty-dexus/",
+      "jump": null,
+      "at": "13:14"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2025-02-17",
+     "when": "February 2025",
+     "text": "In February 2025, Equity Mates noted office property had underperformed, with Dexus down 42% over two years and CBD vacancies lingering, implying tougher economics for office-heavy owners.",
+     "episode": {
+      "title": "Netflix won the streaming wars, Pimp my Portfolio with Luke Laretive & we debate Novo Nordisk or Eli Lilly",
+      "url": "https://equitymates.com/episode/netflix-won-the-streaming-wars-pimp-my-portfolio-with-luke-laretive-we-debate-novo-nordisk-or-eli-lilly/",
+      "jump": "https://www.youtube.com/watch?v=bUKW7RKCxRU&t=655s",
+      "at": "10:55"
+     }
+    },
+    {
+     "date": "2023-12-14",
+     "when": "December 2023",
+     "text": "In December 2023, a guest on Equity Mates said Dexus sold Sydney buildings at 15% plus discounts to book values and suggested values were being propped, pointing to pressure on underlying asset returns.",
+     "episode": {
+      "title": "Expert: Andrew Brown - Bold predictions wrap 2023",
+      "url": "https://equitymates.com/episode/expert-andrew-brown-bold-predictions-wrap-2023/",
+      "jump": null,
+      "at": "37:49"
+     }
+    },
+    {
+     "date": "2021-09-23",
+     "when": "September 2021",
+     "text": "In September 2021, a guest on Equity Mates warned secondary real estate could need heavy capex to re-lease when terms end, which could hit returns, even as low rates supported real assets at the time.",
+     "episode": {
+      "title": "CEO: Darren Steinberg - The Ultimate Australian Portfolio - $42.5bn in Property... | Dexus",
+      "url": "https://equitymates.com/episode/ceo-darren-steinberg-the-ultimate-australian-portfolio-42b-in-proprty-dexus/",
+      "jump": null,
+      "at": "13:14"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2023-12-14",
+     "when": "December 2023",
+     "text": "In December 2023, a guest on Equity Mates said Dexus had sold a couple of Sydney buildings at more than 15% below book, indicating portfolio recycling even at discounted prices.",
+     "episode": {
+      "title": "Expert: Andrew Brown - Bold predictions wrap 2023",
+      "url": "https://equitymates.com/episode/expert-andrew-brown-bold-predictions-wrap-2023/",
+      "jump": null,
+      "at": "37:49"
+     }
+    },
+    {
+     "date": "2021-09-23",
+     "when": "September 2021",
+     "text": "In September 2021, a guest on Equity Mates discussed capital allocation, arguing against levering into secondary assets due to re-leasing and capex risks, signalling a focus on asset quality over aggressive expansion.",
+     "episode": {
+      "title": "CEO: Darren Steinberg - The Ultimate Australian Portfolio - $42.5bn in Property... | Dexus",
+      "url": "https://equitymates.com/episode/ceo-darren-steinberg-the-ultimate-australian-portfolio-42b-in-proprty-dexus/",
+      "jump": null,
+      "at": "13:14"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2025-02-17",
+     "when": "February 2025",
+     "text": "In February 2025, Equity Mates highlighted that Dexus shares were down 42% over two years, framing how much weakness the market had already priced into office-heavy REITs.",
+     "episode": {
+      "title": "Netflix won the streaming wars, Pimp my Portfolio with Luke Laretive & we debate Novo Nordisk or Eli Lilly",
+      "url": "https://equitymates.com/episode/netflix-won-the-streaming-wars-pimp-my-portfolio-with-luke-laretive-we-debate-novo-nordisk-or-eli-lilly/",
+      "jump": "https://www.youtube.com/watch?v=bUKW7RKCxRU&t=655s",
+      "at": "10:55"
+     }
+    },
+    {
+     "date": "2023-12-14",
+     "when": "December 2023",
+     "text": "In December 2023, a guest on Equity Mates reported Dexus sold assets at 15% plus discounts to carrying values, suggesting a gap between book values and market pricing.",
+     "episode": {
+      "title": "Expert: Andrew Brown - Bold predictions wrap 2023",
+      "url": "https://equitymates.com/episode/expert-andrew-brown-bold-predictions-wrap-2023/",
+      "jump": null,
+      "at": "37:49"
+     }
+    }
+   ]
+  }
+ ]
+}

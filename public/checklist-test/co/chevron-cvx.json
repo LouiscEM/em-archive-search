@@ -1,0 +1,103 @@
+{
+ "slug": "chevron-cvx",
+ "name": "Chevron",
+ "full": "Chevron",
+ "listings": [
+  "NYSE: CVX"
+ ],
+ "built": "2026-10-30",
+ "episodes": 5,
+ "mentioned_in": 28,
+ "latest": "2026-08-10",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2022-02-21",
+     "when": "February 2022",
+     "text": "In February 2022, Equity Mates noted Chevron owns GS Caltex, a South Korean refinery producing about 730,000 barrels a day, showing its downstream scale turning crude into petrol, diesel and petrochemicals.",
+     "episode": {
+      "title": "Industry Deep Dive: Oil - what is the future of this $3.3 trillion industry?",
+      "url": "https://equitymates.com/episode/industry-deep-dive-oil-what-is-the-future-of-this-3-3-trillion-industry/",
+      "jump": "https://www.youtube.com/watch?v=LLJNTO80mCo&t=1708s",
+      "at": "28:28"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2026-08-10",
+     "when": "August 2026",
+     "text": "In August 2026, Equity Mates said Chevron reported its highest quarterly profit in six years, up 385% year on year, as higher oil prices lifted results across the sector.",
+     "episode": {
+      "title": "We're back: AI selloff reverses, US earnings, Aussie property & more",
+      "url": "https://equitymates.com/episode/were-back-ai-selloff-reverses-us-earnings-aussie-property-more/",
+      "jump": "https://www.youtube.com/watch?v=PPVVlE3Yppk&t=1464s",
+      "at": "24:24"
+     }
+    },
+    {
+     "date": "2026-05-05",
+     "when": "May 2026",
+     "text": "In May 2026, Equity Mates relayed Chevron told a gas inquiry it was a price taker that did not set prices, suggesting limited pricing power tied to global markets.",
+     "episode": {
+      "title": "A better Australia is possible - David Pocock on Gas Taxes, Property & Gambling",
+      "url": "https://equitymates.com/episode/a-better-australia-is-possible-david-pocock-on-gas-taxes-property-gambling/",
+      "jump": "https://www.youtube.com/watch?v=QjOJJA5iOLI&t=1563s",
+      "at": "26:03"
+     }
+    },
+    {
+     "date": "2022-02-21",
+     "when": "February 2022",
+     "text": "In February 2022, Equity Mates reported Exxon, Chevron, Shell, BP and Total returned to profitability with their biggest profits in eight years when oil exceeded US$100, highlighting the industry’s cyclical earnings.",
+     "episode": {
+      "title": "Industry Deep Dive: Oil - what is the future of this $3.3 trillion industry?",
+      "url": "https://equitymates.com/episode/industry-deep-dive-oil-what-is-the-future-of-this-3-3-trillion-industry/",
+      "jump": "https://www.youtube.com/watch?v=LLJNTO80mCo&t=1869s",
+      "at": "31:09"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2023-02-17",
+     "when": "February 2023",
+     "text": "In February 2023, Equity Mates highlighted Chevron’s record earnings and a plan to expand share buybacks to US$75 billion over five years, reflecting cash returns to shareholders.",
+     "episode": {
+      "title": "Finding global equity ideas for your portfolio in 2023",
+      "url": "https://equitymates.com/episode/finding-global-equity-ideas-for-your-portfolio-in-2023/",
+      "jump": null,
+      "at": "19:00"
+     }
+    },
+    {
+     "date": "2021-11-10",
+     "when": "November 2021",
+     "text": "In November 2021, Equity Mates covered Chevron’s Gorgon carbon capture project spending $3 billion and sequestering 5 million tonnes of CO2 against a 40 million tonne goal, showing mixed results from investment in emissions reduction.",
+     "episode": {
+      "title": "Can a Billionaire Solve World Hunger?",
+      "url": "https://equitymates.com/episode/can-a-billionaire-solve-world-hunger/",
+      "jump": null,
+      "at": "13:05"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

@@ -1,0 +1,81 @@
+{
+ "slug": "weebit-nano-wbt",
+ "name": "Weebit Nano",
+ "full": "Weebit Nano",
+ "listings": [
+  "ASX: WBT"
+ ],
+ "built": "2026-11-01",
+ "episodes": 3,
+ "mentioned_in": 4,
+ "latest": "2024-08-24",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2022-08-19",
+     "when": "August 2022",
+     "text": "In August 2022, Equity Mates introduced Weebit Nano as a developer of next generation semiconductor memory, aiming to productise ReRAM to create a leap in storage and computing. It said the technology targeted devices from tiny IoT sensors to advanced AI and cloud computing.",
+     "episode": {
+      "title": "Coby Hanoch - CEO of Weebit Nano | The world of semiconductor technology",
+      "url": "https://equitymates.com/episode/coby-hanoch-ceo-of-weebit-nano-the-world-of-semiconductor-technology/",
+      "jump": null,
+      "at": "0:17"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2022-08-19",
+     "when": "August 2022",
+     "text": "In August 2022, Equity Mates noted Weebit Nano was founded in 2015 on research and patents from Rice University, positioning its ReRAM intellectual property as a basis for advantage. It described the company as a leading developer in its niche of memory technology.",
+     "episode": {
+      "title": "Coby Hanoch - CEO of Weebit Nano | The world of semiconductor technology",
+      "url": "https://equitymates.com/episode/coby-hanoch-ceo-of-weebit-nano-the-world-of-semiconductor-technology/",
+      "jump": null,
+      "at": "0:17"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2024-08-24",
+     "when": "August 2024",
+     "text": "In August 2024, Equity Mates highlighted Weebit Nano fell about 60 percent over the prior 12 months and was removed from the ASX 200 in the March rebalance, using it as an example of companies falling out of favour and shrinking in the index.",
+     "episode": {
+      "title": "Why Index Investing: You don't miss out on growth | iShares by BlackRock",
+      "url": "https://equitymates.com/episode/why-index-investing-you-dont-miss-out-on-growth-ishares-by-blackrock/",
+      "jump": "https://www.youtube.com/watch?v=DuApXCUOMxk&t=560s",
+      "at": "9:20"
+     }
+    },
+    {
+     "date": "2023-02-10",
+     "when": "February 2023",
+     "text": "In February 2023, Equity Mates noted Weebit Nano’s share price moved from about $2.77 at an interview on 19 August 2022 to about $5.43 by February 2023, while adding there was no formal coverage.",
+     "episode": {
+      "title": "23 Stocks for 2023 | Car Sales, Aussie Broadband and PayPal! Pt III",
+      "url": "https://equitymates.com/episode/23-stocks-for-2023-car-sales-aussie-broadband-and-paypal-pt-iii/",
+      "jump": null,
+      "at": "32:59"
+     }
+    }
+   ]
+  }
+ ]
+}

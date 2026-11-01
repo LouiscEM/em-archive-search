@@ -1,0 +1,126 @@
+{
+ "slug": "microsoft-msft",
+ "name": "Microsoft",
+ "full": "Microsoft",
+ "listings": [
+  "NASDAQ: MSFT"
+ ],
+ "built": "2026-10-30",
+ "episodes": 5,
+ "mentioned_in": 394,
+ "latest": "2025-05-05",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2023-02-01",
+     "when": "February 2023",
+     "text": "In February 2023, Equity Mates explained Microsoft planned a multi‑year push to integrate generative AI like ChatGPT across all its products, with OpenAI running on Azure, showing how AI could enhance its software and services.",
+     "episode": {
+      "title": "Why did Microsoft invest $10bn in ChatGPT?",
+      "url": "https://equitymates.com/episode/why-did-microsoft-invest-10bn-in-chatgpt/",
+      "jump": null,
+      "at": "5:00"
+     }
+    },
+    {
+     "date": "2022-07-15",
+     "when": "July 2022",
+     "text": "In July 2022, Equity Mates outlined Microsoft’s breadth of products from Windows and productivity software to cloud, gaming and hardware, noting it had become embedded across consumer and enterprise computing over decades.",
+     "episode": {
+      "title": "Our Order Pad | Playside Limited (PLY:ASX) & Microsoft (MSFT:NAS)",
+      "url": "https://equitymates.com/episode/our-order-pad-playside-limited-plyasx-microsoft-msftnas/",
+      "jump": null,
+      "at": "12:21"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2025-05-05",
+     "when": "May 2025",
+     "text": "In May 2025, Equity Mates reported Microsoft’s quarterly revenue of US$70 billion, up 13%, and profit near US$26 billion, up 18%, with a 37% profit margin, highlighting margins well above a typical S&P 500 company.",
+     "episode": {
+      "title": "Meta and Microsoft surprise, Aussie rate cuts \"locked in\" & Pimp my Portfolio",
+      "url": "https://equitymates.com/episode/meta-and-microsoft-surprise-aussie-rate-cuts-locked-in-pimp-my-portfolio/",
+      "jump": "https://www.youtube.com/watch?v=KOclQ7hPS8I&t=323s",
+      "at": "5:23"
+     }
+    },
+    {
+     "date": "2022-07-15",
+     "when": "July 2022",
+     "text": "In July 2022, Equity Mates discussed Azure’s moat and risks, noting intensifying competition from Amazon and Google and investor questions about the durability of cloud growth after pandemic tailwinds.",
+     "episode": {
+      "title": "Our Order Pad | Playside Limited (PLY:ASX) & Microsoft (MSFT:NAS)",
+      "url": "https://equitymates.com/episode/our-order-pad-playside-limited-plyasx-microsoft-msftnas/",
+      "jump": null,
+      "at": "17:06"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2023-11-22",
+     "when": "November 2023",
+     "text": "In November 2023, Equity Mates said Microsoft announced leaders from OpenAI would join to head a new AI research team and pledged resources, signalling aggressive reinvestment into AI capability after the OpenAI turmoil.",
+     "episode": {
+      "title": "OpenAI Saga: Sam Altman’s Wild Weekend",
+      "url": "https://equitymates.com/episode/openai-saga-sam-altmans-wild-weekend/",
+      "jump": null,
+      "at": "11:03"
+     }
+    },
+    {
+     "date": "2023-02-01",
+     "when": "February 2023",
+     "text": "In February 2023, Equity Mates described Microsoft’s multi‑year investment in OpenAI and plans to embed AI tools into all products, using Azure to power the partnership, as a way to reinvest in next‑generation capabilities.",
+     "episode": {
+      "title": "Why did Microsoft invest $10bn in ChatGPT?",
+      "url": "https://equitymates.com/episode/why-did-microsoft-invest-10bn-in-chatgpt/",
+      "jump": null,
+      "at": "5:00"
+     }
+    },
+    {
+     "date": "2022-07-15",
+     "when": "July 2022",
+     "text": "In July 2022, Equity Mates explained Microsoft’s acquisition of Activision Blizzard was positioned to advance its metaverse strategy, aligning capital with gaming where younger audiences were highly engaged.",
+     "episode": {
+      "title": "Our Order Pad | Playside Limited (PLY:ASX) & Microsoft (MSFT:NAS)",
+      "url": "https://equitymates.com/episode/our-order-pad-playside-limited-plyasx-microsoft-msftnas/",
+      "jump": null,
+      "at": "20:18"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2024-01-15",
+     "when": "January 2024",
+     "text": "In January 2024, an adviser on Equity Mates cautioned that valuation differentials could drive mean reversion out of the Meg Seven, which would affect Microsoft, a roughly 7% holding in the fund.",
+     "episode": {
+      "title": "Does Google have any growth left? - Alphabet | Summer Series",
+      "url": "https://equitymates.com/episode/does-google-have-any-growth-left-alphabet-summer-series/",
+      "jump": "https://www.youtube.com/watch?v=ho0WJQMt6as&t=1862s",
+      "at": "31:02"
+     }
+    }
+   ]
+  }
+ ]
+}

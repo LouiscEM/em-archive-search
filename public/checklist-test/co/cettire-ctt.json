@@ -1,0 +1,91 @@
+{
+ "slug": "cettire-ctt",
+ "name": "Cettire",
+ "full": "Cettire",
+ "listings": [
+  "ASX: CTT"
+ ],
+ "built": "2026-11-01",
+ "episodes": 4,
+ "mentioned_in": 5,
+ "latest": "2026-10-14",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2026-10-14",
+     "when": "October 2026",
+     "text": "In October 2026, Equity Mates described Cettire as an online high‑end luxury fashion marketplace with a drop‑ship inventory model and a very small staff, selling brands like Gucci and Prada at 40, 50% discounts and rapidly growing revenue to about $800 million in a few years.",
+     "episode": {
+      "title": "Is fundamental investing dead? All hail the rise of quant",
+      "url": "https://equitymates.com/episode/is-fundamental-investing-dead-all-hail-the-rise-of-quant/",
+      "jump": "https://www.youtube.com/watch?v=efOCG74Ors0&t=1276s",
+      "at": "21:16"
+     }
+    },
+    {
+     "date": "2024-06-11",
+     "when": "June 2024",
+     "text": "In June 2024, a guest on Equity Mates said online fashion retailers faced heavy return rates, with shoppers ordering multiple items and sending most back, which posed practical challenges for Cettire even as its reported revenue growth and headline numbers looked strong.",
+     "episode": {
+      "title": "Buy or Sell: Lucas Goode - Xero, NextDC, Brainchip, Cettire + more",
+      "url": "https://equitymates.com/episode/buy-or-sell-lucas-goode-xero-nextdc-brainchip-cettire-more/",
+      "jump": "https://www.youtube.com/watch?v=k6x_OwWwzyM&t=542s",
+      "at": "9:02"
+     }
+    },
+    {
+     "date": "2024-02-22",
+     "when": "February 2024",
+     "text": "In February 2024, Equity Mates explained Cettire was an online retailer for high‑end luxury goods and had been covered previously on the show.",
+     "episode": {
+      "title": "Earnings season takeaways, an ASX 10-bagger & community stock idea",
+      "url": "https://equitymates.com/episode/earnings-season-takeaways-an-asx-10-bagger-community-stock-idea/",
+      "jump": "https://www.youtube.com/watch?v=VfocnXkQppg&t=1230s",
+      "at": "20:30"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2025-09-30",
+     "when": "September 2025",
+     "text": "In September 2025, Equity Mates said Cettire hit multiple risks at once, including a global luxury slowdown, tariffs and the US de minimis rule, and while revenue rose from $20 million to $740 million in five years and held flat last year, profitability swung and margins proved sensitive.",
+     "episode": {
+      "title": "Buy or Sell: Ally Selby with Jess Farr-Jones",
+      "url": "https://equitymates.com/episode/buy-or-sell-ally-selby-with-jess-farr-jones/",
+      "jump": "https://www.youtube.com/watch?v=iFOfDVZ2oMT&t=502s",
+      "at": "8:22"
+     }
+    },
+    {
+     "date": "2024-06-11",
+     "when": "June 2024",
+     "text": "In June 2024, a guest on Equity Mates noted industry peers struggled to make money and questioned how Cettire sustained profitability amid high return rates, suggesting the business was more margin‑sensitive than it first appeared.",
+     "episode": {
+      "title": "Buy or Sell: Lucas Goode - Xero, NextDC, Brainchip, Cettire + more",
+      "url": "https://equitymates.com/episode/buy-or-sell-lucas-goode-xero-nextdc-brainchip-cettire-more/",
+      "jump": "https://www.youtube.com/watch?v=k6x_OwWwzyM&t=542s",
+      "at": "9:02"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

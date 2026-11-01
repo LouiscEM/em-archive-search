@@ -1,0 +1,58 @@
+{
+ "slug": "mueller-industries-mli",
+ "name": "Mueller Industries",
+ "full": "Mueller Industries",
+ "listings": [
+  "NYSE: MLI"
+ ],
+ "built": "2026-11-01",
+ "episodes": 1,
+ "mentioned_in": 1,
+ "latest": "2026-04-07",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": []
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2026-04-07",
+     "when": "April 2026",
+     "text": "In April 2026, a guest on Equity Mates said Mueller Industries operated in an industry with few new assets and sharply higher build costs, noting hardware inputs had risen 50% to 100% and projects were hard to deliver on budget, which discouraged new entrants.",
+     "episode": {
+      "title": "“There’s always a bull market somewhere in small caps” - Tobias Bucks",
+      "url": "https://equitymates.com/episode/29312/",
+      "jump": "https://www.youtube.com/watch?v=b1i9yH8-Mc0&t=1825s",
+      "at": "30:25"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2026-04-07",
+     "when": "April 2026",
+     "text": "In April 2026, a guest on Equity Mates said industrials like Mueller Industries traded on very low price to book and that book values understated true worth because many facilities dated to the '90s and '00s while replacement costs had surged 50% to 100%.",
+     "episode": {
+      "title": "“There’s always a bull market somewhere in small caps” - Tobias Bucks",
+      "url": "https://equitymates.com/episode/29312/",
+      "jump": "https://www.youtube.com/watch?v=b1i9yH8-Mc0&t=1825s",
+      "at": "30:25"
+     }
+    }
+   ]
+  }
+ ]
+}

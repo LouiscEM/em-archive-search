@@ -1,0 +1,81 @@
+{
+ "slug": "steel-dynamics-stld",
+ "name": "Steel Dynamics",
+ "full": "Steel Dynamics",
+ "listings": [
+  "NASDAQ: STLD"
+ ],
+ "built": "2026-11-01",
+ "episodes": 2,
+ "mentioned_in": 2,
+ "latest": "2026-02-18",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2025-11-24",
+     "when": "November 2025",
+     "text": "In November 2025, Equity Mates noted Steel Dynamics was pitched for its circular model, primarily using scrap metal from cars, buildings and industrial sites to make new steel, which was described as appealing.",
+     "episode": {
+      "title": "Nvidia's wild swings & 11 experts pitched their best ideas for 2026, we review them",
+      "url": "https://equitymates.com/episode/nvidia-swings-big-the-hearts-minds-conference-delivers-and-we-draft-portfolio-picks/",
+      "jump": "https://www.youtube.com/watch?v=MBDUJS2VNsM&t=916s",
+      "at": "15:16"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2026-02-18",
+     "when": "February 2026",
+     "text": "In February 2026, a guest on Equity Mates said Steel Dynamics wanted the North Star assets because rising US protectionism made American steel assets strategically crucial, implying a supportive industry backdrop.",
+     "episode": {
+      "title": "What a commodity supercycle would mean for Australia - Greg Cassidy | Milford",
+      "url": "https://equitymates.com/episode/what-a-commodity-supercycle-would-mean-for-australia-greg-cassidy-milford/",
+      "jump": "https://www.youtube.com/watch?v=qTHciavv_Ac&t=566s",
+      "at": "9:26"
+     }
+    },
+    {
+     "date": "2025-11-24",
+     "when": "November 2025",
+     "text": "In November 2025, a guest on Equity Mates highlighted Steel Dynamics’ scrap-based production and company-wide monthly bonuses tied to mill output as operational strengths in the pitch.",
+     "episode": {
+      "title": "Nvidia's wild swings & 11 experts pitched their best ideas for 2026, we review them",
+      "url": "https://equitymates.com/episode/nvidia-swings-big-the-hearts-minds-conference-delivers-and-we-draft-portfolio-picks/",
+      "jump": "https://www.youtube.com/watch?v=MBDUJS2VNsM&t=916s",
+      "at": "15:16"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2026-02-18",
+     "when": "February 2026",
+     "text": "In February 2026, Equity Mates discussed likely deal-making in resources and said Steel Dynamics was interested in acquiring the North Star assets, framing it as a strategic move in a more protectionist US market.",
+     "episode": {
+      "title": "What a commodity supercycle would mean for Australia - Greg Cassidy | Milford",
+      "url": "https://equitymates.com/episode/what-a-commodity-supercycle-would-mean-for-australia-greg-cassidy-milford/",
+      "jump": "https://www.youtube.com/watch?v=qTHciavv_Ac&t=566s",
+      "at": "9:26"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

@@ -1,0 +1,58 @@
+{
+ "slug": "zealand-pharma-zeal",
+ "name": "Zealand Pharma",
+ "full": "Zealand Pharma",
+ "listings": [
+  "CPH: ZEAL"
+ ],
+ "built": "2026-11-01",
+ "episodes": 1,
+ "mentioned_in": 1,
+ "latest": "2024-04-01",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2024-04-01",
+     "when": "April 2024",
+     "text": "In April 2024, Equity Mates said Zealand Pharma reported about 15% weight loss over 46 weeks in trials, similar to results from Amgen and Viking Therapeutics, showing it had a credible obesity treatment in a competitive field.",
+     "episode": {
+      "title": "Lump sum or DCA, the latest on Ozempic & a baby Berkshire?",
+      "url": "https://equitymates.com/episode/lump-sum-or-dca-the-latest-on-ozempic-a-baby-berkshire/",
+      "jump": "https://www.youtube.com/watch?v=4v1jWA4_EPk&t=523s",
+      "at": "8:43"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2024-04-01",
+     "when": "April 2024",
+     "text": "In April 2024, Equity Mates described the obesity drug space as a race for market share, with many players including Zealand Pharma posting similar trial outcomes, and questioned who would lead and capture the market.",
+     "episode": {
+      "title": "Lump sum or DCA, the latest on Ozempic & a baby Berkshire?",
+      "url": "https://equitymates.com/episode/lump-sum-or-dca-the-latest-on-ozempic-a-baby-berkshire/",
+      "jump": "https://www.youtube.com/watch?v=4v1jWA4_EPk&t=523s",
+      "at": "8:43"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

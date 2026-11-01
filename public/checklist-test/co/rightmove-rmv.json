@@ -1,0 +1,92 @@
+{
+ "slug": "rightmove-rmv",
+ "name": "Rightmove",
+ "full": "Rightmove",
+ "listings": [
+  "LON: RMV"
+ ],
+ "built": "2026-11-01",
+ "episodes": 3,
+ "mentioned_in": 6,
+ "latest": "2024-09-26",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2024-09-26",
+     "when": "September 2024",
+     "text": "In September 2024, Equity Mates described Rightmove as the UK’s dominant real estate portal, drawing a parallel to REA’s leadership in Australia to explain why consumers and agents gravitated to the platform.",
+     "episode": {
+      "title": "Investor confessions, RBA holds interest rates & our top capital gains tax tips",
+      "url": "https://equitymates.com/episode/investor-confessions-rba-holds-interest-rates-our-top-capital-gains-tax-tips/",
+      "jump": "https://www.youtube.com/watch?v=7rsRemH9L9g&t=540s",
+      "at": "9:00"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2024-09-23",
+     "when": "September 2024",
+     "text": "In September 2024, a guest on Equity Mates explained that number one property portals benefit from powerful network effects, and said those observations applied to Rightmove as the leading UK platform.",
+     "episode": {
+      "title": "Super-for-Housing is still a bad idea, Luke Laretive returns for Pimp my Portfolio and Nick Cregan breaks down the power of real estate platforms",
+      "url": "https://equitymates.com/episode/super-for-housing-is-still-a-bad-idea-luke-laretive-returns-for-pimp-my-portfolio-and-nick-cregan-breaks-down-the-power-of-real-estate-platforms/",
+      "jump": "https://www.youtube.com/watch?v=IjBVmZowfcI&t=1096s",
+      "at": "18:16"
+     }
+    },
+    {
+     "date": "2024-09-05",
+     "when": "September 2024",
+     "text": "In September 2024, Equity Mates compared profitability and noted Rightmove reported about £265m underlying profit on £364m revenue, implying roughly 70% margins, which suggested strong pricing power and operational efficiency.",
+     "episode": {
+      "title": "These healthcare stocks are uninvestable, why we avoid small cap indexes & the business of professional sport",
+      "url": "https://equitymates.com/episode/these-healthcare-stocks-are-uninvestable-why-we-avoid-small-cap-indexes-the-business-of-professional-sport/",
+      "jump": "https://www.youtube.com/watch?v=mMac7mAx6Zw&t=290s",
+      "at": "4:50"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2024-09-26",
+     "when": "September 2024",
+     "text": "In September 2024, Equity Mates reported REA made multiple takeover bids for Rightmove, with a second offer about 20% higher than the first and around A$11.5b, all rejected, highlighting valuation expectations.",
+     "episode": {
+      "title": "Investor confessions, RBA holds interest rates & our top capital gains tax tips",
+      "url": "https://equitymates.com/episode/investor-confessions-rba-holds-interest-rates-our-top-capital-gains-tax-tips/",
+      "jump": "https://www.youtube.com/watch?v=7rsRemH9L9g&t=474s",
+      "at": "7:54"
+     }
+    },
+    {
+     "date": "2024-09-05",
+     "when": "September 2024",
+     "text": "In September 2024, Equity Mates sized the deal by noting Rightmove was about £4.5b market cap, roughly A$9b, versus REA at about A$27b, framing how large an acquisition it would be.",
+     "episode": {
+      "title": "These healthcare stocks are uninvestable, why we avoid small cap indexes & the business of professional sport",
+      "url": "https://equitymates.com/episode/these-healthcare-stocks-are-uninvestable-why-we-avoid-small-cap-indexes-the-business-of-professional-sport/",
+      "jump": "https://www.youtube.com/watch?v=mMac7mAx6Zw&t=206s",
+      "at": "3:26"
+     }
+    }
+   ]
+  }
+ ]
+}

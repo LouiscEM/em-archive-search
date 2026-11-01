@@ -1,0 +1,58 @@
+{
+ "slug": "medtronic-mdt",
+ "name": "Medtronic",
+ "full": "Medtronic",
+ "listings": [
+  "NYSE: MDT"
+ ],
+ "built": "2026-11-01",
+ "episodes": 2,
+ "mentioned_in": 2,
+ "latest": "2026-10-27",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2026-06-11",
+     "when": "June 2026",
+     "text": "In June 2026, Equity Mates said Medtronic’s Hugo robotic surgery system was in the space but not as prolific as the market leader, noting it as a key competitor within robotic procedures.",
+     "episode": {
+      "title": "The stock market’s $400 billion test, Bryce’s thesis card reveal & a 3-in-1 pitch for the Community Portfolio",
+      "url": "https://equitymates.com/episode/the-stock-markets-400-billion-test-bryces-thesis-card-reveal-a-3-in-1-pitch-for-the-community-portfolio/",
+      "jump": "https://www.youtube.com/watch?v=t9LCbSBdrec&t=1081s",
+      "at": "18:01"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2026-10-27",
+     "when": "October 2026",
+     "text": "In October 2026, a guest on Equity Mates described Medtronic as the 800 pound gorilla of medical devices, pointing to about 30,000 patents as IP that underpinned a durable earnings franchise.",
+     "episode": {
+      "title": "Searching for predictability in an unpredictable market with Warryn Robertson",
+      "url": "https://equitymates.com/episode/searching-for-predictability-in-an-unpredictable-market-with-warryn-robertson/",
+      "jump": "https://www.youtube.com/watch?v=Ha0_OjMbYsU&t=1507s",
+      "at": "25:07"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

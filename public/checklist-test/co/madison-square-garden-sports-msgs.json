@@ -1,0 +1,58 @@
+{
+ "slug": "madison-square-garden-sports-msgs",
+ "name": "Madison Square Garden Sports",
+ "full": "Madison Square Garden Sports Corp",
+ "listings": [
+  "NYSE: MSGS"
+ ],
+ "built": "2026-11-01",
+ "episodes": 2,
+ "mentioned_in": 2,
+ "latest": "2024-06-20",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": []
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2024-06-20",
+     "when": "June 2024",
+     "text": "In June 2024, Equity Mates noted NBA rights were being renegotiated and that sport would be distributed by Apple TV, Google and Netflix, and mentioned Madison Square Garden Sports as owner of the Knicks in that context of shifting media distribution.",
+     "episode": {
+      "title": "Catapult: Dominating sports analytics - how big can it get? | Company deep dive",
+      "url": "https://equitymates.com/episode/catapult-dominating-sports-analytics-how-big-can-it-get-company-deep-dive/",
+      "jump": "https://www.youtube.com/watch?v=_SLWpiNVv0A&t=1640s",
+      "at": "27:20"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2023-01-23",
+     "when": "January 2023",
+     "text": "In January 2023, a guest on Equity Mates said Madison Square Garden Sports traded at roughly a 50% discount to the sum of Forbes valuations for the Knicks and Rangers, with very little net debt, while cautioning sports balance sheets can be hard to read due to revenue timing.",
+     "episode": {
+      "title": "What next for Formula One? - Liberty Media | Summer Series",
+      "url": "https://equitymates.com/episode/what-next-for-formula-one-liberty-media-summer-series/",
+      "jump": "https://www.youtube.com/watch?v=Dv370i3KifM&t=940s",
+      "at": "15:40"
+     }
+    }
+   ]
+  }
+ ]
+}

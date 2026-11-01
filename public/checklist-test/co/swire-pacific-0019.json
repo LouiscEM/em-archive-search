@@ -1,0 +1,70 @@
+{
+ "slug": "swire-pacific-0019",
+ "name": "Swire Pacific",
+ "full": "Swire Pacific",
+ "listings": [
+  "HKG: 0019"
+ ],
+ "built": "2026-11-01",
+ "episodes": 1,
+ "mentioned_in": 1,
+ "latest": "2023-11-20",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2023-11-20",
+     "when": "November 2023",
+     "text": "In November 2023, Equity Mates described Swire Pacific as a conglomerate with three units: commercial real estate in major Chinese cities, a Coca-Cola bottler across China, Cambodia and Vietnam serving about 900 million people, and a stake in Cathay Pacific airline.",
+     "episode": {
+      "title": "We review the 16 stocks pitched at the Sohn Hearts & Minds conference",
+      "url": "https://equitymates.com/episode/we-review-the-16-stocks-pitched-at-the-sohn-hearts-minds-conference/",
+      "jump": null,
+      "at": "34:42"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2023-11-20",
+     "when": "November 2023",
+     "text": "In November 2023, a guest on Equity Mates argued China’s property issues were mostly in residential markets in second and third tier cities, suggesting Swire Pacific’s commercial real estate in bigger cities was better positioned, while the Coca-Cola bottler business “kept on keeping on.”",
+     "episode": {
+      "title": "We review the 16 stocks pitched at the Sohn Hearts & Minds conference",
+      "url": "https://equitymates.com/episode/we-review-the-16-stocks-pitched-at-the-sohn-hearts-minds-conference/",
+      "jump": null,
+      "at": "34:42"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2023-11-20",
+     "when": "November 2023",
+     "text": "In November 2023, a guest on Equity Mates said Swire Pacific was pitched as trading at a 77% discount to the market price.",
+     "episode": {
+      "title": "We review the 16 stocks pitched at the Sohn Hearts & Minds conference",
+      "url": "https://equitymates.com/episode/we-review-the-16-stocks-pitched-at-the-sohn-hearts-minds-conference/",
+      "jump": null,
+      "at": "34:42"
+     }
+    }
+   ]
+  }
+ ]
+}

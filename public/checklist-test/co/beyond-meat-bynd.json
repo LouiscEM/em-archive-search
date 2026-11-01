@@ -1,0 +1,125 @@
+{
+ "slug": "beyond-meat-bynd",
+ "name": "Beyond Meat",
+ "full": "Beyond Meat",
+ "listings": [
+  "NASDAQ: BYND"
+ ],
+ "built": "2026-10-30",
+ "episodes": 6,
+ "mentioned_in": 9,
+ "latest": "2023-06-26",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2022-12-07",
+     "when": "December 2022",
+     "text": "In December 2022, Equity Mates noted McDonald’s tested the Beyond Meat McPlant burger, while other chains trialled rivals, showing major fast food interest in plant-based options.",
+     "episode": {
+      "title": "The 5 stupidest arguments against a gas price cap",
+      "url": "https://equitymates.com/episode/the-5-stupidest-arguments-against-a-gas-price-cap/",
+      "jump": null,
+      "at": "33:48"
+     }
+    },
+    {
+     "date": "2022-04-20",
+     "when": "April 2022",
+     "text": "In April 2022, Equity Mates said Beyond Meat emerged as a market leader as restaurants lined up to add plant-based items, amid forecasts that meat substitutes could be worth hundreds of billions by 2040.",
+     "episode": {
+      "title": "Is plant-based meat just a fad?",
+      "url": "https://equitymates.com/episode/is-plant-based-meat-just-a-fad/",
+      "jump": null,
+      "at": "0:02"
+     }
+    },
+    {
+     "date": "2022-01-03",
+     "when": "January 2022",
+     "text": "In January 2022, Equity Mates explained Beyond Meat made plant-based versions of beef, chicken, pork and sausages aiming to taste, cook and feel like meat, citing a University of Michigan study showing a Beyond Burger used 99% less water, 93% less land and 46% less energy than beef.",
+     "episode": {
+      "title": "Is this the taste of the future of food? - Beyond Meat | Summer Series",
+      "url": "https://equitymates.com/episode/summer-series-beyond-meat/",
+      "jump": "https://www.youtube.com/watch?v=58a2abXWCl8&t=288s",
+      "at": "4:48"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2023-03-13",
+     "when": "March 2023",
+     "text": "In March 2023, Equity Mates contrasted plant-based firms like Beyond Meat with fast-improving lab-grown meat, noting a lab-grown beef patty’s cost fell from US$330,000 in 2013 to under US$10, raising competitive pressure on plant-based incumbents.",
+     "episode": {
+      "title": "From $330,000 to $10: Lab-grown meat is coming to a plate near you",
+      "url": "https://equitymates.com/episode/from-330000-to-10-lab-grown-meat-is-coming-to-a-plate-near-you/",
+      "jump": null,
+      "at": "3:16"
+     }
+    },
+    {
+     "date": "2022-11-17",
+     "when": "November 2022",
+     "text": "In November 2022, an adviser on Equity Mates said they avoided investing in Beyond Meat because it had a bad business model, emphasising that they sought businesses making money rather than relying on positive impact alone.",
+     "episode": {
+      "title": "Expert: Steven Glass - Balancing growth & value with sustainable investing",
+      "url": "https://equitymates.com/episode/expert-steven-glass/",
+      "jump": "https://www.youtube.com/watch?v=9H6eA4KIpe0&t=1779s",
+      "at": "29:39"
+     }
+    },
+    {
+     "date": "2022-01-03",
+     "when": "January 2022",
+     "text": "In January 2022, Equity Mates described intense competition for Beyond Meat, with Impossible Foods and big consumer brands like Kellogg’s, Nestlé and Oatly offering similar products, challenging long-term pricing power.",
+     "episode": {
+      "title": "Is this the taste of the future of food? - Beyond Meat | Summer Series",
+      "url": "https://equitymates.com/episode/summer-series-beyond-meat/",
+      "jump": "https://www.youtube.com/watch?v=58a2abXWCl8&t=494s",
+      "at": "8:14"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2023-06-26",
+     "when": "June 2023",
+     "text": "In June 2023, Equity Mates recalled Beyond Meat’s 2019 IPO sparked a plant-based boom, with the share price tripling within a month or two, showing how much hype was priced in.",
+     "episode": {
+      "title": "The Fake Meat Shakeout",
+      "url": "https://equitymates.com/episode/the-fake-meat-shakeout/",
+      "jump": null,
+      "at": "3:47"
+     }
+    },
+    {
+     "date": "2022-01-03",
+     "when": "January 2022",
+     "text": "In January 2022, Equity Mates linked a roughly 250 percent post-IPO jump to excitement over partnerships with McDonald’s, Yum, PepsiCo and others, and urged separating real traction from launch hype when considering the stock.",
+     "episode": {
+      "title": "Is this the taste of the future of food? - Beyond Meat | Summer Series",
+      "url": "https://equitymates.com/episode/summer-series-beyond-meat/",
+      "jump": "https://www.youtube.com/watch?v=58a2abXWCl8&t=1019s",
+      "at": "16:59"
+     }
+    }
+   ]
+  }
+ ]
+}

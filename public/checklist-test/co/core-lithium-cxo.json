@@ -1,0 +1,58 @@
+{
+ "slug": "core-lithium-cxo",
+ "name": "Core Lithium",
+ "full": "Core Lithium",
+ "listings": [
+  "ASX: CXO"
+ ],
+ "built": "2026-11-01",
+ "episodes": 2,
+ "mentioned_in": 4,
+ "latest": "2024-08-24",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2023-01-05",
+     "when": "January 2023",
+     "text": "In January 2023, Equity Mates described Core Lithium as a lithium miner with mines in the Northern Territory and South Australia, outlining the basic product and where it operated.",
+     "episode": {
+      "title": "Australia's hottest lithium project - Core Lithium | Summer Series",
+      "url": "https://equitymates.com/episode/australias-hottest-lithium-project-core-lithium-summer-series/",
+      "jump": "https://www.youtube.com/watch?v=3z5u9CQY7Rc&t=196s",
+      "at": "3:16"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": []
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2024-08-24",
+     "when": "August 2024",
+     "text": "In August 2024, Equity Mates noted Core Lithium was removed from the ASX 200 after a 12 month share price fall of 86%, using it to illustrate how index rebalances drop companies falling out of favour.",
+     "episode": {
+      "title": "Why Index Investing: You don't miss out on growth | iShares by BlackRock",
+      "url": "https://equitymates.com/episode/why-index-investing-you-dont-miss-out-on-growth-ishares-by-blackrock/",
+      "jump": "https://www.youtube.com/watch?v=DuApXCUOMxk&t=560s",
+      "at": "9:20"
+     }
+    }
+   ]
+  }
+ ]
+}

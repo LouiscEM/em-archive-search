@@ -1,0 +1,80 @@
+{
+ "slug": "vestas-vws",
+ "name": "Vestas",
+ "full": "Vestas",
+ "listings": [
+  "CPH: VWS"
+ ],
+ "built": "2026-11-01",
+ "episodes": 2,
+ "mentioned_in": 3,
+ "latest": "2022-07-18",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2022-07-18",
+     "when": "July 2022",
+     "text": "In July 2022, Equity Mates identified Vestas as a wind turbine maker within Europe’s industrial tech, noting it as one of the big three globally.",
+     "episode": {
+      "title": "Great time to travel to Europe… or look at their stocks",
+      "url": "https://equitymates.com/episode/great-time-to-travel-to-europe-or-look-at-their-stocks/",
+      "jump": "https://www.youtube.com/watch?v=jVRWIC5f1Jo&t=1678s",
+      "at": "27:58"
+     }
+    },
+    {
+     "date": "2021-10-28",
+     "when": "October 2021",
+     "text": "In October 2021, a guest on Equity Mates explained that wind must be part of decarbonisation and Vestas makes the massive turbines, with a growing shift to offshore where wind is stronger and more consistent, boosting wind power generation.",
+     "episode": {
+      "title": "Expert: Mary Manning - 3 stocks to watch as the world embraces renewables",
+      "url": "https://equitymates.com/episode/expert-mary-manning-3-stocks-to-watch-as-the-world-embraces-renewables/",
+      "jump": "https://www.youtube.com/watch?v=a_OkhUs9SE8&t=2409s",
+      "at": "40:09"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2022-07-18",
+     "when": "July 2022",
+     "text": "In July 2022, Equity Mates described Vestas as part of the global big three wind turbine manufacturers, pointing to an oligopolistic industry structure.",
+     "episode": {
+      "title": "Great time to travel to Europe… or look at their stocks",
+      "url": "https://equitymates.com/episode/great-time-to-travel-to-europe-or-look-at-their-stocks/",
+      "jump": "https://www.youtube.com/watch?v=jVRWIC5f1Jo&t=1678s",
+      "at": "27:58"
+     }
+    },
+    {
+     "date": "2021-10-28",
+     "when": "October 2021",
+     "text": "In October 2021, a guest on Equity Mates said wind turbines have significant barriers to entry because of capital intensity, so the market was dominated by Vestas, GE and Siemens Gamesa.",
+     "episode": {
+      "title": "Expert: Mary Manning - 3 stocks to watch as the world embraces renewables",
+      "url": "https://equitymates.com/episode/expert-mary-manning-3-stocks-to-watch-as-the-world-embraces-renewables/",
+      "jump": "https://www.youtube.com/watch?v=a_OkhUs9SE8&t=2409s",
+      "at": "40:09"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

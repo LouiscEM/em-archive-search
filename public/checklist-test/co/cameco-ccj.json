@@ -1,0 +1,93 @@
+{
+ "slug": "cameco-ccj",
+ "name": "Cameco",
+ "full": "Cameco",
+ "listings": [
+  "NYSE: CCJ"
+ ],
+ "built": "2026-11-01",
+ "episodes": 3,
+ "mentioned_in": 5,
+ "latest": "2024-08-01",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2024-08-01",
+     "when": "August 2024",
+     "text": "In August 2024, Equity Mates described Cameco as one of the world’s largest uranium miners and refiners, highlighting its Cigar Lake facility as the world’s highest grade uranium source and noting it had produced more than 100 million pounds since 2015.",
+     "episode": {
+      "title": "Nuclear energy: Why it has been a top performing industry this year",
+      "url": "https://equitymates.com/episode/nuclear-energy-why-it-has-been-a-top-performing-industry-this-year/",
+      "jump": null,
+      "at": "28:37"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2023-04-28",
+     "when": "April 2023",
+     "text": "In April 2023, Equity Mates explained that Cameco was the largest uranium company by market cap in the ETF and said it accounted for about 16% of global uranium supply, comparing it with Kazatomprom at around 25%, to show its industry scale.",
+     "episode": {
+      "title": "Under the Hood | Help me understand what I'm *actually* buying",
+      "url": "https://equitymates.com/episode/under-the-hood-help-me-understand-what-im-actually-buying/",
+      "jump": null,
+      "at": "5:45"
+     }
+    },
+    {
+     "date": "2021-10-22",
+     "when": "October 2021",
+     "text": "In October 2021, Equity Mates noted Cameco was one of the globally top two uranium suppliers and a key partner in the Global Laser Enrichment venture, indicating industry standing and strategic positioning.",
+     "episode": {
+      "title": "Our Order Pad  | Silex (SLX:ASX) & BHP Group (BHP:ASX)",
+      "url": "https://equitymates.com/episode/our-order-pad-silex-slxasx-bhp-group-bhpasx/",
+      "jump": null,
+      "at": "8:38"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2021-10-22",
+     "when": "October 2021",
+     "text": "In October 2021, Equity Mates outlined the Silex, Cameco joint venture aiming to demonstrate Silex uranium enrichment technology at pilot commercialisation stage by 2029 and described a path to market focused on the Paducah opportunity.",
+     "episode": {
+      "title": "Our Order Pad  | Silex (SLX:ASX) & BHP Group (BHP:ASX)",
+      "url": "https://equitymates.com/episode/our-order-pad-silex-slxasx-bhp-group-bhpasx/",
+      "jump": null,
+      "at": "14:15"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2024-08-01",
+     "when": "August 2024",
+     "text": "In August 2024, Equity Mates said Cameco had risen 355% over five years and was trading on a price to earnings of 118, and added that miners like Cameco typically track the uranium price, framing what may be priced into the stock.",
+     "episode": {
+      "title": "Nuclear energy: Why it has been a top performing industry this year",
+      "url": "https://equitymates.com/episode/nuclear-energy-why-it-has-been-a-top-performing-industry-this-year/",
+      "jump": null,
+      "at": "28:37"
+     }
+    }
+   ]
+  }
+ ]
+}

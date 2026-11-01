@@ -1,0 +1,137 @@
+{
+ "slug": "blackrock-blk",
+ "name": "BlackRock",
+ "full": "BlackRock",
+ "listings": [
+  "NYSE: BLK"
+ ],
+ "built": "2026-10-30",
+ "episodes": 7,
+ "mentioned_in": 61,
+ "latest": "2026-09-29",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2026-09-29",
+     "when": "September 2026",
+     "text": "In September 2026, Equity Mates explained that fund-of-funds from managers like BlackRock handled rebalancing using inflows and distributions to reduce tax and transaction costs. It said this made portfolios simpler and potentially more cost effective than juggling multiple single-asset funds.",
+     "episode": {
+      "title": "How many ETFs do I actually need? I’m overwhelmed",
+      "url": "https://equitymates.com/episode/how-many-etfs-do-i-actually-need-im-overwhelmed/",
+      "jump": "https://www.youtube.com/watch?v=n0EcEjljnNc&t=839s",
+      "at": "13:59"
+     }
+    },
+    {
+     "date": "2025-03-11",
+     "when": "March 2025",
+     "text": "In March 2025, a guest on Equity Mates said BlackRock listed ETFs across all five of Cboe’s listing exchanges and used Cboe in Australia to add competition for investors. It highlighted the operational ease for BlackRock to list globally and support the local ETF ecosystem.",
+     "episode": {
+      "title": "Emma Quinn on market innovation, ETF growth, and why investors are trading beyond the ASX",
+      "url": "https://equitymates.com/episode/emma-quinn-on-market-innovation-etf-growth-and-why-investors-are-trading-beyond-the-asx/",
+      "jump": "https://www.youtube.com/watch?v=JPorw_DpJjk&t=413s",
+      "at": "6:53"
+     }
+    },
+    {
+     "date": "2024-08-30",
+     "when": "August 2024",
+     "text": "In August 2024, Equity Mates described how iShares by BlackRock aggregated dividends from underlying companies and paid them to investors as ETF distributions, sometimes quarterly or even monthly. It said this made income collection easier than receiving many separate company payments.",
+     "episode": {
+      "title": "Why Index Investing: Income without the hassle | iShares by BlackRock",
+      "url": "https://equitymates.com/episode/why-index-investing-income-without-the-hassle-ishares-by-blackrock/",
+      "jump": "https://www.youtube.com/watch?v=1B79ikzmV84&t=491s",
+      "at": "8:11"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2025-07-21",
+     "when": "July 2025",
+     "text": "In July 2025, Equity Mates noted BlackRock remained the world’s largest asset manager with US$12.5 trillion in AUM, showing massive scale even as its stock fell 6% after a single US$52 billion client redemption. It highlighted how one large client movement affected results despite overall size.",
+     "episode": {
+      "title": "Card fees to go, Pimp my Portfolio & BlackRock lost $52 billion in one go",
+      "url": "https://equitymates.com/episode/card-fees-to-go-pimp-my-portfolio-blackrock-lost-52-billion-in-one-go/",
+      "jump": "https://www.youtube.com/watch?v=ZLCmrceevTU&t=948s",
+      "at": "15:48"
+     }
+    },
+    {
+     "date": "2022-05-20",
+     "when": "May 2022",
+     "text": "In May 2022, Equity Mates outlined how big asset managers like BlackRock held large stakes and significant voting power in companies such as JP Morgan. It said this concentration of votes gave them influence in corporate decisions relative to smaller shareholders.",
+     "episode": {
+      "title": "We can do that? Shareholders reject CEO’s $50m payday",
+      "url": "https://equitymates.com/episode/we-can-do-that-shareholders-reject-ceos-50m-payday/",
+      "jump": null,
+      "at": "12:39"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2025-03-11",
+     "when": "March 2025",
+     "text": "In March 2025, Equity Mates heard that Cboe first listed BlackRock’s Factor ETFs in Australia after working with the manager on product fit. It was cited as an example of BlackRock bringing product innovation to the local market.",
+     "episode": {
+      "title": "Emma Quinn on market innovation, ETF growth, and why investors are trading beyond the ASX",
+      "url": "https://equitymates.com/episode/emma-quinn-on-market-innovation-etf-growth-and-why-investors-are-trading-beyond-the-asx/",
+      "jump": "https://www.youtube.com/watch?v=JPorw_DpJjk&t=789s",
+      "at": "13:09"
+     }
+    },
+    {
+     "date": "2025-02-14",
+     "when": "February 2025",
+     "text": "In February 2025, a guest on Equity Mates said BlackRock’s leadership discussed tokenisation as a future core settlement layer and intended to push traditional markets toward it. It presented this as direction-setting for developing new products and infrastructure.",
+     "episode": {
+      "title": "AI agents managing your money? Dispatches from the 2025 crypto boom - Blake Cassidy | Bamboo",
+      "url": "https://equitymates.com/episode/ai-agents-managing-your-money-dispatches-from-the-2025-crypto-boom-blake-cassidy-bamboo/",
+      "jump": "https://www.youtube.com/watch?v=8jYGv5ud5h8&t=1851s",
+      "at": "30:51"
+     }
+    },
+    {
+     "date": "2022-08-15",
+     "when": "August 2022",
+     "text": "In August 2022, Equity Mates covered BlackRock selecting Coinbase to provide clients direct Bitcoin access after years of evolving views on crypto. It framed the move as a strategic expansion of BlackRock’s offering to meet client demand.",
+     "episode": {
+      "title": "The most important reporting season until the next one",
+      "url": "https://equitymates.com/episode/the-most-important-reporting-season-until-the-next-one/",
+      "jump": "https://www.youtube.com/watch?v=5Iuz3BYmzBQ&t=205s",
+      "at": "3:25"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2025-07-21",
+     "when": "July 2025",
+     "text": "In July 2025, Equity Mates reported BlackRock’s share price dropped about 6% despite strong AUM, with a single institutional client redeeming US$52 billion. It suggested the market reacted to the earnings detail and client concentration risk in flows.",
+     "episode": {
+      "title": "Card fees to go, Pimp my Portfolio & BlackRock lost $52 billion in one go",
+      "url": "https://equitymates.com/episode/card-fees-to-go-pimp-my-portfolio-blackrock-lost-52-billion-in-one-go/",
+      "jump": "https://www.youtube.com/watch?v=ZLCmrceevTU&t=948s",
+      "at": "15:48"
+     }
+    }
+   ]
+  }
+ ]
+}

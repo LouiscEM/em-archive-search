@@ -1,0 +1,58 @@
+{
+ "slug": "idexx-laboratories-idxx",
+ "name": "IDEXX Laboratories",
+ "full": "IDEXX Laboratories",
+ "listings": [
+  "NASDAQ: IDXX"
+ ],
+ "built": "2026-11-01",
+ "episodes": 1,
+ "mentioned_in": 2,
+ "latest": "2026-07-13",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2026-07-13",
+     "when": "July 2026",
+     "text": "In July 2026, Equity Mates described IDEXX Laboratories' vet lab equipment and diagnostic tests as widely used in clinics, with machines installed once and consumables required for each test.",
+     "episode": {
+      "title": "Pet Care: Australia Has More Pets Than People | The Decade Ahead",
+      "url": "https://equitymates.com/episode/pet-care-australia-has-more-pets-than-people-the-decade-ahead/",
+      "jump": "https://www.youtube.com/watch?v=E6lfTucRXX4&t=1730s",
+      "at": "28:50"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2026-07-13",
+     "when": "July 2026",
+     "text": "In July 2026, Equity Mates said IDEXX Laboratories followed a classic printer and ink model, where installed analysers drove ongoing consumables demand as vets ran more tests, supporting recurring revenue.",
+     "episode": {
+      "title": "Pet Care: Australia Has More Pets Than People | The Decade Ahead",
+      "url": "https://equitymates.com/episode/pet-care-australia-has-more-pets-than-people-the-decade-ahead/",
+      "jump": "https://www.youtube.com/watch?v=E6lfTucRXX4&t=1730s",
+      "at": "28:50"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

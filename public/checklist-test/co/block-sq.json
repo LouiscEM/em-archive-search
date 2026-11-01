@@ -1,0 +1,139 @@
+{
+ "slug": "block-sq",
+ "name": "Block",
+ "full": "Block",
+ "listings": [
+  "ASX: SQ2",
+  "NYSE: SQ",
+  "NYSE: XYZ"
+ ],
+ "built": "2026-10-30",
+ "episodes": 6,
+ "mentioned_in": 90,
+ "latest": "2023-03-29",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2023-01-12",
+     "when": "January 2023",
+     "text": "In January 2023, Equity Mates said Square’s early dongle and easy-to-adopt setup let underserved small merchants accept cards, bringing them into the modern economy, and noted even a large tech rival tried to copy it, highlighting how compelling the product proposition was.",
+     "episode": {
+      "title": "Expert: Harrison Moot - Block | Summer Series",
+      "url": "https://equitymates.com/episode/expert-harrison-moot-block-summer-series/",
+      "jump": "https://www.youtube.com/watch?v=fAO_Q0TE5TM&t=637s",
+      "at": "10:37"
+     }
+    },
+    {
+     "date": "2021-06-23",
+     "when": "June 2021",
+     "text": "In June 2021, an adviser on Equity Mates described Square’s merchant ecosystem beyond the white reader, including POS, payroll, appointments and lending based on sales data, and explained Cash App served underbanked consumers, showing broad, useful products for both merchants and consumers.",
+     "episode": {
+      "title": "Expert Investor: Tim Samway - 25 years searching for disruptive businesses",
+      "url": "https://equitymates.com/episode/expert-investor-tim-samway-25-years-searching-for-disruptive-businesses/",
+      "jump": "https://www.youtube.com/watch?v=AZIW0com0Ho&t=1651s",
+      "at": "27:31"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2023-01-12",
+     "when": "January 2023",
+     "text": "In January 2023, an adviser on Equity Mates outlined how integrating Afterpay with Square’s in-house processing could lift economics by collecting more of the take rate, suggesting improved unit margins versus routing over external networks.",
+     "episode": {
+      "title": "Expert: Harrison Moot - Block | Summer Series",
+      "url": "https://equitymates.com/episode/expert-harrison-moot-block-summer-series/",
+      "jump": "https://www.youtube.com/watch?v=fAO_Q0TE5TM&t=2236s",
+      "at": "37:16"
+     }
+    },
+    {
+     "date": "2021-08-08",
+     "when": "August 2021",
+     "text": "In August 2021, Equity Mates noted Square’s scale with millions of merchants and about 70 million Cash App users and argued the business was much bigger than its Bitcoin exposure, framing disruption risk and network effects as key considerations for sustaining profits.",
+     "episode": {
+      "title": "US Reporting Season Wrap-up | Hearing direct from the tech giant CEOs",
+      "url": "https://equitymates.com/episode/us-reporting-season-wrap-up-hearing-direct-from-the-tech-giant-ceos/",
+      "jump": null,
+      "at": "18:01"
+     }
+    },
+    {
+     "date": "2021-06-23",
+     "when": "June 2021",
+     "text": "In June 2021, Equity Mates discussed the difficult, country-by-country regulatory rollout for Square, but noted the durability of existing Visa and Mastercard rails and suggested banks may become back-office utilities, pointing to a stable industry structure for long-term profitability analysis.",
+     "episode": {
+      "title": "Expert Investor: Tim Samway - 25 years searching for disruptive businesses",
+      "url": "https://equitymates.com/episode/expert-investor-tim-samway-25-years-searching-for-disruptive-businesses/",
+      "jump": "https://www.youtube.com/watch?v=AZIW0com0Ho&t=2155s",
+      "at": "35:55"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2023-01-12",
+     "when": "January 2023",
+     "text": "In January 2023, Equity Mates described Block’s strategy to build a next-generation financial ecosystem spanning payments, banking, credit and blockchain initiatives, indicating management’s intent to reinvest across adjacencies rather than return capital, to deepen integration and growth.",
+     "episode": {
+      "title": "Expanding access to the economy - Block | Summer Series",
+      "url": "https://equitymates.com/episode/expanding-access-to-the-economy-block-summer-series/",
+      "jump": "https://www.youtube.com/watch?v=cWMq4EutiMM&t=800s",
+      "at": "13:20"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2023-03-29",
+     "when": "March 2023",
+     "text": "In March 2023, Equity Mates reported Hindenburg’s short report on Block and the subsequent share price fall, explaining how activist short-seller allegations and potential regulatory attention could weigh on sentiment and what the market was pricing in.",
+     "episode": {
+      "title": "Afterpay's new owner, Block, has been accused of facilitating fraud",
+      "url": "https://equitymates.com/episode/afterpays-new-owner-block-has-been-accused-of-facilitating-fraud/",
+      "jump": null,
+      "at": "0:04"
+     }
+    },
+    {
+     "date": "2023-01-12",
+     "when": "January 2023",
+     "text": "In January 2023, Equity Mates noted Block bought Afterpay for US$39 billion in stock at market highs and that Block’s NYSE shares were about 70% lower while its ASX line was down roughly 50%, highlighting how currency and market repricing affected valuation.",
+     "episode": {
+      "title": "Expanding access to the economy - Block | Summer Series",
+      "url": "https://equitymates.com/episode/expanding-access-to-the-economy-block-summer-series/",
+      "jump": "https://www.youtube.com/watch?v=cWMq4EutiMM&t=666s",
+      "at": "11:06"
+     }
+    },
+    {
+     "date": "2021-11-29",
+     "when": "November 2021",
+     "text": "In November 2021, Equity Mates observed tech stocks were being slammed and included Square among names hit alongside other growth companies, raising the question of whether a bubble had deflated and implying multiples had compressed materially.",
+     "episode": {
+      "title": "Square, PayPal, Spotify, Peloton: Has a bubble burst without us realising?",
+      "url": "https://equitymates.com/episode/em-chat/",
+      "jump": "https://www.youtube.com/watch?v=goHDc6Cjor4&t=267s",
+      "at": "4:27"
+     }
+    }
+   ]
+  }
+ ]
+}

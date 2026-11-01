@@ -1,0 +1,69 @@
+{
+ "slug": "centuria-capital-cni",
+ "name": "Centuria Capital",
+ "full": "Centuria Capital",
+ "listings": [
+  "ASX: CNI"
+ ],
+ "built": "2026-11-01",
+ "episodes": 2,
+ "mentioned_in": 2,
+ "latest": "2025-11-07",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2025-11-07",
+     "when": "November 2025",
+     "text": "In November 2025, a guest on Equity Mates described Centuria Capital as an ASX 200 real estate fund manager with about $20 billion of assets across roughly 400 buildings and seven sectors, offering listed REITs and about 130 unlisted funds, including single asset and open ended portfolios.",
+     "episode": {
+      "title": "The $20 billion commercial property investor - Jason Huljich | Centuria Capital",
+      "url": "https://equitymates.com/episode/the-20-billion-commercial-property-investor-jason-huljich-centuria-capital/",
+      "jump": "https://www.youtube.com/watch?v=Vr9G7X4-JxI&t=115s",
+      "at": "1:55"
+     }
+    },
+    {
+     "date": "2025-04-11",
+     "when": "April 2025",
+     "text": "In April 2025, Equity Mates noted Centuria managed two ASX-listed REITs in Australia and one in New Zealand, and oversaw around 140 funds, highlighting a broad platform to access office, industrial and other commercial property trends.",
+     "episode": {
+      "title": "Office Pain, Industrial Gain: Opportunities in Commercial Property - Jason Huljich | Centuria",
+      "url": "https://equitymates.com/episode/office-pain-industrial-gain-opportunities-in-commercial-property-jason-huljich-centuria/",
+      "jump": "https://www.youtube.com/watch?v=yw91ZusVxZQ&t=81s",
+      "at": "1:21"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2025-11-07",
+     "when": "November 2025",
+     "text": "In November 2025, a guest on Equity Mates said Centuria’s platform included the largest sector specific office REIT and the largest sector specific industrial REIT in Australia, indicating significant scale, with about $4 billion in industrial assets and about $2 billion in office assets.",
+     "episode": {
+      "title": "The $20 billion commercial property investor - Jason Huljich | Centuria Capital",
+      "url": "https://equitymates.com/episode/the-20-billion-commercial-property-investor-jason-huljich-centuria-capital/",
+      "jump": "https://www.youtube.com/watch?v=Vr9G7X4-JxI&t=115s",
+      "at": "1:55"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

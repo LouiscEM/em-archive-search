@@ -1,0 +1,93 @@
+{
+ "slug": "maas-mgh",
+ "name": "Maas",
+ "full": "Maas Group",
+ "listings": [
+  "ASX: MGH"
+ ],
+ "built": "2026-11-01",
+ "episodes": 2,
+ "mentioned_in": 2,
+ "latest": "2026-01-19",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2026-01-19",
+     "when": "January 2026",
+     "text": "In January 2026, Equity Mates said Maas Group spanned construction materials, equipment rental and sales, plus residential and commercial building, and had won electrical work for new data centres in Tasmania, showing its services were used on major projects.",
+     "episode": {
+      "title": "We're back: 4 big investing themes & our Stocks of the Year",
+      "url": "https://equitymates.com/episode/were-back-big-themes-big-opportunities-the-stock-of-the-year/",
+      "jump": "https://www.youtube.com/watch?v=4nVjeTwKtMc&t=507s",
+      "at": "8:27"
+     }
+    },
+    {
+     "date": "2025-01-20",
+     "when": "January 2025",
+     "text": "In January 2025, Equity Mates described Maas Group as vertically integrated, from owning quarries and civil hire to manufacturing and developing commercial and residential projects, and noted its equipment had been used on Snowy 2.0, WestConnex and major Melbourne infrastructure.",
+     "episode": {
+      "title": "We're back for 2025: Stock of the Year & Bold Predictions",
+      "url": "https://equitymates.com/episode/were-back-for-2025-stock-of-the-year-bold-predictions/",
+      "jump": "https://www.youtube.com/watch?v=B1_O59KW54Q&t=2068s",
+      "at": "34:28"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2025-01-20",
+     "when": "January 2025",
+     "text": "In January 2025, Equity Mates noted a four year earnings per share compound growth rate of 22%, while much of growth came from acquisitions, and said its vertical integration across materials to development was central to how it competes.",
+     "episode": {
+      "title": "We're back for 2025: Stock of the Year & Bold Predictions",
+      "url": "https://equitymates.com/episode/were-back-for-2025-stock-of-the-year-bold-predictions/",
+      "jump": "https://www.youtube.com/watch?v=B1_O59KW54Q&t=2068s",
+      "at": "34:28"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2025-01-20",
+     "when": "January 2025",
+     "text": "In January 2025, Equity Mates said much of Maas Group’s recent growth had been funded by acquisitions, flagging this as a potential red flag in management’s capital allocation.",
+     "episode": {
+      "title": "We're back for 2025: Stock of the Year & Bold Predictions",
+      "url": "https://equitymates.com/episode/were-back-for-2025-stock-of-the-year-bold-predictions/",
+      "jump": "https://www.youtube.com/watch?v=B1_O59KW54Q&t=2068s",
+      "at": "34:28"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2025-01-20",
+     "when": "January 2025",
+     "text": "In January 2025, Equity Mates said the company traded on a price to earnings multiple of about 21, discussed alongside a four year EPS compound growth rate of 22%.",
+     "episode": {
+      "title": "We're back for 2025: Stock of the Year & Bold Predictions",
+      "url": "https://equitymates.com/episode/were-back-for-2025-stock-of-the-year-bold-predictions/",
+      "jump": "https://www.youtube.com/watch?v=B1_O59KW54Q&t=2068s",
+      "at": "34:28"
+     }
+    }
+   ]
+  }
+ ]
+}

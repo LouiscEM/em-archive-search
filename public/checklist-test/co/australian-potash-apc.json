@@ -1,0 +1,91 @@
+{
+ "slug": "australian-potash-apc",
+ "name": "Australian Potash",
+ "full": "Australian Potash Company",
+ "listings": [
+  "ASX: APC"
+ ],
+ "built": "2026-11-01",
+ "episodes": 3,
+ "mentioned_in": 5,
+ "latest": "2022-09-19",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2022-09-02",
+     "when": "September 2022",
+     "text": "In September 2022, Equity Mates said Australian Potash’s Lake Wells project advanced, with brine bore flow modelling indicating higher brine grades, a longer life of mine and lower initial capital costs.",
+     "episode": {
+      "title": "It's our birthday! We review all our Order Pad stocks 🎂 Pt I",
+      "url": "https://equitymates.com/episode/its-our-birthday-we-review-all-our-order-pad-stocks-%f0%9f%8e%82-pt-i/",
+      "jump": null,
+      "at": "19:07"
+     }
+    },
+    {
+     "date": "2021-11-12",
+     "when": "November 2021",
+     "text": "In November 2021, Equity Mates outlined Australian Potash as a sulphate of potash developer focused on the Lake Wells SOP project, with additional gold and base metals tenements in Western Australia.",
+     "episode": {
+      "title": "Our Order Pad | Australian Potash Company (APC:ASX) & Blackstone Minerals (BSX:ASX)",
+      "url": "https://equitymates.com/episode/our-order-pad-australian-potash-company-apcasx-blackstone-minerals-bsxasx/",
+      "jump": null,
+      "at": "3:20"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2022-09-19",
+     "when": "September 2022",
+     "text": "In September 2022, Equity Mates described Australian Potash as a very small-cap, high-growth, future‑facing commodities play positioned for the long term.",
+     "episode": {
+      "title": "Tips from two top financial advisors | Talk Money to Me crossover",
+      "url": "https://equitymates.com/episode/em-chat-tmtm-crossover-episode/",
+      "jump": null,
+      "at": "10:14"
+     }
+    },
+    {
+     "date": "2022-09-02",
+     "when": "September 2022",
+     "text": "In September 2022, Equity Mates noted project updates pointing to higher brine grades, a longer-life operation and lower initial capital costs at Lake Wells, which they said strengthened the project’s outlook.",
+     "episode": {
+      "title": "It's our birthday! We review all our Order Pad stocks 🎂 Pt I",
+      "url": "https://equitymates.com/episode/its-our-birthday-we-review-all-our-order-pad-stocks-%f0%9f%8e%82-pt-i/",
+      "jump": null,
+      "at": "19:07"
+     }
+    },
+    {
+     "date": "2021-11-12",
+     "when": "November 2021",
+     "text": "In November 2021, Equity Mates highlighted forecasts that global potash demand could double by the late 2040s, framing a long runway for the commodity Australian Potash plans to produce.",
+     "episode": {
+      "title": "Our Order Pad | Australian Potash Company (APC:ASX) & Blackstone Minerals (BSX:ASX)",
+      "url": "https://equitymates.com/episode/our-order-pad-australian-potash-company-apcasx-blackstone-minerals-bsxasx/",
+      "jump": null,
+      "at": "3:20"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

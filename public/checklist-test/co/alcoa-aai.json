@@ -1,0 +1,115 @@
+{
+ "slug": "alcoa-aai",
+ "name": "Alcoa",
+ "full": "Alcoa Corporation",
+ "listings": [
+  "ASX: AAI"
+ ],
+ "built": "2026-11-01",
+ "episodes": 3,
+ "mentioned_in": 4,
+ "latest": "2026-10-09",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2026-10-09",
+     "when": "October 2026",
+     "text": "In October 2026, Equity Mates highlighted aluminium demand tailwinds for Alcoa’s products, citing uses in electric vehicles, wind turbines, solar cells and ultra high voltage cables, and noted aluminium’s role as a copper substitute when copper prices were high.",
+     "episode": {
+      "title": "6 Aussie miners winning thanks to AI and robotics",
+      "url": "https://equitymates.com/episode/6-aussie-miners-wining-thanks-to-ai-and-robotics/",
+      "jump": "https://www.youtube.com/watch?v=aCXeJX-S8NQ&t=175s",
+      "at": "2:55"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2026-10-09",
+     "when": "October 2026",
+     "text": "In October 2026, Equity Mates said rising aluminium supply from China and new exporters like Indonesia risked capping prices despite steady demand, implying pressure on producers’ margins and profitability.",
+     "episode": {
+      "title": "6 Aussie miners winning thanks to AI and robotics",
+      "url": "https://equitymates.com/episode/6-aussie-miners-wining-thanks-to-ai-and-robotics/",
+      "jump": "https://www.youtube.com/watch?v=aCXeJX-S8NQ&t=175s",
+      "at": "2:55"
+     }
+    },
+    {
+     "date": "2026-04-17",
+     "when": "April 2026",
+     "text": "In April 2026, Equity Mates noted about 5% of global aluminium smelting capacity in the Middle East was damaged, worsening a pre-existing deficit and spiking prices, which could temporarily lift producer profitability.",
+     "episode": {
+      "title": "Buy or Sell: 5 Aussie stocks flying in 2026 with Jun Bei Liu & Anthony Aboud",
+      "url": "https://equitymates.com/episode/buy-or-sell-5-aussie-stocks-flying-in-2026-with-jun-bei-liu-anthony-aboud/",
+      "jump": "https://www.youtube.com/watch?v=vhNbVgBXc1o&t=443s",
+      "at": "7:23"
+     }
+    },
+    {
+     "date": "2026-02-18",
+     "when": "February 2026",
+     "text": "In February 2026, an adviser on Equity Mates described aluminium as a poor man’s copper and said decades of recurring oversupply had characterised the market, suggesting persistent industry headwinds for sustained above-market profits.",
+     "episode": {
+      "title": "What a commodity supercycle would mean for Australia - Greg Cassidy | Milford",
+      "url": "https://equitymates.com/episode/what-a-commodity-supercycle-would-mean-for-australia-greg-cassidy-milford/",
+      "jump": "https://www.youtube.com/watch?v=qTHciavv_Ac&t=1210s",
+      "at": "20:10"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2026-10-09",
+     "when": "October 2026",
+     "text": "In October 2026, Equity Mates reported Alcoa recently purchased an asset from South 32, describing it as doubling down on aluminium, which showed a preference for deploying capital into core production capacity.",
+     "episode": {
+      "title": "6 Aussie miners winning thanks to AI and robotics",
+      "url": "https://equitymates.com/episode/6-aussie-miners-wining-thanks-to-ai-and-robotics/",
+      "jump": "https://www.youtube.com/watch?v=aCXeJX-S8NQ&t=175s",
+      "at": "2:55"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2026-10-09",
+     "when": "October 2026",
+     "text": "In October 2026, Equity Mates noted Alcoa’s share price was up 20% over the past 12 months as investors focused on EV demand and aluminium’s role as a copper substitute.",
+     "episode": {
+      "title": "6 Aussie miners winning thanks to AI and robotics",
+      "url": "https://equitymates.com/episode/6-aussie-miners-wining-thanks-to-ai-and-robotics/",
+      "jump": "https://www.youtube.com/watch?v=aCXeJX-S8NQ&t=153s",
+      "at": "2:33"
+     }
+    },
+    {
+     "date": "2026-04-17",
+     "when": "April 2026",
+     "text": "In April 2026, Equity Mates said Alcoa’s share price was up 30% for the year and was extremely sensitive to aluminium prices, with the recent price spike linked to disrupted Middle East smelting capacity.",
+     "episode": {
+      "title": "Buy or Sell: 5 Aussie stocks flying in 2026 with Jun Bei Liu & Anthony Aboud",
+      "url": "https://equitymates.com/episode/buy-or-sell-5-aussie-stocks-flying-in-2026-with-jun-bei-liu-anthony-aboud/",
+      "jump": "https://www.youtube.com/watch?v=vhNbVgBXc1o&t=443s",
+      "at": "7:23"
+     }
+    }
+   ]
+  }
+ ]
+}

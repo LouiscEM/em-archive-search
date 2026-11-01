@@ -1,0 +1,126 @@
+{
+ "slug": "airtasker-art",
+ "name": "Airtasker",
+ "full": "Airtasker",
+ "listings": [
+  "ASX: ART"
+ ],
+ "built": "2026-10-30",
+ "episodes": 4,
+ "mentioned_in": 10,
+ "latest": "2024-02-06",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2024-02-06",
+     "when": "February 2024",
+     "text": "In February 2024, Equity Mates explained Airtasker as an Australian app where people posted tasks they needed done and were matched with others able to do them, placing it within the sharing economy for side hustles.",
+     "episode": {
+      "title": "Boost your income: Side hustles that paid off big time | Summer Series",
+      "url": "https://equitymates.com/episode/boost-your-income-side-hustles-that-paid-off-big-time-summer-series/",
+      "jump": "https://www.youtube.com/watch?v=PI4hXT_VQto&t=1267s",
+      "at": "21:07"
+     }
+    },
+    {
+     "date": "2022-06-09",
+     "when": "June 2022",
+     "text": "In June 2022, a guest on Equity Mates described Airtasker as an online marketplace connecting people who need work with people who want to work, bringing e-commerce-like simplicity to local services and creating flexible job opportunities.",
+     "episode": {
+      "title": "Tim Fung - Scaling a global two-sided marketplace | Airtasker Co-founder & CEO",
+      "url": "https://equitymates.com/episode/tim-fung-scaling-a-global-two-sided-marketplace-airtasker-co-founder-ceo/",
+      "jump": null,
+      "at": "1:04"
+     }
+    },
+    {
+     "date": "2022-05-13",
+     "when": "May 2022",
+     "text": "In May 2022, Equity Mates used Airtasker as an example of a gig-economy, two-sided marketplace that enabled one-off jobs like furniture assembly without long-term commitments.",
+     "episode": {
+      "title": "What's the deal with the gig economy?",
+      "url": "https://equitymates.com/episode/whats-the-deal-with-the-gig-economy/",
+      "jump": null,
+      "at": "3:23"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2022-06-09",
+     "when": "June 2022",
+     "text": "In June 2022, a guest on Equity Mates said marketplaces took time to build liquidity but, once established, network effects increased customer value as more skills and faster matching attracted both task posters and workers.",
+     "episode": {
+      "title": "Tim Fung - Scaling a global two-sided marketplace | Airtasker Co-founder & CEO",
+      "url": "https://equitymates.com/episode/tim-fung-scaling-a-global-two-sided-marketplace-airtasker-co-founder-ceo/",
+      "jump": null,
+      "at": "7:08"
+     }
+    },
+    {
+     "date": "2021-11-09",
+     "when": "November 2021",
+     "text": "In November 2021, Equity Mates raised a risk that contractors bypassed Airtasker after an initial job to avoid platform fees, suggesting leakage that could weaken the business model over time.",
+     "episode": {
+      "title": "ASX week: Adam Dawes - Buy, Hold, Sell",
+      "url": "https://equitymates.com/episode/asx-week-adam-dawes-buy-hold-sell/",
+      "jump": "https://www.youtube.com/watch?v=yaSRUwKM4Os&t=1001s",
+      "at": "16:41"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2022-06-09",
+     "when": "June 2022",
+     "text": "In June 2022, a guest on Equity Mates said Airtasker acquired Oneflare, adding about 30 percent more customers and aiming to strengthen network effects, broaden tradie categories and integrate the team.",
+     "episode": {
+      "title": "Tim Fung - Scaling a global two-sided marketplace | Airtasker Co-founder & CEO",
+      "url": "https://equitymates.com/episode/tim-fung-scaling-a-global-two-sided-marketplace-airtasker-co-founder-ceo/",
+      "jump": null,
+      "at": "22:27"
+     }
+    },
+    {
+     "date": "2021-11-09",
+     "when": "November 2021",
+     "text": "In November 2021, Equity Mates noted Airtasker raised additional capital for an acquisition only a few months after listing, saying it surprised investors who expected the IPO funds to last longer.",
+     "episode": {
+      "title": "ASX week: Adam Dawes - Buy, Hold, Sell",
+      "url": "https://equitymates.com/episode/asx-week-adam-dawes-buy-hold-sell/",
+      "jump": "https://www.youtube.com/watch?v=yaSRUwKM4Os&t=1001s",
+      "at": "16:41"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2021-11-09",
+     "when": "November 2021",
+     "text": "In November 2021, Equity Mates said Airtasker’s share price rallied after listing then plateaued, and that a follow-on capital raise for an acquisition soon after listing dented sentiment toward the company.",
+     "episode": {
+      "title": "ASX week: Adam Dawes - Buy, Hold, Sell",
+      "url": "https://equitymates.com/episode/asx-week-adam-dawes-buy-hold-sell/",
+      "jump": "https://www.youtube.com/watch?v=yaSRUwKM4Os&t=1001s",
+      "at": "16:41"
+     }
+    }
+   ]
+  }
+ ]
+}

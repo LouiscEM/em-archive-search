@@ -1,0 +1,81 @@
+{
+ "slug": "austal-asb",
+ "name": "Austal",
+ "full": "Austal",
+ "listings": [
+  "ASX: ASB"
+ ],
+ "built": "2026-11-01",
+ "episodes": 2,
+ "mentioned_in": 3,
+ "latest": "2024-06-11",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2024-06-11",
+     "when": "June 2024",
+     "text": "In June 2024, a guest on Equity Mates said Austal was a rare Aussie-listed US defence prime contractor that had built 12% of the current US Navy surface fleet, highlighting the scale and importance of its shipbuilding capability.",
+     "episode": {
+      "title": "Buy or Sell: Lucas Goode - Xero, NextDC, Brainchip, Cettire + more",
+      "url": "https://equitymates.com/episode/buy-or-sell-lucas-goode-xero-nextdc-brainchip-cettire-more/",
+      "jump": "https://www.youtube.com/watch?v=k6x_OwWwzyM&t=689s",
+      "at": "11:29"
+     }
+    },
+    {
+     "date": "2020-12-23",
+     "when": "December 2020",
+     "text": "In December 2020, Equity Mates described Austal as an ASX-listed shipbuilder and defence contractor that built ships and high speed support vessels, framing its core product offering in the defence market.",
+     "episode": {
+      "title": "Summer Series: Electro Optic Systems (ASX: EOS)",
+      "url": "https://equitymates.com/episode/summer-series-electro-optic-systems-asx-eos/",
+      "jump": null,
+      "at": "13:44"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2024-06-11",
+     "when": "June 2024",
+     "text": "In June 2024, a guest on Equity Mates argued rising global defence spending and government recognition made Austal strategically important, with Australian Navy programs set to keep its shipyard full for about 15 years and a meaningful US industrial base presence.",
+     "episode": {
+      "title": "Buy or Sell: Lucas Goode - Xero, NextDC, Brainchip, Cettire + more",
+      "url": "https://equitymates.com/episode/buy-or-sell-lucas-goode-xero-nextdc-brainchip-cettire-more/",
+      "jump": "https://www.youtube.com/watch?v=k6x_OwWwzyM&t=689s",
+      "at": "11:29"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2024-06-11",
+     "when": "June 2024",
+     "text": "In June 2024, a guest on Equity Mates said Austal’s shares were trading around NTI backing despite a $25 billion order book, suggesting the market did not reflect its contracted workload.",
+     "episode": {
+      "title": "Buy or Sell: Lucas Goode - Xero, NextDC, Brainchip, Cettire + more",
+      "url": "https://equitymates.com/episode/buy-or-sell-lucas-goode-xero-nextdc-brainchip-cettire-more/",
+      "jump": "https://www.youtube.com/watch?v=k6x_OwWwzyM&t=689s",
+      "at": "11:29"
+     }
+    }
+   ]
+  }
+ ]
+}

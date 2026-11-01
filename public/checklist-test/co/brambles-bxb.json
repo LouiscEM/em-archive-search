@@ -1,0 +1,115 @@
+{
+ "slug": "brambles-bxb",
+ "name": "Brambles",
+ "full": "Brambles",
+ "listings": [
+  "ASX: BXB"
+ ],
+ "built": "2026-10-30",
+ "episodes": 6,
+ "mentioned_in": 13,
+ "latest": "2026-07-31",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2022-06-02",
+     "when": "June 2022",
+     "text": "In June 2022, a guest on Equity Mates described Brambles as vital to global supply chains, reducing wastage through a closed-loop pallet rental system that reuses pallets and focuses on sustainable timber sourcing and replanting.",
+     "episode": {
+      "title": "Expert: Nathan Hughes - The complexity of ESG & Three ASX stocks | Perpetual",
+      "url": "https://equitymates.com/episode/expert-nathan-hughes-the-complexity-of-esg-three-asx-stocks-perpetual/",
+      "jump": null,
+      "at": "32:22"
+     }
+    },
+    {
+     "date": "2022-03-07",
+     "when": "March 2022",
+     "text": "In March 2022, Equity Mates highlighted Brambles’ CHEP pallets as widely used to move goods in Australia and globally, while noting supply chain disruptions and lumber shortages that affected operations.",
+     "episode": {
+      "title": "Breaking down the supply chain - Apple, Maersk, Home Depot & more| Quartr Reporting Season",
+      "url": "https://equitymates.com/episode/breaking-down-the-supply-chain-apple-maersk-home-depot-more-quartr-reporting-season/",
+      "jump": "https://www.youtube.com/watch?v=mw-4S48zl-I&t=269s",
+      "at": "4:29"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2024-07-29",
+     "when": "July 2024",
+     "text": "In July 2024, Equity Mates explained CHEP’s powerful network effect across trucking, manufacturing, warehousing and retail, saying most players have accounts and that starting a rival is extremely hard despite competitors like Loscam.",
+     "episode": {
+      "title": "We're searching for the world's best moat, 1 million people working for you & Pimp my Portfolio",
+      "url": "https://equitymates.com/episode/were-searching-for-the-worlds-best-moat-1-million-people-working-for-you-pimp-my-portfolio/",
+      "jump": "https://www.youtube.com/watch?v=G8ubhCeZVSk&t=1960s",
+      "at": "32:40"
+     }
+    },
+    {
+     "date": "2022-03-07",
+     "when": "March 2022",
+     "text": "In March 2022, Equity Mates reported Brambles’ earnings showed 8% group revenue growth with pricing contributing 8 points, flat volumes due to pallet availability, and customer wins in Europe and APAC, indicating it lifted prices in a tight supply environment.",
+     "episode": {
+      "title": "Breaking down the supply chain - Apple, Maersk, Home Depot & more| Quartr Reporting Season",
+      "url": "https://equitymates.com/episode/breaking-down-the-supply-chain-apple-maersk-home-depot-more-quartr-reporting-season/",
+      "jump": "https://www.youtube.com/watch?v=mw-4S48zl-I&t=435s",
+      "at": "7:15"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2025-12-04",
+     "when": "December 2025",
+     "text": "In December 2025, a guest on Equity Mates praised management teams aligned to return on capital and cited Brambles as an example, saying incentives focused on returns rather than empire building signalled disciplined capital allocation.",
+     "episode": {
+      "title": "Best of the Best: AI Hype, China Risk & Australia's Best Stocks - Julia Weng | Paradice Investments",
+      "url": "https://equitymates.com/episode/best-of-the-best-ai-hype-china-risk-australias-best-stocks-julia-weng-paradice-investments/",
+      "jump": "https://www.youtube.com/watch?v=DgCMnr2fVC8&t=312s",
+      "at": "5:12"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2026-07-31",
+     "when": "July 2026",
+     "text": "In July 2026, Equity Mates noted Brambles had a 3.24% dividend yield with around 20% franking during a discussion about income stocks.",
+     "episode": {
+      "title": "Income imposters or dividend darlings? We put 5 Aussie stocks to the test",
+      "url": "https://equitymates.com/episode/income-imposters-or-dividend-darlings-we-put-5-aussie-stocks-to-the-test/",
+      "jump": "https://www.youtube.com/watch?v=NVDDXNYARXI&t=353s",
+      "at": "5:53"
+     }
+    },
+    {
+     "date": "2026-06-02",
+     "when": "June 2026",
+     "text": "In June 2026, an adviser on Equity Mates observed Brambles was among large Australian stocks that moved 10 to 15 percent in a single day in recent months, highlighting volatile pricing.",
+     "episode": {
+      "title": "Beyond the Budget: How Charlie Viola is approaching building wealth | Ask an Adviser",
+      "url": "https://equitymates.com/episode/beyond-the-budget-how-charlie-viola-is-approaching-building-wealth-ask-an-adviser/",
+      "jump": "https://www.youtube.com/watch?v=3OI0IGxNb5Y&t=1785s",
+      "at": "29:45"
+     }
+    }
+   ]
+  }
+ ]
+}

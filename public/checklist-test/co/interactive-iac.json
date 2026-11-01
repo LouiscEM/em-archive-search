@@ -1,0 +1,91 @@
+{
+ "slug": "interactive-iac",
+ "name": "Interactive",
+ "full": "Interactive Corp",
+ "listings": [
+  "NASDAQ: IAC"
+ ],
+ "built": "2026-10-30",
+ "episodes": 3,
+ "mentioned_in": 19,
+ "latest": "2022-12-12",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2022-12-12",
+     "when": "December 2022",
+     "text": "In December 2022, Equity Mates noted IAC had created and spun out well-known platforms such as Expedia and TripAdvisor, showing it nurtured sizeable consumer services.",
+     "episode": {
+      "title": "Bryce v Ren: 2022's Stock of the Year",
+      "url": "https://equitymates.com/episode/em-chat-stock-of-the-year/",
+      "jump": "https://www.youtube.com/watch?v=rjQ40y3SMF0&t=1197s",
+      "at": "19:57"
+     }
+    },
+    {
+     "date": "2022-02-07",
+     "when": "February 2022",
+     "text": "In February 2022, Equity Mates said IAC owned or had owned widely used online services like Vimeo and Investopedia, highlighting its portfolio of consumer internet products.",
+     "episode": {
+      "title": "Stock Of The Year 2022 | Ren's shaking in his boots",
+      "url": "https://equitymates.com/episode/stock-of-the-year-2022-rens-shaking-in-his-boots/",
+      "jump": "https://www.youtube.com/watch?v=lHWKdUUv25I&t=275s",
+      "at": "4:35"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": []
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2022-12-12",
+     "when": "December 2022",
+     "text": "In December 2022, Equity Mates described IAC as an anti conglomerate that spun out 11 public companies over 25 years, distributing shares to investors rather than building a sprawling empire.",
+     "episode": {
+      "title": "Bryce v Ren: 2022's Stock of the Year",
+      "url": "https://equitymates.com/episode/em-chat-stock-of-the-year/",
+      "jump": "https://www.youtube.com/watch?v=rjQ40y3SMF0&t=1197s",
+      "at": "19:57"
+     }
+    },
+    {
+     "date": "2022-11-28",
+     "when": "November 2022",
+     "text": "In November 2022, Equity Mates contrasted another acquirer with IAC, saying IAC’s model was to spin businesses out rather than roll them up, underscoring its unique approach to capital allocation.",
+     "episode": {
+      "title": "12 stocks for the next 12 months",
+      "url": "https://equitymates.com/episode/12-stocks-for-the-next-12-months/",
+      "jump": "https://www.youtube.com/watch?v=f7myeVH9q3Y&t=1107s",
+      "at": "18:27"
+     }
+    },
+    {
+     "date": "2022-02-07",
+     "when": "February 2022",
+     "text": "In February 2022, Equity Mates explained IAC aggregated internet businesses into units and regularly spun them off, giving shareholders stock in the new entities as part of its capital allocation playbook.",
+     "episode": {
+      "title": "Stock Of The Year 2022 | Ren's shaking in his boots",
+      "url": "https://equitymates.com/episode/stock-of-the-year-2022-rens-shaking-in-his-boots/",
+      "jump": "https://www.youtube.com/watch?v=lHWKdUUv25I&t=275s",
+      "at": "4:35"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

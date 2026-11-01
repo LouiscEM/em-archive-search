@@ -1,0 +1,80 @@
+{
+ "slug": "nanoveu-nvu",
+ "name": "Nanoveu",
+ "full": "NVU Limited",
+ "listings": [
+  "ASX: NVU"
+ ],
+ "built": "2026-11-01",
+ "episodes": 2,
+ "mentioned_in": 2,
+ "latest": "2026-03-09",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2026-03-09",
+     "when": "March 2026",
+     "text": "In March 2026, Equity Mates described NVU as a concept stock pursuing low power AI chips after recently pivoting from products like TV screens and 3D glasses.",
+     "episode": {
+      "title": "Don’t panic sell, an Aussie minerals community stock pick & Emerging markets 101",
+      "url": "https://equitymates.com/episode/dont-panic-sell-an-aussie-minerals-community-stock-pick-emerging-markets-101/",
+      "jump": "https://www.youtube.com/watch?v=5MtuYI1rOk4&t=663s",
+      "at": "11:03"
+     }
+    },
+    {
+     "date": "2026-02-23",
+     "when": "February 2026",
+     "text": "In February 2026, Equity Mates outlined NVU's major pivot from antiviral smartphone screen protectors and glasses-free 3D displays to chasing the AI boom.",
+     "episode": {
+      "title": "Beer tax beats Big Oil, a bold small cap for the Community Portfolio & the $880 billion space economy",
+      "url": "https://equitymates.com/episode/beer-tax-a-bold-small-cap-for-the-community-portfolio-the-880-billion-space-economy/",
+      "jump": null,
+      "at": "8:52"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2026-03-09",
+     "when": "March 2026",
+     "text": "In March 2026, Equity Mates said NVU was pre-revenue and not making any money, raising uncertainty about earnings durability as it tried to develop low power AI chips.",
+     "episode": {
+      "title": "Don’t panic sell, an Aussie minerals community stock pick & Emerging markets 101",
+      "url": "https://equitymates.com/episode/dont-panic-sell-an-aussie-minerals-community-stock-pick-emerging-markets-101/",
+      "jump": "https://www.youtube.com/watch?v=5MtuYI1rOk4&t=663s",
+      "at": "11:03"
+     }
+    },
+    {
+     "date": "2026-02-23",
+     "when": "February 2026",
+     "text": "In February 2026, Equity Mates expressed nerves about NVU's major pivot from screen technology to AI, questioning the shift as they asked for the bull case.",
+     "episode": {
+      "title": "Beer tax beats Big Oil, a bold small cap for the Community Portfolio & the $880 billion space economy",
+      "url": "https://equitymates.com/episode/beer-tax-a-bold-small-cap-for-the-community-portfolio-the-880-billion-space-economy/",
+      "jump": null,
+      "at": "8:52"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

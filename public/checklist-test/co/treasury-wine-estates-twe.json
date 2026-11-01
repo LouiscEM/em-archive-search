@@ -1,0 +1,115 @@
+{
+ "slug": "treasury-wine-estates-twe",
+ "name": "Treasury Wine Estates",
+ "full": "Treasury Wine Estates",
+ "listings": [
+  "ASX: TWE"
+ ],
+ "built": "2026-10-30",
+ "episodes": 4,
+ "mentioned_in": 10,
+ "latest": "2021-07-14",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2021-07-14",
+     "when": "July 2021",
+     "text": "In July 2021, a guest on Equity Mates said Treasury Wine Estates needed to place its premium range, likened to Mercedes, into markets outside China, highlighting the strength of its brands despite channel disruption.",
+     "episode": {
+      "title": "Expert Investor: Andrew Brown - Bold Predictions",
+      "url": "https://equitymates.com/episode/expert-investor-andrew-brown-bold-predictions/",
+      "jump": "https://www.youtube.com/watch?v=GVBADZfMIU0&t=3137s",
+      "at": "52:17"
+     }
+    },
+    {
+     "date": "2021-01-20",
+     "when": "January 2021",
+     "text": "In January 2021, Equity Mates explained Treasury Wine Estates was a vertically integrated global wine business, covering grape growing, production, marketing, sales and distribution, which showed control over product and brand.",
+     "episode": {
+      "title": "Summer Series: Treasury Wine Estates Ltd (ASX: TWE)",
+      "url": "https://equitymates.com/episode/summer-series-treasury-wine-estates-ltd-asx-twe/",
+      "jump": null,
+      "at": "1:50"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2021-07-14",
+     "when": "July 2021",
+     "text": "In July 2021, a guest on Equity Mates said about 30% of Treasury Wine Estates’ earnings from China would be missing for the foreseeable future, challenging profitability even as its brand value remained a key asset.",
+     "episode": {
+      "title": "Expert Investor: Andrew Brown - Bold Predictions",
+      "url": "https://equitymates.com/episode/expert-investor-andrew-brown-bold-predictions/",
+      "jump": "https://www.youtube.com/watch?v=GVBADZfMIU0&t=3137s",
+      "at": "52:17"
+     }
+    },
+    {
+     "date": "2020-09-21",
+     "when": "September 2020",
+     "text": "In September 2020, a guest on Equity Mates said Chinese investigations into Australian wine exports pushed Treasury Wine Estates down 14% for the month, showing how China exposure weighed on returns.",
+     "episode": {
+      "title": "Expert Investor: Market & Watchlist Update With Julia Lee",
+      "url": "https://equitymates.com/episode/expert-investor-market-watchlist-update-with-julia-lee/",
+      "jump": null,
+      "at": "18:32"
+     }
+    },
+    {
+     "date": "2020-08-20",
+     "when": "August 2020",
+     "text": "In August 2020, Equity Mates reported Treasury Wine Estates’ revenue fell 7% and profit fell 36%, and noted a Chinese anti dumping investigation that hit the share price and threatened profitability.",
+     "episode": {
+      "title": "EM Chat: ASX Reporting Season - Winners & Losers",
+      "url": "https://equitymates.com/episode/em-chat-asx-reporting-season-winners-losers/",
+      "jump": null,
+      "at": "24:55"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2021-07-14",
+     "when": "July 2021",
+     "text": "In July 2021, a guest on Equity Mates said Treasury Wine Estates planned to redirect its premium range into the US and other markets after losing China, outlining a pathway to keep the business growing.",
+     "episode": {
+      "title": "Expert Investor: Andrew Brown - Bold Predictions",
+      "url": "https://equitymates.com/episode/expert-investor-andrew-brown-bold-predictions/",
+      "jump": "https://www.youtube.com/watch?v=GVBADZfMIU0&t=3137s",
+      "at": "52:17"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2021-07-14",
+     "when": "July 2021",
+     "text": "In July 2021, a guest on Equity Mates noted that if Treasury Wine Estates’ share price fell materially, its strong brands could become attractive, framing valuation in light of the China earnings shortfall.",
+     "episode": {
+      "title": "Expert Investor: Andrew Brown - Bold Predictions",
+      "url": "https://equitymates.com/episode/expert-investor-andrew-brown-bold-predictions/",
+      "jump": "https://www.youtube.com/watch?v=GVBADZfMIU0&t=3137s",
+      "at": "52:17"
+     }
+    }
+   ]
+  }
+ ]
+}

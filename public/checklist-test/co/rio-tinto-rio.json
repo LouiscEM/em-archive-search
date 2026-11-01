@@ -1,0 +1,148 @@
+{
+ "slug": "rio-tinto-rio",
+ "name": "Rio Tinto",
+ "full": "Rio Tinto",
+ "listings": [
+  "ASX: RIO"
+ ],
+ "built": "2026-10-30",
+ "episodes": 8,
+ "mentioned_in": 55,
+ "latest": "2026-08-13",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2026-07-16",
+     "when": "July 2026",
+     "text": "In July 2026, Equity Mates noted Rio Tinto had significant copper exposure and had pushed harder into lithium than BHP, showing a diversified, future-facing minerals portfolio.",
+     "episode": {
+      "title": "Electrification: Australia’s Chance to Power the World | The Decade Ahead",
+      "url": "https://equitymates.com/episode/electrification-australias-chance-to-power-the-world-the-decade-ahead/",
+      "jump": "https://www.youtube.com/watch?v=c45ZJowSvyI&t=1048s",
+      "at": "17:28"
+     }
+    },
+    {
+     "date": "2025-02-06",
+     "when": "February 2025",
+     "text": "In February 2025, Equity Mates highlighted Rio Tinto’s Canadian aluminium operations selling into the US, flagging a substantial aluminium production footprint in North America.",
+     "episode": {
+      "title": "Bryce's 51-page advice, Mr. Beat-Up's top turnaround stock & some Aussie house prices fall",
+      "url": "https://equitymates.com/episode/bryces-51-page-advice-mr-beat-ups-top-turnaround-stock-some-aussie-house-prices-fall/",
+      "jump": "https://www.youtube.com/watch?v=JfcbmIUncak&t=304s",
+      "at": "5:04"
+     }
+    },
+    {
+     "date": "2025-01-27",
+     "when": "January 2025",
+     "text": "In January 2025, Equity Mates explained Westpac expected more iron ore supply as Rio Tinto’s Western Ranges and Simandou projects came online, highlighting the scale of its iron ore product pipeline.",
+     "episode": {
+      "title": "The $1.4 million investment strategy, VDHG v DHHF & Melania's memecoin mayhem",
+      "url": "https://equitymates.com/episode/the-1-4-million-investment-strategy-vdhg-v-dhhf-melanias-memecoin-mayhem/",
+      "jump": "https://www.youtube.com/watch?v=YdYr2sEz25g&t=492s",
+      "at": "8:12"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2026-08-13",
+     "when": "August 2026",
+     "text": "In August 2026, Equity Mates reported underlying net profit rose 43% year on year, driven by higher copper and aluminium prices, indicating earnings were increasingly tied to those commodities and less reliant on iron ore.",
+     "episode": {
+      "title": "3 impressive Aussie companies, how often should you invest & don’t listen to Michael Burry",
+      "url": "https://equitymates.com/episode/3-impressive-aussie-companies-how-often-should-you-invest-dont-listen-to-michael-burry/",
+      "jump": "https://www.youtube.com/watch?v=i9_g__QJyOI&t=288s",
+      "at": "4:48"
+     }
+    },
+    {
+     "date": "2025-02-24",
+     "when": "February 2025",
+     "text": "In February 2025, Equity Mates said Rio Tinto paid its lowest dividend in seven years as profit fell 8%, linking the decline to lower iron ore prices and showing how commodity cycles affected profitability.",
+     "episode": {
+      "title": "Bad news for banks & miners, where did all the dividends go & stocks with freebies",
+      "url": "https://equitymates.com/episode/bad-news-for-banks-miners-where-did-all-the-dividends-go-stocks-with-freebies/",
+      "jump": "https://www.youtube.com/watch?v=hkGW5JdchqY&t=255s",
+      "at": "4:15"
+     }
+    },
+    {
+     "date": "2024-11-04",
+     "when": "November 2024",
+     "text": "In November 2024, Equity Mates cited screen data showing a 51% gross margin and EV to EBITDA of 13, with price to free cash flow 14.8 and PEG 1.4, giving a snapshot of profitability and returns metrics.",
+     "episode": {
+      "title": "How to analyse any stock in 30 seconds, Bitcoin nears record highs & Pimp my Portfolio with Charlie Viola",
+      "url": "https://equitymates.com/episode/how-to-analyse-any-stock-in-30-seconds-bitcoin-nears-record-highs-pimp-my-portfolio-with-charlie-viola/",
+      "jump": "https://www.youtube.com/watch?v=a0iNqfyMCC8&t=1085s",
+      "at": "18:05"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2025-03-11",
+     "when": "March 2025",
+     "text": "In March 2025, Equity Mates noted Rio Tinto announced a $3.50 per share dividend, illustrating its practice of returning cash to shareholders.",
+     "episode": {
+      "title": "How to build passive income with dividends",
+      "url": "https://equitymates.com/episode/how-to-build-passive-income-with-dividends/",
+      "jump": "https://www.youtube.com/watch?v=0GTmBdzUEL0&t=876s",
+      "at": "14:36"
+     }
+    },
+    {
+     "date": "2025-02-24",
+     "when": "February 2025",
+     "text": "In February 2025, Equity Mates added that Rio Tinto cut its dividend to a seven-year low as profit fell, showing a flexible payout that responded to earnings conditions.",
+     "episode": {
+      "title": "Bad news for banks & miners, where did all the dividends go & stocks with freebies",
+      "url": "https://equitymates.com/episode/bad-news-for-banks-miners-where-did-all-the-dividends-go-stocks-with-freebies/",
+      "jump": "https://www.youtube.com/watch?v=hkGW5JdchqY&t=255s",
+      "at": "4:15"
+     }
+    },
+    {
+     "date": "2023-07-24",
+     "when": "July 2023",
+     "text": "In July 2023, Equity Mates described how Rio Tinto exited fossil fuels and pivoted its portfolio towards battery metals, outlining a strategic redeployment of capital.",
+     "episode": {
+      "title": "Mining’s Decarbonisation Opportunity",
+      "url": "https://equitymates.com/episode/minings-decarbonisation-opportunity/",
+      "jump": null,
+      "at": "18:24"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2024-11-04",
+     "when": "November 2024",
+     "text": "In November 2024, Equity Mates shared valuation metrics from a screener for Rio Tinto, including EV to EBITDA of 13, price to free cash flow 14.8 and PEG 1.4, to frame what the market was pricing.",
+     "episode": {
+      "title": "How to analyse any stock in 30 seconds, Bitcoin nears record highs & Pimp my Portfolio with Charlie Viola",
+      "url": "https://equitymates.com/episode/how-to-analyse-any-stock-in-30-seconds-bitcoin-nears-record-highs-pimp-my-portfolio-with-charlie-viola/",
+      "jump": "https://www.youtube.com/watch?v=a0iNqfyMCC8&t=1085s",
+      "at": "18:05"
+     }
+    }
+   ]
+  }
+ ]
+}

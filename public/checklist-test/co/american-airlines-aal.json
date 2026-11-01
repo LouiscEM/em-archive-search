@@ -1,0 +1,92 @@
+{
+ "slug": "american-airlines-aal",
+ "name": "American Airlines",
+ "full": "American Airlines",
+ "listings": [
+  "NASDAQ: AAL"
+ ],
+ "built": "2026-10-30",
+ "episodes": 5,
+ "mentioned_in": 12,
+ "latest": "2023-08-16",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2023-08-16",
+     "when": "August 2023",
+     "text": "In August 2023, Equity Mates said Vertical claimed the highest number of conditional pre-orders from airlines including American Airlines and Virgin Atlantic for its VA-X4 air taxi. This highlighted American Airlines’ interest in emerging electric air taxis ahead of planned services.",
+     "episode": {
+      "title": "It's a bird, it's a plane... No, it's a flying car!",
+      "url": "https://equitymates.com/episode/its-a-bird-its-a-plane-no-its-a-flying-car/",
+      "jump": null,
+      "at": "7:07"
+     }
+    },
+    {
+     "date": "2020-10-11",
+     "when": "October 2020",
+     "text": "In October 2020, Equity Mates noted American Airlines used virtual reality to train crew outside planes, helping familiarise staff with safety procedures before flights. It was presented as a practical training use case beyond gaming.",
+     "episode": {
+      "title": "Industry Deep Dive: Video Game Industry",
+      "url": "https://equitymates.com/episode/deep-dive-video-game-industry/",
+      "jump": null,
+      "at": "18:07"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2023-06-16",
+     "when": "June 2023",
+     "text": "In June 2023, Equity Mates explained the US Justice Department blocked American Airlines and JetBlue from coordinating operations in the US northeast. It was used as a precedent that regulators act when competitors stop competing, limiting profit-boosting alliances.",
+     "episode": {
+      "title": "PGA v LIV: What happens next in this golfing drama?",
+      "url": "https://equitymates.com/episode/pga-v-liv-what-happens-next-in-this-golfing-drama/",
+      "jump": "https://www.youtube.com/watch?v=BW3yz0r2NGH&t=949s",
+      "at": "15:49"
+     }
+    },
+    {
+     "date": "2020-08-09",
+     "when": "August 2020",
+     "text": "In August 2020, Equity Mates reported American Airlines’ revenue fell 86 percent year on year during early Covid, alongside similar drops at United, Delta and Southwest. It illustrated how airline profits can evaporate quickly in downturns.",
+     "episode": {
+      "title": "EM Chat: US Earnings Season - Winners & Losers",
+      "url": "https://equitymates.com/episode/em-chat-us-earnings-season-winners-losers/",
+      "jump": null,
+      "at": "22:55"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2022-08-01",
+     "when": "August 2022",
+     "text": "In August 2022, Equity Mates discussed American Airlines making a first payment on the first 50 of 250 aircraft it had ordered from a company building a new kind of plane. It showed American Airlines committing capital to a speculative fleet upgrade before the aircraft existed.",
+     "episode": {
+      "title": "Earnings season continues as we unpack a few companies that caught our eye",
+      "url": "https://equitymates.com/episode/unknown-companies-that-caught-our-eye/",
+      "jump": "https://www.youtube.com/watch?v=wTpPFfYjJis&t=800s",
+      "at": "13:20"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

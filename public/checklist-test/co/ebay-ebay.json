@@ -1,0 +1,92 @@
+{
+ "slug": "ebay-ebay",
+ "name": "eBay",
+ "full": "eBay",
+ "listings": [
+  "NASDAQ: EBAY"
+ ],
+ "built": "2026-11-01",
+ "episodes": 4,
+ "mentioned_in": 76,
+ "latest": "2026-09-04",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2026-09-04",
+     "when": "September 2026",
+     "text": "In September 2026, Equity Mates mentioned people flogging GPUs on eBay during the crypto mining bust, highlighting the platform’s usefulness for second‑hand hardware and its liquidity when markets turned.",
+     "episode": {
+      "title": "Knowing when to sell: How growth investor Michael Frazis manages risk",
+      "url": "https://equitymates.com/episode/knowing-when-to-sell-how-growth-investor-michael-frazis-manages-risk/",
+      "jump": "https://www.youtube.com/watch?v=xe6Ivnhwlys&t=1612s",
+      "at": "26:52"
+     }
+    },
+    {
+     "date": "2022-10-28",
+     "when": "October 2022",
+     "text": "In October 2022, Equity Mates described eBay as the original online marketplace for collectables and more, noting it launched in Australia in 1999 and was the most visited online shopping site with over 11 million monthly visitors, indicating strong consumer adoption.",
+     "episode": {
+      "title": "Bonus: The booming industry of trading cards | eBay",
+      "url": "https://equitymates.com/episode/bonus-the-booming-industry-of-trading-cards-ebay/",
+      "jump": null,
+      "at": "1:28"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2022-10-28",
+     "when": "October 2022",
+     "text": "In October 2022, Equity Mates said online marketplaces like eBay created depth and liquidity for niche assets such as trading cards by expanding the pool of buyers and sellers, a structural advantage that fuelled growth.",
+     "episode": {
+      "title": "Bonus: The booming industry of trading cards | eBay",
+      "url": "https://equitymates.com/episode/bonus-the-booming-industry-of-trading-cards-ebay/",
+      "jump": null,
+      "at": "14:54"
+     }
+    },
+    {
+     "date": "2022-04-18",
+     "when": "April 2022",
+     "text": "In April 2022, Equity Mates relayed that eBay’s huge marketplace had high barriers to entry from network effects and a very capital‑light model generating strong free cash flow, reasons it was seen as able to sustain profits over time.",
+     "episode": {
+      "title": "The Nomad Partnership Letters: Two of the greatest investors you’ve never heard of",
+      "url": "https://equitymates.com/episode/em-chat-nomad-partnership-letters/",
+      "jump": "https://www.youtube.com/watch?v=xBRC8Jzig4c&t=1406s",
+      "at": "23:26"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2023-02-06",
+     "when": "February 2023",
+     "text": "In February 2023, Equity Mates noted eBay bought 19.5% of Mercado Libre in 2001 to support its expansion and sold the stake in 2016, illustrating a major strategic investment and later exit.",
+     "episode": {
+      "title": "More than the Amazon of South America - Mercado Libre | Summer Series",
+      "url": "https://equitymates.com/episode/more-than-the-amazon-of-south-america-mercado-libre-summer-series/",
+      "jump": "https://www.youtube.com/watch?v=jbRQbXXOoAk&t=245s",
+      "at": "4:05"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

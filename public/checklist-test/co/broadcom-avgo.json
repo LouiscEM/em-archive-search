@@ -1,0 +1,102 @@
+{
+ "slug": "broadcom-avgo",
+ "name": "Broadcom",
+ "full": "Select Broadcom Broadcom",
+ "listings": [
+  "NASDAQ: AVGO"
+ ],
+ "built": "2026-10-30",
+ "episodes": 5,
+ "mentioned_in": 22,
+ "latest": "2026-04-10",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2026-03-06",
+     "when": "March 2026",
+     "text": "In March 2026, Equity Mates explained that Broadcom made application-specific chips rather than general purpose ones, which positioned it to serve different parts of the market and benefit from the surge in AI data centre CapEx.",
+     "episode": {
+      "title": "4 steps to find winning software stocks with Ben Arnold",
+      "url": "https://equitymates.com/episode/4-steps-to-find-winning-software-stocks-with-ben-arnold/",
+      "jump": "https://www.youtube.com/watch?v=4o_MexmZVEw&t=873s",
+      "at": "14:33"
+     }
+    },
+    {
+     "date": "2025-10-17",
+     "when": "October 2025",
+     "text": "In October 2025, a guest on Equity Mates said Nvidia and Broadcom made the hardware that AI runs on, so demand for their products sat at the foundation of the AI economy.",
+     "episode": {
+      "title": "How Loftus Peak Keeps beating the Market - And What They’re Buying Now | Alex Pollak",
+      "url": "https://equitymates.com/episode/how-loftus-peak-keeps-beating-the-market-and-what-theyre-buying-now-alex-pollak/",
+      "jump": "https://www.youtube.com/watch?v=u_i9UTHlTkg&t=1160s",
+      "at": "19:20"
+     }
+    },
+    {
+     "date": "2025-02-14",
+     "when": "February 2025",
+     "text": "In February 2025, Equity Mates described Broadcom as a semiconductor, enterprise software and security solutions company, noting it had become a trillion-dollar name that many investors were hearing more about.",
+     "episode": {
+      "title": "Best ETFs for: Riding the AI boom",
+      "url": "https://equitymates.com/episode/best-etfs-for-riding-the-ai-boom/",
+      "jump": "https://www.youtube.com/watch?v=Q2VT9-UKVco&t=816s",
+      "at": "13:36"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2026-04-10",
+     "when": "April 2026",
+     "text": "In April 2026, a guest on Equity Mates questioned whether fabless players like Broadcom could maintain market share and margins over 5 to 10 years as hyperscalers designed more of their own chips.",
+     "episode": {
+      "title": "Finding opportunities in well-known names with Ryan Joyce",
+      "url": "https://equitymates.com/episode/finding-opportunities-in-well-known-names-with-ryan-joyce/",
+      "jump": "https://www.youtube.com/watch?v=qNiwsfvSELk&t=1298s",
+      "at": "21:38"
+     }
+    },
+    {
+     "date": "2026-03-30",
+     "when": "March 2026",
+     "text": "In March 2026, Equity Mates highlighted Broadcom’s scale by citing 25% revenue growth and a 37% profit margin on their numbers, illustrating strong profitability.",
+     "episode": {
+      "title": "A billion dollar backflip, Big Tech in the Community Portfolio & Ren’s two things",
+      "url": "https://equitymates.com/episode/a-billion-dollar-backflip-big-tech-in-the-community-portfolio-rens-two-things/",
+      "jump": "https://www.youtube.com/watch?v=Hus4doFbzzA&t=1763s",
+      "at": "29:23"
+     }
+    },
+    {
+     "date": "2025-10-17",
+     "when": "October 2025",
+     "text": "In October 2025, a guest on Equity Mates argued Nvidia and Broadcom would remain important because they supplied GPUs and ASICs central to AI, implying enduring revenue streams from foundational demand.",
+     "episode": {
+      "title": "How Loftus Peak Keeps beating the Market - And What They’re Buying Now | Alex Pollak",
+      "url": "https://equitymates.com/episode/how-loftus-peak-keeps-beating-the-market-and-what-theyre-buying-now-alex-pollak/",
+      "jump": "https://www.youtube.com/watch?v=u_i9UTHlTkg&t=1160s",
+      "at": "19:20"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

@@ -1,0 +1,46 @@
+{
+ "slug": "workhorse-wkhs",
+ "name": "Workhorse",
+ "full": "Workhorse",
+ "listings": [
+  "NASDAQ: WKHS"
+ ],
+ "built": "2026-11-01",
+ "episodes": 1,
+ "mentioned_in": 1,
+ "latest": "2020-09-09",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2020-09-09",
+     "when": "September 2020",
+     "text": "In September 2020, Equity Mates described Workhorse as a $2.5 billion company focused on an electric pickup truck, and said it was also exploring an electric helicopter-type product without a clear goal.",
+     "episode": {
+      "title": "EM Chat: State of Electric Vehicle Industry (Tesla, Nikola & Workhorse)",
+      "url": "https://equitymates.com/episode/em-chat-state-of-electric-vehicle-industry-tesla-nikola-workhorse-2/",
+      "jump": null,
+      "at": "7:44"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": []
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

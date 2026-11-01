@@ -1,0 +1,125 @@
+{
+ "slug": "nikola-nkla",
+ "name": "Nikola",
+ "full": "Nikola",
+ "listings": [
+  "NASDAQ: NKLA"
+ ],
+ "built": "2026-10-30",
+ "episodes": 6,
+ "mentioned_in": 10,
+ "latest": "2023-03-29",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2023-03-29",
+     "when": "March 2023",
+     "text": "In March 2023, Equity Mates recapped Hindenburg’s 2020 report alleging Nikola’s promises to deliver electric vehicles were an intricate fraud, noting the CEO resigned.",
+     "episode": {
+      "title": "Afterpay's new owner, Block, has been accused of facilitating fraud",
+      "url": "https://equitymates.com/episode/afterpays-new-owner-block-has-been-accused-of-facilitating-fraud/",
+      "jump": null,
+      "at": "4:59"
+     }
+    },
+    {
+     "date": "2022-09-21",
+     "when": "September 2022",
+     "text": "In September 2022, Equity Mates said Nikola launched in 2014 to make electric trucks, but it was not a great company, not a great product, not even a product.",
+     "episode": {
+      "title": "Is the sub-prime monster back?",
+      "url": "https://equitymates.com/episode/is-the-sub-prime-monster-back/",
+      "jump": null,
+      "at": "30:06"
+     }
+    },
+    {
+     "date": "2022-04-22",
+     "when": "April 2022",
+     "text": "In April 2022, Equity Mates compared a self-driving tractor demo to the Nikola truck video that rolled down a hill, implying Nikola’s prototype claims looked staged.",
+     "episode": {
+      "title": "Bonus: Australia's future industries - Agriculture | Stake",
+      "url": "https://equitymates.com/episode/bonus-stake-future-of-agriculture/",
+      "jump": null,
+      "at": "18:41"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2023-02-08",
+     "when": "February 2023",
+     "text": "In February 2023, Equity Mates described Hindenburg’s short thesis on Nikola as exposing basic corporate fraud, which damaged its reputation for sustainable profits.",
+     "episode": {
+      "title": "What's left of 'The Chalmers Doctrine' if you take out the boring bits?",
+      "url": "https://equitymates.com/episode/whats-left-of-the-chalmers-doctrine-if-you-take-out-the-boring-bits/",
+      "jump": null,
+      "at": "25:59"
+     }
+    },
+    {
+     "date": "2023-02-03",
+     "when": "February 2023",
+     "text": "In February 2023, Equity Mates noted Nikola had about 36 percent of its share float shorted, highlighting heavy market scepticism about its prospects.",
+     "episode": {
+      "title": "How a short seller crushed Adani's share price",
+      "url": "https://equitymates.com/episode/how-a-short-seller-crushed-adanis-share-price/",
+      "jump": null,
+      "at": "14:59"
+     }
+    },
+    {
+     "date": "2022-09-21",
+     "when": "September 2022",
+     "text": "In September 2022, Equity Mates said copying Tesla’s name was a red flag and did not suggest an innovative, vision-driven company.",
+     "episode": {
+      "title": "Is the sub-prime monster back?",
+      "url": "https://equitymates.com/episode/is-the-sub-prime-monster-back/",
+      "jump": null,
+      "at": "36:33"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2023-02-03",
+     "when": "February 2023",
+     "text": "In February 2023, Equity Mates highlighted Nikola as one of the most shorted US stocks, with roughly 36 percent of shares shorted at the time, signalling bearish positioning.",
+     "episode": {
+      "title": "How a short seller crushed Adani's share price",
+      "url": "https://equitymates.com/episode/how-a-short-seller-crushed-adanis-share-price/",
+      "jump": null,
+      "at": "14:59"
+     }
+    },
+    {
+     "date": "2020-09-09",
+     "when": "September 2020",
+     "text": "In September 2020, Equity Mates said Nikola was one of the smaller US electric and hydrogen car companies that had seen big rises and big falls in 2020.",
+     "episode": {
+      "title": "EM Chat: State of Electric Vehicle Industry (Tesla, Nikola & Workhorse)",
+      "url": "https://equitymates.com/episode/em-chat-state-of-electric-vehicle-industry-tesla-nikola-workhorse-2/",
+      "jump": null,
+      "at": "6:49"
+     }
+    }
+   ]
+  }
+ ]
+}

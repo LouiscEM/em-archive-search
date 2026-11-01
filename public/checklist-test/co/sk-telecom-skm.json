@@ -1,0 +1,58 @@
+{
+ "slug": "sk-telecom-skm",
+ "name": "SK Telecom",
+ "full": "SK Telecom",
+ "listings": [
+  "NYSE: SKM"
+ ],
+ "built": "2026-11-01",
+ "episodes": 1,
+ "mentioned_in": 1,
+ "latest": "2026-06-16",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": []
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": []
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2026-06-16",
+     "when": "June 2026",
+     "text": "In June 2026, a guest on Equity Mates said SK Telecom once held about 2% of Anthropic, later diluted, making it a meaningful holding and showing management’s choice to invest in a leading AI player.",
+     "episode": {
+      "title": "Chris Judd Thinks You're Wrong About Rates, Bonds and AI",
+      "url": "https://equitymates.com/episode/chris-judd-thinks-youre-wrong-about-rates-bonds-and-ai/",
+      "jump": "https://www.youtube.com/watch?v=SUCInMJIqXc&t=1621s",
+      "at": "27:01"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2026-06-16",
+     "when": "June 2026",
+     "text": "In June 2026, a guest on Equity Mates said SK Telecom’s Anthropic stake was a chunky part of its market cap, suggesting the valuation of SK Telecom reflected this AI exposure alongside its more vanilla telecom operations.",
+     "episode": {
+      "title": "Chris Judd Thinks You're Wrong About Rates, Bonds and AI",
+      "url": "https://equitymates.com/episode/chris-judd-thinks-youre-wrong-about-rates-bonds-and-ai/",
+      "jump": "https://www.youtube.com/watch?v=SUCInMJIqXc&t=1621s",
+      "at": "27:01"
+     }
+    }
+   ]
+  }
+ ]
+}

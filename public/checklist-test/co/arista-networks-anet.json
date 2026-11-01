@@ -1,0 +1,58 @@
+{
+ "slug": "arista-networks-anet",
+ "name": "Arista Networks",
+ "full": "Arista Networks",
+ "listings": [
+  "NYSE: ANET"
+ ],
+ "built": "2026-11-01",
+ "episodes": 2,
+ "mentioned_in": 3,
+ "latest": "2026-02-05",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2025-09-12",
+     "when": "September 2025",
+     "text": "In September 2025, a guest on Equity Mates described Arista Networks as a supplier to large data centres. The conversation noted it had grown beyond a US$50 billion market cap fund limit, explaining why it fell outside that manager’s investable universe.",
+     "episode": {
+      "title": "Separating what's real from the hype: Roblox, Games Workshop and more - James Abela | Fidelity",
+      "url": "https://equitymates.com/episode/separating-whats-real-from-the-hype-roblox-games-workshop-and-more-james-abela-fidelity/",
+      "jump": null,
+      "at": "23:02"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2026-02-05",
+     "when": "February 2026",
+     "text": "In February 2026, Equity Mates discussed a trillion dollars plus of AI infrastructure spending and said companies such as Arista Networks could capture a meaningful share, supported by commitments from Google, Apple and Microsoft. It added the main risk was if that infrastructure investment did not materialise.",
+     "episode": {
+      "title": "Introducing the Equity Mates Community Portfolio, house prices diverge & Corporate Travel Management’s collapse",
+      "url": "https://equitymates.com/episode/introducing-the-equity-mates-community-portfolio-house-prices-diverge-corporate-travel-managements-collapse/",
+      "jump": "https://www.youtube.com/watch?v=_C96HVmrJgo&t=1013s",
+      "at": "16:53"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

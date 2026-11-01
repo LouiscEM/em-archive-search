@@ -1,0 +1,58 @@
+{
+ "slug": "volpara-vht",
+ "name": "Volpara",
+ "full": "Volpara",
+ "listings": [
+  "ASX: VHT"
+ ],
+ "built": "2026-11-01",
+ "episodes": 2,
+ "mentioned_in": 2,
+ "latest": "2023-07-17",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2021-09-15",
+     "when": "September 2021",
+     "text": "In September 2021, Equity Mates described Volpara as a medtech company that developed AI software for personalised screening and early detection of breast cancer, outlining its core product focus.",
+     "episode": {
+      "title": "The Expert Curated Portfolio: A Check in on the Watchlist",
+      "url": "https://equitymates.com/episode/the-expert-curated-portfolio-a-check-in-on-the-watchlist/",
+      "jump": null,
+      "at": "11:29"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2023-07-17",
+     "when": "July 2023",
+     "text": "In July 2023, Equity Mates highlighted Volpara’s breast imaging data as a large proprietary dataset that could be leveraged with AI to build a stronger competitive advantage.",
+     "episode": {
+      "title": "An alternative investment thesis for AI",
+      "url": "https://equitymates.com/episode/an-alternative-investment-thesis-for-ai/",
+      "jump": null,
+      "at": "18:27"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

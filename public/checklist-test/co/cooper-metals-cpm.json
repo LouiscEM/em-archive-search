@@ -1,0 +1,70 @@
+{
+ "slug": "cooper-metals-cpm",
+ "name": "Cooper Metals",
+ "full": "Cooper Metals",
+ "listings": [
+  "ASX: CPM"
+ ],
+ "built": "2026-11-01",
+ "episodes": 1,
+ "mentioned_in": 1,
+ "latest": "2024-04-09",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2024-04-09",
+     "when": "April 2024",
+     "text": "In April 2024, Equity Mates described Cooper Metals as a speculative copper exploration play in Mount Isa, highlighting a 71 metre intercept grading 2.8% copper that helped propel the stock from 3 cents to 30 cents.",
+     "episode": {
+      "title": "Buy or Sell with Adam Keily and Adam Dawes",
+      "url": "https://equitymates.com/episode/buy-or-sell-with-adam-keily-and-adam-dawes/",
+      "jump": "https://www.youtube.com/watch?v=JnH_lFsX2KA&t=1455s",
+      "at": "24:15"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2024-04-09",
+     "when": "April 2024",
+     "text": "In April 2024, Equity Mates noted its projects were in Australia, avoiding many geopolitical risks common in copper and giving the company a location advantage.",
+     "episode": {
+      "title": "Buy or Sell with Adam Keily and Adam Dawes",
+      "url": "https://equitymates.com/episode/buy-or-sell-with-adam-keily-and-adam-dawes/",
+      "jump": "https://www.youtube.com/watch?v=JnH_lFsX2KA&t=1455s",
+      "at": "24:15"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2024-04-09",
+     "when": "April 2024",
+     "text": "In April 2024, Equity Mates said the company raised capital at 25 cents after the rally and proceeded with additional directional and scissor drill holes to follow up the 71 metre, 2.8% copper intercept.",
+     "episode": {
+      "title": "Buy or Sell with Adam Keily and Adam Dawes",
+      "url": "https://equitymates.com/episode/buy-or-sell-with-adam-keily-and-adam-dawes/",
+      "jump": "https://www.youtube.com/watch?v=JnH_lFsX2KA&t=1455s",
+      "at": "24:15"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

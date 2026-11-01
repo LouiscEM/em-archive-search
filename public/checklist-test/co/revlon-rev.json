@@ -1,0 +1,80 @@
+{
+ "slug": "revlon-rev",
+ "name": "Revlon",
+ "full": "Revlon",
+ "listings": [
+  "NYSE: REV"
+ ],
+ "built": "2026-11-01",
+ "episodes": 4,
+ "mentioned_in": 5,
+ "latest": "2022-09-16",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2022-08-15",
+     "when": "August 2022",
+     "text": "In August 2022, Equity Mates explained the lipstick effect and said Revlon historically saw lipstick sales spike in recessions as people still bought small luxuries, showing resilient demand for its core product.",
+     "episode": {
+      "title": "43 - Tornado Cash, BNPL for Gaming & What Rolex Sales and a Bear Market Have in Common",
+      "url": "https://equitymates.com/episode/43-tornado-cash-bnpl-for-gaming-what-rolex-sales-and-a-bear-market-have-in-common/",
+      "jump": null,
+      "at": "19:45"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2022-09-16",
+     "when": "September 2022",
+     "text": "In September 2022, Equity Mates compared Cineworld’s reorganisation bankruptcy to Revlon’s earlier case and said both stayed in business while restructuring debt, indicating significant financial strain.",
+     "episode": {
+      "title": "Are the credits rolling for the cinema industry?",
+      "url": "https://equitymates.com/episode/are-the-credits-rolling-for-the-cinema-industry/",
+      "jump": null,
+      "at": "3:12"
+     }
+    },
+    {
+     "date": "2022-08-02",
+     "when": "August 2022",
+     "text": "In August 2022, Equity Mates said Revlon went bankrupt after failing to keep up with fast-growing TikTok beauty brands as shopping shifted online, highlighting pressure on its competitive position.",
+     "episode": {
+      "title": "Why do Lululemon stocks cost so much more $$ than Nike?",
+      "url": "https://equitymates.com/episode/why-do-lululemon-stocks-cost-so-much-more-than-nike/",
+      "jump": null,
+      "at": "10:12"
+     }
+    },
+    {
+     "date": "2021-11-09",
+     "when": "November 2021",
+     "text": "In November 2021, Equity Mates discussed a retailer creating its own brands and said Revlon’s name could be replaced by private-label products on that platform, signalling competitive pressure on legacy brands.",
+     "episode": {
+      "title": "ASX week: Adam Dawes - Buy, Hold, Sell",
+      "url": "https://equitymates.com/episode/asx-week-adam-dawes-buy-hold-sell/",
+      "jump": "https://www.youtube.com/watch?v=yaSRUwKM4Os&t=1808s",
+      "at": "30:08"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

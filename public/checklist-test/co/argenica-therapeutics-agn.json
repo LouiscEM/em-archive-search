@@ -1,0 +1,58 @@
+{
+ "slug": "argenica-therapeutics-agn",
+ "name": "Argenica Therapeutics",
+ "full": "Argenica Therapeutics",
+ "listings": [
+  "ASX: AGN"
+ ],
+ "built": "2026-11-01",
+ "episodes": 1,
+ "mentioned_in": 1,
+ "latest": "2024-05-31",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2024-05-31",
+     "when": "May 2024",
+     "text": "In May 2024, Equity Mates said Argenica Therapeutics was developing a drug candidate to protect brain cells during a stroke, aiming to preserve tissue when oxygen is cut off and addressing the time is brain problem in acute stroke care.",
+     "episode": {
+      "title": "Uncovered: Protecting brains of stroke patients - Argenica Therapeutics",
+      "url": "https://equitymates.com/episode/uncovered-protecting-brains-of-stroke-patients-argenica-therapeutics/",
+      "jump": null,
+      "at": "0:31"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": []
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2024-05-31",
+     "when": "May 2024",
+     "text": "In May 2024, Equity Mates said Argenica Therapeutics was spun out of research and listed on the ASX in June 2021 to fund development, aiming to progress its drug through phase 1 safety testing, phase 2 effectiveness trials, and larger phase 3 comparative studies.",
+     "episode": {
+      "title": "Uncovered: Protecting brains of stroke patients - Argenica Therapeutics",
+      "url": "https://equitymates.com/episode/uncovered-protecting-brains-of-stroke-patients-argenica-therapeutics/",
+      "jump": null,
+      "at": "4:46"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

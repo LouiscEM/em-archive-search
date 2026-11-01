@@ -1,0 +1,58 @@
+{
+ "slug": "stealth-global-sgi",
+ "name": "Stealth Global",
+ "full": "Stealth Global Holdings",
+ "listings": [
+  "ASX: SGI"
+ ],
+ "built": "2026-11-01",
+ "episodes": 1,
+ "mentioned_in": 3,
+ "latest": "2024-03-19",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": []
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": []
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2024-03-19",
+     "when": "March 2024",
+     "text": "In March 2024, Equity Mates said Stealth Global, a very small and illiquid micro-cap, had been executing its stated strategy and that results were starting to come through, adding that as it grew it tended to become more liquid and attract fund managers and potential index inclusion.",
+     "episode": {
+      "title": "Buy or Sell: Adam Keily with Andrew Page",
+      "url": "https://equitymates.com/episode/buy-or-sell-adam-keily-with-andrew-page/",
+      "jump": "https://www.youtube.com/watch?v=70FUUh7Nf24&t=677s",
+      "at": "11:17"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2024-03-19",
+     "when": "March 2024",
+     "text": "In March 2024, Equity Mates described the shares as cheap even after a rise from 16 cents to 26 cents, noting a 62 per cent gain since a prior mention and framing it as a micro-cap hiding in plain sight.",
+     "episode": {
+      "title": "Buy or Sell: Adam Keily with Andrew Page",
+      "url": "https://equitymates.com/episode/buy-or-sell-adam-keily-with-andrew-page/",
+      "jump": "https://www.youtube.com/watch?v=70FUUh7Nf24&t=677s",
+      "at": "11:17"
+     }
+    }
+   ]
+  }
+ ]
+}

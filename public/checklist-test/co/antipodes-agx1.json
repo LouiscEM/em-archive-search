@@ -1,0 +1,80 @@
+{
+ "slug": "antipodes-agx1",
+ "name": "Antipodes",
+ "full": "Antipodes",
+ "listings": [
+  "ASX: AGX1"
+ ],
+ "built": "2026-11-01",
+ "episodes": 4,
+ "mentioned_in": 6,
+ "latest": "2025-10-21",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2025-10-21",
+     "when": "October 2025",
+     "text": "In October 2025, Equity Mates featured Antipodes describing its contrarian stock picking, looking for mispricing in resilient businesses and focusing on data-rich sectors, illustrated with examples like Tencent and Capital One.",
+     "episode": {
+      "title": "Buy or Sell with Ally Selby and Vihari Ross",
+      "url": "https://equitymates.com/episode/buy-or-sell-with-ally-selby-and-vihari-ross/",
+      "jump": "https://www.youtube.com/watch?v=ea1zB6_1O-c&t=1171s",
+      "at": "19:31"
+     }
+    },
+    {
+     "date": "2024-08-26",
+     "when": "August 2024",
+     "text": "In August 2024, Equity Mates noted Antipodes Global Shares (AGX1) was among the top three performers over three years at 8.4 percent per annum, while stressing not to chase past performance and to understand the manager’s strategy and holdings.",
+     "episode": {
+      "title": "Community confessions, Bryce's latest investment & Aussie companies taking on the world",
+      "url": "https://equitymates.com/episode/community-confessions-bryces-latest-investment-aussie-companies-taking-on-the-world/",
+      "jump": "https://www.youtube.com/watch?v=Zk2jKXcewPA&t=956s",
+      "at": "15:56"
+     }
+    },
+    {
+     "date": "2021-11-12",
+     "when": "November 2021",
+     "text": "In November 2021, Equity Mates said Antipodes offered an active ETF on the ASX (AGX1) and explained its pragmatic value approach, seeking good quality businesses that were cheap relative to growth rather than just low multiple stocks.",
+     "episode": {
+      "title": "ASX week: Alison Savas - Two winners from decarbonisation",
+      "url": "https://equitymates.com/episode/asx-week-alison-savas-two-winners-from-decarbonisation/",
+      "jump": "https://www.youtube.com/watch?v=ObO3oEYZlps&t=78s",
+      "at": "1:18"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2022-02-25",
+     "when": "February 2022",
+     "text": "In February 2022, Equity Mates explained Antipodes sat within Pinnacle’s multi‑affiliate model, receiving global distribution and support services, and said several affiliated equity funds had outperformed recently, which was driving attention.",
+     "episode": {
+      "title": "Our Order Pad  | Magellan Financial Group (MFG:ASX) & Pinnacle Investment Management (PNI:ASX)",
+      "url": "https://equitymates.com/episode/tmtm-friday-episode/",
+      "jump": null,
+      "at": "16:28"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

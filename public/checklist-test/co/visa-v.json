@@ -1,0 +1,126 @@
+{
+ "slug": "visa-v",
+ "name": "Visa",
+ "full": "Visa",
+ "listings": [
+  "NYSE: V"
+ ],
+ "built": "2026-10-30",
+ "episodes": 6,
+ "mentioned_in": 67,
+ "latest": "2026-10-12",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2026-09-11",
+     "when": "September 2026",
+     "text": "In September 2026, a guest on Equity Mates described Visa as the leading player in a global payments duopoly, highlighting its technology‑agnostic network that had served consumers and merchants for 70 plus years.",
+     "episode": {
+      "title": "2 experts put their best stock picks to the test",
+      "url": "https://equitymates.com/episode/2-experts-put-their-best-stock-picks-to-the-test/",
+      "jump": "https://www.youtube.com/watch?v=lCJhjncD8UE&t=176s",
+      "at": "2:56"
+     }
+    },
+    {
+     "date": "2026-04-23",
+     "when": "April 2026",
+     "text": "In April 2026, Equity Mates said digital payments increased every year and most providers needed to run on Visa’s rails, with the war on cash and rising smartphone penetration pushing its service into more transactions.",
+     "episode": {
+      "title": "End of an era at Apple, the GLP-1 surprise & top holdings of global fund managers",
+      "url": "https://equitymates.com/episode/end-of-an-era-at-apple-the-glp-1-surprise-top-holdings-of-global-fund-managers/",
+      "jump": "https://www.youtube.com/watch?v=xHa0fLbkXzo&t=1645s",
+      "at": "27:25"
+     }
+    },
+    {
+     "date": "2022-03-14",
+     "when": "March 2022",
+     "text": "In March 2022, Equity Mates shared that Visa provided crypto on‑ramps and over 65 crypto platforms and exchanges partnered to issue Visa credentials, showing its network enabled new use cases while connecting back to fiat economies.",
+     "episode": {
+      "title": "Compair the pair - CEOs go head to head | Quartr Reporting Season",
+      "url": "https://equitymates.com/episode/compair-the-pair-ceos-go-head-to-head-quartr-reporting-season/",
+      "jump": "https://www.youtube.com/watch?v=vY-UrZMLW64&t=1686s",
+      "at": "28:06"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2026-10-12",
+     "when": "October 2026",
+     "text": "In October 2026, Equity Mates framed Visa and MasterCard as payments companies with strong moats, chosen by an investor focused on businesses that were enduring and hard to disrupt.",
+     "episode": {
+      "title": "Live from New York: Bill Ackman, Aussie businesses & other observations",
+      "url": "https://equitymates.com/episode/live-from-new-york-bill-ackman-aussie-businesses-other-observations/",
+      "jump": "https://www.youtube.com/watch?v=EAv8MXZcBZ4&t=832s",
+      "at": "13:52"
+     }
+    },
+    {
+     "date": "2026-09-11",
+     "when": "September 2026",
+     "text": "In September 2026, a guest on Equity Mates argued Visa captured the “ultimate” network effects as the leading player in a duopoly, with a 70 plus year history and a model that was technology agnostic.",
+     "episode": {
+      "title": "2 experts put their best stock picks to the test",
+      "url": "https://equitymates.com/episode/2-experts-put-their-best-stock-picks-to-the-test/",
+      "jump": "https://www.youtube.com/watch?v=lCJhjncD8UE&t=176s",
+      "at": "2:56"
+     }
+    },
+    {
+     "date": "2023-05-22",
+     "when": "May 2023",
+     "text": "In May 2023, Equity Mates said Visa and MasterCard owned global payment rails with very high returns on capital and profit margins over 40 percent, and noted no one had built a third rail to compete.",
+     "episode": {
+      "title": "You don't have to pick one winner to be a good investor | Wealth Builders Pt 3",
+      "url": "https://equitymates.com/episode/you-dont-have-to-pick-one-winner-to-be-a-good-investor-wealth-builders-pt-3/",
+      "jump": null,
+      "at": "20:24"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2023-05-22",
+     "when": "May 2023",
+     "text": "In May 2023, Equity Mates said Visa kept taking its profits and reinvesting them at a high rate of return, presenting it as a business that recycled cash into further growth.",
+     "episode": {
+      "title": "You don't have to pick one winner to be a good investor | Wealth Builders Pt 3",
+      "url": "https://equitymates.com/episode/you-dont-have-to-pick-one-winner-to-be-a-good-investor-wealth-builders-pt-3/",
+      "jump": null,
+      "at": "20:24"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2026-07-27",
+     "when": "July 2026",
+     "text": "In July 2026, Equity Mates noted MasterCard often traded at a slight premium to Visa because it was more global while Visa was more US exposed, and observed their share price charts moved very similarly.",
+     "episode": {
+      "title": "Emerging Middle Class: 300,000 New Consumers Every Day | The Decade Ahead",
+      "url": "https://equitymates.com/episode/emerging-middle-class-300000-new-consumers-every-day-the-decade-ahead/",
+      "jump": "https://www.youtube.com/watch?v=iQKJM--ez7o&t=2079s",
+      "at": "34:39"
+     }
+    }
+   ]
+  }
+ ]
+}

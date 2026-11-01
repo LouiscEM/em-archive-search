@@ -1,0 +1,170 @@
+{
+ "slug": "atlassian-team",
+ "name": "Atlassian",
+ "full": "Atlassian",
+ "listings": [
+  "NASDAQ: TEAM"
+ ],
+ "built": "2026-10-30",
+ "episodes": 9,
+ "mentioned_in": 62,
+ "latest": "2026-09-04",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2023-10-20",
+     "when": "October 2023",
+     "text": "In October 2023, Equity Mates said Atlassian’s purchase of video messaging platform Flume for $975 million showed a bet on remote work tools, highlighting a clear product direction when many firms were pushing for office returns.",
+     "episode": {
+      "title": "Why is Atlassian doubling down on WFH, when everyone is going back to the office?",
+      "url": "https://equitymates.com/episode/why-is-atlassian-doubling-down-on-wfh-when-everyone-is-going-back-to-the-office/",
+      "jump": null,
+      "at": "0:02"
+     }
+    },
+    {
+     "date": "2022-01-13",
+     "when": "January 2022",
+     "text": "In January 2022, Equity Mates described Atlassian’s suite as the picks and shovels for teams, especially software developers, helping manage complex collaboration across hundreds of workplace apps.",
+     "episode": {
+      "title": "'A very boring software company' - Atlassian | Summer Series",
+      "url": "https://equitymates.com/episode/summer-series-atlassian/",
+      "jump": "https://www.youtube.com/watch?v=ckEgL8AqaG0&t=478s",
+      "at": "7:58"
+     }
+    },
+    {
+     "date": "2021-08-23",
+     "when": "August 2021",
+     "text": "In August 2021, Equity Mates noted management highlighted rapid cloud momentum and large net new customer additions on an earnings call, indicating strong adoption of Atlassian’s products.",
+     "episode": {
+      "title": "Australian Reporting Season Wrap | Atlassian, Telstra, Coles, REA Group, Goodman Group",
+      "url": "https://equitymates.com/episode/australian-reporting-season-wrap-atlassian-telstra-coles-rea-group-goodman-group/",
+      "jump": null,
+      "at": "6:48"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2026-05-22",
+     "when": "May 2026",
+     "text": "In May 2026, Equity Mates discussed that recent results, including a stronger-than-expected report from Atlassian, suggested switching costs and operational inertia can protect established software, tempering fears of rapid AI-driven replacement.",
+     "episode": {
+      "title": "Why private equity investors aren’t panicking about AI",
+      "url": "https://equitymates.com/episode/why-private-equity-investors-arent-panicking-about-ai/",
+      "jump": "https://www.youtube.com/watch?v=jOf4MXfq5I4&t=543s",
+      "at": "9:03"
+     }
+    },
+    {
+     "date": "2026-05-19",
+     "when": "May 2026",
+     "text": "In May 2026, a guest on Equity Mates said Atlassian performed well and that workflow orchestration and developer tools may fare better, as tools with workflow lock-in are more resilient than manual, easily replaced software.",
+     "episode": {
+      "title": "How AI improves the investing process with Arms Rosenberg",
+      "url": "https://equitymates.com/episode/how-ai-improves-the-investing-process-with-arms-rosenberg/",
+      "jump": "https://www.youtube.com/watch?v=bQnZb__UAGw&t=1422s",
+      "at": "23:42"
+     }
+    },
+    {
+     "date": "2026-03-10",
+     "when": "March 2026",
+     "text": "In March 2026, a guest on Equity Mates argued parts of Atlassian’s lineup, citing Trello, looked highly susceptible to AI disruption, stressing that vulnerability risk was real even if pricing outcomes were a separate question.",
+     "episode": {
+      "title": "War in Iran, AI Disruption & the Software Selloff: Where Todd Hoare sees Opportunity",
+      "url": "https://equitymates.com/episode/war-in-iran-ai-disruption-the-software-selloff-where-todd-hoare-sees-opportunity/",
+      "jump": "https://www.youtube.com/watch?v=NLcxpQw1TGg&t=855s",
+      "at": "14:15"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2026-01-26",
+     "when": "January 2026",
+     "text": "In January 2026, Equity Mates said Atlassian had remained largely unprofitable by choice to prioritise growth, with revenue rising from about US$0.6 billion in 2020 to US$5.2 billion last year.",
+     "episode": {
+      "title": "Bryce reveals 500 to 5k results, China's warning signs and are software companies on sale?",
+      "url": "https://equitymates.com/episode/bryce-reveals-500-to-5k-results-chinas-warning-signs-and-are-software-companies-on-sale/",
+      "jump": "https://www.youtube.com/watch?v=oh4zH9bZklA&t=1365s",
+      "at": "22:45"
+     }
+    },
+    {
+     "date": "2023-10-20",
+     "when": "October 2023",
+     "text": "In October 2023, Equity Mates explained Atlassian used a significant chunk of cash to buy Flume, signalling capital allocation toward remote work capabilities and reinforcing its product roadmap.",
+     "episode": {
+      "title": "Why is Atlassian doubling down on WFH, when everyone is going back to the office?",
+      "url": "https://equitymates.com/episode/why-is-atlassian-doubling-down-on-wfh-when-everyone-is-going-back-to-the-office/",
+      "jump": null,
+      "at": "0:02"
+     }
+    },
+    {
+     "date": "2022-01-13",
+     "when": "January 2022",
+     "text": "In January 2022, Equity Mates outlined Atlassian’s acquisitive approach, noting major deals like Trello and Bitbucket were integrated effectively, and that it exited its Slack competitor after acquisitions when the strategy was not working.",
+     "episode": {
+      "title": "'A very boring software company' - Atlassian | Summer Series",
+      "url": "https://equitymates.com/episode/summer-series-atlassian/",
+      "jump": "https://www.youtube.com/watch?v=ckEgL8AqaG0&t=877s",
+      "at": "14:37"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2026-09-04",
+     "when": "September 2026",
+     "text": "In September 2026, a guest on Equity Mates observed that after sentiment turned against software, Atlassian had been written off by many and then its stock doubled in a few weeks amid a sharp narrative swing.",
+     "episode": {
+      "title": "Knowing when to sell: How growth investor Michael Frazis manages risk",
+      "url": "https://equitymates.com/episode/knowing-when-to-sell-how-growth-investor-michael-frazis-manages-risk/",
+      "jump": "https://www.youtube.com/watch?v=xe6Ivnhwlys&t=160s",
+      "at": "2:40"
+     }
+    },
+    {
+     "date": "2026-02-09",
+     "when": "February 2026",
+     "text": "In February 2026, Equity Mates reported a broad software selloff saw Atlassian fall 8% in a single session as investors reassessed the sector and software company debt was repriced.",
+     "episode": {
+      "title": "From Xero to zero, why the lazy investors win & Pimp my Portfolio with Luke Laretive",
+      "url": "https://equitymates.com/episode/from-xero-to-zero-why-the-lazy-investors-win-pimp-my-portfolio-with-luke-laretive/",
+      "jump": "https://www.youtube.com/watch?v=N6XqW57JdjI&t=320s",
+      "at": "5:20"
+     }
+    },
+    {
+     "date": "2026-01-26",
+     "when": "January 2026",
+     "text": "In January 2026, Equity Mates noted Atlassian’s shares were down about 50% despite revenue growth above 20%, with sentiment weighed by its lack of consistent profitability.",
+     "episode": {
+      "title": "Bryce reveals 500 to 5k results, China's warning signs and are software companies on sale?",
+      "url": "https://equitymates.com/episode/bryce-reveals-500-to-5k-results-chinas-warning-signs-and-are-software-companies-on-sale/",
+      "jump": "https://www.youtube.com/watch?v=oh4zH9bZklA&t=1365s",
+      "at": "22:45"
+     }
+    }
+   ]
+  }
+ ]
+}

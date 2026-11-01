@@ -1,0 +1,58 @@
+{
+ "slug": "abb-abb",
+ "name": "ABB",
+ "full": "ABB",
+ "listings": [
+  "NYSE: ABB"
+ ],
+ "built": "2026-11-01",
+ "episodes": 1,
+ "mentioned_in": 4,
+ "latest": "2026-07-23",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2026-07-23",
+     "when": "July 2026",
+     "text": "In July 2026, Equity Mates said ABB Group made industrial robots at global scale, with over two million robots installed, and partnered with Nvidia to integrate AI across its fleet via the Isaac simulation platform.",
+     "episode": {
+      "title": "AI & Robotics: From $300bn to $5.2 trillion in three years | The Decade Ahead",
+      "url": "https://equitymates.com/episode/ai-robotics-from-300bn-to-5-2-trillion-in-three-years-the-decade-ahead/",
+      "jump": "https://www.youtube.com/watch?v=7IRkRrOw1ho&t=2057s",
+      "at": "34:17"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2026-07-23",
+     "when": "July 2026",
+     "text": "In July 2026, Equity Mates described ABB as one of the world's largest industrial robotics companies with a huge installed base, and said its Nvidia partnership embeds AI in its robots, supporting a strong competitive position; it also noted the share price was up 80% over the past 12 months.",
+     "episode": {
+      "title": "AI & Robotics: From $300bn to $5.2 trillion in three years | The Decade Ahead",
+      "url": "https://equitymates.com/episode/ai-robotics-from-300bn-to-5-2-trillion-in-three-years-the-decade-ahead/",
+      "jump": "https://www.youtube.com/watch?v=7IRkRrOw1ho&t=2057s",
+      "at": "34:17"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

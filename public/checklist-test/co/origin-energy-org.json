@@ -1,0 +1,92 @@
+{
+ "slug": "origin-energy-org",
+ "name": "Origin Energy",
+ "full": "Origin Energy",
+ "listings": [
+  "ASX: ORG"
+ ],
+ "built": "2026-10-30",
+ "episodes": 4,
+ "mentioned_in": 9,
+ "latest": "2024-10-10",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2024-04-26",
+     "when": "April 2024",
+     "text": "In April 2024, a guest on Equity Mates said a 20 year contract to roll out another million smart meters with Origin Energy underpinned Intellihub’s growth, highlighting the scale of Origin’s retail service and metering upgrade program.",
+     "episode": {
+      "title": "Expert: Cameron Blanks - Secrets of Australasia's largest private equity fund | Pacific Equity Partners",
+      "url": "https://equitymates.com/episode/expert-cameron-blanks-secrets-of-australasias-largest-private-equity-fund-pacific-equity-partners/",
+      "jump": null,
+      "at": "16:39"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2022-03-02",
+     "when": "March 2022",
+     "text": "In March 2022, Equity Mates reported Origin Energy announced the early retirement of Eraring seven years earlier than expected because coal generation was losing money when daytime solar made power cheap, noting retail was fine but generation was in trouble.",
+     "episode": {
+      "title": "Counting the cost of the war in Ukraine",
+      "url": "https://equitymates.com/episode/counting-the-cost-of-the-war-in-ukraine/",
+      "jump": null,
+      "at": "27:18"
+     }
+    },
+    {
+     "date": "2020-10-15",
+     "when": "October 2020",
+     "text": "In October 2020, a guest on Equity Mates said the energy sector had been the worst performer and noted Origin Energy had not performed over the longer term, underscoring how hard it had been to earn strong, sustained returns in the space.",
+     "episode": {
+      "title": "Expert Investor: Rudi Filapek-Vandyck - Finding truly great, long-term businesses",
+      "url": "https://equitymates.com/episode/expert-investor-rudi-filapek-vandyck-finding-truly-great-long-term-businesses/",
+      "jump": null,
+      "at": "30:25"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2024-10-10",
+     "when": "October 2024",
+     "text": "In October 2024, Equity Mates noted Origin Energy pulled out of its hydrogen projects, reflecting a strategic shift away from hydrogen after a tough period for the technology.",
+     "episode": {
+      "title": "Pimp my Portfolio with Charlie Viola, the math behind Australian property & does Rio signal lithium is back?",
+      "url": "https://equitymates.com/episode/pimp-my-portfolio-with-charlie-viola-the-math-behind-australian-property-does-rio-signal-lithium-is-back/",
+      "jump": "https://www.youtube.com/watch?v=BDF2YXZmtIo&t=335s",
+      "at": "5:35"
+     }
+    },
+    {
+     "date": "2022-03-02",
+     "when": "March 2022",
+     "text": "In March 2022, Equity Mates said Origin Energy chose to bring forward Eraring’s closure by seven years after ongoing losses at current market prices, showing a move away from uneconomic coal generation.",
+     "episode": {
+      "title": "Counting the cost of the war in Ukraine",
+      "url": "https://equitymates.com/episode/counting-the-cost-of-the-war-in-ukraine/",
+      "jump": null,
+      "at": "27:18"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

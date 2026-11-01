@@ -1,0 +1,92 @@
+{
+ "slug": "sydney-airport-syd",
+ "name": "Sydney Airport",
+ "full": "Sydney Airport",
+ "listings": [
+  "ASX: SYD"
+ ],
+ "built": "2026-10-30",
+ "episodes": 4,
+ "mentioned_in": 32,
+ "latest": "2023-02-24",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": []
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2021-03-14",
+     "when": "March 2021",
+     "text": "In March 2021, Equity Mates explained that Sydney Airport held a local monopoly with high capital costs, creating high barriers to entry and defensible, long‑lived assets that supported predictable cash flow.",
+     "episode": {
+      "title": "EM Chat: Industry Deep Dive - Infrastructure",
+      "url": "https://equitymates.com/episode/em-chat-industry-deep-dive-infrastructure/",
+      "jump": "https://www.youtube.com/watch?v=gIEkREY2Kn4&t=564s",
+      "at": "9:24"
+     }
+    },
+    {
+     "date": "2018-02-04",
+     "when": "February 2018",
+     "text": "In February 2018, Equity Mates described Sydney Airport as a bond proxy with consistent air traffic and the ability to set prices as the only airport in Sydney, highlighting durable demand and pricing power.",
+     "episode": {
+      "title": "Basics: Dividends - Money For Nothing",
+      "url": "https://equitymates.com/episode/basics-dividends-money-for-nothing/",
+      "jump": null,
+      "at": "44:11"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2023-02-24",
+     "when": "February 2023",
+     "text": "In February 2023, Equity Mates noted companies like Sydney Airport rewarded shareholders with dividends, contrasting them with growth companies that reinvested profits.",
+     "episode": {
+      "title": "Bitesize: What's a Dividend?",
+      "url": "https://equitymates.com/episode/bitesize-whats-a-dividend/",
+      "jump": null,
+      "at": "3:52"
+     }
+    },
+    {
+     "date": "2018-02-04",
+     "when": "February 2018",
+     "text": "In February 2018, Equity Mates characterised Sydney Airport as paying a consistent amount every half year, like a bond proxy, signalling a focus on regular dividends to shareholders.",
+     "episode": {
+      "title": "Basics: Dividends - Money For Nothing",
+      "url": "https://equitymates.com/episode/basics-dividends-money-for-nothing/",
+      "jump": null,
+      "at": "44:11"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2021-07-06",
+     "when": "July 2021",
+     "text": "In July 2021, Equity Mates covered a takeover offer at $8.25 a share for Sydney Airport, compared to $5.81 before the news, and said the price jump reflected the market repricing on the bid.",
+     "episode": {
+      "title": "Why did Sydney Airport take off? ... and much more...",
+      "url": "https://equitymates.com/episode/why-did-sydney-airport-take-off-and-much-more/",
+      "jump": null,
+      "at": "1:40"
+     }
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,58 @@
+{
+ "slug": "vimy-resources-vmy",
+ "name": "Vimy Resources",
+ "full": "Vimy Resources",
+ "listings": [
+  "ASX: VMY"
+ ],
+ "built": "2026-11-01",
+ "episodes": 1,
+ "mentioned_in": 1,
+ "latest": "2022-09-09",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2022-09-09",
+     "when": "September 2022",
+     "text": "In September 2022, Equity Mates recapped Vimy as a Perth based resource development company, with the Mulga Rock Project described as one of Australia’s largest underdeveloped uranium resources, outlining its core product exposure.",
+     "episode": {
+      "title": "The celebrations continue... We review another 10 Order Pad picks 🎂 Pt II",
+      "url": "https://equitymates.com/episode/the-celebrations-continue-we-review-another-10-order-pad-picks-%f0%9f%8e%82-pt-ii/",
+      "jump": null,
+      "at": "18:11"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": []
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2022-09-09",
+     "when": "September 2022",
+     "text": "In September 2022, Equity Mates said Vimy was acquired by Deep Yellow, with Vimy shareholders receiving 0.294 Deep Yellow shares each, implying 28.05 cents per Vimy share and representing a 35% premium, giving a clear reference point for price at the time.",
+     "episode": {
+      "title": "The celebrations continue... We review another 10 Order Pad picks 🎂 Pt II",
+      "url": "https://equitymates.com/episode/the-celebrations-continue-we-review-another-10-order-pad-picks-%f0%9f%8e%82-pt-ii/",
+      "jump": null,
+      "at": "18:11"
+     }
+    }
+   ]
+  }
+ ]
+}

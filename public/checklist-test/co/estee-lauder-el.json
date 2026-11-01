@@ -1,0 +1,125 @@
+{
+ "slug": "estee-lauder-el",
+ "name": "Estee Lauder",
+ "full": "Estee Lauder",
+ "listings": [
+  "NYSE: EL"
+ ],
+ "built": "2026-11-01",
+ "episodes": 4,
+ "mentioned_in": 6,
+ "latest": "2025-06-02",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2025-06-02",
+     "when": "June 2025",
+     "text": "In June 2025, Equity Mates explained Estee Lauder was a global beauty business that manufactured and sold a raft of makeup and related products.",
+     "episode": {
+      "title": "Australia's best asset class, Michael Burry sells everything & buying property with mates",
+      "url": "https://equitymates.com/episode/australias-best-asset-class-michael-burry-sells-everything-buying-property-with-mates/",
+      "jump": "https://www.youtube.com/watch?v=keGNB20JA-M&t=1113s",
+      "at": "18:33"
+     }
+    },
+    {
+     "date": "2024-11-21",
+     "when": "November 2024",
+     "text": "In November 2024, Equity Mates described Estee Lauder as a cosmetics giant that manufactured and marketed makeup, skincare, perfume and haircare products, underscoring the breadth of its offering.",
+     "episode": {
+      "title": "Bryce sells MinRes, 11 expert stock picks & Pimp my Portfolio with Charlie Viola",
+      "url": "https://equitymates.com/episode/bryce-sells-minres-11-expert-stock-picks-pimp-my-portfolio-with-charlie-viola/",
+      "jump": "https://www.youtube.com/watch?v=WqHqUQMyXa4&t=1001s",
+      "at": "16:41"
+     }
+    },
+    {
+     "date": "2021-01-10",
+     "when": "January 2021",
+     "text": "In January 2021, Equity Mates discussed beauty retail and said upmarket brands like Estee Lauder tightly controlled distribution, making it hard for new e-commerce sites to stock them, which highlighted the brand’s positioning.",
+     "episode": {
+      "title": "Summer Series: Adore Beauty Group Ltd (ASX: ABY)",
+      "url": "https://equitymates.com/episode/summer-series-adore-beauty-group-ltd-asx-aby/",
+      "jump": null,
+      "at": "20:27"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2025-06-02",
+     "when": "June 2025",
+     "text": "In June 2025, Equity Mates compared gross margins and said Estee Lauder’s 73% outpaced L’Oréal’s 72%, e.l.f.’s 68% and Coty’s 63%, but noted this strength was not flowing through to profit.",
+     "episode": {
+      "title": "Australia's best asset class, Michael Burry sells everything & buying property with mates",
+      "url": "https://equitymates.com/episode/australias-best-asset-class-michael-burry-sells-everything-buying-property-with-mates/",
+      "jump": "https://www.youtube.com/watch?v=keGNB20JA-M&t=1113s",
+      "at": "18:33"
+     }
+    },
+    {
+     "date": "2021-02-24",
+     "when": "February 2021",
+     "text": "In February 2021, an adviser on Equity Mates said Western firms including Estee Lauder had amazing businesses in China that were growing at 30% a year, citing long-term consumer growth drivers.",
+     "episode": {
+      "title": "Expert Investor: Hamish Douglass - Magellan Financial Group",
+      "url": "https://equitymates.com/episode/expert-investor-hamish-douglass-magellan-financial-group/",
+      "jump": "https://www.youtube.com/watch?v=xmV2fPcwn9E&t=1858s",
+      "at": "30:58"
+     }
+    },
+    {
+     "date": "2021-01-10",
+     "when": "January 2021",
+     "text": "In January 2021, Equity Mates noted Estee Lauder’s brand protection limited who could stock its products, implying barriers for new entrants and reinforcing the strength of its premium positioning.",
+     "episode": {
+      "title": "Summer Series: Adore Beauty Group Ltd (ASX: ABY)",
+      "url": "https://equitymates.com/episode/summer-series-adore-beauty-group-ltd-asx-aby/",
+      "jump": null,
+      "at": "20:27"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2025-06-02",
+     "when": "June 2025",
+     "text": "In June 2025, Equity Mates noted Estee Lauder was down 82% from its 2021 highs and discussed how strong gross margins had not translated to profit, framing the debate about what the market had priced in.",
+     "episode": {
+      "title": "Australia's best asset class, Michael Burry sells everything & buying property with mates",
+      "url": "https://equitymates.com/episode/australias-best-asset-class-michael-burry-sells-everything-buying-property-with-mates/",
+      "jump": "https://www.youtube.com/watch?v=keGNB20JA-M&t=1113s",
+      "at": "18:33"
+     }
+    },
+    {
+     "date": "2024-11-21",
+     "when": "November 2024",
+     "text": "In November 2024, a guest on Equity Mates pointed out Estee Lauder was down 80% from recent highs, attributing much of the weakness to China’s luxury slowdown, and presented it as a quality business despite the drawdown.",
+     "episode": {
+      "title": "Bryce sells MinRes, 11 expert stock picks & Pimp my Portfolio with Charlie Viola",
+      "url": "https://equitymates.com/episode/bryce-sells-minres-11-expert-stock-picks-pimp-my-portfolio-with-charlie-viola/",
+      "jump": "https://www.youtube.com/watch?v=WqHqUQMyXa4&t=1001s",
+      "at": "16:41"
+     }
+    }
+   ]
+  }
+ ]
+}

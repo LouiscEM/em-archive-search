@@ -1,0 +1,126 @@
+{
+ "slug": "peloton-pton",
+ "name": "Peloton",
+ "full": "Peloton",
+ "listings": [
+  "NASDAQ: PTON"
+ ],
+ "built": "2026-10-30",
+ "episodes": 4,
+ "mentioned_in": 40,
+ "latest": "2024-05-20",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2022-01-17",
+     "when": "January 2022",
+     "text": "In January 2022, Equity Mates described Peloton’s sleek bikes and treadmills with big screens and interactive classes, explaining the hardware-plus-content model and noting an All-Access membership of about $39 a month.",
+     "episode": {
+      "title": "What is the future of fitness? - Peloton Interactive w/ CM Karen Lawson | Summer Series",
+      "url": "https://equitymates.com/episode/summer-series-peloton/",
+      "jump": "https://www.youtube.com/watch?v=bcqIZvLTYIA&t=451s",
+      "at": "7:31"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2024-05-20",
+     "when": "May 2024",
+     "text": "In May 2024, Equity Mates compared Shopify with Zoom and Peloton, saying the problem solved and value captured looked better for Shopify, which suggested Peloton’s business quality and moat were less compelling.",
+     "episode": {
+      "title": "COVID stocks that haven't recovered (yet?), Pimp my portfolio & should I invest in gold?",
+      "url": "https://equitymates.com/episode/covid-stocks-that-havent-recovered-yet-pimp-my-portfolio-should-i-invest-in-gold/",
+      "jump": "https://www.youtube.com/watch?v=mvYu1ThJsJQ&t=669s",
+      "at": "11:09"
+     }
+    },
+    {
+     "date": "2022-02-28",
+     "when": "February 2022",
+     "text": "In February 2022, Equity Mates aired management remarks admitting Peloton scaled too fast and overinvested, saying changes aimed to position it for sustainable, profitable growth, which raised questions about the durability of demand.",
+     "episode": {
+      "title": "Can you hear their fear? CEOs of growth stocks down more than 40% | Quartr Reporting Season",
+      "url": "https://equitymates.com/episode/can-you-hear-their-fear-ceos-of-growth-stocks-down-more-than-40-quartr-reporting-season/",
+      "jump": null,
+      "at": "29:27"
+     }
+    },
+    {
+     "date": "2022-01-17",
+     "when": "January 2022",
+     "text": "In January 2022, Equity Mates highlighted a reported 92% retention rate, saying fitness spending looked sticky and Peloton’s churn was surprisingly low for a service that seemed easily replicated.",
+     "episode": {
+      "title": "What is the future of fitness? - Peloton Interactive w/ CM Karen Lawson | Summer Series",
+      "url": "https://equitymates.com/episode/summer-series-peloton/",
+      "jump": "https://www.youtube.com/watch?v=bcqIZvLTYIA&t=792s",
+      "at": "13:12"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2022-02-28",
+     "when": "February 2022",
+     "text": "In February 2022, Equity Mates noted management conceded past overinvestment and rapid scaling, outlining restructures to refocus on sustainable, profitable growth, which spoke directly to revisiting capital allocation decisions.",
+     "episode": {
+      "title": "Can you hear their fear? CEOs of growth stocks down more than 40% | Quartr Reporting Season",
+      "url": "https://equitymates.com/episode/can-you-hear-their-fear-ceos-of-growth-stocks-down-more-than-40-quartr-reporting-season/",
+      "jump": null,
+      "at": "29:27"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2024-05-20",
+     "when": "May 2024",
+     "text": "In May 2024, Equity Mates said Peloton surged 395% during COVID then fell 97.35% to about $4, using it as an example of a pandemic winner that hadn’t recovered.",
+     "episode": {
+      "title": "COVID stocks that haven't recovered (yet?), Pimp my portfolio & should I invest in gold?",
+      "url": "https://equitymates.com/episode/covid-stocks-that-havent-recovered-yet-pimp-my-portfolio-should-i-invest-in-gold/",
+      "jump": "https://www.youtube.com/watch?v=mvYu1ThJsJQ&t=543s",
+      "at": "9:03"
+     }
+    },
+    {
+     "date": "2022-01-17",
+     "when": "January 2022",
+     "text": "In January 2022, Equity Mates cited about $4 billion in revenue and a $14 billion market cap after a 75% fall, using those figures to frame where the market was valuing Peloton.",
+     "episode": {
+      "title": "What is the future of fitness? - Peloton Interactive w/ CM Karen Lawson | Summer Series",
+      "url": "https://equitymates.com/episode/summer-series-peloton/",
+      "jump": "https://www.youtube.com/watch?v=bcqIZvLTYIA&t=1184s",
+      "at": "19:44"
+     }
+    },
+    {
+     "date": "2021-11-29",
+     "when": "November 2021",
+     "text": "In November 2021, Equity Mates highlighted Peloton down 75% from all-time highs as tech stocks were hit, noting it alongside other growth names being repriced.",
+     "episode": {
+      "title": "Square, PayPal, Spotify, Peloton: Has a bubble burst without us realising?",
+      "url": "https://equitymates.com/episode/em-chat/",
+      "jump": "https://www.youtube.com/watch?v=goHDc6Cjor4&t=209s",
+      "at": "3:29"
+     }
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,104 @@
+{
+ "slug": "jardine-matheson-j36",
+ "name": "Jardine Matheson",
+ "full": "Jardine Matheson Holdings",
+ "listings": [
+  "SGX: J36"
+ ],
+ "built": "2026-11-01",
+ "episodes": 2,
+ "mentioned_in": 2,
+ "latest": "2025-10-21",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2025-10-21",
+     "when": "October 2025",
+     "text": "In October 2025, a guest on Equity Mates described Jardine Matheson as a Hong Kong-based investment holding company owning a collection of high quality Asian businesses, many leaders in their fields, highlighting the strength of its underlying operations.",
+     "episode": {
+      "title": "The emerging markets blind spot: Are you missing the next big opportunity? | Vern du Preez, Orbis Investments",
+      "url": "https://equitymates.com/episode/the-emerging-markets-blind-spot-are-you-missing-the-next-big-opportunity-vern-du-preez-orbis-investments/",
+      "jump": "https://www.youtube.com/watch?v=KZr-XJLubjw&t=1260s",
+      "at": "21:00"
+     }
+    },
+    {
+     "date": "2025-07-15",
+     "when": "July 2025",
+     "text": "In July 2025, Equity Mates said it owns stakes across multiple businesses and that the portfolio companies have generally been good businesses, indicating the core offering is exposure to quality operations.",
+     "episode": {
+      "title": "Basis Points: Lessons from 50 Years of Stock Market Cycles with Simon Skinner of Orbis",
+      "url": "https://equitymates.com/episode/basis-points-lessons-from-50-years-of-stock-market-cycles-with-simon-skinner-of-orbis/",
+      "jump": "https://www.youtube.com/watch?v=CdR5hgKguv8&t=2148s",
+      "at": "35:48"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2025-10-21",
+     "when": "October 2025",
+     "text": "In October 2025, a guest on Equity Mates said it was one of Asia's oldest and most respected businesses, still controlled by the founding family and known for thinking in decades, pointing to enduring strategic advantages.",
+     "episode": {
+      "title": "The emerging markets blind spot: Are you missing the next big opportunity? | Vern du Preez, Orbis Investments",
+      "url": "https://equitymates.com/episode/the-emerging-markets-blind-spot-are-you-missing-the-next-big-opportunity-vern-du-preez-orbis-investments/",
+      "jump": "https://www.youtube.com/watch?v=KZr-XJLubjw&t=1260s",
+      "at": "21:00"
+     }
+    },
+    {
+     "date": "2025-07-15",
+     "when": "July 2025",
+     "text": "In July 2025, Equity Mates noted the fifth-generation family leadership and long company history, saying Jardine Matheson had compounded capital over very long periods, communicated clearly and treated minority shareholders fairly, reflecting a durable culture supporting sustained profitability.",
+     "episode": {
+      "title": "Basis Points: Lessons from 50 Years of Stock Market Cycles with Simon Skinner of Orbis",
+      "url": "https://equitymates.com/episode/basis-points-lessons-from-50-years-of-stock-market-cycles-with-simon-skinner-of-orbis/",
+      "jump": "https://www.youtube.com/watch?v=CdR5hgKguv8&t=2148s",
+      "at": "35:48"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2025-07-15",
+     "when": "July 2025",
+     "text": "In July 2025, Equity Mates explained that as a holding company its role was to allocate capital to the next good idea and help those businesses grow, and said it had done this across many different investments.",
+     "episode": {
+      "title": "Basis Points: Lessons from 50 Years of Stock Market Cycles with Simon Skinner of Orbis",
+      "url": "https://equitymates.com/episode/basis-points-lessons-from-50-years-of-stock-market-cycles-with-simon-skinner-of-orbis/",
+      "jump": "https://www.youtube.com/watch?v=CdR5hgKguv8&t=2148s",
+      "at": "35:48"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2025-10-21",
+     "when": "October 2025",
+     "text": "In October 2025, a guest on Equity Mates said the market valued Jardine Matheson at around a 30% discount to the sum of its parts, with underlying holdings also below intrinsic value due to emerging markets pessimism, implying low expectations were priced in.",
+     "episode": {
+      "title": "The emerging markets blind spot: Are you missing the next big opportunity? | Vern du Preez, Orbis Investments",
+      "url": "https://equitymates.com/episode/the-emerging-markets-blind-spot-are-you-missing-the-next-big-opportunity-vern-du-preez-orbis-investments/",
+      "jump": "https://www.youtube.com/watch?v=KZr-XJLubjw&t=1260s",
+      "at": "21:00"
+     }
+    }
+   ]
+  }
+ ]
+}

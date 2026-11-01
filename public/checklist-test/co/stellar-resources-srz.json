@@ -1,0 +1,46 @@
+{
+ "slug": "stellar-resources-srz",
+ "name": "Stellar Resources",
+ "full": "Stellar Resources",
+ "listings": [
+  "ASX: SRZ"
+ ],
+ "built": "2026-11-01",
+ "episodes": 1,
+ "mentioned_in": 2,
+ "latest": "2026-01-27",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2026-01-27",
+     "when": "January 2026",
+     "text": "In January 2026, a guest on Equity Mates described Stellar Resources as a small tin project in Tasmania, with an undeveloped asset located near a large miner with established infrastructure, positioning it in the tin market as prices were rising.",
+     "episode": {
+      "title": "Why 2026 is the Year of Resources - Luke Laretive",
+      "url": "https://equitymates.com/episode/why-2026-is-the-year-of-resources-luke-laretive/",
+      "jump": "https://www.youtube.com/watch?v=3FKFAXzFUQw&t=1382s",
+      "at": "23:02"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": []
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

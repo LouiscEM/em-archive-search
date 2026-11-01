@@ -1,0 +1,58 @@
+{
+ "slug": "platinum-asset-management-ptm",
+ "name": "Platinum Asset Management",
+ "full": "Platinum Asset Management",
+ "listings": [
+  "ASX: PTM"
+ ],
+ "built": "2026-11-01",
+ "episodes": 2,
+ "mentioned_in": 7,
+ "latest": "2023-02-14",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": []
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2020-10-15",
+     "when": "October 2020",
+     "text": "In October 2020, Equity Mates said Platinum Asset Management had been highly regarded in the past but was now largely overlooked, framing it as a style-cycle issue as investors favoured managers like Magellan that were on the current side of the pendulum over traditional value approaches.",
+     "episode": {
+      "title": "Expert Investor: Rudi Filapek-Vandyck - Finding truly great, long-term businesses",
+      "url": "https://equitymates.com/episode/expert-investor-rudi-filapek-vandyck-finding-truly-great-long-term-businesses/",
+      "jump": null,
+      "at": "37:40"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2023-02-14",
+     "when": "February 2023",
+     "text": "In February 2023, Equity Mates highlighted that a US-listed Super Dividend ETF held Platinum Asset Management among its top positions, indicating it paid dividends that matched the ETF's high-yield focus.",
+     "episode": {
+      "title": "What are the 5 best paying dividend ETFs?",
+      "url": "https://equitymates.com/episode/what-are-the-5-best-paying-dividend-etfs/",
+      "jump": null,
+      "at": "16:37"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

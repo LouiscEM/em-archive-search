@@ -1,0 +1,70 @@
+{
+ "slug": "beam-communications-bcc",
+ "name": "Beam Communications",
+ "full": "Beam Communications Holdings",
+ "listings": [
+  "ASX: BCC"
+ ],
+ "built": "2026-11-01",
+ "episodes": 1,
+ "mentioned_in": 1,
+ "latest": "2023-10-02",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2023-10-02",
+     "when": "October 2023",
+     "text": "In October 2023, Equity Mates described Beam Communications as a satellite communication company that made satellite phones and other devices, used in places like rural areas and mine sites.",
+     "episode": {
+      "title": "Finding investing ideas in the news, what next for inflation & 3 new companies we're watching",
+      "url": "https://equitymates.com/episode/finding-investing-ideas-in-the-news-what-next-for-inflation-3-new-companies-were-watching/",
+      "jump": null,
+      "at": "41:22"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2023-10-02",
+     "when": "October 2023",
+     "text": "In October 2023, Equity Mates discussed rising competitive threat from satellite internet players such as Starlink and a merged OneWeb rival, noting satellite internet would increasingly challenge Beam Communications’ market.",
+     "episode": {
+      "title": "Finding investing ideas in the news, what next for inflation & 3 new companies we're watching",
+      "url": "https://equitymates.com/episode/finding-investing-ideas-in-the-news-what-next-for-inflation-3-new-companies-were-watching/",
+      "jump": null,
+      "at": "41:22"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2023-10-02",
+     "when": "October 2023",
+     "text": "In October 2023, Equity Mates noted the financial angle as interesting, calling it a $14 million micro-cap with the share price down 26% year to date and low trading movement.",
+     "episode": {
+      "title": "Finding investing ideas in the news, what next for inflation & 3 new companies we're watching",
+      "url": "https://equitymates.com/episode/finding-investing-ideas-in-the-news-what-next-for-inflation-3-new-companies-were-watching/",
+      "jump": null,
+      "at": "41:22"
+     }
+    }
+   ]
+  }
+ ]
+}

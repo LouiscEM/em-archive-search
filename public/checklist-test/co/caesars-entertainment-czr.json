@@ -1,0 +1,104 @@
+{
+ "slug": "caesars-entertainment-czr",
+ "name": "Caesars Entertainment",
+ "full": "Caesars Entertainment",
+ "listings": [
+  "NASDAQ: CZR"
+ ],
+ "built": "2026-11-01",
+ "episodes": 2,
+ "mentioned_in": 2,
+ "latest": "2024-04-25",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2024-04-25",
+     "when": "April 2024",
+     "text": "In April 2024, Equity Mates noted Caesars’ sportsbook ranked fourth in the US with 8% market share, indicating meaningful scale in online sports betting.",
+     "episode": {
+      "title": "Industry Deep Dive: Sports Betting - 5 years after legalisation in the US, who is winning?",
+      "url": "https://equitymates.com/episode/industry-deep-dive-sports-betting-5-years-after-legalisation-in-the-us-who-is-winning/",
+      "jump": "https://www.youtube.com/watch?v=bNNS3IW8kYQ&t=1027s",
+      "at": "17:07"
+     }
+    },
+    {
+     "date": "2022-08-29",
+     "when": "August 2022",
+     "text": "In August 2022, Equity Mates said Caesars Entertainment, famous for Caesars Palace in Vegas, operated in hospitality and entertainment and was pushing into sports betting to compete for American gamblers’ dollars.",
+     "episode": {
+      "title": "Disney is getting into sports betting + Earnings wrap",
+      "url": "https://equitymates.com/episode/disney-is-getting-into-sports-betting-earnings-wrap/",
+      "jump": "https://www.youtube.com/watch?v=z1dcF7VKMsM&t=1918s",
+      "at": "31:58"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2024-04-25",
+     "when": "April 2024",
+     "text": "In April 2024, Equity Mates highlighted that two leaders held about 43% each of US online betting, BetMGM 10% and Caesars 8%, showing a concentrated market with Caesars behind the front-runners.",
+     "episode": {
+      "title": "Industry Deep Dive: Sports Betting - 5 years after legalisation in the US, who is winning?",
+      "url": "https://equitymates.com/episode/industry-deep-dive-sports-betting-5-years-after-legalisation-in-the-us-who-is-winning/",
+      "jump": "https://www.youtube.com/watch?v=bNNS3IW8kYQ&t=1027s",
+      "at": "17:07"
+     }
+    },
+    {
+     "date": "2022-08-29",
+     "when": "August 2022",
+     "text": "In August 2022, Equity Mates introduced Caesars among Vegas casinos moving into sports betting, then noted two big players had over half the mobile market, framing the competitive pressure on others.",
+     "episode": {
+      "title": "Disney is getting into sports betting + Earnings wrap",
+      "url": "https://equitymates.com/episode/disney-is-getting-into-sports-betting-earnings-wrap/",
+      "jump": "https://www.youtube.com/watch?v=z1dcF7VKMsM&t=1918s",
+      "at": "31:58"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2022-08-29",
+     "when": "August 2022",
+     "text": "In August 2022, Equity Mates said ESPN had advertising deals with Caesars Entertainment and DraftKings to link to their sportsbooks from ESPN.com, showing Caesars used media partnerships to drive sportsbook traffic.",
+     "episode": {
+      "title": "Disney is getting into sports betting + Earnings wrap",
+      "url": "https://equitymates.com/episode/disney-is-getting-into-sports-betting-earnings-wrap/",
+      "jump": "https://www.youtube.com/watch?v=z1dcF7VKMsM&t=1028s",
+      "at": "17:08"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2022-08-29",
+     "when": "August 2022",
+     "text": "In August 2022, Equity Mates noted Caesars Entertainment had a $10 billion market cap when comparing companies in the sector.",
+     "episode": {
+      "title": "Disney is getting into sports betting + Earnings wrap",
+      "url": "https://equitymates.com/episode/disney-is-getting-into-sports-betting-earnings-wrap/",
+      "jump": "https://www.youtube.com/watch?v=z1dcF7VKMsM&t=1918s",
+      "at": "31:58"
+     }
+    }
+   ]
+  }
+ ]
+}

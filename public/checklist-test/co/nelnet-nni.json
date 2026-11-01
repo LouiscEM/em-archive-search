@@ -1,0 +1,57 @@
+{
+ "slug": "nelnet-nni",
+ "name": "Nelnet",
+ "full": "Nelnet",
+ "listings": [
+  "NYSE: NNI"
+ ],
+ "built": "2026-11-01",
+ "episodes": 2,
+ "mentioned_in": 2,
+ "latest": "2024-06-20",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": []
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": []
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2024-06-20",
+     "when": "June 2024",
+     "text": "In June 2024, Equity Mates noted Nelnet owned 21% of Hudl, with its last raise valuing Hudl at USD 980 million, roughly 2.5 times revenue, indicating one of the areas where Nelnet had invested outside its core operations.",
+     "episode": {
+      "title": "Catapult: Dominating sports analytics - how big can it get? | Company deep dive",
+      "url": "https://equitymates.com/episode/catapult-dominating-sports-analytics-how-big-can-it-get-company-deep-dive/",
+      "jump": "https://www.youtube.com/watch?v=_SLWpiNVv0A&t=2284s",
+      "at": "38:04"
+     }
+    },
+    {
+     "date": "2023-07-13",
+     "when": "July 2023",
+     "text": "In July 2023, a guest on Equity Mates said Nelnet's core student loan business became a melting ice cube after government changes, and the company had been reinvesting the cash flows over a 20 to 30 year period to diversify, showing a strong track record of redeploying capital.",
+     "episode": {
+      "title": "The investment case for Nelnet, Dropbox and Match Group | Arch Capital",
+      "url": "https://equitymates.com/episode/the-investment-case-for-nelnet-dropbox-and-match-group-arch-capital/",
+      "jump": null,
+      "at": "5:28"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

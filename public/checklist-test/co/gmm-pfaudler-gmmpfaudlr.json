@@ -1,0 +1,70 @@
+{
+ "slug": "gmm-pfaudler-gmmpfaudlr",
+ "name": "GMM Pfaudler",
+ "full": "GMM Pfaudler",
+ "listings": [
+  "NSE: GMMPFAUDLR"
+ ],
+ "built": "2026-11-01",
+ "episodes": 2,
+ "mentioned_in": 2,
+ "latest": "2023-09-25",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2023-09-21",
+     "when": "September 2023",
+     "text": "In September 2023, a guest on Equity Mates explained GMM Pfaudler makes ceramic glass reactors used to produce pharmaceuticals and APIs, with 55% global share and 80% share in India, positioning it as a key supplier to drug manufacturers.",
+     "episode": {
+      "title": "Expert: Saurabh Mukherjea - Why you must be investing in India | Marcellus Investment Managers",
+      "url": "https://equitymates.com/episode/expert-saurabh-mukherjea-why-you-must-be-investing-in-india-marcellus-investment-managers/",
+      "jump": null,
+      "at": "36:24"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2023-09-21",
+     "when": "September 2023",
+     "text": "In September 2023, a guest on Equity Mates said American pharma companies may shift API sourcing from China to India over the next five to six years, which would boost demand for ceramic glass reactors and support GMM Pfaudler’s dominant 55% global and 80% Indian market share.",
+     "episode": {
+      "title": "Expert: Saurabh Mukherjea - Why you must be investing in India | Marcellus Investment Managers",
+      "url": "https://equitymates.com/episode/expert-saurabh-mukherjea-why-you-must-be-investing-in-india-marcellus-investment-managers/",
+      "jump": null,
+      "at": "36:24"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2023-09-25",
+     "when": "September 2023",
+     "text": "In September 2023, Equity Mates noted GMM Pfaudler became so large it bought its German parent company, highlighting acquisitive expansion and the kind of corporate structures often seen in India.",
+     "episode": {
+      "title": "Best way to invest in India, how to rebalance your portfolio, and does anyone care about the new iPhone?",
+      "url": "https://equitymates.com/episode/best-way-to-invest-in-india-how-to-rebalance-your-portfolio-and-does-anyone-care-about-the-new-iphone/",
+      "jump": null,
+      "at": "28:00"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

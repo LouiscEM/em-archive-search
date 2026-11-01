@@ -1,0 +1,80 @@
+{
+ "slug": "city-chic-ccx",
+ "name": "City Chic",
+ "full": "City Chic",
+ "listings": [
+  "ASX: CCX"
+ ],
+ "built": "2026-11-01",
+ "episodes": 4,
+ "mentioned_in": 6,
+ "latest": "2023-07-10",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2020-07-22",
+     "when": "July 2020",
+     "text": "In July 2020, a guest on Equity Mates described City Chic as a plus sized women's fashion retailer that promoted positive body image and was tackling online sales, and highlighted supply chain work like living wages, factory checks and grievance hotlines as reasons it fit an ESG thesis.",
+     "episode": {
+      "title": "Expert Investor: Emilie O'Neill - The Research Process For ESG Investing",
+      "url": "https://equitymates.com/episode/expert-investor-emilie-oneill-the-research-process-for-esg-investing/",
+      "jump": null,
+      "at": "31:59"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": []
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2023-07-10",
+     "when": "July 2023",
+     "text": "In July 2023, Equity Mates noted City Chic was down 83% for the year but had risen 13% since the start of the new financial year, discussing it among heavily sold stocks that had bounced.",
+     "episode": {
+      "title": "Searching for the Dogs of FY23 + Ren's 5 minute valuation",
+      "url": "https://equitymates.com/episode/searching-for-the-dogs-of-fy23-rens-5-minute-valuation/",
+      "jump": null,
+      "at": "5:56"
+     }
+    },
+    {
+     "date": "2022-12-19",
+     "when": "December 2022",
+     "text": "In December 2022, Equity Mates listed City Chic as a past stock of the year and said it had been a tough year when comparing how those picks performed.",
+     "episode": {
+      "title": "Bold predictions wrapped for 2023",
+      "url": "https://equitymates.com/episode/bold-predictions-wrapped-for-2023/",
+      "jump": "https://www.youtube.com/watch?v=X83UnQZxVkE&t=1374s",
+      "at": "22:54"
+     }
+    },
+    {
+     "date": "2020-12-16",
+     "when": "December 2020",
+     "text": "In December 2020, Equity Mates said City Chic was up 17% from the start of the year and had climbed about 280% from its March low, though it still sat below its pre-crash high.",
+     "episode": {
+      "title": "EM Chat: Bold Predictions - Who Came Out On Top?",
+      "url": "https://equitymates.com/episode/em-chat-bold-predictions-who-came-out-on-top/",
+      "jump": null,
+      "at": "6:38"
+     }
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,58 @@
+{
+ "slug": "watsco-wso",
+ "name": "Watsco",
+ "full": "Watsco Inc",
+ "listings": [
+  "NYSE: WSO"
+ ],
+ "built": "2026-11-01",
+ "episodes": 1,
+ "mentioned_in": 1,
+ "latest": "2025-04-07",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2025-04-07",
+     "when": "April 2025",
+     "text": "In April 2025, Equity Mates noted Watsco as a US company in the air conditioning space and said they were looking into it for the first time.",
+     "episode": {
+      "title": "Trump tariff tsunami, 7 new stocks on our watchlist & how to play the defence boom",
+      "url": "https://equitymates.com/episode/trump-tariff-tsunami-7-new-stocks-on-our-watchlist-how-to-play-the-defence-boom/",
+      "jump": "https://www.youtube.com/watch?v=1fhZyrOOKQY&t=872s",
+      "at": "14:32"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": []
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2025-04-07",
+     "when": "April 2025",
+     "text": "In April 2025, Equity Mates highlighted an example of employees accumulating Watsco shares that compounded at a 19% annual rate over 35 years, which was used to illustrate powerful long-term share growth and loyalty.",
+     "episode": {
+      "title": "Trump tariff tsunami, 7 new stocks on our watchlist & how to play the defence boom",
+      "url": "https://equitymates.com/episode/trump-tariff-tsunami-7-new-stocks-on-our-watchlist-how-to-play-the-defence-boom/",
+      "jump": "https://www.youtube.com/watch?v=1fhZyrOOKQY&t=963s",
+      "at": "16:03"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

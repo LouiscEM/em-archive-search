@@ -1,0 +1,103 @@
+{
+ "slug": "santos-sto",
+ "name": "Santos",
+ "full": "Santos",
+ "listings": [
+  "ASX: STO"
+ ],
+ "built": "2026-10-30",
+ "episodes": 3,
+ "mentioned_in": 25,
+ "latest": "2026-06-16",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": []
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2026-06-16",
+     "when": "June 2026",
+     "text": "In June 2026, Equity Mates discussed Santos planning to shift CapEx away from Australian projects towards PNG and Alaska amid taxes including PRRT, suggesting policy and tax settings influenced future returns.",
+     "episode": {
+      "title": "Chris Judd Thinks You're Wrong About Rates, Bonds and AI",
+      "url": "https://equitymates.com/episode/chris-judd-thinks-youre-wrong-about-rates-bonds-and-ai/",
+      "jump": "https://www.youtube.com/watch?v=SUCInMJIqXc&t=1889s",
+      "at": "31:29"
+     }
+    },
+    {
+     "date": "2026-03-23",
+     "when": "March 2026",
+     "text": "In March 2026, Equity Mates noted Santos rose 15% as oil companies surged during Middle East tensions, highlighting how macro shocks moved earnings expectations across the sector.",
+     "episode": {
+      "title": "Why Australia is raising rates, the top 2 active ETFs & the pros and cons of trusts",
+      "url": "https://equitymates.com/episode/why-australia-is-raising-rates-the-top-2-active-etfs-the-pros-and-cons-of-trusts/",
+      "jump": "https://www.youtube.com/watch?v=JAA9-sfyhlQ&t=313s",
+      "at": "5:13"
+     }
+    },
+    {
+     "date": "2025-02-24",
+     "when": "February 2025",
+     "text": "In February 2025, Equity Mates reported Santos cut dividends by 41% after profit fell 14%, adding that lower oil prices and production challenges from bringing new operations online made it a volume as well as a price story.",
+     "episode": {
+      "title": "Bad news for banks & miners, where did all the dividends go & stocks with freebies",
+      "url": "https://equitymates.com/episode/bad-news-for-banks-miners-where-did-all-the-dividends-go-stocks-with-freebies/",
+      "jump": "https://www.youtube.com/watch?v=hkGW5JdchqY&t=255s",
+      "at": "4:15"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2026-06-16",
+     "when": "June 2026",
+     "text": "In June 2026, Equity Mates highlighted Santos reallocating CapEx from Australia to PNG and Alaska, indicating management prioritised jurisdictions and projects based on tax and policy considerations.",
+     "episode": {
+      "title": "Chris Judd Thinks You're Wrong About Rates, Bonds and AI",
+      "url": "https://equitymates.com/episode/chris-judd-thinks-youre-wrong-about-rates-bonds-and-ai/",
+      "jump": "https://www.youtube.com/watch?v=SUCInMJIqXc&t=1889s",
+      "at": "31:29"
+     }
+    },
+    {
+     "date": "2025-02-24",
+     "when": "February 2025",
+     "text": "In February 2025, Equity Mates said Santos reduced its dividend by 41% while tackling production ramp ups, describing a trade off between funding new volumes and returning cash.",
+     "episode": {
+      "title": "Bad news for banks & miners, where did all the dividends go & stocks with freebies",
+      "url": "https://equitymates.com/episode/bad-news-for-banks-miners-where-did-all-the-dividends-go-stocks-with-freebies/",
+      "jump": "https://www.youtube.com/watch?v=hkGW5JdchqY&t=255s",
+      "at": "4:15"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2026-03-23",
+     "when": "March 2026",
+     "text": "In March 2026, Equity Mates observed Santos shares up 15% amid an oil price spike linked to conflict, framing recent gains as macro driven rather than company specific.",
+     "episode": {
+      "title": "Why Australia is raising rates, the top 2 active ETFs & the pros and cons of trusts",
+      "url": "https://equitymates.com/episode/why-australia-is-raising-rates-the-top-2-active-etfs-the-pros-and-cons-of-trusts/",
+      "jump": "https://www.youtube.com/watch?v=JAA9-sfyhlQ&t=313s",
+      "at": "5:13"
+     }
+    }
+   ]
+  }
+ ]
+}

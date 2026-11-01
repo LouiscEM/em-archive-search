@@ -1,0 +1,159 @@
+{
+ "slug": "siemens-sie",
+ "name": "Siemens",
+ "full": "Siemens",
+ "listings": [
+  "ETR: SIE"
+ ],
+ "built": "2026-10-30",
+ "episodes": 6,
+ "mentioned_in": 17,
+ "latest": "2026-06-11",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2026-06-11",
+     "when": "June 2026",
+     "text": "In June 2026, a guest on Equity Mates described Siemens as a major supplier of gas turbines, switchgear and transformers for power generation, saying GE, Siemens and Mitsubishi Heavy Industries together controlled about 90% of the market.",
+     "episode": {
+      "title": "The stock market’s $400 billion test, Bryce’s thesis card reveal & a 3-in-1 pitch for the Community Portfolio",
+      "url": "https://equitymates.com/episode/the-stock-markets-400-billion-test-bryces-thesis-card-reveal-a-3-in-1-pitch-for-the-community-portfolio/",
+      "jump": "https://www.youtube.com/watch?v=t9LCbSBdrec&t=1658s",
+      "at": "27:38"
+     }
+    },
+    {
+     "date": "2023-07-28",
+     "when": "July 2023",
+     "text": "In July 2023, a guest on Equity Mates said IP used by GE and Siemens sat in two thirds of all MRIs, highlighting Siemens’ scale and presence in medical imaging equipment.",
+     "episode": {
+      "title": "Uncovered: EMvision Medical Devices",
+      "url": "https://equitymates.com/episode/uncovered-emvision-medical-devices/",
+      "jump": null,
+      "at": "11:23"
+     }
+    },
+    {
+     "date": "2021-11-12",
+     "when": "November 2021",
+     "text": "In November 2021, Equity Mates explained Siemens had slimmed to focus on factory automation and was the only company offering both the hardware to run manufacturing lines and the software to control and optimise them, aiding industries retooling for a low carbon world.",
+     "episode": {
+      "title": "ASX week: Alison Savas - Two winners from decarbonisation",
+      "url": "https://equitymates.com/episode/asx-week-alison-savas-two-winners-from-decarbonisation/",
+      "jump": "https://www.youtube.com/watch?v=ObO3oEYZlps&t=993s",
+      "at": "16:33"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2026-06-11",
+     "when": "June 2026",
+     "text": "In June 2026, a guest on Equity Mates noted GE, Siemens and Mitsubishi Heavy Industries controlled about 90% of the power equipment market, with Siemens strong in gas turbines and grid gear, pointing to industry concentration.",
+     "episode": {
+      "title": "The stock market’s $400 billion test, Bryce’s thesis card reveal & a 3-in-1 pitch for the Community Portfolio",
+      "url": "https://equitymates.com/episode/the-stock-markets-400-billion-test-bryces-thesis-card-reveal-a-3-in-1-pitch-for-the-community-portfolio/",
+      "jump": "https://www.youtube.com/watch?v=t9LCbSBdrec&t=1658s",
+      "at": "27:38"
+     }
+    },
+    {
+     "date": "2022-07-18",
+     "when": "July 2022",
+     "text": "In July 2022, Equity Mates positioned Europe as the leader in industrial tech like Industry 4.0 and IoT, calling Siemens number one, which suggested strong brand and capabilities in advanced manufacturing.",
+     "episode": {
+      "title": "Great time to travel to Europe… or look at their stocks",
+      "url": "https://equitymates.com/episode/great-time-to-travel-to-europe-or-look-at-their-stocks/",
+      "jump": "https://www.youtube.com/watch?v=jVRWIC5f1Jo&t=1678s",
+      "at": "27:58"
+     }
+    },
+    {
+     "date": "2021-11-12",
+     "when": "November 2021",
+     "text": "In November 2021, Equity Mates said Siemens’ unique combination of automation hardware and control software created a differentiated offer as factories were redesigned, suggesting durable competitive advantage.",
+     "episode": {
+      "title": "ASX week: Alison Savas - Two winners from decarbonisation",
+      "url": "https://equitymates.com/episode/asx-week-alison-savas-two-winners-from-decarbonisation/",
+      "jump": "https://www.youtube.com/watch?v=ObO3oEYZlps&t=993s",
+      "at": "16:33"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2026-06-11",
+     "when": "June 2026",
+     "text": "In June 2026, a guest on Equity Mates, who worked with Siemens as a contractor, said the firms were busy with long-term projects and investing in new technologies, indicating continued reinvestment to meet demand.",
+     "episode": {
+      "title": "The stock market’s $400 billion test, Bryce’s thesis card reveal & a 3-in-1 pitch for the Community Portfolio",
+      "url": "https://equitymates.com/episode/the-stock-markets-400-billion-test-bryces-thesis-card-reveal-a-3-in-1-pitch-for-the-community-portfolio/",
+      "jump": "https://www.youtube.com/watch?v=t9LCbSBdrec&t=1658s",
+      "at": "27:38"
+     }
+    },
+    {
+     "date": "2021-11-12",
+     "when": "November 2021",
+     "text": "In November 2021, Equity Mates said Siemens had substantially slimmed its conglomerate portfolio to focus on factory automation, indicating deliberate capital allocation toward higher potential areas.",
+     "episode": {
+      "title": "ASX week: Alison Savas - Two winners from decarbonisation",
+      "url": "https://equitymates.com/episode/asx-week-alison-savas-two-winners-from-decarbonisation/",
+      "jump": "https://www.youtube.com/watch?v=ObO3oEYZlps&t=993s",
+      "at": "16:33"
+     }
+    },
+    {
+     "date": "2021-07-25",
+     "when": "July 2021",
+     "text": "In July 2021, Equity Mates mentioned Siemens had a spin-off, Siemens Energy, signalling ongoing portfolio reshaping around core businesses.",
+     "episode": {
+      "title": "Country Deep Dive: Germany's export giants | DAX 30",
+      "url": "https://equitymates.com/episode/country-deep-dive-germanys-export-giants-dax-30/",
+      "jump": null,
+      "at": "20:49"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2026-06-11",
+     "when": "June 2026",
+     "text": "In June 2026, Equity Mates observed Siemens had almost doubled over the past five years alongside peers, linking performance to the multi-decade electrification and energy transition story.",
+     "episode": {
+      "title": "The stock market’s $400 billion test, Bryce’s thesis card reveal & a 3-in-1 pitch for the Community Portfolio",
+      "url": "https://equitymates.com/episode/the-stock-markets-400-billion-test-bryces-thesis-card-reveal-a-3-in-1-pitch-for-the-community-portfolio/",
+      "jump": "https://www.youtube.com/watch?v=t9LCbSBdrec&t=1869s",
+      "at": "31:09"
+     }
+    },
+    {
+     "date": "2024-10-28",
+     "when": "October 2024",
+     "text": "In October 2024, Equity Mates noted Siemens was up 50% over the last 12 months and connected the move to a run of nuclear-related announcements benefiting industrial suppliers to small modular reactors.",
+     "episode": {
+      "title": "Australian housing quarterly update & Nuclear energy and AI: What you need to know",
+      "url": "https://equitymates.com/episode/australian-housing-quarterly-update-nuclear-energy-and-ai-what-you-need-to-know/",
+      "jump": "https://www.youtube.com/watch?v=SVQnTbr9a88&t=794s",
+      "at": "13:14"
+     }
+    }
+   ]
+  }
+ ]
+}

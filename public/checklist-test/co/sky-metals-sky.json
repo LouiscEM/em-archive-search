@@ -1,0 +1,46 @@
+{
+ "slug": "sky-metals-sky",
+ "name": "Sky Metals",
+ "full": "Sky Metals",
+ "listings": [
+  "ASX: SKY"
+ ],
+ "built": "2026-11-01",
+ "episodes": 1,
+ "mentioned_in": 1,
+ "latest": "2026-03-10",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2026-03-10",
+     "when": "March 2026",
+     "text": "In March 2026, a guest on Equity Mates said Sky Metals was trying to produce tin and looked promising, while stressing the project was speculative and not for careful investors.",
+     "episode": {
+      "title": "Kerr Neilson on oil shocks and why gold will hit $8,000",
+      "url": "https://equitymates.com/episode/kerr-neilson-on-oil-shocks-and-why-gold-will-hit-8000/",
+      "jump": null,
+      "at": "20:35"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": []
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

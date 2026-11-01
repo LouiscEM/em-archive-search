@@ -1,0 +1,92 @@
+{
+ "slug": "sharon-ai-shai",
+ "name": "Sharon AI",
+ "full": "Sharon AI",
+ "listings": [
+  "NASDAQ: SHAI"
+ ],
+ "built": "2026-11-01",
+ "episodes": 2,
+ "mentioned_in": 2,
+ "latest": "2026-05-25",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2026-05-25",
+     "when": "May 2026",
+     "text": "In May 2026, Equity Mates described Sharon AI as a certified NVIDIA cloud partner that bought thousands of Nvidia chips, installed them in third‑party data centres, and rented compute by the hour to companies needing AI capacity in Australia.",
+     "episode": {
+      "title": "Nvidia blows us away, X Marks the Stock & Pimp My Portfolio with Luke Laretive",
+      "url": "https://equitymates.com/episode/nvidia-blows-us-away-x-marks-the-stock-pimp-my-portfolio-with-luke-laretive/",
+      "jump": "https://www.youtube.com/watch?v=fhmt8dhkV-k&t=1275s",
+      "at": "21:15"
+     }
+    },
+    {
+     "date": "2026-05-08",
+     "when": "May 2026",
+     "text": "In May 2026, a guest on Equity Mates said Sharon AI was one of three NVIDIA cloud partners in Australia and had listed on the NASDAQ in February, positioning it in the emerging AI factory segment serving fast‑growing compute demand.",
+     "episode": {
+      "title": "What’s Hot, What’s Not in Commercial Property with Jason Huljich",
+      "url": "https://equitymates.com/episode/whats-hot-whats-not-in-commercial-property-with-jason-huljich/",
+      "jump": "https://www.youtube.com/watch?v=AJ7TqSa4Eow&t=971s",
+      "at": "16:11"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2026-05-25",
+     "when": "May 2026",
+     "text": "In May 2026, Equity Mates highlighted Sharon AI’s certification as an NVIDIA cloud partner, suggesting preferred supplier access to high‑demand chips that could support ongoing customer interest.",
+     "episode": {
+      "title": "Nvidia blows us away, X Marks the Stock & Pimp My Portfolio with Luke Laretive",
+      "url": "https://equitymates.com/episode/nvidia-blows-us-away-x-marks-the-stock-pimp-my-portfolio-with-luke-laretive/",
+      "jump": "https://www.youtube.com/watch?v=fhmt8dhkV-k&t=1275s",
+      "at": "21:15"
+     }
+    },
+    {
+     "date": "2026-05-08",
+     "when": "May 2026",
+     "text": "In May 2026, a guest on Equity Mates noted Sharon AI was one of only three NVIDIA cloud partners in Australia, implying scarce partner status amid strong demand for AI facilities, as seen in peers planning large build‑outs.",
+     "episode": {
+      "title": "What’s Hot, What’s Not in Commercial Property with Jason Huljich",
+      "url": "https://equitymates.com/episode/whats-hot-whats-not-in-commercial-property-with-jason-huljich/",
+      "jump": "https://www.youtube.com/watch?v=AJ7TqSa4Eow&t=971s",
+      "at": "16:11"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2026-05-25",
+     "when": "May 2026",
+     "text": "In May 2026, Equity Mates discussed hype around Sharon AI, saying it announced billions in contracts but reported only $290,000 of quality revenue, while short sellers alleged fraud and an OpenAI prodigy had bought in, raising questions about what was priced in.",
+     "episode": {
+      "title": "Nvidia blows us away, X Marks the Stock & Pimp My Portfolio with Luke Laretive",
+      "url": "https://equitymates.com/episode/nvidia-blows-us-away-x-marks-the-stock-pimp-my-portfolio-with-luke-laretive/",
+      "jump": "https://www.youtube.com/watch?v=fhmt8dhkV-k&t=1275s",
+      "at": "21:15"
+     }
+    }
+   ]
+  }
+ ]
+}

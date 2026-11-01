@@ -1,0 +1,70 @@
+{
+ "slug": "sims-sgm",
+ "name": "Sims",
+ "full": "Sims Limited",
+ "listings": [
+  "ASX: SGM"
+ ],
+ "built": "2026-10-30",
+ "episodes": 1,
+ "mentioned_in": 16,
+ "latest": "2026-08-07",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2026-08-07",
+     "when": "August 2026",
+     "text": "In August 2026, Equity Mates described Sims as the world's largest publicly traded metal and electronics recycler, highlighting its core service processing scrap metal and e-waste.",
+     "episode": {
+      "title": "5 ASX stocks exposed to the new commodities supercycle",
+      "url": "https://equitymates.com/episode/5-asx-stocks-exposed-to-the-new-commodities-supercycle/",
+      "jump": "https://www.youtube.com/watch?v=kMw0V0h0kFA&t=318s",
+      "at": "5:18"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2026-08-07",
+     "when": "August 2026",
+     "text": "In August 2026, a guest on Equity Mates said the metals business was structurally improving as US onshoring kept scrap supply domestic, reducing export competition and supporting better margins and profit.",
+     "episode": {
+      "title": "5 ASX stocks exposed to the new commodities supercycle",
+      "url": "https://equitymates.com/episode/5-asx-stocks-exposed-to-the-new-commodities-supercycle/",
+      "jump": "https://www.youtube.com/watch?v=kMw0V0h0kFA&t=336s",
+      "at": "5:36"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2026-08-07",
+     "when": "August 2026",
+     "text": "In August 2026, a guest on Equity Mates argued Sims’ property portfolio, including New York sites, could be worth roughly $20 per share at market rates, noting the share price discussed in the segment was $25.",
+     "episode": {
+      "title": "5 ASX stocks exposed to the new commodities supercycle",
+      "url": "https://equitymates.com/episode/5-asx-stocks-exposed-to-the-new-commodities-supercycle/",
+      "jump": "https://www.youtube.com/watch?v=kMw0V0h0kFA&t=336s",
+      "at": "5:36"
+     }
+    }
+   ]
+  }
+ ]
+}

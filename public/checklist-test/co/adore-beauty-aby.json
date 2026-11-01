@@ -1,0 +1,126 @@
+{
+ "slug": "adore-beauty-aby",
+ "name": "Adore Beauty",
+ "full": "Adore Beauty",
+ "listings": [
+  "ASX: ABY"
+ ],
+ "built": "2026-10-30",
+ "episodes": 6,
+ "mentioned_in": 16,
+ "latest": "2026-07-14",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2022-09-05",
+     "when": "September 2022",
+     "text": "In September 2022, Equity Mates described Adore Beauty as an online retailer for all things makeup and beauty, underscoring its clear, focused offering.",
+     "episode": {
+      "title": "Reporting season is (finally) over. What did we learn?",
+      "url": "https://equitymates.com/episode/reporting-season-is-finally-over-what-did-we-learn/",
+      "jump": "https://www.youtube.com/watch?v=-5y9AvNuURQ&t=1635s",
+      "at": "27:15"
+     }
+    },
+    {
+     "date": "2022-02-22",
+     "when": "February 2022",
+     "text": "In February 2022, Equity Mates said the Adore Beauty CEO interview prompted many first‑time female investors to reach out, reflecting how the brand’s popularity resonated with customers.",
+     "episode": {
+      "title": "How to level-up your investing routine | Emma Edwards, The Broke Generation",
+      "url": "https://equitymates.com/episode/how-to-level-up-your-investing-routine-emma-edwards-the-broke-generation/",
+      "jump": null,
+      "at": "6:59"
+     }
+    },
+    {
+     "date": "2021-10-26",
+     "when": "October 2021",
+     "text": "In October 2021, Equity Mates reported the Adore Beauty CEO framed the service as an empowering, personalised beauty shopping experience focused on self‑care, highlighting a strongly customer‑centric approach.",
+     "episode": {
+      "title": "What the CEO of Adore Beauty Thinks About Investing in Beauty",
+      "url": "https://equitymates.com/episode/what-the-ceo-of-adore-beauty-thinks-about-investing-in-beauty/",
+      "jump": null,
+      "at": "5:31"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2022-01-06",
+     "when": "January 2022",
+     "text": "In January 2022, Equity Mates noted Adore Beauty had operated for about 20 years before listing, suggesting a long track record before going public.",
+     "episode": {
+      "title": "Tapping into the $110b tradie economy - HiPages Group w/ CEO Roby Sharon-Zipser | Summer Series",
+      "url": "https://equitymates.com/episode/summer-series-hipages/",
+      "jump": "https://www.youtube.com/watch?v=x_duDLl9bIg&t=100s",
+      "at": "1:40"
+     }
+    },
+    {
+     "date": "2021-10-26",
+     "when": "October 2021",
+     "text": "In October 2021, Equity Mates heard that Adore Beauty had been profitable since the start because it was self‑funding, pointing to a disciplined operating model.",
+     "episode": {
+      "title": "What the CEO of Adore Beauty Thinks About Investing in Beauty",
+      "url": "https://equitymates.com/episode/what-the-ceo-of-adore-beauty-thinks-about-investing-in-beauty/",
+      "jump": null,
+      "at": "11:56"
+     }
+    },
+    {
+     "date": "2021-01-10",
+     "when": "January 2021",
+     "text": "In January 2021, Equity Mates cited Adore Beauty’s prospectus calling it Australia’s number one pure‑play online beauty retailer, indicating a leading market position.",
+     "episode": {
+      "title": "Summer Series: Adore Beauty Group Ltd (ASX: ABY)",
+      "url": "https://equitymates.com/episode/summer-series-adore-beauty-group-ltd-asx-aby/",
+      "jump": null,
+      "at": "3:14"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2021-10-26",
+     "when": "October 2021",
+     "text": "In October 2021, Equity Mates explained Adore Beauty brought in a private equity partner to invest for growth and later listed to access capital and provide liquidity, outlining deliberate capital allocation to unlock new opportunities.",
+     "episode": {
+      "title": "What the CEO of Adore Beauty Thinks About Investing in Beauty",
+      "url": "https://equitymates.com/episode/what-the-ceo-of-adore-beauty-thinks-about-investing-in-beauty/",
+      "jump": null,
+      "at": "11:56"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2026-07-14",
+     "when": "July 2026",
+     "text": "In July 2026, Equity Mates used Adore Beauty’s IPO as an example where insiders sold after listing; the stock popped then never recovered, illustrating how IPO hype and selling pressure affected the price.",
+     "episode": {
+      "title": "The next big IPO is coming, should I Invest in it?",
+      "url": "https://equitymates.com/episode/the-next-big-ipo-is-coming-should-i-invest-in-it/",
+      "jump": "https://www.youtube.com/watch?v=yOQJwJp40-c&t=1134s",
+      "at": "18:54"
+     }
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,92 @@
+{
+ "slug": "dusk-dsk",
+ "name": "Dusk",
+ "full": "Dusk Group",
+ "listings": [
+  "ASX: DSK"
+ ],
+ "built": "2026-11-01",
+ "episodes": 2,
+ "mentioned_in": 3,
+ "latest": "2022-09-02",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2021-09-10",
+     "when": "September 2021",
+     "text": "In September 2021, Equity Mates said Dusk provided home fragrance products like candles, diffusers and essential oils, sold through physical stores and online, and noted it had operated since 2014 and listed on the ASX in November 2020 at $2 per share.",
+     "episode": {
+      "title": "Our Order Pad | Dusk Group (DSK) & Nitro Software (NTO)",
+      "url": "https://equitymates.com/episode/our-order-pad-dusk-group-dsk-nitro-software-nto/",
+      "jump": null,
+      "at": "2:09"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2022-09-02",
+     "when": "September 2022",
+     "text": "In September 2022, Equity Mates said Dusk sat among retailers holding margins without heavy discounting, maintaining net cash, optimising inventory, and navigating currency and supply chain issues ahead of peak Christmas trading.",
+     "episode": {
+      "title": "It's our birthday! We review all our Order Pad stocks 🎂 Pt I",
+      "url": "https://equitymates.com/episode/its-our-birthday-we-review-all-our-order-pad-stocks-%f0%9f%8e%82-pt-i/",
+      "jump": null,
+      "at": "4:53"
+     }
+    },
+    {
+     "date": "2021-09-10",
+     "when": "September 2021",
+     "text": "In September 2021, Equity Mates highlighted Dusk as profitable with margins of plus 40 per cent and a strong growth rate since FY17 of about plus 60 per cent, with pretty much no debt on the balance sheet.",
+     "episode": {
+      "title": "Our Order Pad | Dusk Group (DSK) & Nitro Software (NTO)",
+      "url": "https://equitymates.com/episode/our-order-pad-dusk-group-dsk-nitro-software-nto/",
+      "jump": null,
+      "at": "2:09"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2022-09-02",
+     "when": "September 2022",
+     "text": "In September 2022, Equity Mates reported Dusk was expanding its physical network by rolling out new stores and preparing for the key November to Christmas sales period.",
+     "episode": {
+      "title": "It's our birthday! We review all our Order Pad stocks 🎂 Pt I",
+      "url": "https://equitymates.com/episode/its-our-birthday-we-review-all-our-order-pad-stocks-%f0%9f%8e%82-pt-i/",
+      "jump": null,
+      "at": "4:53"
+     }
+    },
+    {
+     "date": "2021-09-10",
+     "when": "September 2021",
+     "text": "In September 2021, Equity Mates noted Dusk’s organic and new store growth footprint and that it paid a roughly eight per cent dividend yield, supported by pretty much no debt.",
+     "episode": {
+      "title": "Our Order Pad | Dusk Group (DSK) & Nitro Software (NTO)",
+      "url": "https://equitymates.com/episode/our-order-pad-dusk-group-dsk-nitro-software-nto/",
+      "jump": null,
+      "at": "2:09"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

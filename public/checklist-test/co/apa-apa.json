@@ -1,0 +1,81 @@
+{
+ "slug": "apa-apa",
+ "name": "APA",
+ "full": "APA Group",
+ "listings": [
+  "ASX: APA"
+ ],
+ "built": "2026-10-30",
+ "episodes": 3,
+ "mentioned_in": 11,
+ "latest": "2026-10-02",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2026-10-02",
+     "when": "October 2026",
+     "text": "In October 2026, a guest on Equity Mates described APA Group as exceptional and one of the largest holdings in an infrastructure portfolio, highlighting it as a high quality Australian operator.",
+     "episode": {
+      "title": "The Infrastructure Behind AI, Electrification and Energy Security with Shane Hurst",
+      "url": "https://equitymates.com/episode/the-infrastructure-behind-ai-electrification-and-energy-security-with-shane-hurst/",
+      "jump": "https://www.youtube.com/watch?v=iSbzEevUzxg&t=2323s",
+      "at": "38:43"
+     }
+    },
+    {
+     "date": "2021-03-14",
+     "when": "March 2021",
+     "text": "In March 2021, Equity Mates listed APA Group among ASX infrastructure companies, noting it as a way to get exposure to essential assets alongside names like Transurban and Sydney Airport.",
+     "episode": {
+      "title": "EM Chat: Industry Deep Dive - Infrastructure",
+      "url": "https://equitymates.com/episode/em-chat-industry-deep-dive-infrastructure/",
+      "jump": "https://www.youtube.com/watch?v=gIEkREY2Kn4&t=1732s",
+      "at": "28:52"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2026-10-02",
+     "when": "October 2026",
+     "text": "In October 2026, a guest on Equity Mates said contracting and regulation limited the impact of build delays and cost increases and, after speaking with APA’s CEO, flagged NIMBYism as a growing approvals risk overseas that had not really emerged in Australia.",
+     "episode": {
+      "title": "The Infrastructure Behind AI, Electrification and Energy Security with Shane Hurst",
+      "url": "https://equitymates.com/episode/the-infrastructure-behind-ai-electrification-and-energy-security-with-shane-hurst/",
+      "jump": "https://www.youtube.com/watch?v=iSbzEevUzxg&t=1455s",
+      "at": "24:15"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2024-04-15",
+     "when": "April 2024",
+     "text": "In April 2024, Equity Mates included APA Group on a list of Australia’s dividend darlings, presenting it as a company known for paying reliable income.",
+     "episode": {
+      "title": "Australia's Dividend Darlings, don't expect rate cuts soon & where we find information",
+      "url": "https://equitymates.com/episode/australias-dividend-darlings-dont-expect-rate-cuts-soon-where-we-find-information/",
+      "jump": "https://www.youtube.com/watch?v=O8ah7WUVNk0&t=782s",
+      "at": "13:02"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

@@ -1,0 +1,70 @@
+{
+ "slug": "23andme-me",
+ "name": "23andMe",
+ "full": "23andMe Holding",
+ "listings": [
+  "NASDAQ: ME"
+ ],
+ "built": "2026-11-01",
+ "episodes": 1,
+ "mentioned_in": 1,
+ "latest": "2023-11-08",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2023-11-08",
+     "when": "November 2023",
+     "text": "In November 2023, Equity Mates explained that 23andMe sold mail-in DNA testing kits that gave ancestry breakdowns and health insights, framing the core product as simple to use and widely marketed.",
+     "episode": {
+      "title": "23andMe is selling access to customer's DNA",
+      "url": "https://equitymates.com/episode/23andme-is-selling-access-to-customers-dna/",
+      "jump": null,
+      "at": "1:22"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2023-11-08",
+     "when": "November 2023",
+     "text": "In November 2023, Equity Mates highlighted the scale of 23andMe’s database, saying only Ancestry.com and the Chinese government rivalled it, implying a data advantage that few could match.",
+     "episode": {
+      "title": "23andMe is selling access to customer's DNA",
+      "url": "https://equitymates.com/episode/23andme-is-selling-access-to-customers-dna/",
+      "jump": null,
+      "at": "2:19"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2023-11-08",
+     "when": "November 2023",
+     "text": "In November 2023, Equity Mates discussed 23andMe rolling out a higher-end DNA sequencing product aimed at health risk management, indicating a push to expand its offering beyond ancestry into deeper medical insights.",
+     "episode": {
+      "title": "23andMe is selling access to customer's DNA",
+      "url": "https://equitymates.com/episode/23andme-is-selling-access-to-customers-dna/",
+      "jump": null,
+      "at": "3:28"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

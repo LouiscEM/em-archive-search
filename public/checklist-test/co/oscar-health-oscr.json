@@ -1,0 +1,70 @@
+{
+ "slug": "oscar-health-oscr",
+ "name": "Oscar Health",
+ "full": "Oscar Health Inc",
+ "listings": [
+  "NYSE: OSCR"
+ ],
+ "built": "2026-11-01",
+ "episodes": 1,
+ "mentioned_in": 1,
+ "latest": "2025-07-28",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": []
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2025-07-28",
+     "when": "July 2025",
+     "text": "In July 2025, Equity Mates noted revenue climbed from 1.9 billion to 9.2 billion over four years, losses narrowed from 600 million to 270 million before a 25 million profit, and said bulls also cited its CEO’s prior Aetna tenure where the share price rose sevenfold from 2010 to 2018.",
+     "episode": {
+      "title": "The Chinese EV boom, Pimp my Portfolio & X marks the stock: what's buzzing right now",
+      "url": "https://equitymates.com/episode/the-chinese-ev-boom-pimp-my-portfolio-x-marks-the-stock-whats-buzzing-right-now/",
+      "jump": "https://www.youtube.com/watch?v=mgxIZSt2Znk&t=2023s",
+      "at": "33:43"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2025-07-28",
+     "when": "July 2025",
+     "text": "In July 2025, Equity Mates relayed tweets asserting Oscar Health was rapidly entering new markets, which supporters framed as a pathway for ongoing growth.",
+     "episode": {
+      "title": "The Chinese EV boom, Pimp my Portfolio & X marks the stock: what's buzzing right now",
+      "url": "https://equitymates.com/episode/the-chinese-ev-boom-pimp-my-portfolio-x-marks-the-stock-whats-buzzing-right-now/",
+      "jump": "https://www.youtube.com/watch?v=mgxIZSt2Znk&t=1714s",
+      "at": "28:34"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2025-07-28",
+     "when": "July 2025",
+     "text": "In July 2025, Equity Mates highlighted tweets claiming management expected $2.25 earnings per share by 2027, with some posts applying a 20 times multiple to $1.50 EPS to suggest a $30 share price versus about $14 at the time.",
+     "episode": {
+      "title": "The Chinese EV boom, Pimp my Portfolio & X marks the stock: what's buzzing right now",
+      "url": "https://equitymates.com/episode/the-chinese-ev-boom-pimp-my-portfolio-x-marks-the-stock-whats-buzzing-right-now/",
+      "jump": "https://www.youtube.com/watch?v=mgxIZSt2Znk&t=1714s",
+      "at": "28:34"
+     }
+    }
+   ]
+  }
+ ]
+}

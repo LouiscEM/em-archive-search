@@ -1,0 +1,57 @@
+{
+ "slug": "weibo-wb",
+ "name": "Weibo",
+ "full": "Weibo",
+ "listings": [
+  "NASDAQ: WB"
+ ],
+ "built": "2026-11-01",
+ "episodes": 2,
+ "mentioned_in": 3,
+ "latest": "2023-09-04",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2023-09-04",
+     "when": "September 2023",
+     "text": "In September 2023, Equity Mates noted that discussion about youth unemployment immediately trended on Weibo, where users posted sharp criticism of the government, showing the platform’s wide reach and active engagement.",
+     "episode": {
+      "title": "China's kids are not alright: Youth unemployment tops 20%",
+      "url": "https://equitymates.com/episode/chinas-kids-are-not-alright-youth-unemployment-tops-20/",
+      "jump": null,
+      "at": "5:01"
+     }
+    },
+    {
+     "date": "2020-12-09",
+     "when": "December 2020",
+     "text": "In December 2020, a guest on Equity Mates described Weibo as one of the largest social network websites in China, a more feature rich version of Twitter, and said tracked data showed daily usage was exploding.",
+     "episode": {
+      "title": "Expert Investor: Qiao Ma And The Investment Thesis For Shenzhou International",
+      "url": "https://equitymates.com/episode/expert-investor-qiao-ma-and-the-investment-thesis-for-shenzhou-international/",
+      "jump": null,
+      "at": "4:13"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": []
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

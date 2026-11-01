@@ -1,0 +1,93 @@
+{
+ "slug": "duolingo-duol",
+ "name": "Duolingo",
+ "full": "Duolingo",
+ "listings": [
+  "NASDAQ: DUOL"
+ ],
+ "built": "2026-10-30",
+ "episodes": 2,
+ "mentioned_in": 8,
+ "latest": "2026-03-16",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2025-07-28",
+     "when": "July 2025",
+     "text": "In July 2025, Equity Mates described Duolingo’s app as interactive and sticky, offering 40+ languages, and said it was expanding into other subjects like maths, music, chess and literacy to broaden its education product.",
+     "episode": {
+      "title": "The Chinese EV boom, Pimp my Portfolio & X marks the stock: what's buzzing right now",
+      "url": "https://equitymates.com/episode/the-chinese-ev-boom-pimp-my-portfolio-x-marks-the-stock-whats-buzzing-right-now/",
+      "jump": "https://www.youtube.com/watch?v=mgxIZSt2Znk&t=2172s",
+      "at": "36:12"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2026-03-16",
+     "when": "March 2026",
+     "text": "In March 2026, a guest on Equity Mates said Duolingo held about 85% of language-learning daily active users and, at that scale, captured billions of exercises each day to train its own models, framing data and scale as its edge.",
+     "episode": {
+      "title": "We're panic buying & the most bullish Mr Beat Up yet",
+      "url": "https://equitymates.com/episode/were-panic-buying-the-most-bullish-mr-beat-up-yet/",
+      "jump": "https://www.youtube.com/watch?v=j2Sc-B5DlhM&t=1193s",
+      "at": "19:53"
+     }
+    },
+    {
+     "date": "2025-07-28",
+     "when": "July 2025",
+     "text": "In July 2025, Equity Mates outlined a bull case that AI could power learning of anything on a platform with proven user engagement, suggesting Duolingo’s user experience and AI could help it capture more of education.",
+     "episode": {
+      "title": "The Chinese EV boom, Pimp my Portfolio & X marks the stock: what's buzzing right now",
+      "url": "https://equitymates.com/episode/the-chinese-ev-boom-pimp-my-portfolio-x-marks-the-stock-whats-buzzing-right-now/",
+      "jump": "https://www.youtube.com/watch?v=mgxIZSt2Znk&t=2479s",
+      "at": "41:19"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2026-03-16",
+     "when": "March 2026",
+     "text": "In March 2026, Equity Mates reported management intentionally traded off this year’s financial metrics for a larger long term goal, prioritising user acquisition over extracting more from current users after a narrative shift around AI and competition.",
+     "episode": {
+      "title": "We're panic buying & the most bullish Mr Beat Up yet",
+      "url": "https://equitymates.com/episode/were-panic-buying-the-most-bullish-mr-beat-up-yet/",
+      "jump": "https://www.youtube.com/watch?v=j2Sc-B5DlhM&t=863s",
+      "at": "14:23"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2026-03-16",
+     "when": "March 2026",
+     "text": "In March 2026, Equity Mates said Duolingo was at one of its lowest valuations, citing a P/E of 12, forward P/E of 15, a prior average of 150, PEG around 0.6 to 0.8, and about a billion dollars cash with zero debt, and noted the market priced in slower growth.",
+     "episode": {
+      "title": "We're panic buying & the most bullish Mr Beat Up yet",
+      "url": "https://equitymates.com/episode/were-panic-buying-the-most-bullish-mr-beat-up-yet/",
+      "jump": "https://www.youtube.com/watch?v=j2Sc-B5DlhM&t=1517s",
+      "at": "25:17"
+     }
+    }
+   ]
+  }
+ ]
+}

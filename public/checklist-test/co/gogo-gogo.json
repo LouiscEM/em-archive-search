@@ -1,0 +1,70 @@
+{
+ "slug": "gogo-gogo",
+ "name": "GoGo",
+ "full": "GoGo",
+ "listings": [
+  "NASDAQ: GOGO"
+ ],
+ "built": "2026-11-01",
+ "episodes": 1,
+ "mentioned_in": 1,
+ "latest": "2023-05-29",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2023-05-29",
+     "when": "May 2023",
+     "text": "In May 2023, a guest on Equity Mates explained that GoGo was the leader in providing internet connectivity to private jets in North America, using ground towers configured to broadcast up to aircraft, after divesting its commercial airline business about three years earlier to focus on this more profitable niche.",
+     "episode": {
+      "title": "Expert: Luis Sanchez - $500,000 for internet in the sky | GoGo (NASDAQ: GOGO)",
+      "url": "https://equitymates.com/episode/expert-luis-sanchez-500000-for-internet-in-the-sky-gogo-nasdaq-gogo/",
+      "jump": null,
+      "at": "20:57"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2023-05-29",
+     "when": "May 2023",
+     "text": "In May 2023, a guest on Equity Mates said GoGo sold equipment for hundreds of thousands of dollars and charged thousands per month, which supported a 40% cash flow margin that could exceed 50% with scale, highlighting a very profitable business model.",
+     "episode": {
+      "title": "Expert: Luis Sanchez - $500,000 for internet in the sky | GoGo (NASDAQ: GOGO)",
+      "url": "https://equitymates.com/episode/expert-luis-sanchez-500000-for-internet-in-the-sky-gogo-nasdaq-gogo/",
+      "jump": null,
+      "at": "24:48"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2023-05-29",
+     "when": "May 2023",
+     "text": "In May 2023, a guest on Equity Mates noted management owned about a fourth of the company and had divested the commercial airline segment to focus on private jets, describing disciplined capital allocation aimed at protecting and enhancing per share equity value.",
+     "episode": {
+      "title": "Expert: Luis Sanchez - $500,000 for internet in the sky | GoGo (NASDAQ: GOGO)",
+      "url": "https://equitymates.com/episode/expert-luis-sanchez-500000-for-internet-in-the-sky-gogo-nasdaq-gogo/",
+      "jump": null,
+      "at": "24:48"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

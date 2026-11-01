@@ -1,0 +1,103 @@
+{
+ "slug": "lowe-s-low",
+ "name": "Lowe's",
+ "full": "Lowe's",
+ "listings": [
+  "NYSE: LOW"
+ ],
+ "built": "2026-10-30",
+ "episodes": 4,
+ "mentioned_in": 13,
+ "latest": "2024-02-12",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2024-02-12",
+     "when": "February 2024",
+     "text": "In February 2024, Equity Mates described Lowe's as the second largest US home improvement retailer with over 1700 stores, about US$90 billion revenue in 2023 and roughly 18% market share, highlighting the scale of its offer across a fragmented market.",
+     "episode": {
+      "title": "Will US fixed mortgage rates lead to a renovation boom? - Lowes | Summer Series",
+      "url": "https://equitymates.com/episode/will-us-fixed-mortgage-rates-lead-to-a-renovation-boom-lowes-summer-series/",
+      "jump": "https://www.youtube.com/watch?v=lixJ_S3ES7Q&t=727s",
+      "at": "12:07"
+     }
+    },
+    {
+     "date": "2023-03-16",
+     "when": "March 2023",
+     "text": "In March 2023, a guest on Equity Mates contrasted Lowe's generalist home improvement range with Floor & Decor’s specialist flooring assortment, explaining how specialists offered far deeper choice than big-box rivals.",
+     "episode": {
+      "title": "My High Conviction Stock: Nathan Bell - Floor & Decor (NYSE: FND) + Mastercard (NYSE: MA)",
+      "url": "https://equitymates.com/episode/investsmart-nathan-bell-rdtbc/",
+      "jump": null,
+      "at": "30:25"
+     }
+    },
+    {
+     "date": "2021-07-13",
+     "when": "July 2021",
+     "text": "In July 2021, Equity Mates relayed contractor feedback that they would drive past Lowe's to shop at Home Depot, using it to discuss service quality and why omnichannel pickup reduced Amazon’s threat in home improvement.",
+     "episode": {
+      "title": "Why are the experts buying Costco & Home Depot?",
+      "url": "https://equitymates.com/episode/why-are-the-experts-buying-costco-home-depot-2/",
+      "jump": "https://www.youtube.com/watch?v=I4OJIcShHds&t=1966s",
+      "at": "32:46"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2024-02-12",
+     "when": "February 2024",
+     "text": "In February 2024, Equity Mates highlighted Lowe’s 18% share and sub-50% combined share with Home Depot to show a large, fragmented market where scale can matter, framing structural industry dynamics relevant to sustained profitability.",
+     "episode": {
+      "title": "Will US fixed mortgage rates lead to a renovation boom? - Lowes | Summer Series",
+      "url": "https://equitymates.com/episode/will-us-fixed-mortgage-rates-lead-to-a-renovation-boom-lowes-summer-series/",
+      "jump": "https://www.youtube.com/watch?v=lixJ_S3ES7Q&t=727s",
+      "at": "12:07"
+     }
+    },
+    {
+     "date": "2023-03-09",
+     "when": "March 2023",
+     "text": "In March 2023, a guest on Equity Mates said Lowe's had struggled while Home Depot pulled away in recent years, but added Lowe's could improve and compete more effectively, framing durability of profits as dependent on execution.",
+     "episode": {
+      "title": "My High Conviction Stock: Stephen Arnold - Tractor Supply (NASDAQ: TSCO)",
+      "url": "https://equitymates.com/episode/my-high-conviction-stock-stephen-arnold-tractor-supply-nasdaq-tsco/",
+      "jump": null,
+      "at": "27:30"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2024-02-12",
+     "when": "February 2024",
+     "text": "In February 2024, Equity Mates noted the market beyond Home Depot and Lowe's was fragmented, presenting chances to roll up smaller players or use scale for lower prices, alongside classic retail levers like expanding store footprints and lifting sales per square metre.",
+     "episode": {
+      "title": "Will US fixed mortgage rates lead to a renovation boom? - Lowes | Summer Series",
+      "url": "https://equitymates.com/episode/will-us-fixed-mortgage-rates-lead-to-a-renovation-boom-lowes-summer-series/",
+      "jump": "https://www.youtube.com/watch?v=lixJ_S3ES7Q&t=493s",
+      "at": "8:13"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

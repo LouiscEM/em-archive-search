@@ -1,0 +1,103 @@
+{
+ "slug": "lendlease-llc",
+ "name": "Lendlease",
+ "full": "Lendlease",
+ "listings": [
+  "ASX: LLC"
+ ],
+ "built": "2026-11-01",
+ "episodes": 3,
+ "mentioned_in": 5,
+ "latest": "2022-12-23",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2022-12-23",
+     "when": "December 2022",
+     "text": "In December 2022, Equity Mates noted Lendlease was working on a Melbourne project alongside another contractor after a $30 million specialist contract was awarded, showing active work in Victoria.",
+     "episode": {
+      "title": "12 stocks for 12 days of Christmas Pt 2 | ECF, SRG, TSI, UNH & more!",
+      "url": "https://equitymates.com/episode/12-stocks-for-12-days-of-christmas-pt-2-ecf-srg-tsi-unh-more/",
+      "jump": null,
+      "at": "7:02"
+     }
+    },
+    {
+     "date": "2022-12-16",
+     "when": "December 2022",
+     "text": "In December 2022, Equity Mates described Lendlease as a property development and investment company across development, construction and investments, and as one of the biggest property managers in Australia, designing, funding, owning, co-investing and managing property assets.",
+     "episode": {
+      "title": "12 stocks of Christmas Pt 1 | TCL, GL1, WMT, BOE & more!",
+      "url": "https://equitymates.com/episode/12-stocks-of-christmas-pt-1-tcl-gl1-wmt-boe-more/",
+      "jump": null,
+      "at": "16:12"
+     }
+    },
+    {
+     "date": "2021-12-16",
+     "when": "December 2021",
+     "text": "In December 2021, a guest on Equity Mates called Lendlease one of the great global builders in urban renewal, pointing to Sydney’s Barangaroo and major projects in London, San Francisco and Milan as evidence of its capability.",
+     "episode": {
+      "title": "Expert: Andrew Brown - Wrap of 2021 and Review of Bold Predictions",
+      "url": "https://equitymates.com/episode/expert-andrew-brown-wrap-of-2021-and-review-of-bold-predictions/",
+      "jump": "https://www.youtube.com/watch?v=o5JKRFY_Ats&t=3429s",
+      "at": "57:09"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2022-12-16",
+     "when": "December 2022",
+     "text": "In December 2022, Equity Mates highlighted Lendlease had underperformed peers on a 3 to 5 year basis, citing a 2018 engineering downgrade and COVID disruptions as reasons for a notable derating versus real estate peers like Goodman Group.",
+     "episode": {
+      "title": "12 stocks of Christmas Pt 1 | TCL, GL1, WMT, BOE & more!",
+      "url": "https://equitymates.com/episode/12-stocks-of-christmas-pt-1-tcl-gl1-wmt-boe-more/",
+      "jump": null,
+      "at": "16:12"
+     }
+    },
+    {
+     "date": "2021-12-16",
+     "when": "December 2021",
+     "text": "In December 2021, a guest on Equity Mates said cities would start growing again and positioned Lendlease as the prime builder in urban renewal worldwide, suggesting it had the capability to compete on large, long-term projects across multiple global cities.",
+     "episode": {
+      "title": "Expert: Andrew Brown - Wrap of 2021 and Review of Bold Predictions",
+      "url": "https://equitymates.com/episode/expert-andrew-brown-wrap-of-2021-and-review-of-bold-predictions/",
+      "jump": "https://www.youtube.com/watch?v=o5JKRFY_Ats&t=3429s",
+      "at": "57:09"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2021-12-16",
+     "when": "December 2021",
+     "text": "In December 2021, a guest on Equity Mates described Lendlease as a difficult valuation play and noted the shares were less than half of their level 21 years ago.",
+     "episode": {
+      "title": "Expert: Andrew Brown - Wrap of 2021 and Review of Bold Predictions",
+      "url": "https://equitymates.com/episode/expert-andrew-brown-wrap-of-2021-and-review-of-bold-predictions/",
+      "jump": "https://www.youtube.com/watch?v=o5JKRFY_Ats&t=3429s",
+      "at": "57:09"
+     }
+    }
+   ]
+  }
+ ]
+}

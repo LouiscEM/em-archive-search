@@ -1,0 +1,125 @@
+{
+ "slug": "wise-wise",
+ "name": "Wise",
+ "full": "Wise",
+ "listings": [
+  "LON: WISE"
+ ],
+ "built": "2026-10-30",
+ "episodes": 6,
+ "mentioned_in": 17,
+ "latest": "2026-04-24",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2024-09-24",
+     "when": "September 2024",
+     "text": "In September 2024, Equity Mates discussed travel budgeting and said platforms like Wise could automate small regular transfers into foreign currency to smooth exchange rate swings.",
+     "episode": {
+      "title": "Our 5 best money hacks to save for your next holiday | Singapore Airlines",
+      "url": "https://equitymates.com/episode/our-5-best-money-hacks-to-save-for-your-next-holiday-singapore-airlines/",
+      "jump": "https://www.youtube.com/watch?v=5K9HoO0zW5g&t=885s",
+      "at": "14:45"
+     }
+    },
+    {
+     "date": "2024-05-28",
+     "when": "May 2024",
+     "text": "In May 2024, Equity Mates compared travel cards and said Wise offered transparent fees, strong foreign exchange rates and wide currency coverage, plus a couple of free ATM withdrawals each month, presenting it as simple and cost conscious.",
+     "episode": {
+      "title": "We compare the top travel cards: Wise vs ING vs HSBC",
+      "url": "https://equitymates.com/episode/we-compare-the-top-travel-cards-wise-vs-ing-vs-hsbc/",
+      "jump": "https://www.youtube.com/watch?v=WWgnbBch7bA&t=281s",
+      "at": "4:41"
+     }
+    },
+    {
+     "date": "2023-11-20",
+     "when": "November 2023",
+     "text": "In November 2023, Equity Mates recapped a pitch describing Wise as a multi-currency card and transfer platform that removed middlemen by managing liquidity in-house, cutting fees for travellers and small businesses.",
+     "episode": {
+      "title": "We review the 16 stocks pitched at the Sohn Hearts & Minds conference",
+      "url": "https://equitymates.com/episode/we-review-the-16-stocks-pitched-at-the-sohn-hearts-minds-conference/",
+      "jump": null,
+      "at": "10:33"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2025-10-21",
+     "when": "October 2025",
+     "text": "In October 2025, a guest on Equity Mates said Wise operated a global payments network across 170-plus countries and more than 40 currencies, with founder leadership and major insider ownership, highlighting scale and alignment.",
+     "episode": {
+      "title": "The emerging markets blind spot: Are you missing the next big opportunity? | Vern du Preez, Orbis Investments",
+      "url": "https://equitymates.com/episode/the-emerging-markets-blind-spot-are-you-missing-the-next-big-opportunity-vern-du-preez-orbis-investments/",
+      "jump": "https://www.youtube.com/watch?v=KZr-XJLubjw&t=1435s",
+      "at": "23:55"
+     }
+    },
+    {
+     "date": "2024-10-25",
+     "when": "October 2024",
+     "text": "In October 2024, a guest on Equity Mates said Wise built its payments stack from the ground up, enabling lower costs and scale in a market where size matters, which created a competitive edge.",
+     "episode": {
+      "title": "Expert: Jared Pohl - 4 companies this growth investor loves | ECP Asset Management",
+      "url": "https://equitymates.com/episode/expert-jared-pohl-4-companies-this-growth-investor-loves-ecp-asset-management/",
+      "jump": null,
+      "at": "14:43"
+     }
+    },
+    {
+     "date": "2023-11-20",
+     "when": "November 2023",
+     "text": "In November 2023, Equity Mates said Wise cut out banks and other intermediaries in cross-border payments by pooling liquidity, lowering fees relative to traditional channels and strengthening its position.",
+     "episode": {
+      "title": "We review the 16 stocks pitched at the Sohn Hearts & Minds conference",
+      "url": "https://equitymates.com/episode/we-review-the-16-stocks-pitched-at-the-sohn-hearts-minds-conference/",
+      "jump": null,
+      "at": "10:33"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2026-04-24",
+     "when": "April 2026",
+     "text": "In April 2026, a guest on Equity Mates compared Wise to Costco’s model, saying it reinvested to lower customer costs, reflecting shared customer economics that supported growth.",
+     "episode": {
+      "title": "Which Aussie software stocks are ready to rebound with Jared Pohl",
+      "url": "https://equitymates.com/episode/which-aussie-software-stocks-are-ready-to-rebound-with-jared-pohl/",
+      "jump": "https://www.youtube.com/watch?v=ONniPFWrVUI&t=2084s",
+      "at": "34:44"
+     }
+    },
+    {
+     "date": "2024-10-25",
+     "when": "October 2024",
+     "text": "In October 2024, a guest on Equity Mates explained Wise kept reinvesting profits to reduce customer costs, driving volume growth, while cautioning that profit growth could lag during the period of cost reductions.",
+     "episode": {
+      "title": "Expert: Jared Pohl - 4 companies this growth investor loves | ECP Asset Management",
+      "url": "https://equitymates.com/episode/expert-jared-pohl-4-companies-this-growth-investor-loves-ecp-asset-management/",
+      "jump": null,
+      "at": "14:43"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

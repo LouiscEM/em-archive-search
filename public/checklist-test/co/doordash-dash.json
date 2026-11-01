@@ -1,0 +1,137 @@
+{
+ "slug": "doordash-dash",
+ "name": "DoorDash",
+ "full": "DoorDash",
+ "listings": [
+  "NYSE: DASH"
+ ],
+ "built": "2026-10-30",
+ "episodes": 7,
+ "mentioned_in": 16,
+ "latest": "2026-03-13",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2025-05-12",
+     "when": "May 2025",
+     "text": "In May 2025, Equity Mates reported DoorDash launched pay-in-four for orders, framing it as a feature to drive convenience, while raising concerns it signalled consumer overleveraging.",
+     "episode": {
+      "title": "AI is eating search, Buffett bets on pizza & property hits all-time highs",
+      "url": "https://equitymates.com/episode/ai-is-eating-search-buffett-bets-on-pizza-property-hits-all-time-highs/",
+      "jump": null,
+      "at": "10:36"
+     }
+    },
+    {
+     "date": "2022-08-26",
+     "when": "August 2022",
+     "text": "In August 2022, Equity Mates described how virtual restaurants used DoorDash as a delivery channel, with one app-only burger chain surpassing $100 million in revenue, showing the platform’s reach for merchants.",
+     "episode": {
+      "title": "The business of MrBeast: YouTube's top earner",
+      "url": "https://equitymates.com/episode/the-business-of-mrbeast-youtubes-top-earner/",
+      "jump": null,
+      "at": "6:45"
+     }
+    },
+    {
+     "date": "2022-04-25",
+     "when": "April 2022",
+     "text": "In April 2022, Equity Mates said DoorDash, the US leader in restaurant delivery, expanded into groceries to meet booming demand for convenience, though it was not profitable.",
+     "episode": {
+      "title": "Has grocery delivery gone bananas?",
+      "url": "https://equitymates.com/episode/has-grocery-delivery-gone-bananas/",
+      "jump": null,
+      "at": "8:57"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2026-03-13",
+     "when": "March 2026",
+     "text": "In March 2026, a guest on Equity Mates argued DoorDash had an embedded layer of trust and controlled the platform that riders and restaurants rely on, supporting defensibility against generic AI services.",
+     "episode": {
+      "title": "What an AI-Powered Future Could Look Like with Alex Pollak",
+      "url": "https://equitymates.com/episode/what-an-ai-powered-future-could-look-like-with-alex-pollak/",
+      "jump": "https://www.youtube.com/watch?v=c6g6syrN82M&t=518s",
+      "at": "8:38"
+     }
+    },
+    {
+     "date": "2022-11-23",
+     "when": "November 2022",
+     "text": "In November 2022, Equity Mates outlined profitability pressures as delivery firms tried tactics like minimum order sizes, batching, white label apps and testing drones or robots, and said none of the listed players were profitable.",
+     "episode": {
+      "title": "Will food delivery services ever deliver profits?",
+      "url": "https://equitymates.com/episode/will-food-delivery-services-ever-deliver-profits/",
+      "jump": null,
+      "at": "10:38"
+     }
+    },
+    {
+     "date": "2022-05-13",
+     "when": "May 2022",
+     "text": "In May 2022, Equity Mates noted DoorDash held over 50% US food delivery market share, but highlighted that these giant platforms generated revenue without consistent profits.",
+     "episode": {
+      "title": "What's the deal with the gig economy?",
+      "url": "https://equitymates.com/episode/whats-the-deal-with-the-gig-economy/",
+      "jump": null,
+      "at": "8:02"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2022-04-25",
+     "when": "April 2022",
+     "text": "In April 2022, Equity Mates reported DoorDash invested in expanding from restaurants into groceries as part of growth, despite the broader sector’s lack of profitability.",
+     "episode": {
+      "title": "Has grocery delivery gone bananas?",
+      "url": "https://equitymates.com/episode/has-grocery-delivery-gone-bananas/",
+      "jump": null,
+      "at": "8:57"
+     }
+    },
+    {
+     "date": "2021-12-13",
+     "when": "December 2021",
+     "text": "In December 2021, Equity Mates said DoorDash pushed into 15-minute delivery by employing riders and taking on inventory and warehouses, shifting from an asset-light marketplace to a more capital-intensive model to enable ultrafast service.",
+     "episode": {
+      "title": "Bryce and Ren review their Stock of the Year and Bold Predictions",
+      "url": "https://equitymates.com/episode/bryce-and-ren-review-their-stock-of-the-year-and-bold-predictions/",
+      "jump": "https://www.youtube.com/watch?v=smRpGRnkg4Y&t=1096s",
+      "at": "18:16"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2021-12-13",
+     "when": "December 2021",
+     "text": "In December 2021, Equity Mates compared market caps, noting DoorDash fell from about US$60b to US$55b while Uber dropped from US$108b to US$75b, and said unprofitable delivery models had been hit in the market.",
+     "episode": {
+      "title": "Bryce and Ren review their Stock of the Year and Bold Predictions",
+      "url": "https://equitymates.com/episode/bryce-and-ren-review-their-stock-of-the-year-and-bold-predictions/",
+      "jump": "https://www.youtube.com/watch?v=smRpGRnkg4Y&t=1012s",
+      "at": "16:52"
+     }
+    }
+   ]
+  }
+ ]
+}

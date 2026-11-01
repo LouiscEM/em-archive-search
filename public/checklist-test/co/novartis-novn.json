@@ -1,0 +1,104 @@
+{
+ "slug": "novartis-novn",
+ "name": "Novartis",
+ "full": "Novartis",
+ "listings": [
+  "SWX: NOVN"
+ ],
+ "built": "2026-11-01",
+ "episodes": 4,
+ "mentioned_in": 6,
+ "latest": "2024-07-09",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2024-07-09",
+     "when": "July 2024",
+     "text": "In July 2024, a guest on Equity Mates said Novartis’s Pluvicto was already on the market as a late-line prostate cancer treatment with relatively few side effects like a metallic taste, and expected similar therapies to move to first-line use and expand beyond prostate cancer.",
+     "episode": {
+      "title": "Expert: Michael Frazis - Why I sold Nvidia",
+      "url": "https://equitymates.com/episode/expert-michael-frazis-why-i-sold-nvidia/",
+      "jump": null,
+      "at": "39:07"
+     }
+    },
+    {
+     "date": "2023-02-17",
+     "when": "February 2023",
+     "text": "In February 2023, Equity Mates described Novartis as a very consistent producer of new drugs, highlighting cardiovascular and oncology pipeline candidates including treatments for breast and prostate cancer.",
+     "episode": {
+      "title": "Finding global equity ideas for your portfolio in 2023",
+      "url": "https://equitymates.com/episode/finding-global-equity-ideas-for-your-portfolio-in-2023/",
+      "jump": null,
+      "at": "22:33"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2023-02-17",
+     "when": "February 2023",
+     "text": "In February 2023, Equity Mates characterised Novartis as both defensive and growth oriented, pointing to very consistent pipeline success across cardiovascular and oncology as evidence of its ongoing strength.",
+     "episode": {
+      "title": "Finding global equity ideas for your portfolio in 2023",
+      "url": "https://equitymates.com/episode/finding-global-equity-ideas-for-your-portfolio-in-2023/",
+      "jump": null,
+      "at": "22:33"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2023-02-17",
+     "when": "February 2023",
+     "text": "In February 2023, Equity Mates explained Novartis spun out Alcon and was spinning out its generics business, noting these moves were making the company a purer play after years of building a strong pipeline.",
+     "episode": {
+      "title": "Finding global equity ideas for your portfolio in 2023",
+      "url": "https://equitymates.com/episode/finding-global-equity-ideas-for-your-portfolio-in-2023/",
+      "jump": null,
+      "at": "22:33"
+     }
+    },
+    {
+     "date": "2020-12-30",
+     "when": "December 2020",
+     "text": "In December 2020, Equity Mates noted CSL acquired its flu vaccine business from Novartis, indicating Novartis had divested that unit as part of reshaping its portfolio.",
+     "episode": {
+      "title": "Summer Series: CSL Limited (ASX CSL)",
+      "url": "https://equitymates.com/episode/summer-series-csl-limited-asx-csl/",
+      "jump": null,
+      "at": "7:17"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2024-04-08",
+     "when": "April 2024",
+     "text": "In April 2024, Equity Mates noted Novartis as a Swiss pharmaceutical with a 198 billion market cap and shares up 6 percent over the prior 12 months.",
+     "episode": {
+      "title": "Move over Magnificent 7, meet the Magnificent 11, Bryce’s small cap investment & Compounding continued",
+      "url": "https://equitymates.com/episode/move-over-magnificent-7-meet-the-magnificent-11-bryces-small-cap-investment-compounding-continued/",
+      "jump": "https://www.youtube.com/watch?v=lOIZb_iNSMw&t=1089s",
+      "at": "18:09"
+     }
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,103 @@
+{
+ "slug": "booking-bkng",
+ "name": "Booking",
+ "full": "Booking Holdings",
+ "listings": [
+  "NASDAQ: BKNG"
+ ],
+ "built": "2026-10-30",
+ "episodes": 2,
+ "mentioned_in": 11,
+ "latest": "2026-04-10",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2026-04-10",
+     "when": "April 2026",
+     "text": "In April 2026, a guest on Equity Mates described Booking as an online travel agent across Booking.com and Agoda with over one billion room nights booked last year, adding flights, cars and experiences, while most economics were driven by hotel bookings due to fragmented supply and perishable inventory.",
+     "episode": {
+      "title": "Finding opportunities in well-known names with Ryan Joyce",
+      "url": "https://equitymates.com/episode/finding-opportunities-in-well-known-names-with-ryan-joyce/",
+      "jump": "https://www.youtube.com/watch?v=qNiwsfvSELk&t=1928s",
+      "at": "32:08"
+     }
+    },
+    {
+     "date": "2024-02-19",
+     "when": "February 2024",
+     "text": "In February 2024, Equity Mates said Booking spanned brands like Booking.com, Agoda, Kayak and OpenTable, and cited scale metrics including 896 million room nights, 62 million car rentals, 23 million plane tickets and a 41% share of OTA gross bookings, highlighting a broad, popular travel service.",
+     "episode": {
+      "title": "We're back with our Stock of the Year & Bold Predictions",
+      "url": "https://equitymates.com/episode/were-back-with-our-stock-of-the-year-bold-predictions/",
+      "jump": "https://www.youtube.com/watch?v=IUqhG9UggW4&t=1652s",
+      "at": "27:32"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2026-04-10",
+     "when": "April 2026",
+     "text": "In April 2026, a guest on Equity Mates explained Booking aimed to convert users from Google to its app where it made far more than “almost no money” via Google, and argued it was well placed for AI with relationships, loyalty, data, reviews and technical capability to support ongoing profitability.",
+     "episode": {
+      "title": "Finding opportunities in well-known names with Ryan Joyce",
+      "url": "https://equitymates.com/episode/finding-opportunities-in-well-known-names-with-ryan-joyce/",
+      "jump": "https://www.youtube.com/watch?v=qNiwsfvSELk&t=2052s",
+      "at": "34:12"
+     }
+    },
+    {
+     "date": "2024-02-19",
+     "when": "February 2024",
+     "text": "In February 2024, Equity Mates noted Booking’s industry position with 41% of online travel agency gross bookings and 555 million monthly website hits, implying scale advantages that could support above-market profitability.",
+     "episode": {
+      "title": "We're back with our Stock of the Year & Bold Predictions",
+      "url": "https://equitymates.com/episode/were-back-with-our-stock-of-the-year-bold-predictions/",
+      "jump": "https://www.youtube.com/watch?v=IUqhG9UggW4&t=1652s",
+      "at": "27:32"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2026-04-10",
+     "when": "April 2026",
+     "text": "In April 2026, a guest on Equity Mates said Booking was integrating AI and agent-like features into its platform, leveraging its data and relationships to improve the travel experience, with execution described as important.",
+     "episode": {
+      "title": "Finding opportunities in well-known names with Ryan Joyce",
+      "url": "https://equitymates.com/episode/finding-opportunities-in-well-known-names-with-ryan-joyce/",
+      "jump": "https://www.youtube.com/watch?v=qNiwsfvSELk&t=2052s",
+      "at": "34:12"
+     }
+    },
+    {
+     "date": "2024-02-19",
+     "when": "February 2024",
+     "text": "In February 2024, Equity Mates outlined Booking’s capital allocation through a long run of acquisitions, from Booking.com and Agoda to Kayak, OpenTable, Momondo and HotelsCombined, building a portfolio across accommodation, metasearch and dining reservations.",
+     "episode": {
+      "title": "We're back with our Stock of the Year & Bold Predictions",
+      "url": "https://equitymates.com/episode/were-back-with-our-stock-of-the-year-bold-predictions/",
+      "jump": "https://www.youtube.com/watch?v=IUqhG9UggW4&t=1652s",
+      "at": "27:32"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

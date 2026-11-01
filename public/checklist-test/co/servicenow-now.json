@@ -1,0 +1,80 @@
+{
+ "slug": "servicenow-now",
+ "name": "ServiceNow",
+ "full": "ServiceNow",
+ "listings": [
+  "NYSE: NOW"
+ ],
+ "built": "2026-11-01",
+ "episodes": 4,
+ "mentioned_in": 6,
+ "latest": "2026-06-22",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": []
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2022-03-11",
+     "when": "March 2022",
+     "text": "In March 2022, an adviser on Equity Mates grouped ServiceNow with major enterprise software platforms shaping how organisations run, describing them as akin to a tax on big business, implying persistent, embedded demand.",
+     "episode": {
+      "title": "Talking Money To Us | Jules Cooper - Senior Analyst at Shaw & Partners",
+      "url": "https://equitymates.com/episode/talking-money-to-us/",
+      "jump": null,
+      "at": "27:49"
+     }
+    },
+    {
+     "date": "2021-11-25",
+     "when": "November 2021",
+     "text": "In November 2021, a guest on Equity Mates included ServiceNow among software firms with subscription revenue, low churn, high margins and strong returns on capital, saying the industry often lends itself to winner take most outcomes.",
+     "episode": {
+      "title": "Expert: Yen Liow - Honestly, everyone MUST listen to this",
+      "url": "https://equitymates.com/episode/expert-yen-liow-honestly-everyone-must-listen-to-this/",
+      "jump": "https://www.youtube.com/watch?v=eaTrBXHToXA&t=2932s",
+      "at": "48:52"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2026-06-22",
+     "when": "June 2026",
+     "text": "In June 2026, Equity Mates mentioned ServiceNow briefly, noting a share price around 100 and linking interest to the AI eating software debate, but did not cover it in depth.",
+     "episode": {
+      "title": "What’s a Hydration Break Worth & Mr Beat Up Divides Bryce and Ren",
+      "url": "https://equitymates.com/episode/whats-a-hydration-break-worth-mr-beat-up-divides-bryce-and-ren/",
+      "jump": "https://www.youtube.com/watch?v=l_gHR_T2syU&t=677s",
+      "at": "11:17"
+     }
+    },
+    {
+     "date": "2026-01-26",
+     "when": "January 2026",
+     "text": "In January 2026, Equity Mates noted ServiceNow’s revenue grew 22% over the past 12 months while many software shares fell, highlighting a gap between reported growth and market pricing.",
+     "episode": {
+      "title": "Bryce reveals 500 to 5k results, China's warning signs and are software companies on sale?",
+      "url": "https://equitymates.com/episode/bryce-reveals-500-to-5k-results-chinas-warning-signs-and-are-software-companies-on-sale/",
+      "jump": "https://www.youtube.com/watch?v=oh4zH9bZklA&t=1365s",
+      "at": "22:45"
+     }
+    }
+   ]
+  }
+ ]
+}

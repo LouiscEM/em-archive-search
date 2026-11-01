@@ -1,0 +1,58 @@
+{
+ "slug": "ioneer-inr",
+ "name": "Ioneer",
+ "full": "Ioneer",
+ "listings": [
+  "ASX: INR"
+ ],
+ "built": "2026-11-01",
+ "episodes": 1,
+ "mentioned_in": 2,
+ "latest": "2023-03-06",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2023-03-06",
+     "when": "March 2023",
+     "text": "In March 2023, Equity Mates introduced Ioneer as a US based lithium and boron producer and said it was very close to production, setting up a discussion of its role in the lithium industry and the products it aimed to bring online.",
+     "episode": {
+      "title": "What we learned from Buffett's letter + An insiders view of the lithium opportunity",
+      "url": "https://equitymates.com/episode/what-we-learned-from-buffetts-letter-an-insiders-view-of-the-lithium-opportunity/",
+      "jump": null,
+      "at": "0:56"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2023-03-06",
+     "when": "March 2023",
+     "text": "In March 2023, a guest on Equity Mates explained Ioneer’s Rhyolite Ridge contained both lithium and boron, one of only two large such deposits globally, and said the boron minerals let it use existing processing technology, lowering technology risk and making the project distinct.",
+     "episode": {
+      "title": "What we learned from Buffett's letter + An insiders view of the lithium opportunity",
+      "url": "https://equitymates.com/episode/what-we-learned-from-buffetts-letter-an-insiders-view-of-the-lithium-opportunity/",
+      "jump": null,
+      "at": "30:19"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

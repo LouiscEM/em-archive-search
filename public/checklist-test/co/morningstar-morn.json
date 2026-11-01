@@ -1,0 +1,80 @@
+{
+ "slug": "morningstar-morn",
+ "name": "Morningstar",
+ "full": "Morningstar",
+ "listings": [
+  "NASDAQ: MORN"
+ ],
+ "built": "2026-10-30",
+ "episodes": 3,
+ "mentioned_in": 82,
+ "latest": "2026-05-12",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2026-05-12",
+     "when": "May 2026",
+     "text": "In May 2026, Equity Mates explained investors could use Morningstar’s Portfolio X-Ray to see an ETF’s underlying holdings, helping compare similarly named funds and understand what they actually owned.",
+     "episode": {
+      "title": "Too many ETFs to choose from? Here’s how to pick | Jess Gets Investing",
+      "url": "https://equitymates.com/episode/too-many-etfs-to-choose-from-heres-how-to-pick-jess-gets-investing/",
+      "jump": "https://www.youtube.com/watch?v=BQ6Xc_bMxCg&t=1132s",
+      "at": "18:52"
+     }
+    },
+    {
+     "date": "2024-11-01",
+     "when": "November 2024",
+     "text": "In November 2024, Equity Mates described Morningstar as a firm providing market and company data and investment research, with its ratings and valuation work used to build products like the VanEck Morningstar Wide Moat ETF.",
+     "episode": {
+      "title": "ETF Explained: VanEck Morningstar Wide Moat ETF (MOAT)",
+      "url": "https://equitymates.com/episode/etf-explained-vaneck-morningstar-wide-moat-etf-moat/",
+      "jump": "https://www.youtube.com/watch?v=44C5et2ZFXY&t=220s",
+      "at": "3:40"
+     }
+    },
+    {
+     "date": "2023-04-07",
+     "when": "April 2023",
+     "text": "In April 2023, Equity Mates outlined that Morningstar also built indices informed by its analyst research, such as the Morningstar Developed Markets Technology Moat Focus index tracked by Global X’s technology ETF.",
+     "episode": {
+      "title": "Under the Hood |  What's in a name of an ETF?",
+      "url": "https://equitymates.com/episode/under-the-hood-whats-in-a-name-of-an-etf/",
+      "jump": null,
+      "at": "15:09"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2024-11-01",
+     "when": "November 2024",
+     "text": "In November 2024, Equity Mates highlighted that investing via the MOAT ETF effectively backed Morningstar’s research team, noting the key risk was whether Morningstar could keep identifying sustainable competitive advantages that translated into strong portfolios.",
+     "episode": {
+      "title": "ETF Explained: VanEck Morningstar Wide Moat ETF (MOAT)",
+      "url": "https://equitymates.com/episode/etf-explained-vaneck-morningstar-wide-moat-etf-moat/",
+      "jump": "https://www.youtube.com/watch?v=44C5et2ZFXY&t=915s",
+      "at": "15:15"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

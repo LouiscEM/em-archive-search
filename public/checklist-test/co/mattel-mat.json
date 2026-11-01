@@ -1,0 +1,92 @@
+{
+ "slug": "mattel-mat",
+ "name": "Mattel",
+ "full": "Mattel Inc",
+ "listings": [
+  "NASDAQ: MAT"
+ ],
+ "built": "2026-11-01",
+ "episodes": 2,
+ "mentioned_in": 4,
+ "latest": "2023-07-03",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2023-07-03",
+     "when": "July 2023",
+     "text": "In July 2023, Equity Mates described Barbie as an iconic toy, citing over a billion dolls sold by 2006 and claims of three sold every second. It said Barbie accounted for about 27% of Mattel’s business in 2022 and brought in over $1 billion a year.",
+     "episode": {
+      "title": "Barbie may be pink, but Mattel is seeing red",
+      "url": "https://equitymates.com/episode/barbie-may-be-pink-but-mattel-is-seeing-red/",
+      "jump": null,
+      "at": "2:13"
+     }
+    },
+    {
+     "date": "2022-11-28",
+     "when": "November 2022",
+     "text": "In November 2022, Equity Mates reported Mattel launched an NFT marketplace on Flow to turn Hot Wheels and Barbie into digital collectables, expanding how fans could engage with its brands.",
+     "episode": {
+      "title": "59 - Genesis fallout, CZ & the Coinbase tweet storm & JP Morgan's Digital Wallet plans",
+      "url": "https://equitymates.com/episode/59-genesis-fallout-cz-the-coinbase-tweet-storm-jp-morgans-digital-wallet-plans/",
+      "jump": null,
+      "at": "21:13"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2023-07-03",
+     "when": "July 2023",
+     "text": "In July 2023, Equity Mates outlined intense competition for Barbie from Bratz, media giants and YouTubers, and noted Mattel’s unprofitable years in 2017, 2018 and 2019 before a new CEO pivoted the strategy toward Hollywood.",
+     "episode": {
+      "title": "Barbie may be pink, but Mattel is seeing red",
+      "url": "https://equitymates.com/episode/barbie-may-be-pink-but-mattel-is-seeing-red/",
+      "jump": null,
+      "at": "4:36"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2023-07-03",
+     "when": "July 2023",
+     "text": "In July 2023, Equity Mates explained a new CEO revived Mattel Films and put Hollywood at the centre of strategy, seeking to monetise toy IP through movies to drive a turnaround.",
+     "episode": {
+      "title": "Barbie may be pink, but Mattel is seeing red",
+      "url": "https://equitymates.com/episode/barbie-may-be-pink-but-mattel-is-seeing-red/",
+      "jump": null,
+      "at": "4:36"
+     }
+    },
+    {
+     "date": "2022-11-28",
+     "when": "November 2022",
+     "text": "In November 2022, Equity Mates reported Mattel invested in digital collectables by debuting an NFT marketplace on Flow for brands like Hot Wheels and Barbie.",
+     "episode": {
+      "title": "59 - Genesis fallout, CZ & the Coinbase tweet storm & JP Morgan's Digital Wallet plans",
+      "url": "https://equitymates.com/episode/59-genesis-fallout-cz-the-coinbase-tweet-storm-jp-morgans-digital-wallet-plans/",
+      "jump": null,
+      "at": "21:13"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

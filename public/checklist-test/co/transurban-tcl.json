@@ -1,0 +1,137 @@
+{
+ "slug": "transurban-tcl",
+ "name": "Transurban",
+ "full": "Transurban",
+ "listings": [
+  "ASX: TCL"
+ ],
+ "built": "2026-10-30",
+ "episodes": 6,
+ "mentioned_in": 37,
+ "latest": "2026-10-08",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2026-10-02",
+     "when": "October 2026",
+     "text": "In October 2026, a guest on Equity Mates described Transurban as a global leader in toll road operations, noting Australian infrastructure names were high quality even if the local investable universe was small.",
+     "episode": {
+      "title": "The Infrastructure Behind AI, Electrification and Energy Security with Shane Hurst",
+      "url": "https://equitymates.com/episode/the-infrastructure-behind-ai-electrification-and-energy-security-with-shane-hurst/",
+      "jump": "https://www.youtube.com/watch?v=iSbzEevUzxg&t=2323s",
+      "at": "38:43"
+     }
+    },
+    {
+     "date": "2021-03-14",
+     "when": "March 2021",
+     "text": "In March 2021, Equity Mates explained that toll roads like Transurban’s are classic infrastructure with local monopolies, high barriers to entry and long asset lives, which created defensible assets and predictable cash flow.",
+     "episode": {
+      "title": "EM Chat: Industry Deep Dive - Infrastructure",
+      "url": "https://equitymates.com/episode/em-chat-industry-deep-dive-infrastructure/",
+      "jump": "https://www.youtube.com/watch?v=gIEkREY2Kn4&t=564s",
+      "at": "9:24"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2022-07-04",
+     "when": "July 2022",
+     "text": "In July 2022, Equity Mates described Transurban as a textbook inflation hedge, citing its ability to raise prices and the inelastic demand for its toll roads.",
+     "episode": {
+      "title": "Macquarie's 16 recession-proof stocks",
+      "url": "https://equitymates.com/episode/macquaries-16-recession-proof-stocks/",
+      "jump": "https://www.youtube.com/watch?v=T4ttySx-d7M&t=1258s",
+      "at": "20:58"
+     }
+    },
+    {
+     "date": "2021-03-14",
+     "when": "March 2021",
+     "text": "In March 2021, Equity Mates used Transurban as an example of a company with a sizable moat, as competing toll roads are difficult to build and barriers to entry are high.",
+     "episode": {
+      "title": "EM Chat: Industry Deep Dive - Infrastructure",
+      "url": "https://equitymates.com/episode/em-chat-industry-deep-dive-infrastructure/",
+      "jump": "https://www.youtube.com/watch?v=gIEkREY2Kn4&t=735s",
+      "at": "12:15"
+     }
+    },
+    {
+     "date": "2021-03-13",
+     "when": "March 2021",
+     "text": "In March 2021, a guest on Equity Mates noted Transurban’s tolls were CPI adjusted and traffic was rebounding, especially in Sydney, with networks in Brisbane, Melbourne and Sydney supporting resilience in earnings.",
+     "episode": {
+      "title": "Expert Investor: Tom Millner – Contact Asset Management – 5 steps to find a quality company",
+      "url": "https://equitymates.com/episode/expert-investor-tom-millner-contact-asset-management-5-steps-to-find-a-quality-company/",
+      "jump": "https://www.youtube.com/watch?v=8dvvo-RWcGU&t=2586s",
+      "at": "43:06"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2022-12-16",
+     "when": "December 2022",
+     "text": "In December 2022, a guest on Equity Mates said Transurban aimed to distribute roughly 100 percent of annual free cash flow to investors, reflecting a dividend-focused capital allocation approach.",
+     "episode": {
+      "title": "12 stocks of Christmas Pt 1 | TCL, GL1, WMT, BOE & more!",
+      "url": "https://equitymates.com/episode/12-stocks-of-christmas-pt-1-tcl-gl1-wmt-boe-more/",
+      "jump": null,
+      "at": "6:20"
+     }
+    },
+    {
+     "date": "2021-03-13",
+     "when": "March 2021",
+     "text": "In March 2021, a guest on Equity Mates highlighted recent project delivery such as NorthConnex and cheaper, long‑dated refinancing that reduced average interest costs to about 4 percent, indicating active capital management alongside growth projects.",
+     "episode": {
+      "title": "Expert Investor: Tom Millner – Contact Asset Management – 5 steps to find a quality company",
+      "url": "https://equitymates.com/episode/expert-investor-tom-millner-contact-asset-management-5-steps-to-find-a-quality-company/",
+      "jump": "https://www.youtube.com/watch?v=8dvvo-RWcGU&t=2494s",
+      "at": "41:34"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2026-10-08",
+     "when": "October 2026",
+     "text": "In October 2026, Equity Mates contrasted Firmus’s $44 billion IPO valuation with Transurban’s $41 billion market cap to contextualise Transurban’s size among major Australian companies.",
+     "episode": {
+      "title": "Two IPOs test the AI hype, Aussie property keeps falling & a closer look at Firmus",
+      "url": "https://equitymates.com/episode/two-ipos-test-the-ai-hype-aussie-property-keeps-falling-a-closer-look-at-firmus/",
+      "jump": "https://www.youtube.com/watch?v=w32QA03qoLg&t=959s",
+      "at": "15:59"
+     }
+    },
+    {
+     "date": "2021-03-13",
+     "when": "March 2021",
+     "text": "In March 2021, a guest on Equity Mates discussed valuation drivers for Transurban, pointing to lower interest costs from refinancing, CPI-linked toll escalations and expected traffic recovery in Sydney and Melbourne.",
+     "episode": {
+      "title": "Expert Investor: Tom Millner – Contact Asset Management – 5 steps to find a quality company",
+      "url": "https://equitymates.com/episode/expert-investor-tom-millner-contact-asset-management-5-steps-to-find-a-quality-company/",
+      "jump": "https://www.youtube.com/watch?v=8dvvo-RWcGU&t=2494s",
+      "at": "41:34"
+     }
+    }
+   ]
+  }
+ ]
+}

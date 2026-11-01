@@ -1,0 +1,46 @@
+{
+ "slug": "experian-expn",
+ "name": "Experian",
+ "full": "Experian",
+ "listings": [
+  "LSE: EXPN"
+ ],
+ "built": "2026-11-01",
+ "episodes": 1,
+ "mentioned_in": 2,
+ "latest": "2023-05-30",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2023-05-30",
+     "when": "May 2023",
+     "text": "In May 2023, Equity Mates said people had the right to get a free copy of their credit report every three months and listed Experian as one of the three agencies to contact for it.",
+     "episode": {
+      "title": "Do credit scores matter when you're investing?",
+      "url": "https://equitymates.com/episode/do-credit-scores-matter-when-youre-investing/",
+      "jump": null,
+      "at": "7:18"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": []
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

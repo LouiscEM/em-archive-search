@@ -1,0 +1,70 @@
+{
+ "slug": "foran-mining-fom",
+ "name": "Foran Mining",
+ "full": "Foran Mining",
+ "listings": [
+  "CVE: FOM"
+ ],
+ "built": "2026-11-01",
+ "episodes": 1,
+ "mentioned_in": 1,
+ "latest": "2023-02-24",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2023-02-24",
+     "when": "February 2023",
+     "text": "In February 2023, a guest on Equity Mates described Foran Mining as developing a polymetallic deposit in Saskatchewan and said the asset grew after new management drilled it out and made a significant discovery next door.",
+     "episode": {
+      "title": "Digging into the Global Natural Resources Sector with Terra Capital  ",
+      "url": "https://equitymates.com/episode/digging-into-the-global-natural-resources-sector-with-terra-capital-%e2%80%a8/",
+      "jump": null,
+      "at": "16:01"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2023-02-24",
+     "when": "February 2023",
+     "text": "In February 2023, a guest on Equity Mates argued the planned carbon neutral mine, using hydro power and an electric fleet, would lower operating costs in Canada where a carbon tax applies.",
+     "episode": {
+      "title": "Digging into the Global Natural Resources Sector with Terra Capital  ",
+      "url": "https://equitymates.com/episode/digging-into-the-global-natural-resources-sector-with-terra-capital-%e2%80%a8/",
+      "jump": null,
+      "at": "16:01"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2023-02-24",
+     "when": "February 2023",
+     "text": "In February 2023, a guest on Equity Mates said management, including an executive chairman from Glencore, took control, drilled out the asset and committed to a carbon neutral build. They added this broadened capital options, with $500 million of commitments, including $200 million from Ontario Teachers’ Pension Plan.",
+     "episode": {
+      "title": "Digging into the Global Natural Resources Sector with Terra Capital  ",
+      "url": "https://equitymates.com/episode/digging-into-the-global-natural-resources-sector-with-terra-capital-%e2%80%a8/",
+      "jump": null,
+      "at": "16:01"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

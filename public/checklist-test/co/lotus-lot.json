@@ -1,0 +1,69 @@
+{
+ "slug": "lotus-lot",
+ "name": "Lotus",
+ "full": "Lotus",
+ "listings": [
+  "ASX: LOT"
+ ],
+ "built": "2026-11-01",
+ "episodes": 2,
+ "mentioned_in": 7,
+ "latest": "2023-02-24",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": []
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2023-02-24",
+     "when": "February 2023",
+     "text": "In February 2023, a guest on Equity Mates discussed heavy reliance on Russian enrichment and reported 167% UF6 and over 1,000% SWU price rises, after mentioning Lotus among uranium names, framing a strong pricing backdrop for the sector.",
+     "episode": {
+      "title": "Digging into the Global Natural Resources Sector with Terra Capital  ",
+      "url": "https://equitymates.com/episode/digging-into-the-global-natural-resources-sector-with-terra-capital-%e2%80%a8/",
+      "jump": null,
+      "at": "19:49"
+     }
+    },
+    {
+     "date": "2023-01-27",
+     "when": "January 2023",
+     "text": "In January 2023, Equity Mates said the nuclear macro had improved with new reactors being built and utilities more active, and noted Lotus Resources was likely the next brownfield restart in Namibia after making substantial improvements to the asset.",
+     "episode": {
+      "title": "23 Stocks for 2023 | Elders, Playside, Qantas and more! Pt I",
+      "url": "https://equitymates.com/episode/23-stocks-for-2023-elders-playside-qantas-and-more-pt-i/",
+      "jump": null,
+      "at": "23:01"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2023-01-27",
+     "when": "January 2023",
+     "text": "In January 2023, Equity Mates explained Lotus Resources was preparing a brownfield restart at its Namibian project and had made substantial improvements to the asset since it was last operated by Paladin, showing active investment to return the mine to production.",
+     "episode": {
+      "title": "23 Stocks for 2023 | Elders, Playside, Qantas and more! Pt I",
+      "url": "https://equitymates.com/episode/23-stocks-for-2023-elders-playside-qantas-and-more-pt-i/",
+      "jump": null,
+      "at": "23:01"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

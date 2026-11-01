@@ -1,0 +1,46 @@
+{
+ "slug": "asaleo-care-ahy",
+ "name": "Asaleo Care",
+ "full": "Asaleo Care Ltd",
+ "listings": [
+  "ASX: AHY"
+ ],
+ "built": "2026-11-01",
+ "episodes": 1,
+ "mentioned_in": 1,
+ "latest": "2024-10-11",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2024-10-11",
+     "when": "October 2024",
+     "text": "In October 2024, a guest on Equity Mates introduced Asaleo Care as the maker of Sorbent, Libra and Tena, described it as an iconic tissue business with brands found in most Australian homes, and noted its long-standing Box Hill plant in Victoria.",
+     "episode": {
+      "title": "Expert: Cameron Blanks - 3 key lessons from 20 years of private equity deals | Pacific Equity Partners",
+      "url": "https://equitymates.com/episode/expert-cameron-blanks-3-key-lessons-from-20-years-of-private-equity-deals-pacific-equity-partners/",
+      "jump": "https://www.youtube.com/watch?v=lmkJyEUBIy0&t=1199s",
+      "at": "19:59"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": []
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

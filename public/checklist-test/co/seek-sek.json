@@ -1,0 +1,126 @@
+{
+ "slug": "seek-sek",
+ "name": "Seek",
+ "full": "Seek",
+ "listings": [
+  "ASX: SEK"
+ ],
+ "built": "2026-10-30",
+ "episodes": 6,
+ "mentioned_in": 17,
+ "latest": "2026-04-24",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2026-04-24",
+     "when": "April 2026",
+     "text": "In April 2026, a guest on Equity Mates said that after recent hiring, Seek had not been useful, with LinkedIn Jobs and other platforms feeling better on product market fit, raising a question over Seek’s competitive position.",
+     "episode": {
+      "title": "Which Aussie software stocks are ready to rebound with Jared Pohl",
+      "url": "https://equitymates.com/episode/which-aussie-software-stocks-are-ready-to-rebound-with-jared-pohl/",
+      "jump": "https://www.youtube.com/watch?v=ONniPFWrVUI&t=1624s",
+      "at": "27:04"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2026-04-24",
+     "when": "April 2026",
+     "text": "In April 2026, a guest on Equity Mates argued portals like Seek did not have software as their moat; advantages came from factors like network effects, showing technology alone was not a sustainable edge.",
+     "episode": {
+      "title": "Which Aussie software stocks are ready to rebound with Jared Pohl",
+      "url": "https://equitymates.com/episode/which-aussie-software-stocks-are-ready-to-rebound-with-jared-pohl/",
+      "jump": "https://www.youtube.com/watch?v=ONniPFWrVUI&t=320s",
+      "at": "5:20"
+     }
+    },
+    {
+     "date": "2025-05-06",
+     "when": "May 2025",
+     "text": "In May 2025, a guest on Equity Mates noted that since 2012 Seek’s EPS was flat while peers REA and CAR at least tripled, suggesting tougher competition and a less critical marketplace limited sustained profit growth.",
+     "episode": {
+      "title": "Buy or Sell: William Mumford - Resmed, Commonwealth Bank, BHP & more",
+      "url": "https://equitymates.com/episode/buy-or-sell-william-mumford-resmed-commonwealth-bank-bhp-more/",
+      "jump": null,
+      "at": "20:36"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2025-12-11",
+     "when": "December 2025",
+     "text": "In December 2025, Equity Mates said companies like Seek, part of an earlier tech generation, had a mixed record expanding overseas, contrasting with newer small caps now finding more success abroad.",
+     "episode": {
+      "title": "Best of the Best: Ignore the noise & find great companies - Arden Jennings | Ausbil",
+      "url": "https://equitymates.com/episode/best-of-the-best-arden-jennings/",
+      "jump": "https://www.youtube.com/watch?v=IHIUZbY77LU&t=33s",
+      "at": "0:33"
+     }
+    },
+    {
+     "date": "2025-12-04",
+     "when": "December 2025",
+     "text": "In December 2025, a guest on Equity Mates said Seek had unified its Australia and Asia platforms, was seeing increased yields and penetration, and, with costs reined in, guided to about 35% NPAT growth, highlighting operating leverage after heavy investment.",
+     "episode": {
+      "title": "Best of the Best: AI Hype, China Risk & Australia's Best Stocks - Julia Weng | Paradice Investments",
+      "url": "https://equitymates.com/episode/best-of-the-best-ai-hype-china-risk-australias-best-stocks-julia-weng-paradice-investments/",
+      "jump": "https://www.youtube.com/watch?v=DgCMnr2fVC8&t=1667s",
+      "at": "27:47"
+     }
+    },
+    {
+     "date": "2025-03-04",
+     "when": "March 2025",
+     "text": "In March 2025, a guest on Equity Mates highlighted governance concerns around Seek’s venture activities and pointed to declining job ads, market share and an underwhelming result, indicating questions about how profits were being managed and allocated.",
+     "episode": {
+      "title": "Buy or Sell: Ben Richards - WiseTech, Guzman y Gomez, Catapult, Antipa Minerals and more",
+      "url": "https://equitymates.com/episode/buy-or-sell-ben-richards-wisetech-guzman-y-gomez-catapult-antipa-minerals-and-more/",
+      "jump": "https://www.youtube.com/watch?v=SQ-HbCPpNto&t=426s",
+      "at": "7:06"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2025-03-04",
+     "when": "March 2025",
+     "text": "In March 2025, a guest on Equity Mates said Seek traded on about 45 times P/E versus the market on 18 times, which looked rich given flat earnings and competitive pressures.",
+     "episode": {
+      "title": "Buy or Sell: Ben Richards - WiseTech, Guzman y Gomez, Catapult, Antipa Minerals and more",
+      "url": "https://equitymates.com/episode/buy-or-sell-ben-richards-wisetech-guzman-y-gomez-catapult-antipa-minerals-and-more/",
+      "jump": "https://www.youtube.com/watch?v=SQ-HbCPpNto&t=426s",
+      "at": "7:06"
+     }
+    },
+    {
+     "date": "2023-02-03",
+     "when": "February 2023",
+     "text": "In February 2023, a guest on Equity Mates said after a share price selloff, Seek traded at about 14.9 times FY23 estimated EBITDA, roughly a 20% discount to its 10 year average, with guidance reiterated at the AGM.",
+     "episode": {
+      "title": "23 Stocks for 2023 | 7 more stocks - including Seek, Family Zone, Ulta Beauty! Pt II",
+      "url": "https://equitymates.com/episode/23-stocks-for-2023-7-more-stocks-including-seek-family-zone-ulta-beauty-pt-ii/",
+      "jump": null,
+      "at": "13:27"
+     }
+    }
+   ]
+  }
+ ]
+}

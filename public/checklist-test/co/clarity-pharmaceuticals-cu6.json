@@ -1,0 +1,103 @@
+{
+ "slug": "clarity-pharmaceuticals-cu6",
+ "name": "Clarity Pharmaceuticals",
+ "full": "Clarity Pharmaceuticals",
+ "listings": [
+  "ASX: CU6"
+ ],
+ "built": "2026-10-30",
+ "episodes": 4,
+ "mentioned_in": 9,
+ "latest": "2026-09-04",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2025-03-17",
+     "when": "March 2025",
+     "text": "In March 2025, Equity Mates described Clarity as developing radiopharmaceuticals that deliver targeted radiation to detect and treat cancer, framing it as a company previously discussed on the show.",
+     "episode": {
+      "title": "ASX plunges 9%, three stocks with Mr. Beat-Up & should I buy crypto ETFs?",
+      "url": "https://equitymates.com/episode/asx-plunges-9-three-stocks-with-mr-beat-up-should-i-buy-crypto-etfs/",
+      "jump": "https://www.youtube.com/watch?v=dK_mAW12gnA&t=867s",
+      "at": "14:27"
+     }
+    },
+    {
+     "date": "2024-07-09",
+     "when": "July 2024",
+     "text": "In July 2024, a guest on Equity Mates said Clarity developed highly specific targeted agents for imaging and treatment and noted the company benefited from releasing really good data in a field that has created huge value for peers.",
+     "episode": {
+      "title": "Expert: Michael Frazis - Why I sold Nvidia",
+      "url": "https://equitymates.com/episode/expert-michael-frazis-why-i-sold-nvidia/",
+      "jump": null,
+      "at": "33:08"
+     }
+    },
+    {
+     "date": "2023-10-19",
+     "when": "October 2023",
+     "text": "In October 2023, a guest on Equity Mates explained Clarity’s radiopharmaceuticals as precision medicine that attaches a radioactive isotope to a molecule targeting cancer cells, used for both imaging and therapy, and described it as a smaller peer to Telix.",
+     "episode": {
+      "title": "Expert: Rikki Bannan - Two small caps: Propel Funeral Services (ASX: PFP) and Clarity Pharmaceuticals (ASX: CU6)",
+      "url": "https://equitymates.com/episode/expert-rikki-bannan-two-small-caps-propel-funeral-services-asx-pfp-and-clarity-pharmaceuticals-asx-cu6/",
+      "jump": "https://www.youtube.com/watch?v=AxIIPNKMioE&t=1820s",
+      "at": "30:20"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2026-09-04",
+     "when": "September 2026",
+     "text": "In September 2026, a guest on Equity Mates noted Clarity had really good data but was still one to three years from outcomes, with broader development taking three to five years, highlighting long timelines and rising costs before any meaningful commercial results.",
+     "episode": {
+      "title": "Knowing when to sell: How growth investor Michael Frazis manages risk",
+      "url": "https://equitymates.com/episode/knowing-when-to-sell-how-growth-investor-michael-frazis-manages-risk/",
+      "jump": "https://www.youtube.com/watch?v=xe6Ivnhwlys&t=2684s",
+      "at": "44:44"
+     }
+    },
+    {
+     "date": "2025-03-17",
+     "when": "March 2025",
+     "text": "In March 2025, Equity Mates said Clarity was pre-revenue and that near-term outcomes hinged on market sentiment while longer-term outcomes depended on the science working, underscoring uncertainty before any enduring profitability.",
+     "episode": {
+      "title": "ASX plunges 9%, three stocks with Mr. Beat-Up & should I buy crypto ETFs?",
+      "url": "https://equitymates.com/episode/asx-plunges-9-three-stocks-with-mr-beat-up-should-i-buy-crypto-etfs/",
+      "jump": "https://www.youtube.com/watch?v=dK_mAW12gnA&t=867s",
+      "at": "14:27"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2025-03-17",
+     "when": "March 2025",
+     "text": "In March 2025, Equity Mates said Clarity was pre-revenue, so there was no revenue anchor to judge fair value, making it more a bet on sentiment in the short term and the science over time rather than on conventional valuation metrics.",
+     "episode": {
+      "title": "ASX plunges 9%, three stocks with Mr. Beat-Up & should I buy crypto ETFs?",
+      "url": "https://equitymates.com/episode/asx-plunges-9-three-stocks-with-mr-beat-up-should-i-buy-crypto-etfs/",
+      "jump": "https://www.youtube.com/watch?v=dK_mAW12gnA&t=867s",
+      "at": "14:27"
+     }
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,92 @@
+{
+ "slug": "orica-ori",
+ "name": "Orica",
+ "full": "Orica Ltd",
+ "listings": [
+  "ASX: ORI"
+ ],
+ "built": "2026-11-01",
+ "episodes": 3,
+ "mentioned_in": 6,
+ "latest": "2025-12-10",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2025-12-10",
+     "when": "December 2025",
+     "text": "In December 2025, Equity Mates said Orica shifted strategy to focus on value add and technology in its offerings, aiming to improve the economics of its services.",
+     "episode": {
+      "title": "Graduates not gambles: How Australia’s best small caps ‘grow up’ - Jovana Gagic ",
+      "url": "https://equitymates.com/episode/graduates-not-gambles-how-australias-best-small-caps-grow-up-jovana-gagic/",
+      "jump": null,
+      "at": "11:22"
+     }
+    },
+    {
+     "date": "2021-06-07",
+     "when": "June 2021",
+     "text": "In June 2021, Equity Mates described Orica as one of the world’s largest providers of commercial explosives and blasting systems to mining, quarrying, oil and gas, outlining the core service it sells.",
+     "episode": {
+      "title": "Woolworths Is Demerging: What Does It Mean?",
+      "url": "https://equitymates.com/episode/woolworths-is-demerging-what-does-it-mean/",
+      "jump": "https://www.youtube.com/watch?v=S7XEkTn5A1Q&t=2214s",
+      "at": "36:54"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2025-12-10",
+     "when": "December 2025",
+     "text": "In December 2025, Equity Mates reported Orica’s turnaround under a new CEO, highlighting a strategy pivot to technology and repricing contracts to lift margins and drop unprofitable work.",
+     "episode": {
+      "title": "Graduates not gambles: How Australia’s best small caps ‘grow up’ - Jovana Gagic ",
+      "url": "https://equitymates.com/episode/graduates-not-gambles-how-australias-best-small-caps-grow-up-jovana-gagic/",
+      "jump": null,
+      "at": "11:22"
+     }
+    },
+    {
+     "date": "2025-04-22",
+     "when": "April 2025",
+     "text": "In April 2025, Equity Mates noted Orica as one of the two big players in the explosives space alongside IPL/Dyno Nobel, pointing to a concentrated industry structure.",
+     "episode": {
+      "title": "A checklist for finding winning small caps - Ben Richards | Seneca Financial Solutions",
+      "url": "https://equitymates.com/episode/ben-richards-seneca-financial/",
+      "jump": "https://www.youtube.com/watch?v=NszuQtqGNYQ&t=1534s",
+      "at": "25:34"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2021-06-07",
+     "when": "June 2021",
+     "text": "In June 2021, Equity Mates outlined Orica’s 2010 demerger of Dulux, where shareholders received one Dulux share per Orica share; Dulux shares closed at 2.54 initially and were later acquired at 9.75, illustrating value realised from the spin-off.",
+     "episode": {
+      "title": "Woolworths Is Demerging: What Does It Mean?",
+      "url": "https://equitymates.com/episode/woolworths-is-demerging-what-does-it-mean/",
+      "jump": "https://www.youtube.com/watch?v=S7XEkTn5A1Q&t=2214s",
+      "at": "36:54"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

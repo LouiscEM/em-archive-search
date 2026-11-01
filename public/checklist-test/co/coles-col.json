@@ -1,0 +1,92 @@
+{
+ "slug": "coles-col",
+ "name": "Coles",
+ "full": "Coles",
+ "listings": [
+  "ASX: COL"
+ ],
+ "built": "2026-10-30",
+ "episodes": 5,
+ "mentioned_in": 185,
+ "latest": "2024-03-25",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2022-05-17",
+     "when": "May 2022",
+     "text": "In May 2022, Equity Mates noted Coles lifted prices 3.3 percent in the March quarter while overall food prices rose 5.3 percent, indicating supermarkets absorbed some cost pressure or pushed it to suppliers rather than fully passing it to shoppers.",
+     "episode": {
+      "title": "Understanding Interest Rates and Their Impact on Your Finances",
+      "url": "https://equitymates.com/episode/explaining-interest-rates-options-and-why-your-vote-counts/",
+      "jump": "https://www.youtube.com/watch?v=wvb2m7cXdCQ&t=1531s",
+      "at": "25:31"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2024-03-25",
+     "when": "March 2024",
+     "text": "In March 2024, Equity Mates said Coles and Woolworths controlled about 60 to 65 percent of Australia’s grocery retail market, describing the pair as a duopoly.",
+     "episode": {
+      "title": "Interest rate expectations, supermarket enquiries & ASX 200 rebalance - who's in, who's out?",
+      "url": "https://equitymates.com/episode/interest-rate-expectations-supermarket-enquiries-asx-200-rebalance-whos-in-whos-out/",
+      "jump": "https://www.youtube.com/watch?v=aha6MPxmZro&t=686s",
+      "at": "11:26"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2024-02-01",
+     "when": "February 2024",
+     "text": "In February 2024, a guest on Equity Mates explained Viva Energy bought the shop operations from Coles at Coles Express sites, so Viva now controls both fuel and retail across roughly 700 stations and Coles exited that store segment for a payment.",
+     "episode": {
+      "title": "From oil refining to servos - Viva Energy | Summer Series",
+      "url": "https://equitymates.com/episode/from-oil-refining-to-servos-viva-energy-summer-series/",
+      "jump": "https://www.youtube.com/watch?v=jZZcDyUnQM8&t=1108s",
+      "at": "18:28"
+     }
+    },
+    {
+     "date": "2022-09-05",
+     "when": "September 2022",
+     "text": "In September 2022, Equity Mates said Coles had a brighter future with Ocado and Veda, implying investment in online fulfilment and data capabilities to support growth.",
+     "episode": {
+      "title": "Reporting season is (finally) over. What did we learn?",
+      "url": "https://equitymates.com/episode/reporting-season-is-finally-over-what-did-we-learn/",
+      "jump": "https://www.youtube.com/watch?v=-5y9AvNuURQ&t=1911s",
+      "at": "31:51"
+     }
+    },
+    {
+     "date": "2021-08-23",
+     "when": "August 2021",
+     "text": "In August 2021, Equity Mates reported the company outlined a strategy launched two years earlier to build trust and grow long term shareholder value, with most transformation benefits still to come.",
+     "episode": {
+      "title": "Australian Reporting Season Wrap | Atlassian, Telstra, Coles, REA Group, Goodman Group",
+      "url": "https://equitymates.com/episode/australian-reporting-season-wrap-atlassian-telstra-coles-rea-group-goodman-group/",
+      "jump": null,
+      "at": "30:58"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

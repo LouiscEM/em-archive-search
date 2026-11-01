@@ -1,0 +1,102 @@
+{
+ "slug": "australian-securities-exchange-asx",
+ "name": "Australian Securities Exchange",
+ "full": "Australian Securities Exchange",
+ "listings": [
+  "ASX: ASX"
+ ],
+ "built": "2026-10-30",
+ "episodes": 4,
+ "mentioned_in": 866,
+ "latest": "2022-06-23",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2022-06-23",
+     "when": "June 2022",
+     "text": "In June 2022, Equity Mates described ASX CEO Connect as a virtual event hosted every second month by the ASX that connected listed company leaders with retail investors, highlighting a service that linked the market’s participants.",
+     "episode": {
+      "title": "Zero to 100 (billion) in six years - Tim Carver of GQG Partners | ASX CEO Connect Series",
+      "url": "https://equitymates.com/episode/zero-to-100-billion-in-six-years-tim-carver-of-gqg-partners-asx-ceo-connect-series/",
+      "jump": null,
+      "at": "0:31"
+     }
+    },
+    {
+     "date": "2021-11-10",
+     "when": "November 2021",
+     "text": "In November 2021, Equity Mates explained how using limit orders on the ASX kept control over the price paid or received, unlike market orders that executed at whatever the market offered, illustrating practical trading functionality of the exchange.",
+     "episode": {
+      "title": "ASX Week: The Guide to ETF Investing: John Caulfield's Top 5 Mistakes to Avoid",
+      "url": "https://equitymates.com/episode/asx-week-john-caulfield-5-mistakes-etf-investors-should-avoid/",
+      "jump": "https://www.youtube.com/watch?v=Llld3m3oDF8&t=1508s",
+      "at": "25:08"
+     }
+    },
+    {
+     "date": "2021-11-08",
+     "when": "November 2021",
+     "text": "In November 2021, Equity Mates outlined ASX’s free education, including online courses on shares and ETFs, a monthly investment products report with performance and trading activity, and a monthly Ideas Exchange podcast, showing a broad set of services supporting investors.",
+     "episode": {
+      "title": "ASX Week: Helen Chong's top tips for successful investing in Australia",
+      "url": "https://equitymates.com/episode/asx-week-helen-chong-insights-from-the-centre-of-australian-finance/",
+      "jump": "https://www.youtube.com/watch?v=sCDiQFighBg&t=678s",
+      "at": "11:18"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2022-06-23",
+     "when": "June 2022",
+     "text": "In June 2022, Equity Mates highlighted ASX CEO Connect bringing listed companies and retail investors together regularly online, suggesting the exchange built relationships and visibility that could reinforce its central position.",
+     "episode": {
+      "title": "Zero to 100 (billion) in six years - Tim Carver of GQG Partners | ASX CEO Connect Series",
+      "url": "https://equitymates.com/episode/zero-to-100-billion-in-six-years-tim-carver-of-gqg-partners-asx-ceo-connect-series/",
+      "jump": null,
+      "at": "0:31"
+     }
+    },
+    {
+     "date": "2021-11-08",
+     "when": "November 2021",
+     "text": "In November 2021, Equity Mates noted the ASX had many business lines and invested in investor education like the Sharemarket Game, which it did not monetise, suggesting efforts to deepen engagement with future market participants.",
+     "episode": {
+      "title": "ASX Week: Helen Chong's top tips for successful investing in Australia",
+      "url": "https://equitymates.com/episode/asx-week-helen-chong-insights-from-the-centre-of-australian-finance/",
+      "jump": "https://www.youtube.com/watch?v=sCDiQFighBg&t=568s",
+      "at": "9:28"
+     }
+    },
+    {
+     "date": "2020-09-10",
+     "when": "September 2020",
+     "text": "In September 2020, a guest on Equity Mates said the ASX acted as a marketplace and gatekeeper, focusing on quality, disclosure and operational robustness for listed products and companies, implying a trusted role that could support its long-term relevance.",
+     "episode": {
+      "title": "Expert Investor: Rory Cunningham - Lessons from the 2020 ASX Investor Study",
+      "url": "https://equitymates.com/episode/expert-investor-rory-cunningham-lessons-from-the-2020-asx-investor-study/",
+      "jump": null,
+      "at": "5:21"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

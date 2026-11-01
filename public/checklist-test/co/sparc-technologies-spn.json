@@ -1,0 +1,70 @@
+{
+ "slug": "sparc-technologies-spn",
+ "name": "Sparc Technologies",
+ "full": "Sparc Technologies",
+ "listings": [
+  "ASX: SPN"
+ ],
+ "built": "2026-11-01",
+ "episodes": 1,
+ "mentioned_in": 1,
+ "latest": "2024-05-03",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2024-05-03",
+     "when": "May 2024",
+     "text": "In May 2024, Equity Mates said Sparc built its own Adelaide laboratory and ran in-house testing of graphene based additives, indicating a concrete product development program beyond the university setting.",
+     "episode": {
+      "title": "Uncovered: Sparc Technologies - 3 big decarbonisation bets",
+      "url": "https://equitymates.com/episode/uncovered-sparc-technologies-3-big-decarbonisation-bets/",
+      "jump": null,
+      "at": "16:01"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2024-05-03",
+     "when": "May 2024",
+     "text": "In May 2024, Equity Mates described Sparc’s hydrogen project as based on a unique, novel technology sourced from the University of Adelaide, suggesting differentiation rooted in proprietary research.",
+     "episode": {
+      "title": "Uncovered: Sparc Technologies - 3 big decarbonisation bets",
+      "url": "https://equitymates.com/episode/uncovered-sparc-technologies-3-big-decarbonisation-bets/",
+      "jump": null,
+      "at": "3:06"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2024-05-03",
+     "when": "May 2024",
+     "text": "In May 2024, Equity Mates detailed that Sparc invested in its own facilities, equipment and staff to progress graphene based additives testing in-house, showing reinvestment into building capability.",
+     "episode": {
+      "title": "Uncovered: Sparc Technologies - 3 big decarbonisation bets",
+      "url": "https://equitymates.com/episode/uncovered-sparc-technologies-3-big-decarbonisation-bets/",
+      "jump": null,
+      "at": "16:01"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

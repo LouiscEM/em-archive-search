@@ -1,0 +1,58 @@
+{
+ "slug": "peninsula-pen",
+ "name": "Peninsula",
+ "full": "Peninsula",
+ "listings": [
+  "ASX: PEN"
+ ],
+ "built": "2026-11-01",
+ "episodes": 1,
+ "mentioned_in": 7,
+ "latest": "2023-01-27",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": []
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2023-01-27",
+     "when": "January 2023",
+     "text": "In January 2023, Equity Mates said utilities were more active in the uranium term market and producers were responding to numerous requests for proposals, while governments backed more reactors, improving the nuclear outlook and positioning brownfield restarts like Peninsula to benefit from strengthening demand.",
+     "episode": {
+      "title": "23 Stocks for 2023 | Elders, Playside, Qantas and more! Pt I",
+      "url": "https://equitymates.com/episode/23-stocks-for-2023-elders-playside-qantas-and-more-pt-i/",
+      "jump": null,
+      "at": "23:01"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2023-01-27",
+     "when": "January 2023",
+     "text": "In January 2023, Equity Mates noted the first successful uranium restarts were likely to be brownfield projects, naming Paladin, Boss and Peninsula, which all began restart plans in 2022, showing how operators were allocating capital to revive existing assets rather than build new mines.",
+     "episode": {
+      "title": "23 Stocks for 2023 | Elders, Playside, Qantas and more! Pt I",
+      "url": "https://equitymates.com/episode/23-stocks-for-2023-elders-playside-qantas-and-more-pt-i/",
+      "jump": null,
+      "at": "23:01"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

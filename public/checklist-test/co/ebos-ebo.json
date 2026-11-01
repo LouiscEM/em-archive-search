@@ -1,0 +1,46 @@
+{
+ "slug": "ebos-ebo",
+ "name": "Ebos",
+ "full": "Ebos Group",
+ "listings": [
+  "ASX: EBO"
+ ],
+ "built": "2026-11-01",
+ "episodes": 1,
+ "mentioned_in": 1,
+ "latest": "2026-07-13",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2026-07-13",
+     "when": "July 2026",
+     "text": "In July 2026, Equity Mates said Ebos Group is Australasia's largest distributor of medical, pharmaceutical and animal care products, diversified across healthcare and animal care. It noted $522 million animal care revenue up 16% and brands Hawk, Vida Pet, Lipard, and an Animates JV with Pet Barn.",
+     "episode": {
+      "title": "Pet Care: Australia Has More Pets Than People | The Decade Ahead",
+      "url": "https://equitymates.com/episode/pet-care-australia-has-more-pets-than-people-the-decade-ahead/",
+      "jump": "https://www.youtube.com/watch?v=E6lfTucRXX4&t=1631s",
+      "at": "27:11"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": []
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

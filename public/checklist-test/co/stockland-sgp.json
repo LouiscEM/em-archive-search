@@ -1,0 +1,81 @@
+{
+ "slug": "stockland-sgp",
+ "name": "Stockland",
+ "full": "Stockland",
+ "listings": [
+  "ASX: SGP"
+ ],
+ "built": "2026-11-01",
+ "episodes": 2,
+ "mentioned_in": 4,
+ "latest": "2026-06-09",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2026-06-09",
+     "when": "June 2026",
+     "text": "In June 2026, a guest on Equity Mates said Stockland was a residential developer with land banks for tens of thousands of apartments in the pipeline, positioning it to help address Australia's housing shortage through new developments.",
+     "episode": {
+      "title": "A professional investor teaches me how to pick stocks | Jess Gets Investing",
+      "url": "https://equitymates.com/episode/a-professional-investor-teaches-me-how-to-pick-stocks-jess-gets-investing/",
+      "jump": "https://www.youtube.com/watch?v=rSjznmlBcu0&t=1582s",
+      "at": "26:22"
+     }
+    },
+    {
+     "date": "2021-12-07",
+     "when": "December 2021",
+     "text": "In December 2021, Equity Mates described Stockland as a diversified real estate group with shopping centres, housing estates, industrial property and retirement living, noting it provided exposure to residential housing but was not a pure play.",
+     "episode": {
+      "title": "How to Build a Property Portfolio Without Owning a Single House",
+      "url": "https://equitymates.com/episode/investing-in-property-without-buying-a-house/",
+      "jump": "https://www.youtube.com/watch?v=LKdj6D33vVw&t=803s",
+      "at": "13:23"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": []
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2026-06-09",
+     "when": "June 2026",
+     "text": "In June 2026, a guest on Equity Mates highlighted Stockland's land banks and a pipeline of tens of thousands of apartments, implying a multi year runway to invest in and deliver new developments.",
+     "episode": {
+      "title": "A professional investor teaches me how to pick stocks | Jess Gets Investing",
+      "url": "https://equitymates.com/episode/a-professional-investor-teaches-me-how-to-pick-stocks-jess-gets-investing/",
+      "jump": "https://www.youtube.com/watch?v=rSjznmlBcu0&t=1582s",
+      "at": "26:22"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2026-06-09",
+     "when": "June 2026",
+     "text": "In June 2026, a guest on Equity Mates argued the market expected further rate hikes and a property slowdown and had priced Stockland's earnings too pessimistically versus likely outcomes over coming years.",
+     "episode": {
+      "title": "A professional investor teaches me how to pick stocks | Jess Gets Investing",
+      "url": "https://equitymates.com/episode/a-professional-investor-teaches-me-how-to-pick-stocks-jess-gets-investing/",
+      "jump": "https://www.youtube.com/watch?v=rSjznmlBcu0&t=1582s",
+      "at": "26:22"
+     }
+    }
+   ]
+  }
+ ]
+}

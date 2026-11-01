@@ -1,0 +1,46 @@
+{
+ "slug": "wide-open-agriculture-woa",
+ "name": "Wide Open Agriculture",
+ "full": "Wide Open Agriculture",
+ "listings": [
+  "ASX: WOA"
+ ],
+ "built": "2026-11-01",
+ "episodes": 1,
+ "mentioned_in": 1,
+ "latest": "2021-10-19",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2021-10-19",
+     "when": "October 2021",
+     "text": "In October 2021, a guest on Equity Mates described Wide Open Agriculture as a sustainable farming business focused on regenerative agriculture, highlighting its Dirty Clean Food products like oatmeal and lupin-based foods, and said it aligned with a growing shift toward less soil-damaging farming in Australia.",
+     "episode": {
+      "title": "How Froomes is Investing to Make a Million Dollars",
+      "url": "https://equitymates.com/episode/how-froomes-is-investing-to-make-a-million-dollars/",
+      "jump": null,
+      "at": "28:26"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": []
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

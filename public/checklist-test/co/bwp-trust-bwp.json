@@ -1,0 +1,58 @@
+{
+ "slug": "bwp-trust-bwp",
+ "name": "BWP Trust",
+ "full": "BWP Trust",
+ "listings": [
+  "ASX: BWP"
+ ],
+ "built": "2026-11-01",
+ "episodes": 1,
+ "mentioned_in": 1,
+ "latest": "2025-02-11",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2025-02-11",
+     "when": "February 2025",
+     "text": "In February 2025, a guest on Equity Mates described BWP Trust as the landlord for Bunnings and said Bunnings would be a very good tenant, implying reliable rent payments.",
+     "episode": {
+      "title": "Buy or Sell: Adam Dawes - Xero, Pilbara Minerals, Resmed & more",
+      "url": "https://equitymates.com/episode/buy-or-sell-adam-dawes-xero-pilbara-minerals-resmed-more/",
+      "jump": "https://www.youtube.com/watch?v=00cff-6eb1M&t=483s",
+      "at": "8:03"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2025-02-11",
+     "when": "February 2025",
+     "text": "In February 2025, a guest on Equity Mates said Bunnings’ growth had slowed versus two and five years ago, suggesting there was not much growth left for BWP Trust tied to that tenant base.",
+     "episode": {
+      "title": "Buy or Sell: Adam Dawes - Xero, Pilbara Minerals, Resmed & more",
+      "url": "https://equitymates.com/episode/buy-or-sell-adam-dawes-xero-pilbara-minerals-resmed-more/",
+      "jump": "https://www.youtube.com/watch?v=00cff-6eb1M&t=483s",
+      "at": "8:03"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

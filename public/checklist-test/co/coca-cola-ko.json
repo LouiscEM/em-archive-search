@@ -1,0 +1,103 @@
+{
+ "slug": "coca-cola-ko",
+ "name": "Coca-Cola",
+ "full": "The Coca-Cola Company",
+ "listings": [
+  "NYSE: KO"
+ ],
+ "built": "2026-10-30",
+ "episodes": 4,
+ "mentioned_in": 56,
+ "latest": "2025-05-05",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2023-01-26",
+     "when": "January 2023",
+     "text": "In January 2023, Equity Mates introduced Coca-Cola as serving more than 1.9 billion drinks every day across a roster of roughly 200 brands, highlighting the product’s ubiquity and breadth.",
+     "episode": {
+      "title": "Have we reached peak soft drink? - Coca-Cola | Summer Series",
+      "url": "https://equitymates.com/episode/have-we-reached-peak-soft-drink-coca-cola-summer-series/",
+      "jump": "https://www.youtube.com/watch?v=6q8evhaPEB8&t=54s",
+      "at": "0:54"
+     }
+    },
+    {
+     "date": "2022-10-13",
+     "when": "October 2022",
+     "text": "In October 2022, Equity Mates highlighted sheer consumption, citing an estimate that the world drinks about 475 million litres of Coca-Cola per day.",
+     "episode": {
+      "title": "Pump up the pressure: OPEC + wants oil prices to keep rising",
+      "url": "https://equitymates.com/episode/pump-up-the-pressure-opec-wants-oil-prices-to-keep-rising/",
+      "jump": null,
+      "at": "2:38"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2025-05-05",
+     "when": "May 2025",
+     "text": "In May 2025, Equity Mates noted Coca-Cola said it would not raise prices despite aluminium tariffs increasing can costs, underscoring confidence in its positioning while navigating cost pressures.",
+     "episode": {
+      "title": "Meta and Microsoft surprise, Aussie rate cuts \"locked in\" & Pimp my Portfolio",
+      "url": "https://equitymates.com/episode/meta-and-microsoft-surprise-aussie-rate-cuts-locked-in-pimp-my-portfolio/",
+      "jump": "https://www.youtube.com/watch?v=KOclQ7hPS8I&t=1156s",
+      "at": "19:16"
+     }
+    },
+    {
+     "date": "2023-01-26",
+     "when": "January 2023",
+     "text": "In January 2023, a guest on Equity Mates said Coca-Cola’s asset‑light licensing model delivered high gross margins and that strong brands with price inelastic demand reduced private‑label threats, supporting durable profitability.",
+     "episode": {
+      "title": "Have we reached peak soft drink? - Coca-Cola | Summer Series",
+      "url": "https://equitymates.com/episode/have-we-reached-peak-soft-drink-coca-cola-summer-series/",
+      "jump": "https://www.youtube.com/watch?v=6q8evhaPEB8&t=1342s",
+      "at": "22:22"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2023-03-06",
+     "when": "March 2023",
+     "text": "In March 2023, Equity Mates used Berkshire’s letter to show Coca-Cola’s dividend capacity, noting Berkshire invested US$1.3 billion and now receives about US$700 million a year in dividends from Coke.",
+     "episode": {
+      "title": "What we learned from Buffett's letter + An insiders view of the lithium opportunity",
+      "url": "https://equitymates.com/episode/what-we-learned-from-buffetts-letter-an-insiders-view-of-the-lithium-opportunity/",
+      "jump": null,
+      "at": "8:20"
+     }
+    },
+    {
+     "date": "2023-01-26",
+     "when": "January 2023",
+     "text": "In January 2023, a guest on Equity Mates explained Coca-Cola bought the remaining 85% of BodyArmor for US$5.6 billion, calling it largely a defensive move to strengthen its sports drink position.",
+     "episode": {
+      "title": "Have we reached peak soft drink? - Coca-Cola | Summer Series",
+      "url": "https://equitymates.com/episode/have-we-reached-peak-soft-drink-coca-cola-summer-series/",
+      "jump": "https://www.youtube.com/watch?v=6q8evhaPEB8&t=1510s",
+      "at": "25:10"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

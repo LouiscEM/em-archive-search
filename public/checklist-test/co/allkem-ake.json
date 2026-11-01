@@ -1,0 +1,58 @@
+{
+ "slug": "allkem-ake",
+ "name": "Allkem",
+ "full": "Allkem",
+ "listings": [
+  "ASX: AKE"
+ ],
+ "built": "2026-11-01",
+ "episodes": 1,
+ "mentioned_in": 2,
+ "latest": "2023-11-30",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2023-11-30",
+     "when": "November 2023",
+     "text": "In November 2023, an adviser on Equity Mates explained Allkem produced lithium from both hard rock and brine deposits, outlining its mix of asset types.",
+     "episode": {
+      "title": "Ask an Adviser: Luke Laretive - Choosing a fund manager & making money in Aussie large caps",
+      "url": "https://equitymates.com/episode/ask-an-advisor-luke-larative-choosing-a-fund-manager-making-money-in-aussie-large-caps/",
+      "jump": null,
+      "at": "34:20"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": []
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2023-11-30",
+     "when": "November 2023",
+     "text": "In November 2023, an adviser on Equity Mates said the market valued Allkem only for its hard rock assets and did not value its brine projects, arguing the shares were too cheap.",
+     "episode": {
+      "title": "Ask an Adviser: Luke Laretive - Choosing a fund manager & making money in Aussie large caps",
+      "url": "https://equitymates.com/episode/ask-an-advisor-luke-larative-choosing-a-fund-manager-making-money-in-aussie-large-caps/",
+      "jump": null,
+      "at": "34:20"
+     }
+    }
+   ]
+  }
+ ]
+}

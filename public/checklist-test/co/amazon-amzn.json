@@ -1,0 +1,125 @@
+{
+ "slug": "amazon-amzn",
+ "name": "Amazon",
+ "full": "Amazon",
+ "listings": [
+  "NASDAQ: AMZN"
+ ],
+ "built": "2026-10-30",
+ "episodes": 4,
+ "mentioned_in": 527,
+ "latest": "2026-08-11",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2023-10-23",
+     "when": "October 2023",
+     "text": "In October 2023, Equity Mates explained that Amazon dominated US online retail, covering more than 40% of online shopping, as part of discussion on an antitrust lawsuit, highlighting the scale and ubiquity of its shopping platform.",
+     "episode": {
+      "title": "Fast 3: Gina v Albemarle | AI Deep Fakes | Is Amazon ripping off small businesses?",
+      "url": "https://equitymates.com/episode/fast-3-gina-v-albemarle-ai-deep-fakes-is-amazon-ripping-off-small-businesses/",
+      "jump": null,
+      "at": "14:02"
+     }
+    },
+    {
+     "date": "2022-09-07",
+     "when": "September 2022",
+     "text": "In September 2022, Equity Mates noted Prime Video’s economics using a $15 monthly price and estimated 4 million new subscribers to break even, adding that Prime already had about 200 million subscribers globally, underscoring broad consumer appeal of Amazon’s membership bundle.",
+     "episode": {
+      "title": "Battle of the Prequels: House of the Dragon v Rings of Power",
+      "url": "https://equitymates.com/episode/the-rings-of-power-v-house-of-the-dragon-amazon-v-hbo-the-streaming-wars-go-medieval/",
+      "jump": null,
+      "at": "9:01"
+     }
+    },
+    {
+     "date": "2022-07-29",
+     "when": "July 2022",
+     "text": "In July 2022, Equity Mates outlined Amazon’s expansion from online retail and AWS into areas like health care and satellites, including a $10 billion Project Kuiper plan, showing the breadth of its services ecosystem.",
+     "episode": {
+      "title": "Big Tech wants a piece of everything. Who’s going to stop them?",
+      "url": "https://equitymates.com/episode/big-tech-wants-a-piece-of-everything-whos-going-to-stop-them/",
+      "jump": null,
+      "at": "1:27"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2026-08-11",
+     "when": "August 2026",
+     "text": "In August 2026, a guest on Equity Mates cited Amazon’s reported $496 billion backlog with much of it committed demand, and a plan to lift CapEx by about $20 billion, arguing this underpinned confidence in AWS’s long-term economics.",
+     "episode": {
+      "title": "AI investors are getting nervous. Should they be?",
+      "url": "https://equitymates.com/episode/ai-investors-are-getting-nervous-should-they-be/",
+      "jump": "https://www.youtube.com/watch?v=RwM7fxlWmHc&t=440s",
+      "at": "7:20"
+     }
+    },
+    {
+     "date": "2023-10-23",
+     "when": "October 2023",
+     "text": "In October 2023, Equity Mates covered a US antitrust case alleging Amazon held an illegal monopoly in online retail and highlighted that it accounted for more than 40% of online shopping, pointing to significant market power.",
+     "episode": {
+      "title": "Fast 3: Gina v Albemarle | AI Deep Fakes | Is Amazon ripping off small businesses?",
+      "url": "https://equitymates.com/episode/fast-3-gina-v-albemarle-ai-deep-fakes-is-amazon-ripping-off-small-businesses/",
+      "jump": null,
+      "at": "14:02"
+     }
+    },
+    {
+     "date": "2022-09-07",
+     "when": "September 2022",
+     "text": "In September 2022, Equity Mates said Amazon could subsidise streaming with its retail and Web services businesses, giving it an advantage over pure‑play media rivals as content budgets rise.",
+     "episode": {
+      "title": "Battle of the Prequels: House of the Dragon v Rings of Power",
+      "url": "https://equitymates.com/episode/the-rings-of-power-v-house-of-the-dragon-amazon-v-hbo-the-streaming-wars-go-medieval/",
+      "jump": null,
+      "at": "13:29"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2026-08-11",
+     "when": "August 2026",
+     "text": "In August 2026, a guest on Equity Mates described Amazon increasing CapEx by about $20 billion to build data centres after reporting a large, committed backlog, framing it as reinvestment to meet long-term demand.",
+     "episode": {
+      "title": "AI investors are getting nervous. Should they be?",
+      "url": "https://equitymates.com/episode/ai-investors-are-getting-nervous-should-they-be/",
+      "jump": "https://www.youtube.com/watch?v=RwM7fxlWmHc&t=440s",
+      "at": "7:20"
+     }
+    },
+    {
+     "date": "2022-07-29",
+     "when": "July 2022",
+     "text": "In July 2022, Equity Mates reported Amazon’s diversification moves, including acquiring One Medical for about USD 4 billion and investing $10 billion in Project Kuiper, as examples of capital allocation into new growth areas.",
+     "episode": {
+      "title": "Big Tech wants a piece of everything. Who’s going to stop them?",
+      "url": "https://equitymates.com/episode/big-tech-wants-a-piece-of-everything-whos-going-to-stop-them/",
+      "jump": null,
+      "at": "1:27"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

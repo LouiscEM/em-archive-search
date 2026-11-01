@@ -1,0 +1,46 @@
+{
+ "slug": "unicredit-ucg",
+ "name": "UniCredit",
+ "full": "UniCredit",
+ "listings": [
+  "BIT: UCG"
+ ],
+ "built": "2026-11-01",
+ "episodes": 1,
+ "mentioned_in": 2,
+ "latest": "2023-11-20",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": []
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": []
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2023-11-20",
+     "when": "November 2023",
+     "text": "In November 2023, Equity Mates recapped a pitch on UniCredit that highlighted a planned share buyback worth about 50% of its market cap, presenting it as a significant capital return central to the investment case.",
+     "episode": {
+      "title": "We review the 16 stocks pitched at the Sohn Hearts & Minds conference",
+      "url": "https://equitymates.com/episode/we-review-the-16-stocks-pitched-at-the-sohn-hearts-minds-conference/",
+      "jump": null,
+      "at": "36:11"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

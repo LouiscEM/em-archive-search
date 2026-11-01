@@ -1,0 +1,58 @@
+{
+ "slug": "ge-vernova-gev",
+ "name": "GE Vernova",
+ "full": "GE Vernova",
+ "listings": [
+  "NYSE: GEV"
+ ],
+ "built": "2026-11-01",
+ "episodes": 1,
+ "mentioned_in": 2,
+ "latest": "2024-08-01",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2024-08-01",
+     "when": "August 2024",
+     "text": "In August 2024, Equity Mates explained that GE Vernova had been in nuclear power since the 1950s and was one of a handful with significant market share in nuclear reactors, noting it was spun out to include GE Power and GE Renewable Energy so it covered all kinds of energy.",
+     "episode": {
+      "title": "Nuclear energy: Why it has been a top performing industry this year",
+      "url": "https://equitymates.com/episode/nuclear-energy-why-it-has-been-a-top-performing-industry-this-year/",
+      "jump": null,
+      "at": "34:08"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2024-08-01",
+     "when": "August 2024",
+     "text": "In August 2024, Equity Mates said GE Vernova was one of a handful of companies with significant market share in nuclear reactors, highlighting its long operating history in nuclear since the 1950s after being spun out with GE Power and GE Renewable Energy.",
+     "episode": {
+      "title": "Nuclear energy: Why it has been a top performing industry this year",
+      "url": "https://equitymates.com/episode/nuclear-energy-why-it-has-been-a-top-performing-industry-this-year/",
+      "jump": null,
+      "at": "34:08"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

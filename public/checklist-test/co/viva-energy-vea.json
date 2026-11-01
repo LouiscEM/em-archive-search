@@ -1,0 +1,70 @@
+{
+ "slug": "viva-energy-vea",
+ "name": "Viva Energy",
+ "full": "Viva Energy",
+ "listings": [
+  "ASX: VEA"
+ ],
+ "built": "2026-11-01",
+ "episodes": 1,
+ "mentioned_in": 3,
+ "latest": "2024-02-01",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2024-02-01",
+     "when": "February 2024",
+     "text": "In February 2024, Equity Mates said Viva Energy operated about 710 Shell sites and planned to roll fuel and convenience into a single brand, noting it was the largest fuel and convenience network and, with On The Run, could approach 1000 stores nationally.",
+     "episode": {
+      "title": "From oil refining to servos - Viva Energy | Summer Series",
+      "url": "https://equitymates.com/episode/from-oil-refining-to-servos-viva-energy-summer-series/",
+      "jump": "https://www.youtube.com/watch?v=jZZcDyUnQM8&t=304s",
+      "at": "5:04"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2024-02-01",
+     "when": "February 2024",
+     "text": "In February 2024, a guest on Equity Mates said two Australian refineries closed in 2020, prompting government concern about fuel security and intervention, which became a catalyst for Viva Energy’s refining business.",
+     "episode": {
+      "title": "From oil refining to servos - Viva Energy | Summer Series",
+      "url": "https://equitymates.com/episode/from-oil-refining-to-servos-viva-energy-summer-series/",
+      "jump": "https://www.youtube.com/watch?v=jZZcDyUnQM8&t=788s",
+      "at": "13:08"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2024-02-01",
+     "when": "February 2024",
+     "text": "In February 2024, Equity Mates said Viva Energy had On The Run in South Australia and, combined with Shell sites, could approach 1000 stores, with plans to unify branding across the network.",
+     "episode": {
+      "title": "From oil refining to servos - Viva Energy | Summer Series",
+      "url": "https://equitymates.com/episode/from-oil-refining-to-servos-viva-energy-summer-series/",
+      "jump": "https://www.youtube.com/watch?v=jZZcDyUnQM8&t=304s",
+      "at": "5:04"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

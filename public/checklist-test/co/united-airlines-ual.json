@@ -1,0 +1,57 @@
+{
+ "slug": "united-airlines-ual",
+ "name": "United Airlines",
+ "full": "United Airlines Holdings",
+ "listings": [
+  "NASDAQ: UAL"
+ ],
+ "built": "2026-11-01",
+ "episodes": 2,
+ "mentioned_in": 4,
+ "latest": "2024-03-21",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2024-03-21",
+     "when": "March 2024",
+     "text": "In March 2024, Equity Mates highlighted United Airlines inspections found at least five more 737 MAX aircraft with loose door plugs after a door plug flew off, raising safety and reliability concerns for flights operated by the airline.",
+     "episode": {
+      "title": "The magic of compounding, Speccy Magee returns & when does Boeing become a good investment?",
+      "url": "https://equitymates.com/episode/the-magic-of-compounding-speccy-magee-returns-when-does-boeing-become-a-good-investment/",
+      "jump": "https://www.youtube.com/watch?v=AJS8kuGtnYw&t=382s",
+      "at": "6:22"
+     }
+    },
+    {
+     "date": "2022-07-27",
+     "when": "July 2022",
+     "text": "In July 2022, Equity Mates said an internal memo from United Airlines argued most delays and cancellations were due to air traffic control labour shortages, in a discussion of industry-wide travel chaos affecting the airline's service.",
+     "episode": {
+      "title": "Who's to blame for air travel chaos: Airlines or airports?",
+      "url": "https://equitymates.com/episode/whos-to-blame-for-air-travel-chaos-airlines-or-airports/",
+      "jump": null,
+      "at": "8:44"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": []
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

@@ -1,0 +1,82 @@
+{
+ "slug": "news-nws",
+ "name": "News",
+ "full": "News Corporation",
+ "listings": [
+  "ASX: NWS"
+ ],
+ "built": "2026-11-01",
+ "episodes": 1,
+ "mentioned_in": 176,
+ "latest": "2023-06-30",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2023-06-30",
+     "when": "June 2023",
+     "text": "In June 2023, Equity Mates said News Corp’s most important products were its digital real estate services, Dow Jones (including the Wall Street Journal and B2B data), and HarperCollins, highlighting these as the core of what the company offers today.",
+     "episode": {
+      "title": "News Corp (NWS) deep dive w/ Will Granger | Airlie Funds",
+      "url": "https://equitymates.com/episode/news-corp-nws-deep-dive-w-will-granger-airlie-funds/",
+      "jump": null,
+      "at": "9:47"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2023-06-30",
+     "when": "June 2023",
+     "text": "In June 2023, a guest on Equity Mates argued News Corp’s key segments had durable competitive advantages, citing HarperCollins’ steady earnings, the Wall Street Journal’s essential information and pricing power, and the strength of realestate.com.au, supporting sustained above-market profitability.",
+     "episode": {
+      "title": "News Corp (NWS) deep dive w/ Will Granger | Airlie Funds",
+      "url": "https://equitymates.com/episode/news-corp-nws-deep-dive-w-will-granger-airlie-funds/",
+      "jump": null,
+      "at": "32:02"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2023-06-30",
+     "when": "June 2023",
+     "text": "In June 2023, Equity Mates recapped decades of capital allocation through mergers and acquisitions, from buying Dow Jones to selling major entertainment assets to Disney, describing a long history of reshaping the portfolio via deals.",
+     "episode": {
+      "title": "News Corp (NWS) deep dive w/ Will Granger | Airlie Funds",
+      "url": "https://equitymates.com/episode/news-corp-nws-deep-dive-w-will-granger-airlie-funds/",
+      "jump": null,
+      "at": "6:36"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2023-06-30",
+     "when": "June 2023",
+     "text": "In June 2023, Equity Mates noted News Corp’s market cap was about $11.2 billion, with the share price up 26% over the past year and 35% over five years, offering a snapshot of how the market was valuing the business.",
+     "episode": {
+      "title": "News Corp (NWS) deep dive w/ Will Granger | Airlie Funds",
+      "url": "https://equitymates.com/episode/news-corp-nws-deep-dive-w-will-granger-airlie-funds/",
+      "jump": null,
+      "at": "10:45"
+     }
+    }
+   ]
+  }
+ ]
+}

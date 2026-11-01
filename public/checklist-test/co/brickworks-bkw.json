@@ -1,0 +1,104 @@
+{
+ "slug": "brickworks-bkw",
+ "name": "Brickworks",
+ "full": "Brickworks",
+ "listings": [
+  "ASX: BKW"
+ ],
+ "built": "2026-10-30",
+ "episodes": 3,
+ "mentioned_in": 15,
+ "latest": "2026-09-15",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2021-04-21",
+     "when": "April 2021",
+     "text": "In April 2021, Equity Mates said Brickworks was the leading brickmaker in Australia and discussed low rental vacancy rates and housing incentives that supported demand for new homes, highlighting a solid backdrop for its products.",
+     "episode": {
+      "title": "CEO Series: Lindsay Partridge AM - 45 Years Of Dividend Growth",
+      "url": "https://equitymates.com/episode/ceo-series-lindsay-partridge-am-45-years-of-dividend-growth/",
+      "jump": "https://www.youtube.com/watch?v=FgNKtNmhpV8&t=1898s",
+      "at": "31:38"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2024-04-15",
+     "when": "April 2024",
+     "text": "In April 2024, Equity Mates described Brickworks as having been consistent over the last ten years when discussing Australia’s dividend darlings and long‑term returns.",
+     "episode": {
+      "title": "Australia's Dividend Darlings, don't expect rate cuts soon & where we find information",
+      "url": "https://equitymates.com/episode/australias-dividend-darlings-dont-expect-rate-cuts-soon-where-we-find-information/",
+      "jump": "https://www.youtube.com/watch?v=O8ah7WUVNk0&t=876s",
+      "at": "14:36"
+     }
+    },
+    {
+     "date": "2021-04-21",
+     "when": "April 2021",
+     "text": "In April 2021, Equity Mates relayed Brickworks’ focus on retail shareholders and a long history of paying a franked dividend around 3 percent, indicating steady profitability that had supported ongoing distributions.",
+     "episode": {
+      "title": "CEO Series: Lindsay Partridge AM - 45 Years Of Dividend Growth",
+      "url": "https://equitymates.com/episode/ceo-series-lindsay-partridge-am-45-years-of-dividend-growth/",
+      "jump": "https://www.youtube.com/watch?v=FgNKtNmhpV8&t=1396s",
+      "at": "23:16"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2026-09-15",
+     "when": "September 2026",
+     "text": "In September 2026, a guest on Equity Mates explained that Brickworks’ industrial property assets were sold to Goodman after pre‑emptive rights were triggered by a change of control, and said the outcome aligned with plans for redeploying capital.",
+     "episode": {
+      "title": "A century of compounding: inside Soul Patts’ permanent capital with Todd Barlow",
+      "url": "https://equitymates.com/episode/a-century-of-compounding-inside-soul-patts-permanent-capital-with-todd-barlow/",
+      "jump": null,
+      "at": "23:06"
+     }
+    },
+    {
+     "date": "2021-04-21",
+     "when": "April 2021",
+     "text": "In April 2021, Equity Mates outlined how Brickworks prioritised safety, environment and essential maintenance, and creatively leased $100 million of a $130 million baseload plant to manage capital needs and ensure utilisation.",
+     "episode": {
+      "title": "CEO Series: Lindsay Partridge AM - 45 Years Of Dividend Growth",
+      "url": "https://equitymates.com/episode/ceo-series-lindsay-partridge-am-45-years-of-dividend-growth/",
+      "jump": "https://www.youtube.com/watch?v=FgNKtNmhpV8&t=1029s",
+      "at": "17:09"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2021-04-21",
+     "when": "April 2021",
+     "text": "In April 2021, Equity Mates reported Brickworks sold part of its stake to drop to 39.4 percent in Washington H. Soul Pattinson to prove the holding’s cash value to the market, addressing perceptions that it was not being properly valued.",
+     "episode": {
+      "title": "CEO Series: Lindsay Partridge AM - 45 Years Of Dividend Growth",
+      "url": "https://equitymates.com/episode/ceo-series-lindsay-partridge-am-45-years-of-dividend-growth/",
+      "jump": "https://www.youtube.com/watch?v=FgNKtNmhpV8&t=1396s",
+      "at": "23:16"
+     }
+    }
+   ]
+  }
+ ]
+}

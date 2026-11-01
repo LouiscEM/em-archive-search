@@ -1,0 +1,70 @@
+{
+ "slug": "geo-geo",
+ "name": "Geo",
+ "full": "Geo Group",
+ "listings": [
+  "NYSE: GEO"
+ ],
+ "built": "2026-10-30",
+ "episodes": 1,
+ "mentioned_in": 9,
+ "latest": "2022-08-22",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2022-08-22",
+     "when": "August 2022",
+     "text": "In August 2022, Equity Mates introduced Geo Group as a private prison operator, explaining the industry deep dive was prompted after a prominent investor concentrated their portfolio in the stock.",
+     "episode": {
+      "title": "Hands down, the most unethical industry deep dive we’ve done",
+      "url": "https://equitymates.com/episode/hands-down-the-most-unethical-industry-deep-dive-weve-done/",
+      "jump": "https://www.youtube.com/watch?v=wAXnKtjXqLs&t=1087s",
+      "at": "18:07"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2022-08-22",
+     "when": "August 2022",
+     "text": "In August 2022, Equity Mates said Geo Group derived 23% of revenue from the Bureau of Prisons, highlighting its reliance on federal government contracts for demand.",
+     "episode": {
+      "title": "Hands down, the most unethical industry deep dive we’ve done",
+      "url": "https://equitymates.com/episode/hands-down-the-most-unethical-industry-deep-dive-weve-done/",
+      "jump": "https://www.youtube.com/watch?v=wAXnKtjXqLs&t=1631s",
+      "at": "27:11"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2022-08-22",
+     "when": "August 2022",
+     "text": "In August 2022, Equity Mates noted Geo Group’s share price was down almost 70% over the past five years, which was raised as a reason it had attracted interest.",
+     "episode": {
+      "title": "Hands down, the most unethical industry deep dive we’ve done",
+      "url": "https://equitymates.com/episode/hands-down-the-most-unethical-industry-deep-dive-weve-done/",
+      "jump": "https://www.youtube.com/watch?v=wAXnKtjXqLs&t=1631s",
+      "at": "27:11"
+     }
+    }
+   ]
+  }
+ ]
+}

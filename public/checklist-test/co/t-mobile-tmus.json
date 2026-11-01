@@ -1,0 +1,102 @@
+{
+ "slug": "t-mobile-tmus",
+ "name": "T-Mobile",
+ "full": "T-Mobile",
+ "listings": [
+  "NASDAQ: TMUS"
+ ],
+ "built": "2026-10-30",
+ "episodes": 4,
+ "mentioned_in": 11,
+ "latest": "2026-02-27",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2026-02-27",
+     "when": "February 2026",
+     "text": "In February 2026, Equity Mates noted T-Mobile offered a Starlink top-up to mobile contracts to eliminate black spots, presenting a stronger connectivity service for customers.",
+     "episode": {
+      "title": "What SpaceX shows us about private markets with Adam Myers",
+      "url": "https://equitymates.com/episode/what-spacex-shows-us-about-private-markets-with-adam-myers/",
+      "jump": "https://www.youtube.com/watch?v=UdYNJq5Tc40&t=546s",
+      "at": "9:06"
+     }
+    },
+    {
+     "date": "2023-06-29",
+     "when": "June 2023",
+     "text": "In June 2023, a guest on Equity Mates said T-Mobile’s fixed wireless broadband had taken a decent slice of recent US broadband market share gains, showing strong uptake of its service.",
+     "episode": {
+      "title": "Expert: Andrew Walker shares two surprising value investing opportunities",
+      "url": "https://equitymates.com/episode/expert-andrew-walker-shares-two-surprising-value-investing-opportunities/",
+      "jump": null,
+      "at": "21:29"
+     }
+    },
+    {
+     "date": "2021-12-10",
+     "when": "December 2021",
+     "text": "In December 2021, Equity Mates described T-Mobile as a massive US telco and said it had been the only carrier to deliver 5G across the US economy, highlighting network coverage strength.",
+     "episode": {
+      "title": "Need To Know Bumper Edition: SOHN Hearts & Minds Investor Conference",
+      "url": "https://equitymates.com/episode/need-to-know-bumper-edition-sohn-hearts-minds-investor-conference/",
+      "jump": null,
+      "at": "7:30"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2024-09-06",
+     "when": "September 2024",
+     "text": "In September 2024, Equity Mates discussed an ETF that held T-Mobile among its largest positions while targeting higher quality names with predictable earnings and lower volatility, implying steadier profit characteristics.",
+     "episode": {
+      "title": "ETF Explained: JPMorgan Global Equity Premium Income Complex ETF (JEGA)",
+      "url": "https://equitymates.com/episode/etf-explained-jpmorgan-global-equity-premium-income-complex-etf-jega/",
+      "jump": "https://www.youtube.com/watch?v=j8-XraMvp1A&t=637s",
+      "at": "10:37"
+     }
+    },
+    {
+     "date": "2023-06-29",
+     "when": "June 2023",
+     "text": "In June 2023, a guest on Equity Mates said most recent US broadband net adds had gone to fixed wireless, with T-Mobile participating, indicating competitive momentum against cable operators.",
+     "episode": {
+      "title": "Expert: Andrew Walker shares two surprising value investing opportunities",
+      "url": "https://equitymates.com/episode/expert-andrew-walker-shares-two-surprising-value-investing-opportunities/",
+      "jump": null,
+      "at": "21:29"
+     }
+    },
+    {
+     "date": "2021-12-10",
+     "when": "December 2021",
+     "text": "In December 2021, Equity Mates said T-Mobile had been the only carrier to deliver 5G across the US economy, suggesting a network lead that could support ongoing earnings.",
+     "episode": {
+      "title": "Need To Know Bumper Edition: SOHN Hearts & Minds Investor Conference",
+      "url": "https://equitymates.com/episode/need-to-know-bumper-edition-sohn-hearts-minds-investor-conference/",
+      "jump": null,
+      "at": "7:30"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

@@ -1,0 +1,148 @@
+{
+ "slug": "uber-technologies-uber",
+ "name": "Uber Technologies",
+ "full": "Uber Technologies",
+ "listings": [
+  "NYSE: UBER"
+ ],
+ "built": "2026-10-30",
+ "episodes": 7,
+ "mentioned_in": 145,
+ "latest": "2026-10-12",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2025-07-28",
+     "when": "July 2025",
+     "text": "In July 2025, Equity Mates reported Uber planned to deploy more than 20,000 robo taxis over six years using Lucid vehicles and Nuro’s autonomy, showing an effort to expand ride options on its platform.",
+     "episode": {
+      "title": "The Chinese EV boom, Pimp my Portfolio & X marks the stock: what's buzzing right now",
+      "url": "https://equitymates.com/episode/the-chinese-ev-boom-pimp-my-portfolio-x-marks-the-stock-whats-buzzing-right-now/",
+      "jump": "https://www.youtube.com/watch?v=mgxIZSt2Znk&t=642s",
+      "at": "10:42"
+     }
+    },
+    {
+     "date": "2023-11-06",
+     "when": "November 2023",
+     "text": "In November 2023, Equity Mates explained Uber partnered with Waymo so riders could order Waymo self-driving cars through the Uber app, highlighting Uber’s push to make its service a single access point for autonomous rides.",
+     "episode": {
+      "title": "Driveless cars are driving headlines. Here's what you've missed",
+      "url": "https://equitymates.com/episode/driveless-cars-are-driving-headlines-heres-what-youve-missed/",
+      "jump": null,
+      "at": "0:02"
+     }
+    },
+    {
+     "date": "2022-05-13",
+     "when": "May 2022",
+     "text": "In May 2022, Equity Mates noted Uber had just under 4 million drivers globally, illustrating the scale and availability of its rideshare service.",
+     "episode": {
+      "title": "What's the deal with the gig economy?",
+      "url": "https://equitymates.com/episode/whats-the-deal-with-the-gig-economy/",
+      "jump": null,
+      "at": "6:31"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2026-10-12",
+     "when": "October 2026",
+     "text": "In October 2026, Equity Mates relayed a thesis that in a future with multiple autonomous operators, Uber would defend its position by aggregating rider demand, pointing to a potential moat in matching riders and fleets.",
+     "episode": {
+      "title": "Live from New York: Bill Ackman, Aussie businesses & other observations",
+      "url": "https://equitymates.com/episode/live-from-new-york-bill-ackman-aussie-businesses-other-observations/",
+      "jump": "https://www.youtube.com/watch?v=EAv8MXZcBZ4&t=788s",
+      "at": "13:08"
+     }
+    },
+    {
+     "date": "2026-09-24",
+     "when": "September 2026",
+     "text": "In September 2026, Equity Mates compared Grab and said Uber was ahead on revenue, revenue growth, monthly users, profit and free cash flow, and faced fewer regulatory issues than Southeast Asia, indicating stronger current economics.",
+     "episode": {
+      "title": "Australia’s older, slower future, how much do you need to retire & Mr Beat-Up looks at Grab Holdings",
+      "url": "https://equitymates.com/episode/australias-older-slower-future-how-much-do-you-need-to-retire-mr-beat-up-looks-at-grab-holdings/",
+      "jump": "https://www.youtube.com/watch?v=zGQ8kuciJuc&t=2318s",
+      "at": "38:38"
+     }
+    },
+    {
+     "date": "2026-07-06",
+     "when": "July 2026",
+     "text": "In July 2026, Equity Mates discussed debate over whether robo taxis could bypass Uber or strengthen it, noting apps are easy to build and cheaper autonomous rides could shift customer behaviour.",
+     "episode": {
+      "title": "Self-Driving Cars: From 7,000 to 6 million Robotaxis | The Decade Ahead",
+      "url": "https://equitymates.com/episode/self-driving-cars-from-7000-to-6-million-robotaxis-the-decade-ahead/",
+      "jump": "https://www.youtube.com/watch?v=P8y_M1gda_E&t=2039s",
+      "at": "33:59"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2025-07-28",
+     "when": "July 2025",
+     "text": "In July 2025, Equity Mates said Uber aimed to invest in a fleet of more than 20,000 robo taxis via partnerships with Lucid and Nuro, signalling reinvestment into autonomous capacity on its network.",
+     "episode": {
+      "title": "The Chinese EV boom, Pimp my Portfolio & X marks the stock: what's buzzing right now",
+      "url": "https://equitymates.com/episode/the-chinese-ev-boom-pimp-my-portfolio-x-marks-the-stock-whats-buzzing-right-now/",
+      "jump": "https://www.youtube.com/watch?v=mgxIZSt2Znk&t=642s",
+      "at": "10:42"
+     }
+    },
+    {
+     "date": "2023-11-06",
+     "when": "November 2023",
+     "text": "In November 2023, Equity Mates described Uber’s decision to partner with Waymo rather than build its own self-driving system as a strategic choice to integrate third-party autonomy into its platform.",
+     "episode": {
+      "title": "Driveless cars are driving headlines. Here's what you've missed",
+      "url": "https://equitymates.com/episode/driveless-cars-are-driving-headlines-heres-what-youve-missed/",
+      "jump": null,
+      "at": "0:02"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2026-09-24",
+     "when": "September 2026",
+     "text": "In September 2026, Equity Mates said that versus Grab, Uber was cheaper while outperforming on revenue, user growth, profit and free cash flow, implying stronger metrics at a lower price.",
+     "episode": {
+      "title": "Australia’s older, slower future, how much do you need to retire & Mr Beat-Up looks at Grab Holdings",
+      "url": "https://equitymates.com/episode/australias-older-slower-future-how-much-do-you-need-to-retire-mr-beat-up-looks-at-grab-holdings/",
+      "jump": "https://www.youtube.com/watch?v=zGQ8kuciJuc&t=2318s",
+      "at": "38:38"
+     }
+    },
+    {
+     "date": "2026-07-03",
+     "when": "July 2026",
+     "text": "In July 2026, a guest on Equity Mates argued the market mispriced Uber despite its demand aggregation role as robo taxis scale, describing it as oversold relative to its position in matching riders with vehicles.",
+     "episode": {
+      "title": "3 fundies put each other's top global ideas to the test",
+      "url": "https://equitymates.com/episode/3-fundies-put-each-others-top-global-ideas-to-the-test/",
+      "jump": "https://www.youtube.com/watch?v=z7YJy-dAXQs&t=321s",
+      "at": "5:21"
+     }
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,80 @@
+{
+ "slug": "morgan-stanley-ms",
+ "name": "Morgan Stanley",
+ "full": "Morgan Stanley",
+ "listings": [
+  "NYSE: MS"
+ ],
+ "built": "2026-10-30",
+ "episodes": 4,
+ "mentioned_in": 66,
+ "latest": "2026-06-17",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2026-06-17",
+     "when": "June 2026",
+     "text": "In June 2026, Equity Mates reported that Morgan Stanley positioned its wealth platform’s product shelf around “quality,” favouring managers with robust investment processes, risk management and repeatability, indicating a disciplined approach to its advisory and funds selection service.",
+     "episode": {
+      "title": "Morgan Stanley’s asset allocation playbook for the next 5 years",
+      "url": "https://equitymates.com/episode/morgan-stanleys-asset-allocation-playbook-for-the-next-5-years/",
+      "jump": "https://www.youtube.com/watch?v=B5o6PQgIxp0&t=531s",
+      "at": "8:51"
+     }
+    },
+    {
+     "date": "2026-01-26",
+     "when": "January 2026",
+     "text": "In January 2026, Equity Mates cited Morgan Stanley’s SaaS index to show a sharp divergence from the Nasdaq 100, highlighting the firm’s research and benchmarking tools as part of its analytical offering to clients and the market.",
+     "episode": {
+      "title": "Bryce reveals 500 to 5k results, China's warning signs and are software companies on sale?",
+      "url": "https://equitymates.com/episode/bryce-reveals-500-to-5k-results-chinas-warning-signs-and-are-software-companies-on-sale/",
+      "jump": "https://www.youtube.com/watch?v=oh4zH9bZklA&t=1148s",
+      "at": "19:08"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2026-03-06",
+     "when": "March 2026",
+     "text": "In March 2026, a guest on Equity Mates described Morgan Stanley as a diversified bank that could benefit from rising deal flow if rates fell, with its M&A division earning more advisory fees as transaction volumes picked up.",
+     "episode": {
+      "title": "4 steps to find winning software stocks with Ben Arnold",
+      "url": "https://equitymates.com/episode/4-steps-to-find-winning-software-stocks-with-ben-arnold/",
+      "jump": "https://www.youtube.com/watch?v=4o_MexmZVEw&t=1321s",
+      "at": "22:01"
+     }
+    },
+    {
+     "date": "2025-07-21",
+     "when": "July 2025",
+     "text": "In July 2025, Equity Mates said Morgan Stanley posted $3.5 billion in quarterly profits, with a strong result from trading, illustrating how its markets businesses contributed meaningfully to earnings in that period.",
+     "episode": {
+      "title": "Card fees to go, Pimp my Portfolio & BlackRock lost $52 billion in one go",
+      "url": "https://equitymates.com/episode/card-fees-to-go-pimp-my-portfolio-blackrock-lost-52-billion-in-one-go/",
+      "jump": "https://www.youtube.com/watch?v=ZLCmrceevTU&t=948s",
+      "at": "15:48"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

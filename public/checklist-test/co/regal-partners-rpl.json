@@ -1,0 +1,70 @@
+{
+ "slug": "regal-partners-rpl",
+ "name": "Regal Partners",
+ "full": "Regal Partners",
+ "listings": [
+  "ASX: RPL"
+ ],
+ "built": "2026-11-01",
+ "episodes": 1,
+ "mentioned_in": 1,
+ "latest": "2023-02-10",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2023-02-10",
+     "when": "February 2023",
+     "text": "In February 2023, Equity Mates described Regal Partners as an alternative investment manager offering hedge funds, private markets and real estate across a multi-boutique setup, and said it was among Australia’s most awarded performers with strong staff ownership alignment.",
+     "episode": {
+      "title": "23 Stocks for 2023 | Car Sales, Aussie Broadband and PayPal! Pt III",
+      "url": "https://equitymates.com/episode/23-stocks-for-2023-car-sales-aussie-broadband-and-paypal-pt-iii/",
+      "jump": null,
+      "at": "25:16"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2023-02-10",
+     "when": "February 2023",
+     "text": "In February 2023, Equity Mates said the merger to create Regal Partners accelerated net flows, including 800 million of inflows with a 470 million institutional mandate and a 200 million private credit commitment, indicating scale and demand to underpin performance fee potential.",
+     "episode": {
+      "title": "23 Stocks for 2023 | Car Sales, Aussie Broadband and PayPal! Pt III",
+      "url": "https://equitymates.com/episode/23-stocks-for-2023-car-sales-aussie-broadband-and-paypal-pt-iii/",
+      "jump": null,
+      "at": "26:26"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2023-02-10",
+     "when": "February 2023",
+     "text": "In February 2023, Equity Mates expected more M&A given cash on the balance sheet and highlighted fertile FUM gathering, with larger-group mandates and a move into private credit via a major family office’s initial 200 million and optional 100 million follow-up.",
+     "episode": {
+      "title": "23 Stocks for 2023 | Car Sales, Aussie Broadband and PayPal! Pt III",
+      "url": "https://equitymates.com/episode/23-stocks-for-2023-car-sales-aussie-broadband-and-paypal-pt-iii/",
+      "jump": null,
+      "at": "26:26"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

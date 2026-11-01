@@ -1,0 +1,69 @@
+{
+ "slug": "cobalt-blue-cob",
+ "name": "Cobalt Blue",
+ "full": "Cobalt Blue Holdings",
+ "listings": [
+  "ASX: COB"
+ ],
+ "built": "2026-11-01",
+ "episodes": 2,
+ "mentioned_in": 3,
+ "latest": "2026-07-16",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2022-04-29",
+     "when": "April 2022",
+     "text": "In April 2022, Equity Mates described Cobalt Blue Holdings’ Broken Hill project as working to supply cobalt into the battery supply chain, mentioning end users like LG and Samsung, to give manufacturers more supplier choice beyond the Democratic Republic of the Congo.",
+     "episode": {
+      "title": "Bonus: Australia's future industries - Mining | Stake",
+      "url": "https://equitymates.com/episode/bonus-australias-future-industries-mining-stake/",
+      "jump": "https://www.youtube.com/watch?v=-XgKTpEcCa0&t=1714s",
+      "at": "28:34"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": []
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2026-07-16",
+     "when": "July 2026",
+     "text": "In July 2026, Equity Mates noted Cobalt Blue was a tiny ASX-listed, pre-revenue pure cobalt play with a $49 million market cap.",
+     "episode": {
+      "title": "Electrification: Australia’s Chance to Power the World | The Decade Ahead",
+      "url": "https://equitymates.com/episode/electrification-australias-chance-to-power-the-world-the-decade-ahead/",
+      "jump": "https://www.youtube.com/watch?v=c45ZJowSvyI&t=1349s",
+      "at": "22:29"
+     }
+    },
+    {
+     "date": "2022-04-29",
+     "when": "April 2022",
+     "text": "In April 2022, Equity Mates said cobalt companies’ market caps were much smaller than other mineral producers and discussed Cobalt Blue alongside peers cited at about $53.5 million and $60.5 million to frame the cohort’s scale.",
+     "episode": {
+      "title": "Bonus: Australia's future industries - Mining | Stake",
+      "url": "https://equitymates.com/episode/bonus-australias-future-industries-mining-stake/",
+      "jump": "https://www.youtube.com/watch?v=-XgKTpEcCa0&t=1714s",
+      "at": "28:34"
+     }
+    }
+   ]
+  }
+ ]
+}

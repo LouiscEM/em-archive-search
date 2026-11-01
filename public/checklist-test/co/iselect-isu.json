@@ -1,0 +1,93 @@
+{
+ "slug": "iselect-isu",
+ "name": "iSelect",
+ "full": "iSelect",
+ "listings": [
+  "ASX: ISU"
+ ],
+ "built": "2026-11-01",
+ "episodes": 2,
+ "mentioned_in": 2,
+ "latest": "2024-04-02",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2024-04-02",
+     "when": "April 2024",
+     "text": "In April 2024, Equity Mates contrasted bill comparison services like iSelect with a subscription alternative, saying sites such as iSelect earned rebates from providers and therefore compared only a subset of companies.",
+     "episode": {
+      "title": "$100 challenge: How we save money on our energy bills",
+      "url": "https://equitymates.com/episode/100-challenge-how-we-save-money-on-our-energy-bills/",
+      "jump": "https://www.youtube.com/watch?v=PoJoViMScqQ&t=460s",
+      "at": "7:40"
+     }
+    },
+    {
+     "date": "2018-01-21",
+     "when": "January 2018",
+     "text": "In January 2018, Equity Mates explained iSelect began as a health insurance comparison site and expanded into energy and telco comparisons, while also acting as Australia’s distributor for Nest smart home products.",
+     "episode": {
+      "title": "EM Talk: We're Back For 2018 - Why Amazon Struggles & More Bold Predictions",
+      "url": "https://equitymates.com/episode/em-talk-were-back-for-2018-why-amazon-struggles-more-bold-predictions/",
+      "jump": null,
+      "at": "42:37"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2018-01-21",
+     "when": "January 2018",
+     "text": "In January 2018, Equity Mates noted iSelect had consistent revenue growth and a balance sheet with $18 million cash and no debt, but missed expectations and its share price fell 21% in 2017.",
+     "episode": {
+      "title": "EM Talk: We're Back For 2018 - Why Amazon Struggles & More Bold Predictions",
+      "url": "https://equitymates.com/episode/em-talk-were-back-for-2018-why-amazon-struggles-more-bold-predictions/",
+      "jump": null,
+      "at": "42:37"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2018-01-21",
+     "when": "January 2018",
+     "text": "In January 2018, Equity Mates said iSelect reinvested for growth by expanding into energy and telcos and by becoming the Australian distributor for Nest smart home products.",
+     "episode": {
+      "title": "EM Talk: We're Back For 2018 - Why Amazon Struggles & More Bold Predictions",
+      "url": "https://equitymates.com/episode/em-talk-were-back-for-2018-why-amazon-struggles-more-bold-predictions/",
+      "jump": null,
+      "at": "42:37"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2018-01-21",
+     "when": "January 2018",
+     "text": "In January 2018, Equity Mates reported iSelect traded at $1.39 with a price to earnings of 19 after a 21% share price fall in 2017, and discussed mean reversion in that context.",
+     "episode": {
+      "title": "EM Talk: We're Back For 2018 - Why Amazon Struggles & More Bold Predictions",
+      "url": "https://equitymates.com/episode/em-talk-were-back-for-2018-why-amazon-struggles-more-bold-predictions/",
+      "jump": null,
+      "at": "42:37"
+     }
+    }
+   ]
+  }
+ ]
+}

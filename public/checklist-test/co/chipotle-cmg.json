@@ -1,0 +1,126 @@
+{
+ "slug": "chipotle-cmg",
+ "name": "Chipotle",
+ "full": "Chipotle",
+ "listings": [
+  "NYSE: CMG"
+ ],
+ "built": "2026-10-30",
+ "episodes": 6,
+ "mentioned_in": 25,
+ "latest": "2026-04-13",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2023-01-02",
+     "when": "January 2023",
+     "text": "In January 2023, Equity Mates recounted Chipotle’s origin story and said the first store sold over a thousand burritos a day after planning for 107, highlighting strong early product-market fit and customer demand.",
+     "episode": {
+      "title": "$3 for Guac, $1,500 for a share - Chipotle | Summer Series",
+      "url": "https://equitymates.com/episode/3-for-guac-1500-for-a-share-chipotle-summer-series/",
+      "jump": "https://www.youtube.com/watch?v=_CnP1-bqTNI&t=209s",
+      "at": "3:29"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2025-05-26",
+     "when": "May 2025",
+     "text": "In May 2025, Equity Mates contrasted Chipotle’s company-owned model with GYG’s franchise model and said Chipotle delivered a 26% operating margin versus 16% for GYG, attributing stronger profitability to greater control over quality and operations.",
+     "episode": {
+      "title": "Bitcoin hits all-time highs, why Ren bought Catapult & Pimp my Portfolio with Matt Ingram",
+      "url": "https://equitymates.com/episode/bitcoin-hits-all-time-highs-why-ren-bought-catapult-pimp-my-portfolio-with-matt-ingram/",
+      "jump": null,
+      "at": "22:22"
+     }
+    },
+    {
+     "date": "2024-05-06",
+     "when": "May 2024",
+     "text": "In May 2024, Equity Mates noted Chipotle reported wage increases and higher tech costs for new restaurant software, flagging cost pressures that affect margins despite operational investments.",
+     "episode": {
+      "title": "Snapchat and Spotify are back, Bonza isn't & Pimp my Portfolio returns",
+      "url": "https://equitymates.com/episode/snapchat-and-spotify-are-back-bonza-isnt-pimp-my-portfolio-returns/",
+      "jump": "https://www.youtube.com/watch?v=gRwq2wHR5Mg&t=565s",
+      "at": "9:25"
+     }
+    },
+    {
+     "date": "2021-02-21",
+     "when": "February 2021",
+     "text": "In February 2021, Equity Mates highlighted that Chipotle featured in a concentrated portfolio focused on companies with obvious moats, suggesting the business held a strong competitive position.",
+     "episode": {
+      "title": "EM Chat: What stocks are Buffett, Ackman and Soros buying?",
+      "url": "https://equitymates.com/episode/em-chat-what-stocks-are-buffett-ackman-and-soros-buying/",
+      "jump": "https://www.youtube.com/watch?v=sPV6yCMIzkE&t=1249s",
+      "at": "20:49"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2024-05-06",
+     "when": "May 2024",
+     "text": "In May 2024, Equity Mates said Chipotle increased tech spending to support new restaurant software, indicating reinvestment in operations alongside higher wages.",
+     "episode": {
+      "title": "Snapchat and Spotify are back, Bonza isn't & Pimp my Portfolio returns",
+      "url": "https://equitymates.com/episode/snapchat-and-spotify-are-back-bonza-isnt-pimp-my-portfolio-returns/",
+      "jump": "https://www.youtube.com/watch?v=gRwq2wHR5Mg&t=565s",
+      "at": "9:25"
+     }
+    },
+    {
+     "date": "2023-03-09",
+     "when": "March 2023",
+     "text": "In March 2023, a guest on Equity Mates discussed Chipotle’s ambition to roll out to about 5,000 stores, framing large white space and store expansion as the key growth driver.",
+     "episode": {
+      "title": "My High Conviction Stock: Stephen Arnold - Tractor Supply (NASDAQ: TSCO)",
+      "url": "https://equitymates.com/episode/my-high-conviction-stock-stephen-arnold-tractor-supply-nasdaq-tsco/",
+      "jump": null,
+      "at": "3:21"
+     }
+    },
+    {
+     "date": "2023-01-02",
+     "when": "January 2023",
+     "text": "In January 2023, Equity Mates outlined Chipotle’s efforts to launch new concepts and said most had closed, indicating management experimented beyond the core burrito format with mixed outcomes.",
+     "episode": {
+      "title": "$3 for Guac, $1,500 for a share - Chipotle | Summer Series",
+      "url": "https://equitymates.com/episode/3-for-guac-1500-for-a-share-chipotle-summer-series/",
+      "jump": "https://www.youtube.com/watch?v=_CnP1-bqTNI&t=348s",
+      "at": "5:48"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2026-04-13",
+     "when": "April 2026",
+     "text": "In April 2026, Equity Mates revisited Chipotle in a segment and said expectations were high and the stock looked too expensive, framing valuation concerns as the key issue.",
+     "episode": {
+      "title": "Wall Street’s secret agent, talking super with your parents & Buy or Sell is back",
+      "url": "https://equitymates.com/episode/wall-streets-secret-agent-talking-super-with-your-parents-buy-or-sell-is-back/",
+      "jump": "https://www.youtube.com/watch?v=ZtSAOHnQWtY&t=1415s",
+      "at": "23:35"
+     }
+    }
+   ]
+  }
+ ]
+}

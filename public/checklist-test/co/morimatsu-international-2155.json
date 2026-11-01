@@ -1,0 +1,58 @@
+{
+ "slug": "morimatsu-international-2155",
+ "name": "Morimatsu International",
+ "full": "Morimatsu International Holdings Co Ltd",
+ "listings": [
+  "HKG: 2155"
+ ],
+ "built": "2026-11-01",
+ "episodes": 1,
+ "mentioned_in": 1,
+ "latest": "2025-11-24",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2025-11-24",
+     "when": "November 2025",
+     "text": "In November 2025, a guest on Equity Mates pitched Morimatsu International as a builder of modular factories for pharma, battery and chemical makers, explaining the product let clients deploy production quickly in new locations to navigate tariff changes.",
+     "episode": {
+      "title": "Nvidia's wild swings & 11 experts pitched their best ideas for 2026, we review them",
+      "url": "https://equitymates.com/episode/nvidia-swings-big-the-hearts-minds-conference-delivers-and-we-draft-portfolio-picks/",
+      "jump": "https://www.youtube.com/watch?v=MBDUJS2VNsM&t=799s",
+      "at": "13:19"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2025-11-24",
+     "when": "November 2025",
+     "text": "In November 2025, Equity Mates discussed tariff uncertainty as a tailwind for Morimatsu International and cited its order book up 600% and shares up 145% this year as evidence of strong demand.",
+     "episode": {
+      "title": "Nvidia's wild swings & 11 experts pitched their best ideas for 2026, we review them",
+      "url": "https://equitymates.com/episode/nvidia-swings-big-the-hearts-minds-conference-delivers-and-we-draft-portfolio-picks/",
+      "jump": "https://www.youtube.com/watch?v=MBDUJS2VNsM&t=799s",
+      "at": "13:19"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

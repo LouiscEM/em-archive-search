@@ -1,0 +1,137 @@
+{
+ "slug": "berkshire-hathaway-brk-a",
+ "name": "Berkshire Hathaway",
+ "full": "Berkshire Hathaway",
+ "listings": [
+  "NYSE: BRK.A",
+  "NYSE: BRK.B"
+ ],
+ "built": "2026-10-30",
+ "episodes": 4,
+ "mentioned_in": 152,
+ "latest": "2026-10-29",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2025-02-27",
+     "when": "February 2025",
+     "text": "In February 2025, Equity Mates explained Berkshire owned about 189 businesses and, despite 53% seeing profits fall, operating profit rose 27%, led by insurance and investment income, showing resilience in its core operations.",
+     "episode": {
+      "title": "6 lessons from Buffett's annual letter, Pimp my Portfolio & Australia's quantum computing breakthrough",
+      "url": "https://equitymates.com/episode/6-lessons-from-buffetts-annual-letter-pimp-my-portfolio-australias-quantum-computing-breakthrough/",
+      "jump": "https://www.youtube.com/watch?v=ObagQznktgQ&t=1778s",
+      "at": "29:38"
+     }
+    },
+    {
+     "date": "2024-05-09",
+     "when": "May 2024",
+     "text": "In May 2024, Equity Mates said Berkshire’s results were driven by a huge increase in insurance underwriting, with earnings up 185% to almost $3 billion, and described insurance as the company’s super power.",
+     "episode": {
+      "title": "Highlights from Berkshire Hathaway, Apple’s record buyback & crypto’s record price",
+      "url": "https://equitymates.com/episode/highlights-from-berkshire-hathaway-apples-record-buyback-cryptos-record-price/",
+      "jump": "https://www.youtube.com/watch?v=5AY_ObbRO4M&t=909s",
+      "at": "15:09"
+     }
+    },
+    {
+     "date": "2022-03-08",
+     "when": "March 2022",
+     "text": "In March 2022, Equity Mates highlighted Berkshire’s core businesses as insurance, BNSF railroad, Berkshire Hathaway Energy and a large Apple stake, underscoring its focus on essential, widely used services.",
+     "episode": {
+      "title": "Unpacking Buffett's Letter - The Ultimate Investing Guide",
+      "url": "https://equitymates.com/episode/the-1-investing-resource-buffetts-letter/",
+      "jump": null,
+      "at": "27:43"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2026-10-29",
+     "when": "October 2026",
+     "text": "In October 2026, a guest on Equity Mates described Berkshire as very safe but said its scale meant future moves must deploy around a hundred billion to move the needle, implying returns may be constrained by size.",
+     "episode": {
+      "title": "Bill Ackman on building the next Berkshire, AI & his next 10-bagger",
+      "url": "https://equitymates.com/episode/bill-ackman-on-building-the-next-berkshire-ai-his-next-10-bagger/",
+      "jump": "https://www.youtube.com/watch?v=IN8ugYE4UmE&t=3703s",
+      "at": "1:01:43"
+     }
+    },
+    {
+     "date": "2025-02-27",
+     "when": "February 2025",
+     "text": "In February 2025, Equity Mates noted insurance profit close to doubled and investment income rose as yields increased, supporting strong, durable earnings power from the insurance engine and its cash holdings.",
+     "episode": {
+      "title": "6 lessons from Buffett's annual letter, Pimp my Portfolio & Australia's quantum computing breakthrough",
+      "url": "https://equitymates.com/episode/6-lessons-from-buffetts-annual-letter-pimp-my-portfolio-australias-quantum-computing-breakthrough/",
+      "jump": "https://www.youtube.com/watch?v=ObagQznktgQ&t=1778s",
+      "at": "29:38"
+     }
+    },
+    {
+     "date": "2022-03-08",
+     "when": "March 2022",
+     "text": "In March 2022, Equity Mates recapped Berkshire’s 20.1% annual return since 1965 versus 10.5% for the S&P 500, attributing long-term outperformance to its model even as compounding with a larger base gets harder.",
+     "episode": {
+      "title": "Unpacking Buffett's Letter - The Ultimate Investing Guide",
+      "url": "https://equitymates.com/episode/the-1-investing-resource-buffetts-letter/",
+      "jump": null,
+      "at": "6:48"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2025-02-27",
+     "when": "February 2025",
+     "text": "In February 2025, Equity Mates discussed Berkshire’s 334 billion in cash and said the letter framed it as a lack of attractive opportunities now, with speculation it could enable major buybacks in certain scenarios.",
+     "episode": {
+      "title": "6 lessons from Buffett's annual letter, Pimp my Portfolio & Australia's quantum computing breakthrough",
+      "url": "https://equitymates.com/episode/6-lessons-from-buffetts-annual-letter-pimp-my-portfolio-australias-quantum-computing-breakthrough/",
+      "jump": "https://www.youtube.com/watch?v=ObagQznktgQ&t=1836s",
+      "at": "30:36"
+     }
+    },
+    {
+     "date": "2024-05-09",
+     "when": "May 2024",
+     "text": "In May 2024, Equity Mates played Buffett’s remarks about only swinging at attractive pitches, avoiding leverage, and how deploying larger sums limits opportunities, outlining a disciplined capital allocation approach.",
+     "episode": {
+      "title": "Highlights from Berkshire Hathaway, Apple’s record buyback & crypto’s record price",
+      "url": "https://equitymates.com/episode/highlights-from-berkshire-hathaway-apples-record-buyback-cryptos-record-price/",
+      "jump": "https://www.youtube.com/watch?v=5AY_ObbRO4M&t=1385s",
+      "at": "23:05"
+     }
+    },
+    {
+     "date": "2022-03-08",
+     "when": "March 2022",
+     "text": "In March 2022, Equity Mates noted Berkshire’s emphasis on four pillars, led by insurance and large wholly owned assets, alongside $144 billion cash, showing a preference to reinvest patiently in core businesses and keep dry powder.",
+     "episode": {
+      "title": "Unpacking Buffett's Letter - The Ultimate Investing Guide",
+      "url": "https://equitymates.com/episode/the-1-investing-resource-buffetts-letter/",
+      "jump": null,
+      "at": "27:43"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

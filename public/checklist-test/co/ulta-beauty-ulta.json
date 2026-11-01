@@ -1,0 +1,58 @@
+{
+ "slug": "ulta-beauty-ulta",
+ "name": "Ulta Beauty",
+ "full": "Ulta Beauty",
+ "listings": [
+  "NASDAQ: ULTA"
+ ],
+ "built": "2026-11-01",
+ "episodes": 2,
+ "mentioned_in": 5,
+ "latest": "2023-07-03",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2023-07-03",
+     "when": "July 2023",
+     "text": "In July 2023, Equity Mates noted Ulta Beauty featured Barbie-themed products, from hot pink items to electric toothbrushes, as part of the movie lead-up. It positioned Ulta within a broad pop-culture merchandising push across major retailers.",
+     "episode": {
+      "title": "Barbie may be pink, but Mattel is seeing red",
+      "url": "https://equitymates.com/episode/barbie-may-be-pink-but-mattel-is-seeing-red/",
+      "jump": null,
+      "at": "11:51"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2023-02-03",
+     "when": "February 2023",
+     "text": "In February 2023, Equity Mates observed that Ulta Beauty’s revenues were exceeding pre-COVID levels, highlighting ongoing recovery and business strength.",
+     "episode": {
+      "title": "23 Stocks for 2023 | 7 more stocks - including Seek, Family Zone, Ulta Beauty! Pt II",
+      "url": "https://equitymates.com/episode/23-stocks-for-2023-7-more-stocks-including-seek-family-zone-ulta-beauty-pt-ii/",
+      "jump": null,
+      "at": "28:00"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

@@ -1,0 +1,69 @@
+{
+ "slug": "brainchip-brn",
+ "name": "Brainchip",
+ "full": "Brainchip Holdings",
+ "listings": [
+  "ASX: BRN"
+ ],
+ "built": "2026-11-01",
+ "episodes": 3,
+ "mentioned_in": 5,
+ "latest": "2026-03-24",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2024-06-11",
+     "when": "June 2024",
+     "text": "In June 2024, a guest on Equity Mates questioned whether Brainchip had a viable product, saying it made many promises but delivered almost zero revenue, while IBM already generated revenue from its own neuromorphic chip and Brainchip had about $30 million cash, making commercialisation against bigger rivals difficult.",
+     "episode": {
+      "title": "Buy or Sell: Lucas Goode - Xero, NextDC, Brainchip, Cettire + more",
+      "url": "https://equitymates.com/episode/buy-or-sell-lucas-goode-xero-nextdc-brainchip-cettire-more/",
+      "jump": "https://www.youtube.com/watch?v=k6x_OwWwzyM&t=947s",
+      "at": "15:47"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": []
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2026-03-24",
+     "when": "March 2026",
+     "text": "In March 2026, a guest on Equity Mates highlighted Brainchip had 22 red flags and a market value around $3 billion despite having less revenue than a local cafe, and said red hot retail sentiment and an exciting narrative kept it risky to short.",
+     "episode": {
+      "title": "The Data Signals That Predict Winning (and Losing) Stocks with Dr. David Allen",
+      "url": "https://equitymates.com/episode/the-data-signals-that-predict-winning-and-losing-stocks-with-dr-david-allen/",
+      "jump": null,
+      "at": "40:14"
+     }
+    },
+    {
+     "date": "2023-11-28",
+     "when": "November 2023",
+     "text": "In November 2023, Equity Mates noted Brainchip reported about $27,000 in quarterly cash receipts while its market capitalisation was about $344 million, and it was burning roughly $4 million a quarter with about $17 million cash, raising questions about what the market had priced in.",
+     "episode": {
+      "title": "Buy or Sell: 10 stocks with Adam Keily & Owen Rask",
+      "url": "https://equitymates.com/episode/buy-or-sell-10-stocks-with-adam-keily-owen-rask/",
+      "jump": "https://www.youtube.com/watch?v=OsRbfHy-Ndo&t=243s",
+      "at": "4:03"
+     }
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,46 @@
+{
+ "slug": "polestar-psnyw",
+ "name": "Polestar",
+ "full": "Polestar",
+ "listings": [
+  "NASDAQ: PSNYW"
+ ],
+ "built": "2026-11-01",
+ "episodes": 1,
+ "mentioned_in": 1,
+ "latest": "2023-11-06",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2023-11-06",
+     "when": "November 2023",
+     "text": "In November 2023, Equity Mates observed more Polestar EVs on Australian roads and discussed the brand by name, suggesting growing visibility and adoption of its cars in Australia.",
+     "episode": {
+      "title": "Leveraged ETFs, Ren's Melbourne Cup tip & Speccy Magee returns",
+      "url": "https://equitymates.com/episode/leveraged-etfs-rens-melbourne-cup-tip-speccy-magee-returns/",
+      "jump": "https://www.youtube.com/watch?v=1hegfgeWR58&t=1028s",
+      "at": "17:08"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": []
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

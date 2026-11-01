@@ -1,0 +1,148 @@
+{
+ "slug": "allbirds-bird",
+ "name": "Allbirds",
+ "full": "Allbirds",
+ "listings": [
+  "NASDAQ: BIRD"
+ ],
+ "built": "2026-11-01",
+ "episodes": 5,
+ "mentioned_in": 6,
+ "latest": "2026-10-14",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2026-10-14",
+     "when": "October 2026",
+     "text": "In October 2026, Equity Mates described Allbirds as a Kiwi company manufacturing woollen running shoes before discussing its claimed pivot to an AI infrastructure focus.",
+     "episode": {
+      "title": "Is fundamental investing dead? All hail the rise of quant",
+      "url": "https://equitymates.com/episode/is-fundamental-investing-dead-all-hail-the-rise-of-quant/",
+      "jump": "https://www.youtube.com/watch?v=efOCG74Ors0&t=717s",
+      "at": "11:57"
+     }
+    },
+    {
+     "date": "2026-10-07",
+     "when": "October 2026",
+     "text": "In October 2026, a guest on Equity Mates called Allbirds a great shoe manufacturer while questioning its move to become an AI company.",
+     "episode": {
+      "title": "Are your clients actually diversified? The hidden risks inside every portfolio",
+      "url": "https://equitymates.com/episode/are-your-clients-actually-diversified-the-hidden-risks-inside-every-portfolio/",
+      "jump": "https://www.youtube.com/watch?v=D4FyeWtIasQ&t=1015s",
+      "at": "16:55"
+     }
+    },
+    {
+     "date": "2026-04-20",
+     "when": "April 2026",
+     "text": "In April 2026, Equity Mates outlined Allbirds as a sustainable sneaker company that made wool-based shoes and built its brand with celebrity wearers, putting sustainability at its core.",
+     "episode": {
+      "title": "Allbirds' brazen move, Saudi’s abandoning LIV golf and Bryce’s investing strategy explained",
+      "url": "https://equitymates.com/episode/allbirds-brazen-move-saudis-abandoning-liv-golf-and-bryces-investing-strategy-explained/",
+      "jump": "https://www.youtube.com/watch?v=IMcHnJv91Uk&t=45s",
+      "at": "0:45"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2026-04-20",
+     "when": "April 2026",
+     "text": "In April 2026, Equity Mates said Allbirds planned to buy GPUs to build AI compute despite having no existing infrastructure and no obvious competitive advantage against other players.",
+     "episode": {
+      "title": "Allbirds' brazen move, Saudi’s abandoning LIV golf and Bryce’s investing strategy explained",
+      "url": "https://equitymates.com/episode/allbirds-brazen-move-saudis-abandoning-liv-golf-and-bryces-investing-strategy-explained/",
+      "jump": "https://www.youtube.com/watch?v=IMcHnJv91Uk&t=287s",
+      "at": "4:47"
+     }
+    },
+    {
+     "date": "2024-07-15",
+     "when": "July 2024",
+     "text": "In July 2024, Equity Mates contrasted Allbirds’ value of less than 75 million with Nike and noted how rivals can quickly lose momentum against dominant players.",
+     "episode": {
+      "title": "Is Nike undervalued, the Aussie dollar is rising & investing for kids",
+      "url": "https://equitymates.com/episode/is-nike-undervalued-the-aussie-dollar-is-rising-investing-for-kids/",
+      "jump": "https://www.youtube.com/watch?v=AwLm2qH8ph8&t=1103s",
+      "at": "18:23"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2026-10-14",
+     "when": "October 2026",
+     "text": "In October 2026, Equity Mates noted the company rebranded itself as an AI infrastructure business, which briefly sent the stock up several hundred percent before falling back.",
+     "episode": {
+      "title": "Is fundamental investing dead? All hail the rise of quant",
+      "url": "https://equitymates.com/episode/is-fundamental-investing-dead-all-hail-the-rise-of-quant/",
+      "jump": "https://www.youtube.com/watch?v=efOCG74Ors0&t=717s",
+      "at": "11:57"
+     }
+    },
+    {
+     "date": "2026-04-20",
+     "when": "April 2026",
+     "text": "In April 2026, Equity Mates reported Allbirds raised $50 million to fund a pivot into GPU-as-a-service, aiming to build compute infrastructure from scratch.",
+     "episode": {
+      "title": "Allbirds' brazen move, Saudi’s abandoning LIV golf and Bryce’s investing strategy explained",
+      "url": "https://equitymates.com/episode/allbirds-brazen-move-saudis-abandoning-liv-golf-and-bryces-investing-strategy-explained/",
+      "jump": "https://www.youtube.com/watch?v=IMcHnJv91Uk&t=287s",
+      "at": "4:47"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2026-04-20",
+     "when": "April 2026",
+     "text": "In April 2026, Equity Mates recapped a peak valuation of $4.1 billion in 2021, a 99% decline since, and a single-day 548% jump after the AI pivot announcement.",
+     "episode": {
+      "title": "Allbirds' brazen move, Saudi’s abandoning LIV golf and Bryce’s investing strategy explained",
+      "url": "https://equitymates.com/episode/allbirds-brazen-move-saudis-abandoning-liv-golf-and-bryces-investing-strategy-explained/",
+      "jump": "https://www.youtube.com/watch?v=IMcHnJv91Uk&t=45s",
+      "at": "0:45"
+     }
+    },
+    {
+     "date": "2024-07-15",
+     "when": "July 2024",
+     "text": "In July 2024, Equity Mates said the company was worth less than 75 million, showing how quickly value can fall for consumer brands that lose momentum.",
+     "episode": {
+      "title": "Is Nike undervalued, the Aussie dollar is rising & investing for kids",
+      "url": "https://equitymates.com/episode/is-nike-undervalued-the-aussie-dollar-is-rising-investing-for-kids/",
+      "jump": "https://www.youtube.com/watch?v=AwLm2qH8ph8&t=1103s",
+      "at": "18:23"
+     }
+    },
+    {
+     "date": "2023-10-18",
+     "when": "October 2023",
+     "text": "In October 2023, Equity Mates highlighted Allbirds’ 2021 IPO at a $2.2 billion valuation, more than ten times sales, and its fall to about $150 million as market appetite changed.",
+     "episode": {
+      "title": "Why did Birkenstocks IPO get off on the wrong foot?",
+      "url": "https://equitymates.com/episode/why-did-birkenstocks-ipo-get-off-on-the-wrong-foot/",
+      "jump": null,
+      "at": "12:12"
+     }
+    }
+   ]
+  }
+ ]
+}

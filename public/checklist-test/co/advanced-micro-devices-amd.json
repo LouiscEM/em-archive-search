@@ -1,0 +1,125 @@
+{
+ "slug": "advanced-micro-devices-amd",
+ "name": "Advanced Micro Devices",
+ "full": "Advanced Micro Devices",
+ "listings": [
+  "NASDAQ: AMD"
+ ],
+ "built": "2026-10-30",
+ "episodes": 6,
+ "mentioned_in": 38,
+ "latest": "2026-09-04",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2025-02-03",
+     "when": "February 2025",
+     "text": "In February 2025, Equity Mates explained that AMD designs chips that are then manufactured by foundries and supplied to end customers, placing it among the core companies powering data centres.",
+     "episode": {
+      "title": "Picks and shovel AI stocks, investing in cyclical stocks & Chris Judd joins the show",
+      "url": "https://equitymates.com/episode/picks-and-shovel-ai-stocks-investing-in-cyclical-stocks-chris-judd-joins-the-show/",
+      "jump": "https://www.youtube.com/watch?v=1xgPQOwamec&t=356s",
+      "at": "5:56"
+     }
+    },
+    {
+     "date": "2024-07-23",
+     "when": "July 2024",
+     "text": "In July 2024, a guest on Equity Mates said AMD’s MI300 AI chip was one of the fastest chip launches ever, with projected 2024 sales over $4 billion, and noted AMD’s diversified product base with revenue on track for $32 billion by 2025 and operating margins expanding over ten points.",
+     "episode": {
+      "title": "Buy or Sell: Felicity Thomas - Lynas, AMD, Playside Studios & more",
+      "url": "https://equitymates.com/episode/buy-or-sell-felicity-thomas-lynas-amd-playside-studios-more/",
+      "jump": "https://www.youtube.com/watch?v=iXTO7_ArYrI&t=532s",
+      "at": "8:52"
+     }
+    },
+    {
+     "date": "2024-01-08",
+     "when": "January 2024",
+     "text": "In January 2024, Equity Mates noted AMD was working on its MI300, expected to ramp the following year, with market commentary suggesting a few billion dollars of orders, positioning it as a competitor in AI chips.",
+     "episode": {
+      "title": "Up more than 200% in 2023, what does 2024 hold? - Nvidia | Summer Series",
+      "url": "https://equitymates.com/episode/up-more-than-200-in-2023-what-does-2024-hold-nvidia-summer-series/",
+      "jump": null,
+      "at": "22:46"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2026-09-04",
+     "when": "September 2026",
+     "text": "In September 2026, a guest on Equity Mates contrasted Nvidia’s 75% margins and strong customer preference with AMD’s lower margins, framing the competitive gap when assessing large-cap AI chipmakers.",
+     "episode": {
+      "title": "Knowing when to sell: How growth investor Michael Frazis manages risk",
+      "url": "https://equitymates.com/episode/knowing-when-to-sell-how-growth-investor-michael-frazis-manages-risk/",
+      "jump": "https://www.youtube.com/watch?v=xe6Ivnhwlys&t=1443s",
+      "at": "24:03"
+     }
+    },
+    {
+     "date": "2025-10-21",
+     "when": "October 2025",
+     "text": "In October 2025, a guest on Equity Mates said AMD grew CPU share from 1% pre‑2018 to 24% by focusing on cloud and data centres, and argued the shift from training to inference created an opening where customers wanted variety, modelling only 8% to 10% share to justify the case.",
+     "episode": {
+      "title": "Buy or Sell with Ally Selby and Vihari Ross",
+      "url": "https://equitymates.com/episode/buy-or-sell-with-ally-selby-and-vihari-ross/",
+      "jump": "https://www.youtube.com/watch?v=ea1zB6_1O-c&t=881s",
+      "at": "14:41"
+     }
+    },
+    {
+     "date": "2024-11-01",
+     "when": "November 2024",
+     "text": "In November 2024, a guest on Equity Mates said Nvidia captured most AI GPU growth with 75% margins while AMD had barely grown overall, as weakness in other segments offset GPU gains, underscoring a tougher competitive position.",
+     "episode": {
+      "title": "Expert: Michael Frazis - Ozempic, semiconductors, AI & the next big biotech",
+      "url": "https://equitymates.com/episode/expert-michael-frazis-ozempic-semiconductors-ai-the-next-big-biotech/",
+      "jump": "https://www.youtube.com/watch?v=HUP4ZjY4Ffs&t=476s",
+      "at": "7:56"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2025-02-03",
+     "when": "February 2025",
+     "text": "In February 2025, Equity Mates described AMD as one of the obvious names to fill data centres and said a lot of that was already priced in, highlighting how widely known AI beneficiaries may reflect high expectations.",
+     "episode": {
+      "title": "Picks and shovel AI stocks, investing in cyclical stocks & Chris Judd joins the show",
+      "url": "https://equitymates.com/episode/picks-and-shovel-ai-stocks-investing-in-cyclical-stocks-chris-judd-joins-the-show/",
+      "jump": "https://www.youtube.com/watch?v=1xgPQOwamec&t=514s",
+      "at": "8:34"
+     }
+    },
+    {
+     "date": "2024-07-23",
+     "when": "July 2024",
+     "text": "In July 2024, a guest on Equity Mates cited AMD’s share price at US$171.90 and a market value of US$270 billion, framing it as Nvidia’s “little brother” with fast-growing AI chip sales and expanding operating margins.",
+     "episode": {
+      "title": "Buy or Sell: Felicity Thomas - Lynas, AMD, Playside Studios & more",
+      "url": "https://equitymates.com/episode/buy-or-sell-felicity-thomas-lynas-amd-playside-studios-more/",
+      "jump": "https://www.youtube.com/watch?v=iXTO7_ArYrI&t=532s",
+      "at": "8:52"
+     }
+    }
+   ]
+  }
+ ]
+}

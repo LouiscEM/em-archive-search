@@ -1,0 +1,125 @@
+{
+ "slug": "merck-mrk",
+ "name": "Merck",
+ "full": "Merck",
+ "listings": [
+  "NYSE: MRK"
+ ],
+ "built": "2026-10-30",
+ "episodes": 5,
+ "mentioned_in": 16,
+ "latest": "2026-10-19",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2026-10-19",
+     "when": "October 2026",
+     "text": "In October 2026, Equity Mates noted Merck’s cancer drug Keytruda had been the world’s best selling drug until 2023, with $7.9 billion in quarterly revenue, highlighting the product’s scale.",
+     "episode": {
+      "title": "Dating apps are dying, is Eli Lilly still a buy & Pimp My Portfolio with Owen Rask",
+      "url": "https://equitymates.com/episode/dating-apps-are-dying-is-eli-lilly-still-a-buy-pimp-my-portfolio-with-owen-rask/",
+      "jump": "https://www.youtube.com/watch?v=j88aCFmBSak&t=1280s",
+      "at": "21:20"
+     }
+    },
+    {
+     "date": "2026-08-25",
+     "when": "August 2026",
+     "text": "In August 2026, Equity Mates said the experimental melanoma vaccine developed with Moderna was tested with Merck’s Keytruda, which was the leading treatment in the space, and noted markets were excited even before full results were released.",
+     "episode": {
+      "title": "Moderna’s skin cancer breakthrough, a cheap stock for the Community Portfolio & can you time your investments?",
+      "url": "https://equitymates.com/episode/modernas-skin-cancer-breakthrough-a-cheap-stock-for-the-community-portfolio-can-you-time-your-investments/",
+      "jump": "https://www.youtube.com/watch?v=6gpTK1sw3Po&t=232s",
+      "at": "3:52"
+     }
+    },
+    {
+     "date": "2026-07-09",
+     "when": "July 2026",
+     "text": "In July 2026, Equity Mates explained Moderna’s MRNA‑4157 with Merck showed a 49% reduction in death or recurrence when combined with Keytruda, with approvals expected between 2027 and 2029.",
+     "episode": {
+      "title": "Longevity: Can We Add Another 30 Years? | The Decade Ahead",
+      "url": "https://equitymates.com/episode/longevity-can-we-add-another-30-years-the-decade-ahead/",
+      "jump": "https://www.youtube.com/watch?v=P8y_M1gda_E&t=805s",
+      "at": "13:25"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2026-10-19",
+     "when": "October 2026",
+     "text": "In October 2026, Equity Mates compared Mounjaro’s sales to Keytruda and said Keytruda had held the global top‑selling drug crown until 2023, indicating Merck’s strong position in oncology.",
+     "episode": {
+      "title": "Dating apps are dying, is Eli Lilly still a buy & Pimp My Portfolio with Owen Rask",
+      "url": "https://equitymates.com/episode/dating-apps-are-dying-is-eli-lilly-still-a-buy-pimp-my-portfolio-with-owen-rask/",
+      "jump": "https://www.youtube.com/watch?v=j88aCFmBSak&t=1280s",
+      "at": "21:20"
+     }
+    },
+    {
+     "date": "2026-08-25",
+     "when": "August 2026",
+     "text": "In August 2026, Equity Mates argued late‑stage clinical trials remained a costly choke point and said Moderna had to partner with Merck, implying large pharma trial and regulatory capabilities help protect competitive advantage.",
+     "episode": {
+      "title": "Moderna’s skin cancer breakthrough, a cheap stock for the Community Portfolio & can you time your investments?",
+      "url": "https://equitymates.com/episode/modernas-skin-cancer-breakthrough-a-cheap-stock-for-the-community-portfolio-can-you-time-your-investments/",
+      "jump": "https://www.youtube.com/watch?v=6gpTK1sw3Po&t=508s",
+      "at": "8:28"
+     }
+    },
+    {
+     "date": "2023-02-17",
+     "when": "February 2023",
+     "text": "In February 2023, a guest on Equity Mates said Keytruda was initially expected to be a $2, 3 billion drug but delivered about $18, 19 billion in sales last year, and mentioned another oncology product coming, pointing to Merck’s earnings strength.",
+     "episode": {
+      "title": "Finding global equity ideas for your portfolio in 2023",
+      "url": "https://equitymates.com/episode/finding-global-equity-ideas-for-your-portfolio-in-2023/",
+      "jump": null,
+      "at": "19:47"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2026-08-25",
+     "when": "August 2026",
+     "text": "In August 2026, Equity Mates reported Merck co‑developed an mRNA cancer vaccine with Moderna and tested it alongside Keytruda, showing a partnership approach to expand its oncology pipeline.",
+     "episode": {
+      "title": "Moderna’s skin cancer breakthrough, a cheap stock for the Community Portfolio & can you time your investments?",
+      "url": "https://equitymates.com/episode/modernas-skin-cancer-breakthrough-a-cheap-stock-for-the-community-portfolio-can-you-time-your-investments/",
+      "jump": "https://www.youtube.com/watch?v=6gpTK1sw3Po&t=232s",
+      "at": "3:52"
+     }
+    },
+    {
+     "date": "2021-06-20",
+     "when": "June 2021",
+     "text": "In June 2021, Equity Mates said Merck, ticker MRK on the NYSE, was investing heavily in infertility treatment centres, indicating capital deployment into fertility healthcare.",
+     "episode": {
+      "title": "Industry Deep Dive: Fertility and IVF",
+      "url": "https://equitymates.com/episode/industry-deep-dive-fertility-and-ivf/",
+      "jump": "https://www.youtube.com/watch?v=eNuE7GHToiA&t=1734s",
+      "at": "28:54"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

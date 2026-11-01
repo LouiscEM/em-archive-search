@@ -1,0 +1,103 @@
+{
+ "slug": "a2-milk-a2m",
+ "name": "A2 Milk",
+ "full": "A2 Milk",
+ "listings": [
+  "ASX: A2M"
+ ],
+ "built": "2026-10-30",
+ "episodes": 6,
+ "mentioned_in": 26,
+ "latest": "2026-01-12",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2026-01-12",
+     "when": "January 2026",
+     "text": "In January 2026, Equity Mates recounted working at Coles when A2 Milk’s infant formula was so popular it was kept behind the service desk and limited to two tins per customer, showing intense demand driven by China.",
+     "episode": {
+      "title": "Essentials: Our investing playbook",
+      "url": "https://equitymates.com/episode/essentials-our-investing-playbook/",
+      "jump": "https://www.youtube.com/watch?v=77v0S5p_LSE&t=962s",
+      "at": "16:02"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2025-12-04",
+     "when": "December 2025",
+     "text": "In December 2025, a guest on Equity Mates said A2 Milk competed against giants like Nestlé and still became a top five infant formula brand in China by focusing on marketing and endorsements, highlighting brand strength despite weak birth rates and a soft economy.",
+     "episode": {
+      "title": "Best of the Best: AI Hype, China Risk & Australia's Best Stocks - Julia Weng | Paradice Investments",
+      "url": "https://equitymates.com/episode/best-of-the-best-ai-hype-china-risk-australias-best-stocks-julia-weng-paradice-investments/",
+      "jump": "https://www.youtube.com/watch?v=DgCMnr2fVC8&t=312s",
+      "at": "5:12"
+     }
+    },
+    {
+     "date": "2023-05-18",
+     "when": "May 2023",
+     "text": "In May 2023, Equity Mates discussed how daigou channel pressures and China’s push for domestic infant formula threatened A2 Milk’s key growth driver, challenging assumptions about its long-term growth path.",
+     "episode": {
+      "title": "The perils of selling too early | Wealth Builders Pt 2",
+      "url": "https://equitymates.com/episode/the-perils-of-selling-too-early-wealth-builders-pt-2/",
+      "jump": null,
+      "at": "10:41"
+     }
+    },
+    {
+     "date": "2022-09-05",
+     "when": "September 2022",
+     "text": "In September 2022, Equity Mates reported revenue up 20% to $1.4 billion and profit up 52% to $123 million for A2 Milk, showing profitability despite missing US emergency authorisation for infant formula.",
+     "episode": {
+      "title": "Reporting season is (finally) over. What did we learn?",
+      "url": "https://equitymates.com/episode/reporting-season-is-finally-over-what-did-we-learn/",
+      "jump": "https://www.youtube.com/watch?v=-5y9AvNuURQ&t=1396s",
+      "at": "23:16"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2022-11-25",
+     "when": "November 2022",
+     "text": "In November 2022, a guest on Equity Mates recalled A2 Milk becoming very expensive after a strong run, then facing challenging years before basing out, and noted US FDA approval news for its infant formula saw the share price rise about 5% on the day.",
+     "episode": {
+      "title": "The investment opportunities in small and micro-cap companies | Marcus Burns + Brittany Isakka - Spheria",
+      "url": "https://equitymates.com/episode/the-investment-opportunities-in-small-and-micro-cap-companies-marcus-burns-brittany-osaka-spheria/",
+      "jump": null,
+      "at": "22:15"
+     }
+    },
+    {
+     "date": "2022-08-15",
+     "when": "August 2022",
+     "text": "In August 2022, Equity Mates explained A2 Milk was denied US emergency authorisation for infant formula, which hurt sentiment and the share price, showing how regulatory outcomes were quickly reflected in pricing.",
+     "episode": {
+      "title": "The most important reporting season until the next one",
+      "url": "https://equitymates.com/episode/the-most-important-reporting-season-until-the-next-one/",
+      "jump": "https://www.youtube.com/watch?v=5Iuz3BYmzBQ&t=660s",
+      "at": "11:00"
+     }
+    }
+   ]
+  }
+ ]
+}

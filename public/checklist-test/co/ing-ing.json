@@ -1,0 +1,103 @@
+{
+ "slug": "ing-ing",
+ "name": "ING",
+ "full": "ING Group",
+ "listings": [
+  "NYSE: ING"
+ ],
+ "built": "2026-10-30",
+ "episodes": 4,
+ "mentioned_in": 17,
+ "latest": "2026-06-05",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2024-05-28",
+     "when": "May 2024",
+     "text": "In May 2024, Equity Mates compared travel cards and said ING’s Everyday Visa Debit suited people who wanted a simple, home-currency-linked card tied to an ING account, framing it as a one-stop option rather than a specialist travel card.",
+     "episode": {
+      "title": "We compare the top travel cards: Wise vs ING vs HSBC",
+      "url": "https://equitymates.com/episode/we-compare-the-top-travel-cards-wise-vs-ing-vs-hsbc/",
+      "jump": "https://www.youtube.com/watch?v=WWgnbBch7bA&t=205s",
+      "at": "3:25"
+     }
+    },
+    {
+     "date": "2024-04-09",
+     "when": "April 2024",
+     "text": "In April 2024, Equity Mates listed ING’s Savings Maximiser plus Orange Everyday at 5.5% and outlined the requirements to get the bonus rate: deposit $1,000, make five transactions and grow the savings balance each month.",
+     "episode": {
+      "title": "Your savings account should be paying 5%",
+      "url": "https://equitymates.com/episode/your-savings-account-should-be-paying-5/",
+      "jump": "https://www.youtube.com/watch?v=2Xc3on5ImCY&t=652s",
+      "at": "10:52"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2026-06-05",
+     "when": "June 2026",
+     "text": "In June 2026, Equity Mates introduced ING Group as a Dutch multinational bank, the largest in the Netherlands by assets, with a smaller digital challenger presence in Australia and other European markets, highlighting its geographic reach and core market strength.",
+     "episode": {
+      "title": "4 anti-hype anti-AI compounders, with Chloe Stokes and James Rodda",
+      "url": "https://equitymates.com/episode/4-anti-hype-anti-ai-compounders-with-chloe-stokes-and-james-rodda/",
+      "jump": "https://www.youtube.com/watch?v=75IdXtaF2YY&t=8s",
+      "at": "0:08"
+     }
+    },
+    {
+     "date": "2024-04-09",
+     "when": "April 2024",
+     "text": "In April 2024, Equity Mates said ING had consistently been in the top three savings rates, suggesting it competed aggressively in Australian retail banking to attract everyday transaction and savings customers.",
+     "episode": {
+      "title": "Your savings account should be paying 5%",
+      "url": "https://equitymates.com/episode/your-savings-account-should-be-paying-5/",
+      "jump": "https://www.youtube.com/watch?v=2Xc3on5ImCY&t=766s",
+      "at": "12:46"
+     }
+    },
+    {
+     "date": "2023-06-13",
+     "when": "June 2023",
+     "text": "In June 2023, Equity Mates noted ING had long ranked near the top for savings offers and was used for everyday transactions and savings, pointing to brand strength and customer stickiness in deposit gathering.",
+     "episode": {
+      "title": "The 5 best savings account in Australia as of June 2023",
+      "url": "https://equitymates.com/episode/the-5-best-savings-account-in-australia-as-of-june-2023/",
+      "jump": null,
+      "at": "9:26"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2026-06-05",
+     "when": "June 2026",
+     "text": "In June 2026, Equity Mates cited ING’s share price up 134% over three years, EPS CAGR of 32.7% and a market cap of about €90 billion equivalent to frame recent performance and scale before discussing why a manager liked the stock.",
+     "episode": {
+      "title": "4 anti-hype anti-AI compounders, with Chloe Stokes and James Rodda",
+      "url": "https://equitymates.com/episode/4-anti-hype-anti-ai-compounders-with-chloe-stokes-and-james-rodda/",
+      "jump": "https://www.youtube.com/watch?v=75IdXtaF2YY&t=8s",
+      "at": "0:08"
+     }
+    }
+   ]
+  }
+ ]
+}

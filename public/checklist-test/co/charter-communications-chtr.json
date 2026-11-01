@@ -1,0 +1,80 @@
+{
+ "slug": "charter-communications-chtr",
+ "name": "Charter Communications",
+ "full": "Charter Communications",
+ "listings": [
+  "NASDAQ: CHTR"
+ ],
+ "built": "2026-11-01",
+ "episodes": 2,
+ "mentioned_in": 2,
+ "latest": "2023-09-18",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2023-09-18",
+     "when": "September 2023",
+     "text": "In September 2023, Equity Mates discussed Charter Communications’ cable service being pressured as ESPN and major sports shift to direct-to-consumer streaming, citing a recent dispute that underlined how sport leaving pay TV weakens the traditional bundle.",
+     "episode": {
+      "title": "Ren talks Resmed + GQG Partners, UFC and WWE are merging, & trying to perfect DCA investing",
+      "url": "https://equitymates.com/episode/ren-talks-resmed-gqg-partners-ufc-and-wwe-are-merging-trying-to-perfect-dca-investing/",
+      "jump": null,
+      "at": "24:53"
+     }
+    },
+    {
+     "date": "2023-09-13",
+     "when": "September 2023",
+     "text": "In September 2023, Equity Mates recapped how an ESPN and ABC blackout left nearly 15 million Charter Communications subscribers without key sport like the US Open and Monday Night Football until a deal was struck, showing how crucial premium sport is to the service.",
+     "episode": {
+      "title": "What's the concrete crisis gripping the UK?",
+      "url": "https://equitymates.com/episode/whats-the-concrete-crisis-gripping-the-uk/",
+      "jump": null,
+      "at": "4:09"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2023-09-18",
+     "when": "September 2023",
+     "text": "In September 2023, Equity Mates argued cable faced structural headwinds because sport, long its key drawcard, is moving to streaming, implying pressure on Charter Communications’ ability to sustain above-market profits without exclusive content advantages.",
+     "episode": {
+      "title": "Ren talks Resmed + GQG Partners, UFC and WWE are merging, & trying to perfect DCA investing",
+      "url": "https://equitymates.com/episode/ren-talks-resmed-gqg-partners-ufc-and-wwe-are-merging-trying-to-perfect-dca-investing/",
+      "jump": null,
+      "at": "24:53"
+     }
+    },
+    {
+     "date": "2023-09-13",
+     "when": "September 2023",
+     "text": "In September 2023, Equity Mates said Charter Communications resolved its Disney dispute by agreeing to pay more per subscriber for access to Disney services, indicating rising content costs and the need to maintain essential channels like ESPN to protect its economics.",
+     "episode": {
+      "title": "What's the concrete crisis gripping the UK?",
+      "url": "https://equitymates.com/episode/whats-the-concrete-crisis-gripping-the-uk/",
+      "jump": null,
+      "at": "4:09"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

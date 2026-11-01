@@ -1,0 +1,126 @@
+{
+ "slug": "bayer-bayn",
+ "name": "Bayer",
+ "full": "Bayer",
+ "listings": [
+  "ETR: BAYN"
+ ],
+ "built": "2026-10-30",
+ "episodes": 3,
+ "mentioned_in": 8,
+ "latest": "2026-08-03",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2026-08-03",
+     "when": "August 2026",
+     "text": "In August 2026, Equity Mates described Bayer as a German giant with a crop science division that modifies seeds and sells crop protection, including Roundup and Roundup Ready products, and noted the Monsanto acquisition and resulting lawsuits.",
+     "episode": {
+      "title": "Agriculture: Robots, Drones and the Future of Food | The Decade Ahead",
+      "url": "https://equitymates.com/episode/agriculture-robots-drones-and-the-future-of-food/",
+      "jump": "https://www.youtube.com/watch?v=OEzPbs9ZFr0&t=1749s",
+      "at": "29:09"
+     }
+    },
+    {
+     "date": "2021-07-25",
+     "when": "July 2021",
+     "text": "In July 2021, Equity Mates placed Bayer among Germany’s chemicals and pharmaceuticals exporters, highlighting its global scale and revenue beyond the domestic economy.",
+     "episode": {
+      "title": "Country Deep Dive: Germany's export giants | DAX 30",
+      "url": "https://equitymates.com/episode/country-deep-dive-germanys-export-giants-dax-30/",
+      "jump": null,
+      "at": "26:28"
+     }
+    },
+    {
+     "date": "2021-06-13",
+     "when": "June 2021",
+     "text": "In June 2021, Equity Mates said Monsanto, now part of Bayer, led in genetically modified crops, aggressively protected its intellectual property, and sold Roundup, which had faced cancer-related lawsuits over glyphosate.",
+     "episode": {
+      "title": "3 stocks that are surprisingly unethical",
+      "url": "https://equitymates.com/episode/3-stocks-that-are-surprisingly-unethical/",
+      "jump": "https://www.youtube.com/watch?v=4nDF0cJ0-ks&t=587s",
+      "at": "9:47"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2021-07-25",
+     "when": "July 2021",
+     "text": "In July 2021, Equity Mates described Bayer as a global exporter with diversified revenue outside Germany, implying less reliance on domestic demand for sustaining profits.",
+     "episode": {
+      "title": "Country Deep Dive: Germany's export giants | DAX 30",
+      "url": "https://equitymates.com/episode/country-deep-dive-germanys-export-giants-dax-30/",
+      "jump": null,
+      "at": "26:28"
+     }
+    },
+    {
+     "date": "2021-06-13",
+     "when": "June 2021",
+     "text": "In June 2021, Equity Mates noted Monsanto’s aggressive protection of GM seed IP under Bayer, which influenced farmer behaviour, while Roundup faced cancer-related lawsuits, underscoring legal risks to the business’s durability.",
+     "episode": {
+      "title": "3 stocks that are surprisingly unethical",
+      "url": "https://equitymates.com/episode/3-stocks-that-are-surprisingly-unethical/",
+      "jump": "https://www.youtube.com/watch?v=4nDF0cJ0-ks&t=587s",
+      "at": "9:47"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2026-08-03",
+     "when": "August 2026",
+     "text": "In August 2026, Equity Mates highlighted Bayer’s acquisition of Monsanto, which brought Roundup-related lawsuits onto Bayer, shaping the long-term consequences of past capital allocation.",
+     "episode": {
+      "title": "Agriculture: Robots, Drones and the Future of Food | The Decade Ahead",
+      "url": "https://equitymates.com/episode/agriculture-robots-drones-and-the-future-of-food/",
+      "jump": "https://www.youtube.com/watch?v=OEzPbs9ZFr0&t=1749s",
+      "at": "29:09"
+     }
+    },
+    {
+     "date": "2021-06-13",
+     "when": "June 2021",
+     "text": "In June 2021, Equity Mates said Bayer bought Monsanto for about 60 billion, and Bayer’s market cap later was around 60 billion after losing half its value, framing the deal as value destructive.",
+     "episode": {
+      "title": "3 stocks that are surprisingly unethical",
+      "url": "https://equitymates.com/episode/3-stocks-that-are-surprisingly-unethical/",
+      "jump": "https://www.youtube.com/watch?v=4nDF0cJ0-ks&t=670s",
+      "at": "11:10"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2021-06-13",
+     "when": "June 2021",
+     "text": "In June 2021, Equity Mates contrasted the roughly 60 billion purchase price for Monsanto with Bayer’s market cap later being about 60 billion after halving, indicating how the market had repriced the company post-acquisition and litigation.",
+     "episode": {
+      "title": "3 stocks that are surprisingly unethical",
+      "url": "https://equitymates.com/episode/3-stocks-that-are-surprisingly-unethical/",
+      "jump": "https://www.youtube.com/watch?v=4nDF0cJ0-ks&t=670s",
+      "at": "11:10"
+     }
+    }
+   ]
+  }
+ ]
+}

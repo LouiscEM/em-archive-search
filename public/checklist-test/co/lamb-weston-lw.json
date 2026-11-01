@@ -1,0 +1,70 @@
+{
+ "slug": "lamb-weston-lw",
+ "name": "Lamb Weston",
+ "full": "Lamb Weston",
+ "listings": [
+  "NYSE: LW"
+ ],
+ "built": "2026-11-01",
+ "episodes": 1,
+ "mentioned_in": 1,
+ "latest": "2023-11-20",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2023-11-20",
+     "when": "November 2023",
+     "text": "In November 2023, Equity Mates explained Lamb Weston as a French fry supplier in a category with huge demand, citing that 42% of restaurant menus worldwide and 60% in the US included fries.",
+     "episode": {
+      "title": "We review the 16 stocks pitched at the Sohn Hearts & Minds conference",
+      "url": "https://equitymates.com/episode/we-review-the-16-stocks-pitched-at-the-sohn-hearts-minds-conference/",
+      "jump": null,
+      "at": "12:49"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2023-11-20",
+     "when": "November 2023",
+     "text": "In November 2023, a guest on Equity Mates described the US French fry market as an oligopoly that competed rationally on price, and said Lamb Weston’s margins had been hit by a bad Colorado River harvest but could improve after a strong Columbia River Basin harvest.",
+     "episode": {
+      "title": "We review the 16 stocks pitched at the Sohn Hearts & Minds conference",
+      "url": "https://equitymates.com/episode/we-review-the-16-stocks-pitched-at-the-sohn-hearts-minds-conference/",
+      "jump": null,
+      "at": "13:40"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2023-11-20",
+     "when": "November 2023",
+     "text": "In November 2023, a guest on Equity Mates said Lamb Weston’s share price had been beaten down by a poor harvest and Ozempic fears, and argued that better harvest volumes might lift margins, which they saw as a reason its valuation could change.",
+     "episode": {
+      "title": "We review the 16 stocks pitched at the Sohn Hearts & Minds conference",
+      "url": "https://equitymates.com/episode/we-review-the-16-stocks-pitched-at-the-sohn-hearts-minds-conference/",
+      "jump": null,
+      "at": "13:40"
+     }
+    }
+   ]
+  }
+ ]
+}

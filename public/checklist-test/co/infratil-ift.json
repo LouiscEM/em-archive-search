@@ -1,0 +1,58 @@
+{
+ "slug": "infratil-ift",
+ "name": "Infratil",
+ "full": "Infratil",
+ "listings": [
+  "ASX: IFT"
+ ],
+ "built": "2026-11-01",
+ "episodes": 2,
+ "mentioned_in": 3,
+ "latest": "2026-06-09",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2026-06-09",
+     "when": "June 2026",
+     "text": "In June 2026, Equity Mates noted Infratil had gone on to be a successful data centre company, highlighting its role operating data centres.",
+     "episode": {
+      "title": "A professional investor teaches me how to pick stocks | Jess Gets Investing",
+      "url": "https://equitymates.com/episode/a-professional-investor-teaches-me-how-to-pick-stocks-jess-gets-investing/",
+      "jump": "https://www.youtube.com/watch?v=rSjznmlBcu0&t=1355s",
+      "at": "22:35"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": []
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2026-04-16",
+     "when": "April 2026",
+     "text": "In April 2026, Equity Mates discussed that Infratil conducted several equity raises and share offers between 2022 and 2024, which existing investors could participate in.",
+     "episode": {
+      "title": "Crisis at Aston Martin, a new ETF pitch & Pimp my Portfolio with Luke Laretive",
+      "url": "https://equitymates.com/episode/crisis-at-aston-martin-a-new-etf-pitch-pimp-my-portfolio-with-luke-laretive/",
+      "jump": "https://www.youtube.com/watch?v=xyymJFM7HOU&t=1359s",
+      "at": "22:39"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

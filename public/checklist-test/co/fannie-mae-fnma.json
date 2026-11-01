@@ -1,0 +1,103 @@
+{
+ "slug": "fannie-mae-fnma",
+ "name": "Fannie Mae",
+ "full": "Fannie Mae",
+ "listings": [
+  "OTC: FNMA"
+ ],
+ "built": "2026-11-01",
+ "episodes": 3,
+ "mentioned_in": 4,
+ "latest": "2026-10-29",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2026-10-29",
+     "when": "October 2026",
+     "text": "In October 2026, a guest on Equity Mates described Fannie Mae and Freddie Mac as a duopoly and a royalty on the US mortgage market, outlining their role in mortgage finance while still in government conservatorship.",
+     "episode": {
+      "title": "Bill Ackman on building the next Berkshire, AI & his next 10-bagger",
+      "url": "https://equitymates.com/episode/bill-ackman-on-building-the-next-berkshire-ai-his-next-10-bagger/",
+      "jump": "https://www.youtube.com/watch?v=IN8ugYE4UmE&t=4010s",
+      "at": "1:06:50"
+     }
+    },
+    {
+     "date": "2024-08-06",
+     "when": "August 2024",
+     "text": "In August 2024, a guest on Equity Mates explained Fannie Mae and Freddie Mac proposed letting US homeowners take a second mortgage while keeping their original 30 year fixed rate, highlighting how their mortgage offering works.",
+     "episode": {
+      "title": "Expert: Chris Judd - The biggest change creates the biggest opportunities",
+      "url": "https://equitymates.com/episode/expert-chris-judd-the-biggest-change-creates-the-biggest-opportunities/",
+      "jump": "https://www.youtube.com/watch?v=KwDD2k-QuQQ&t=1414s",
+      "at": "23:34"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2026-10-29",
+     "when": "October 2026",
+     "text": "In October 2026, a guest on Equity Mates said Fannie Mae and Freddie Mac operated as a duopoly, suggesting durable profitability, and noted they had rebuilt capital during conservatorship.",
+     "episode": {
+      "title": "Bill Ackman on building the next Berkshire, AI & his next 10-bagger",
+      "url": "https://equitymates.com/episode/bill-ackman-on-building-the-next-berkshire-ai-his-next-10-bagger/",
+      "jump": "https://www.youtube.com/watch?v=IN8ugYE4UmE&t=4010s",
+      "at": "1:06:50"
+     }
+    },
+    {
+     "date": "2026-04-09",
+     "when": "April 2026",
+     "text": "In April 2026, Equity Mates noted Fannie Mae earned 14.5 billion last year and said uncertainty centred on government control rather than operating results.",
+     "episode": {
+      "title": "Property prices under pressure, 3 stocks buzzing on X & a “no-brainer” Community Portfolio pitch",
+      "url": "https://equitymates.com/episode/property-prices-under-pressure-3-stocks-buzzing-on-x-a-no-brainer-community-portfolio-pitch/",
+      "jump": "https://www.youtube.com/watch?v=z2NVa2iVr7M&t=890s",
+      "at": "14:50"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2026-10-29",
+     "when": "October 2026",
+     "text": "In October 2026, a guest on Equity Mates said the shares traded on the pink sheets at about one to one and a half times earnings, with possible relisting after resolving conservatorship issues.",
+     "episode": {
+      "title": "Bill Ackman on building the next Berkshire, AI & his next 10-bagger",
+      "url": "https://equitymates.com/episode/bill-ackman-on-building-the-next-berkshire-ai-his-next-10-bagger/",
+      "jump": "https://www.youtube.com/watch?v=IN8ugYE4UmE&t=4010s",
+      "at": "1:06:50"
+     }
+    },
+    {
+     "date": "2026-04-09",
+     "when": "April 2026",
+     "text": "In April 2026, Equity Mates covered comments on X describing Fannie Mae and Freddie Mac as stupidly cheap with potential to 10 times, which sparked intense interest.",
+     "episode": {
+      "title": "Property prices under pressure, 3 stocks buzzing on X & a “no-brainer” Community Portfolio pitch",
+      "url": "https://equitymates.com/episode/property-prices-under-pressure-3-stocks-buzzing-on-x-a-no-brainer-community-portfolio-pitch/",
+      "jump": "https://www.youtube.com/watch?v=z2NVa2iVr7M&t=817s",
+      "at": "13:37"
+     }
+    }
+   ]
+  }
+ ]
+}

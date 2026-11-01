@@ -1,0 +1,92 @@
+{
+ "slug": "brookdale-senior-living-bkd",
+ "name": "Brookdale Senior Living",
+ "full": "Brookdale Senior Living Inc",
+ "listings": [
+  "NYSE: BKD"
+ ],
+ "built": "2026-11-01",
+ "episodes": 2,
+ "mentioned_in": 2,
+ "latest": "2026-06-05",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2026-06-05",
+     "when": "June 2026",
+     "text": "In June 2026, Equity Mates described Brookdale as a senior living facility operator providing accommodation and extra care in residents’ final years, noting it was the third largest operator in the US amid a shortage of facilities.",
+     "episode": {
+      "title": "4 anti-hype anti-AI compounders, with Chloe Stokes and James Rodda",
+      "url": "https://equitymates.com/episode/4-anti-hype-anti-ai-compounders-with-chloe-stokes-and-james-rodda/",
+      "jump": "https://www.youtube.com/watch?v=75IdXtaF2YY&t=159s",
+      "at": "2:39"
+     }
+    },
+    {
+     "date": "2025-11-24",
+     "when": "November 2025",
+     "text": "In November 2025, Equity Mates said Brookdale was the largest provider of senior housing in the US and targeted the wealthiest 10% of seniors, with demand rising as America ages and industry bed supply shrank during COVID.",
+     "episode": {
+      "title": "Nvidia's wild swings & 11 experts pitched their best ideas for 2026, we review them",
+      "url": "https://equitymates.com/episode/nvidia-swings-big-the-hearts-minds-conference-delivers-and-we-draft-portfolio-picks/",
+      "jump": "https://www.youtube.com/watch?v=MBDUJS2VNsM&t=978s",
+      "at": "16:18"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2026-06-05",
+     "when": "June 2026",
+     "text": "In June 2026, Equity Mates argued a demand surge from baby boomers turning 80 and 85 would fill existing facilities and allow price rises, supporting better returns for Brookdale as a scaled US operator whose earnings had compounded 23.8% despite not yet being profitable.",
+     "episode": {
+      "title": "4 anti-hype anti-AI compounders, with Chloe Stokes and James Rodda",
+      "url": "https://equitymates.com/episode/4-anti-hype-anti-ai-compounders-with-chloe-stokes-and-james-rodda/",
+      "jump": "https://www.youtube.com/watch?v=75IdXtaF2YY&t=159s",
+      "at": "2:39"
+     }
+    },
+    {
+     "date": "2025-11-24",
+     "when": "November 2025",
+     "text": "In November 2025, a guest on Equity Mates said industry supply had fallen while demand was increasing, and Brookdale’s focus on affluent seniors plus higher occupancy could drive stronger economics for years.",
+     "episode": {
+      "title": "Nvidia's wild swings & 11 experts pitched their best ideas for 2026, we review them",
+      "url": "https://equitymates.com/episode/nvidia-swings-big-the-hearts-minds-conference-delivers-and-we-draft-portfolio-picks/",
+      "jump": "https://www.youtube.com/watch?v=MBDUJS2VNsM&t=978s",
+      "at": "16:18"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2026-06-05",
+     "when": "June 2026",
+     "text": "In June 2026, Equity Mates noted Brookdale’s share price rose 260% over three years while earnings compounded 23.8%, but it remained unprofitable, raising questions about what was already priced in.",
+     "episode": {
+      "title": "4 anti-hype anti-AI compounders, with Chloe Stokes and James Rodda",
+      "url": "https://equitymates.com/episode/4-anti-hype-anti-ai-compounders-with-chloe-stokes-and-james-rodda/",
+      "jump": "https://www.youtube.com/watch?v=75IdXtaF2YY&t=159s",
+      "at": "2:39"
+     }
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,136 @@
+{
+ "slug": "toyota-motor-tm",
+ "name": "Toyota Motor",
+ "full": "Toyota Motor",
+ "listings": [
+  "NYSE: TM"
+ ],
+ "built": "2026-10-30",
+ "episodes": 8,
+ "mentioned_in": 54,
+ "latest": "2026-09-28",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2025-09-11",
+     "when": "September 2025",
+     "text": "In September 2025, Equity Mates noted Toyota remained Australia’s top car seller with 21% market share, and said the Hilux featured among the best-selling individual models, showing strong brand preference.",
+     "episode": {
+      "title": "Keeping up with AI, your Superannuation options & Pimp my Portfolio with Luke Laretive",
+      "url": "https://equitymates.com/episode/keeping-up-with-ai-your-superannuation-options-pimp-my-portfolio-with-luke-laretive/",
+      "jump": "https://www.youtube.com/watch?v=UttZi7WnkVI&t=373s",
+      "at": "6:13"
+     }
+    },
+    {
+     "date": "2024-02-27",
+     "when": "February 2024",
+     "text": "In February 2024, Equity Mates discussed Toyota’s reputation as a trustworthy brand even amid reports about collecting driving data, highlighting perceived strength with customers.",
+     "episode": {
+      "title": "Buy or Sell: Adam Keily with Julian McCormack",
+      "url": "https://equitymates.com/episode/buy-or-sell-adam-keily-with-julian-mccormack/",
+      "jump": "https://www.youtube.com/watch?v=OatW5fbnfqk&t=802s",
+      "at": "13:22"
+     }
+    },
+    {
+     "date": "2022-07-15",
+     "when": "July 2022",
+     "text": "In July 2022, Equity Mates explained Toyota sold about 10.9 million cars a year globally, underscoring broad consumer demand compared to newer EV-focused players.",
+     "episode": {
+      "title": "Electric vehicle sales accelerate as the world passes the 'magic number'",
+      "url": "https://equitymates.com/episode/electric-vehicle-sales-accelerate-as-the-world-passes-the-magic-number/",
+      "jump": null,
+      "at": "10:47"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2026-01-27",
+     "when": "January 2026",
+     "text": "In January 2026, Equity Mates said Toyota’s massive production volume let it make cars at a cheaper per car rate, pointing to economies of scale.",
+     "episode": {
+      "title": "9. How to find a great company | 12 Steps to Get Started",
+      "url": "https://equitymates.com/episode/9-how-to-find-a-great-company-12-steps-to-get-started/",
+      "jump": "https://www.youtube.com/watch?v=mPEXqx9FRCw&t=850s",
+      "at": "14:10"
+     }
+    },
+    {
+     "date": "2026-01-08",
+     "when": "January 2026",
+     "text": "In January 2026, Equity Mates highlighted Toyota’s first in, first out approach and global distribution capabilities as very hard to beat, suggesting durable operational advantages.",
+     "episode": {
+      "title": "Essentials: The Fundamentals of Good Investing",
+      "url": "https://equitymates.com/episode/essentials-the-fundamentals-of-good-investing/",
+      "jump": "https://www.youtube.com/watch?v=2G3tlM_s8Zg&t=1255s",
+      "at": "20:55"
+     }
+    },
+    {
+     "date": "2024-06-17",
+     "when": "June 2024",
+     "text": "In June 2024, Equity Mates compared automaker margins, saying Toyota earned roughly a 6% net margin on about US$250 billion in annual car sales, illustrating scale and profitability in context of the sector.",
+     "episode": {
+      "title": "Tesla: \"It's on a path\" to grow 300% by 2030 | Company deep dive",
+      "url": "https://equitymates.com/episode/tesla-its-on-a-path-to-grow-300-by-2030-company-deep-dive/",
+      "jump": "https://www.youtube.com/watch?v=dCWARcFGDgs&t=1100s",
+      "at": "18:20"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2026-09-28",
+     "when": "September 2026",
+     "text": "In September 2026, Equity Mates reported Toyota announced multi billion dollar physical factory expansion, signalling substantial reinvestment in manufacturing capacity.",
+     "episode": {
+      "title": "OpenAI’s Medicare hack, First Home Super Saver Scheme explained & the Super App selloff",
+      "url": "https://equitymates.com/episode/openais-medicare-hack-first-home-super-saver-scheme-explained-the-super-app-selloff/",
+      "jump": "https://www.youtube.com/watch?v=zaHh1O3MFOE&t=493s",
+      "at": "8:13"
+     }
+    },
+    {
+     "date": "2026-07-23",
+     "when": "July 2026",
+     "text": "In July 2026, Equity Mates noted a commercial deal where Agility Robotics worked with Toyota Motor Manufacturing on RAV4 logistics, showing investment in automation to improve plant operations.",
+     "episode": {
+      "title": "AI & Robotics: From $300bn to $5.2 trillion in three years | The Decade Ahead",
+      "url": "https://equitymates.com/episode/ai-robotics-from-300bn-to-5-2-trillion-in-three-years-the-decade-ahead/",
+      "jump": "https://www.youtube.com/watch?v=7IRkRrOw1ho&t=1305s",
+      "at": "21:45"
+     }
+    },
+    {
+     "date": "2024-02-27",
+     "when": "February 2024",
+     "text": "In February 2024, a guest on Equity Mates said Toyota was getting serious about electrification and likely to roll out plug in hybrid models globally, adapting its lineup with lessons from BYD.",
+     "episode": {
+      "title": "Buy or Sell: Adam Keily with Julian McCormack",
+      "url": "https://equitymates.com/episode/buy-or-sell-adam-keily-with-julian-mccormack/",
+      "jump": "https://www.youtube.com/watch?v=OatW5fbnfqk&t=886s",
+      "at": "14:46"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

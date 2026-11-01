@@ -1,0 +1,46 @@
+{
+ "slug": "mitsubishi-8058",
+ "name": "Mitsubishi",
+ "full": "Mitsubishi",
+ "listings": [
+  "TYO: 8058"
+ ],
+ "built": "2026-11-01",
+ "episodes": 1,
+ "mentioned_in": 6,
+ "latest": "2025-02-27",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": []
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2025-02-27",
+     "when": "February 2025",
+     "text": "In February 2025, Equity Mates outlined Berkshire’s investment in Mitsubishi alongside other Japanese trading companies, describing them as conglomerates that own numerous operating businesses, and noted Berkshire’s admiration for their management style and rising ownership, suggesting confidence in durable business models.",
+     "episode": {
+      "title": "6 lessons from Buffett's annual letter, Pimp my Portfolio & Australia's quantum computing breakthrough",
+      "url": "https://equitymates.com/episode/6-lessons-from-buffetts-annual-letter-pimp-my-portfolio-australias-quantum-computing-breakthrough/",
+      "jump": "https://www.youtube.com/watch?v=ObagQznktgQ&t=2007s",
+      "at": "33:27"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

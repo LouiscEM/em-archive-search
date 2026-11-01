@@ -1,0 +1,160 @@
+{
+ "slug": "shopify-shop",
+ "name": "Shopify",
+ "full": "Shopify",
+ "listings": [
+  "NASDAQ: SHOP",
+  "NYSE: SHOP"
+ ],
+ "built": "2026-10-30",
+ "episodes": 6,
+ "mentioned_in": 68,
+ "latest": "2026-08-31",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2026-08-31",
+     "when": "August 2026",
+     "text": "In August 2026, Equity Mates described Shopify as the plug and play shopfront for the internet used by e-commerce retailers from small influencers to major brands, highlighting its broad adoption.",
+     "episode": {
+      "title": "Our Monthly Portfolio Update – August 2026",
+      "url": "https://equitymates.com/episode/our-monthly-portfolio-update-august-2026/",
+      "jump": "https://www.youtube.com/watch?v=tfdILPxFyrM&t=872s",
+      "at": "14:32"
+     }
+    },
+    {
+     "date": "2022-07-04",
+     "when": "July 2022",
+     "text": "In July 2022, Equity Mates outlined Shopify’s token-gated stores and NFT minting for its 1.7 million merchants, presenting new crypto features that helped brands offer exclusive merchandise and experiences.",
+     "episode": {
+      "title": "37: Uh-oh…More Platforms in Trouble. Will Goldman Sachs or FTX Save the Day?",
+      "url": "https://equitymates.com/episode/37-uh-ohmore-platforms-in-trouble-will-goldman-sachs-or-ftx-save-the-day/",
+      "jump": null,
+      "at": "15:26"
+     }
+    },
+    {
+     "date": "2021-04-07",
+     "when": "April 2021",
+     "text": "In April 2021, a guest on Equity Mates said they built an online shop in two days using Shopify and called it a powerful tool, noting over 1.7 million stores and major brands using the platform.",
+     "episode": {
+      "title": "Expert Investor: Angie Ellis - 8020 Invest",
+      "url": "https://equitymates.com/episode/expert-investor-angie-ellis-8020-invest/",
+      "jump": null,
+      "at": "44:00"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2026-08-31",
+     "when": "August 2026",
+     "text": "In August 2026, Equity Mates argued the AI-driven SaaS selloff looked overblown and considered Shopify less at risk than several peers, reflecting confidence in its role powering online stores.",
+     "episode": {
+      "title": "Our Monthly Portfolio Update – August 2026",
+      "url": "https://equitymates.com/episode/our-monthly-portfolio-update-august-2026/",
+      "jump": "https://www.youtube.com/watch?v=tfdILPxFyrM&t=1165s",
+      "at": "19:25"
+     }
+    },
+    {
+     "date": "2022-08-01",
+     "when": "August 2022",
+     "text": "In August 2022, Equity Mates cautioned that relying on many unprofitable e-commerce customers made Shopify’s customer base unstable in an e-commerce winter, highlighting a risk to maintaining strong performance.",
+     "episode": {
+      "title": "Earnings season continues as we unpack a few companies that caught our eye",
+      "url": "https://equitymates.com/episode/unknown-companies-that-caught-our-eye/",
+      "jump": "https://www.youtube.com/watch?v=wTpPFfYjJis&t=453s",
+      "at": "7:33"
+     }
+    },
+    {
+     "date": "2022-02-28",
+     "when": "February 2022",
+     "text": "In February 2022, Equity Mates noted Shopify’s revenue nearly tripled since 2019, its merchant base nearly doubled and Shopify Plus exceeded 14,000 merchants, suggesting scale that could support enduring strength.",
+     "episode": {
+      "title": "Can you hear their fear? CEOs of growth stocks down more than 40% | Quartr Reporting Season",
+      "url": "https://equitymates.com/episode/can-you-hear-their-fear-ceos-of-growth-stocks-down-more-than-40-quartr-reporting-season/",
+      "jump": null,
+      "at": "41:22"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2023-09-11",
+     "when": "September 2023",
+     "text": "In September 2023, Equity Mates highlighted Shopify investing $100 million in Klaviyo in August 2022 despite market turmoil, framing it as a long-term product and partner bet during a difficult period.",
+     "episode": {
+      "title": "What next for QANTAS, Andrew Page on Reporting Season & the ESG debate continues",
+      "url": "https://equitymates.com/episode/what-next-for-qantas-andrew-page-on-reporting-season-the-esg-debate-continues/",
+      "jump": null,
+      "at": "15:02"
+     }
+    },
+    {
+     "date": "2022-08-01",
+     "when": "August 2022",
+     "text": "In August 2022, Equity Mates reported Shopify cut 10% of its workforce and reminded that revenue sources matter, indicating cost discipline as e-commerce demand cooled.",
+     "episode": {
+      "title": "Earnings season continues as we unpack a few companies that caught our eye",
+      "url": "https://equitymates.com/episode/unknown-companies-that-caught-our-eye/",
+      "jump": "https://www.youtube.com/watch?v=wTpPFfYjJis&t=453s",
+      "at": "7:33"
+     }
+    },
+    {
+     "date": "2022-07-04",
+     "when": "July 2022",
+     "text": "In July 2022, Equity Mates said Shopify rolled out token-gated stores and NFT minting across Ethereum, Polygon, Solana and Flow, reinvesting in features to attract creators and strengthen merchant engagement.",
+     "episode": {
+      "title": "37: Uh-oh…More Platforms in Trouble. Will Goldman Sachs or FTX Save the Day?",
+      "url": "https://equitymates.com/episode/37-uh-ohmore-platforms-in-trouble-will-goldman-sachs-or-ftx-save-the-day/",
+      "jump": null,
+      "at": "15:26"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2026-08-31",
+     "when": "August 2026",
+     "text": "In August 2026, Equity Mates noted Shopify traded at about 100 times trailing P/E, which looked expensive and required assuming serious growth.",
+     "episode": {
+      "title": "Our Monthly Portfolio Update – August 2026",
+      "url": "https://equitymates.com/episode/our-monthly-portfolio-update-august-2026/",
+      "jump": "https://www.youtube.com/watch?v=tfdILPxFyrM&t=1130s",
+      "at": "18:50"
+     }
+    },
+    {
+     "date": "2022-02-28",
+     "when": "February 2022",
+     "text": "In February 2022, Equity Mates said that even strong companies can be priced too highly and pointed to Shopify as having reached very elevated valuations in the prior couple of years.",
+     "episode": {
+      "title": "Can you hear their fear? CEOs of growth stocks down more than 40% | Quartr Reporting Season",
+      "url": "https://equitymates.com/episode/can-you-hear-their-fear-ceos-of-growth-stocks-down-more-than-40-quartr-reporting-season/",
+      "jump": null,
+      "at": "44:07"
+     }
+    }
+   ]
+  }
+ ]
+}

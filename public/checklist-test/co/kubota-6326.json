@@ -1,0 +1,70 @@
+{
+ "slug": "kubota-6326",
+ "name": "Kubota",
+ "full": "Kubota",
+ "listings": [
+  "TSE: 6326"
+ ],
+ "built": "2026-11-01",
+ "episodes": 1,
+ "mentioned_in": 1,
+ "latest": "2026-08-03",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2026-08-03",
+     "when": "August 2026",
+     "text": "In August 2026, Equity Mates described Kubota as Japan’s largest farm machinery maker and a global leader in compact tractors, popular with homesteaders and hobby farmers, and noted its strong presence in rice farming equipment across Asia.",
+     "episode": {
+      "title": "Agriculture: Robots, Drones and the Future of Food | The Decade Ahead",
+      "url": "https://equitymates.com/episode/agriculture-robots-drones-and-the-future-of-food/",
+      "jump": "https://www.youtube.com/watch?v=OEzPbs9ZFr0&t=1619s",
+      "at": "26:59"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2026-08-03",
+     "when": "August 2026",
+     "text": "In August 2026, Equity Mates said Kubota dominated globally in smaller, compact tractors and was Japan’s largest farm machinery manufacturer, pointing to a strong competitive position in its core niches.",
+     "episode": {
+      "title": "Agriculture: Robots, Drones and the Future of Food | The Decade Ahead",
+      "url": "https://equitymates.com/episode/agriculture-robots-drones-and-the-future-of-food/",
+      "jump": "https://www.youtube.com/watch?v=OEzPbs9ZFr0&t=1619s",
+      "at": "26:59"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2026-08-03",
+     "when": "August 2026",
+     "text": "In August 2026, Equity Mates said Kubota was pushing into autonomous and AI-driven technologies, including a driverless rice and wheat combine and a transformer-style multi-task farm robot, indicating active investment in innovation.",
+     "episode": {
+      "title": "Agriculture: Robots, Drones and the Future of Food | The Decade Ahead",
+      "url": "https://equitymates.com/episode/agriculture-robots-drones-and-the-future-of-food/",
+      "jump": "https://www.youtube.com/watch?v=OEzPbs9ZFr0&t=1619s",
+      "at": "26:59"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

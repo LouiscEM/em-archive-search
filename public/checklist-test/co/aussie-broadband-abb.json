@@ -1,0 +1,82 @@
+{
+ "slug": "aussie-broadband-abb",
+ "name": "Aussie Broadband",
+ "full": "Aussie Broadband",
+ "listings": [
+  "ASX: ABB"
+ ],
+ "built": "2026-11-01",
+ "episodes": 2,
+ "mentioned_in": 4,
+ "latest": "2026-10-30",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2023-02-10",
+     "when": "February 2023",
+     "text": "In February 2023, Equity Mates described Aussie Broadband as a major NBN player gaining market share, offering bundled residential and business services. It said revenue was about 81% residential and 12% business, with around 300,000 services and add‑ons like mobile and entertainment.",
+     "episode": {
+      "title": "23 Stocks for 2023 | Car Sales, Aussie Broadband and PayPal! Pt III",
+      "url": "https://equitymates.com/episode/23-stocks-for-2023-car-sales-aussie-broadband-and-paypal-pt-iii/",
+      "jump": null,
+      "at": "5:32"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2023-02-10",
+     "when": "February 2023",
+     "text": "In February 2023, Equity Mates said structural tailwinds supported long‑term demand, noting data was expected to double globally every four years and trends like connected devices, cloud and 5G, while highlighting Telstra as a key competitor.",
+     "episode": {
+      "title": "23 Stocks for 2023 | Car Sales, Aussie Broadband and PayPal! Pt III",
+      "url": "https://equitymates.com/episode/23-stocks-for-2023-car-sales-aussie-broadband-and-paypal-pt-iii/",
+      "jump": null,
+      "at": "5:32"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2026-10-30",
+     "when": "October 2026",
+     "text": "In October 2026, Equity Mates noted Aussie Broadband had made plenty of acquisitions itself, framing it in a discussion about industry M&A and whether the company could also become a takeover target.",
+     "episode": {
+      "title": "Could these dogs become the ASX’s next takeover targets?",
+      "url": "https://equitymates.com/episode/could-these-dogs-become-the-asxs-next-takeover-targets/",
+      "jump": "https://www.youtube.com/watch?v=d4pacdXpQ4E&t=362s",
+      "at": "6:02"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2026-10-30",
+     "when": "October 2026",
+     "text": "In October 2026, Equity Mates discussed valuation context by noting the share price was down 19% year to date and debated whether Aussie Broadband might be an M&A target.",
+     "episode": {
+      "title": "Could these dogs become the ASX’s next takeover targets?",
+      "url": "https://equitymates.com/episode/could-these-dogs-become-the-asxs-next-takeover-targets/",
+      "jump": "https://www.youtube.com/watch?v=d4pacdXpQ4E&t=362s",
+      "at": "6:02"
+     }
+    }
+   ]
+  }
+ ]
+}

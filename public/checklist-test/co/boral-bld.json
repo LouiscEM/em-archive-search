@@ -1,0 +1,80 @@
+{
+ "slug": "boral-bld",
+ "name": "Boral",
+ "full": "Boral",
+ "listings": [
+  "ASX: BLD"
+ ],
+ "built": "2026-10-30",
+ "episodes": 3,
+ "mentioned_in": 10,
+ "latest": "2024-04-12",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2022-08-26",
+     "when": "August 2022",
+     "text": "In August 2022, a guest on Equity Mates explained Adbri runs Sunstate in Queensland as a joint venture with Boral, highlighting Boral’s role in cement and concrete through that partnership.",
+     "episode": {
+      "title": "Cement's sustainability challenge - Theresa Mlikota, CFO of Adbri | ASX CEO Connect Series",
+      "url": "https://equitymates.com/episode/cements-sustainability-challenge-theresa-milkota-cfo-of-adbri-asx-ceo-connect-series/",
+      "jump": null,
+      "at": "2:10"
+     }
+    },
+    {
+     "date": "2021-09-09",
+     "when": "September 2021",
+     "text": "In September 2021, Equity Mates noted Boral makes building materials like concrete and cement, and said it had just launched a sustainability strategy about “building a better future” in a carbon‑intensive sector.",
+     "episode": {
+      "title": "CEO: Zlatko Todorcevski - Turning Boral Around Amidst Seven Group's Takeover | Boral (ASX: BLD)",
+      "url": "https://equitymates.com/episode/ceo-zlatko-todorcevski-turning-boral-around-amidst-seven-groups-takeover-boral-asx-bld/",
+      "jump": null,
+      "at": "19:09"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2024-04-12",
+     "when": "April 2024",
+     "text": "In April 2024, a guest on Equity Mates said Boral’s earnings had exceeded many expectations after the Seven Group deal, pointing to better-than-anticipated operating performance.",
+     "episode": {
+      "title": "Expert: Joe Wright - Three ways to invest in resources | Airlie Funds Management",
+      "url": "https://equitymates.com/episode/expert-joe-wright-three-ways-to-invest-in-resources-airlie-funds-management/",
+      "jump": "https://www.youtube.com/watch?v=hCQA1gZfZsI&t=1873s",
+      "at": "31:13"
+     }
+    },
+    {
+     "date": "2021-09-09",
+     "when": "September 2021",
+     "text": "In September 2021, Equity Mates recapped that Boral had six profit downgrades in two years and said the incoming CEO believed the company had strong assets but underperformed, beginning a listening tour to drive a turnaround.",
+     "episode": {
+      "title": "CEO: Zlatko Todorcevski - Turning Boral Around Amidst Seven Group's Takeover | Boral (ASX: BLD)",
+      "url": "https://equitymates.com/episode/ceo-zlatko-todorcevski-turning-boral-around-amidst-seven-groups-takeover-boral-asx-bld/",
+      "jump": null,
+      "at": "4:37"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

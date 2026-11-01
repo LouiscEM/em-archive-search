@@ -1,0 +1,46 @@
+{
+ "slug": "cognex-cgnx",
+ "name": "Cognex",
+ "full": "Cognex",
+ "listings": [
+  "NASDAQ: CGNX"
+ ],
+ "built": "2026-11-01",
+ "episodes": 1,
+ "mentioned_in": 1,
+ "latest": "2023-04-21",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2023-04-21",
+     "when": "April 2023",
+     "text": "In April 2023, a guest on Equity Mates said Cognex provided vision products used for sensing that enable automation, grouping it with companies that supply parts such as sensing software and actuation rather than application makers.",
+     "episode": {
+      "title": "Under the Hood | What index are you tracking? And how is it made?",
+      "url": "https://equitymates.com/episode/under-the-hood-what-index-are-you-tracking-and-how-is-it-made/",
+      "jump": null,
+      "at": "22:33"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": []
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

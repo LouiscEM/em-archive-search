@@ -1,0 +1,69 @@
+{
+ "slug": "entain-ent",
+ "name": "Entain",
+ "full": "Entain",
+ "listings": [
+  "LSE: ENT"
+ ],
+ "built": "2026-11-01",
+ "episodes": 2,
+ "mentioned_in": 2,
+ "latest": "2024-04-25",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2024-04-25",
+     "when": "April 2024",
+     "text": "In April 2024, Equity Mates noted Entain’s involvement in BetMGM in the US, where BetMGM held 10% market share, showing exposure to a major US online sportsbook.",
+     "episode": {
+      "title": "Industry Deep Dive: Sports Betting - 5 years after legalisation in the US, who is winning?",
+      "url": "https://equitymates.com/episode/industry-deep-dive-sports-betting-5-years-after-legalisation-in-the-us-who-is-winning/",
+      "jump": "https://www.youtube.com/watch?v=bNNS3IW8kYQ&t=1027s",
+      "at": "17:07"
+     }
+    },
+    {
+     "date": "2022-08-29",
+     "when": "August 2022",
+     "text": "In August 2022, Equity Mates outlined Entain’s portfolio of betting brands, including bwin, Coral, Ladbrokes, PartyPoker and Sportingbet, highlighting its breadth across the UK and Europe.",
+     "episode": {
+      "title": "Disney is getting into sports betting + Earnings wrap",
+      "url": "https://equitymates.com/episode/disney-is-getting-into-sports-betting-earnings-wrap/",
+      "jump": "https://www.youtube.com/watch?v=z1dcF7VKMsM&t=1640s",
+      "at": "27:20"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2024-04-25",
+     "when": "April 2024",
+     "text": "In April 2024, Equity Mates said profits in US sports betting were concentrating among a few leaders and cited Entain as one of two London-listed standouts in the space.",
+     "episode": {
+      "title": "Industry Deep Dive: Sports Betting - 5 years after legalisation in the US, who is winning?",
+      "url": "https://equitymates.com/episode/industry-deep-dive-sports-betting-5-years-after-legalisation-in-the-us-who-is-winning/",
+      "jump": "https://www.youtube.com/watch?v=bNNS3IW8kYQ&t=1496s",
+      "at": "24:56"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

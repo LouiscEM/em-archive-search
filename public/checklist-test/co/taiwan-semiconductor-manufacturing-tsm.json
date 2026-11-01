@@ -1,0 +1,161 @@
+{
+ "slug": "taiwan-semiconductor-manufacturing-tsm",
+ "name": "Taiwan Semiconductor Manufacturing",
+ "full": "Taiwan Semiconductor Manufacturing Company",
+ "listings": [
+  "NYSE: TSM",
+  "NYSE: TSMC",
+  "TPE: 2330"
+ ],
+ "built": "2026-10-30",
+ "episodes": 7,
+ "mentioned_in": 76,
+ "latest": "2026-10-22",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2026-05-04",
+     "when": "May 2026",
+     "text": "In May 2026, Equity Mates explained TSMC made the most advanced semiconductors and that designers like Nvidia relied on it to manufacture their chips, describing TSMC as the leader ahead of Samsung and Intel.",
+     "episode": {
+      "title": "Our Monthly Portfolio Update - April 2026",
+      "url": "https://equitymates.com/episode/our-monthly-portfolio-update-april-2026/",
+      "jump": "https://www.youtube.com/watch?v=Luk3B3045sc&t=1081s",
+      "at": "18:01"
+     }
+    },
+    {
+     "date": "2025-02-07",
+     "when": "February 2025",
+     "text": "In February 2025, a guest on Equity Mates described TSMC as a global foundry that was best in market and a virtual monopoly in leading edge chips, noting the MAG seven were all customers.",
+     "episode": {
+      "title": "Expert: Elisa Di Marco - 3 trends that will define the next decade",
+      "url": "https://equitymates.com/episode/expert-elisa-di-marco-3-trends-that-will-define-the-next-decade/",
+      "jump": "https://www.youtube.com/watch?v=bz6CKtADquY&t=1422s",
+      "at": "23:42"
+     }
+    },
+    {
+     "date": "2021-09-13",
+     "when": "September 2021",
+     "text": "In September 2021, a guest on Equity Mates said TSMC produced the most sophisticated chips and was number one in capabilities, with Samsung behind it.",
+     "episode": {
+      "title": "Expert: Are Semiconductors the Picks & Shovels Play for the Tech Industry | ETF Securities",
+      "url": "https://equitymates.com/episode/expert-are-semiconductors-the-picks-shovels-play-for-the-tech-industry-etf-securities/",
+      "jump": null,
+      "at": "16:35"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2026-10-22",
+     "when": "October 2026",
+     "text": "In October 2026, Equity Mates highlighted TSMC’s sixth consecutive quarter of record profit, with revenue up 41% year on year to 46.7 billion US dollars, profit up 69% to 23.9 billion, and a 51% profit margin.",
+     "episode": {
+      "title": "Tesla’s flying car, the AI boom’s biggest question & how to survive a market crash",
+      "url": "https://equitymates.com/episode/teslas-flying-car-the-ai-booms-biggest-question-how-to-survive-a-market-crash/",
+      "jump": "https://www.youtube.com/watch?v=BYOi9edWe-A&t=728s",
+      "at": "12:08"
+     }
+    },
+    {
+     "date": "2026-05-04",
+     "when": "May 2026",
+     "text": "In May 2026, Equity Mates described TSMC as a choke point in semiconductors, with foundries that take tens of billions of dollars and a long time to build, while noting 61% of quarterly revenue came from high performance computing.",
+     "episode": {
+      "title": "Our Monthly Portfolio Update - April 2026",
+      "url": "https://equitymates.com/episode/our-monthly-portfolio-update-april-2026/",
+      "jump": "https://www.youtube.com/watch?v=Luk3B3045sc&t=1185s",
+      "at": "19:45"
+     }
+    },
+    {
+     "date": "2025-11-14",
+     "when": "November 2025",
+     "text": "In November 2025, a guest on Equity Mates said TSMC was the only company able to manufacture leading edge chips for major designers, arguing it benefited as global compute demand rose and underscoring its moat.",
+     "episode": {
+      "title": "The case for and against an AI bubble - Alan Pullen | Magellan",
+      "url": "https://equitymates.com/episode/the-case-for-and-against-an-ai-bubble-alan-pullen-magellan/",
+      "jump": "https://www.youtube.com/watch?v=HZQ2BmkM0V0&t=1475s",
+      "at": "24:35"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2026-05-04",
+     "when": "May 2026",
+     "text": "In May 2026, Equity Mates said tech companies were pushing TSMC to build more foundries that take tens of billions of dollars and a long time to construct, and that TSMC was methodically expanding rather than overbuilding.",
+     "episode": {
+      "title": "Our Monthly Portfolio Update - April 2026",
+      "url": "https://equitymates.com/episode/our-monthly-portfolio-update-april-2026/",
+      "jump": "https://www.youtube.com/watch?v=Luk3B3045sc&t=1185s",
+      "at": "19:45"
+     }
+    },
+    {
+     "date": "2026-04-10",
+     "when": "April 2026",
+     "text": "In April 2026, a guest on Equity Mates noted TSMC discussed billions of dollars of CapEx alongside producing some of the highest priced products in the world.",
+     "episode": {
+      "title": "Finding opportunities in well-known names with Ryan Joyce",
+      "url": "https://equitymates.com/episode/finding-opportunities-in-well-known-names-with-ryan-joyce/",
+      "jump": "https://www.youtube.com/watch?v=qNiwsfvSELk&t=1516s",
+      "at": "25:16"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2026-09-04",
+     "when": "September 2026",
+     "text": "In September 2026, a guest on Equity Mates argued TSMC was best in class and was not trading expensive, while cautioning that hyperscalers slowing chip purchases would be a risk.",
+     "episode": {
+      "title": "Is one of the world’s best AI stocks cheap? Two experts can’t agree",
+      "url": "https://equitymates.com/episode/is-one-of-the-worlds-best-ai-stocks-cheap-two-experts-cant-agree/",
+      "jump": "https://www.youtube.com/watch?v=aGroZv01EKM&t=811s",
+      "at": "13:31"
+     }
+    },
+    {
+     "date": "2026-05-04",
+     "when": "May 2026",
+     "text": "In May 2026, Equity Mates stated TSMC traded at 29 times earnings, alongside reporting 35.9 billion US dollars of revenue up about 41% year on year.",
+     "episode": {
+      "title": "Our Monthly Portfolio Update - April 2026",
+      "url": "https://equitymates.com/episode/our-monthly-portfolio-update-april-2026/",
+      "jump": "https://www.youtube.com/watch?v=Luk3B3045sc&t=1185s",
+      "at": "19:45"
+     }
+    },
+    {
+     "date": "2025-11-14",
+     "when": "November 2025",
+     "text": "In November 2025, a guest on Equity Mates described TSMC as a high quality company that was not overly valued or dirt cheap, presenting an AI exposure within semiconductors.",
+     "episode": {
+      "title": "The case for and against an AI bubble - Alan Pullen | Magellan",
+      "url": "https://equitymates.com/episode/the-case-for-and-against-an-ai-bubble-alan-pullen-magellan/",
+      "jump": "https://www.youtube.com/watch?v=HZQ2BmkM0V0&t=1837s",
+      "at": "30:37"
+     }
+    }
+   ]
+  }
+ ]
+}

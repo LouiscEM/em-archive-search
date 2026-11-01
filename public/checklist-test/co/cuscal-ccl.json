@@ -1,0 +1,70 @@
+{
+ "slug": "cuscal-ccl",
+ "name": "Cuscal",
+ "full": "Cuscal",
+ "listings": [
+  "ASX: CCL"
+ ],
+ "built": "2026-11-01",
+ "episodes": 1,
+ "mentioned_in": 1,
+ "latest": "2026-04-24",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2026-04-24",
+     "when": "April 2026",
+     "text": "In April 2026, a guest on Equity Mates described Cuscal as a digital payments infrastructure business that clips a ticket on every digital transaction and was among the largest providers outside the big four banks, originating from credit unions and regional banks.",
+     "episode": {
+      "title": "5 set and forget stocks with Jun Bei Liu and Anthony Aboud",
+      "url": "https://equitymates.com/episode/5-set-and-forget-stocks-with-jun-bei-liu-and-anthony-aboud/",
+      "jump": "https://www.youtube.com/watch?v=Wtl9kwKpjFo&t=557s",
+      "at": "9:17"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2026-04-24",
+     "when": "April 2026",
+     "text": "In April 2026, a guest on Equity Mates said the government planned to reduce transaction costs and ongoing shifts to digital payments positioned Cuscal for double digit growth, with at least 20 percent expected over the next few years.",
+     "episode": {
+      "title": "5 set and forget stocks with Jun Bei Liu and Anthony Aboud",
+      "url": "https://equitymates.com/episode/5-set-and-forget-stocks-with-jun-bei-liu-and-anthony-aboud/",
+      "jump": "https://www.youtube.com/watch?v=Wtl9kwKpjFo&t=557s",
+      "at": "9:17"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2026-04-24",
+     "when": "April 2026",
+     "text": "In April 2026, a guest on Equity Mates noted growth came from rising digital payment use and mentioned acquisitions alongside organic expansion.",
+     "episode": {
+      "title": "5 set and forget stocks with Jun Bei Liu and Anthony Aboud",
+      "url": "https://equitymates.com/episode/5-set-and-forget-stocks-with-jun-bei-liu-and-anthony-aboud/",
+      "jump": "https://www.youtube.com/watch?v=Wtl9kwKpjFo&t=557s",
+      "at": "9:17"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

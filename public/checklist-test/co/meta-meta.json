@@ -1,0 +1,125 @@
+{
+ "slug": "meta-meta",
+ "name": "META",
+ "full": "Meta Platforms",
+ "listings": [
+  "NASDAQ: META"
+ ],
+ "built": "2026-10-30",
+ "episodes": 4,
+ "mentioned_in": 710,
+ "latest": "2026-06-29",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2026-06-29",
+     "when": "June 2026",
+     "text": "In June 2026, Equity Mates said Meta was unique in using its market power and 3.5 billion users to copy rival features and overwhelm competitors.",
+     "episode": {
+      "title": "Meta copies another product, we’re beating the market & the chase for Warren Buffett continues",
+      "url": "https://equitymates.com/episode/meta-copies-another-product-were-beating-the-market-the-chase-for-warren-buffett-continues/",
+      "jump": null,
+      "at": "2:28"
+     }
+    },
+    {
+     "date": "2023-05-01",
+     "when": "May 2023",
+     "text": "In May 2023, Equity Mates noted Meta’s Quest 2 headset surpassed Microsoft Xbox Series X and S lifetime sales and was closing in on PlayStation 5, showing real traction.",
+     "episode": {
+      "title": "What ever happened to the Metaverse?",
+      "url": "https://equitymates.com/episode/what-ever-happened-to-the-metaverse/",
+      "jump": null,
+      "at": "11:39"
+     }
+    },
+    {
+     "date": "2022-06-06",
+     "when": "June 2022",
+     "text": "In June 2022, Equity Mates explained Meta’s advertising platform turned Facebook into a profitable business by 2010 and underpinned its 2012 IPO, showing strong product-market fit for advertisers.",
+     "episode": {
+      "title": "Leaning Out: Sheryl Sandberg logs off Facebook",
+      "url": "https://equitymates.com/episode/leaning-out-sheryl-sandberg-logs-off-facebook/",
+      "jump": null,
+      "at": "2:38"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2026-06-29",
+     "when": "June 2026",
+     "text": "In June 2026, Equity Mates argued Meta’s ability to leverage its 3.5 billion users to replicate competitors’ products gave it unusual power to defend profits.",
+     "episode": {
+      "title": "Meta copies another product, we’re beating the market & the chase for Warren Buffett continues",
+      "url": "https://equitymates.com/episode/meta-copies-another-product-were-beating-the-market-the-chase-for-warren-buffett-continues/",
+      "jump": null,
+      "at": "2:28"
+     }
+    },
+    {
+     "date": "2021-10-04",
+     "when": "October 2021",
+     "text": "In October 2021, Equity Mates highlighted Facebook and Google’s digital ad share falling from about 60 percent in 2019 to the low 50s as Amazon’s advertising business grew rapidly.",
+     "episode": {
+      "title": "Carbon capture, Google & Facebooks ad duopoly and where are Bryce and Alec investing?",
+      "url": "https://equitymates.com/episode/carbon-capture-google-facebooks-ad-duopoly-and-where-are-bryce-and-alec-investing/",
+      "jump": null,
+      "at": "21:13"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2026-06-29",
+     "when": "June 2026",
+     "text": "In June 2026, Equity Mates described Meta’s habit of launching copycat products and said its balance sheet and highly profitable core let it keep funding new bets.",
+     "episode": {
+      "title": "Meta copies another product, we’re beating the market & the chase for Warren Buffett continues",
+      "url": "https://equitymates.com/episode/meta-copies-another-product-were-beating-the-market-the-chase-for-warren-buffett-continues/",
+      "jump": null,
+      "at": "3:48"
+     }
+    },
+    {
+     "date": "2023-05-01",
+     "when": "May 2023",
+     "text": "In May 2023, Equity Mates reported Meta had spent about $36 billion on the metaverse since 2019 and planned to hire 10,000 people in Europe, signalling heavy reinvestment.",
+     "episode": {
+      "title": "What ever happened to the Metaverse?",
+      "url": "https://equitymates.com/episode/what-ever-happened-to-the-metaverse/",
+      "jump": null,
+      "at": "4:49"
+     }
+    },
+    {
+     "date": "2022-06-06",
+     "when": "June 2022",
+     "text": "In June 2022, Equity Mates said Meta’s pivot toward metaverse hardware marked a shift in capital allocation as its ads engine faced privacy changes and a maturing era.",
+     "episode": {
+      "title": "Leaning Out: Sheryl Sandberg logs off Facebook",
+      "url": "https://equitymates.com/episode/leaning-out-sheryl-sandberg-logs-off-facebook/",
+      "jump": null,
+      "at": "12:50"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

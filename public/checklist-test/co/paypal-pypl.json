@@ -1,0 +1,159 @@
+{
+ "slug": "paypal-pypl",
+ "name": "PayPal",
+ "full": "PayPal",
+ "listings": [
+  "NASDAQ: PYPL"
+ ],
+ "built": "2026-10-30",
+ "episodes": 6,
+ "mentioned_in": 102,
+ "latest": "2026-10-27",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2022-11-28",
+     "when": "November 2022",
+     "text": "In November 2022, Equity Mates praised PayPal’s product experience after easily stopping an unwanted subscription by halting auto payments in the app, contrasting it with banks that required harder processes to cancel direct debits.",
+     "episode": {
+      "title": "12 stocks for the next 12 months",
+      "url": "https://equitymates.com/episode/12-stocks-for-the-next-12-months/",
+      "jump": "https://www.youtube.com/watch?v=f7myeVH9q3Y&t=339s",
+      "at": "5:39"
+     }
+    },
+    {
+     "date": "2022-02-28",
+     "when": "February 2022",
+     "text": "In February 2022, Equity Mates highlighted PayPal’s scale, citing 5.3 billion transactions in a quarter and 426 million accounts, to show it operated a large, real internet‑native payments platform.",
+     "episode": {
+      "title": "Can you hear their fear? CEOs of growth stocks down more than 40% | Quartr Reporting Season",
+      "url": "https://equitymates.com/episode/can-you-hear-their-fear-ceos-of-growth-stocks-down-more-than-40-quartr-reporting-season/",
+      "jump": null,
+      "at": "49:35"
+     }
+    },
+    {
+     "date": "2021-12-03",
+     "when": "December 2021",
+     "text": "In December 2021, Equity Mates described PayPal as a two‑sided digital and mobile payments network that charged transaction fees and earned interest, noting 33 million merchants and 383 million customers across 200 markets.",
+     "episode": {
+      "title": "Our Order Pad | CrowdStrike (CRWD:NAS) & PayPal (PYPL:NAS)",
+      "url": "https://equitymates.com/episode/our-order-pad-crowdstrike-crwdnas-paypal-pyplnas/",
+      "jump": null,
+      "at": "14:20"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2026-10-27",
+     "when": "October 2026",
+     "text": "In October 2026, a guest on Equity Mates said PayPal remained a decent payment system but its key niches were declining with shifts in online retail, and there were too many question marks, including AI risks, to view it as a durable franchise.",
+     "episode": {
+      "title": "Searching for predictability in an unpredictable market with Warryn Robertson",
+      "url": "https://equitymates.com/episode/searching-for-predictability-in-an-unpredictable-market-with-warryn-robertson/",
+      "jump": "https://www.youtube.com/watch?v=Ha0_OjMbYsU&t=2200s",
+      "at": "36:40"
+     }
+    },
+    {
+     "date": "2023-02-10",
+     "when": "February 2023",
+     "text": "In February 2023, Equity Mates said a new partnership with Apple integrated Apple Pay into PayPal checkout and added PayPal and Venmo cards to Apple Wallet, arguing it could help safeguard competitive advantage while expanding reach.",
+     "episode": {
+      "title": "23 Stocks for 2023 | Car Sales, Aussie Broadband and PayPal! Pt III",
+      "url": "https://equitymates.com/episode/23-stocks-for-2023-car-sales-aussie-broadband-and-paypal-pt-iii/",
+      "jump": null,
+      "at": "22:46"
+     }
+    },
+    {
+     "date": "2022-03-17",
+     "when": "March 2022",
+     "text": "In March 2022, a guest on Equity Mates noted PayPal had lost focus and missed new account targets but still had a strong opportunity to monetise 426 million active accounts, including 34 million merchants, supported by its first‑mover position.",
+     "episode": {
+      "title": "Expert: Tim Samway - How a growth fund manager is reacting to markets",
+      "url": "https://equitymates.com/episode/expert-tim-samway-how-a-growth-fund-manager-is-reacting-to-markets/",
+      "jump": "https://www.youtube.com/watch?v=NuLEd4JVf1k&t=1196s",
+      "at": "19:56"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2023-02-10",
+     "when": "February 2023",
+     "text": "In February 2023, Equity Mates highlighted PayPal’s partnership with Apple, enabling tap‑to‑pay for merchants and Apple Wallet integration for PayPal and Venmo cards, as a strategic move to extend distribution.",
+     "episode": {
+      "title": "23 Stocks for 2023 | Car Sales, Aussie Broadband and PayPal! Pt III",
+      "url": "https://equitymates.com/episode/23-stocks-for-2023-car-sales-aussie-broadband-and-paypal-pt-iii/",
+      "jump": null,
+      "at": "22:46"
+     }
+    },
+    {
+     "date": "2021-12-03",
+     "when": "December 2021",
+     "text": "In December 2021, Equity Mates said PayPal had a history of reinvesting via M&A, acquiring competitors and expanding products like PayPal Credit and its payment gateway to drive growth.",
+     "episode": {
+      "title": "Our Order Pad | CrowdStrike (CRWD:NAS) & PayPal (PYPL:NAS)",
+      "url": "https://equitymates.com/episode/our-order-pad-crowdstrike-crwdnas-paypal-pyplnas/",
+      "jump": null,
+      "at": "14:20"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2023-02-10",
+     "when": "February 2023",
+     "text": "In February 2023, Equity Mates reported PayPal’s share price had fallen about 30 percent over the prior year and reached US$69, while management trimmed 2022 revenue targets despite Q3 2022 beating expectations.",
+     "episode": {
+      "title": "23 Stocks for 2023 | Car Sales, Aussie Broadband and PayPal! Pt III",
+      "url": "https://equitymates.com/episode/23-stocks-for-2023-car-sales-aussie-broadband-and-paypal-pt-iii/",
+      "jump": null,
+      "at": "21:06"
+     }
+    },
+    {
+     "date": "2022-03-17",
+     "when": "March 2022",
+     "text": "In March 2022, a guest on Equity Mates cautioned against anchoring to all‑time highs, pointing out PayPal was down roughly 66 percent from its peak yet still up significantly since listing, and argued the focus should be on future prospects.",
+     "episode": {
+      "title": "Expert: Tim Samway - How a growth fund manager is reacting to markets",
+      "url": "https://equitymates.com/episode/expert-tim-samway-how-a-growth-fund-manager-is-reacting-to-markets/",
+      "jump": "https://www.youtube.com/watch?v=NuLEd4JVf1k&t=1196s",
+      "at": "19:56"
+     }
+    },
+    {
+     "date": "2022-02-28",
+     "when": "February 2022",
+     "text": "In February 2022, Equity Mates compared PayPal’s strong operating metrics with its share price falling 66 percent from highs, noting that even great businesses can become too expensive and repriced.",
+     "episode": {
+      "title": "Can you hear their fear? CEOs of growth stocks down more than 40% | Quartr Reporting Season",
+      "url": "https://equitymates.com/episode/can-you-hear-their-fear-ceos-of-growth-stocks-down-more-than-40-quartr-reporting-season/",
+      "jump": null,
+      "at": "44:27"
+     }
+    }
+   ]
+  }
+ ]
+}

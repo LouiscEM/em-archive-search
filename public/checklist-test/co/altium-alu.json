@@ -1,0 +1,126 @@
+{
+ "slug": "altium-alu",
+ "name": "Altium",
+ "full": "Altium",
+ "listings": [
+  "ASX: ALU"
+ ],
+ "built": "2026-10-30",
+ "episodes": 4,
+ "mentioned_in": 25,
+ "latest": "2025-09-02",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2024-01-29",
+     "when": "January 2024",
+     "text": "In January 2024, Equity Mates explained Altium’s suite, from PCB design software to a cloud data and supply chain platform, noting 82% of revenue came from design tools and about $60 million from its cloud product Octopod, a global parts search marketplace.",
+     "episode": {
+      "title": "Designing the AI revolution - Altium | Summer Series",
+      "url": "https://equitymates.com/episode/designing-the-ai-revolution-altium-summer-series/",
+      "jump": "https://www.youtube.com/watch?v=hDa-sipc6sU&t=413s",
+      "at": "6:53"
+     }
+    },
+    {
+     "date": "2023-11-28",
+     "when": "November 2023",
+     "text": "In November 2023, a guest on Equity Mates described Altium as selling software engineers use to design printed circuit boards, outlining the core use case for its product.",
+     "episode": {
+      "title": "Buy or Sell: 10 stocks with Adam Keily & Owen Rask",
+      "url": "https://equitymates.com/episode/buy-or-sell-10-stocks-with-adam-keily-owen-rask/",
+      "jump": "https://www.youtube.com/watch?v=OsRbfHy-Ndo&t=511s",
+      "at": "8:31"
+     }
+    },
+    {
+     "date": "2023-08-28",
+     "when": "August 2023",
+     "text": "In August 2023, Equity Mates said Altium makes software to design circuit boards and highlighted its transition to cloud with Altium 365, adding it reported strong results and benefited from AI-related demand.",
+     "episode": {
+      "title": "Earnings season highlights, individual stocks v an ETF, & should you read The Intelligent Investor?",
+      "url": "https://equitymates.com/episode/earnings-season-highlights-individual-stocks-v-an-etf-should-you-read-the-intelligent-investor/",
+      "jump": null,
+      "at": "8:19"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2025-09-02",
+     "when": "September 2025",
+     "text": "In September 2025, Equity Mates discussed how hundred-bagger retrospectives often cite traits seen in Altium, including high margins and sticky recurring revenue, as reasons companies can earn strong profits over time.",
+     "episode": {
+      "title": "The bull market for Australian small caps - Claude Walker",
+      "url": "https://equitymates.com/episode/the-bull-market-for-australian-small-caps-claude-walker/",
+      "jump": "https://www.youtube.com/watch?v=AV2BZFzoCYI&t=1907s",
+      "at": "31:47"
+     }
+    },
+    {
+     "date": "2024-01-29",
+     "when": "January 2024",
+     "text": "In January 2024, a guest on Equity Mates said Altium Designer was globally recognised and that Altium dominated parts of the SME market, suggesting durable positioning in PCB design.",
+     "episode": {
+      "title": "Designing the AI revolution - Altium | Summer Series",
+      "url": "https://equitymates.com/episode/designing-the-ai-revolution-altium-summer-series/",
+      "jump": "https://www.youtube.com/watch?v=hDa-sipc6sU&t=790s",
+      "at": "13:10"
+     }
+    },
+    {
+     "date": "2023-08-28",
+     "when": "August 2023",
+     "text": "In August 2023, Equity Mates relayed analysis cautioning Altium was increasingly reliant on price rises in a mature PCB market, with strong competitors and a smaller addressable market than many tech peers.",
+     "episode": {
+      "title": "Earnings season highlights, individual stocks v an ETF, & should you read The Intelligent Investor?",
+      "url": "https://equitymates.com/episode/earnings-season-highlights-individual-stocks-v-an-etf-should-you-read-the-intelligent-investor/",
+      "jump": null,
+      "at": "8:19"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2024-01-29",
+     "when": "January 2024",
+     "text": "In January 2024, Equity Mates noted Altium acquired the cloud platform Octopod in 2017 and had been migrating customers from upfront licences to subscriptions, showing a deliberate reinvestment and product strategy.",
+     "episode": {
+      "title": "Designing the AI revolution - Altium | Summer Series",
+      "url": "https://equitymates.com/episode/designing-the-ai-revolution-altium-summer-series/",
+      "jump": "https://www.youtube.com/watch?v=hDa-sipc6sU&t=413s",
+      "at": "6:53"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2024-01-29",
+     "when": "January 2024",
+     "text": "In January 2024, a guest on Equity Mates warned that as a growth company, any disappointment could shrink Altium’s multiple, so subscriber growth, enterprise wins and margins needed monitoring to gauge what expectations were priced in.",
+     "episode": {
+      "title": "Designing the AI revolution - Altium | Summer Series",
+      "url": "https://equitymates.com/episode/designing-the-ai-revolution-altium-summer-series/",
+      "jump": "https://www.youtube.com/watch?v=hDa-sipc6sU&t=1269s",
+      "at": "21:09"
+     }
+    }
+   ]
+  }
+ ]
+}

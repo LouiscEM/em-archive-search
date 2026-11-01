@@ -1,0 +1,125 @@
+{
+ "slug": "carvana-cvna",
+ "name": "Carvana",
+ "full": "Carvana Co.",
+ "listings": [
+  "NYSE: CVNA"
+ ],
+ "built": "2026-10-30",
+ "episodes": 6,
+ "mentioned_in": 11,
+ "latest": "2025-11-10",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2025-11-10",
+     "when": "November 2025",
+     "text": "In November 2025, Equity Mates compared Carvana to a more innovative version of Carsales, noting it takes inventory itself, which they found interesting for a used-car platform.",
+     "episode": {
+      "title": "Australia's fastest growing company, 3 stocks we're watching & Pimp my Portfolio with Matt Ingram",
+      "url": "https://equitymates.com/episode/australias-fastest-growing-company-3-stocks-were-watching-pimp-my-portfolio-with-matt-ingram/",
+      "jump": "https://www.youtube.com/watch?v=uQyY1mdLBkk&t=1483s",
+      "at": "24:43"
+     }
+    },
+    {
+     "date": "2025-09-30",
+     "when": "September 2025",
+     "text": "In September 2025, a guest on Equity Mates described Carvana as an e-commerce alternative for used cars with over 50,000 vehicles, 10-minute purchase, same-day delivery in some markets and a seven day money-back guarantee, saying its vertically integrated reconditioning delivered better prices and a superior experience.",
+     "episode": {
+      "title": "Buy or Sell: Ally Selby with Jess Farr-Jones",
+      "url": "https://equitymates.com/episode/buy-or-sell-ally-selby-with-jess-farr-jones/",
+      "jump": "https://www.youtube.com/watch?v=iFOfDVZ2oMT&t=1469s",
+      "at": "24:29"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2025-11-10",
+     "when": "November 2025",
+     "text": "In November 2025, Equity Mates recapped Carvana’s boom, then COVID hit and heavy debt loads, saying the used car market dried up and debt rose from about 60 billion up to 30 billion, which nearly put it out of business.",
+     "episode": {
+      "title": "Australia's fastest growing company, 3 stocks we're watching & Pimp my Portfolio with Matt Ingram",
+      "url": "https://equitymates.com/episode/australias-fastest-growing-company-3-stocks-were-watching-pimp-my-portfolio-with-matt-ingram/",
+      "jump": "https://www.youtube.com/watch?v=uQyY1mdLBkk&t=1483s",
+      "at": "24:43"
+     }
+    },
+    {
+     "date": "2025-09-30",
+     "when": "September 2025",
+     "text": "In September 2025, a guest on Equity Mates said Carvana held 1 to 2% US market share yet was the fastest growing and most profitable auto dealer, arguing its vertically integrated model underpinned pricing and trust.",
+     "episode": {
+      "title": "Buy or Sell: Ally Selby with Jess Farr-Jones",
+      "url": "https://equitymates.com/episode/buy-or-sell-ally-selby-with-jess-farr-jones/",
+      "jump": "https://www.youtube.com/watch?v=iFOfDVZ2oMT&t=1469s",
+      "at": "24:29"
+     }
+    },
+    {
+     "date": "2025-09-12",
+     "when": "September 2025",
+     "text": "In September 2025, a guest on Equity Mates cited Carvana as an example of losses turning to profits after a wild rise, adding markets often reward visibility of profitability within about three years.",
+     "episode": {
+      "title": "Separating what's real from the hype: Roblox, Games Workshop and more - James Abela | Fidelity",
+      "url": "https://equitymates.com/episode/separating-whats-real-from-the-hype-roblox-games-workshop-and-more-james-abela-fidelity/",
+      "jump": null,
+      "at": "18:53"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2024-08-24",
+     "when": "August 2024",
+     "text": "In August 2024, Equity Mates noted Carvana was up 181% among major index names, using it to show how big index constituents can still post massive growth.",
+     "episode": {
+      "title": "Why Index Investing: You don't miss out on growth | iShares by BlackRock",
+      "url": "https://equitymates.com/episode/why-index-investing-you-dont-miss-out-on-growth-ishares-by-blackrock/",
+      "jump": "https://www.youtube.com/watch?v=DuApXCUOMxk&t=291s",
+      "at": "4:51"
+     }
+    },
+    {
+     "date": "2022-11-14",
+     "when": "November 2022",
+     "text": "In November 2022, Equity Mates highlighted a Morgan Stanley shift on Carvana from a $420 target at a $309 price to saying it could be worth $1, noting the stock was trading about nine and 98% below its $377 high.",
+     "episode": {
+      "title": "Everyone makes mistakes. We just make a lot of them.",
+      "url": "https://equitymates.com/episode/everyone-makes-mistakes-we-just-make-a-lot-of-them/",
+      "jump": null,
+      "at": "23:44"
+     }
+    },
+    {
+     "date": "2022-05-23",
+     "when": "May 2022",
+     "text": "In May 2022, Equity Mates said Carvana’s share price was down 90% from August, illustrating how hard the selloff had hit some online car dealers.",
+     "episode": {
+      "title": "The junk bond market thinks the worst is yet to come... as we turn to the possibilities",
+      "url": "https://equitymates.com/episode/em-chat-23-05/",
+      "jump": "https://www.youtube.com/watch?v=P3rSR52qYIw&t=957s",
+      "at": "15:57"
+     }
+    }
+   ]
+  }
+ ]
+}

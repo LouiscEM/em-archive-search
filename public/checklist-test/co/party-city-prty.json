@@ -1,0 +1,58 @@
+{
+ "slug": "party-city-prty",
+ "name": "Party City",
+ "full": "Party City",
+ "listings": [
+  "NYSE: PRTY"
+ ],
+ "built": "2026-11-01",
+ "episodes": 2,
+ "mentioned_in": 2,
+ "latest": "2023-11-06",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": []
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2023-11-06",
+     "when": "November 2023",
+     "text": "In November 2023, Equity Mates said Party City had declared bankruptcy and was likely delisted, indicating the business struggled to sustain performance over time.",
+     "episode": {
+      "title": "Leveraged ETFs, Ren's Melbourne Cup tip & Speccy Magee returns",
+      "url": "https://equitymates.com/episode/leveraged-etfs-rens-melbourne-cup-tip-speccy-magee-returns/",
+      "jump": "https://www.youtube.com/watch?v=1hegfgeWR58&t=2384s",
+      "at": "39:44"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2022-09-26",
+     "when": "September 2022",
+     "text": "In September 2022, Equity Mates noted Party City was touted on Reddit as a potential meme stock and highlighted its $211 million market cap and $1.87 share price, down from a 52‑week high of $9.21.",
+     "episode": {
+      "title": "After 5 years of Equity Mates, Bryce has figured out that diversification works",
+      "url": "https://equitymates.com/episode/after-5-years-of-equity-mates-bryce-has-figured-out-that-diversification-works/",
+      "jump": "https://www.youtube.com/watch?v=DABmn3Rn83U&t=1088s",
+      "at": "18:08"
+     }
+    }
+   ]
+  }
+ ]
+}

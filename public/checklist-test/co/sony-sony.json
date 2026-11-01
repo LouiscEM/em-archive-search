@@ -1,0 +1,94 @@
+{
+ "slug": "sony-sony",
+ "name": "Sony",
+ "full": "Sony",
+ "listings": [
+  "NYSE: SONY",
+  "TYO: 6758"
+ ],
+ "built": "2026-11-01",
+ "episodes": 5,
+ "mentioned_in": 36,
+ "latest": "2026-03-05",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2025-11-25",
+     "when": "November 2025",
+     "text": "In November 2025, Equity Mates noted PlayStation 5 appearing in Black Friday shopping and used it to illustrate how strong, gift‑driven demand can point to a product with real consumer pull and likely solid sales for Sony.",
+     "episode": {
+      "title": "An investors guide to Black Friday",
+      "url": "https://equitymates.com/episode/an-investors-guide-to-black-friday/",
+      "jump": "https://www.youtube.com/watch?v=ojoR-EL7yBQ&t=834s",
+      "at": "13:54"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2026-03-05",
+     "when": "March 2026",
+     "text": "In March 2026, Equity Mates reported Sony delayed PlayStation 6 from 2027 to 2029 due to soaring DRAM costs, highlighting supply pressures that could affect the console cycle and the timing of gaming earnings.",
+     "episode": {
+      "title": "The eBay harassment scandal, RAMageddon explained & Pimp My Portfolio with Matt Ingram",
+      "url": "https://equitymates.com/episode/the-ebay-harassment-scandal-ramageddon-explained-pimp-my-portfolio-with-matt-ingram/",
+      "jump": "https://www.youtube.com/watch?v=hyHtNGc5PkA&t=987s",
+      "at": "16:27"
+     }
+    },
+    {
+     "date": "2020-10-11",
+     "when": "October 2020",
+     "text": "In October 2020, Equity Mates compared 2017 gaming revenues and said Sony ranked second with US$10.5 billion, underscoring its scale in the industry behind Tencent.",
+     "episode": {
+      "title": "Industry Deep Dive: Video Game Industry",
+      "url": "https://equitymates.com/episode/deep-dive-video-game-industry/",
+      "jump": null,
+      "at": "35:27"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2023-02-22",
+     "when": "February 2023",
+     "text": "In February 2023, Equity Mates said Sony Network Communications partnered with Astar Network to run a Web3 incubation program for NFT and DAO projects, showing Sony exploring new technologies and potential business models.",
+     "episode": {
+      "title": "67 -  Exploring the World of Ordinal NFTs, the SEC's Crackdown, CBDCs & the emergence of Blur Marketplace",
+      "url": "https://equitymates.com/episode/67-exploring-the-world-of-ordinal-nfts-the-secs-crackdown-cbdcs-the-emergence-of-blur-marketplace/",
+      "jump": null,
+      "at": "32:18"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2023-05-15",
+     "when": "May 2023",
+     "text": "In May 2023, Equity Mates covered a conference pitch that Sony was misunderstood by Wall Street and could rise 50% by end of FY2024, with the case built on valuable assets and a shift toward subscription and software revenue in gaming.",
+     "episode": {
+      "title": "We draft 6 stocks from SOHN Investment Conference New York",
+      "url": "https://equitymates.com/episode/we-draft-6-stocks-from-sohn-investment-conference-new-york/",
+      "jump": null,
+      "at": "33:39"
+     }
+    }
+   ]
+  }
+ ]
+}

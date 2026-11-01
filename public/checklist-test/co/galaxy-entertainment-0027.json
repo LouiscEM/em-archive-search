@@ -1,0 +1,58 @@
+{
+ "slug": "galaxy-entertainment-0027",
+ "name": "Galaxy Entertainment",
+ "full": "Galaxy Entertainment",
+ "listings": [
+  "HKG: 0027"
+ ],
+ "built": "2026-11-01",
+ "episodes": 1,
+ "mentioned_in": 1,
+ "latest": "2024-07-19",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2024-07-19",
+     "when": "July 2024",
+     "text": "In July 2024, a guest on Equity Mates described Galaxy Entertainment as a Macau casino operator with a prominent set of properties on the Macau strip, benefiting from heavy Chinese tourism and strong foot traffic through its doors.",
+     "episode": {
+      "title": "Expert: Gary Monaghan - The outsized opportunity in Asia | Fidelity",
+      "url": "https://equitymates.com/episode/expert-gary-monaghan-the-outsized-opportunity-in-asia-fidelity/",
+      "jump": "https://www.youtube.com/watch?v=i5wyygSDRJQ&t=1717s",
+      "at": "28:37"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2024-07-19",
+     "when": "July 2024",
+     "text": "In July 2024, a guest on Equity Mates contrasted Galaxy’s local ownership with MGM China and Sands China, saying local ownership could be viewed more favourably by regulators, while noting geopolitical risk and the importance of licences granted by the local regulator.",
+     "episode": {
+      "title": "Expert: Gary Monaghan - The outsized opportunity in Asia | Fidelity",
+      "url": "https://equitymates.com/episode/expert-gary-monaghan-the-outsized-opportunity-in-asia-fidelity/",
+      "jump": "https://www.youtube.com/watch?v=i5wyygSDRJQ&t=1717s",
+      "at": "28:37"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

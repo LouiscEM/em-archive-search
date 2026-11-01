@@ -1,0 +1,58 @@
+{
+ "slug": "eagers-automotive-ape",
+ "name": "Eagers Automotive",
+ "full": "Eagers Automotive Ltd",
+ "listings": [
+  "ASX: APE"
+ ],
+ "built": "2026-11-01",
+ "episodes": 1,
+ "mentioned_in": 2,
+ "latest": "2024-08-13",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2024-08-13",
+     "when": "August 2024",
+     "text": "In August 2024, a guest on Equity Mates said Eagers Automotive managed major car dealerships, including Audi, BMW and Porsche, and described it as a very well run business with a long history and strong management.",
+     "episode": {
+      "title": "Buy or Sell: Ben Rundle - Catapult, Dominos, Guzman y Gomez and more",
+      "url": "https://equitymates.com/episode/buy-or-sell-ben-rundle-catapult-dominos-guzman-y-gomez-and-more/",
+      "jump": "https://www.youtube.com/watch?v=hDgPNqEvKdM&t=1034s",
+      "at": "17:14"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2024-08-13",
+     "when": "August 2024",
+     "text": "In August 2024, a guest on Equity Mates argued recent near-record new car deliveries showed supply had normalised and COVID-era waitlists were being fulfilled, while consumer spending had slowed, creating a perfect storm that could pressure volumes and profitability for Eagers Automotive.",
+     "episode": {
+      "title": "Buy or Sell: Ben Rundle - Catapult, Dominos, Guzman y Gomez and more",
+      "url": "https://equitymates.com/episode/buy-or-sell-ben-rundle-catapult-dominos-guzman-y-gomez-and-more/",
+      "jump": "https://www.youtube.com/watch?v=hDgPNqEvKdM&t=1034s",
+      "at": "17:14"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

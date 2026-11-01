@@ -1,0 +1,69 @@
+{
+ "slug": "mastercard-ma",
+ "name": "Mastercard",
+ "full": "Mastercard",
+ "listings": [
+  "NYSE: MA"
+ ],
+ "built": "2026-11-01",
+ "episodes": 3,
+ "mentioned_in": 5,
+ "latest": "2026-07-13",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2026-07-13",
+     "when": "July 2026",
+     "text": "In July 2026, Equity Mates suggested that more digital spending would ultimately benefit Mastercard as transactions increasingly ran through payments networks.",
+     "episode": {
+      "title": "Pet Care: Australia Has More Pets Than People | The Decade Ahead",
+      "url": "https://equitymates.com/episode/pet-care-australia-has-more-pets-than-people-the-decade-ahead/",
+      "jump": "https://www.youtube.com/watch?v=E6lfTucRXX4&t=2025s",
+      "at": "33:45"
+     }
+    },
+    {
+     "date": "2024-05-24",
+     "when": "May 2024",
+     "text": "In May 2024, Equity Mates recalled restaurants taking Mastercard and putting purchases through the card, highlighting how commonplace Mastercard was in everyday spending.",
+     "episode": {
+      "title": "You're sitting on a monster, awaken your super | Anne Fuchs, Australian Retirement Trust",
+      "url": "https://equitymates.com/episode/art-anne-fuchs-sitting-on-a-monster/",
+      "jump": "https://www.youtube.com/watch?v=oAOP9J5Xi8M&t=1118s",
+      "at": "18:38"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": []
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2022-03-14",
+     "when": "March 2022",
+     "text": "In March 2022, Equity Mates compared Mastercard with Visa on crypto, saying Visa seemed more on the front foot while both worked with central banks on CBDCs and integrated real-time payments and blockchain wallets to support developers.",
+     "episode": {
+      "title": "Compair the pair - CEOs go head to head | Quartr Reporting Season",
+      "url": "https://equitymates.com/episode/compair-the-pair-ceos-go-head-to-head-quartr-reporting-season/",
+      "jump": "https://www.youtube.com/watch?v=vY-UrZMLW64&t=1917s",
+      "at": "31:57"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

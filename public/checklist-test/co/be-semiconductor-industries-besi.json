@@ -1,0 +1,58 @@
+{
+ "slug": "be-semiconductor-industries-besi",
+ "name": "BE Semiconductor Industries",
+ "full": "BE Semiconductor Industries",
+ "listings": [
+  "AMS: BESI"
+ ],
+ "built": "2026-11-01",
+ "episodes": 1,
+ "mentioned_in": 1,
+ "latest": "2024-07-23",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2024-07-23",
+     "when": "July 2024",
+     "text": "In July 2024, Equity Mates noted BE Semiconductor Industries’ website claimed it was the next level in flux cleaning, referencing the company’s product positioning in semiconductor equipment.",
+     "episode": {
+      "title": "Buy or Sell: Felicity Thomas - Lynas, AMD, Playside Studios & more",
+      "url": "https://equitymates.com/episode/buy-or-sell-felicity-thomas-lynas-amd-playside-studios-more/",
+      "jump": "https://www.youtube.com/watch?v=iXTO7_ArYrI&t=770s",
+      "at": "12:50"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": []
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2024-07-23",
+     "when": "July 2024",
+     "text": "In July 2024, Equity Mates cited BE Semiconductor Industries trading on the OTC Markets at US$182.76 when introducing the stock, providing a reference point for its share price at the time.",
+     "episode": {
+      "title": "Buy or Sell: Felicity Thomas - Lynas, AMD, Playside Studios & more",
+      "url": "https://equitymates.com/episode/buy-or-sell-felicity-thomas-lynas-amd-playside-studios-more/",
+      "jump": "https://www.youtube.com/watch?v=iXTO7_ArYrI&t=770s",
+      "at": "12:50"
+     }
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,103 @@
+{
+ "slug": "aramark-armk",
+ "name": "Aramark",
+ "full": "Aramark",
+ "listings": [
+  "NYSE: ARMK"
+ ],
+ "built": "2026-11-01",
+ "episodes": 2,
+ "mentioned_in": 2,
+ "latest": "2025-03-21",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2025-03-21",
+     "when": "March 2025",
+     "text": "In March 2025, a guest on Equity Mates described Aramark as a services company providing contract catering to education, sporting, correctional, healthcare, and business sites, saying revenue was fairly resilient because these facilities kept operating even when the macro turned down.",
+     "episode": {
+      "title": "Basis Points: There's more to life than the Magnificent Seven with Alexander Whight | Milford",
+      "url": "https://equitymates.com/episode/basis-points-theres-more-to-life-than-the-magnificent-seven-with-alexander-whight-milford/",
+      "jump": "https://www.youtube.com/watch?v=Zg1HqS_HELg&t=1785s",
+      "at": "29:45"
+     }
+    },
+    {
+     "date": "2025-03-11",
+     "when": "March 2025",
+     "text": "In March 2025, a guest on Equity Mates explained Aramark runs canteens under contract across institutions, adding many sites still did food service in-house and outlining a shift toward outsourcing of on-campus and institutional food services.",
+     "episode": {
+      "title": "Finding Opportunities Beyond the Magnificent Seven with Alexander Whight",
+      "url": "https://equitymates.com/episode/finding-opportunities-beyond-the-magnificent-seven-with-alexander-whight/",
+      "jump": "https://www.youtube.com/watch?v=Zg1HqS_HELg&t=1785s",
+      "at": "29:45"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2025-03-21",
+     "when": "March 2025",
+     "text": "In March 2025, a guest on Equity Mates said contract catering was fragmented, with three or four global players holding about 15% of the market and about half still in-house, and noted Aramark was one of the big three and over-indexed to less cyclical end markets.",
+     "episode": {
+      "title": "Basis Points: There's more to life than the Magnificent Seven with Alexander Whight | Milford",
+      "url": "https://equitymates.com/episode/basis-points-theres-more-to-life-than-the-magnificent-seven-with-alexander-whight-milford/",
+      "jump": "https://www.youtube.com/watch?v=Zg1HqS_HELg&t=1785s",
+      "at": "29:45"
+     }
+    },
+    {
+     "date": "2025-03-11",
+     "when": "March 2025",
+     "text": "In March 2025, a guest on Equity Mates stated first-time outsourcing was driving mid single digit plus earnings growth and that Aramark’s appeal relied more on margin expansion, with demand supported by education and corrections continuing to feed people in downturns.",
+     "episode": {
+      "title": "Finding Opportunities Beyond the Magnificent Seven with Alexander Whight",
+      "url": "https://equitymates.com/episode/finding-opportunities-beyond-the-magnificent-seven-with-alexander-whight/",
+      "jump": "https://www.youtube.com/watch?v=Zg1HqS_HELg&t=1785s",
+      "at": "29:45"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2025-03-21",
+     "when": "March 2025",
+     "text": "In March 2025, a guest on Equity Mates expected Aramark to deliver mid-teens earnings growth and said the shares traded on about 18 to 19 times, framing the case around improving margins.",
+     "episode": {
+      "title": "Basis Points: There's more to life than the Magnificent Seven with Alexander Whight | Milford",
+      "url": "https://equitymates.com/episode/basis-points-theres-more-to-life-than-the-magnificent-seven-with-alexander-whight-milford/",
+      "jump": "https://www.youtube.com/watch?v=Zg1HqS_HELg&t=1785s",
+      "at": "29:45"
+     }
+    },
+    {
+     "date": "2025-03-11",
+     "when": "March 2025",
+     "text": "In March 2025, a guest on Equity Mates reiterated expectations of mid-teens earnings growth and noted Aramark traded around 18 to 19 times, highlighting valuation against the margin expansion outlook.",
+     "episode": {
+      "title": "Finding Opportunities Beyond the Magnificent Seven with Alexander Whight",
+      "url": "https://equitymates.com/episode/finding-opportunities-beyond-the-magnificent-seven-with-alexander-whight/",
+      "jump": "https://www.youtube.com/watch?v=Zg1HqS_HELg&t=1785s",
+      "at": "29:45"
+     }
+    }
+   ]
+  }
+ ]
+}

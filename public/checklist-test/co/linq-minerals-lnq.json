@@ -1,0 +1,70 @@
+{
+ "slug": "linq-minerals-lnq",
+ "name": "LinQ Minerals",
+ "full": "LinQ Minerals",
+ "listings": [
+  "ASX: LNQ"
+ ],
+ "built": "2026-11-01",
+ "episodes": 1,
+ "mentioned_in": 1,
+ "latest": "2026-03-09",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2026-03-09",
+     "when": "March 2026",
+     "text": "In March 2026, Equity Mates outlined LinQ Minerals as a copper and gold explorer in NSW’s Central West, centred on the Gilmore Copper Gold Project spanning almost 600 square kilometres with a historic open pit, and cited estimates of over three million ounces of gold and over a million tonnes of copper in the ground.",
+     "episode": {
+      "title": "Don’t panic sell, an Aussie minerals community stock pick & Emerging markets 101",
+      "url": "https://equitymates.com/episode/dont-panic-sell-an-aussie-minerals-community-stock-pick-emerging-markets-101/",
+      "jump": "https://www.youtube.com/watch?v=5MtuYI1rOk4&t=832s",
+      "at": "13:52"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": []
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2026-03-09",
+     "when": "March 2026",
+     "text": "In March 2026, Equity Mates said LinQ Minerals was actively drilling at Gilmore and accelerating the program with positive results, indicating current spend focused on exploration across five licences.",
+     "episode": {
+      "title": "Don’t panic sell, an Aussie minerals community stock pick & Emerging markets 101",
+      "url": "https://equitymates.com/episode/dont-panic-sell-an-aussie-minerals-community-stock-pick-emerging-markets-101/",
+      "jump": "https://www.youtube.com/watch?v=5MtuYI1rOk4&t=832s",
+      "at": "13:52"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2026-03-09",
+     "when": "March 2026",
+     "text": "In March 2026, Equity Mates noted LinQ Minerals’ share price had risen about 165% over the past 12 months and had previously been up over 200% before a January pullback.",
+     "episode": {
+      "title": "Don’t panic sell, an Aussie minerals community stock pick & Emerging markets 101",
+      "url": "https://equitymates.com/episode/dont-panic-sell-an-aussie-minerals-community-stock-pick-emerging-markets-101/",
+      "jump": "https://www.youtube.com/watch?v=5MtuYI1rOk4&t=832s",
+      "at": "13:52"
+     }
+    }
+   ]
+  }
+ ]
+}

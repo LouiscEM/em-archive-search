@@ -1,0 +1,92 @@
+{
+ "slug": "carnival-ccl",
+ "name": "Carnival",
+ "full": "Carnival Corp",
+ "listings": [
+  "NYSE: CCL"
+ ],
+ "built": "2026-11-01",
+ "episodes": 4,
+ "mentioned_in": 7,
+ "latest": "2025-02-24",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2025-02-24",
+     "when": "February 2025",
+     "text": "In February 2025, Equity Mates said Carnival offered onboard credits to its shareholders when they cruise, mentioning it as an example of investor perks linked to the product experience.",
+     "episode": {
+      "title": "Bad news for banks & miners, where did all the dividends go & stocks with freebies",
+      "url": "https://equitymates.com/episode/bad-news-for-banks-miners-where-did-all-the-dividends-go-stocks-with-freebies/",
+      "jump": "https://www.youtube.com/watch?v=hkGW5JdchqY&t=1402s",
+      "at": "23:22"
+     }
+    },
+    {
+     "date": "2022-04-18",
+     "when": "April 2022",
+     "text": "In April 2022, Equity Mates noted Carnival announced its biggest one week booking in its 50 year history, which was taken as a sign of strong demand as the world reopened from Covid.",
+     "episode": {
+      "title": "The Nomad Partnership Letters: Two of the greatest investors you’ve never heard of",
+      "url": "https://equitymates.com/episode/em-chat-nomad-partnership-letters/",
+      "jump": "https://www.youtube.com/watch?v=xBRC8Jzig4c&t=125s",
+      "at": "2:05"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2020-08-09",
+     "when": "August 2020",
+     "text": "In August 2020, Equity Mates reported Carnival’s quarterly revenue fell 85 percent during Covid, illustrating how severely cruising was hit and how profits were pressured.",
+     "episode": {
+      "title": "EM Chat: US Earnings Season - Winners & Losers",
+      "url": "https://equitymates.com/episode/em-chat-us-earnings-season-winners-losers/",
+      "jump": null,
+      "at": "29:59"
+     }
+    },
+    {
+     "date": "2020-03-03",
+     "when": "March 2020",
+     "text": "In March 2020, Equity Mates discussed bonds and said low grade junk bonds like Carnival cruise bonds were to be avoided in a deflationary environment, highlighting higher default risk when debt becomes harder to service.",
+     "episode": {
+      "title": "Basics: All You Need To Know About Inflation",
+      "url": "https://equitymates.com/episode/basics-all-you-need-to-know-about-inflation/",
+      "jump": null,
+      "at": "32:45"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2022-04-18",
+     "when": "April 2022",
+     "text": "In April 2022, Equity Mates reviewed Carnival Corp’s share price, saying it was up 129 percent from its March and April 2020 low but down three percent for the year at the time, framing a rebound that had flattened.",
+     "episode": {
+      "title": "The Nomad Partnership Letters: Two of the greatest investors you’ve never heard of",
+      "url": "https://equitymates.com/episode/em-chat-nomad-partnership-letters/",
+      "jump": "https://www.youtube.com/watch?v=xBRC8Jzig4c&t=176s",
+      "at": "2:56"
+     }
+    }
+   ]
+  }
+ ]
+}

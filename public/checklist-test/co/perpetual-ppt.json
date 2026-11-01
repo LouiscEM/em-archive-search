@@ -1,0 +1,125 @@
+{
+ "slug": "perpetual-ppt",
+ "name": "Perpetual",
+ "full": "Perpetual",
+ "listings": [
+  "ASX: PPT"
+ ],
+ "built": "2026-10-30",
+ "episodes": 5,
+ "mentioned_in": 16,
+ "latest": "2022-06-07",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2022-06-07",
+     "when": "June 2022",
+     "text": "In June 2022, Equity Mates noted Perpetual offered active ETFs alongside other big names, highlighting that ETFs can now be actively managed rather than purely passive.",
+     "episode": {
+      "title": "The Pros and Cons of Passive ETFs vs. Active ETFs",
+      "url": "https://equitymates.com/episode/active-etfs-active-etfs-passive-aggressive-etfs/",
+      "jump": null,
+      "at": "18:58"
+     }
+    },
+    {
+     "date": "2022-06-02",
+     "when": "June 2022",
+     "text": "In June 2022, Equity Mates introduced Perpetual’s Ethical Fund, a 20‑year strategy that floated on the ASX as GIVE, investing in Australian ethical and socially responsible companies.",
+     "episode": {
+      "title": "Expert: Nathan Hughes - The complexity of ESG & Three ASX stocks | Perpetual",
+      "url": "https://equitymates.com/episode/expert-nathan-hughes-the-complexity-of-esg-three-asx-stocks-perpetual/",
+      "jump": null,
+      "at": "1:01"
+     }
+    },
+    {
+     "date": "2022-01-10",
+     "when": "January 2022",
+     "text": "In January 2022, Equity Mates explained Perpetual’s business as attracting funds to maximise management fees and building a team to outperform so it can earn performance fees, with a constant war for talent and clients.",
+     "episode": {
+      "title": "Inside the business of funds management - Perpetual Ltd w/ CEO Rob Adams | Summer Series",
+      "url": "https://equitymates.com/episode/summer-series-perpetual-ppt/",
+      "jump": "https://www.youtube.com/watch?v=BSZZX2s9cVI&t=998s",
+      "at": "16:38"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2022-04-11",
+     "when": "April 2022",
+     "text": "In April 2022, Equity Mates argued Vanguard’s low‑cost index model built a moat through counter positioning, while active managers like Perpetual could not easily copy it without hurting their existing business models.",
+     "episode": {
+      "title": "Moats & Meme Stocks ft. return of Speccy Magee",
+      "url": "https://equitymates.com/episode/em-chat-2/",
+      "jump": null,
+      "at": "12:04"
+     }
+    },
+    {
+     "date": "2022-01-10",
+     "when": "January 2022",
+     "text": "In January 2022, Equity Mates described funds management as hotly contested, with about $2.5 trillion managed in Australia, over 300 competitors, and the top 10 controlling more than 50 percent, framing the challenge for Perpetual to maintain share.",
+     "episode": {
+      "title": "Inside the business of funds management - Perpetual Ltd w/ CEO Rob Adams | Summer Series",
+      "url": "https://equitymates.com/episode/summer-series-perpetual-ppt/",
+      "jump": "https://www.youtube.com/watch?v=BSZZX2s9cVI&t=757s",
+      "at": "12:37"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2022-06-02",
+     "when": "June 2022",
+     "text": "In June 2022, a guest on Equity Mates explained Perpetual listed its long‑running ethical fund as GIVE on the ASX, keeping the same portfolio but a different fee structure to reach listed investors.",
+     "episode": {
+      "title": "Expert: Nathan Hughes - The complexity of ESG & Three ASX stocks | Perpetual",
+      "url": "https://equitymates.com/episode/expert-nathan-hughes-the-complexity-of-esg-three-asx-stocks-perpetual/",
+      "jump": null,
+      "at": "17:26"
+     }
+    },
+    {
+     "date": "2022-01-10",
+     "when": "January 2022",
+     "text": "In January 2022, Equity Mates reported Perpetual was pushing a direct‑to‑retail strategy and embracing active ETFs, indicating investment in new distribution and products.",
+     "episode": {
+      "title": "Inside the business of funds management - Perpetual Ltd w/ CEO Rob Adams | Summer Series",
+      "url": "https://equitymates.com/episode/summer-series-perpetual-ppt/",
+      "jump": "https://www.youtube.com/watch?v=BSZZX2s9cVI&t=1266s",
+      "at": "21:06"
+     }
+    },
+    {
+     "date": "2020-07-22",
+     "when": "July 2020",
+     "text": "In July 2020, a guest on Equity Mates said Perpetual had acquired sustainability manager Trillium, which aligned it with sustainable investing and supported its inclusion in an ESG fund’s portfolio.",
+     "episode": {
+      "title": "Expert Investor: Emilie O'Neill - The Research Process For ESG Investing",
+      "url": "https://equitymates.com/episode/expert-investor-emilie-oneill-the-research-process-for-esg-investing/",
+      "jump": null,
+      "at": "34:05"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

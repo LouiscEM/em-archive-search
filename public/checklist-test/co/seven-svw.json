@@ -1,0 +1,70 @@
+{
+ "slug": "seven-svw",
+ "name": "Seven",
+ "full": "Seven Group Holdings",
+ "listings": [
+  "ASX: SVW"
+ ],
+ "built": "2026-10-30",
+ "episodes": 2,
+ "mentioned_in": 40,
+ "latest": "2024-04-12",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2024-04-12",
+     "when": "April 2024",
+     "text": "In April 2024, a guest on Equity Mates described WesTrac, Seven Group’s core business, as the exclusive supplier of Caterpillar equipment to mining companies in New South Wales, calling it a privileged asset created by Caterpillar’s dealership model with exclusive territorial rights.",
+     "episode": {
+      "title": "Expert: Joe Wright - Three ways to invest in resources | Airlie Funds Management",
+      "url": "https://equitymates.com/episode/expert-joe-wright-three-ways-to-invest-in-resources-airlie-funds-management/",
+      "jump": "https://www.youtube.com/watch?v=hCQA1gZfZsI&t=1383s",
+      "at": "23:03"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2024-04-12",
+     "when": "April 2024",
+     "text": "In April 2024, a guest on Equity Mates said WesTrac’s exclusive dealership rights for Caterpillar equipment in New South Wales gave Seven Group a privileged, hard-to-replicate position with customers in its territory, outlining a structural advantage baked into the OEM’s dealer model.",
+     "episode": {
+      "title": "Expert: Joe Wright - Three ways to invest in resources | Airlie Funds Management",
+      "url": "https://equitymates.com/episode/expert-joe-wright-three-ways-to-invest-in-resources-airlie-funds-management/",
+      "jump": "https://www.youtube.com/watch?v=hCQA1gZfZsI&t=1383s",
+      "at": "23:03"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2021-09-09",
+     "when": "September 2021",
+     "text": "In September 2021, a guest on Equity Mates recounted that Seven Group saw inherent value in Boral and launched a takeover targeting 30 percent, showing a willingness to act decisively and deploy capital when opportunities emerged.",
+     "episode": {
+      "title": "CEO: Zlatko Todorcevski - Turning Boral Around Amidst Seven Group's Takeover | Boral (ASX: BLD)",
+      "url": "https://equitymates.com/episode/ceo-zlatko-todorcevski-turning-boral-around-amidst-seven-groups-takeover-boral-asx-bld/",
+      "jump": null,
+      "at": "12:40"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

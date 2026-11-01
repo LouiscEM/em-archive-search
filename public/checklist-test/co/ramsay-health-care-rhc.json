@@ -1,0 +1,93 @@
+{
+ "slug": "ramsay-health-care-rhc",
+ "name": "Ramsay Health Care",
+ "full": "Ramsay Health Care",
+ "listings": [
+  "ASX: RHC"
+ ],
+ "built": "2026-11-01",
+ "episodes": 4,
+ "mentioned_in": 5,
+ "latest": "2022-07-04",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2021-07-05",
+     "when": "July 2021",
+     "text": "In July 2021, Equity Mates described Ramsay Health Care as Australia's biggest hospital operator, valued at about $14 billion, with 72 hospitals and sites of care, highlighting the scale of its private healthcare services.",
+     "episode": {
+      "title": "Global Investing 101: Why Diversification Beyond Australia is Key",
+      "url": "https://equitymates.com/episode/global-why-investors-today-need-to-think-beyond-australia/",
+      "jump": null,
+      "at": "30:04"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2022-07-04",
+     "when": "July 2022",
+     "text": "In July 2022, Equity Mates noted Macquarie included Ramsay Health Care among Australian healthcare stocks seen as recession-proof, implying the sector's resilience in downturns.",
+     "episode": {
+      "title": "Macquarie's 16 recession-proof stocks",
+      "url": "https://equitymates.com/episode/macquaries-16-recession-proof-stocks/",
+      "jump": "https://www.youtube.com/watch?v=T4ttySx-d7M&t=1298s",
+      "at": "21:38"
+     }
+    },
+    {
+     "date": "2021-07-05",
+     "when": "July 2021",
+     "text": "In July 2021, Equity Mates said Ramsay Health Care was the biggest hospital operator in Australia with 72 hospitals, highlighting its scale in private hospitals.",
+     "episode": {
+      "title": "Global Investing 101: Why Diversification Beyond Australia is Key",
+      "url": "https://equitymates.com/episode/global-why-investors-today-need-to-think-beyond-australia/",
+      "jump": null,
+      "at": "30:04"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2021-03-13",
+     "when": "March 2021",
+     "text": "In March 2021, a guest on Equity Mates said Ramsay Health Care had cut its dividend recently, contrasting it with a company that had not cut dividends in 20 years.",
+     "episode": {
+      "title": "Expert Investor: Tom Millner – Contact Asset Management – 5 steps to find a quality company",
+      "url": "https://equitymates.com/episode/expert-investor-tom-millner-contact-asset-management-5-steps-to-find-a-quality-company/",
+      "jump": "https://www.youtube.com/watch?v=8dvvo-RWcGU&t=1438s",
+      "at": "23:58"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2022-04-25",
+     "when": "April 2022",
+     "text": "In April 2022, Equity Mates covered a KKR bid for Ramsay Health Care at $88 a share when it traded near $64, noting a 24 percent jump and the Ramsay Foundation’s reported 20 percent support.",
+     "episode": {
+      "title": "Why Ramsay is just the tip of the iceberg & Netflix headlines early results from US earnings season",
+      "url": "https://equitymates.com/episode/em-chat-3/",
+      "jump": "https://www.youtube.com/watch?v=qAr2Y2LyrCo&t=246s",
+      "at": "4:06"
+     }
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,114 @@
+{
+ "slug": "qualitas-qal",
+ "name": "Qualitas",
+ "full": "Qualitas",
+ "listings": [
+  "ASX: QAL"
+ ],
+ "built": "2026-11-01",
+ "episodes": 4,
+ "mentioned_in": 4,
+ "latest": "2026-09-25",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2026-09-25",
+     "when": "September 2026",
+     "text": "In September 2026, an adviser on Equity Mates highlighted the Qualitas Real Estate Income Fund as a listed, real estate backed private credit portfolio yielding about 7.3% and praised Qualitas as a fantastic manager.",
+     "episode": {
+      "title": "How to build the ultimate passive income portfolio with ETFs",
+      "url": "https://equitymates.com/episode/how-to-build-the-ultimate-passive-income-portfolio-with-etfs/",
+      "jump": "https://www.youtube.com/watch?v=TKQERxuj07w&t=292s",
+      "at": "4:52"
+     }
+    },
+    {
+     "date": "2026-06-02",
+     "when": "June 2026",
+     "text": "In June 2026, an adviser on Equity Mates said Australia’s private debt market remained strong with good covenants, noting CIOs at managers including Qualitas had done a really good job understanding their risk matrix.",
+     "episode": {
+      "title": "Beyond the Budget: How Charlie Viola is approaching building wealth | Ask an Adviser",
+      "url": "https://equitymates.com/episode/beyond-the-budget-how-charlie-viola-is-approaching-building-wealth-ask-an-adviser/",
+      "jump": "https://www.youtube.com/watch?v=3OI0IGxNb5Y&t=1523s",
+      "at": "25:23"
+     }
+    },
+    {
+     "date": "2025-02-21",
+     "when": "February 2025",
+     "text": "In February 2025, a guest on Equity Mates described Qualitas as an alternative real estate investment manager listed on the ASX with about $9 billion in funds under management, investing across real estate private credit and private equity to deliver attractive risk adjusted returns.",
+     "episode": {
+      "title": "Aussie real estate, Private credit & the contradiction in Australian housing - Mark Fischer | Qualitas",
+      "url": "https://equitymates.com/episode/aussie-real-estate-private-credit-the-contradiction-in-australian-housing-mark-fischer-qualitas/",
+      "jump": "https://www.youtube.com/watch?v=8RW1Qbgy4jQ&t=233s",
+      "at": "3:53"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2026-06-02",
+     "when": "June 2026",
+     "text": "In June 2026, an adviser on Equity Mates argued demand for non‑bank lending was huge and covenants were strong, adding managers such as Qualitas had learned a lot over 10 to 15 years and understood risk, implying disciplined underwriting.",
+     "episode": {
+      "title": "Beyond the Budget: How Charlie Viola is approaching building wealth | Ask an Adviser",
+      "url": "https://equitymates.com/episode/beyond-the-budget-how-charlie-viola-is-approaching-building-wealth-ask-an-adviser/",
+      "jump": "https://www.youtube.com/watch?v=3OI0IGxNb5Y&t=1523s",
+      "at": "25:23"
+     }
+    },
+    {
+     "date": "2025-02-21",
+     "when": "February 2025",
+     "text": "In February 2025, a guest on Equity Mates said private credit had moved from niche to front and centre at conferences, drawing many new entrants and prompting investors to ask how managers like Qualitas differentiate, signalling rising competition and the need for edge.",
+     "episode": {
+      "title": "Aussie real estate, Private credit & the contradiction in Australian housing - Mark Fischer | Qualitas",
+      "url": "https://equitymates.com/episode/aussie-real-estate-private-credit-the-contradiction-in-australian-housing-mark-fischer-qualitas/",
+      "jump": "https://www.youtube.com/watch?v=8RW1Qbgy4jQ&t=1344s",
+      "at": "22:24"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2026-09-25",
+     "when": "September 2026",
+     "text": "In September 2026, an adviser on Equity Mates said macro uncertainty and negative sentiment around private credit, especially real estate focused strategies like the Qualitas ETF, made it the holding they would cut, while also acknowledging uncertainty could later offer a more attractive entry price.",
+     "episode": {
+      "title": "How to build the ultimate passive income portfolio with ETFs",
+      "url": "https://equitymates.com/episode/how-to-build-the-ultimate-passive-income-portfolio-with-etfs/",
+      "jump": "https://www.youtube.com/watch?v=TKQERxuj07w&t=653s",
+      "at": "10:53"
+     }
+    },
+    {
+     "date": "2025-04-01",
+     "when": "April 2025",
+     "text": "In April 2025, an adviser on Equity Mates recalled that listed private credit trusts, including those managed by Qualitas, traded at 40% to 60% discounts to NTA in March 2020, warning that daily pricing can push these vehicles far below asset value in stress.",
+     "episode": {
+      "title": "Expert: Chris Joye - Navigating inflation, DOGE's impact & RBA's \"humiliation\"",
+      "url": "https://equitymates.com/episode/expert-chris-joye-navigating-inflation-doges-impact-rbas-humiliation/",
+      "jump": "https://www.youtube.com/watch?v=qa0nMGD3MSA&t=2320s",
+      "at": "38:40"
+     }
+    }
+   ]
+  }
+ ]
+}

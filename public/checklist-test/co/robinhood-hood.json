@@ -1,0 +1,159 @@
+{
+ "slug": "robinhood-hood",
+ "name": "Robinhood",
+ "full": "Robinhood",
+ "listings": [
+  "NASDAQ: HOOD"
+ ],
+ "built": "2026-10-30",
+ "episodes": 8,
+ "mentioned_in": 39,
+ "latest": "2026-10-05",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2025-07-15",
+     "when": "July 2025",
+     "text": "In July 2025, Equity Mates highlighted a new feature in the US app that delivered cash to a user’s location, noting it as an unusual product extension for a brokerage platform.",
+     "episode": {
+      "title": "Why saving alone won't make you rich",
+      "url": "https://equitymates.com/episode/why-saving-alone-wont-make-you-rich/",
+      "jump": "https://www.youtube.com/watch?v=PcqdmH64H6E&t=133s",
+      "at": "2:13"
+     }
+    },
+    {
+     "date": "2022-05-23",
+     "when": "May 2022",
+     "text": "In May 2022, Equity Mates said Robinhood launched a non-custodial crypto wallet positioned as a Metamask competitor, and discussed an external 9, 10% stake as a potential customer acquisition play to reach about 22 million users.",
+     "episode": {
+      "title": "31 - Crypto Adoption Continues VIA Spotify, Robinhood & Australia Zoo! What Crypto Did",
+      "url": "https://equitymates.com/episode/31-crypto-adoption-continues-via-spotify-robinhood-australia-zoo-what-crypto-did/",
+      "jump": null,
+      "at": "13:26"
+     }
+    },
+    {
+     "date": "2021-08-10",
+     "when": "August 2021",
+     "text": "In August 2021, Equity Mates described Robinhood’s app as having empowered first-time retail investors and fuelled meme stock trading, with a young user base and significant cultural impact during 2020, 21.",
+     "episode": {
+      "title": "Robinhood - the best and worst IPO in history",
+      "url": "https://equitymates.com/episode/robinhood-the-best-and-worst-ipo-in-history/",
+      "jump": null,
+      "at": "23:07"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2026-10-05",
+     "when": "October 2026",
+     "text": "In October 2026, Equity Mates noted Q2 2026 revenue rose 35%, marking a 10th consecutive quarter with revenue growth above 30%, and discussed what that momentum signalled for the underlying business.",
+     "episode": {
+      "title": "Our Monthly Portfolio Update – September 2026",
+      "url": "https://equitymates.com/episode/our-monthly-portfolio-update-september-2026/",
+      "jump": "https://www.youtube.com/watch?v=vCFjzqwKHz8&t=1367s",
+      "at": "22:47"
+     }
+    },
+    {
+     "date": "2022-08-08",
+     "when": "August 2022",
+     "text": "In August 2022, Equity Mates reported Robinhood’s shift toward profitability with large layoffs, including a 23% reduction, while still posting a quarterly net loss of $295 million as it adjusted from a pandemic demand spike.",
+     "episode": {
+      "title": "Earnings wrap + Michael Frazis on his growth portfolio",
+      "url": "https://equitymates.com/episode/earnings-wrap-michael-frazis-on-his-growth-portfolio/",
+      "jump": "https://www.youtube.com/watch?v=CVIZ23HRlUk&t=779s",
+      "at": "12:59"
+     }
+    },
+    {
+     "date": "2022-03-01",
+     "when": "March 2022",
+     "text": "In March 2022, Equity Mates argued micro investing and brokerage features were converging, with platforms like Robinhood and others competing to start users’ investing journeys, implying intensifying competition for long-term advantage.",
+     "episode": {
+      "title": "The Evolution of Investing: Is Micro Investing Still Worth It?",
+      "url": "https://equitymates.com/episode/do-we-even-need-microinvesting-anymore/",
+      "jump": "https://www.youtube.com/watch?v=qArBx6kXZ84&t=1258s",
+      "at": "20:58"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2025-07-15",
+     "when": "July 2025",
+     "text": "In July 2025, Equity Mates discussed the cash delivery feature as a notable product expansion, indicating management’s willingness to test unconventional extensions of the core brokerage offering.",
+     "episode": {
+      "title": "Why saving alone won't make you rich",
+      "url": "https://equitymates.com/episode/why-saving-alone-wont-make-you-rich/",
+      "jump": "https://www.youtube.com/watch?v=PcqdmH64H6E&t=133s",
+      "at": "2:13"
+     }
+    },
+    {
+     "date": "2022-08-08",
+     "when": "August 2022",
+     "text": "In August 2022, Equity Mates said management prioritised profitability by cutting costs, announcing successive layoffs totalling 23% in one round, reflecting a focus on reshaping the cost base.",
+     "episode": {
+      "title": "Earnings wrap + Michael Frazis on his growth portfolio",
+      "url": "https://equitymates.com/episode/earnings-wrap-michael-frazis-on-his-growth-portfolio/",
+      "jump": "https://www.youtube.com/watch?v=CVIZ23HRlUk&t=779s",
+      "at": "12:59"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2025-03-13",
+     "when": "March 2025",
+     "text": "In March 2025, Equity Mates listed Robinhood among notable fallers in a broad selloff, saying the stock fell 20% on the day alongside moves in other tech and crypto-exposed names.",
+     "episode": {
+      "title": "What we’re buying as US stocks fall, Bryce delivered 21% in a month & is VDAL a better version of DHHF?",
+      "url": "https://equitymates.com/episode/what-were-buying-as-us-stocks-fall-bryce-delivered-21-in-a-month-is-vdal-a-better-version-of-dhhf/",
+      "jump": "https://www.youtube.com/watch?v=6WO_zfowrI0&t=457s",
+      "at": "7:37"
+     }
+    },
+    {
+     "date": "2022-12-19",
+     "when": "December 2022",
+     "text": "In December 2022, Equity Mates reviewed a prior prediction about 2022 performance, noting Robinhood finished the year down 48% while the S&P 500 was down 16%, showing it did not outperform as forecast.",
+     "episode": {
+      "title": "Bold predictions wrapped for 2023",
+      "url": "https://equitymates.com/episode/bold-predictions-wrapped-for-2023/",
+      "jump": "https://www.youtube.com/watch?v=X83UnQZxVkE&t=563s",
+      "at": "9:23"
+     }
+    },
+    {
+     "date": "2021-08-10",
+     "when": "August 2021",
+     "text": "In August 2021, Equity Mates recounted the IPO debut ending down 8.4%, described as the worst first day for an offering of its size, before the stock became a meme trade heavily discussed online.",
+     "episode": {
+      "title": "Robinhood - the best and worst IPO in history",
+      "url": "https://equitymates.com/episode/robinhood-the-best-and-worst-ipo-in-history/",
+      "jump": null,
+      "at": "23:07"
+     }
+    }
+   ]
+  }
+ ]
+}

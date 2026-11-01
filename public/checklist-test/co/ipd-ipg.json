@@ -1,0 +1,58 @@
+{
+ "slug": "ipd-ipg",
+ "name": "IPD",
+ "full": "IPD Group Ltd",
+ "listings": [
+  "ASX: IPG"
+ ],
+ "built": "2026-11-01",
+ "episodes": 2,
+ "mentioned_in": 3,
+ "latest": "2024-05-20",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2024-05-20",
+     "when": "May 2024",
+     "text": "In May 2024, a guest on Equity Mates described IPD Group as a fantastic business in electronic cable management and vehicle charging stations, pointing to its product lines as reasons to keep it on the radar.",
+     "episode": {
+      "title": "COVID stocks that haven't recovered (yet?), Pimp my portfolio & should I invest in gold?",
+      "url": "https://equitymates.com/episode/covid-stocks-that-havent-recovered-yet-pimp-my-portfolio-should-i-invest-in-gold/",
+      "jump": "https://www.youtube.com/watch?v=mvYu1ThJsJQ&t=926s",
+      "at": "15:26"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": []
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2023-12-07",
+     "when": "December 2023",
+     "text": "In December 2023, Equity Mates clarified the company name and ticker and noted IPD Group shares were up about 30% in November, flagging a recent run-up in the price.",
+     "episode": {
+      "title": "Ask An Adviser: Jelena Koncar - Debt recycling and one stock for Christmas",
+      "url": "https://equitymates.com/episode/ask-an-advisor-jelena-koncar-debt-recycling-and-one-stock-for-christmas/",
+      "jump": "https://www.youtube.com/watch?v=_W2cMzzkh5A&t=746s",
+      "at": "12:26"
+     }
+    }
+   ]
+  }
+ ]
+}

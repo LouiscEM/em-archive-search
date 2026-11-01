@@ -1,0 +1,81 @@
+{
+ "slug": "pointsbet-pbh",
+ "name": "PointsBet",
+ "full": "PointsBet Holdings",
+ "listings": [
+  "ASX: PBH"
+ ],
+ "built": "2026-11-01",
+ "episodes": 2,
+ "mentioned_in": 3,
+ "latest": "2024-06-20",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": []
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2024-06-20",
+     "when": "June 2024",
+     "text": "In June 2024, a guest on Equity Mates described sports betting operators such as PointsBet as tough businesses because barriers to entry were very low and many rivals piled in, reducing the durability of excess profits.",
+     "episode": {
+      "title": "Catapult: Dominating sports analytics - how big can it get? | Company deep dive",
+      "url": "https://equitymates.com/episode/catapult-dominating-sports-analytics-how-big-can-it-get-company-deep-dive/",
+      "jump": "https://www.youtube.com/watch?v=_SLWpiNVv0A&t=1905s",
+      "at": "31:45"
+     }
+    },
+    {
+     "date": "2024-04-25",
+     "when": "April 2024",
+     "text": "In April 2024, Equity Mates said PointsBet struggled to break into the US because incumbents like FanDuel, DraftKings, BetMGM and Caesars had brand recognition and head starts, and the state-by-state regulatory process made expansion slow and costly.",
+     "episode": {
+      "title": "Industry Deep Dive: Sports Betting - 5 years after legalisation in the US, who is winning?",
+      "url": "https://equitymates.com/episode/industry-deep-dive-sports-betting-5-years-after-legalisation-in-the-us-who-is-winning/",
+      "jump": "https://www.youtube.com/watch?v=bNNS3IW8kYQ&t=1057s",
+      "at": "17:37"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2024-04-25",
+     "when": "April 2024",
+     "text": "In April 2024, Equity Mates reported PointsBet sold its US assets to a Florida buyer for about 200 to 300 million after deciding it could not compete, framing it as cutting losses after finding the market too expensive and hard.",
+     "episode": {
+      "title": "Industry Deep Dive: Sports Betting - 5 years after legalisation in the US, who is winning?",
+      "url": "https://equitymates.com/episode/industry-deep-dive-sports-betting-5-years-after-legalisation-in-the-us-who-is-winning/",
+      "jump": "https://www.youtube.com/watch?v=bNNS3IW8kYQ&t=1207s",
+      "at": "20:07"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2024-04-25",
+     "when": "April 2024",
+     "text": "In April 2024, Equity Mates recalled PointsBet IPOed around two dollars and then ran into the teens after announcing the NBC deal, highlighting how enthusiasm around the US push moved the share price.",
+     "episode": {
+      "title": "Industry Deep Dive: Sports Betting - 5 years after legalisation in the US, who is winning?",
+      "url": "https://equitymates.com/episode/industry-deep-dive-sports-betting-5-years-after-legalisation-in-the-us-who-is-winning/",
+      "jump": "https://www.youtube.com/watch?v=bNNS3IW8kYQ&t=712s",
+      "at": "11:52"
+     }
+    }
+   ]
+  }
+ ]
+}

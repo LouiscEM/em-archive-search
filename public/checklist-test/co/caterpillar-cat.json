@@ -1,0 +1,114 @@
+{
+ "slug": "caterpillar-cat",
+ "name": "Caterpillar",
+ "full": "Caterpillar",
+ "listings": [
+  "NYSE: CAT"
+ ],
+ "built": "2026-10-30",
+ "episodes": 6,
+ "mentioned_in": 31,
+ "latest": "2026-08-13",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2026-08-11",
+     "when": "August 2026",
+     "text": "In August 2026, a guest on Equity Mates noted strong demand for Caterpillar gear to build data centres, including diesel generators, contributing to about an US$8 billion backlog.",
+     "episode": {
+      "title": "AI investors are getting nervous. Should they be?",
+      "url": "https://equitymates.com/episode/ai-investors-are-getting-nervous-should-they-be/",
+      "jump": "https://www.youtube.com/watch?v=RwM7fxlWmHc&t=2267s",
+      "at": "37:47"
+     }
+    },
+    {
+     "date": "2026-06-29",
+     "when": "June 2026",
+     "text": "In June 2026, Equity Mates described Caterpillar as a globally recognisable brand on construction sites and said community farmers used and loved its equipment, framing the pitch as investing in a product people know and use.",
+     "episode": {
+      "title": "Meta copies another product, we’re beating the market & the chase for Warren Buffett continues",
+      "url": "https://equitymates.com/episode/meta-copies-another-product-were-beating-the-market-the-chase-for-warren-buffett-continues/",
+      "jump": null,
+      "at": "11:51"
+     }
+    },
+    {
+     "date": "2026-03-19",
+     "when": "March 2026",
+     "text": "In March 2026, a guest on Equity Mates highlighted that Caterpillar owned the largest fleet of autonomous mining trucks, with 827 plus in operation moving over 10 billion tonnes autonomously with zero safety incidents, pointing to efficiency and safety benefits of its equipment.",
+     "episode": {
+      "title": "Bryce’s top 5 healthcare picks, 2 quality additions to the Community Portfolio & Gen Z’s $6 billion boom",
+      "url": "https://equitymates.com/episode/bryces-top-5-healthcare-picks-2-quality-additions-to-the-community-portfolio-gen-zs-6-billion-boom/",
+      "jump": "https://www.youtube.com/watch?v=XYtVxhP9IdA&t=1644s",
+      "at": "27:24"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2026-08-13",
+     "when": "August 2026",
+     "text": "In August 2026, Equity Mates reported Caterpillar had its best quarter ever, surpassing US$20 billion revenue, lifting profit 65% year on year, and recording a record backlog, which underscored recent profitability and demand.",
+     "episode": {
+      "title": "3 impressive Aussie companies, how often should you invest & don’t listen to Michael Burry",
+      "url": "https://equitymates.com/episode/3-impressive-aussie-companies-how-often-should-you-invest-dont-listen-to-michael-burry/",
+      "jump": "https://www.youtube.com/watch?v=i9_g__QJyOI&t=1974s",
+      "at": "32:54"
+     }
+    },
+    {
+     "date": "2026-08-11",
+     "when": "August 2026",
+     "text": "In August 2026, a guest on Equity Mates said Caterpillar’s backlog was about US$8 billion, driven by data centre-related demand, while warning industry bottlenecks and cyclicality could shift conditions quickly.",
+     "episode": {
+      "title": "AI investors are getting nervous. Should they be?",
+      "url": "https://equitymates.com/episode/ai-investors-are-getting-nervous-should-they-be/",
+      "jump": "https://www.youtube.com/watch?v=RwM7fxlWmHc&t=2267s",
+      "at": "37:47"
+     }
+    },
+    {
+     "date": "2026-02-16",
+     "when": "February 2026",
+     "text": "In February 2026, Equity Mates said Caterpillar flagged US$2.6 billion of tariff-related costs, illustrating tariff pressure that was squeezing margins for American companies.",
+     "episode": {
+      "title": "Pope-approved stocks, a pitch for the Community Portfolio & currency hedging explained",
+      "url": "https://equitymates.com/episode/the-vaticans-new-index-earnings-season-winners-should-you-hedge-your-etfs/",
+      "jump": "https://www.youtube.com/watch?v=vcOdC_yV2cs&t=390s",
+      "at": "6:30"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2026-03-12",
+     "when": "March 2026",
+     "text": "In March 2026, Equity Mates noted Caterpillar traded at about a 37 price to earnings, as established industrials were being bid up as perceived AI-immune businesses.",
+     "episode": {
+      "title": "McDonald's has lost its crown, why boring stocks are winning & 4 reasons to sell",
+      "url": "https://equitymates.com/episode/mcdonalds-has-lost-its-crown-why-boring-stocks-are-winning-4-reasons-to-sell/",
+      "jump": "https://www.youtube.com/watch?v=XILfumUGoRY&t=668s",
+      "at": "11:08"
+     }
+    }
+   ]
+  }
+ ]
+}

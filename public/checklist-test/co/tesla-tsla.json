@@ -1,0 +1,159 @@
+{
+ "slug": "tesla-tsla",
+ "name": "Tesla",
+ "full": "Tesla",
+ "listings": [
+  "NASDAQ: TSLA"
+ ],
+ "built": "2026-10-30",
+ "episodes": 5,
+ "mentioned_in": 363,
+ "latest": "2026-10-22",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2026-10-22",
+     "when": "October 2026",
+     "text": "In October 2026, Equity Mates said the Roadster demo showcased engineering feats like fan systems for ground force and 0 to 100 km/h in 1.5 seconds, while noting the top model was invite only.",
+     "episode": {
+      "title": "Tesla’s flying car, the AI boom’s biggest question & how to survive a market crash",
+      "url": "https://equitymates.com/episode/teslas-flying-car-the-ai-booms-biggest-question-how-to-survive-a-market-crash/",
+      "jump": "https://www.youtube.com/watch?v=BYOi9edWe-A&t=353s",
+      "at": "5:53"
+     }
+    },
+    {
+     "date": "2024-06-17",
+     "when": "June 2024",
+     "text": "In June 2024, Equity Mates outlined Tesla Energy’s products, including solar panels and roof tiles, inverters, the home Powerwall and the utility‑scale Megapack, highlighting a broader product suite beyond cars.",
+     "episode": {
+      "title": "Tesla: \"It's on a path\" to grow 300% by 2030 | Company deep dive",
+      "url": "https://equitymates.com/episode/tesla-its-on-a-path-to-grow-300-by-2030-company-deep-dive/",
+      "jump": "https://www.youtube.com/watch?v=dCWARcFGDgs&t=737s",
+      "at": "12:17"
+     }
+    },
+    {
+     "date": "2022-07-19",
+     "when": "July 2022",
+     "text": "In July 2022, Equity Mates explained Tesla’s over‑the‑air updates improved vehicles using driving data, likening it to phone updates that add features years after purchase.",
+     "episode": {
+      "title": "Will Tesla 7x its value in the next 4 years?",
+      "url": "https://equitymates.com/episode/will-tesla-7x-its-value-in-the-next-4-years/",
+      "jump": null,
+      "at": "15:28"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2026-09-10",
+     "when": "September 2026",
+     "text": "In September 2026, Equity Mates compared autonomous players, saying Waymo was in 14 cities and Baidu’s Apollo Go led globally by some measures, while Tesla was in seven cities with under 400,000 cumulative miles.",
+     "episode": {
+      "title": "Tesla’s robotaxi reality check, One Nation’s Super proposal & what would you do for $750k?",
+      "url": "https://equitymates.com/episode/teslas-robotaxi-reality-check-one-nations-super-proposal-what-would-you-do-for-750k/",
+      "jump": "https://www.youtube.com/watch?v=Bh4nlJVhEdw&t=388s",
+      "at": "6:28"
+     }
+    },
+    {
+     "date": "2025-10-27",
+     "when": "October 2025",
+     "text": "In October 2025, Equity Mates reported Q3 revenue rose about 12% to roughly $28 billion but profit fell 37% to $1.37 billion as operating margin halved, tariffs cost $400 million and regulatory credits dried up.",
+     "episode": {
+      "title": "Tesla's biggest quarter yet, what stocks are experts buying & Luke Laretive is back for Pimp my Portfolio",
+      "url": "https://equitymates.com/episode/teslas-biggest-quarter-yet-what-stocks-are-experts-buying-luke-laretive-is-back-for-pimp-my-portfolio/",
+      "jump": "https://www.youtube.com/watch?v=ZNdDH5uymDM&t=351s",
+      "at": "5:51"
+     }
+    },
+    {
+     "date": "2024-06-17",
+     "when": "June 2024",
+     "text": "In June 2024, Equity Mates suggested Tesla could be valued more like a traditional automaker over time, with margins trending toward industry norms as the business matures.",
+     "episode": {
+      "title": "Tesla: \"It's on a path\" to grow 300% by 2030 | Company deep dive",
+      "url": "https://equitymates.com/episode/tesla-its-on-a-path-to-grow-300-by-2030-company-deep-dive/",
+      "jump": "https://www.youtube.com/watch?v=dCWARcFGDgs&t=1037s",
+      "at": "17:17"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2025-10-27",
+     "when": "October 2025",
+     "text": "In October 2025, Equity Mates noted Tesla delivered 497,000 vehicles in the quarter, held $41.5 billion cash and generated $4 billion free cash flow, giving capacity to fund growth amid competition.",
+     "episode": {
+      "title": "Tesla's biggest quarter yet, what stocks are experts buying & Luke Laretive is back for Pimp my Portfolio",
+      "url": "https://equitymates.com/episode/teslas-biggest-quarter-yet-what-stocks-are-experts-buying-luke-laretive-is-back-for-pimp-my-portfolio/",
+      "jump": "https://www.youtube.com/watch?v=ZNdDH5uymDM&t=453s",
+      "at": "7:33"
+     }
+    },
+    {
+     "date": "2024-06-17",
+     "when": "June 2024",
+     "text": "In June 2024, Equity Mates recapped capital allocation into energy via the 2016 SolarCity acquisition and the build‑out of Powerwall and Megapack as adjacent growth platforms.",
+     "episode": {
+      "title": "Tesla: \"It's on a path\" to grow 300% by 2030 | Company deep dive",
+      "url": "https://equitymates.com/episode/tesla-its-on-a-path-to-grow-300-by-2030-company-deep-dive/",
+      "jump": "https://www.youtube.com/watch?v=dCWARcFGDgs&t=737s",
+      "at": "12:17"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2026-10-22",
+     "when": "October 2026",
+     "text": "In October 2026, Equity Mates noted Tesla shares fell about 2% on the Roadster demo day and contrasted it with historic product launch reactions, raising the question of how much innovation was already priced in.",
+     "episode": {
+      "title": "Tesla’s flying car, the AI boom’s biggest question & how to survive a market crash",
+      "url": "https://equitymates.com/episode/teslas-flying-car-the-ai-booms-biggest-question-how-to-survive-a-market-crash/",
+      "jump": "https://www.youtube.com/watch?v=BYOi9edWe-A&t=353s",
+      "at": "5:53"
+     }
+    },
+    {
+     "date": "2024-06-17",
+     "when": "June 2024",
+     "text": "In June 2024, Equity Mates framed valuation around sustainable production, annual car sales and margin profile, saying markets may assess Tesla more like a carmaker over time.",
+     "episode": {
+      "title": "Tesla: \"It's on a path\" to grow 300% by 2030 | Company deep dive",
+      "url": "https://equitymates.com/episode/tesla-its-on-a-path-to-grow-300-by-2030-company-deep-dive/",
+      "jump": "https://www.youtube.com/watch?v=dCWARcFGDgs&t=1037s",
+      "at": "17:17"
+     }
+    },
+    {
+     "date": "2022-07-19",
+     "when": "July 2022",
+     "text": "In July 2022, Equity Mates discussed Ark Invest’s model that set an expected value of $4,600 per share for 2026, hinging on assumptions like the timing of robotaxi rollout.",
+     "episode": {
+      "title": "Will Tesla 7x its value in the next 4 years?",
+      "url": "https://equitymates.com/episode/will-tesla-7x-its-value-in-the-next-4-years/",
+      "jump": null,
+      "at": "3:44"
+     }
+    }
+   ]
+  }
+ ]
+}

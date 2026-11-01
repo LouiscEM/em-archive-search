@@ -1,0 +1,46 @@
+{
+ "slug": "texas-pacific-land-tpl",
+ "name": "Texas Pacific Land",
+ "full": "Texas Pacific Land",
+ "listings": [
+  "NYSE: TPL"
+ ],
+ "built": "2026-11-01",
+ "episodes": 1,
+ "mentioned_in": 1,
+ "latest": "2025-02-20",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2025-02-20",
+     "when": "February 2025",
+     "text": "In February 2025, Equity Mates explained Texas Pacific Land by stating it owned 800,000 surface acres of land, outlining the scale of its asset base and clarifying the nature of its business as a major landholder.",
+     "episode": {
+      "title": "Our latest AI research tool, hedged or unhedged ETFs & the China risk",
+      "url": "https://equitymates.com/episode/our-latest-ai-research-tool-hedged-or-unhedged-etfs-the-china-risk/",
+      "jump": "https://www.youtube.com/watch?v=Zc5R1qJ1m_k&t=1100s",
+      "at": "18:20"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": []
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}

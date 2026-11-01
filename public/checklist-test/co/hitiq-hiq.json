@@ -1,0 +1,69 @@
+{
+ "slug": "hitiq-hiq",
+ "name": "HitIQ",
+ "full": "HitIQ",
+ "listings": [
+  "ASX: HIQ"
+ ],
+ "built": "2026-11-01",
+ "episodes": 2,
+ "mentioned_in": 3,
+ "latest": "2024-06-20",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2024-06-20",
+     "when": "June 2024",
+     "text": "In June 2024, Equity Mates described HitIQ as a concussion mouthguard business and said the product could start with professionals and then be sold to amateurs and kids by leveraging the halo effect of elite sport.",
+     "episode": {
+      "title": "Catapult: Dominating sports analytics - how big can it get? | Company deep dive",
+      "url": "https://equitymates.com/episode/catapult-dominating-sports-analytics-how-big-can-it-get-company-deep-dive/",
+      "jump": "https://www.youtube.com/watch?v=_SLWpiNVv0A&t=980s",
+      "at": "16:20"
+     }
+    },
+    {
+     "date": "2023-04-11",
+     "when": "April 2023",
+     "text": "In April 2023, Equity Mates introduced HitIQ as a $5.5 million market cap company building a smart mouthguard that measured head knocks for sports people, noting concussions were prominently in the headlines.",
+     "episode": {
+      "title": "Is Core and Satellite a cop out?",
+      "url": "https://equitymates.com/episode/is-core-and-satellite-a-cop-out/",
+      "jump": null,
+      "at": "31:41"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": []
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2023-04-11",
+     "when": "April 2023",
+     "text": "In April 2023, Equity Mates noted HitIQ had a $5.5 million market cap when profiled in an Uncovered segment, framing it as a tiny micro-cap with limited coverage.",
+     "episode": {
+      "title": "Is Core and Satellite a cop out?",
+      "url": "https://equitymates.com/episode/is-core-and-satellite-a-cop-out/",
+      "jump": null,
+      "at": "31:41"
+     }
+    }
+   ]
+  }
+ ]
+}

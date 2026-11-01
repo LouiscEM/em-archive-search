@@ -1,0 +1,81 @@
+{
+ "slug": "mitsubishi-heavy-industries-7011",
+ "name": "Mitsubishi Heavy Industries",
+ "full": "Mitsubishi Heavy Industries",
+ "listings": [
+  "TYO: 7011"
+ ],
+ "built": "2026-11-01",
+ "episodes": 2,
+ "mentioned_in": 2,
+ "latest": "2026-06-11",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2024-10-28",
+     "when": "October 2024",
+     "text": "In October 2024, Equity Mates described Mitsubishi Heavy Industries as a picks-and-shovels supplier to small modular reactors, noting it makes industrial energy equipment that feeds into SMR builds.",
+     "episode": {
+      "title": "Australian housing quarterly update & Nuclear energy and AI: What you need to know",
+      "url": "https://equitymates.com/episode/australian-housing-quarterly-update-nuclear-energy-and-ai-what-you-need-to-know/",
+      "jump": "https://www.youtube.com/watch?v=SVQnTbr9a88&t=794s",
+      "at": "13:14"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2026-06-11",
+     "when": "June 2026",
+     "text": "In June 2026, a guest on Equity Mates said GE Vernova, Siemens and Mitsubishi Heavy Industries controlled about 90% of power generation equipment, were busy with long-term projects, and were investing in new technologies, suggesting durable industry power.",
+     "episode": {
+      "title": "The stock market’s $400 billion test, Bryce’s thesis card reveal & a 3-in-1 pitch for the Community Portfolio",
+      "url": "https://equitymates.com/episode/the-stock-markets-400-billion-test-bryces-thesis-card-reveal-a-3-in-1-pitch-for-the-community-portfolio/",
+      "jump": "https://www.youtube.com/watch?v=t9LCbSBdrec&t=1694s",
+      "at": "28:14"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": []
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": [
+    {
+     "date": "2026-06-11",
+     "when": "June 2026",
+     "text": "In June 2026, Equity Mates noted Mitsubishi Heavy Industries had more than 10-bagged over five years as investors backed electrification, renewables, gas turbines and nuclear as a multi-decade theme, while flagging SMR nuclear incidents as a potential hit to sentiment.",
+     "episode": {
+      "title": "The stock market’s $400 billion test, Bryce’s thesis card reveal & a 3-in-1 pitch for the Community Portfolio",
+      "url": "https://equitymates.com/episode/the-stock-markets-400-billion-test-bryces-thesis-card-reveal-a-3-in-1-pitch-for-the-community-portfolio/",
+      "jump": "https://www.youtube.com/watch?v=t9LCbSBdrec&t=1869s",
+      "at": "31:09"
+     }
+    },
+    {
+     "date": "2024-10-28",
+     "when": "October 2024",
+     "text": "In October 2024, Equity Mates highlighted Mitsubishi Heavy Industries’ share price strength, up 177% over the prior 12 months, linking the move to growing announcements around small modular reactors.",
+     "episode": {
+      "title": "Australian housing quarterly update & Nuclear energy and AI: What you need to know",
+      "url": "https://equitymates.com/episode/australian-housing-quarterly-update-nuclear-energy-and-ai-what-you-need-to-know/",
+      "jump": "https://www.youtube.com/watch?v=SVQnTbr9a88&t=794s",
+      "at": "13:14"
+     }
+    }
+   ]
+  }
+ ]
+}

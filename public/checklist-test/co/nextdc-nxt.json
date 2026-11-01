@@ -1,0 +1,70 @@
+{
+ "slug": "nextdc-nxt",
+ "name": "Nextdc",
+ "full": "Nextdc",
+ "listings": [
+  "ASX: NXT"
+ ],
+ "built": "2026-11-01",
+ "episodes": 1,
+ "mentioned_in": 2,
+ "latest": "2024-10-22",
+ "steps": [
+  {
+   "step": 1,
+   "q": "Does it make a great product or service?",
+   "views": [
+    {
+     "date": "2024-10-22",
+     "when": "October 2024",
+     "text": "In October 2024, Equity Mates described Nextdc’s data centres as beneficiaries of an explosion in AI-driven demand, noting there were very few ASX-listed ways to get exposure to the data centre theme.",
+     "episode": {
+      "title": "Buy or Sell: Henry Jennings - Liontown, Zip, Qantas, NextDC, Lynas & more",
+      "url": "https://equitymates.com/episode/buy-or-sell-henry-jennings-liontown-zip-qantas-nextdc-lynas-more/",
+      "jump": "https://www.youtube.com/watch?v=fcB_Gx634vA&t=1299s",
+      "at": "21:39"
+     }
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "q": "Will it keep earning above market profits?",
+   "views": [
+    {
+     "date": "2024-10-22",
+     "when": "October 2024",
+     "text": "In October 2024, a guest on Equity Mates said strong demand for data centres and limited ASX alternatives suggested favourable industry dynamics for Nextdc, citing the AirTrunk deal reportedly reaching about $24 billion as evidence of sector value.",
+     "episode": {
+      "title": "Buy or Sell: Henry Jennings - Liontown, Zip, Qantas, NextDC, Lynas & more",
+      "url": "https://equitymates.com/episode/buy-or-sell-henry-jennings-liontown-zip-qantas-nextdc-lynas-more/",
+      "jump": "https://www.youtube.com/watch?v=fcB_Gx634vA&t=1299s",
+      "at": "21:39"
+     }
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "q": "Can it reinvest its profits productively?",
+   "views": [
+    {
+     "date": "2024-10-22",
+     "when": "October 2024",
+     "text": "In October 2024, Equity Mates noted Nextdc had a record of raising capital and highlighted headlines of a $2.9 billion debt raise, framing it as funding for ongoing growth in capacity.",
+     "episode": {
+      "title": "Buy or Sell: Henry Jennings - Liontown, Zip, Qantas, NextDC, Lynas & more",
+      "url": "https://equitymates.com/episode/buy-or-sell-henry-jennings-liontown-zip-qantas-nextdc-lynas-more/",
+      "jump": "https://www.youtube.com/watch?v=fcB_Gx634vA&t=1299s",
+      "at": "21:39"
+     }
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "q": "Can it be bought at a reasonable price?",
+   "views": []
+  }
+ ]
+}
