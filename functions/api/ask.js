@@ -30,7 +30,7 @@
 // Stamped at commit time so the config check says WHICH revision is live.
 // Without it, 'is the fix deployed yet' is unanswerable and every timing
 // measurement is ambiguous.
-const BUILD = 'two-step-10';
+const BUILD = 'two-step-11';
 const MODEL = 'gpt-5';
 const EFFORT = 'minimal';
 const SEARCH_RESULTS = 8;
@@ -65,7 +65,10 @@ Equity Mates has said about any of these. A bare topic counts ("bitcoin", "debt
 recycling"). Casual wording or swearing is fine when there is a real money question in it
 ("what the fuck is a franking credit"). Asking what something illegal IS, or how a rule
 works, counts ("what is insider trading", "how can I legally pay less tax"). Worry about
-money counts ("I'm stressed about my mortgage, what options do people have").
+money counts ("I'm stressed about my mortgage, what options do people have"). Requests
+for a company view, valuation, checklist or framework count, even when not phrased as a
+question ("where's the checklist for the Xero valuation", "give me a read on Xero", "I want
+a valuation of CSL", "A2 Milk").
 CRISIS: the person mentions harming or killing themselves, not wanting to live, or being in
 danger. Money stress, worry or hardship WITHOUT any of that is IN, not CRISIS.
 HARMFUL: asks for help BREAKING the rules: evading tax or hiding income from the ATO, market
