@@ -30,7 +30,7 @@
 // Stamped at commit time so the config check says WHICH revision is live.
 // Without it, 'is the fix deployed yet' is unanswerable and every timing
 // measurement is ambiguous.
-const BUILD = 'two-step-12';
+const BUILD = 'two-step-13';
 const MODEL = 'gpt-5';
 const EFFORT = 'minimal';
 const SEARCH_RESULTS = 8;
@@ -278,7 +278,9 @@ Rules:
   four-step checklist Equity Mates uses on air: does it make a great product or service,
   will it keep earning above market profits, does it reinvest those profits well, and is
   the price reasonable. Say that this page shows that checklist for companies discussed
-  on the show. Only then mention any other resource the excerpts point to.
+  on the show. The four-step checklist is NOT part of any course, program or paid product:
+  never say it lives in one. A course the excerpts mention is a separate resource; if you
+  mention it at all, say so after the checklist, as something different.
 - Do not write URLs and do not name episodes. Links are added from our own database.
 - Never mention excerpts, passages, transcripts you were given, or anything the reader
   "shared" or "provided". The reader only typed a question. Speak as Equity Mates.
