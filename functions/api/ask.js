@@ -30,7 +30,7 @@
 // Stamped at commit time so the config check says WHICH revision is live.
 // Without it, 'is the fix deployed yet' is unanswerable and every timing
 // measurement is ambiguous.
-const BUILD = 'two-step-13';
+const BUILD = 'two-step-14';
 const MODEL = 'gpt-5';
 const EFFORT = 'minimal';
 const SEARCH_RESULTS = 8;
@@ -149,7 +149,10 @@ comparison versus a definition, or asking for a checklist, framework or method v
 for a view or valuation ("where's the checklist for Xero" vs "a valuation of Xero"). Answer
 YES only for the same question in different words.
 Reply with exactly YES or NO.`;
-const MAX_QUESTION = 300;      // characters; longer is abuse, not curiosity
+// Kinds of request that need different answers about the same subject (see findReuse).
+const INTENTS = [/\b(checklist|framework|steps)\b/, /\b(valu(e|ation|ed)|worth|overvalued|undervalued|cheap|expensive)\b/,
+  /\b(buy|sell|hold)\b/, /\b(vs|versus|compare[ds]?|better than|or)\b/, /\b(tax|taxed)\b/];
+const MAX_QUESTION = 300;     // characters; longer is abuse, not curiosity
 const RATE_LIMIT = 12;         // questions per IP per hour
 const STORE_NAME = 'equity-mates-episodes';
 const ALLOWED = ['https://equitymates.com', 'https://www.equitymates.com',
@@ -442,6 +445,11 @@ async function findReuse(env, question, vec) {
     if (dot > score) { score = dot; best = r; }
   }
   if (!best || score < REUSE_SHORTLIST) return null;
+  // A fixed check before the judge, because the judge wavers: on 3 Nov 2026 it twice
+  // matched "where's the checklist for the Xero valuation" to "I want a valuation of Xero",
+  // even with an instruction against it. Different kinds of request never share an answer.
+  const kinds = (s) => INTENTS.filter((re) => re.test(s)).map(String).join('|');
+  if (kinds(question.toLowerCase()) !== kinds(best.q.toLowerCase())) return null;
   const d = await openai(env, '/responses', { model: JUDGE_MODEL, reasoning: { effort: 'minimal' },
     instructions: JUDGE, input: `Question A: ${question}\nQuestion B: ${best.q}` });
   const verdict = (d.output || []).flatMap((o) => o.content || []).map((c) => c.text || '').join('').trim();
