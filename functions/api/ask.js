@@ -30,7 +30,7 @@
 // Stamped at commit time so the config check says WHICH revision is live.
 // Without it, 'is the fix deployed yet' is unanswerable and every timing
 // measurement is ambiguous.
-const BUILD = 'two-step-11';
+const BUILD = 'two-step-12';
 const MODEL = 'gpt-5';
 const EFFORT = 'minimal';
 const SEARCH_RESULTS = 8;
@@ -144,8 +144,10 @@ const JUDGE = `Two questions were asked on an Australian investing education sit
 one written answer would correctly answer BOTH, with nothing important missing or wrong.
 Answer NO if they differ in any way that changes the answer: a different product, company,
 asset, tax rule or strategy (negative vs positive gearing, dividend vs growth stocks, ETF vs
-LIC), a narrower or added condition (franking credits vs franking credits with ETFs), or a
-comparison versus a definition. Answer YES only for the same question in different words.
+LIC), a narrower or added condition (franking credits vs franking credits with ETFs), a
+comparison versus a definition, or asking for a checklist, framework or method versus asking
+for a view or valuation ("where's the checklist for Xero" vs "a valuation of Xero"). Answer
+YES only for the same question in different words.
 Reply with exactly YES or NO.`;
 const MAX_QUESTION = 300;      // characters; longer is abuse, not curiosity
 const RATE_LIMIT = 12;         // questions per IP per hour
@@ -563,7 +565,10 @@ async function companies(request) {
 async function findCompany(request, question) {
   const list = await companies(request);
   for (const t of question.match(/\b[A-Z0-9]{3,5}\b/g) || []) if (list.tickers[t]) return list.tickers[t];
-  const q = ` ${question.toLowerCase().replace(/[’']s\b/g, '').replace(/[^a-z0-9.&\- ]+/g, ' ')} `;
+  // Dots stay inside names (carsales.com, monday.com) but not at the end of a word: "Give
+  // me a read on Xero." found no company on 3 Nov 2026.
+  const q = ` ${question.toLowerCase().replace(/[’']s\b/g, '').replace(/[^a-z0-9.&\- ]+/g, ' ')
+    .replace(/\.(?![a-z0-9])/g, ' ')} `;
   let best = null;
   for (const [alias, entry] of Object.entries(list.names)) {
     if (q.includes(` ${alias} `) && (!best || alias.length > best[0].length)) best = [alias, entry];
