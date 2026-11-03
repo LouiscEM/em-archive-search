@@ -30,7 +30,7 @@
 // Stamped at commit time so the config check says WHICH revision is live.
 // Without it, 'is the fix deployed yet' is unanswerable and every timing
 // measurement is ambiguous.
-const BUILD = 'two-step-9';
+const BUILD = 'two-step-10';
 const MODEL = 'gpt-5';
 const EFFORT = 'minimal';
 const SEARCH_RESULTS = 8;
@@ -269,6 +269,11 @@ Rules:
   its date ("around $7 in March 2021; $6.86 on 30 October 2026"). Quote no other price as
   current. A price move is context, never a reason to buy or sell, so draw no conclusion
   from it about whether the shares are good value.
+- If the question asks for a checklist, framework or way to judge a company, lead with the
+  four-step checklist Equity Mates uses on air: does it make a great product or service,
+  will it keep earning above market profits, does it reinvest those profits well, and is
+  the price reasonable. Say that this page shows that checklist for companies discussed
+  on the show. Only then mention any other resource the excerpts point to.
 - Do not write URLs and do not name episodes. Links are added from our own database.
 - Never mention excerpts, passages, transcripts you were given, or anything the reader
   "shared" or "provided". The reader only typed a question. Speak as Equity Mates.
@@ -572,19 +577,32 @@ async function priceFor(entry) {
   const timer = setTimeout(() => ctl.abort(), 2500);   // never hold up an answer for a price
   try {
     const r = await fetch(`https://query1.finance.yahoo.com/v8/finance/chart/${encodeURIComponent(symbol)}` +
-      '?range=10y&interval=1mo', { signal: ctl.signal, headers: { 'User-Agent': 'Mozilla/5.0' } });
+      '?range=10y&interval=1mo&events=split', { signal: ctl.signal, headers: { 'User-Agent': 'Mozilla/5.0' } });
     if (!r.ok) return null;
     const res = ((await r.json()).chart || {}).result;
     const d = res && res[0];
     if (!d || !d.meta || !d.meta.regularMarketPrice) return null;
+    // Yahoo's history is split-adjusted: a 3 Nov 2026 screen found "Nvidia traded around
+    // US$14.61 in December 2022", when it really traded near US$146 before its 2024 10:1
+    // split. Undo every split that happened after each month closed, so a past price is the
+    // price people actually saw (and the one quoted in that episode).
+    const splits = Object.values(((d.events || {}).splits) || {})
+      .filter((x) => x.date && x.numerator && x.denominator);
     const closes = {};
     const q = ((d.indicators || {}).quote || [])[0] || {};
-    (d.timestamp || []).forEach((t, i) => {
-      if (q.close && q.close[i] != null) closes[new Date(t * 1000).toISOString().slice(0, 7)] = q.close[i];
+    const ts = d.timestamp || [];
+    ts.forEach((t, i) => {
+      if (!q.close || q.close[i] == null) return;
+      const monthEnd = ts[i + 1] || t + 31 * 86400;
+      const factor = splits.filter((x) => x.date >= monthEnd)
+        .reduce((f, x) => f * (x.numerator / x.denominator), 1);
+      closes[new Date(t * 1000).toISOString().slice(0, 7)] = q.close[i] * factor;
     });
     const value = { label, symbol, currency: d.meta.currency || '', price: d.meta.regularMarketPrice,
       asAt: new Date((d.meta.regularMarketTime || Date.now() / 1000) * 1000).toISOString().slice(0, 10),
-      closes, source: 'Yahoo Finance' };
+      closes, source: 'Yahoo Finance',
+      splits: splits.map((x) => ({ on: new Date(x.date * 1000).toISOString().slice(0, 10),
+        ratio: `${x.numerator}-for-${x.denominator}`.replace(/\.0\b/g, '') })) };
     PRICE_CACHE.set(symbol, { at: Date.now(), value });
     return value;
   } catch (e) { return null; } finally { clearTimeout(timer); }
@@ -605,7 +623,12 @@ function priceBrief(p, chunks) {
     .map((m) => `${monthYear(m + '-01')}: ${money(p.closes[m], p.currency)}`);
   return `\n\nShare price data from ${p.source}. These are the ONLY share prices you may quote.\n` +
     `${p.label}: ${money(p.price, p.currency)} on ${fullDate(p.asAt)}.\n` +
-    (then.length ? `Month-end price in the months the excerpts were recorded: ${then.join('; ')}.` : '');
+    (then.length ? `Month-end price in the months the excerpts were recorded: ${then.join('; ')}.` : '') +
+    // Past prices are as traded at the time, so a split makes them look like a crash.
+    ((p.splits || []).some((x) => x.on.slice(0, 7) > months[0]) && then.length ? `\nThese are the prices as traded at the time. Share splits since: ` +
+      `${p.splits.filter((x) => x.on.slice(0, 7) > months[0]).map((x) => `${x.ratio} on ${fullDate(x.on)}`).join('; ')}. A price from before a split is NOT ` +
+      `comparable with today's: if you compare then and now across a split, say the shares were split and ` +
+      `do not describe the drop in the quoted price as a fall in value.` : '');
 }
 
 /** What the page shows beside the answer: today's price only, no history. */
@@ -886,7 +909,9 @@ export async function onRequestPost(context) {
         detail: String(e).slice(0, 180) });
     } finally {
       await writer.close();
-      if (!prewarm) {
+      // The daily health check asks three fixed test questions; they are not readers.
+      const health = origin === TEST_ORIGIN && request.headers.get('X-Ask-Health') === '1';
+      if (!prewarm && !health) {
         L.company = await companyP.then((c) => (c ? c[0] : null)).catch(() => null);
         L.ms = Date.now() - t0;
         await logQ(env, L);
