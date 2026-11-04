@@ -1,0 +1,559 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>Ask Equity Mates anything: test bed</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@500;600;700;800;900&family=Open+Sans:wght@400;600;700&display=swap">
+<style>
+/* Mockup, 4 Nov 2026. Static page on local data (mockups\build_ask_next_data.py). */
+:root{--navy:#18263B;--navy2:#22344F;--coral:#F15959;--coral2:#FDECEC;--ink:#3A4A5C;--mute:#7C8A9C;--line:#E3E7EC;
+--soft:#F5F6F8;--ok:#2E9E6B;--okbg:#E6F5EE;--mid:#C98A1B;--midbg:#FBF1DE;--no:#C7443F;--nobg:#FBE7E6;
+--s1:#F15959;--s2:#3B82C4;--s3:#2E9E6B;--s4:#C98A1B;--r:14px}
+*{box-sizing:border-box}
+body{margin:0;background:#fff;color:var(--ink);font:15px/1.6 'Open Sans',Arial,sans-serif}
+h1,h2,h3,h4,.lf{font-family:'Libre Franklin',Arial,sans-serif;color:var(--navy);margin:0}
+a{color:var(--navy)}
+button{font:inherit;cursor:pointer}
+.wrap{max-width:1120px;margin:0 auto;padding:0 24px}
+.tag{background:var(--coral);color:#fff;font:700 11px 'Libre Franklin',Arial;letter-spacing:1.6px;text-transform:uppercase;text-align:center;padding:7px}
+.i{width:18px;height:18px;flex:none;stroke:currentColor;fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+
+/* top bar */
+.bar{background:var(--navy);color:#fff}
+.bar .wrap{display:flex;align-items:center;justify-content:space-between;height:64px}
+.logo{font:900 21px 'Libre Franklin',Arial;color:#fff;text-decoration:none;letter-spacing:-.3px}.logo span{color:var(--coral)}
+.bar nav a{color:#C9D2DE;text-decoration:none;font:600 14px 'Libre Franklin',Arial;margin-left:26px}
+.bar nav a.on{color:#fff}
+
+/* hero */
+.hero{background:radial-gradient(1200px 500px at 50% -10%,#2A4166 0%,var(--navy) 60%);color:#fff;padding:64px 0 44px;position:relative}
+.hero:before{content:"";position:absolute;inset:0;background-image:radial-gradient(rgba(255,255,255,.07) 1px,transparent 1px);background-size:22px 22px;pointer-events:none}
+.hero .wrap{position:relative;text-align:center}
+.kick{display:inline-flex;align-items:center;gap:8px;color:var(--coral);font:800 12px 'Libre Franklin',Arial;letter-spacing:2px;text-transform:uppercase}
+.hero h1{color:#fff;font-weight:900;font-size:58px;line-height:1.05;letter-spacing:-1.5px;margin:14px 0 10px}
+.hero h1 .hl{color:var(--coral)}
+.hero .sub{color:#C9D2DE;font-size:19px;margin:0 0 6px}
+.hero .lis{color:#9FB0C4;font-size:14px;margin:0 0 30px}
+.modes{display:inline-flex;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.14);border-radius:999px;padding:5px;gap:4px;margin-bottom:18px}
+.modes button{border:0;background:transparent;color:#C9D2DE;border-radius:999px;padding:10px 18px;font:700 14px 'Libre Franklin',Arial;display:inline-flex;align-items:center;gap:8px}
+.modes button.on{background:#fff;color:var(--navy)}
+.modes .new{background:var(--coral);color:#fff;border-radius:6px;font-size:10px;padding:2px 6px;letter-spacing:.5px}
+.search{position:relative;max-width:720px;margin:0 auto}
+.search form{display:flex;align-items:center;background:#fff;border-radius:16px;padding:8px 8px 8px 20px;box-shadow:0 18px 40px rgba(0,0,0,.25)}
+.search input{flex:1;border:0;outline:0;font:500 18px 'Open Sans',Arial;color:var(--navy);padding:12px 10px;background:transparent;min-width:0}
+.search form>.i{color:var(--mute)}
+.search button.go{border:0;background:var(--coral);color:#fff;border-radius:11px;padding:13px 22px;font:800 15px 'Libre Franklin',Arial;display:flex;gap:8px;align-items:center}
+.sugg{position:absolute;left:0;right:0;top:calc(100% + 8px);background:#fff;border-radius:14px;box-shadow:0 18px 40px rgba(0,0,0,.25);text-align:left;overflow:hidden;z-index:5}
+.sugg button{display:flex;width:100%;border:0;background:#fff;padding:12px 18px;gap:12px;align-items:center;color:var(--navy);text-align:left}
+.sugg button:hover,.sugg button.on{background:var(--soft)}
+.sugg small{color:var(--mute);margin-left:auto;font-size:12px}
+.chips{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;margin-top:18px}
+.chips span{color:#9FB0C4;font:600 13px 'Libre Franklin',Arial;align-self:center;margin-right:4px}
+.chips button{border:1px solid rgba(255,255,255,.2);background:rgba(255,255,255,.06);color:#fff;border-radius:999px;padding:7px 14px;font:600 13px 'Libre Franklin',Arial}
+.chips button:hover{background:rgba(255,255,255,.16)}
+
+/* shared section heads */
+.shead{display:flex;justify-content:space-between;align-items:flex-end;gap:16px;margin-bottom:20px}
+.shead h2{font-size:30px;font-weight:900;letter-spacing:-.5px}
+.kick2{color:var(--coral);font:800 12px 'Libre Franklin',Arial;letter-spacing:2px;text-transform:uppercase;margin-bottom:6px}
+
+/* fresh off the mic carousel */
+.fresh{padding:40px 0 32px;background:#fff}
+.arrows{display:flex;gap:8px}
+.arrows button{width:40px;height:40px;border-radius:50%;border:1px solid var(--line);background:#fff;color:var(--navy);display:grid;place-items:center}
+.arrows button:hover{background:var(--soft)}
+.car{display:grid;grid-auto-flow:column;grid-auto-columns:calc((100% - 48px)/4);gap:16px;overflow-x:auto;scroll-snap-type:x mandatory;scroll-behavior:smooth;padding-bottom:8px;scrollbar-width:none}
+.car::-webkit-scrollbar{display:none}
+.ep{scroll-snap-align:start;text-decoration:none;color:inherit;display:flex;flex-direction:column;gap:8px}
+.ep .im{position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#0B1422}
+.ep .im img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .3s}
+.ep:hover .im img{transform:scale(1.04)}
+.ep .im .pl{position:absolute;left:10px;bottom:10px;width:36px;height:36px;border-radius:50%;background:var(--coral);display:grid;place-items:center}
+.ep .im .pl svg{width:13px;height:13px;fill:#fff;margin-left:2px}
+.ep .im .du{position:absolute;right:8px;bottom:8px;background:rgba(0,0,0,.75);color:#fff;border-radius:5px;padding:1px 7px;font:700 12px 'Open Sans',Arial}
+.ep .sh{font:800 11px 'Libre Franklin',Arial;letter-spacing:1.2px;text-transform:uppercase;color:var(--coral)}
+.ep .t{font:800 15px/1.3 'Libre Franklin',Arial;color:var(--navy);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.ep .d{font-size:12.5px;color:var(--mute)}
+.ep .ask{font:700 12.5px 'Libre Franklin',Arial;color:var(--navy);display:inline-flex;gap:6px;align-items:center}
+
+/* intro from the boys */
+.boys{padding:40px 0;background:var(--soft)}
+.bgrid{display:grid;grid-template-columns:4fr 7fr;gap:36px;align-items:center}
+.boys .photo{position:relative;border-radius:20px;overflow:hidden;box-shadow:0 20px 40px rgba(24,38,59,.18);transform:rotate(-1.5deg)}
+.boys .photo img{width:100%;display:block;aspect-ratio:4/3;object-fit:cover}
+.tagl{position:absolute;left:14px;bottom:14px;background:var(--navy);color:#fff;border-radius:999px;padding:7px 14px;font:800 13px 'Libre Franklin',Arial;display:inline-flex;gap:6px;align-items:center}
+.tagl .i{color:var(--coral);width:15px;height:15px}
+.btxt h2{font-size:26px;font-weight:900;letter-spacing:-.5px;margin-bottom:10px}
+.btxt p{font-size:15px;margin:0 0 8px}
+.quotes{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:12px 0 4px}
+.qt{text-align:left;border:0;background:#fff;border-radius:14px;padding:12px 14px;box-shadow:0 6px 18px rgba(24,38,59,.08);display:flex;flex-direction:column;gap:8px;position:relative;transition:transform .15s}
+.qt:hover{transform:translateY(-2px)}
+.qm{font:900 44px/0.6 'Libre Franklin',Arial;color:var(--coral);height:18px}
+.qx{font:700 14px/1.4 'Libre Franklin',Arial;color:var(--navy)}
+.qw{display:inline-flex;gap:8px;align-items:center;font:700 12.5px 'Libre Franklin',Arial;color:var(--mute)}
+.qw .dot{width:22px;height:22px;border-radius:50%;background:var(--coral);display:grid;place-items:center}
+.qw .dot svg{width:9px;height:9px;fill:#fff}
+.sig{font:900 19px 'Libre Franklin',Arial;color:var(--navy);margin-top:10px;font-style:italic}
+.sig small{display:block;font:600 11.5px 'Open Sans',Arial;color:var(--mid);font-style:normal;margin-top:4px}
+
+/* templates */
+.tpl{padding:40px 0;background:#fff}
+.tmore{margin-top:14px;border:0;background:transparent;color:var(--navy);font:800 14px 'Libre Franklin',Arial;display:inline-flex;gap:6px;align-items:center}
+.tfil{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:18px}
+.tfil button{border:1px solid var(--line);background:#fff;border-radius:999px;padding:8px 16px;font:700 13px 'Libre Franklin',Arial;color:var(--navy)}
+.tfil button.on{background:var(--navy);color:#fff;border-color:var(--navy)}
+.tgrid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+.tc{border:1px solid var(--line);border-radius:var(--r);padding:16px;background:#fff;display:flex;flex-direction:column;gap:8px;text-align:left;font:inherit;color:inherit;transition:box-shadow .15s,transform .15s;position:relative}
+.tc:hover{box-shadow:0 10px 24px rgba(24,38,59,.1);transform:translateY(-2px)}
+.tc .ty{display:flex;align-items:center;gap:8px;font:800 11px 'Libre Franklin',Arial;letter-spacing:1.2px;text-transform:uppercase}
+.tc .ty i{width:28px;height:28px;border-radius:8px;display:grid;place-items:center;color:#fff;font-style:normal}
+.tc h4{font-size:15.5px;font-weight:800;line-height:1.3}
+.tc p{margin:0;font-size:13.5px;color:var(--ink)}
+.tc .ft{margin-top:auto;padding-top:8px;display:flex;justify-content:space-between;align-items:center;font:700 13px 'Libre Franklin',Arial;color:var(--navy)}
+.tc .soon{background:var(--soft);color:var(--mute);border-radius:999px;padding:3px 10px;font-size:11px}
+.tc .live{background:var(--okbg);color:var(--ok);border-radius:999px;padding:3px 10px;font-size:11px}
+.tc.feat{background:linear-gradient(135deg,var(--navy),#2A4166);border:0;color:#C9D2DE}
+.tc.feat h4{color:#fff;font-size:16px}.tc.feat p{color:#C9D2DE}.tc.feat .ft{color:#fff}
+.tc.feat .steps4{display:flex;gap:8px;flex-wrap:wrap;margin-top:4px}
+.tc.feat .steps4 span{background:rgba(255,255,255,.1);border-radius:999px;padding:5px 12px;font:700 12px 'Libre Franklin',Arial;color:#fff}
+
+/* why strip */
+.why{padding:56px 0;background:#fff}
+.why h2{text-align:center;font-size:30px;font-weight:900;letter-spacing:-.5px}
+.why p.lead{text-align:center;color:var(--mute);margin:8px auto 30px;max-width:620px}
+.tiles{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.tile{border:1px solid var(--line);border-radius:var(--r);padding:24px;background:linear-gradient(180deg,#fff,#FAFBFC)}
+.tile .ico{width:44px;height:44px;border-radius:12px;display:grid;place-items:center;background:var(--coral2);color:var(--coral);margin-bottom:14px}
+.tile h3{font-size:18px;font-weight:800;margin-bottom:6px}
+.tile p{margin:0;font-size:14.5px}
+.tile .eg{margin-top:12px;font-size:13px;color:var(--mute);border-left:3px solid var(--coral);padding-left:10px}
+
+/* view shell */
+#view{display:none;padding:28px 0 90px;background:var(--soft);min-height:70vh}
+.back{display:inline-flex;align-items:center;gap:6px;color:var(--mute);font:600 14px 'Libre Franklin',Arial;text-decoration:none;margin-bottom:16px}
+.lead2{display:flex;gap:10px;align-items:flex-start;margin:0 0 18px;padding:12px 16px;border-radius:10px;background:var(--coral2);border-left:4px solid var(--coral);color:var(--navy);font-size:14px}
+.lead2 .i{color:var(--coral);margin-top:2px}
+.card{background:#fff;border:1px solid var(--line);border-radius:var(--r);padding:24px}
+.grid2{display:grid;grid-template-columns:minmax(0,1fr) 320px;gap:24px;align-items:start}
+.side{position:sticky;top:18px;display:flex;flex-direction:column;gap:16px}
+
+/* company header */
+.co h1{font-size:40px;font-weight:900;letter-spacing:-.8px}
+.co .lst{color:var(--mute);font:600 14px 'Libre Franklin',Arial;margin-left:10px}
+.co .meta{color:var(--mute);font-size:14px;margin:6px 0 18px}
+.co .row{display:flex;flex-direction:column;gap:14px}
+.co .px b{display:block;font:900 30px 'Libre Franklin',Arial;color:var(--navy)}
+.co .px small{color:var(--mute);font-size:12px}
+.chart{width:100%}
+.chart svg{width:100%;height:150px;display:block}
+.legend{display:flex;gap:14px;flex-wrap:wrap;font-size:12px;color:var(--mute);margin-top:6px}
+.legend i{display:inline-block;width:9px;height:9px;border-radius:50%;margin-right:5px;vertical-align:-1px}
+
+/* steps */
+.steps{display:flex;flex-direction:column;gap:16px;margin-top:18px}
+.step{background:#fff;border:1px solid var(--line);border-radius:var(--r);overflow:hidden}
+.step .hd{display:flex;gap:14px;align-items:center;padding:18px 22px;border-bottom:1px solid var(--line)}
+.step .num{width:36px;height:36px;border-radius:10px;display:grid;place-items:center;color:#fff;font:900 17px 'Libre Franklin',Arial;flex:none}
+.step h3{font-size:18px;font-weight:800}
+.step .hd small{display:block;color:var(--mute);font:600 12px 'Open Sans',Arial;margin-top:2px}
+.step .bd{padding:6px 22px 18px}
+.view{padding:16px 0;border-bottom:1px dashed var(--line)}
+.view:last-child{border-bottom:0}
+.view .when{display:flex;gap:8px;align-items:center;font:800 12px 'Libre Franklin',Arial;letter-spacing:1px;text-transform:uppercase;color:var(--navy);margin-bottom:4px}
+.badge{background:var(--navy);color:#fff;border-radius:5px;padding:2px 7px;font-size:10px;letter-spacing:.8px}
+.badge.old{background:var(--soft);color:var(--mute)}
+.view p{margin:0 0 10px}
+.view .then{font-size:13px;color:var(--mute);margin:-4px 0 10px}
+.vact{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+.play{display:inline-flex;align-items:center;gap:8px;border:0;text-decoration:none;background:var(--navy);color:#fff;border-radius:999px;padding:7px 14px 7px 8px;font:700 13px 'Libre Franklin',Arial}
+.play .dot{width:22px;height:22px;border-radius:50%;background:var(--coral);display:grid;place-items:center}
+.play .dot svg{width:10px;height:10px;fill:#fff;stroke:none}
+.ept{font-size:12.5px;color:var(--mute)}
+.player{margin-top:12px;border-radius:12px;overflow:hidden;background:#000;aspect-ratio:16/9;max-width:560px}
+.player iframe{width:100%;height:100%;border:0;display:block}
+.more{border:0;background:transparent;color:var(--navy);font:700 13px 'Libre Franklin',Arial;padding:10px 0 0;display:inline-flex;gap:6px;align-items:center}
+.older{display:none}.older.open{display:block}
+.call{display:flex;gap:10px;align-items:center;flex-wrap:wrap;background:var(--soft);padding:14px 22px;border-top:1px solid var(--line)}
+.call b{font:800 13px 'Libre Franklin',Arial;color:var(--navy);margin-right:6px}
+.call button{border:1px solid var(--line);background:#fff;border-radius:999px;padding:7px 14px;font:700 13px 'Libre Franklin',Arial;color:var(--ink)}
+.call button.on.y{background:var(--okbg);border-color:var(--ok);color:var(--ok)}
+.call button.on.m{background:var(--midbg);border-color:var(--mid);color:var(--mid)}
+.call button.on.n{background:var(--nobg);border-color:var(--no);color:var(--no)}
+
+/* side: your checklist */
+.mine h4{font-size:15px;font-weight:800;margin-bottom:4px}
+.mine p{font-size:13px;color:var(--mute);margin:0 0 12px}
+.mine ol{list-style:none;padding:0;margin:0 0 14px}
+.mine li{display:flex;gap:10px;align-items:center;padding:8px 0;border-bottom:1px solid var(--line);font-size:13.5px}
+.mine li .st{margin-left:auto;font:800 12px 'Libre Franklin',Arial}
+.mine .bar4{display:flex;gap:4px;margin-bottom:12px}.mine .bar4 i{flex:1;height:6px;border-radius:4px;background:var(--line)}
+.btn{display:flex;width:100%;justify-content:center;align-items:center;gap:8px;border:0;border-radius:11px;padding:12px;font:800 14px 'Libre Franklin',Arial}
+.btn.pri{background:var(--coral);color:#fff}.btn.sec{background:var(--navy);color:#fff}.btn.ghost{background:#fff;border:1px solid var(--line);color:var(--navy)}
+.note{font-size:12px;color:var(--mute);margin-top:10px}
+.next h4{font-size:15px;font-weight:800;margin-bottom:10px}
+.next a{display:flex;gap:10px;align-items:center;padding:9px 0;border-bottom:1px solid var(--line);text-decoration:none;font:600 14px 'Libre Franklin',Arial}
+.next a:last-child{border-bottom:0}
+.next a .i{color:var(--coral)}
+
+/* share card */
+.overlay{position:fixed;inset:0;background:rgba(10,18,30,.6);display:none;align-items:center;justify-content:center;z-index:20;padding:20px}
+.overlay.open{display:flex}
+.share{background:var(--navy);color:#fff;border-radius:20px;width:420px;max-width:100%;padding:28px;position:relative;box-shadow:0 30px 60px rgba(0,0,0,.4)}
+.share .x{position:absolute;right:14px;top:12px;border:0;background:transparent;color:#9FB0C4;font-size:22px}
+.share .k{color:var(--coral);font:800 11px 'Libre Franklin',Arial;letter-spacing:2px;text-transform:uppercase}
+.share h3{color:#fff;font-size:28px;font-weight:900;margin:6px 0 2px}
+.share .s{color:#9FB0C4;font-size:13px;margin-bottom:18px}
+.share li{display:flex;justify-content:space-between;padding:9px 0;border-bottom:1px solid rgba(255,255,255,.12);font-size:14px}
+.share ul{list-style:none;padding:0;margin:0 0 18px}
+.share .f{font-size:11.5px;color:#9FB0C4;margin-top:14px}
+.toast{position:fixed;bottom:24px;left:50%;transform:translateX(-50%);background:var(--navy);color:#fff;padding:10px 18px;border-radius:999px;font:700 13px 'Libre Franklin',Arial;display:none;z-index:30}
+
+/* concept + guide */
+.ans h1{font-size:34px;font-weight:900;letter-spacing:-.6px;margin-bottom:14px}
+.ans .short{font-size:18px;color:var(--navy);margin:0 0 16px}
+.path{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:10px}
+.pcard{background:#fff;border:1px solid var(--line);border-radius:var(--r);overflow:hidden;display:flex;flex-direction:column}
+.thumb{position:relative;aspect-ratio:16/9;background:#0B1422 center/cover no-repeat;border:0;padding:0;width:100%}
+.thumb .pl{position:absolute;inset:0;margin:auto;width:52px;height:52px;border-radius:50%;background:var(--coral);display:grid;place-items:center;box-shadow:0 6px 16px rgba(0,0,0,.35)}
+.thumb .pl svg{width:18px;height:18px;fill:#fff;stroke:none;margin-left:3px}
+.thumb .ts{position:absolute;right:8px;bottom:8px;background:rgba(0,0,0,.75);color:#fff;border-radius:5px;padding:1px 6px;font:700 12px 'Open Sans',Arial}
+.thumb.audio{display:block;background:radial-gradient(circle at 30% 20%,#2A4166,var(--navy));text-decoration:none}
+.thumb .al{position:absolute;left:0;right:0;bottom:12px;text-align:center;color:#C9D2DE;font:700 12px 'Libre Franklin',Arial;letter-spacing:.5px}
+.pcard .pb{padding:14px 16px}
+.lvl{font:800 11px 'Libre Franklin',Arial;letter-spacing:1.4px;text-transform:uppercase;color:var(--coral)}
+.pcard h4{font-size:14.5px;font-weight:800;margin:4px 0 6px;line-height:1.35}
+.pcard p{margin:0;font-size:13.5px}
+.rel{display:flex;gap:8px;flex-wrap:wrap;margin-top:8px}
+.rel button{border:1px solid var(--line);background:#fff;border-radius:999px;padding:7px 14px;font:700 13px 'Libre Franklin',Arial;color:var(--navy)}
+.sec-h{font-size:20px;font-weight:900;margin:28px 0 4px}
+.sec-p{color:var(--mute);font-size:14px;margin:0 0 12px}
+.qs{counter-reset:q;display:flex;flex-direction:column;gap:12px}
+.q{background:#fff;border:1px solid var(--line);border-radius:var(--r);padding:18px 20px 18px 64px;position:relative}
+.q:before{counter-increment:q;content:counter(q);position:absolute;left:18px;top:18px;width:30px;height:30px;border-radius:9px;background:var(--navy);color:#fff;display:grid;place-items:center;font:900 15px 'Libre Franklin',Arial}
+.q h4{font-size:16px;font-weight:800;margin-bottom:4px}
+.q p{margin:0 0 10px;font-size:14px}
+.q .mine2{display:flex;gap:8px;margin-top:6px}
+.q .mine2 button{border:1px solid var(--line);background:#fff;border-radius:999px;padding:5px 12px;font:700 12px 'Libre Franklin',Arial;color:var(--ink)}
+.q .mine2 button.on{background:var(--navy);color:#fff;border-color:var(--navy)}
+.trade{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.trade .card h4{font-size:16px;font-weight:800;margin-bottom:8px}
+.trade ul{margin:0;padding-left:18px}.trade li{margin-bottom:6px;font-size:14px}
+.mist li{margin-bottom:8px}
+.draft{display:inline-flex;gap:6px;align-items:center;background:var(--midbg);color:var(--mid);border-radius:999px;padding:4px 12px;font:800 11px 'Libre Franklin',Arial;letter-spacing:1px;text-transform:uppercase;margin-bottom:10px}
+.handoff{background:var(--navy);color:#fff;border-radius:var(--r);padding:24px;display:flex;gap:20px;align-items:center;justify-content:space-between;flex-wrap:wrap;margin-top:24px}
+.handoff h4{color:#fff;font-size:18px;font-weight:800}.handoff p{margin:4px 0 0;color:#C9D2DE;font-size:14px}
+.handoff a{background:var(--coral);color:#fff;text-decoration:none;border-radius:11px;padding:12px 18px;font:800 14px 'Libre Franklin',Arial;white-space:nowrap}
+.disc{font-size:12.5px;color:var(--mute);margin-top:22px;display:flex;gap:10px}
+.mocknote{background:#FFF8E6;border:1px dashed var(--mid);color:#6B4E10;border-radius:10px;padding:10px 14px;font-size:13px;margin-bottom:16px}
+
+footer{background:var(--navy);color:#9FB0C4;padding:26px 0;font-size:13px}
+
+@media(max-width:900px){.car{grid-auto-columns:calc((100% - 16px)/2)}.bgrid{grid-template-columns:1fr;gap:24px}.boys .photo{max-width:420px}.tgrid{grid-template-columns:1fr 1fr}
+ .grid2{grid-template-columns:1fr}.side{position:static}.tiles,.path{grid-template-columns:1fr}.trade{grid-template-columns:1fr}
+ .hero h1{font-size:40px}.modes{display:flex;flex-wrap:wrap;justify-content:center;border-radius:18px}.co h1{font-size:30px}}
+@media(max-width:520px){.wrap{padding:0 16px}.hero{padding:40px 0 30px}.hero h1{font-size:34px}
+ .bar nav a:not(.on){display:none}
+ .car{grid-auto-columns:78%}.arrows{display:none}.quotes{grid-template-columns:1fr}.tgrid{grid-template-columns:1fr}
+ .shead h2,.btxt h2{font-size:25px}
+ .boys .photo{transform:none;border-radius:14px}.boys .photo img{aspect-ratio:16/8;object-position:center 30%}
+ .modes{display:grid;grid-template-columns:repeat(3,1fr);border-radius:14px;width:100%;gap:3px;padding:4px}
+ .modes button{flex-direction:column;gap:4px;padding:9px 4px;font-size:12px;border-radius:10px;line-height:1.2}.modes .new{display:none}
+ .search button.go span{display:none}.search input{font-size:16px}.step .hd,.step .bd,.call{padding-left:16px;padding-right:16px}.q{padding-left:56px}}
+</style>
+</head>
+<body>
+<div class="tag">Internal test bed. Not on equitymates.com.</div>
+<div class="bar"><div class="wrap"><a class="logo" href="#" data-home>Equity<span>Mates</span></a>
+<nav><a href="#">Shows</a><a href="#">Articles</a><a class="on" href="#" data-home>Ask</a><a href="#">Advice</a></nav></div></div>
+
+<div id="home">
+<header class="hero"><div class="wrap">
+ <div class="kick"><svg class="i" viewBox="0 0 24 24"><path d="M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3z"/><path d="M19 10v2a7 7 0 0 1-14 0v-2M12 19v3"/></svg>The Equity Mates archive</div>
+ <h1>Ask Equity Mates <span class="hl">anything.</span></h1>
+ <p class="sub">10 years of search in one engine.</p>
+ <p class="lis">Every episode, searchable. Jump straight to the moment it was said.</p>
+ <div class="modes" role="tablist">
+  <button class="on" data-mode="stock"><svg class="i" viewBox="0 0 24 24"><path d="M3 17l6-6 4 4 8-8"/><path d="M14 7h7v7"/></svg>Check a stock<span class="new">4 STEPS</span></button>
+  <button data-mode="concept"><svg class="i" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 3-3 3M12 17h.01"/></svg>Learn a concept</button>
+  <button data-mode="guide"><svg class="i" viewBox="0 0 24 24"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>Think through a decision</button>
+ </div>
+ <div class="search"><form id="f" autocomplete="off"><svg class="i" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
+  <input id="q" aria-label="Search"><button class="go" type="submit"><span id="golbl">Run the checklist</span><svg class="i" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button></form>
+  <div class="sugg" id="sg" hidden></div></div>
+ <div class="chips" id="chips"></div>
+</div></header>
+
+<section class="fresh"><div class="wrap">
+ <div class="shead"><div><div class="kick2">Fresh off the mic</div><h2>New on Equity Mates.</h2></div>
+  <div class="arrows"><button type="button" data-car="-1" aria-label="Scroll back"><svg class="i" viewBox="0 0 24 24"><path d="M15 18l-6-6 6-6"/></svg></button><button type="button" data-car="1" aria-label="Scroll forward"><svg class="i" viewBox="0 0 24 24"><path d="M9 18l6-6-6-6"/></svg></button></div></div>
+ <div class="car" id="car"></div>
+</div></section>
+
+<section class="boys"><div class="wrap bgrid">
+ <div class="photo"><img src="https://equitymates.com/wp-content/uploads/2025/06/PXL_20230622_233527246.PORTRAIT2-1024x768.jpg" alt="Bryce and Ren from Equity Mates" loading="lazy">
+  <span class="tagl"><svg class="i" viewBox="0 0 24 24"><path d="M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3z"/><path d="M19 10v2a7 7 0 0 1-14 0v-2"/></svg>Bryce &amp; Ren</span></div>
+ <div class="btxt"><div class="kick2">G'day, we're Bryce and Ren</div>
+  <h2>Two mates who started knowing nothing.</h2>
+  <p>We started Equity Mates to ask every dumb money question so you don't have to. About 2,000 episodes later, it's all here: ask us anything and hit play on the exact moment. Fair warning, some early takes have aged like milk. We kept those in too.</p>
+  <div class="quotes">
+   <button class="qt" data-y="SHs_qmkwWRY" data-t="1071"><span class="qm">&ldquo;</span><span class="qx">Investing is a skill, like driving is a skill, and it can fit into your life however you want it to be.</span><span class="qw"><span class="dot"><svg viewBox="0 0 24 24"><path d="M6 4l14 8-14 8z"/></svg></span>Ren, April 2022</span></button>
+   <button class="qt" data-y="RfV_9DWaUWo" data-t="898"><span class="qm">&ldquo;</span><span class="qx">It's never too late to start all of this stuff.</span><span class="qw"><span class="dot"><svg viewBox="0 0 24 24"><path d="M6 4l14 8-14 8z"/></svg></span>Bryce, April 2026</span></button>
+  </div>
+  <div class="qbox"></div>
+  <div class="sig">Bryce &amp; Ren <small>Draft intro copy, for the boys to rewrite in their own words</small></div>
+ </div>
+</div></section>
+
+<section class="tpl"><div class="wrap">
+ <div class="shead"><div><div class="kick2">Start from a template</div><h2>Not sure what to ask? Pick one.</h2></div></div>
+ <div class="tfil" id="tfil"><button class="on" data-tf="all">All</button><button data-tf="stock">Stock checks</button><button data-tf="guide">Decision guides</button><button data-tf="path">Learning paths</button></div>
+ <div class="tgrid" id="tgrid"></div>
+ <button class="tmore" id="tmore" type="button">See all 10 templates <svg class="i" viewBox="0 0 24 24"><path d="M6 9l6 6 6-6"/></svg></button>
+</div></section>
+
+<section class="why"><div class="wrap">
+ <h2>Why ask us, not a chatbot?</h2>
+ <p class="lead">A chatbot can define debt recycling. Only we can show you what we said about it, when we said it, and let you hear it.</p>
+ <div class="tiles">
+  <div class="tile"><div class="ico"><svg class="i" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M10 8l6 4-6 4z"/></svg></div>
+   <h3>Straight from the source</h3><p>Every answer comes from the show and links to the second it was said. Tap to hear it.</p>
+   <div class="eg">"Watch from 8:45" beside every view</div></div>
+  <div class="tile"><div class="ico"><svg class="i" viewBox="0 0 24 24"><path d="M12 8v4l3 2"/><circle cx="12" cy="12" r="9"/></svg></div>
+   <h3>Ten years of views, dated</h3><p>See how our thinking on a company changed, with the share price then and now beside each view.</p>
+   <div class="eg">CSL in 2021 versus CSL in 2026</div></div>
+  <div class="tile"><div class="ico"><svg class="i" viewBox="0 0 24 24"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg></div>
+   <h3 id="cocount">Our checklist, 589 companies</h3><p>The four questions we ask on air, run across every company we've discussed. You make the call on each step.</p>
+   <div class="eg">Great product, above-market profits, reinvests well, reasonable price</div></div>
+ </div>
+</div></section>
+</div>
+
+<main id="view"><div class="wrap" id="vw"></div></main>
+<div class="overlay" id="ov"><div class="share" id="sh"></div></div>
+<div class="toast" id="toast"></div>
+<footer><div class="wrap">Equity Mates Media gives general information only and operates under AFSL 540697. Internal test bed.</div></footer>
+
+<script>
+(function(){
+var D={companies:[],yt:{},concept:null,guide:null,tick:{}},MODE='stock',CALLS={};
+var STEPC=['','var(--s1)','var(--s2)','var(--s3)','var(--s4)'];
+var STEPS=['','Great product or service','Above-market profits','Reinvests profits well','Reasonable price'];
+var MONTHS=['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+var $=function(s){return document.querySelector(s)};
+var esc=function(s){return String(s==null?'':s).replace(/[&<>"]/g,function(c){return{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]})};
+var clean=function(s){return String(s||'').replace(/\s*\[\d+\](\[\d+\])*/g,'')};
+var j=function(u){return fetch(u).then(function(r){return r.ok?r.json():null}).catch(function(){return null})};
+var PLAYI='<svg viewBox="0 0 24 24"><path d="M6 4l14 8-14 8z"/></svg>';
+var ICO={back:'<svg class="i" viewBox="0 0 24 24"><path d="M15 18l-6-6 6-6"/></svg>',shield:'<svg class="i" viewBox="0 0 24 24"><path d="M12 2l8 4v6c0 5-3.5 9-8 10-4.5-1-8-5-8-10V6z"/></svg>',
+ chev:'<svg class="i" viewBox="0 0 24 24"><path d="M6 9l6 6 6-6"/></svg>',share:'<svg class="i" viewBox="0 0 24 24"><path d="M4 12v8h16v-8M12 3v13M7 8l5-5 5 5"/></svg>',
+ mic:'<svg class="i" viewBox="0 0 24 24"><path d="M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3z"/><path d="M19 10v2a7 7 0 0 1-14 0v-2"/></svg>',
+ mail:'<svg class="i" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg>',user:'<svg class="i" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21c1.5-4 4.5-6 8-6s6.5 2 8 6"/></svg>',
+ head:'<svg class="i" viewBox="0 0 24 24"><path d="M3 18v-6a9 9 0 0 1 18 0v6"/><path d="M21 19a2 2 0 0 1-2 2h-1v-6h3zM3 19a2 2 0 0 0 2 2h1v-6H3z"/></svg>'};
+
+var CFG={stock:{ph:'Type a company or ticker, e.g. CSL or Xero',go:'Run the checklist',chips:['CSL','Xero','Pro Medicus','A2 Milk','BHP','Nvidia']},
+ concept:{ph:'Ask about a concept, e.g. what is debt recycling?',go:'Ask',chips:['Debt recycling','Franking credits','ETFs','Compound interest']},
+ guide:{ph:'Pick a decision to think through',go:'Open the guide',chips:['Pay off the mortgage or invest?','Am I ready for debt recycling?','Extra into super or invest outside it?']}};
+
+function setMode(m){MODE=m;[].forEach.call(document.querySelectorAll('.modes button'),function(b){b.classList.toggle('on',b.getAttribute('data-mode')===m)});
+ var c=CFG[m];$('#q').placeholder=innerWidth<520?c.ph.split(',')[0]:c.ph;$('#golbl').textContent=c.go;$('#sg').hidden=true;
+ $('#chips').innerHTML='<span>'+(m==='stock'?'Most discussed':'Popular')+'</span>'+c.chips.map(function(x){return'<button type="button">'+esc(x)+'</button>'}).join('');}
+
+// ---------- company search
+function match(q){q=q.trim().toLowerCase();if(!q)return[];var out=[];
+ D.companies.forEach(function(c){var names=[c.n,c.f].concat(c.a||[]).map(function(x){return String(x||'').toLowerCase()});
+  var tk=(c.t||[]).map(function(x){return x.toLowerCase()});
+  var sc=tk.indexOf(q)>=0?100:names.some(function(n){return n===q})?90:names.some(function(n){return n.indexOf(q)===0})?60:
+   tk.some(function(t){return t.indexOf(q)===0})?50:names.some(function(n){return n.indexOf(' '+q)>=0})?30:0;
+  if(sc)out.push([sc+Math.min(20,(c.e||0)/40),c]);});
+ return out.sort(function(a,b){return b[0]-a[0]}).slice(0,6).map(function(x){return x[1]});}
+function showSugg(){var q=$('#q').value,sg=$('#sg');if(MODE!=='stock'||!q.trim()){sg.hidden=true;return;}
+ var m=match(q);if(!m.length){sg.innerHTML='<button type="button" disabled>No company found with that name or ticker</button>';sg.hidden=false;return;}
+ sg.innerHTML=m.map(function(c,i){return'<button type="button" data-s="'+c.s+'"'+(i?'':' class="on"')+'><b>'+esc(c.n)+'</b> '+esc((c.l||[]).join(', '))+'<small>'+(c.e||0)+' episodes</small></button>'}).join('');sg.hidden=false;}
+
+function go(q){q=(q||$('#q').value).trim();if(!q)return;
+ if(MODE==='stock'){var m=match(q);if(m.length)location.hash='co='+m[0].s;else toast('No company found. Try a ticker like CSL');}
+ else if(MODE==='concept')location.href='/ask-test/?q='+encodeURIComponent(q);else location.hash='guide';}
+
+// ---------- helpers
+function secs(at){if(!at)return 0;var p=String(at).split(':').map(Number);return p.length===3?p[0]*3600+p[1]*60+p[2]:p[0]*60+p[1];}
+function ytFor(ep){if(!ep)return null;var m=/[?&]v=([\w-]+)/.exec(ep.jump||'');if(m)return m[1];var e=D.yt[ep.url];return e&&e.y||null;}
+function player(id,t,box){box.innerHTML='<div class="player"><iframe src="https://www.youtube-nocookie.com/embed/'+id+'?start='+t+'&autoplay=1&rel=0" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen title="Episode"></iframe></div>';}
+function money(v,cur){if(v==null)return'';var s={AUD:'A$',USD:'US$',NZD:'NZ$'}[cur]||'';return s+(v<1?v.toFixed(3):v.toFixed(2));}
+function dayName(d){var p=String(d).split('-');return +p[2]+' '+MONTHS[+p[1]-1]+' '+p[0];}
+function monthName(ym){var p=ym.split('-');return MONTHS[+p[1]-1]+' '+p[0];}
+function toast(t){var el=$('#toast');el.textContent=t;el.style.display='block';clearTimeout(el._t);el._t=setTimeout(function(){el.style.display='none'},2200);}
+
+// ---------- price chart with view markers
+function chart(px,views){if(!px||!px.months)return'';var ks=Object.keys(px.months).sort();if(ks.length<6)return'';
+ var vs=ks.map(function(k){return px.months[k]}),mn=Math.min.apply(0,vs),mx=Math.max.apply(0,vs),W=600,H=100,P=6;
+ W=900;H=150;var x=function(i){return P+(W-2*P)*i/(ks.length-1)},y=function(v){return H-P-(H-2*P)*(v-mn)/((mx-mn)||1)};
+ var d=vs.map(function(v,i){return(i?'L':'M')+x(i).toFixed(1)+' '+y(v).toFixed(1)}).join(' ');
+ var dots=views.map(function(v){var k=v.date.slice(0,7),i=ks.indexOf(k);if(i<0)return'';
+  return'<circle cx="'+x(i).toFixed(1)+'" cy="'+y(vs[i]).toFixed(1)+'" r="5" fill="'+STEPC[v.step]+'" stroke="#fff" stroke-width="2"><title>'+esc(v.when+': '+STEPS[v.step])+'</title></circle>'}).join('');
+ return'<div class="chart"><svg viewBox="0 0 '+W+' '+H+'" preserveAspectRatio="none"><defs><linearGradient id="g" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="#18263B" stop-opacity=".14"/><stop offset="1" stop-color="#18263B" stop-opacity="0"/></linearGradient></defs>'+
+  '<path d="'+d+' L'+x(ks.length-1)+' '+H+' L'+x(0)+' '+H+' Z" fill="url(#g)"/><path d="'+d+'" fill="none" stroke="#18263B" stroke-width="2" vector-effect="non-scaling-stroke"/>'+dots+'</svg>'+
+  '<div class="legend">'+monthName(ks[0])+' to today &nbsp;'+[1,2,3,4].map(function(s){return'<span><i style="background:'+STEPC[s]+'"></i>'+STEPS[s]+'</span>'}).join('')+'</div></div>';}
+
+// Live price: the company's ticker, then /api/price (split-corrected monthly history).
+function priceFor(slug){var c=D.companies.filter(function(x){return x.s===slug})[0];if(!c)return Promise.resolve(null);
+ var e=null;(c.t||[]).some(function(t){e=D.tick[t];return !!e});
+ return e?j('/api/price?s='+encodeURIComponent(e[1])):Promise.resolve(null);}
+// ---------- stock check
+function viewHtml(v,step,idx,px,latest){var ep=v.episode||{},id=ytFor(ep),t=secs(ep.at);
+ var then=px&&px.months?px.months[v.date.slice(0,7)]:null;
+ var split=px&&px.splits&&px.splits.some(function(s){return s.on>v.date});
+ return'<div class="view"><div class="when">'+esc(v.when)+(latest?'<span class="badge">Latest view</span>':'<span class="badge old">Earlier</span>')+'</div>'+
+  '<p>'+esc(v.text)+'</p>'+(then!=null?'<div class="then">Shares then: '+money(then,px.currency)+(split?' (before a later share split, so not comparable with today)':'')+'</div>':'')+
+  '<div class="vact">'+(id?'<button class="play" data-y="'+id+'" data-t="'+t+'"><span class="dot">'+PLAYI+'</span>Play from '+esc(ep.at||'start')+'</button>':
+   ep.url?'<a class="play" href="'+esc(ep.url)+'" target="_blank" rel="noopener"><span class="dot">'+PLAYI+'</span>Listen from '+esc(ep.at||'the start')+'</a>':'')+
+  '<span class="ept">'+esc(ep.title||'')+'</span></div><div class="pbox"></div></div>';}
+
+function renderCo(slug){Promise.all([j('/checklist-test/co/'+slug+'.json'),priceFor(slug)]).then(function(r){var c=r[0],px=r[1];
+ if(!c){$('#vw').innerHTML='<p>Company not found.</p>';return;}
+ CALLS=JSON.parse(sessionStorage.getItem('calls-'+slug)||'{}');
+ var all=[];c.steps.forEach(function(s){s.views.forEach(function(v){all.push({date:v.date,when:v.when,step:s.step})})});
+ var steps=c.steps.map(function(s){var vs=s.views.slice().sort(function(a,b){return a.date<b.date?1:-1});
+  return'<div class="step" data-step="'+s.step+'"><div class="hd"><div class="num" style="background:'+STEPC[s.step]+'">'+s.step+'</div><div><h3>'+esc(s.q)+'</h3><small>'+vs.length+' view'+(vs.length===1?'':'s')+' from the show, newest first</small></div></div>'+
+   '<div class="bd">'+(vs.length?viewHtml(vs[0],s.step,0,px,true)+(vs.length>1?'<div class="older">'+vs.slice(1).map(function(v,i){return viewHtml(v,s.step,i+1,px,false)}).join('')+'</div><button class="more">'+ICO.chev+'Show '+(vs.length-1)+' earlier view'+(vs.length>2?'s':'')+'</button>':''):'<p class="ept">Not covered on the show yet.</p>')+'</div>'+
+   '<div class="call"><b>Your call:</b>'+[['y','Ticks the box'],['m','Not sure'],['n','Doesn\'t']].map(function(o){return'<button data-c="'+o[0]+'" class="'+o[0]+(CALLS[s.step]===o[0]?' on':'')+'">'+o[1]+'</button>'}).join('')+'</div></div>';}).join('');
+ var latest=all.slice().sort(function(a,b){return a.date<b.date?1:-1})[0];
+ $('#vw').innerHTML='<a class="back" href="#" data-home>'+ICO.back+'Back to Ask Equity Mates</a>'+
+  '<div class="lead2">'+ICO.shield+'<div><b>No personal advice.</b> This shows what Equity Mates has said about '+esc(c.name)+' on the show. It is not a recommendation to buy, sell or hold, and the calls below are yours, not ours.</div></div>'+
+  '<div class="grid2"><div><div class="card co"><h1>'+esc(c.name)+'<span class="lst">'+esc((c.listings||[]).join(', '))+'</span></h1>'+
+   '<div class="meta">Mentioned in '+(c.mentioned_in||c.episodes)+' episodes, most recently '+esc(latest?latest.when:'')+'. The dots show when each view below was given.</div>'+
+   '<div class="row">'+(px?'<div class="px"><small>Today</small><b>'+money(px.price,px.currency)+'</b><small>'+esc(dayName(px.asAt))+', Yahoo Finance, may be delayed</small></div>':'<div class="px"><small>Today</small><b>&ndash;</b><small>Price unavailable right now</small></div>')+chart(px,all)+'</div></div>'+
+   '<div class="steps">'+steps+'</div></div>'+
+  '<aside class="side"><div class="card mine" id="mine"></div>'+
+   '<div class="card next"><h4>Keep going</h4><a href="#">'+ICO.head+'Latest episode on '+esc(c.name)+'</a><a href="#">'+ICO.mail+'Get EM Daily, free each morning</a><a href="#">'+ICO.user+'Talk to a licensed adviser</a><a href="#">'+ICO.mic+'Send a question to the show</a></div></aside></div>';
+ sideMine(c);window.scrollTo(0,0);});}
+
+function sideMine(c){var box=$('#mine');if(!box)return;var n=0,lbl={y:'Ticks',m:'Not sure',n:'Doesn\'t'},col={y:'var(--ok)',m:'var(--mid)',n:'var(--no)'};
+ var rows=[1,2,3,4].map(function(s){var v=CALLS[s];if(v)n++;return'<li><span class="num" style="width:22px;height:22px;border-radius:6px;background:'+STEPC[s]+';color:#fff;display:grid;place-items:center;font:900 12px Libre Franklin">'+s+'</span>'+STEPS[s]+'<span class="st" style="color:'+(v?col[v]:'var(--mute)')+'">'+(v?lbl[v]:'Your call')+'</span></li>'}).join('');
+ box.innerHTML='<h4>Your checklist for '+esc(c.name)+'</h4><p>Read what we said on each step, then make your own call. It stays on this device.</p>'+
+  '<div class="bar4">'+[1,2,3,4].map(function(s){var v=CALLS[s];return'<i style="background:'+(v?col[v]:'var(--line)')+'"></i>'}).join('')+'</div><ol>'+rows+'</ol>'+
+  '<button class="btn pri" id="shbtn"'+(n<4?' disabled style="opacity:.55"':'')+'>'+ICO.share+(n<4?'Make all 4 calls to share':'Share my checklist')+'</button>'+
+  '<div class="note">Your own assessment, not Equity Mates\' view and not advice.</div>';
+ box.dataset.co=c.slug;box.dataset.name=c.name;}
+
+function shareCard(name){var lbl={y:'Ticks the box',m:'Not sure',n:'Doesn\'t'},ticks=[1,2,3,4].filter(function(s){return CALLS[s]==='y'}).length;
+ $('#sh').innerHTML='<button class="x" aria-label="Close">&times;</button><div class="k">My 4-step checklist</div><h3>'+esc(name)+'</h3><div class="s">'+ticks+' of 4 boxes ticked, by me, using the Equity Mates checklist</div>'+
+  '<ul>'+[1,2,3,4].map(function(s){return'<li><span>'+s+'. '+STEPS[s]+'</span><b>'+lbl[CALLS[s]]+'</b></li>'}).join('')+'</ul>'+
+  '<button class="btn pri" id="cplink">'+ICO.share+'Copy link</button><div class="f">Run your own at equitymates.com/ask. General information only. My view, not Equity Mates\' and not advice.</div>';
+ $('#ov').classList.add('open');}
+
+// ---------- concept
+function thumbCard(p){var t=p.t||0;
+ // Audio-only episodes (no YouTube video) link to the episode page instead of a player.
+ var top=p.y?'<button class="thumb" data-y="'+esc(p.y)+'" data-t="'+t+'" style="background-image:url(https://i.ytimg.com/vi/'+esc(p.y)+'/mqdefault.jpg)"><span class="pl">'+PLAYI+'</span>'+(p.at?'<span class="ts">'+esc(p.at)+'</span>':'')+'</button>'
+  :'<a class="thumb audio" href="'+esc(p.url||'#')+'" target="_blank" rel="noopener"><span class="pl">'+PLAYI+'</span><span class="al">Listen to the episode</span></a>';
+ return'<div class="pcard">'+top+
+ '<div class="pb"><div class="lvl">'+esc(p.level||'')+'</div><h4>'+esc(p.title||'')+'</h4><p>'+esc(p.why||'')+'</p></div></div>';}
+function renderConcept(){var c=D.concept;if(!c)return;
+ $('#vw').innerHTML='<a class="back" href="#" data-home>'+ICO.back+'Back to Ask Equity Mates</a><div class="mocknote">Sample learning path. Questions typed in the search box get a live answer.</div>'+
+  '<div class="grid2"><div class="card ans"><h1>'+esc(c.question)+'</h1><p class="short">'+esc(clean(c.short))+'</p>'+c.explain.map(function(p){return'<p>'+esc(clean(p))+'</p>'}).join('')+
+  '<h2 class="sec-h">Your listening path</h2><p class="sec-p">Three moments from the show, in the order that makes most sense. About 15 minutes all up.</p><div class="path">'+c.path.map(thumbCard).join('')+'</div>'+
+  '<h2 class="sec-h">Keep exploring</h2><div class="rel">'+c.related.map(function(r){return'<button>'+esc(r)+'</button>'}).join('')+'</div>'+
+  '<div class="disc">'+ICO.shield+'<div>General information only. It does not take your circumstances into account. Equity Mates Media operates under AFSL 540697.</div></div></div>'+
+  '<aside class="side"><div class="card next"><h4>Thinking about doing it?</h4><a href="#guide">'+ICO.user+'Decision guide: pay off the mortgage or invest?</a><a href="#">'+ICO.user+'Talk to a licensed adviser</a><a href="#">'+ICO.mail+'Get EM Daily</a></div></aside></div>';
+ window.scrollTo(0,0);}
+
+// ---------- decision guide
+function renderGuide(){var g=D.guide;if(!g)return;var seen={};
+ $('#vw').innerHTML='<a class="back" href="#" data-home>'+ICO.back+'Back to Ask Equity Mates</a><div class="mocknote">Draft decision guide, written from the archive. Decision guides go to compliance before launch.</div>'+
+  '<div class="card ans"><span class="draft">Decision guide, draft for compliance review</span><h1>'+esc(g.title)+'</h1><p class="short">'+esc(clean(g.intro))+'</p>'+
+  '<div class="lead2">'+ICO.shield+'<div><b>This guide never asks for your details.</b> It sets out the questions Equity Mates says are worth asking yourself, so you can think it through or take them to a licensed adviser.</div></div>'+
+  '<h2 class="sec-h">Questions to ask yourself</h2><p class="sec-p">Tick the ones you can already answer. It stays on this device.</p><div class="qs">'+g.questions.map(function(q,i){
+   var dup=seen[q.url+q.at];seen[q.url+q.at]=1;
+   return'<div class="q"><h4>'+esc(clean(q.q))+'</h4><p>'+esc(clean(q.why))+'</p><div class="vact">'+(q.y&&!dup?'<button class="play" data-y="'+esc(q.y)+'" data-t="'+(q.t||0)+'"><span class="dot">'+PLAYI+'</span>Hear it from '+esc(q.at||'the start')+'</button><span class="ept">'+esc(q.title||'')+'</span>':'')+'</div><div class="pbox"></div>'+
+    '<div class="mine2"><button data-k="'+i+'">I can answer this</button></div></div>'}).join('')+'</div>'+
+  '<h2 class="sec-h">The trade-offs, as discussed on the show</h2><div class="trade">'+g.tradeoffs.map(function(t){return'<div class="card"><h4>'+esc(t.side)+'</h4><ul>'+t.points.map(function(p){return'<li>'+esc(clean(p))+'</li>'}).join('')+'</ul></div>'}).join('')+'</div>'+
+  '<h2 class="sec-h">Mistakes we\'ve called out</h2><ul class="mist">'+g.mistakes.map(function(m){return'<li>'+esc(clean(m))+'</li>'}).join('')+'</ul>'+
+  '<div class="handoff"><div><h4>Want to work through it for your situation?</h4><p>Take these questions to a licensed adviser from the Equity Mates Advice Network.</p></div><a href="#">Find an adviser</a></div>'+
+  '<div class="disc">'+ICO.shield+'<div>General information only. It does not take your circumstances into account and is not a recommendation. Equity Mates Media operates under AFSL 540697.</div></div></div>';
+ window.scrollTo(0,0);}
+
+// ---------- fresh off the mic
+// Some episodes carry a slug, not a YouTube id, in youtube_id ("equity-mate"); skip those.
+function carousel(list){$('#car').innerHTML=(list||[]).filter(function(e){return /^[\w-]{11}$/.test(e.y)}).map(function(e){var p=e.date.split('-');
+ return'<a class="ep" href="'+esc(e.url)+'" target="_blank" rel="noopener"><span class="im"><img src="https://i.ytimg.com/vi/'+esc(e.y)+'/hqdefault.jpg" alt="" onload="if(this.naturalWidth<200)this.closest(\'.ep\').remove()"><span class="pl">'+PLAYI+'</span>'+(e.mins?'<span class="du">'+e.mins+' min</span>':'')+'</span>'+
+  '<span class="sh">'+esc(e.show)+'</span><span class="t">'+esc(e.title)+'</span><span class="d">'+(+p[2])+' '+MONTHS[+p[1]-1]+' '+p[0]+'</span></a>'}).join('');}
+
+// ---------- templates
+var TPL=[
+ {k:'stock',feat:1,t:'Run the 4-step checklist on any company',p:'Type a ticker, see what we said on each step, make your own call.',go:'focus',live:1},
+ {k:'stock',t:'CSL, through the four steps',p:'From market darling to down 68% from its high. See how our take changed along the way.',go:'#co=csl-csl',live:1},
+ {k:'stock',t:'Xero, through the four steps',p:'A Kiwi success story taking on the world, and the AI question hanging over software.',go:'#co=xero-xro',live:1},
+ {k:'guide',t:'Pay off the mortgage or invest?',p:'The questions worth asking yourself, the trade-offs and the mistakes we\'ve seen.',go:'#guide',live:1},
+ {k:'guide',t:'Am I ready for debt recycling?',p:'What needs to be true before it makes sense, and when it really doesn\'t.'},
+ {k:'guide',t:'Extra into super, or invest outside it?',p:'Tax, access, flexibility and the time it takes to get your money back.'},
+ {k:'guide',t:'Buy a home, rentvest or keep renting?',p:'The trade-offs we\'ve unpacked with advisers and buyers on the show.'},
+ {k:'path',t:'Debt recycling, in three moments',p:'Start here, go deeper, then the fine print. About 15 minutes of listening.',go:'#concept',live:1},
+ {k:'path',t:'Investing 101 in five moments',p:'Shares, ETFs, compounding, diversification and getting started, in our own words.'},
+ {k:'path',t:'ETFs from zero',p:'What they are, how to read one, and why the name tells you more than you\'d think.'}];
+var TCOL={stock:'var(--s1)',guide:'var(--s2)',path:'var(--s3)'},TNAME={stock:'Stock check',guide:'Decision guide',path:'Learning path'};
+var TICO={stock:'<svg class="i" viewBox="0 0 24 24" style="width:15px;height:15px"><path d="M3 17l6-6 4 4 8-8"/></svg>',guide:'<svg class="i" viewBox="0 0 24 24" style="width:15px;height:15px"><path d="M9 11l3 3L22 4"/></svg>',path:'<svg class="i" viewBox="0 0 24 24" style="width:15px;height:15px"><path d="M3 18v-6a9 9 0 0 1 18 0v6"/></svg>'};
+// Condensed (Louis, 4 Nov): "All" shows one row of four, one of each kind; the rest sit behind "See all".
+var TPICK=[0,1,3,7];
+function templates(f,full){var list=TPL.filter(function(x,i){return f==='all'?(full||TPICK.indexOf(i)>=0):x.k===f});
+ var mb=$('#tmore');mb.style.display=f==='all'&&!full?'':'none';
+ $('#tgrid').innerHTML=list.map(function(x,i){
+ return'<button class="tc'+(x.feat&&f==='all'?' feat':'')+'" data-go="'+(x.go||'')+'"><span class="ty" style="color:'+(x.feat&&f==='all'?'#fff':TCOL[x.k])+'"><i style="background:'+TCOL[x.k]+'">'+TICO[x.k]+'</i>'+TNAME[x.k]+'</span><h4>'+esc(x.t)+'</h4><p>'+esc(x.p)+'</p>'+
+  '<span class="ft">'+(x.live?'Open it &rarr;':'')+'<span class="'+(x.live?'live':'soon')+'">'+(x.live?'Ready':'Coming')+'</span></span></button>'}).join('');}
+
+// ---------- routing
+function route(){var h=location.hash.slice(1),home=$('#home'),v=$('#view');
+ if(!h){home.style.display='';v.style.display='none';return;}
+ home.style.display='none';v.style.display='block';
+ $('#vw').innerHTML='<p class="ept" style="padding:40px 0">Digging through the archive&hellip;</p>';
+ if(h.indexOf('co=')===0)renderCo(h.slice(3));else if(h==='concept')renderConcept();else if(h==='guide')renderGuide();}
+
+// ---------- events
+document.addEventListener('click',function(e){var t=e.target.closest('button,a');if(!t)return;
+ if(t.hasAttribute('data-home')){e.preventDefault();location.hash='';return;}
+ if(t.dataset.car){var c=$('#car');c.scrollBy({left:(+t.dataset.car)*c.clientWidth*0.75});return;}
+ if(t.id==='tmore'){templates('all',true);return;}
+ if(t.dataset.tf){[].forEach.call(document.querySelectorAll('#tfil button'),function(b){b.classList.toggle('on',b===t)});templates(t.dataset.tf);return;}
+ if(t.classList.contains('tc')){var g=t.dataset.go;if(!g){toast('Coming in the full build');return;}
+  if(g==='focus'){setMode('stock');window.scrollTo({top:0,behavior:'smooth'});setTimeout(function(){$('#q').focus()},400);return;}location.hash=g.slice(1);return;}
+ if(t.classList.contains('qt')){var qb=$('.qbox');if(qb.dataset.on===t.dataset.y){qb.innerHTML='';qb.dataset.on='';return;}qb.dataset.on=t.dataset.y;player(t.dataset.y,t.dataset.t,qb);return;}
+ if(t.dataset.mode){setMode(t.dataset.mode);$('#q').focus();return;}
+ if(t.closest('#chips')&&!t.closest('span')){$('#q').value=t.textContent;go(t.textContent);return;}
+ if(t.dataset.s){location.hash='co='+t.dataset.s;return;}
+ if(t.classList.contains('play')){var box=t.closest('.view,.q').querySelector('.pbox');if(box.innerHTML){box.innerHTML='';return;}player(t.dataset.y,t.dataset.t,box);return;}
+ if(t.classList.contains('thumb')){var w=document.createElement('div');t.replaceWith(w);player(t.dataset.y,t.dataset.t,w);return;}
+ if(t.classList.contains('more')){var o=t.previousElementSibling;o.classList.toggle('open');t.innerHTML=ICO.chev+(o.classList.contains('open')?'Hide earlier views':'Show earlier views');return;}
+ if(t.dataset.c){var st=t.closest('.step').dataset.step,slug=$('#mine').dataset.co;CALLS[st]=CALLS[st]===t.dataset.c?undefined:t.dataset.c;
+  sessionStorage.setItem('calls-'+slug,JSON.stringify(CALLS));[].forEach.call(t.parentNode.querySelectorAll('button'),function(b){b.classList.toggle('on',CALLS[st]===b.dataset.c)});
+  sideMine({slug:slug,name:$('#mine').dataset.name});return;}
+ if(t.id==='shbtn'){shareCard($('#mine').dataset.name);return;}
+ if(t.classList.contains('x')){$('#ov').classList.remove('open');return;}
+ if(t.id==='cplink'){toast('Sharing links come next');return;}
+ if(t.dataset.k){t.classList.toggle('on');return;}
+ if(t.closest('.rel')){location.href='/ask-test/?q='+encodeURIComponent('What is '+t.textContent+'?');return;}
+});
+$('#ov').addEventListener('click',function(e){if(e.target.id==='ov')$('#ov').classList.remove('open')});
+$('#q').addEventListener('input',showSugg);
+$('#q').addEventListener('keydown',function(e){var sg=$('#sg');if(sg.hidden)return;var bs=[].slice.call(sg.querySelectorAll('button[data-s]')),i=bs.findIndex(function(b){return b.classList.contains('on')});
+ if(e.key==='ArrowDown'||e.key==='ArrowUp'){e.preventDefault();if(i>=0)bs[i].classList.remove('on');i=(i+(e.key==='ArrowDown'?1:bs.length-1))%bs.length;bs[i].classList.add('on');}
+ else if(e.key==='Enter'&&i>=0){e.preventDefault();location.hash='co='+bs[i].dataset.s;}
+ else if(e.key==='Escape')sg.hidden=true;});
+$('#f').addEventListener('submit',function(e){e.preventDefault();go();});
+document.addEventListener('click',function(e){if(!e.target.closest('.search'))$('#sg').hidden=true;});
+window.addEventListener('hashchange',route);
+
+setMode('stock');
+templates('all');
+Promise.all([j('/checklist-test/companies.json'),j('/ask-episodes.json'),j('data/concept.json'),j('data/guide.json'),j('/ask-companies.json')]).then(function(r){
+ D.companies=(r[0]||[]).filter(function(c){return c.b!==false});D.concept=r[2];D.guide=r[3];D.tick=(r[4]||{}).tickers||{};
+ var eps=Object.keys(r[1]||{}).map(function(k){return r[1][k]});
+ eps.forEach(function(e){if(e.u)D.yt[e.u]={y:e.y,m:e.m}});
+ carousel(eps.filter(function(e){return e.y}).sort(function(a,b){return a.d<b.d?1:-1}).slice(0,12)
+  .map(function(e){return{title:e.t,date:e.d,show:e.s,url:e.u,y:e.y,mins:e.m}}));
+ $('#cocount').textContent='Our checklist, '+D.companies.length+' companies';route();});
+})();
+</script>
+</body>
+</html>

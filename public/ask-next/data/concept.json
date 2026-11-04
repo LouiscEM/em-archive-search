@@ -1,0 +1,53 @@
+{
+ "short": "Debt recycling is a way of using home loan equity to invest, shifting some mortgage debt from non‑deductible to investment‑purpose debt. It aims to unlock equity for investing while the home loan is progressively restructured.",
+ "explain": [
+  "At its core, it involves paying down part of the home loan, then setting up a separate loan or split to invest in income‑producing assets so that portion becomes investment debt [1][3].",
+  "People often weigh up whether it is simply a tax approach or if it adds investment risk, and how that changes depending on whether total debt stays the same or is increased to invest more [5][7].",
+  "Another consideration is tax over time, with scenarios showing that fast‑growing investment assets can lead to higher taxable income even after deductions, so total tax paid may end up higher than other paths [4]."
+ ],
+ "path": [
+  {
+   "n": 1,
+   "level": "Start here",
+   "why": "Sets up the basic idea of using home equity to invest and what debt recycling is about.",
+   "title": "Need to Know | Debt Recycling - What’s it all about?",
+   "date": "2022-05-27",
+   "show": "Talk Money To Me",
+   "url": "https://equitymates.com/episode/need-to-know-debt-recycling-whats-it-all-about/",
+   "y": "",
+   "at": null,
+   "t": 0
+  },
+  {
+   "n": 5,
+   "level": "Go deeper",
+   "why": "Explores how people weigh the risk and the distinction between tax strategy and investment risk.",
+   "title": "Ask an Adviser: Debt Recycling - Everything you need to know | Dylan Pargiter-Green",
+   "date": "2026-03-03",
+   "show": "Equity Mates Investing Podcast",
+   "url": "https://equitymates.com/episode/ask-an-adviser-debt-recycling-everything-you-need-to-know-dylan-pargiter-green/",
+   "y": "wLEcAmJtS0w",
+   "at": "03:46",
+   "t": 226
+  },
+  {
+   "n": 4,
+   "level": "The fine print",
+   "why": "Highlights that strong portfolio growth can mean paying more tax overall despite deductions.",
+   "title": "Ask an Adviser: Offset v Superannuation v Debt Recycling - Who comes out on top?",
+   "date": "2024-10-29",
+   "show": "Equity Mates Investing Podcast",
+   "url": "https://equitymates.com/episode/ask-an-adviser-offset-v-superannuation-v-debt-recycling-who-comes-out-on-top/",
+   "y": "Qp6HLFVn_3c",
+   "at": "38:14",
+   "t": 2294
+  }
+ ],
+ "related": [
+  "Home equity and loan splits",
+  "Tax deductibility of interest",
+  "Offset vs redraw considerations",
+  "Investment risk and cash flow"
+ ],
+ "question": "What is debt recycling?"
+}

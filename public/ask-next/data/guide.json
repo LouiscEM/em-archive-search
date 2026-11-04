@@ -1,0 +1,89 @@
+{
+ "title": "Pay off the mortgage or invest?",
+ "intro": "This choice often comes down to how you weigh certain tradeoffs around interest rates, tax and flexibility. Here are the key questions we ask and the nuances we consider from the show.",
+ "questions": [
+  {
+   "q": "What rate is your home loan on?",
+   "why": "Comparing your mortgage rate with potential investment returns helps frame the hurdle, especially once you factor in that market returns are taxable while an offset reduces your interest bill directly.",
+   "n": 2,
+   "title": "Ask an Adviser: Tax strategies, leveraged investments, anxiety around super - Dylan Pargiter-Green",
+   "date": "2024-07-16",
+   "show": "Equity Mates Investing Podcast",
+   "url": "https://equitymates.com/episode/ask-an-adviser-tax-strategies-leveraged-investments-anxiety-around-super-dylan-pargiter-green/",
+   "y": "PCkkG9I-i4o",
+   "at": "27:04",
+   "t": 1624
+  },
+  {
+   "q": "Do you understand how an offset and redraw differ?",
+   "why": "An offset reduces the interest charged while keeping cash liquid, whereas money moved in and out of redraw can repurpose the debt, which has accounting and tax implications.",
+   "n": 10,
+   "title": "Ask An Adviser: Where property is heading, debt recycling and the future of rentvesting with Pat Noll",
+   "date": "2026-10-20",
+   "show": "Equity Mates Investing Podcast",
+   "url": "https://equitymates.com/episode/ask-an-adviser-where-property-is-heading-debt-recycling-and-the-future-of-rentvesting-with-pat-noll/",
+   "y": "6USxVHTn6-c",
+   "at": "19:00",
+   "t": 1140
+  },
+  {
+   "q": "How much does the tax treatment of interest matter to you?",
+   "why": "Some people weigh up paying down non-deductible home debt first, then accessing equity to invest so the investment loan interest is deductible, rather than investing cash while the home loan stays high.",
+   "n": 1,
+   "title": "Ask an Adviser: How to take control of your super & is debt recycling worth it - Matt Ingram",
+   "date": "2025-06-24",
+   "show": "Equity Mates Investing Podcast",
+   "url": "https://equitymates.com/episode/ask-an-adviser-how-to-take-control-of-your-super-is-debt-recycling-worth-it-matt-ingram/",
+   "y": "I1Fpe9g_Bjw",
+   "at": "31:04",
+   "t": 1864
+  },
+  {
+   "q": "Are you clear on what happens if you keep piling cash in the offset after the mortgage is gone?",
+   "why": "Using an offset can be an effective, tax-free equivalent return while the loan exists, but once the mortgage is repaid ongoing cash may just sit earning lower savings rates over time.",
+   "n": 7,
+   "title": "Ask an Adviser: Offset v Superannuation v Debt Recycling - Who comes out on top?",
+   "date": "2024-10-29",
+   "show": "Equity Mates Investing Podcast",
+   "url": "https://equitymates.com/episode/ask-an-adviser-offset-v-superannuation-v-debt-recycling-who-comes-out-on-top/",
+   "y": "Qp6HLFVn_3c",
+   "at": "09:15",
+   "t": 555
+  },
+  {
+   "q": "Is super part of the mix you are weighing up?",
+   "why": "Alongside offset vs investing, some people consider extra super contributions given the tax advantages and growth focus, depending on what else is going on.",
+   "n": 5,
+   "title": "Ask an Adviser: Offset v Superannuation v Debt Recycling - Who comes out on top?",
+   "date": "2024-10-29",
+   "show": "Equity Mates Investing Podcast",
+   "url": "https://equitymates.com/episode/ask-an-adviser-offset-v-superannuation-v-debt-recycling-who-comes-out-on-top/",
+   "y": "Qp6HLFVn_3c",
+   "at": "07:20",
+   "t": 440
+  }
+ ],
+ "tradeoffs": [
+  {
+   "side": "Paying down the loan",
+   "points": [
+    "Reduces interest and increases principal via an offset, effectively matching your mortgage rate without tax.",
+    "Simple and flexible access to cash with an offset account.",
+    "May lag over the long run if surplus cash later just sits in low-interest savings after the mortgage is gone."
+   ]
+  },
+  {
+   "side": "Investing",
+   "points": [
+    "Potential for higher long-term returns, but outcomes are taxable.",
+    "Can be structured so interest on the investment loan is deductible by first reducing non-deductible home debt, then borrowing to invest.",
+    "Needs clear understanding and setup, especially if using debt recycling."
+   ]
+  }
+ ],
+ "mistakes": [
+  "Thinking an offset pays you the headline rate, when it actually reduces interest charged rather than earning interest.",
+  "Pulling money from redraw and unintentionally repurposing the debt, affecting potential deductibility.",
+  "Starting a debt recycling approach without fully understanding the process and implications."
+ ]
+}

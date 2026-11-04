@@ -30,7 +30,7 @@
 // Stamped at commit time so the config check says WHICH revision is live.
 // Without it, 'is the fix deployed yet' is unanswerable and every timing
 // measurement is ambiguous.
-const BUILD = 'two-step-15';
+const BUILD = 'two-step-16';
 const MODEL = 'gpt-5';
 const EFFORT = 'minimal';
 const SEARCH_RESULTS = 8;
@@ -605,7 +605,8 @@ async function findCompany(request, question) {
 }
 
 const PRICE_CACHE = new Map();   // per isolate, 15 minutes: prices are delayed anyway
-async function priceFor(entry) {
+// Also used by functions/api/price.js for the stock check page (5 Nov 2026).
+export async function priceFor(entry) {
   const [label, symbol] = entry;
   const hit = PRICE_CACHE.get(symbol);
   if (hit && Date.now() - hit.at < 15 * 6e4) return hit.value;
