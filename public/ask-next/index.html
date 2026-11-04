@@ -81,14 +81,18 @@ button{font:inherit;cursor:pointer}
 
 /* intro from the boys */
 .boys{padding:40px 0;background:var(--soft)}
-.bgrid{display:grid;grid-template-columns:4fr 7fr;gap:36px;align-items:center}
-.boys .photo{position:relative;border-radius:20px;overflow:hidden;box-shadow:0 20px 40px rgba(24,38,59,.18);transform:rotate(-1.5deg)}
-.boys .photo img{width:100%;display:block;aspect-ratio:4/3;object-fit:cover}
+/* Aligned 5 Nov 2026 (Louis): photo square to the text column and the same height as it,
+   quote cards the same height with the name pinned to the bottom. No tilt. */
+.bgrid{display:grid;grid-template-columns:4fr 7fr;gap:36px;align-items:stretch}
+.boys .photo{position:relative;border-radius:18px;overflow:hidden;box-shadow:0 14px 30px rgba(24,38,59,.14);min-height:300px}
+.boys .photo img{position:absolute;inset:0;width:100%;height:100%;display:block;object-fit:cover;object-position:center 35%}
+.btxt{display:flex;flex-direction:column;justify-content:center}
 .tagl{position:absolute;left:14px;bottom:14px;background:var(--navy);color:#fff;border-radius:999px;padding:7px 14px;font:800 13px 'Libre Franklin',Arial;display:inline-flex;gap:6px;align-items:center}
 .tagl .i{color:var(--coral);width:15px;height:15px}
 .btxt h2{font-size:26px;font-weight:900;letter-spacing:-.5px;margin-bottom:10px}
 .btxt p{font-size:15px;margin:0 0 8px}
-.quotes{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:12px 0 4px}
+.quotes{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:12px 0 4px;align-items:stretch}
+.qt .qw{margin-top:auto}
 .qt{text-align:left;border:0;background:#fff;border-radius:14px;padding:12px 14px;box-shadow:0 6px 18px rgba(24,38,59,.08);display:flex;flex-direction:column;gap:8px;position:relative;transition:transform .15s}
 .qt:hover{transform:translateY(-2px)}
 .qm{font:900 44px/0.6 'Libre Franklin',Arial;color:var(--coral);height:18px}
@@ -251,14 +255,14 @@ button{font:inherit;cursor:pointer}
 
 footer{background:var(--navy);color:#9FB0C4;padding:26px 0;font-size:13px}
 
-@media(max-width:900px){.car{grid-auto-columns:calc((100% - 16px)/2)}.bgrid{grid-template-columns:1fr;gap:24px}.boys .photo{max-width:420px}.tgrid{grid-template-columns:1fr 1fr}
+@media(max-width:900px){.car{grid-auto-columns:calc((100% - 16px)/2)}.bgrid{grid-template-columns:1fr;gap:24px}.boys .photo{aspect-ratio:16/9;min-height:0}.tgrid{grid-template-columns:1fr 1fr}
  .grid2{grid-template-columns:1fr}.side{position:static}.tiles,.path{grid-template-columns:1fr}.trade{grid-template-columns:1fr}
  .hero h1{font-size:40px}.modes{display:flex;flex-wrap:wrap;justify-content:center;border-radius:18px}.co h1{font-size:30px}}
 @media(max-width:520px){.wrap{padding:0 16px}.hero{padding:40px 0 30px}.hero h1{font-size:34px}
  .bar nav a:not(.on){display:none}
  .car{grid-auto-columns:78%}.arrows{display:none}.quotes{grid-template-columns:1fr}.tgrid{grid-template-columns:1fr}
  .shead h2,.btxt h2{font-size:25px}
- .boys .photo{transform:none;border-radius:14px}.boys .photo img{aspect-ratio:16/8;object-position:center 30%}
+ .boys .photo{border-radius:14px;min-height:0;aspect-ratio:16/8}
  .modes{display:grid;grid-template-columns:repeat(3,1fr);border-radius:14px;width:100%;gap:3px;padding:4px}
  .modes button{flex-direction:column;gap:4px;padding:9px 4px;font-size:12px;border-radius:10px;line-height:1.2}.modes .new{display:none}
  .search button.go span{display:none}.search input{font-size:16px}.step .hd,.step .bd,.call{padding-left:16px;padding-right:16px}.q{padding-left:56px}}
@@ -545,6 +549,17 @@ document.addEventListener('click',function(e){if(!e.target.closest('.search'))$(
 window.addEventListener('hashchange',route);
 
 setMode('stock');
+// The episode carousel moves on its own (Louis, 5 Nov 2026): one card every 3.5 seconds,
+// back to the start at the end. It pauses while hovered, touched or focused, while the tab is
+// hidden, and never moves for people whose device asks for reduced motion.
+(function(){var car=$('#car'),hold=false,still=matchMedia('(prefers-reduced-motion: reduce)').matches;
+ if(still)return;
+ ['mouseenter','touchstart','focusin'].forEach(function(e){car.addEventListener(e,function(){hold=true},{passive:true})});
+ ['mouseleave','focusout'].forEach(function(e){car.addEventListener(e,function(){hold=false})});
+ car.addEventListener('touchend',function(){setTimeout(function(){hold=false},4000)},{passive:true});
+ setInterval(function(){if(hold||document.hidden||$('#home').style.display==='none'||!car.firstElementChild)return;
+  var step=car.firstElementChild.getBoundingClientRect().width+16;
+  if(car.scrollLeft+car.clientWidth>=car.scrollWidth-4)car.scrollTo({left:0});else car.scrollBy({left:step});},3500);})();
 templates('all');
 Promise.all([j('/checklist-test/companies.json'),j('/ask-episodes.json'),j('data/concept.json'),j('data/guide.json'),j('/ask-companies.json')]).then(function(r){
  D.companies=(r[0]||[]).filter(function(c){return c.b!==false});D.concept=r[2];D.guide=r[3];D.tick=(r[4]||{}).tickers||{};
