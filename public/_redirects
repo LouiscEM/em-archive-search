@@ -1,3 +1,5 @@
 # The old archive search that lived at / was retired on 28 Oct 2026. Send anyone with
 # the old link to the Ask test bed instead of a blank page. Still behind the password.
-/  /ask-test/  302
+# 5 Nov 2026: the front door is now the new design at /ask-next/. /ask-test/ still serves
+# the live answers ("Learn a concept" hands questions over to it).
+/  /ask-next/  302
