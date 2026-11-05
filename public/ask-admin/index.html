@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>Ask Equity Mates: internal dashboard</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@600;700;800;900&family=Open+Sans:wght@400;600;700&display=swap">
+<style>
+/* Internal dashboard for Ask Equity Mates (5 Nov 2026). Reads /api/admin, behind the test bed
+   password. Read-only. Sign-ups are counts only; email addresses never reach this page. */
+:root{--navy:#18263B;--coral:#F15959;--ink:#3A4A5C;--mute:#7C8A9C;--line:#E3E7EC;--soft:#F5F6F8;--ok:#2E9E6B;--okbg:#E6F5EE;--mid:#C98A1B;--midbg:#FBF1DE;--no:#C7443F;--nobg:#FBE7E6}
+*{box-sizing:border-box}
+body{margin:0;background:var(--soft);color:var(--ink);font:14px/1.5 'Open Sans',Arial,sans-serif}
+h1,h2,h3{font-family:'Libre Franklin',Arial,sans-serif;color:var(--navy);margin:0}
+.wrap{max-width:1180px;margin:0 auto;padding:0 24px}
+.tag{background:var(--coral);color:#fff;font:800 11px 'Libre Franklin',Arial;letter-spacing:1.6px;text-transform:uppercase;text-align:center;padding:7px}
+.bar{background:var(--navy);color:#fff}.bar .wrap{display:flex;align-items:center;justify-content:space-between;height:60px;gap:16px}
+.logo{font:900 20px 'Libre Franklin',Arial;color:#fff;text-decoration:none}.logo span{color:var(--coral)}
+.bar a.back{color:#C9D2DE;text-decoration:none;font:700 13px 'Libre Franklin',Arial}
+.head{display:flex;justify-content:space-between;align-items:flex-end;gap:16px;flex-wrap:wrap;margin:26px 0 18px}
+.head h1{font-size:28px;font-weight:900;letter-spacing:-.5px}
+.head p{margin:4px 0 0;color:var(--mute)}
+.range{display:flex;gap:6px;background:#fff;border:1px solid var(--line);border-radius:999px;padding:4px}
+.range button{border:0;background:transparent;border-radius:999px;padding:7px 14px;font:700 13px 'Libre Franklin',Arial;color:var(--navy);cursor:pointer}
+.range button.on{background:var(--navy);color:#fff}
+.tiles{display:grid;grid-template-columns:repeat(6,1fr);gap:12px}
+.tile{background:#fff;border:1px solid var(--line);border-radius:14px;padding:14px 16px}
+.tile b{display:block;font:900 26px 'Libre Franklin',Arial;color:var(--navy);letter-spacing:-.5px}
+.tile span{font-size:12.5px;color:var(--mute)}
+.tile small{display:block;font-size:11.5px;color:var(--mute);margin-top:2px}
+.card{background:#fff;border:1px solid var(--line);border-radius:14px;padding:18px 20px;margin-top:14px}
+.card h2{font-size:16px;font-weight:800;margin-bottom:10px}
+.grid3{display:grid;grid-template-columns:2fr 1fr 1fr;gap:14px}
+.grid3 .card{margin-top:14px}
+.chart svg{width:100%;height:150px;display:block}
+.axis{display:flex;justify-content:space-between;font-size:11.5px;color:var(--mute);margin-top:6px}
+.list{list-style:none;margin:0;padding:0}
+.list li{display:flex;gap:10px;align-items:baseline;padding:7px 0;border-bottom:1px solid var(--line)}
+.list li:last-child{border-bottom:0}
+.list .n{margin-left:auto;font:800 13px 'Libre Franklin',Arial;color:var(--navy);flex:none}
+.list .t{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.empty{color:var(--mute);font-style:italic;padding:6px 0}
+.tabs{display:flex;gap:6px;flex-wrap:wrap;margin-top:22px}
+.tabs button{border:1px solid var(--line);background:#fff;border-radius:999px;padding:8px 15px;font:700 13px 'Libre Franklin',Arial;color:var(--navy);cursor:pointer}
+.tabs button.on{background:var(--navy);color:#fff;border-color:var(--navy)}
+.tabs button i{font-style:normal;opacity:.6;margin-left:4px}
+table{width:100%;border-collapse:collapse}
+th{text-align:left;font:800 11px 'Libre Franklin',Arial;letter-spacing:1px;text-transform:uppercase;color:var(--mute);padding:8px 10px;border-bottom:1px solid var(--line)}
+td{padding:9px 10px;border-bottom:1px solid var(--line);vertical-align:top}
+tr:last-child td{border-bottom:0}
+td.when{white-space:nowrap;color:var(--mute);font-size:12.5px;width:110px}
+.pill{display:inline-block;border-radius:999px;padding:2px 9px;font:800 11px 'Libre Franklin',Arial;letter-spacing:.3px;white-space:nowrap}
+.p-fresh,.p-cached,.p-reused,.p-yes{background:var(--okbg);color:var(--ok)}
+.p-blocked{background:var(--midbg);color:var(--mid)}
+.p-fallback,.p-error,.p-no{background:var(--nobg);color:var(--no)}
+.p-IN{background:var(--soft);color:var(--mute)}
+.sub{color:var(--mute);font-size:12.5px}
+tr.click{cursor:pointer}tr.click:hover td{background:var(--soft)}
+.note{font-size:12.5px;color:var(--mute);margin:10px 0 0}
+.ov{position:fixed;inset:0;background:rgba(10,18,30,.55);display:none;align-items:flex-start;justify-content:center;padding:40px 20px;overflow:auto;z-index:10}
+.ov.open{display:flex}
+.modal{background:#fff;border-radius:16px;max-width:760px;width:100%;padding:26px 28px;position:relative}
+.modal .x{position:absolute;right:16px;top:12px;border:0;background:transparent;font-size:24px;color:var(--mute);cursor:pointer}
+.modal h3{font-size:22px;font-weight:900;margin:0 30px 6px 0}
+.modal p{font-size:15px;line-height:1.7;margin:0 0 8px}
+.modal .m{font-size:12.5px;color:var(--mute);margin:0 0 16px}
+.modal .m a{color:var(--navy)}
+.err{background:var(--nobg);color:var(--no);border-radius:12px;padding:14px 16px;margin-top:18px}
+footer{color:var(--mute);font-size:12px;padding:28px 0 40px}
+@media(max-width:900px){.tiles{grid-template-columns:repeat(3,1fr)}.grid3{grid-template-columns:1fr}}
+@media(max-width:520px){.tiles{grid-template-columns:repeat(2,1fr)}td.when{width:auto}.hide-s{display:none}}
+</style>
+</head>
+<body>
+<div class="tag">Internal only. Not on equitymates.com.</div>
+<div class="bar"><div class="wrap"><a class="logo" href="/ask-next/">Equity<span>Mates</span></a><a class="back" href="/ask-next/">Back to Ask Equity Mates</a></div></div>
+<main class="wrap">
+ <div class="head"><div><h1>What people are asking</h1><p id="sub">Loading&hellip;</p></div>
+  <div class="range" id="range"><button data-d="7">7 days</button><button data-d="30" class="on">30 days</button><button data-d="90">90 days</button></div></div>
+ <div id="body"></div>
+</main>
+<div class="ov" id="ov"><div class="modal" id="modal"></div></div>
+<footer class="wrap">Question text is not stored for personal, crisis or harmful messages; those show only their category. EM Daily sign-ups are shown as counts only.</footer>
+<script>
+(function(){
+var $=function(s){return document.querySelector(s)},D=null,TAB='recent',DAYS=30;
+var esc=function(s){return String(s==null?'':s).replace(/[&<>"]/g,function(c){return{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]})};
+var MONTHS=['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+function when(ts){var d=new Date(ts);return d.getDate()+' '+MONTHS[d.getMonth()]+' '+String(d.getHours()).padStart(2,'0')+':'+String(d.getMinutes()).padStart(2,'0');}
+function day(ts){var d=new Date(ts);return d.getDate()+' '+MONTHS[d.getMonth()]+' '+d.getFullYear();}
+var LABEL={fresh:'New answer',cached:'Saved answer',reused:'Reused answer',blocked:'Turned away',fallback:'Safe fallback',error:'Error',
+ IN:'Money question',OFF_TOPIC:'Off topic',UNCLEAR:'Not a question',INJECTION:'Prompt trick',HARMFUL:'Harmful',CRISIS:'Crisis'};
+var pill=function(k){return'<span class="pill p-'+esc(k)+'">'+esc(LABEL[k]||k)+'</span>'};
+var q=function(t){return t?esc(t):'<span class="sub">(not kept: personal or sensitive)</span>'};
+
+function load(){$('#sub').textContent='Loading…';
+ fetch('/api/admin?days='+DAYS,{cache:'no-store'}).then(function(r){if(!r.ok)throw new Error(r.status);return r.json()})
+ .then(function(d){D=d;render();}).catch(function(e){$('#sub').textContent='';$('#body').innerHTML='<div class="err">Could not load the figures ('+esc(e.message)+'). Try refreshing.</div>';});}
+
+function list(items,fmt){return items&&items.length?'<ul class="list">'+items.map(fmt).join('')+'</ul>':'<div class="empty">Nothing yet.</div>';}
+
+function chart(rows){if(!rows.length)return'<div class="empty">No questions in this period.</div>';
+ var start=new Date(Date.now()-(DAYS-1)*864e5),m={};rows.forEach(function(r){m[r.d]=r.n});
+ var ds=[];for(var i=0;i<DAYS;i++){var d=new Date(start.getTime()+i*864e5);ds.push(d.toISOString().slice(0,10));}
+ var mx=Math.max.apply(0,ds.map(function(d){return m[d]||0}))||1,W=900,H=150,bw=W/ds.length;
+ return'<svg viewBox="0 0 '+W+' '+H+'" preserveAspectRatio="none">'+ds.map(function(d,i){var n=m[d]||0,h=n?Math.max(3,(H-6)*n/mx):0;
+  return'<rect x="'+(i*bw+bw*.15).toFixed(1)+'" y="'+(H-h).toFixed(1)+'" width="'+(bw*.7).toFixed(1)+'" height="'+h.toFixed(1)+'" rx="2" fill="'+(n?'#F15959':'#E3E7EC')+'"><title>'+d+': '+n+'</title></rect>'}).join('')+
+  '</svg><div class="axis"><span>'+day(start)+'</span><span>Busiest day: '+mx+' question'+(mx===1?'':'s')+'</span><span>Today</span></div>';}
+
+function render(){var t=D.totals,fb=D.feedback,helpful=fb.yes+fb.no?Math.round(100*fb.yes/(fb.yes+fb.no))+'%':'–';
+ $('#sub').textContent='Last '+D.days+' days. Updated '+when(D.generated)+'. Saved answers are version '+D.version+'.';
+ var pl=function(n,w){return n+' '+w+(n===1?'':'s')};
+ var tiles=[[t.questions,'Questions asked',pl(t.followUps,'follow-up')],[t.answered,'Answered',t.namedCompany+' named a company'],
+  [t.turnedAway,'Turned away','off topic, unclear or unsafe'],[helpful,'Found it helpful',fb.yes+' yes, '+fb.no+' no'],
+  [t.medianSeconds!=null?t.medianSeconds+'s':'–','Typical new answer','saved ones take about 1s'],[D.signups.total,'EM Daily sign-ups','counts only']];
+ var counts={recent:D.recent.length,gaps:D.gaps.length,feedback:fb.rows.length,show:D.show.length,tester:D.tester.length,answers:D.answers.length};
+ var names={recent:'Recent questions',gaps:'Turned away and gaps',feedback:'Feedback',show:'Sent to the show',tester:'Tester notes',answers:'Saved answers'};
+ $('#body').innerHTML='<div class="tiles">'+tiles.map(function(x){return'<div class="tile"><b>'+esc(x[0])+'</b><span>'+esc(x[1])+'</span><small>'+esc(x[2])+'</small></div>'}).join('')+'</div>'+
+  '<div class="grid3"><div class="card chart"><h2>Questions per day</h2>'+chart(D.byDay)+'</div>'+
+  '<div class="card"><h2>Topics</h2>'+list(D.topics,function(r){return'<li><span class="t">'+esc(r.k)+'</span><span class="n">'+r.n+'</span></li>'})+
+   (D.topics.length?'':'<p class="note">Topics are labelled each night.</p>')+'</div>'+
+  '<div class="card"><h2>Companies</h2>'+list(D.companies,function(r){return'<li><span class="t">'+esc(r.k)+'</span><span class="n">'+r.n+'</span></li>'})+'</div></div>'+
+  '<div class="card"><h2>Most asked</h2>'+list(D.top.slice(0,12),function(r){return'<li><span class="t">'+esc(r.k)+'</span><span class="n">'+r.n+'&times;</span></li>'})+'</div>'+
+  '<div class="tabs" id="tabs">'+Object.keys(names).map(function(k){return'<button data-t="'+k+'" class="'+(k===TAB?'on':'')+'">'+names[k]+'<i>'+counts[k]+'</i></button>'}).join('')+'</div>'+
+  '<div class="card" id="tab"></div>';
+ tab();}
+
+function tab(){var h='',fb=D.feedback;
+ if(TAB==='recent')h=D.recent.length?'<table><tr><th>When</th><th>Question</th><th class="hide-s">Answer</th><th class="hide-s">Company</th></tr>'+D.recent.map(function(r){
+   return'<tr><td class="when">'+when(r.ts)+'</td><td>'+q(r.q)+(r.follow?' <span class="sub">(follow-up)</span>':'')+(r.kind!=='IN'?' '+pill(r.kind):'')+'</td><td class="hide-s">'+pill(r.served)+'</td><td class="hide-s">'+esc(r.company||'')+'</td></tr>'}).join('')+'</table>':'<div class="empty">No questions yet.</div>';
+ if(TAB==='gaps')h=(D.gaps.length?'<table><tr><th>When</th><th>Question</th><th>Why</th></tr>'+D.gaps.map(function(r){
+   return'<tr><td class="when">'+when(r.ts)+'</td><td>'+q(r.q)+'</td><td>'+pill(r.kind)+' '+(r.served!=='blocked'?pill(r.served):'')+'</td></tr>'}).join('')+'</table>':'<div class="empty">Nothing turned away.</div>')+
+   '<p class="note">Off-topic and unclear questions show what people expect the tool to do. Safe fallbacks are answers that kept failing the advice check.</p>';
+ if(TAB==='feedback')h=fb.rows.length?'<table><tr><th>When</th><th>Question</th><th>Vote</th><th class="hide-s">Comment</th></tr>'+fb.rows.map(function(r){
+   return'<tr><td class="when">'+when(r.ts)+'</td><td>'+esc(r.q)+'</td><td>'+(r.helpful?pill('yes').replace('yes','Helpful'):pill('no').replace('no','Not helpful'))+'</td><td class="hide-s">'+esc(r.comment||'')+'</td></tr>'}).join('')+'</table>':'<div class="empty">No votes yet.</div>';
+ if(TAB==='show')h=D.show.length?'<table><tr><th>When</th><th>Question for the show</th><th>First name</th></tr>'+D.show.map(function(r){
+   return'<tr><td class="when">'+when(r.ts)+'</td><td>'+esc(r.q)+'</td><td>'+esc(r.name||'')+'</td></tr>'}).join('')+'</table>':'<div class="empty">No questions sent to the show yet.</div>';
+ if(TAB==='tester')h=D.tester.length?'<table><tr><th>When</th><th>Note</th><th>From</th></tr>'+D.tester.map(function(r){
+   return'<tr><td class="when">'+when(r.ts)+'</td><td>'+esc(r.text)+'</td><td>'+esc(r.name||'')+'</td></tr>'}).join('')+'</table>':'<div class="empty">No tester notes yet.</div>';
+ if(TAB==='answers')h=(D.answers.length?'<table><tr><th>Question</th><th>Served</th><th class="hide-s">Words</th><th class="hide-s">Moments</th><th class="hide-s">Written</th></tr>'+D.answers.map(function(r){
+   return'<tr class="click" data-k="'+esc(r.key)+'"><td>'+esc(r.q)+(r.offTopic?' '+pill('blocked').replace('Turned away','Scope message'):'')+'</td><td>'+r.hits+'&times;</td><td class="hide-s">'+r.words+'</td><td class="hide-s">'+r.moments+'</td><td class="hide-s when">'+day(r.created)+'</td></tr>'}).join('')+'</table>':'<div class="empty">No saved answers yet.</div>')+
+   '<p class="note">Saved for 7 days, then rewritten. Click one to read it. "Served" counts repeat askers who got this saved answer.</p>';
+ $('#tab').innerHTML=h;}
+
+function openAnswer(k){$('#modal').innerHTML='<p class="m">Loading&hellip;</p>';$('#ov').classList.add('open');
+ fetch('/api/admin?answer='+encodeURIComponent(k)).then(function(r){return r.json()}).then(function(a){
+  var ps=String(a.text||'').split('\n').filter(function(x){return x.trim()});
+  $('#modal').innerHTML='<button class="x" aria-label="Close">&times;</button><h3>'+esc(a.question||k)+'</h3><p class="m">Written '+day(a.created)+', served '+(a.hits||0)+' times</p>'+
+   ps.map(function(p,i){var c=(a.cites||[])[i]||[];return'<p>'+esc(p)+'</p>'+(c.length?'<p class="m">'+c.map(function(m){
+    return'<a href="'+esc(m.y?'https://www.youtube.com/watch?v='+m.y+'&t='+(m.t||0)+'s':m.url)+'" target="_blank" rel="noopener">'+esc(m.title)+(m.at?' at '+esc(m.at):'')+'</a>'}).join(' &middot; ')+'</p>':'')}).join('');
+ }).catch(function(){$('#modal').innerHTML='<button class="x">&times;</button><p>Could not load that answer.</p>';});}
+
+document.addEventListener('click',function(e){var b=e.target.closest('button,tr.click');if(!b){if(e.target.id==='ov')$('#ov').classList.remove('open');return;}
+ if(b.dataset.d){DAYS=+b.dataset.d;[].forEach.call(document.querySelectorAll('#range button'),function(x){x.classList.toggle('on',x===b)});load();return;}
+ if(b.dataset.t){TAB=b.dataset.t;[].forEach.call(document.querySelectorAll('#tabs button'),function(x){x.classList.toggle('on',x===b)});tab();return;}
+ if(b.dataset.k){openAnswer(b.dataset.k);return;}
+ if(b.classList.contains('x'))$('#ov').classList.remove('open');});
+load();
+})();
+</script>
+</body>
+</html>

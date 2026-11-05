@@ -30,7 +30,7 @@
 // Stamped at commit time so the config check says WHICH revision is live.
 // Without it, 'is the fix deployed yet' is unanswerable and every timing
 // measurement is ambiguous.
-const BUILD = 'two-step-17';
+const BUILD = 'two-step-18';
 const MODEL = 'gpt-5';
 const EFFORT = 'minimal';
 const SEARCH_RESULTS = 8;
@@ -39,7 +39,7 @@ const RECENT_RESULTS = 3;       // up to this many recent excerpts are mixed in
 const RECENT_MIN_RATIO = 0.75;  // ...if they score at least this share of the best match
 // Bump when the prompt changes. Answers last CACHE_DAYS; ask_prewarm.py refreshes the
 // popular ones as they expire, so new episodes reach saved answers within a week.
-const CACHE_VERSION = 'v8';   // v8 5 Nov: moments per paragraph (v7: voice; v6: dates, prices; v5: gate)
+export const CACHE_VERSION = 'v8';   // v8 5 Nov: moments per paragraph (v7: voice; v6: dates, prices; v5: gate)
 const CACHE_DAYS = 7;
 // Reuse a saved answer when a new question means the same thing (28 Oct 2026). Similarity
 // alone is NOT safe: "best ASX dividend stocks" vs "growth stocks" scored 0.853 and
