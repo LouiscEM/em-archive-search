@@ -65,9 +65,13 @@ button{font:inherit;cursor:pointer}
 .arrows{display:flex;gap:8px}
 .arrows button{width:40px;height:40px;border-radius:50%;border:1px solid var(--line);background:#fff;color:var(--navy);display:grid;place-items:center}
 .arrows button:hover{background:var(--soft)}
-.car{display:grid;grid-auto-flow:column;grid-auto-columns:calc((100% - 48px)/4);gap:16px;overflow-x:auto;padding-bottom:8px;scrollbar-width:none}
+.car{overflow:hidden;padding-bottom:8px;container-type:inline-size;touch-action:pan-y;cursor:grab;user-select:none;-webkit-user-select:none}
+.car.dragging{cursor:grabbing}.car.dragging .ep{pointer-events:none}
+.car.still{overflow-x:auto;scrollbar-width:none;cursor:auto}
+.car .track{display:flex;gap:16px;width:max-content;will-change:transform;backface-visibility:hidden}
 .car::-webkit-scrollbar{display:none}
-.ep{scroll-snap-align:start;text-decoration:none;color:inherit;display:flex;flex-direction:column;gap:8px}
+.ep{flex:none;width:calc((100cqw - 48px)/4);text-decoration:none;color:inherit;display:flex;flex-direction:column;gap:8px;-webkit-user-drag:none}
+.ep img{-webkit-user-drag:none;pointer-events:none}
 .ep .im{position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#0B1422}
 .ep .im img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .3s}
 .ep:hover .im img{transform:scale(1.04)}
@@ -283,12 +287,12 @@ button{font:inherit;cursor:pointer}
 
 footer{background:var(--navy);color:#9FB0C4;padding:26px 0;font-size:13px}
 
-@media(max-width:900px){.car{grid-auto-columns:calc((100% - 16px)/2)}.bgrid{grid-template-columns:1fr;gap:24px}.boys .photo{aspect-ratio:16/9;min-height:0}.tgrid{grid-template-columns:1fr 1fr}
+@media(max-width:900px){.ep{width:calc((100cqw - 16px)/2)}.bgrid{grid-template-columns:1fr;gap:24px}.boys .photo{aspect-ratio:16/9;min-height:0}.tgrid{grid-template-columns:1fr 1fr}
  .grid2{grid-template-columns:1fr}.side{position:static}.tiles,.path{grid-template-columns:1fr}.trade{grid-template-columns:1fr}
  .hero h1{font-size:40px}.modes{display:flex;flex-wrap:wrap;justify-content:center;border-radius:18px}.co h1{font-size:30px}}
 @media(max-width:520px){.wrap{padding:0 16px}.hero{padding:40px 0 30px}.hero h1{font-size:34px}
  .bar nav a:not(.on){display:none}
- .car{grid-auto-columns:78%}.arrows{display:none}.quotes{grid-template-columns:1fr}.tgrid{grid-template-columns:1fr}
+ .ep{width:78cqw}.arrows{display:none}.quotes{grid-template-columns:1fr}.tgrid{grid-template-columns:1fr}
  .shead h2,.btxt h2{font-size:25px}
  .boys .photo{border-radius:14px;min-height:0;aspect-ratio:16/8}
  .dive span{width:100%;text-align:center;margin:0}.dive button{padding:7px 12px;font-size:12.5px}
@@ -530,13 +534,28 @@ function renderGuide(){var g=D.guide;if(!g)return;var seen={};
 
 // ---------- fresh off the mic
 // Some episodes carry a slug, not a YouTube id, in youtube_id ("equity-mate"); skip those.
-function carousel(list){$('#car').innerHTML=(list||[]).filter(function(e){return /^[\w-]{11}$/.test(e.y)}).map(function(e){var p=e.date.split('-');
+function carousel(list){var cards=(list||[]).filter(function(e){return /^[\w-]{11}$/.test(e.y)}).map(function(e){var p=e.date.split('-');
  return'<a class="ep" href="'+esc(e.url)+'" target="_blank" rel="noopener"><span class="im"><img src="https://i.ytimg.com/vi/'+esc(e.y)+'/hqdefault.jpg" alt="" onload="if(this.naturalWidth<200)this.closest(\'.ep\').remove()"><span class="pl">'+PLAYI+'</span>'+(e.mins?'<span class="du">'+e.mins+' min</span>':'')+'</span>'+
   '<span class="sh">'+esc(e.show)+'</span><span class="t">'+esc(e.title)+'</span><span class="d">'+(+p[2])+' '+MONTHS[+p[1]-1]+' '+p[0]+'</span></a>'}).join('');
- if(!STILL){var c=$('#car');c.insertAdjacentHTML('beforeend',c.innerHTML.replace(/<a class="ep"/g,'<a class="ep dup" aria-hidden="true" tabindex="-1"'));}}
+ var c=$('#car');c.classList.toggle('still',STILL);
+ c.innerHTML='<div class="track">'+cards+(STILL?'':cards.replace(/<a class="ep"/g,'<a class="ep dup" aria-hidden="true" tabindex="-1"'))+'</div>';
+ carStart();}
 var STILL=matchMedia('(prefers-reduced-motion: reduce)').matches;
 // Width of one full set of cards: the loop point for the drift.
 function carSet(){var c=$('#car'),d=c.querySelector('.ep.dup'),f=c.querySelector('.ep');return d&&f?d.offsetLeft-f.offsetLeft:0;}
+// The drift: one infinite animation of the track from 0 to minus one set's width, at SPEED
+// pixels a second. Restarted (keeping its place) whenever that width changes.
+var CAR=null,CAR_SPEED=32,CAR_HOLD=false;
+function carDur(){return CAR?CAR.effect.getTiming().duration:0;}
+function carStart(){if(STILL)return;var tr=$('#car .track'),w=carSet();if(!tr||!w)return;
+ var frac=CAR&&carDur()?((CAR.currentTime||0)%carDur())/carDur():0;if(CAR)CAR.cancel();
+ CAR=tr.animate([{transform:'translate3d(0,0,0)'},{transform:'translate3d('+(-w)+'px,0,0)'}],{duration:w/CAR_SPEED*1000,iterations:Infinity});
+ CAR.currentTime=frac*carDur();if(CAR_HOLD)CAR.pause();}
+function carShift(px){var d=carDur();if(!d)return;CAR.currentTime=(((CAR.currentTime||0)+px/CAR_SPEED*1000)%d+d)%d;}
+// Arrows glide the row along rather than jumping it.
+function carNudge(px){if(STILL){$('#car').scrollBy({left:px,behavior:'smooth'});return;}if(!CAR)return;
+ var t0=null,done=0,ms=420;function step(t){if(t0===null)t0=t;var k=Math.min(1,(t-t0)/ms),e=1-Math.pow(1-k,3),want=px*e;
+  carShift(want-done);done=want;if(k<1)requestAnimationFrame(step);}requestAnimationFrame(step);}
 
 // ---------- templates
 var TPL=[
@@ -570,9 +589,7 @@ function route(){var h=location.hash.slice(1),home=$('#home'),v=$('#view');
 // ---------- events
 document.addEventListener('click',function(e){var t=e.target.closest('button,a');if(!t)return;
  if(t.hasAttribute('data-home')){e.preventDefault();location.hash='';return;}
- if(t.dataset.car){var c=$('#car'),w=carSet(),dx=(+t.dataset.car)*c.clientWidth*0.75;
-  if(w&&dx<0&&c.scrollLeft+dx<0)c.scrollLeft+=w;if(w&&dx>0&&c.scrollLeft+dx>=w)c.scrollLeft-=w;
-  c.scrollBy({left:dx,behavior:'smooth'});return;}
+ if(t.dataset.car){carNudge((+t.dataset.car)*$('#car').clientWidth*0.75);return;}
  if(t.id==='tmore'){templates('all',true);return;}
  if(t.dataset.tf){[].forEach.call(document.querySelectorAll('#tfil button'),function(b){b.classList.toggle('on',b===t)});templates(t.dataset.tf);return;}
  if(t.classList.contains('tc')){var g=t.dataset.go;if(!g){toast('Coming in the full build');return;}
@@ -607,20 +624,24 @@ document.addEventListener('click',function(e){if(!e.target.closest('.search'))$(
 window.addEventListener('hashchange',route);
 
 setMode('all');
-// The episode carousel drifts constantly (Louis, 5 Nov 2026: "a constant run, not a segment
-// move"), about 30 pixels a second, looping over a second copy of the cards. It pauses while
-// hovered, touched or focused, and never moves for people whose device asks for reduced motion.
-(function(){var car=$('#car'),hold=false,pos=0,last=0,SPEED=30;
- if(STILL)return;
- ['mouseenter','touchstart','focusin'].forEach(function(e){car.addEventListener(e,function(){hold=true},{passive:true})});
- ['mouseleave','focusout'].forEach(function(e){car.addEventListener(e,function(){hold=false;pos=car.scrollLeft})});
- car.addEventListener('touchend',function(){setTimeout(function(){hold=false;pos=car.scrollLeft},3000)},{passive:true});
- car.addEventListener('scroll',function(){if(hold||Math.abs(car.scrollLeft-pos)>2)pos=car.scrollLeft},{passive:true});
- function frame(t){var dt=last?Math.min(100,t-last):0;last=t;
-  if(!hold&&$('#home').style.display!=='none'&&car.firstElementChild){var w=carSet();
-   if(w){pos+=SPEED*dt/1000;if(pos>=w)pos-=w;car.scrollLeft=pos;}}
-  requestAnimationFrame(frame);}
- requestAnimationFrame(frame);})();
+// The episode carousel drifts constantly and smoothly (Louis, 5-6 Nov 2026). It pauses while
+// hovered or focused, can be dragged or swiped either way, and never moves for people whose
+// device asks for reduced motion (they get a plain scrolling row instead).
+(function(){var car=$('#car');if(STILL)return;
+ function hold(on){CAR_HOLD=on;if(CAR){if(on)CAR.pause();else CAR.play();}}
+ car.addEventListener('mouseenter',function(){hold(true)});car.addEventListener('mouseleave',function(){if(!drag)hold(false)});
+ car.addEventListener('focusin',function(){hold(true)});car.addEventListener('focusout',function(){hold(false)});
+ // Drag or swipe: move the animation's clock with the pointer; a real drag doesn't open a card.
+ var drag=null,moved=false;
+ car.addEventListener('pointerdown',function(e){if(!CAR||e.button>0)return;drag={x:e.clientX,last:e.clientX,touch:e.pointerType!=='mouse'};moved=false;hold(true);});
+ window.addEventListener('pointermove',function(e){if(!drag)return;var dx=e.clientX-drag.last;drag.last=e.clientX;
+  if(!moved&&Math.abs(e.clientX-drag.x)>6){moved=true;car.classList.add('dragging');}if(moved)carShift(-dx);});
+ window.addEventListener('pointerup',function(e){if(!drag)return;var t=drag.touch;drag=null;car.classList.remove('dragging');
+  if(t)setTimeout(function(){if(!drag)hold(false)},1800);else if(!car.matches(':hover'))hold(false);});
+ car.addEventListener('click',function(e){if(moved){e.preventDefault();e.stopPropagation();moved=false;}},true);
+ // Card widths follow the window; a removed broken thumbnail shortens the set. Re-measure either way.
+ if(window.ResizeObserver)new ResizeObserver(function(){carStart();}).observe(car);
+ new MutationObserver(function(){carStart();}).observe(car,{childList:true,subtree:true});})();
 templates('all');
 // Suggested questions: saved answers only (already checked, never personal), built nightly.
 j('trending.json').then(function(t){if(!t||!t.questions||!t.questions.length)return;
