@@ -30,7 +30,7 @@
 // Stamped at commit time so the config check says WHICH revision is live.
 // Without it, 'is the fix deployed yet' is unanswerable and every timing
 // measurement is ambiguous.
-const BUILD = 'two-step-16';
+const BUILD = 'two-step-17';
 const MODEL = 'gpt-5';
 const EFFORT = 'minimal';
 const SEARCH_RESULTS = 8;
@@ -39,7 +39,7 @@ const RECENT_RESULTS = 3;       // up to this many recent excerpts are mixed in
 const RECENT_MIN_RATIO = 0.75;  // ...if they score at least this share of the best match
 // Bump when the prompt changes. Answers last CACHE_DAYS; ask_prewarm.py refreshes the
 // popular ones as they expire, so new episodes reach saved answers within a week.
-const CACHE_VERSION = 'v7';   // v7 4 Nov: Bryce and Ren voice (v6 30 Oct: dates, prices; v5: gate)
+const CACHE_VERSION = 'v8';   // v8 5 Nov: moments per paragraph (v7: voice; v6: dates, prices; v5: gate)
 const CACHE_DAYS = 7;
 // Reuse a saved answer when a new question means the same thing (28 Oct 2026). Similarity
 // alone is NOT safe: "best ASX dividend stocks" vs "growth stocks" scored 0.853 and
@@ -303,6 +303,10 @@ Rules:
   never say it lives in one. A course the excerpts mention is a separate resource; if you
   mention it at all, say so after the checklist, as something different.
 - Do not write URLs and do not name episodes. Links are added from our own database.
+- End EVERY paragraph with the numbers of the excerpts it is based on, in square brackets,
+  like this: [2][5]. Use only the numbers you were given, most relevant first, at most
+  three. They are turned into "play this moment" buttons and removed from the text, so put
+  them only at the very end of the paragraph, never mid-sentence.
 - Never mention excerpts, passages, transcripts you were given, or anything the reader
   "shared" or "provided". The reader only typed a question. Speak as Equity Mates.
 - Australian English and Australian context.
@@ -550,6 +554,37 @@ async function write(env, question, chunks, extra, price) {
   const text = (d.output || []).flatMap((o) => o.content || []).map((c) => c.text || '').join('');
   // House style bans dashes; strip the space citation markers leave before punctuation.
   return text.replace(/\u2014|\u2013/g, ', ').replace(/[ \t]+([.,;:!?)])/g, '$1').trim();
+}
+
+/**
+ * The moments behind each paragraph (Louis, 5 Nov 2026: embed the content in the answer, as
+ * the stock checklist does). The writer ends each paragraph with excerpt numbers, e.g. [2][5];
+ * this strips them and returns, per paragraph, up to two moments from different episodes:
+ * title, date, YouTube id and the second the excerpt starts. Paragraphs are split exactly as
+ * the page splits them, so cites[i] belongs to the i-th paragraph on screen.
+ */
+const STAMP = /\[(\d{1,2}:\d{2}(?::\d{2})?)\]\(https:\/\/www\.youtube\.com\/watch\?v=([\w-]+)&t=(\d+)s\)/;
+function cite(raw, chunks, lookup) {
+  const paras = String(raw || '').split('\n').filter((x) => x.trim());
+  const cites = [];
+  const text = paras.map((p) => {
+    const nums = [...p.matchAll(/\[(\d{1,2})\]/g)].map((m) => +m[1]);
+    const seen = new Set();
+    const moments = [];
+    for (const n of nums) {
+      const c = chunks[n - 1];
+      const id = c && (/^ep(\d+)_/.exec(c.file) || [])[1];
+      const e = id && lookup[id];
+      if (!e || seen.has(id) || moments.length >= 2) continue;
+      seen.add(id);
+      const ts = STAMP.exec(c.text);
+      moments.push({ title: e.t, show: e.s, date: e.d, url: e.u, y: e.y || (ts && ts[2]) || '',
+        t: ts ? +ts[3] : 0, at: ts ? ts[1] : null });
+    }
+    cites.push(moments);
+    return p.replace(/\s*\[\d{1,2}\]/g, '').replace(/[ \t]+([.,;:!?)])/g, '$1').trim();
+  });
+  return { text: text.join('\n\n'), cites };
 }
 
 /** Episodes behind the excerpts, best first, each with the moment the excerpt starts. */
@@ -906,7 +941,8 @@ export async function onRequestPost(context) {
 
       await send({ type: 'stage', stage: 'writing' });
       const brief = personal ? PERSONAL_BRIEF : '';
-      let text = await write(env, question, chunks, brief, price);
+      // Citation marks come off before anything checks or shows the text.
+      let { text, cites } = cite(await write(env, question, chunks, brief, price), chunks, lookup);
       if (/^\W*OUT_OF_SCOPE\b/.test(text)) {
         L.kind = 'OFF_TOPIC'; L.served = 'blocked';
         const meta = { episodes: [], offTopic: true, title: SCOPE_TITLE, fallback: false,
@@ -920,17 +956,17 @@ export async function onRequestPost(context) {
       let retried = false;
       if (flags.length) {
         await send({ type: 'stage', stage: 'checking' });
-        const again = await write(env, question, chunks, brief + STRICT, price);
-        const againFlags = audit(again);
+        const again = cite(await write(env, question, chunks, brief + STRICT, price), chunks, lookup);
+        const againFlags = audit(again.text);
         retried = true;
-        if (againFlags.length < flags.length) { text = again; flags = againFlags; }
+        if (againFlags.length < flags.length) { text = again.text; cites = again.cites; flags = againFlags; }
       }
       const fallback = flags.length > 0;
       L.served = fallback ? 'fallback' : 'fresh';
-      if (fallback) text = FALLBACK;
+      if (fallback) { text = FALLBACK; cites = []; }
       timing.total = Date.now() - t0;
 
-      const meta = { episodes: episodesFrom(chunks, lookup), flagged: false, fallback,
+      const meta = { episodes: episodesFrom(chunks, lookup), cites, flagged: false, fallback,
         retried, personal, auditOnFirstDraft: retried ? 'failed' : 'passed' };
       // Only clean, general answers are cached: never a personal question, never a
       // fallback, so a bad answer cannot be served a thousand times.
