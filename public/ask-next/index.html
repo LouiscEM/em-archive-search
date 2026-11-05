@@ -65,7 +65,7 @@ button{font:inherit;cursor:pointer}
 .arrows{display:flex;gap:8px}
 .arrows button{width:40px;height:40px;border-radius:50%;border:1px solid var(--line);background:#fff;color:var(--navy);display:grid;place-items:center}
 .arrows button:hover{background:var(--soft)}
-.car{display:grid;grid-auto-flow:column;grid-auto-columns:calc((100% - 48px)/4);gap:16px;overflow-x:auto;scroll-snap-type:x mandatory;scroll-behavior:smooth;padding-bottom:8px;scrollbar-width:none}
+.car{display:grid;grid-auto-flow:column;grid-auto-columns:calc((100% - 48px)/4);gap:16px;overflow-x:auto;padding-bottom:8px;scrollbar-width:none}
 .car::-webkit-scrollbar{display:none}
 .ep{scroll-snap-align:start;text-decoration:none;color:inherit;display:flex;flex-direction:column;gap:8px}
 .ep .im{position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#0B1422}
@@ -532,7 +532,11 @@ function renderGuide(){var g=D.guide;if(!g)return;var seen={};
 // Some episodes carry a slug, not a YouTube id, in youtube_id ("equity-mate"); skip those.
 function carousel(list){$('#car').innerHTML=(list||[]).filter(function(e){return /^[\w-]{11}$/.test(e.y)}).map(function(e){var p=e.date.split('-');
  return'<a class="ep" href="'+esc(e.url)+'" target="_blank" rel="noopener"><span class="im"><img src="https://i.ytimg.com/vi/'+esc(e.y)+'/hqdefault.jpg" alt="" onload="if(this.naturalWidth<200)this.closest(\'.ep\').remove()"><span class="pl">'+PLAYI+'</span>'+(e.mins?'<span class="du">'+e.mins+' min</span>':'')+'</span>'+
-  '<span class="sh">'+esc(e.show)+'</span><span class="t">'+esc(e.title)+'</span><span class="d">'+(+p[2])+' '+MONTHS[+p[1]-1]+' '+p[0]+'</span></a>'}).join('');}
+  '<span class="sh">'+esc(e.show)+'</span><span class="t">'+esc(e.title)+'</span><span class="d">'+(+p[2])+' '+MONTHS[+p[1]-1]+' '+p[0]+'</span></a>'}).join('');
+ if(!STILL){var c=$('#car');c.insertAdjacentHTML('beforeend',c.innerHTML.replace(/<a class="ep"/g,'<a class="ep dup" aria-hidden="true" tabindex="-1"'));}}
+var STILL=matchMedia('(prefers-reduced-motion: reduce)').matches;
+// Width of one full set of cards: the loop point for the drift.
+function carSet(){var c=$('#car'),d=c.querySelector('.ep.dup'),f=c.querySelector('.ep');return d&&f?d.offsetLeft-f.offsetLeft:0;}
 
 // ---------- templates
 var TPL=[
@@ -566,7 +570,9 @@ function route(){var h=location.hash.slice(1),home=$('#home'),v=$('#view');
 // ---------- events
 document.addEventListener('click',function(e){var t=e.target.closest('button,a');if(!t)return;
  if(t.hasAttribute('data-home')){e.preventDefault();location.hash='';return;}
- if(t.dataset.car){var c=$('#car');c.scrollBy({left:(+t.dataset.car)*c.clientWidth*0.75});return;}
+ if(t.dataset.car){var c=$('#car'),w=carSet(),dx=(+t.dataset.car)*c.clientWidth*0.75;
+  if(w&&dx<0&&c.scrollLeft+dx<0)c.scrollLeft+=w;if(w&&dx>0&&c.scrollLeft+dx>=w)c.scrollLeft-=w;
+  c.scrollBy({left:dx,behavior:'smooth'});return;}
  if(t.id==='tmore'){templates('all',true);return;}
  if(t.dataset.tf){[].forEach.call(document.querySelectorAll('#tfil button'),function(b){b.classList.toggle('on',b===t)});templates(t.dataset.tf);return;}
  if(t.classList.contains('tc')){var g=t.dataset.go;if(!g){toast('Coming in the full build');return;}
@@ -601,17 +607,20 @@ document.addEventListener('click',function(e){if(!e.target.closest('.search'))$(
 window.addEventListener('hashchange',route);
 
 setMode('all');
-// The episode carousel moves on its own (Louis, 5 Nov 2026): one card every 3.5 seconds,
-// back to the start at the end. It pauses while hovered, touched or focused, while the tab is
-// hidden, and never moves for people whose device asks for reduced motion.
-(function(){var car=$('#car'),hold=false,still=matchMedia('(prefers-reduced-motion: reduce)').matches;
- if(still)return;
+// The episode carousel drifts constantly (Louis, 5 Nov 2026: "a constant run, not a segment
+// move"), about 30 pixels a second, looping over a second copy of the cards. It pauses while
+// hovered, touched or focused, and never moves for people whose device asks for reduced motion.
+(function(){var car=$('#car'),hold=false,pos=0,last=0,SPEED=30;
+ if(STILL)return;
  ['mouseenter','touchstart','focusin'].forEach(function(e){car.addEventListener(e,function(){hold=true},{passive:true})});
- ['mouseleave','focusout'].forEach(function(e){car.addEventListener(e,function(){hold=false})});
- car.addEventListener('touchend',function(){setTimeout(function(){hold=false},4000)},{passive:true});
- setInterval(function(){if(hold||document.hidden||$('#home').style.display==='none'||!car.firstElementChild)return;
-  var step=car.firstElementChild.getBoundingClientRect().width+16;
-  if(car.scrollLeft+car.clientWidth>=car.scrollWidth-4)car.scrollTo({left:0});else car.scrollBy({left:step});},3500);})();
+ ['mouseleave','focusout'].forEach(function(e){car.addEventListener(e,function(){hold=false;pos=car.scrollLeft})});
+ car.addEventListener('touchend',function(){setTimeout(function(){hold=false;pos=car.scrollLeft},3000)},{passive:true});
+ car.addEventListener('scroll',function(){if(hold||Math.abs(car.scrollLeft-pos)>2)pos=car.scrollLeft},{passive:true});
+ function frame(t){var dt=last?Math.min(100,t-last):0;last=t;
+  if(!hold&&$('#home').style.display!=='none'&&car.firstElementChild){var w=carSet();
+   if(w){pos+=SPEED*dt/1000;if(pos>=w)pos-=w;car.scrollLeft=pos;}}
+  requestAnimationFrame(frame);}
+ requestAnimationFrame(frame);})();
 templates('all');
 // Suggested questions: saved answers only (already checked, never personal), built nightly.
 j('trending.json').then(function(t){if(!t||!t.questions||!t.questions.length)return;
