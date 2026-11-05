@@ -137,6 +137,21 @@ button{font:inherit;cursor:pointer}
 .sugg .sq b{font-weight:800}.sugg .tag2{margin-left:auto;font:800 10.5px 'Libre Franklin',Arial;letter-spacing:1px;text-transform:uppercase;color:var(--coral)}
 .sugg .i{color:var(--mute);width:16px;height:16px}
 
+/* Suggested questions drifting along the bottom of the hero (back from the first test bed,
+   5 Nov 2026). Paused on hover, edges faded, still and swipeable for reduced motion. */
+.trend{position:relative;display:flex;align-items:center;gap:16px;margin:34px auto 0;max-width:1120px;padding:0 24px}
+.trend .tl{flex:none;display:flex;gap:7px;align-items:center;color:var(--coral);font:800 11.5px 'Libre Franklin',Arial;letter-spacing:1.3px;text-transform:uppercase}
+.trend .tl .i{width:15px;height:15px}
+.trend .tm{flex:1;min-width:0;overflow:hidden;-webkit-mask-image:linear-gradient(90deg,transparent,#000 6%,#000 94%,transparent);mask-image:linear-gradient(90deg,transparent,#000 6%,#000 94%,transparent)}
+.trend .tt{display:flex;gap:10px;width:max-content;animation:drift 70s linear infinite}
+.trend .tt .dup{display:flex;gap:10px}
+.trend:hover .tt{animation-play-state:paused}
+.trend button{flex:none;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.14);color:rgba(255,255,255,.88);border-radius:999px;padding:8px 15px;font:13.5px 'Open Sans',Arial;white-space:nowrap}
+.trend button:hover{background:rgba(255,255,255,.16);color:#fff}
+@keyframes drift{to{transform:translateX(calc(-50% - 5px))}}
+@media(prefers-reduced-motion:reduce){.trend .tt{animation:none}.trend .tm{overflow-x:auto}.trend .tt .dup{display:none}}
+@media(max-width:520px){.trend{flex-direction:column;align-items:flex-start;gap:10px;padding:0 16px}.trend .tm{width:100%}}
+
 /* why strip */
 .why{padding:56px 0;background:#fff}
 .why h2{text-align:center;font-size:30px;font-weight:900;letter-spacing:-.5px}
@@ -300,7 +315,8 @@ footer{background:var(--navy);color:#9FB0C4;padding:26px 0;font-size:13px}
   <button type="button" data-mode="guide" aria-pressed="false"><svg class="i" viewBox="0 0 24 24"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>Think through a decision</button>
  </div>
  <div class="chips" id="chips"></div>
-</div></header>
+</div>
+<div class="trend" id="trend" hidden></div></header>
 
 <section class="fresh"><div class="wrap">
  <div class="shead"><div><div class="kick2">Fresh off the mic</div><h2>New on Equity Mates.</h2></div>
@@ -560,6 +576,7 @@ document.addEventListener('click',function(e){var t=e.target.closest('button,a')
  if(t.closest('#chips')&&!t.closest('span')){$('#q').value=t.textContent;go(t.textContent);return;}
  if(t.dataset.s){location.hash='co='+t.dataset.s;return;}
  if(t.dataset.q){go();return;}
+ if(t.dataset.tq){answer(t.dataset.tq);return;}
  if(t.dataset.g){location.hash='guide';return;}
  if(t.classList.contains('play')){var box=t.closest('.view,.q').querySelector('.pbox');if(box.innerHTML){box.innerHTML='';return;}player(t.dataset.y,t.dataset.t,box);return;}
  if(t.classList.contains('thumb')){var w=document.createElement('div');t.replaceWith(w);player(t.dataset.y,t.dataset.t,w);return;}
@@ -596,6 +613,11 @@ setMode('all');
   var step=car.firstElementChild.getBoundingClientRect().width+16;
   if(car.scrollLeft+car.clientWidth>=car.scrollWidth-4)car.scrollTo({left:0});else car.scrollBy({left:step});},3500);})();
 templates('all');
+// Suggested questions: saved answers only (already checked, never personal), built nightly.
+j('trending.json').then(function(t){if(!t||!t.questions||!t.questions.length)return;
+ var pills=t.questions.map(function(q){return'<button type="button" data-tq="'+esc(q)+'">'+esc(q)+'</button>'}).join('');
+ var el=$('#trend');el.innerHTML='<span class="tl"><svg class="i" viewBox="0 0 24 24"><path d="M3 17l6-6 4 4 8-8"/><path d="M14 7h7v7"/></svg>'+esc(t.label)+'</span>'+
+  '<div class="tm"><div class="tt">'+pills+'<span class="dup" aria-hidden="true">'+pills+'</span></div></div>';el.hidden=false;});
 Promise.all([j('/checklist-test/companies.json'),j('/ask-episodes.json'),j('data/concept.json'),j('data/guide.json'),j('/ask-companies.json')]).then(function(r){
  D.companies=(r[0]||[]).filter(function(c){return c.b!==false});D.concept=r[2];D.guide=r[3];D.tick=(r[4]||{}).tickers||{};
  var eps=Object.keys(r[1]||{}).map(function(k){return r[1][k]});
