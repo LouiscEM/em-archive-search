@@ -156,6 +156,19 @@ button{font:inherit;cursor:pointer}
 @media(prefers-reduced-motion:reduce){.trend .tt{animation:none}.trend .tm{overflow-x:auto}.trend .tt .dup{display:none}}
 @media(max-width:520px){.trend{flex-direction:column;align-items:flex-start;gap:10px;padding:0 16px}.trend .tm{width:100%}}
 
+/* vision and mission band (strategy slide, 6 Nov 2026) */
+.mission{background:var(--navy);color:#fff;padding:48px 0;text-align:center}
+.mission .vis{font:900 30px/1.2 'Libre Franklin',Arial;color:#fff;letter-spacing:-.5px;max-width:780px;margin:6px auto 12px}
+.mission .mis{color:#C9D2DE;font-size:16px;max-width:680px;margin:0 auto 20px}
+.mission .stages{display:flex;flex-wrap:wrap;gap:10px;justify-content:center}
+.mission .stages span{border:1px solid rgba(255,255,255,.2);border-radius:999px;padding:7px 16px;font:800 13px 'Libre Franklin',Arial;color:#fff}
+.mission .stages span:nth-child(1){border-color:var(--coral)}
+.btxt .goal{font:800 15px 'Libre Franklin',Arial;color:var(--navy);border-left:3px solid var(--coral);padding-left:10px;margin:4px 0 6px}
+.tc .ty .stg{font-style:normal;margin-left:auto;color:var(--mute);font-weight:700;letter-spacing:.8px}
+.tc.feat .ty .stg{color:#C9D2DE}
+.trend.flash .tm{outline:2px solid var(--coral);outline-offset:6px;border-radius:999px;transition:outline-color .3s}
+@media(max-width:520px){.mission .vis{font-size:23px}}
+
 /* why strip */
 .why{padding:56px 0;background:#fff}
 .why h2{text-align:center;font-size:30px;font-weight:900;letter-spacing:-.5px}
@@ -309,7 +322,7 @@ footer{background:var(--navy);color:#9FB0C4;padding:26px 0;font-size:13px}
  <div class="kick"><svg class="i" viewBox="0 0 24 24"><path d="M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3z"/><path d="M19 10v2a7 7 0 0 1-14 0v-2M12 19v3"/></svg>The Equity Mates archive</div>
  <h1>Ask Equity Mates <span class="hl">anything.</span></h1>
  <p class="sub">10 years of search in one engine.</p>
- <p class="lis">Every episode, searchable. Jump straight to the moment it was said.</p>
+ <p class="lis">Every episode, searchable. Go from curious to confident, straight from the moment it was said.</p>
  <div class="search"><form id="f" autocomplete="off"><svg class="i" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
   <input id="q" aria-label="Search"><button class="go" type="submit"><span id="golbl">Search</span><svg class="i" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button></form>
   <div class="sugg" id="sg" hidden></div></div>
@@ -333,7 +346,8 @@ footer{background:var(--navy);color:#9FB0C4;padding:26px 0;font-size:13px}
   <span class="tagl"><svg class="i" viewBox="0 0 24 24"><path d="M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3z"/><path d="M19 10v2a7 7 0 0 1-14 0v-2"/></svg>Bryce &amp; Ren</span></div>
  <div class="btxt"><div class="kick2">G'day, we're Bryce and Ren</div>
   <h2>Two mates who started knowing nothing.</h2>
-  <p>We started Equity Mates to ask every dumb money question so you don't have to. About 2,000 episodes later, it's all here: ask us anything and hit play on the exact moment. Fair warning, some early takes have aged like milk. We kept those in too.</p>
+  <p>We started Equity Mates to ask every dumb money question so you don't have to, and to help Australians see what's possible with their money. About 2,000 episodes later, it's all here: ask us anything and hit play on the exact moment. Fair warning, some early takes have aged like milk. We kept those in too.</p>
+  <p class="goal">Our goal: make this generation of Australians the most financially literate yet.</p>
   <div class="quotes">
    <button class="qt" data-y="SHs_qmkwWRY" data-t="1071"><span class="qm">&ldquo;</span><span class="qx">Investing is a skill, like driving is a skill, and it can fit into your life however you want it to be.</span><span class="qw"><span class="dot"><svg viewBox="0 0 24 24"><path d="M6 4l14 8-14 8z"/></svg></span>Ren, April 2022</span></button>
    <button class="qt" data-y="RfV_9DWaUWo" data-t="898"><span class="qm">&ldquo;</span><span class="qx">It's never too late to start all of this stuff.</span><span class="qw"><span class="dot"><svg viewBox="0 0 24 24"><path d="M6 4l14 8-14 8z"/></svg></span>Bryce, April 2026</span></button>
@@ -344,10 +358,17 @@ footer{background:var(--navy);color:#9FB0C4;padding:26px 0;font-size:13px}
 </div></section>
 
 <section class="tpl"><div class="wrap">
- <div class="shead"><div><div class="kick2">Start from a template</div><h2>Not sure what to ask? Pick one.</h2></div></div>
- <div class="tfil" id="tfil"><button class="on" data-tf="all">All</button><button data-tf="stock">Stock checks</button><button data-tf="guide">Decision guides</button><button data-tf="path">Learning paths</button></div>
+ <div class="shead"><div><div class="kick2">Start where you are</div><h2>Wherever you are with money, start here.</h2></div></div>
+ <div class="tfil" id="tfil"><button class="on" data-tf="all">All</button><button data-tf="inspired">Get inspired</button><button data-tf="started">Get started</button><button data-tf="wealthy">Get wealthy</button><button data-tf="retired">Get retired</button></div>
  <div class="tgrid" id="tgrid"></div>
  <button class="tmore" id="tmore" type="button">See all 10 templates <svg class="i" viewBox="0 0 24 24"><path d="M6 9l6 6 6-6"/></svg></button>
+</div></section>
+
+<section class="mission"><div class="wrap">
+ <div class="kick2">Why we built this</div>
+ <p class="vis">Make this generation of Australians the most financially literate yet.</p>
+ <p class="mis">Ask Equity Mates helps every Australian understand the possibilities for their financial future, with the knowledge and confidence to take control. From your first question to your last day at work.</p>
+ <div class="stages"><span>Get inspired</span><span>Get started</span><span>Get wealthy</span><span>Get retired</span></div>
 </div></section>
 
 <section class="why"><div class="wrap">
@@ -370,7 +391,7 @@ footer{background:var(--navy);color:#9FB0C4;padding:26px 0;font-size:13px}
 <main id="view"><div class="wrap" id="vw"></div></main>
 <div class="overlay" id="ov"><div class="share" id="sh"></div></div>
 <div class="toast" id="toast"></div>
-<footer><div class="wrap">Equity Mates Media gives general information only and operates under AFSL 540697. Internal test bed.</div></footer>
+<footer><div class="wrap">Helping make this generation of Australians the most financially literate yet. Equity Mates Media gives general information only and operates under AFSL 540697. Internal test bed.</div></footer>
 
 <script>
 (function(){
@@ -558,25 +579,31 @@ function carNudge(px){if(STILL){$('#car').scrollBy({left:px,behavior:'smooth'});
   carShift(want-done);done=want;if(k<1)requestAnimationFrame(step);}requestAnimationFrame(step);}
 
 // ---------- templates
+// Each template sits under one of the four strategic objectives (s = stage).
 var TPL=[
- {k:'stock',feat:1,t:'Run the 4-step checklist on any company',p:'Type a ticker, see what we said on each step, make your own call.',go:'focus',live:1},
- {k:'stock',t:'CSL, through the four steps',p:'From market darling to down 68% from its high. See how our take changed along the way.',go:'#co=csl-csl',live:1},
- {k:'stock',t:'Xero, through the four steps',p:'A Kiwi success story taking on the world, and the AI question hanging over software.',go:'#co=xero-xro',live:1},
- {k:'guide',t:'Pay off the mortgage or invest?',p:'The questions worth asking yourself, the trade-offs and the mistakes we\'ve seen.',go:'#guide',live:1},
- {k:'guide',t:'Am I ready for debt recycling?',p:'What needs to be true before it makes sense, and when it really doesn\'t.'},
- {k:'guide',t:'Extra into super, or invest outside it?',p:'Tax, access, flexibility and the time it takes to get your money back.'},
- {k:'guide',t:'Buy a home, rentvest or keep renting?',p:'The trade-offs we\'ve unpacked with advisers and buyers on the show.'},
- {k:'path',t:'Debt recycling, in three moments',p:'Start here, go deeper, then the fine print. About 15 minutes of listening.',go:'#concept',live:1},
- {k:'path',t:'Investing 101 in five moments',p:'Shares, ETFs, compounding, diversification and getting started, in our own words.'},
- {k:'path',t:'ETFs from zero',p:'What they are, how to read one, and why the name tells you more than you\'d think.'}];
+ {k:'stock',s:'wealthy',feat:1,t:'Run the 4-step checklist on any company',p:'Type a ticker, see what we said on each step, make your own call.',go:'focus',live:1},
+ {k:'stock',s:'wealthy',t:'CSL, through the four steps',p:'From market darling to down 68% from its high. See how our take changed along the way.',go:'#co=csl-csl',live:1},
+ {k:'stock',s:'inspired',t:'Xero, through the four steps',p:'A Kiwi success story taking on the world, and the AI question hanging over software.',go:'#co=xero-xro',live:1},
+ {k:'guide',s:'wealthy',t:'Pay off the mortgage or invest?',p:'The questions worth asking yourself, the trade-offs and the mistakes we\'ve seen.',go:'#guide',live:1},
+ {k:'guide',s:'wealthy',t:'Am I ready for debt recycling?',p:'What needs to be true before it makes sense, and when it really doesn\'t.'},
+ {k:'guide',s:'retired',t:'Extra into super, or invest outside it?',p:'Tax, access, flexibility and the time it takes to get your money back.'},
+ {k:'guide',s:'retired',t:'Transition to retirement, explained',p:'How people move from earning to drawing down, and the questions to take to an adviser.'},
+ {k:'guide',s:'started',t:'Buy a home, rentvest or keep renting?',p:'The trade-offs we\'ve unpacked with advisers and buyers on the show.'},
+ {k:'path',s:'wealthy',t:'Debt recycling, in three moments',p:'Start here, go deeper, then the fine print. About 15 minutes of listening.',go:'#concept',live:1},
+ {k:'path',s:'started',t:'Investing 101 in five moments',p:'Shares, ETFs, compounding, diversification and getting started, in our own words.'},
+ {k:'path',s:'started',t:'ETFs from zero',p:'What they are, how to read one, and why the name tells you more than you\'d think.'},
+ {k:'path',s:'inspired',t:'What Australians are asking this week',p:'The questions everyone else is curious about right now. Tap one to hear the answer.',go:'trend',live:1}];
+var STAGE={inspired:'Get inspired',started:'Get started',wealthy:'Get wealthy',retired:'Get retired'};
 var TCOL={stock:'var(--s1)',guide:'var(--s2)',path:'var(--s3)'},TNAME={stock:'Stock check',guide:'Decision guide',path:'Learning path'};
 var TICO={stock:'<svg class="i" viewBox="0 0 24 24" style="width:15px;height:15px"><path d="M3 17l6-6 4 4 8-8"/></svg>',guide:'<svg class="i" viewBox="0 0 24 24" style="width:15px;height:15px"><path d="M9 11l3 3L22 4"/></svg>',path:'<svg class="i" viewBox="0 0 24 24" style="width:15px;height:15px"><path d="M3 18v-6a9 9 0 0 1 18 0v6"/></svg>'};
-// Condensed (Louis, 4 Nov): "All" shows one row of four, one of each kind; the rest sit behind "See all".
-var TPICK=[0,1,3,7];
-function templates(f,full){var list=TPL.filter(function(x,i){return f==='all'?(full||TPICK.indexOf(i)>=0):x.k===f});
+// Condensed (Louis, 4 Nov): "All" shows one row of four; the rest sit behind "See all".
+// Filters are the four strategic objectives (6 Nov 2026).
+var TPICK=[0,3,11,9];
+function templates(f,full){var list=TPL.filter(function(x,i){return f==='all'?(full||TPICK.indexOf(i)>=0):x.s===f});
+ if(f==='all'&&!full)list.sort(function(a,b){return TPICK.indexOf(TPL.indexOf(a))-TPICK.indexOf(TPL.indexOf(b))});
  var mb=$('#tmore');mb.style.display=f==='all'&&!full?'':'none';
  $('#tgrid').innerHTML=list.map(function(x,i){
- return'<button class="tc'+(x.feat&&f==='all'?' feat':'')+'" data-go="'+(x.go||'')+'"><span class="ty" style="color:'+(x.feat&&f==='all'?'#fff':TCOL[x.k])+'"><i style="background:'+TCOL[x.k]+'">'+TICO[x.k]+'</i>'+TNAME[x.k]+'</span><h4>'+esc(x.t)+'</h4><p>'+esc(x.p)+'</p>'+
+ return'<button class="tc'+(x.feat&&f==='all'?' feat':'')+'" data-go="'+(x.go||'')+'"><span class="ty" style="color:'+(x.feat&&f==='all'?'#fff':TCOL[x.k])+'"><i style="background:'+TCOL[x.k]+'">'+TICO[x.k]+'</i>'+TNAME[x.k]+'<em class="stg">'+STAGE[x.s]+'</em></span><h4>'+esc(x.t)+'</h4><p>'+esc(x.p)+'</p>'+
   '<span class="ft">'+(x.live?'Open it &rarr;':'')+'<span class="'+(x.live?'live':'soon')+'">'+(x.live?'Ready':'Coming')+'</span></span></button>'}).join('');}
 
 // ---------- routing
@@ -593,6 +620,7 @@ document.addEventListener('click',function(e){var t=e.target.closest('button,a')
  if(t.id==='tmore'){templates('all',true);return;}
  if(t.dataset.tf){[].forEach.call(document.querySelectorAll('#tfil button'),function(b){b.classList.toggle('on',b===t)});templates(t.dataset.tf);return;}
  if(t.classList.contains('tc')){var g=t.dataset.go;if(!g){toast('Coming in the full build');return;}
+  if(g==='trend'){window.scrollTo({top:0,behavior:'smooth'});var tl=$('#trend');if(tl){tl.classList.add('flash');setTimeout(function(){tl.classList.remove('flash')},1600);}return;}
   if(g==='focus'){if(MODE!=='stock')setMode('stock');window.scrollTo({top:0,behavior:'smooth'});setTimeout(function(){$('#q').focus()},400);return;}location.hash=g.slice(1);return;}
  if(t.classList.contains('qt')){var qb=$('.qbox');if(qb.dataset.on===t.dataset.y){qb.innerHTML='';qb.dataset.on='';return;}qb.dataset.on=t.dataset.y;player(t.dataset.y,t.dataset.t,qb);return;}
  if(t.dataset.mode){setMode(t.dataset.mode);$('#q').focus();return;}

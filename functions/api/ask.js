@@ -30,7 +30,7 @@
 // Stamped at commit time so the config check says WHICH revision is live.
 // Without it, 'is the fix deployed yet' is unanswerable and every timing
 // measurement is ambiguous.
-const BUILD = 'two-step-18';
+const BUILD = 'two-step-19';
 const MODEL = 'gpt-5';
 const EFFORT = 'minimal';
 const SEARCH_RESULTS = 8;
@@ -338,10 +338,11 @@ can connect you with a licensed adviser who can look at your situation.`.replace
 // covered" followed by 273 words anyway, and "funniest thing said on Equity Mates" got a
 // confident answer with five episodes. The page renders this as its own card.
 const SCOPE_TITLE = "That one's a bit outside our lane";
-const SCOPE = `Ask Equity Mates is here to help lift Australia's financial literacy, so
-we've kept it focused on money: investing, super, property, tax and the markets, all
-answered from what's been said on the show. Ask us anything along those lines and we'll
-dig through the archive for you.`.replace(/\n/g, ' ');
+// Wording follows the Equity Mates vision (team meeting, 5 Nov 2026).
+const SCOPE = `We built Ask Equity Mates to help make this generation of Australians the
+most financially literate yet, so we've kept it focused on money: investing, super,
+property, tax and the markets, all answered from what's been said on the show. Ask us
+anything along those lines and we'll dig through the archive for you.`.replace(/\n/g, ' ');
 
 const cors = (origin) => ({
   'Access-Control-Allow-Origin': ALLOWED.includes(origin) ? origin : ALLOWED[0],
