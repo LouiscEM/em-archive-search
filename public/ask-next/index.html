@@ -124,6 +124,19 @@ button{font:inherit;cursor:pointer}
 .tc.feat .steps4{display:flex;gap:8px;flex-wrap:wrap;margin-top:4px}
 .tc.feat .steps4 span{background:rgba(255,255,255,.1);border-radius:999px;padding:5px 12px;font:700 12px 'Libre Franklin',Arial;color:#fff}
 
+/* search-first: the three modes are optional toggles under the box (5 Nov 2026) */
+.dive{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;align-items:center;margin-top:18px}
+.dive span{color:#9FB0C4;font:600 13px 'Libre Franklin',Arial;margin-right:4px}
+.dive button{display:inline-flex;align-items:center;gap:7px;border:1px solid rgba(255,255,255,.22);background:transparent;color:#DCE3EC;
+ border-radius:999px;padding:8px 15px;font:700 13px 'Libre Franklin',Arial}
+.dive button .i{width:15px;height:15px}
+.dive button:hover{background:rgba(255,255,255,.08)}
+.dive button.on{background:#fff;color:var(--navy);border-color:#fff}
+.dive button.on:after{content:"\00d7";margin-left:4px;font-size:15px;line-height:1;color:var(--mute)}
+.hero .chips{margin-top:12px}
+.sugg .sq b{font-weight:800}.sugg .tag2{margin-left:auto;font:800 10.5px 'Libre Franklin',Arial;letter-spacing:1px;text-transform:uppercase;color:var(--coral)}
+.sugg .i{color:var(--mute);width:16px;height:16px}
+
 /* why strip */
 .why{padding:56px 0;background:#fff}
 .why h2{text-align:center;font-size:30px;font-weight:900;letter-spacing:-.5px}
@@ -263,8 +276,7 @@ footer{background:var(--navy);color:#9FB0C4;padding:26px 0;font-size:13px}
  .car{grid-auto-columns:78%}.arrows{display:none}.quotes{grid-template-columns:1fr}.tgrid{grid-template-columns:1fr}
  .shead h2,.btxt h2{font-size:25px}
  .boys .photo{border-radius:14px;min-height:0;aspect-ratio:16/8}
- .modes{display:grid;grid-template-columns:repeat(3,1fr);border-radius:14px;width:100%;gap:3px;padding:4px}
- .modes button{flex-direction:column;gap:4px;padding:9px 4px;font-size:12px;border-radius:10px;line-height:1.2}.modes .new{display:none}
+ .dive span{width:100%;text-align:center;margin:0}.dive button{padding:7px 12px;font-size:12.5px}
  .search button.go span{display:none}.search input{font-size:16px}.step .hd,.step .bd,.call{padding-left:16px;padding-right:16px}.q{padding-left:56px}}
 </style>
 </head>
@@ -279,14 +291,14 @@ footer{background:var(--navy);color:#9FB0C4;padding:26px 0;font-size:13px}
  <h1>Ask Equity Mates <span class="hl">anything.</span></h1>
  <p class="sub">10 years of search in one engine.</p>
  <p class="lis">Every episode, searchable. Jump straight to the moment it was said.</p>
- <div class="modes" role="tablist">
-  <button class="on" data-mode="stock"><svg class="i" viewBox="0 0 24 24"><path d="M3 17l6-6 4 4 8-8"/><path d="M14 7h7v7"/></svg>Check a stock<span class="new">4 STEPS</span></button>
-  <button data-mode="concept"><svg class="i" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 3-3 3M12 17h.01"/></svg>Learn a concept</button>
-  <button data-mode="guide"><svg class="i" viewBox="0 0 24 24"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>Think through a decision</button>
- </div>
  <div class="search"><form id="f" autocomplete="off"><svg class="i" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
-  <input id="q" aria-label="Search"><button class="go" type="submit"><span id="golbl">Run the checklist</span><svg class="i" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button></form>
+  <input id="q" aria-label="Search"><button class="go" type="submit"><span id="golbl">Search</span><svg class="i" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button></form>
   <div class="sugg" id="sg" hidden></div></div>
+ <div class="dive" role="group" aria-label="Narrow your search"><span>Or dive into</span>
+  <button type="button" data-mode="stock" aria-pressed="false"><svg class="i" viewBox="0 0 24 24"><path d="M3 17l6-6 4 4 8-8"/><path d="M14 7h7v7"/></svg>Check a stock</button>
+  <button type="button" data-mode="concept" aria-pressed="false"><svg class="i" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 3-3 3M12 17h.01"/></svg>Learn a concept</button>
+  <button type="button" data-mode="guide" aria-pressed="false"><svg class="i" viewBox="0 0 24 24"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>Think through a decision</button>
+ </div>
  <div class="chips" id="chips"></div>
 </div></header>
 
@@ -342,7 +354,7 @@ footer{background:var(--navy);color:#9FB0C4;padding:26px 0;font-size:13px}
 
 <script>
 (function(){
-var D={companies:[],yt:{},concept:null,guide:null,tick:{}},MODE='stock',CALLS={};
+var D={companies:[],yt:{},concept:null,guide:null,tick:{}},MODE='all',CALLS={};
 var STEPC=['','var(--s1)','var(--s2)','var(--s3)','var(--s4)'];
 var STEPS=['','Great product or service','Above-market profits','Reinvests profits well','Reasonable price'];
 var MONTHS=['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
@@ -357,11 +369,13 @@ var ICO={back:'<svg class="i" viewBox="0 0 24 24"><path d="M15 18l-6-6 6-6"/></s
  mail:'<svg class="i" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg>',user:'<svg class="i" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21c1.5-4 4.5-6 8-6s6.5 2 8 6"/></svg>',
  head:'<svg class="i" viewBox="0 0 24 24"><path d="M3 18v-6a9 9 0 0 1 18 0v6"/><path d="M21 19a2 2 0 0 1-2 2h-1v-6h3zM3 19a2 2 0 0 0 2 2h1v-6H3z"/></svg>'};
 
-var CFG={stock:{ph:'Type a company or ticker, e.g. CSL or Xero',go:'Run the checklist',chips:['CSL','Xero','Pro Medicus','A2 Milk','BHP','Nvidia']},
+var CFG={all:{ph:'Ask anything about money, a company or a decision',go:'Search',chips:['What is debt recycling?','CSL checklist','How do franking credits work?','Pay off the mortgage or invest?']},
+ stock:{ph:'Type a company or ticker, e.g. CSL or Xero',go:'Run the checklist',chips:['CSL','Xero','Pro Medicus','A2 Milk','BHP','Nvidia']},
  concept:{ph:'Ask about a concept, e.g. what is debt recycling?',go:'Ask',chips:['Debt recycling','Franking credits','ETFs','Compound interest']},
  guide:{ph:'Pick a decision to think through',go:'Open the guide',chips:['Pay off the mortgage or invest?','Am I ready for debt recycling?','Extra into super or invest outside it?']}};
 
-function setMode(m){MODE=m;[].forEach.call(document.querySelectorAll('.modes button'),function(b){b.classList.toggle('on',b.getAttribute('data-mode')===m)});
+// Clicking the selected toggle again switches it off, back to plain search.
+function setMode(m){if(m===MODE&&m!=='all')m='all';MODE=m;[].forEach.call(document.querySelectorAll('.dive button'),function(b){var on=b.getAttribute('data-mode')===m;b.classList.toggle('on',on);b.setAttribute('aria-pressed',on)});
  var c=CFG[m];$('#q').placeholder=innerWidth<520?c.ph.split(',')[0]:c.ph;$('#golbl').textContent=c.go;$('#sg').hidden=true;
  $('#chips').innerHTML='<span>'+(m==='stock'?'Most discussed':'Popular')+'</span>'+c.chips.map(function(x){return'<button type="button">'+esc(x)+'</button>'}).join('');}
 
@@ -373,13 +387,32 @@ function match(q){q=q.trim().toLowerCase();if(!q)return[];var out=[];
    tk.some(function(t){return t.indexOf(q)===0})?50:names.some(function(n){return n.indexOf(' '+q)>=0})?30:0;
   if(sc)out.push([sc+Math.min(20,(c.e||0)/40),c]);});
  return out.sort(function(a,b){return b[0]-a[0]}).slice(0,6).map(function(x){return x[1]});}
-function showSugg(){var q=$('#q').value,sg=$('#sg');if(MODE!=='stock'||!q.trim()){sg.hidden=true;return;}
+// Asking for the checklist in the main search ("CSL checklist", "run Xero through the 4 steps").
+var CHECK_RE=/\b(check ?list|4[- ]?steps?|four[- ]steps?|stock check|run\b.*\bthrough)\b/i;
+var FILL_RE=/\b(check ?list|4[- ]?steps?|four[- ]steps?|stock check|run|through|the|for|on|of|a|an|me|show|give|do|please|what|is|equity mates|em)\b/gi;
+function companyIn(q){var rest=q.replace(FILL_RE,' ').replace(/[^\w&.' -]/g,' ').replace(/\s+/g,' ').trim();return rest.length>1?(match(rest)[0]||null):null;}
+function guideIn(q){return /mortgage|home loan/i.test(q)&&/invest/i.test(q);}
+var SEARCHI='<svg class="i" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>';
+function showSugg(){var q=$('#q').value,sg=$('#sg');
+ if(MODE==='all'&&q.trim()){var items=['<button type="button" class="on sq" data-q="1">'+SEARCHI+'<span>Search <b>'+esc(q.trim())+'</b></span></button>'];
+  if(q.trim().length>1)(CHECK_RE.test(q)&&companyIn(q)?[companyIn(q)]:match(q).slice(0,3)).forEach(function(c){
+   items.push('<button type="button" data-s="'+c.s+'"><span>Run the 4-step checklist on <b>'+esc(c.n)+'</b></span><span class="tag2">Stock check</span></button>')});
+  if(guideIn(q))items.push('<button type="button" data-g="1"><span>Pay off the mortgage or invest?</span><span class="tag2">Decision guide</span></button>');
+  sg.innerHTML=items.join('');sg.hidden=false;return;}
+ if(MODE!=='stock'||!q.trim()){sg.hidden=true;return;}
  var m=match(q);if(!m.length){sg.innerHTML='<button type="button" disabled>No company found with that name or ticker</button>';sg.hidden=false;return;}
  sg.innerHTML=m.map(function(c,i){return'<button type="button" data-s="'+c.s+'"'+(i?'':' class="on"')+'><b>'+esc(c.n)+'</b> '+esc((c.l||[]).join(', '))+'<small>'+(c.e||0)+' episodes</small></button>'}).join('');sg.hidden=false;}
 
-function go(q){q=(q||$('#q').value).trim();if(!q)return;
- if(MODE==='stock'){var m=match(q);if(m.length)location.hash='co='+m[0].s;else toast('No company found. Try a ticker like CSL');}
- else if(MODE==='concept')location.href='/ask-test/?q='+encodeURIComponent(q);else location.hash='guide';}
+// The live answer for anything that isn't a checklist or guide request.
+function answer(q){location.href='/ask-test/?q='+encodeURIComponent(q);}
+function go(q){q=(q||$('#q').value).trim();if(!q)return;$('#sg').hidden=true;
+ if(MODE==='stock'){var m=match(q);if(m.length)location.hash='co='+m[0].s;else toast('No company found. Try a ticker like CSL');return;}
+ if(MODE==='guide'){location.hash='guide';return;}
+ if(MODE==='concept'){answer(q);return;}
+ var c=CHECK_RE.test(q)&&companyIn(q);
+ if(c){location.hash='co='+c.s;return;}
+ if(guideIn(q)){location.hash='guide';return;}
+ answer(q);}
 
 // ---------- helpers
 function secs(at){if(!at)return 0;var p=String(at).split(':').map(Number);return p.length===3?p[0]*3600+p[1]*60+p[2]:p[0]*60+p[1];}
@@ -521,11 +554,13 @@ document.addEventListener('click',function(e){var t=e.target.closest('button,a')
  if(t.id==='tmore'){templates('all',true);return;}
  if(t.dataset.tf){[].forEach.call(document.querySelectorAll('#tfil button'),function(b){b.classList.toggle('on',b===t)});templates(t.dataset.tf);return;}
  if(t.classList.contains('tc')){var g=t.dataset.go;if(!g){toast('Coming in the full build');return;}
-  if(g==='focus'){setMode('stock');window.scrollTo({top:0,behavior:'smooth'});setTimeout(function(){$('#q').focus()},400);return;}location.hash=g.slice(1);return;}
+  if(g==='focus'){if(MODE!=='stock')setMode('stock');window.scrollTo({top:0,behavior:'smooth'});setTimeout(function(){$('#q').focus()},400);return;}location.hash=g.slice(1);return;}
  if(t.classList.contains('qt')){var qb=$('.qbox');if(qb.dataset.on===t.dataset.y){qb.innerHTML='';qb.dataset.on='';return;}qb.dataset.on=t.dataset.y;player(t.dataset.y,t.dataset.t,qb);return;}
  if(t.dataset.mode){setMode(t.dataset.mode);$('#q').focus();return;}
  if(t.closest('#chips')&&!t.closest('span')){$('#q').value=t.textContent;go(t.textContent);return;}
  if(t.dataset.s){location.hash='co='+t.dataset.s;return;}
+ if(t.dataset.q){go();return;}
+ if(t.dataset.g){location.hash='guide';return;}
  if(t.classList.contains('play')){var box=t.closest('.view,.q').querySelector('.pbox');if(box.innerHTML){box.innerHTML='';return;}player(t.dataset.y,t.dataset.t,box);return;}
  if(t.classList.contains('thumb')){var w=document.createElement('div');t.replaceWith(w);player(t.dataset.y,t.dataset.t,w);return;}
  if(t.classList.contains('more')){var o=t.previousElementSibling;o.classList.toggle('open');t.innerHTML=ICO.chev+(o.classList.contains('open')?'Hide earlier views':'Show earlier views');return;}
@@ -540,15 +575,15 @@ document.addEventListener('click',function(e){var t=e.target.closest('button,a')
 });
 $('#ov').addEventListener('click',function(e){if(e.target.id==='ov')$('#ov').classList.remove('open')});
 $('#q').addEventListener('input',showSugg);
-$('#q').addEventListener('keydown',function(e){var sg=$('#sg');if(sg.hidden)return;var bs=[].slice.call(sg.querySelectorAll('button[data-s]')),i=bs.findIndex(function(b){return b.classList.contains('on')});
+$('#q').addEventListener('keydown',function(e){var sg=$('#sg');if(sg.hidden)return;var bs=[].slice.call(sg.querySelectorAll('button[data-s],button[data-q],button[data-g]')),i=bs.findIndex(function(b){return b.classList.contains('on')});
  if(e.key==='ArrowDown'||e.key==='ArrowUp'){e.preventDefault();if(i>=0)bs[i].classList.remove('on');i=(i+(e.key==='ArrowDown'?1:bs.length-1))%bs.length;bs[i].classList.add('on');}
- else if(e.key==='Enter'&&i>=0){e.preventDefault();location.hash='co='+bs[i].dataset.s;}
+ else if(e.key==='Enter'&&i>=0){e.preventDefault();bs[i].click();}
  else if(e.key==='Escape')sg.hidden=true;});
 $('#f').addEventListener('submit',function(e){e.preventDefault();go();});
 document.addEventListener('click',function(e){if(!e.target.closest('.search'))$('#sg').hidden=true;});
 window.addEventListener('hashchange',route);
 
-setMode('stock');
+setMode('all');
 // The episode carousel moves on its own (Louis, 5 Nov 2026): one card every 3.5 seconds,
 // back to the start at the end. It pauses while hovered, touched or focused, while the tab is
 // hidden, and never moves for people whose device asks for reduced motion.
