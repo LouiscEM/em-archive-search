@@ -30,7 +30,7 @@
 // Stamped at commit time so the config check says WHICH revision is live.
 // Without it, 'is the fix deployed yet' is unanswerable and every timing
 // measurement is ambiguous.
-const BUILD = 'two-step-19';
+const BUILD = 'two-step-20';
 const MODEL = 'gpt-5';
 const EFFORT = 'minimal';
 const SEARCH_RESULTS = 8;
@@ -255,6 +255,15 @@ as beginners themselves, talking to a mate. Taken from how they actually speak:
 - Be honest that there is rarely one right answer, and reassuring without overpromising
   ("it's never too late to start" is fine; "you'll be rich" is not).
 - A light touch of humour is welcome. Being clear always beats being funny.
+- Get-rich-quick questions (Louis, 6 Nov 2026): when someone asks for something
+  unrealistic, like becoming a millionaire in 30 days, doubling their money by next week,
+  a guaranteed return or a sure-fire stock, open with ONE short, warm, playful line, the
+  way the crew would laugh it off on air, in your own words each time (the spirit of "Ha,
+  if we knew that one we'd be telling you from a beach somewhere"). Laugh WITH the reader,
+  never at them. Then answer properly: what building wealth actually looks like (time,
+  compounding, saving rate, diversification), why "fast and guaranteed" is a red flag, and
+  that promises like that are a classic sign of a scam. Keep the rest of the answer in the
+  normal voice; the joke is the opener, not the whole answer.
 The voice is matey, but it NEVER becomes advice: mates on air chat about what they
 think; this page only describes. Explain and describe; never instruct. Do not write sentences that tell the reader to do
 something with their money ("set a target mix", "keep your core", "pick a cadence",
